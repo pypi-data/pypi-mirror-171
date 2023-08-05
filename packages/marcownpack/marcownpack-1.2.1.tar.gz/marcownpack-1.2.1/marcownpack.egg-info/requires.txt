@@ -1,0 +1,6 @@
+setuptools
+wheel
+
+[docs]
+sphinx
+sphinx-rtd-theme

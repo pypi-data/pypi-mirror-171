@@ -1,0 +1,16 @@
+clustergnfwfit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clustergnfwfit/__main__.py,sha256=oNZxTNGaYjgbaV3G55gVIpbpDpAYy-RGhWA68KeOZAo,60
+clustergnfwfit/beam_utils.py,sha256=Exo9EQDu4uKm980JQSxm-J0WrPqTsDoNNqZS7-ysQwA,5255
+clustergnfwfit/conversions.py,sha256=p9WJEZGxamFjwoYozHaIZRkqtSI-soBu2mK0dmKVIXw,348
+clustergnfwfit/demos.py,sha256=YxMU2_KFiePwKSnMcux26mc5U8QSbleA0chNmSy5dsU,4788
+clustergnfwfit/di_utils.py,sha256=IOoYWw3MSYkYCrKDpX-Xbx2nRtqI_xpTQIkEQYU49F0,1799
+clustergnfwfit/eval_gnfw.py,sha256=3UaE_BL31NsLfPUI7JV00MHtmIusZZ3Nbkkge8YsJTQ,9909
+clustergnfwfit/gnfw_fit_map.py,sha256=SCaLhQG_IEfrIrWlfak3ice45q2KFOdFd3E1zjfsuME,6640
+clustergnfwfit/mpfit.py,sha256=GNuyF6VIBLcUNdloUXX-IhMTeXlneFFO2cVjccg9FcA,90403
+clustergnfwfit/mpfit_gNFW.py,sha256=4TqiTKWIdNBj1YuCT7DQZHPubOEUP0k-lGw6Bu2_1jk,6845
+clustergnfwfit/plot_utils.py,sha256=6-SPqpS5FdWI03ecYQld_ixb0BWxFZhXNY2sgN_QSJc,2849
+clustergnfwfit-0.0.6.dist-info/LICENSE,sha256=VF8HCFTpkX5za2z2VJQU-OMnaMZdfBFOFivh7jcktGY,1051
+clustergnfwfit-0.0.6.dist-info/METADATA,sha256=kYCR0KyVes3Tq2w-dYBXUFJI_4SFA4xy00dxt1ufe-U,883
+clustergnfwfit-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clustergnfwfit-0.0.6.dist-info/top_level.txt,sha256=nLRm7F7SAwoWQif_s7SM67jdorNa5AwKlrFglWNvvtc,15
+clustergnfwfit-0.0.6.dist-info/RECORD,,

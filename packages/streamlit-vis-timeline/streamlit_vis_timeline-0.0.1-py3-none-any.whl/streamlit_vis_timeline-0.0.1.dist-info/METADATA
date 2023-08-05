@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: streamlit-vis-timeline
+Version: 0.0.1
+Summary: Streamlit component for rendering vis.js timeline
+Home-page: https://github.com/giswqs/streamlit-timeline
+Author: Qiusheng Wu
+Author-email: giswqs@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+

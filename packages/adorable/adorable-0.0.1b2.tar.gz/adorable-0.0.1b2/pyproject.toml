@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adorable"
+version = "0.0.1b2"
+description = "Style text with colors and effects"
+readme = "README.md"
+dependencies = []
+keywords = [
+    "ansi",
+    "color",
+    "colour",
+    "console",
+    "style",
+    "terminal",
+]
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Typing :: Typed",
+]
+
+[tool.setuptools]
+packages = ["adorable"]

@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenChuangyeBingfa = ChenchangwenChuangyeBingfa.__main__:main
+chenchangwen-chuangye-bingfa = ChenchangwenChuangyeBingfa.__main__:main
+

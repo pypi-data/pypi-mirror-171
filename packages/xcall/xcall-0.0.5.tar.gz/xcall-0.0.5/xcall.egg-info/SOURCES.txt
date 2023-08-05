@@ -1,0 +1,10 @@
+setup.py
+xcall/SocketStreamReader.py
+xcall/__init__.py
+xcall/xcall_consts.py
+xcall.egg-info/PKG-INFO
+xcall.egg-info/SOURCES.txt
+xcall.egg-info/dependency_links.txt
+xcall.egg-info/top_level.txt
+xcall/tests/__init__.py
+xcall/tests/test.py

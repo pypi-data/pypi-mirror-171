@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: xcall
+Version: 0.0.5
+Summary: Xcall for python.
+Home-page: https://code.byted.org/reading/XCall
+Author: janking
+Author-email: jankingwon@foxmail.com
+License: MIT Licence
+Description: Xcall for python.
+Keywords: pip,xcall
+Platform: any

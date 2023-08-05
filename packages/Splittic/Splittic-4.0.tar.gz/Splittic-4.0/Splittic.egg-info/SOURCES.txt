@@ -1,0 +1,8 @@
+README.rst
+setup.py
+Splittic.egg-info/PKG-INFO
+Splittic.egg-info/SOURCES.txt
+Splittic.egg-info/dependency_links.txt
+Splittic.egg-info/requires.txt
+Splittic.egg-info/top_level.txt
+splitticai/__init__.py

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: damask
+Version: 3.0.0a7
+Summary: DAMASK processing tools
+Home-page: https://damask.mpie.de
+Author: The DAMASK team
+Author-email: damask@mpie.de
+License: AGPL3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Requires-Dist: pandas ; python_version <= "0.24"
+Requires-Dist: numpy ; python_version <= "1.17"
+Requires-Dist: scipy ; python_version <= "1.2"
+Requires-Dist: h5py ; python_version <= "2.9"
+Requires-Dist: matplotlib ; python_version <= "3.0"
+Requires-Dist: pyyaml ; python_version <= "3.12"
+Requires-Dist: vtk ; python_version <= "8.1"
+
+Pre- and post-processing tools for DAMASK

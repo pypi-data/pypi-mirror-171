@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+smartargs/__init__.py
+smartargs/smartargs.py
+smartargs.egg-info/PKG-INFO
+smartargs.egg-info/SOURCES.txt
+smartargs.egg-info/dependency_links.txt
+smartargs.egg-info/top_level.txt

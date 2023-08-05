@@ -1,0 +1,15 @@
+LICENSE
+README.md
+misspellings
+pyproject.toml
+setup.py
+src/misspellings_lib.egg-info/PKG-INFO
+src/misspellings_lib.egg-info/SOURCES.txt
+src/misspellings_lib.egg-info/dependency_links.txt
+src/misspellings_lib.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/argument_parser.py
+src/utils/files.py
+src/utils/suggestions.py
+src/utils/version.py
+src/utils/words.py

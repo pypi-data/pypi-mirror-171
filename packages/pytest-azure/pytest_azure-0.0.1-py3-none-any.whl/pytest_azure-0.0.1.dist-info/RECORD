@@ -1,0 +1,6 @@
+pytest_azure/__init__.py,sha256=t_vdaV84IeMoUMEhQCy1ymF6im9OhO0TxABJVhdG15M,371
+pytest_azure/utils.py,sha256=pBFQB72l6Ss9ajE3H0aP6VAxHwtmJGbHpmEaZBz2zQY,11652
+pytest_azure-0.0.1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+pytest_azure-0.0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pytest_azure-0.0.1.dist-info/METADATA,sha256=36N4sv4vuTD9Xy6YHKpKsejrJliy2szwHvb6KfJ6Fv4,6701
+pytest_azure-0.0.1.dist-info/RECORD,,

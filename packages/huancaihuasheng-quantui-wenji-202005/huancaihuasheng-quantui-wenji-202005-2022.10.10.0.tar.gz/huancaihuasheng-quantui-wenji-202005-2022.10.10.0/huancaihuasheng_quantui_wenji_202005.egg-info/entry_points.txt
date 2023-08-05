@@ -1,0 +1,4 @@
+[console_scripts]
+HuancaihuashengQuantuiWenji202005 = HuancaihuashengQuantuiWenji202005.__main__:main
+huancaihuasheng-quantui-wenji-202005 = HuancaihuashengQuantuiWenji202005.__main__:main
+

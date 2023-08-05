@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: DnDice2
+Version: 0.0.1
+Summary: A small dice package for DnD
+Author: Steve A
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Small DnD dice package
+
+from DnDice2 import *
+
+or
+
+from DnDice2 import d4, d6, d8, d10, 12, d20, d100, d
+
+has maker function that let's you make new dice:
+
+example:
+
+d50 = maker(50)
+
+d50() "returns 1 - 50"

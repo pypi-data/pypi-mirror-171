@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: amuse-ekster
+Version: 2022.10.0
+Summary: ('AMUSE-Ekster star formation simulations',)
+Home-page: https://github.com/rieder/ekster
+Author: Steven Rieder
+Author-email: steven+ekster@rieder.nl
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/rieder/ekster/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Fortran
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+[![DOI](https://zenodo.org/badge/187198836.svg)](https://zenodo.org/badge/latestdoi/187198836)
+# Ekster
+Ekster is an AMUSE-based method for simulating embedded star clusters.
+
+Parts of this code modified from original AMUSE code (https://github.com/amusecode/amuse).
+
+(c) Steven Rieder 2018-2022
+
+

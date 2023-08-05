@@ -1,0 +1,6 @@
+amuse-framework
+amuse-fi
+amuse-phantom
+amuse-petar
+amuse-seba
+matplotlib

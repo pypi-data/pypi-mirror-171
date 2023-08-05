@@ -1,0 +1,9 @@
+amuse-framework
+amuse-petar
+amuse-phantom
+amuse-fi
+amuse-seba
+matplotlib
+numba
+sklearn
+pandas

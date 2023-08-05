@@ -1,0 +1,4 @@
+[console_scripts]
+Chenchangwen72daYingxiaoXitongXia = Chenchangwen72daYingxiaoXitongXia.__main__:main
+chenchangwen-72da-yingxiao-xitong-xia = Chenchangwen72daYingxiaoXitongXia.__main__:main
+

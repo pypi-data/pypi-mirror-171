@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+spark_master_rest_api/__init__.py
+spark_master_rest_api/client.py
+spark_master_rest_api.egg-info/PKG-INFO
+spark_master_rest_api.egg-info/SOURCES.txt
+spark_master_rest_api.egg-info/dependency_links.txt
+spark_master_rest_api.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: spark_master_rest_api
+Version: 0.1.0
+Summary: Wrapper for spark master REST API
+Home-page: https://github.com/nazerpanahi/spark-master-rest-api
+Author: Hamid Nazerpanahi
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

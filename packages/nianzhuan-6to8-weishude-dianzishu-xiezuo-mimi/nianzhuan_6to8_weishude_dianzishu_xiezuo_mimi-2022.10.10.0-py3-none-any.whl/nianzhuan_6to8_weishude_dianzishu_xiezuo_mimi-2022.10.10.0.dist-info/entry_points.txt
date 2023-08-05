@@ -1,0 +1,4 @@
+[console_scripts]
+Nianzhuan6to8WeishudeDianzishuXiezuoMimi = Nianzhuan6to8WeishudeDianzishuXiezuoMimi.__main__:main
+nianzhuan-6to8-weishude-dianzishu-xiezuo-mimi = Nianzhuan6to8WeishudeDianzishuXiezuoMimi.__main__:main
+

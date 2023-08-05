@@ -1,0 +1,9 @@
+jupyter_server_fileid/__init__.py,sha256=bdAI0jZIbKpV6XykrxVhnjSfQTxiVXMaren778cPAOg,352
+jupyter_server_fileid/extension.py,sha256=QW9FVHcr_1eqhfPVkfDXFM4CHlTiPuvnlsdQj2GKA88,1781
+jupyter_server_fileid/manager.py,sha256=j7rw3O25V0-pZIMHe8M0v2-vogHVgSTCyO9NhYREak8,18846
+jupyter_server_fileid/pytest_plugin.py,sha256=JkU-MuNnDsQVlS0vq2WvIrsXSmOZfF30C6adgnDBsHU,1172
+jupyter_server_fileid-0.3.0.data/data/etc/jupyter/jupyter_server_config.d/jupyter_server_fileid.json,sha256=2MF0xcAF-UAT0aLEIISftmu5U_cNfeqaBWv9U-y1S2o,96
+jupyter_server_fileid-0.3.0.dist-info/METADATA,sha256=gTY2Efc9QylOs6g2h1dUWDZcJLFi8LZW8vALBk80nqE,4487
+jupyter_server_fileid-0.3.0.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+jupyter_server_fileid-0.3.0.dist-info/licenses/LICENSE,sha256=xQcJm1GI3uzqQDHBjmiZfqeMJBE-NUhd-BFHpPUMLH4,1520
+jupyter_server_fileid-0.3.0.dist-info/RECORD,,

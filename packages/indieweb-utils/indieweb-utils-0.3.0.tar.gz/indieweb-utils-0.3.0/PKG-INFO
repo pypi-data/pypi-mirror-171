@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: indieweb-utils
+Version: 0.3.0
+Summary: Utilities to aid the implementation of various IndieWeb specifications and functionalities.
+Home-page: https://github.com/capjamesg/indieweb-utils
+Author: capjamesg
+Author-email: jamesg@jamesg.blog
+Project-URL: Bug Tracker, https://github.com/capjamesg/indieweb-utils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md

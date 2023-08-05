@@ -1,0 +1,9 @@
+opt_sugar/__init__.py,sha256=v8RhyuooS5bvfuFEzmYs6CpmqtVl_IeIAtpIQyff7gU,3443
+opt_sugar/objective.py,sha256=IbfWuvJRJBDo8UclavnZxCa6XSKB6IiFabOXJQnEZb8,1731
+opt_sugar/opt_flow/__init__.py,sha256=OFMPinQTWQZ2kbn3iGoHHdvvNZd-PRiXua2l5qMVFbg,21
+opt_sugar/opt_flow/pyfunc.py,sha256=I7wjPvELHNwdWwe_N_HRZ5GKfkSGrGqsphMuSRq_6BM,188
+opt_sugar-0.0.4.4.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opt_sugar-0.0.4.4.dist-info/METADATA,sha256=a6s98VzEu5UXLXX36Tjk9Du9wRowedQ8tnEci4N2kbE,1845
+opt_sugar-0.0.4.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opt_sugar-0.0.4.4.dist-info/top_level.txt,sha256=hrzeGVM3wUED7DU9vV2u2bK5-hoUVJCcECW519xhXto,10
+opt_sugar-0.0.4.4.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+aclpubcheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aclpubcheck/copyright_signatures.py,sha256=xdgJ4KSkkqhtbwPLFBssYszVqM1UCCtsR-QefG8BKuI,2166
+aclpubcheck/formatchecker.py,sha256=DuYik5oEtNeF9KDpZeJJeRfzuTCmL1jO04lLCc4bexk,21157
+aclpubcheck/googletools.py,sha256=y5ovVc9kBfOwSZ3gJWBqLT9jluivTbAo9NLSjYW6Vvc,1306
+aclpubcheck/metadatachecker.py,sha256=4BiZDkmgf7sLKcK2I3XMcDeggDrxIYFvZASQ-KckLDY,8767
+aclpubcheck/name_check.py,sha256=EHbcbWvdNg4tX9UdXnDICR54KTtDN6j1WerQC8_5MHg,12039
+aclpubcheck-0.1.0.dist-info/entry_points.txt,sha256=aCGgDbJwGscPoonDMTVMopfmZei5GfXtFhq3XFGa4To,62
+aclpubcheck-0.1.0.dist-info/LICENSE,sha256=KE1E5S3_DGlRgLhz9mocwTvTjzBlZ16upKTJO49q15g,1098
+aclpubcheck-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+aclpubcheck-0.1.0.dist-info/METADATA,sha256=LOM8Ajn4rROwCkHMTadkdg2y58t0VfJ-QE2jPz7KP68,5149
+aclpubcheck-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+pymeshlab==2021.10
+numpy
+
+[test]
+pytest>=6.0

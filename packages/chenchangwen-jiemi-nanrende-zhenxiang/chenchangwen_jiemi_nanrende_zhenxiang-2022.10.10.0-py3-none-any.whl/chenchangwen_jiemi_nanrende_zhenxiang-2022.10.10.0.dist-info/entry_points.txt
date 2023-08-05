@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenJiemiNanrendeZhenxiang = ChenchangwenJiemiNanrendeZhenxiang.__main__:main
+chenchangwen-jiemi-nanrende-zhenxiang = ChenchangwenJiemiNanrendeZhenxiang.__main__:main
+

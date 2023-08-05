@@ -1,0 +1,4 @@
+[console_scripts]
+MinbingJunshiXunlianShouce1960 = MinbingJunshiXunlianShouce1960.__main__:main
+minbing-junshi-xunlian-shouce-1960 = MinbingJunshiXunlianShouce1960.__main__:main
+

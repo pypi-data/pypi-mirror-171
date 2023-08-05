@@ -1,0 +1,14 @@
+balanced_clustering/__init__.py,sha256=V_Y9SUvuC7fStM0xFAQKX91sxylNM_zp0gnOetdv9po,201
+balanced_clustering/ami.py,sha256=rltIE_3X-UG_xRcEnX3rGcsMzI3pIINnkgTqXKXM_eQ,5474
+balanced_clustering/ari.py,sha256=DwM4XyKxPfPeArzNiRGW3MhYHRh5uZBAc4TaPHhaY38,2694
+balanced_clustering/utils/__init__.py,sha256=SFxjeW5ynmZ8Ytj0E3KvhVoAH1CpGAwc7eMCxMHlSIA,358
+balanced_clustering/utils/_emi_cython.pyx,sha256=pptccWNplDGtKDw3rnVUw3hQf3diHzu-izaz7vB3hz8,2714
+balanced_clustering/utils/avg.py,sha256=NijSYYVtbACbtmQW23M0BVAZsIp26eY2eMI7vYrpXFQ,505
+balanced_clustering/utils/checks.py,sha256=1tmd_Sb4W09Wp_UzHLCMUDCJi_ofFh6jAnuvSSeVuVQ,31518
+balanced_clustering/utils/contingency.py,sha256=03ge3WnB-WK6xPNKd06AMCu95BTh7m0wPXPQYPC_DN0,5334
+balanced_clustering/utils/mi.py,sha256=LM2tDIaID4guCkoTqw1eNXweBUn57DVgNlSdR8jFBa0,4398
+balanced_clustering/vmeasure.py,sha256=1xjt0xbgMH-snpWSukh5YPJ7EyUYa1CVFJBp2V11nV8,10370
+balanced_clustering-0.1.0.dist-info/LICENSE.md,sha256=1XC25S8AM2xUyxKokqB3dm8WgJsh4Qlxk4yUXVEJxsE,1069
+balanced_clustering-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+balanced_clustering-0.1.0.dist-info/METADATA,sha256=YlhQ1TIuRr8XmpQVwyQ8DVftiMFuZ8kRXqeoyHzwPao,820
+balanced_clustering-0.1.0.dist-info/RECORD,,

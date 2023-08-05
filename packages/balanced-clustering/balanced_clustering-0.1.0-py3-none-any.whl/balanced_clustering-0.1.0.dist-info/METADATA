@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: balanced-clustering
+Version: 0.1.0
+Summary: Clustering metrics for imbalanced datasets
+Author: Hassaan Maan
+Author-email: hurmaan99@gmail.com
+Requires-Python: >=3.8,<=3.10.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Cython (>=0.29.28,<0.30.0)
+Requires-Dist: ipykernel (>=6.9.1,<7.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: jupyterlab (>=3.2.9,<4.0.0)
+Requires-Dist: jupyterlab-latex (>=3.1.0,<4.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)

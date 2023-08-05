@@ -1,0 +1,10 @@
+gso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gso/action.py,sha256=jtuT2mfbTMr44jNTrkjQiLMvs8T1t9uKgdsohfNT2k8,173
+gso/globalstate.py,sha256=I0Q5MP24t4Jkm-JQrBJadUmidcmOQ9y-HxyZ4hOxxkU,498
+gso/observable.py,sha256=ZD50SmEoVpy5iiv01We_RrrXc3HQ_BQ9Ks9DrllaVvA,578
+gso/observer.py,sha256=YUnxc7_ihUpT1KlkT-pwWhm6oysl4FxTmdlFNsMExT0,210
+gso-2.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gso-2.0.0.dist-info/METADATA,sha256=mgSm8fLgBWDgQDa6vYJpkbHnoje_AnM1JXe1uFCCEhc,3671
+gso-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gso-2.0.0.dist-info/top_level.txt,sha256=cIcSY7s9M9Pp_iognRc8ft0g8ekXVrOqB_4JjivzC3s,4
+gso-2.0.0.dist-info/RECORD,,

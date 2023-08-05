@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rv
+Version: 0.0.4
+Summary: Utils to work with randomness
+Home-page: https://github.com/thorwhalen/uu/tree/master/rv
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# rv
+Utils to work with randomness
+
+
+To install:	```pip install rv```
+
+

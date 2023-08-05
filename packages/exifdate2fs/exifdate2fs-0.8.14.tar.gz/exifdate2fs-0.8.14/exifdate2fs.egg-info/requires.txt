@@ -1,0 +1,4 @@
+exifread<3
+
+[:platform_system == "Windows"]
+win32-setctime

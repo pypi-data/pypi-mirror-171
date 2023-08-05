@@ -1,0 +1,15 @@
+.gitignore
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/ci.yaml
+airtable_orm/__init__.py
+airtable_orm/airtable_query.py
+airtable_orm/airtable_session.py
+airtable_orm.egg-info/PKG-INFO
+airtable_orm.egg-info/SOURCES.txt
+airtable_orm.egg-info/dependency_links.txt
+airtable_orm.egg-info/top_level.txt
+dist/airtable_orm-1.0.tar.gz

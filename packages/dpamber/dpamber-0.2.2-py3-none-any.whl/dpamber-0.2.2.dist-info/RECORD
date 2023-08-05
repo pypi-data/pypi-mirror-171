@@ -1,0 +1,12 @@
+dpamber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dpamber/cli.py,sha256=pclml_bsGCY-W_fkwcmqceuEJxqrra6oX1Q8cBThaVI,3690
+dpamber/corr.py,sha256=LIWej3JFnLOTFEG5jcRfKon-goHb6h1G3RqUUs-AT0A,2980
+dpamber/model_devi.py,sha256=Q1ZuL2pYBHi2BeWPTZf9LDcZ7TNiVnpbNips4vZuDIA,2226
+dpamber/qmbuffer.py,sha256=7bETEIDE_5IKjWHGHai_CU3MUEBAxbXrTEYj8IDh7LQ,4944
+dpamber/qmwater_corr.py,sha256=YFjJyRDX96pe3Zh3nk3Jv36UDTYrPoMPRMS0GEGiEOY,1890
+dpamber/read_amber.py,sha256=Fqfem46FZYe_-xDKvd7VC21vO10v9IcZV-bo1AyXGFo,5847
+dpamber-0.2.2.dist-info/METADATA,sha256=adwp1evA8-S8lyRXUCkov7_N6eWPUVrZIYaAdiLUGUg,2454
+dpamber-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dpamber-0.2.2.dist-info/entry_points.txt,sha256=c91513Xkef8yL3-G-r8A1XIZ6n2IfZmhympAIRvrb2c,115
+dpamber-0.2.2.dist-info/top_level.txt,sha256=zkmMCJn15EHJ4TTU4l63Kjd1YukSu8uu0eSmjvoj_SM,8
+dpamber-0.2.2.dist-info/RECORD,,

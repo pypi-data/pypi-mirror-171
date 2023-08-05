@@ -1,0 +1,4 @@
+nlpaug
+matplotlib
+librosa
+scipy

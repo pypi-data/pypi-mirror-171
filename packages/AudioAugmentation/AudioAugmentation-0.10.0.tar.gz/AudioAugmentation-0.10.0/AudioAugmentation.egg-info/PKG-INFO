@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: AudioAugmentation
+Version: 0.10.0
+Summary: Transformaciones de audios
+Home-page: https://github.com/wisrovi/AudioAugmentation
+Author: William Rodriguez
+Author-email: wisrovi.rodriguez@gmail.com
+License: GPLv3
+Download-URL: http://chardet.feedparser.org/download/python3-chardet-1.0.1.tgz
+Description: # AudioAugmentation
+         Libreria python para aumentar audios haciendo transformaciones sobre los audios, 
+         de esta manera mediante algunas transformaciones sobre los audios se recibe un audio y se multiplica por 9 salidas
+         
+        ## Initialization
+        
+        ```bash
+        pip install AudioAugmentation
+        ```
+        
+        A `AudioAugmentation` object should be created and use its attributes.
+        
+        ```python
+        from AudioAugmentation import Audio_K
+        aumentedAudio = Audio_K(audio_file:str = file_path, save:str = save, graph:bool = grafica)
+        todos_audios = aumentedAudio.aumentar()
+        ```
+        audio_file = path_audio_file
+        save = path_save_audio_transform
+        graph = Graficar con matplotlib
+        
+        ### Audio_K methods
+        
+        * `aumentar()`: returns all transforms about a audio, you can save the new audios o only show
+        
+        
+Keywords: encoding,i18n,xml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

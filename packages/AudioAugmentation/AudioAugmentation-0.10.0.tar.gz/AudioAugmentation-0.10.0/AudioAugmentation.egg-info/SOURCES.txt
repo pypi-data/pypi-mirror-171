@@ -1,0 +1,13 @@
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+AudioAugmentation/AudioAugmentation.py
+AudioAugmentation/__init__.py
+AudioAugmentation.egg-info/PKG-INFO
+AudioAugmentation.egg-info/SOURCES.txt
+AudioAugmentation.egg-info/dependency_links.txt
+AudioAugmentation.egg-info/requires.txt
+AudioAugmentation.egg-info/top_level.txt
+Audio_K/Audio_K.py
+Audio_K/__init__.py

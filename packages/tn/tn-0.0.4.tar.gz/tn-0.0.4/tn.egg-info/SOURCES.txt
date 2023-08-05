@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+docsrc/Makefile
+docsrc/conf.py
+docsrc/index.rst
+docsrc/make.bat
+tn/__init__.py
+tn.egg-info/PKG-INFO
+tn.egg-info/SOURCES.txt
+tn.egg-info/dependency_links.txt
+tn.egg-info/not-zip-safe
+tn.egg-info/top_level.txt

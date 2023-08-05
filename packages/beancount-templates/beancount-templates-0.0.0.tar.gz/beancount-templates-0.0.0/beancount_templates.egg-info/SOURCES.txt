@@ -1,0 +1,5 @@
+setup.py
+beancount_templates.egg-info/PKG-INFO
+beancount_templates.egg-info/SOURCES.txt
+beancount_templates.egg-info/dependency_links.txt
+beancount_templates.egg-info/top_level.txt

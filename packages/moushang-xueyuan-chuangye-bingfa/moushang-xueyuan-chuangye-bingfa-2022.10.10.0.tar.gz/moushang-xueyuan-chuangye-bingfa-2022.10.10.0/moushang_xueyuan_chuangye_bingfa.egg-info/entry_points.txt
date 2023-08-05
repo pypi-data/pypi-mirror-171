@@ -1,0 +1,4 @@
+[console_scripts]
+MoushangXueyuanChuangyeBingfa = MoushangXueyuanChuangyeBingfa.__main__:main
+moushang-xueyuan-chuangye-bingfa = MoushangXueyuanChuangyeBingfa.__main__:main
+

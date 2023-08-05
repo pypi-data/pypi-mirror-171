@@ -1,0 +1,9 @@
+gmsh
+pyparsing==2.4
+cadquery
+numpy
+OCP
+meshio
+trimesh
+networkx
+Cython

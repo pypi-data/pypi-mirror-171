@@ -1,0 +1,9 @@
+teritorio/__init__.py,sha256=m5-tpWQxlAWmzBS0j_mrsnGXTAUNWijh_XfzYiq3_Go,115
+teritorio/_data/country.json,sha256=UaxzwCh5WKBI_1LroMmUNR7R3sNCFnvUgYmVjxthCZk,46659
+teritorio/_data/currency.json,sha256=32A0MuHwB_F8GIY7fbAUJQbdq65I-tTS7C6KxgBaJ94,36210
+teritorio/main.py,sha256=dulLsuwhMCZySq7HdFGBBAPdsn6Y8_3vl2M2s8DdQfs,2001
+teritorio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teritorio-2022.10.10.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+teritorio-2022.10.10.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+teritorio-2022.10.10.dist-info/METADATA,sha256=C7jtdsIEWVYSuqLMcoSPZSDg69owl4oym0NBji14A1E,3101
+teritorio-2022.10.10.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+gdsfactory==5.41.0
+PySpice

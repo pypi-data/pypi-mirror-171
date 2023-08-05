@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: cnvrtr
+Version: 1.0.0
+Summary: Different functions to convert between hex, dec bin etc.
+Home-page: https://github.com/5f0ne/cnvrtr
+Author: 5f0
+License: MIT
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Classifier: License :: OSI Approved :: MIT License 
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Description
+
+Different functions to convert between hex, dec, bin, ascii etc.
+
+# Installation
+
+`pip install cnvrtr`
+
+# Usage
+
+
+```python
+
+from cnvrtr.Converter import Converter
+
+cnvrtr = Converter()
+
+leHex = cnvrtr.toLittleEndian("af d0 fe")
+# fed0af
+
+hexToBin = cnvrtr.hexToBin("fed0af")
+# 111111101101000010101111
+
+hexToDec = cnvrtr.hexToDec("fed0af")
+# 16699567
+
+binToDec = cnvrtr.binToDec("11010101")
+# 213
+
+decToAscii = cnvrtr.decToAscii(65)
+# A
+```
+
+
+# License
+
+MIT

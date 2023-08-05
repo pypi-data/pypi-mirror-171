@@ -1,0 +1,11 @@
+netcdfella/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netcdfella/conversion.py,sha256=bHlsEiZkhChE2S9e2txDgJyL0fUhBuoiaKOJ6Q0QNv4,3562
+netcdfella/document.py,sha256=4FL8VGjR6_f9wi6gYme1JWBwtgcdMtzNDVTyZETBBQg,7908
+netcdfella/maps.py,sha256=E1vBIXBZEf1yJab5RR3kyh-KBJNVLtanBW1guQ9RWIQ,1747
+netcdfella/test_document.py,sha256=phCl_BqPPHZqV2XAChyfJZSCVikbh9CveTS-GSKtUxU,2747
+netcdfella/test_netcdf4.nc,sha256=NEqNdR5c2NF5nOPgucLKNMVyzRReL1NEGq-N92LxdnQ,180972
+netcdfella-0.2.1.dist-info/entry_points.txt,sha256=Obt5oOrRphEocLgffbAEmy16y6NIOOcT010BJzAXT5w,48
+netcdfella-0.2.1.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+netcdfella-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+netcdfella-0.2.1.dist-info/METADATA,sha256=3NOC8273X1fVwZ71KWF2yRq9v7yInN3oIFg_gVAVgG4,9212
+netcdfella-0.2.1.dist-info/RECORD,,

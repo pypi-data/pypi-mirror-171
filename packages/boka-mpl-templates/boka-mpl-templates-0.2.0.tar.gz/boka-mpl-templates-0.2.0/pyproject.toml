@@ -1,0 +1,51 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.0"
+version_files = [
+    "boka_mpl_templates/__version__.py",
+    "pyproject.toml:version"
+]
+style = [
+    ["qmark", "fg:#ff9d00 bold"],
+    ["question", "bold"],
+    ["answer", "fg:#ff9d00 bold"],
+    ["pointer", "fg:#ff9d00 bold"],
+    ["highlighted", "fg:#ff9d00 bold"],
+    ["selected", "fg:#cc5454"],
+    ["separator", "fg:#cc5454"],
+    ["instruction", ""],
+    ["text", ""],
+    ["disabled", "fg:#858585 italic"]
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "boka-mpl-templates"
+version = "0.2.0"
+description = ""
+authors = ["mbet <maarten.betman@boskalis.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+matplotlib = "^3.5.1"
+pydantic = "^1.9.0"
+papersize = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+commitizen = "^2.21.2"
+pre-commit = "^2.17.0"
+black = "^22.1.0"
+isort = "^5.10.1"
+mkdocs = "^1.2.3"
+pytest-mpl = "^0.16.1"
+mkdocs-material = "^8.4.3"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+mkdocs-gen-files = "^0.4.0"
+mkdocs-literate-nav = "^0.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

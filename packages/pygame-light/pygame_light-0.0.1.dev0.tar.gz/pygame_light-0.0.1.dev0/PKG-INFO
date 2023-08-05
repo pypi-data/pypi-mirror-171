@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pygame_light
+Version: 0.0.1.dev0
+Summary: A simple 2D light library for pygame.
+Home-page: https://github.com/https123456789/pygame_light
+Author: Ben Landon
+License: UNKNOWN
+Description: # pygame_light
+        
+        A simple 2D light library for pygame.
+Keywords: pygame light
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pygame_light/__init__.py
+pygame_light/lightSource.py
+pygame_light/manager.py
+pygame_light.egg-info/PKG-INFO
+pygame_light.egg-info/SOURCES.txt
+pygame_light.egg-info/dependency_links.txt
+pygame_light.egg-info/top_level.txt

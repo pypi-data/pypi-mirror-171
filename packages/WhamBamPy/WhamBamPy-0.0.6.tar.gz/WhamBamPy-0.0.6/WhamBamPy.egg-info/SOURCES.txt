@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+WhamBamPy.egg-info/PKG-INFO
+WhamBamPy.egg-info/SOURCES.txt
+WhamBamPy.egg-info/dependency_links.txt
+WhamBamPy.egg-info/requires.txt
+WhamBamPy.egg-info/top_level.txt
+whambampy/__init__.py
+whambampy/api_commands.py
+whambampy/defaults.py
+whambampy/utils.py
+whambampy/whm.py

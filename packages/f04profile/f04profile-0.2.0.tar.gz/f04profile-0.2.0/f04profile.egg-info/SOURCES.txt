@@ -1,0 +1,9 @@
+README.rst
+f04profiling.py
+setup.py
+f04profile.egg-info/PKG-INFO
+f04profile.egg-info/SOURCES.txt
+f04profile.egg-info/dependency_links.txt
+f04profile.egg-info/entry_points.txt
+f04profile.egg-info/requires.txt
+f04profile.egg-info/top_level.txt

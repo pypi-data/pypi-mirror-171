@@ -1,0 +1,2 @@
+[console_scripts]
+f04prof = f04profiling:main

@@ -1,0 +1,2 @@
+[console_scripts]
+snes_scrub = snes_scrub:main

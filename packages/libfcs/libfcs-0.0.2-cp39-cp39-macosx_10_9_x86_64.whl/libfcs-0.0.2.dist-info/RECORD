@@ -1,0 +1,12 @@
+libfcs/transforms.py,sha256=as7Z8qtX8BT9ZK0kafDHOhgx4SpWS_sZWwNDIucY9b4,8188
+libfcs/events.py,sha256=7kDvb7570vR7vBTJZlgHugZyqqstvv3LOp3GaCVZ4jI,3703
+libfcs/__init__.py,sha256=njfaHAsoMn--mCsSKLXsox_e7aUsTdTxNFpO3rGOe7c,1186
+libfcs/gates.py,sha256=TEFcwVWBLULWPI2xzmwnwBcBWpyZhBUiDACOu9JthM4,5337
+libfcs/exceptions.py,sha256=Ev52KsrH8mntjq7i5QEfHPF2NC_wMvjo2kueVPWm9XY,85
+libfcs/_libfcs_ext.cpython-39-darwin.so,sha256=foKiwYCh60YW6epC-gL8R72WK8zgyut9HrK4Sg1SV1I,82288
+libfcs/.dylibs/liblibfcs.dylib,sha256=oQoHufM0Et3-xfY8M8tYMacYRz9_qtcytDB98f2zmh0,47341824
+libfcs-0.0.2.dist-info/RECORD,,
+libfcs-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libfcs-0.0.2.dist-info/WHEEL,sha256=pfjXB0CCNW4PSSqQc2t4Up6p3o0jxBnHy_2o38FQkyE,109
+libfcs-0.0.2.dist-info/top_level.txt,sha256=whfjgaTuNxb0oovOzzJOGWBeS89qzTYIrsxtJplkA1o,7
+libfcs-0.0.2.dist-info/METADATA,sha256=gTNd4YFsRxCi180g-IzHvunxUw0MKksPU1SzgK1pmXc,816

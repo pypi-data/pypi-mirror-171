@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: numbin
+Version: 0.1.0
+Summary: an efficient binary serialization format for numerical data
+Author-email: Keming <kemingy94@gmail.com>
+License: Apache-2.0
+Project-URL: homepage, https://mosecorg.github.io/numbin
+Project-URL: documentation, https://mosecorg.github.io/numbin
+Project-URL: repository, https://github.com/mosecorg/numbin
+Project-URL: changelog, https://github.com/mosecorg/numbin/releases
+Keywords: machine learning,deep learning,serialization
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# NumBin
+
+An efficient binary serialization format for numerical data.

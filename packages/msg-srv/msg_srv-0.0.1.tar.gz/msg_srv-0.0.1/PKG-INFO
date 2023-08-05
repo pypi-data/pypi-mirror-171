@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: msg_srv
+Version: 0.0.1
+Summary: messages_server
+Home-page: UNKNOWN
+Author: KolesnikIvan
+License: UNKNOWN
+Platform: UNKNOWN
+
+Проект создания чата в рамках учебного курса GeekBrains по интерфейсам и клиент-серверному взаимодействию. Автор Колесник Иван. Проходил курс в августе-сентябре 2022 года. Hello world.
+

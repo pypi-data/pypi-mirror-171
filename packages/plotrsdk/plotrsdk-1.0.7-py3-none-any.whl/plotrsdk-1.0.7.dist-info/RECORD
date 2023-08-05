@@ -1,0 +1,13 @@
+plotrsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plotrsdk/books.py,sha256=Znd4Ps3kuEm8tcCqJsQI_k_y754kZzUqMD0FbqJ-CWE,2927
+plotrsdk/chapters.py,sha256=WCALRTGCf9M1bfm9hTfSL2LQg6AP2NoUO7LNBvU9v9Q,2424
+plotrsdk/characters.py,sha256=39Kge6mFTj5fb378NJ_BllfVkuFiqE0m5H1YwX8vBIc,4224
+plotrsdk/movies.py,sha256=iMOyKXTzRQqWMuJORjhTXZKBR3ZUiKqBSqDcAaQhImo,4056
+plotrsdk/quotes.py,sha256=uVw4mgyxOOKdf9uUDGHheRDSmr7p6OyJSpcHIP4lJek,2465
+plotrsdk/service.py,sha256=NrlqJDqtRXkL2ksowUj7aL3e6DjGZ8AcMe-4ChAkZn0,647
+plotrsdk/utils.py,sha256=3T9Bo7NoBH6Bx4lGMPtvnTk3LTegvPnzgDbM15CBBRI,1310
+plotrsdk-1.0.7.dist-info/LICENSE.md,sha256=2pig7OQLueCWlc4vd-cl6KtF5C1pdjPvBTmuA5s9z6w,1075
+plotrsdk-1.0.7.dist-info/METADATA,sha256=GLY1kjRa2JktK4bGf0HELQxTFrHcKPL90PQoNA08G0U,3903
+plotrsdk-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plotrsdk-1.0.7.dist-info/top_level.txt,sha256=0ig4h9J2bVWEM7qr9trANnCukR9-iU8hYXYezVhhZPU,9
+plotrsdk-1.0.7.dist-info/RECORD,,

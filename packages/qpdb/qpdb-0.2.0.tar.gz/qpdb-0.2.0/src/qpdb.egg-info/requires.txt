@@ -1,0 +1,15 @@
+bs4
+defopt
+html5lib
+httpx
+sphinx
+sphobjinv
+
+[dev]
+coverage[toml]>=5.5
+pytest
+pre-commit
+
+[tests]
+coverage[toml]>=5.5
+pytest

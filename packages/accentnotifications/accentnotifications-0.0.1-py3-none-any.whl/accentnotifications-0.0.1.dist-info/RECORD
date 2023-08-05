@@ -1,0 +1,10 @@
+accentnotifications/__init__.py,sha256=Ew1v0C_x86BaPMGQg60xfrCbLlRPOZlPkj9LGJvLbZM,81
+accentnotifications/manager.py,sha256=1ZNACB6heoRPK1L--WGIOZPcL6SnLUWC6m5ektGnRg4,239
+accentnotifications/types.py,sha256=LTW23DgrGfA--xKIDq-9ksZmjNro_FWiwcfa9G21gbw,618
+accentnotifications/notifications/__init__.py,sha256=NELoZ7ZKG5ykt8OQEm3tK_RWtjAwZ8G6V6V2tZBrOzE,48
+accentnotifications/notifications/base.py,sha256=PqtsNrTXBi83BD4F_3eUgHOXkO3PFNkzxUXwPPQy5Kc,751
+accentnotifications/notifications/smtp.py,sha256=DNNxq8ZfIjMLh4YwFyCpwdVj2It4X94zk1Tdam72VmE,2512
+accentnotifications-0.0.1.dist-info/LICENSE,sha256=82EJSVgaK_pEz5t5eC9Tz3JFbgnyCt3Z4mp5Pe_eaYs,1089
+accentnotifications-0.0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+accentnotifications-0.0.1.dist-info/METADATA,sha256=Q96lPE6RMfgQFPONvK7Ut2zgKivU3LcBLMs5MxVmxLI,1435
+accentnotifications-0.0.1.dist-info/RECORD,,

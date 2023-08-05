@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenZhiboShidai = ChenchangwenZhiboShidai.__main__:main
+chenchangwen-zhibo-shidai = ChenchangwenZhiboShidai.__main__:main
+

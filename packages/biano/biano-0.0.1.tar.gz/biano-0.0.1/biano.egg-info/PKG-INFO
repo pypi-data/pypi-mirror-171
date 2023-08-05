@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: biano
+Version: 0.0.1
+Summary: keyboard piano, just start
+Home-page: https://github.com/buildCodeZ/biano
+Author: Zzz
+Author-email: 1309458652@qq.com
+License: Apache License 2.0
+Keywords: biano
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# biano
+```
+键盘按键钢琴，刚开始开发
+keyboard piano, just start
+运行(run):
+python -m biano
+```
+
+

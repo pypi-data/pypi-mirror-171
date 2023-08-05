@@ -1,0 +1,1 @@
+Update airflow version from 2.2.4 to 2.4.1. Details can be found here: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html

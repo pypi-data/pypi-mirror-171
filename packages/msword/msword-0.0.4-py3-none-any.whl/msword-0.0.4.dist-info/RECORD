@@ -1,0 +1,11 @@
+msword/__init__.py,sha256=M2TkB0vDg6gQ_NiaqQ3V15c97lqfvs5eAWC0wWXhfpE,136
+msword/base.py,sha256=UwJ6FSoF7FLAWksxM069uKkcPWxvuX9aAxub9K7t_48,6090
+msword/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msword/tests/util.py,sha256=WLXG6klKzN1hS1CgdRRFYSDVLyi5WPmluSrhGqkgPYc,568
+msword/tests/data/more_involved.docx,sha256=bA5lI0YhdLBFR0rkmSqrJwIIE_t03w7uArr8v1qSMBE,14365
+msword/tests/data/simple.docx,sha256=5UyFREhR33iePd4M51kq1xC6jegfWGpcqtz8tfgHIHM,11943
+msword-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+msword-0.0.4.dist-info/METADATA,sha256=LdxHxhoY5DNf1QrJpyrQiKAiSzhpykN9fSIgCJWZyjQ,3994
+msword-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+msword-0.0.4.dist-info/top_level.txt,sha256=mo6qoaYyiSfjcCsScETiHHqryj-YQIrhpvBR16gButY,7
+msword-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+pyprojstencil = pyprojstencil.__main__:main

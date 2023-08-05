@@ -1,0 +1,14 @@
+flask_sso_saml/__init__.py,sha256=R63ytSmHmcqQmdacMvcWIi61XM65DFwQ_5H5X6Up7cs,444
+flask_sso_saml/_compat.py,sha256=Lk3V35QNj55Es14AZW5QZramAdCFM7waBBXNUU1O_4I,502
+flask_sso_saml/config.py,sha256=bG4WngEvwj2eg2g_pVFIz11iG8Opelvb12T5Zs8flrk,8089
+flask_sso_saml/ext.py,sha256=p61aUxrL5eBbkc1Kv3VLDaXiz9enQcLvu9U44Y5u-bc,9235
+flask_sso_saml/proxies.py,sha256=zcLMhpwZht8Rgq7DbfTtoxXU_Jmr8_n9JWAEAvbGxkI,550
+flask_sso_saml/utils.py,sha256=aYdSPubu3wGJgsnW8Z3yVu8EvzCeTbWaQGVXIjiL_Xo,2825
+flask_sso_saml/version.py,sha256=FQHO5Yk9VfBVgxI3mTA4Z96_5UTZHHGIT5GkBf1CsqI,438
+flask_sso_saml/views.py,sha256=g0UwmD5EtCnor0YPU9hbjwaf46DnjjV_xGRg7AY0L1I,5525
+flask_sso_saml-0.2.0.dist-info/AUTHORS.rst,sha256=XAWtEggJBAiCS3KOgwiGf_1QS4tGBl40E2iTRsRo7PI,322
+flask_sso_saml-0.2.0.dist-info/LICENSE,sha256=dVwQGwfoFPErS_DyGdJHnMddqjffzpq1YYOSiKcDQXw,1080
+flask_sso_saml-0.2.0.dist-info/METADATA,sha256=L0TnmwM1Sv3eHUnSs34dAuvyFiAgdD2ldkgrivMXtX4,3835
+flask_sso_saml-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+flask_sso_saml-0.2.0.dist-info/top_level.txt,sha256=jHwEAhdqzIf6f-ihlcCENw4TZ0q_YVLZ1r4IAbdh-dA,15
+flask_sso_saml-0.2.0.dist-info/RECORD,,

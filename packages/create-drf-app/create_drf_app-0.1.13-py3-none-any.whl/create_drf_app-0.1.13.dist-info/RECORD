@@ -1,0 +1,14 @@
+create_drf_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_drf_app/main.py,sha256=w7HpxcrkQ7pgZK5Cjm5U0pt3AZYkczcvt-_1IgVutw0,1211
+create_drf_app/templates/basic_template/cookiecutter.json,sha256=re6v3xVwnd451e0DrAWBEJNgQLBz61OaW7Sm3Ib4-TE,32
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/manage.py,sha256=8NDNVAza76hB0g-SrUDgAsMPvWD3X4b2251ioPSdLYI,709
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/requirements.txt,sha256=fYoIOM6OGbJuRf3QtylUqsfnEqjY8M177coygSF7XHY,6
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/asgi.py,sha256=SnmYMEw8j85ZONTg3NZAWg2pdGd0cX7iu121WVeR23k,455
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/settings.py,sha256=YfMq3YZ8ubMMDbgjlOvUSO9lgch-pv7Yd8Di8DAg9P8,3419
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/urls.py,sha256=OUcd8tx7vM-GZ-6Wf9DS1YKU3Hxo275HJTaA5MbnrNc,794
+create_drf_app/templates/basic_template/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/wsgi.py,sha256=ej_i3-bO-ZUxfg42oAiRb1Cr3z14V8_LsDfeQuiZFoI,455
+create_drf_app-0.1.13.dist-info/entry_points.txt,sha256=NvRauJ0CStHSKG8XHtimWiibt1fHdWFhA0WPJqV0GTg,58
+create_drf_app-0.1.13.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+create_drf_app-0.1.13.dist-info/METADATA,sha256=AZsFHH7Nqjg9DI2jljQvyq1HcYJWHa-jsKsKeZru-NM,513
+create_drf_app-0.1.13.dist-info/RECORD,,

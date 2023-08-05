@@ -1,0 +1,10 @@
+name: napari-input-visualizer
+display_name: Input Visualizer
+contributions:
+  commands:
+    - id: napari-input-visualizer.input_visualizer_widget
+      python_name: napari_input_visualizer._widget:InputVisualizerWidget
+      title: Make InputVisualizerWidget
+  widgets:
+    - command: napari-input-visualizer.input_visualizer_widget
+      display_name: Input Visualizer

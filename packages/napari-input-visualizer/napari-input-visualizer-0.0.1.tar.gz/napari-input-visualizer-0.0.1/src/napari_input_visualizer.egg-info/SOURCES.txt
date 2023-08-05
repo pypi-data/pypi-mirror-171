@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_input_visualizer/__init__.py
+src/napari_input_visualizer/_widget.py
+src/napari_input_visualizer/napari.yaml
+src/napari_input_visualizer.egg-info/PKG-INFO
+src/napari_input_visualizer.egg-info/SOURCES.txt
+src/napari_input_visualizer.egg-info/dependency_links.txt
+src/napari_input_visualizer.egg-info/entry_points.txt
+src/napari_input_visualizer.egg-info/requires.txt
+src/napari_input_visualizer.egg-info/top_level.txt

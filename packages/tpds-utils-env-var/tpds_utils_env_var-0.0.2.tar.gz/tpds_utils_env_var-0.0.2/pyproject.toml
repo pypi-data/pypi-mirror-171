@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=57",
+    "wheel",
+    "boto3"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tpds_utils_env_var"
+version = "0.0.2"
+authors = [
+  { name="TPDS", email="dataservices@travelpassgroup.com" },
+]
+description = "TPDS environment variable management."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

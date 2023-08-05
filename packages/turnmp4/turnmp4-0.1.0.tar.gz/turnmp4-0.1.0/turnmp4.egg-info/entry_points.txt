@@ -1,0 +1,3 @@
+[console_scripts]
+merge = turnmp4.turnmp4:merge
+turnmp4 = turnmp4.cli:main

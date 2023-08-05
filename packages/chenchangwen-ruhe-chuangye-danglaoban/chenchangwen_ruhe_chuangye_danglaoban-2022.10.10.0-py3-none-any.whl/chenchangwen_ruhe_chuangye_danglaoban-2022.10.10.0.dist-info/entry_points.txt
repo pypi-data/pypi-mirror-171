@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenRuheChuangyeDanglaoban = ChenchangwenRuheChuangyeDanglaoban.__main__:main
+chenchangwen-ruhe-chuangye-danglaoban = ChenchangwenRuheChuangyeDanglaoban.__main__:main
+

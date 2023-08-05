@@ -1,0 +1,4 @@
+[console_scripts]
+TheAnarchistCookbook = TheAnarchistCookbook.__main__:main
+the-anarchist-cookbook = TheAnarchistCookbook.__main__:main
+

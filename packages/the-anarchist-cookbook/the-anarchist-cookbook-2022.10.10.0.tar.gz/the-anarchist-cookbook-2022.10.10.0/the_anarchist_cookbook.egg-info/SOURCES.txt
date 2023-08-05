@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheAnarchistCookbook/README.md
+TheAnarchistCookbook/__init__.py
+TheAnarchistCookbook/__main__.py
+TheAnarchistCookbook/file.pdf
+TheAnarchistCookbook/index.html
+the_anarchist_cookbook.egg-info/PKG-INFO
+the_anarchist_cookbook.egg-info/SOURCES.txt
+the_anarchist_cookbook.egg-info/dependency_links.txt
+the_anarchist_cookbook.egg-info/entry_points.txt
+the_anarchist_cookbook.egg-info/top_level.txt

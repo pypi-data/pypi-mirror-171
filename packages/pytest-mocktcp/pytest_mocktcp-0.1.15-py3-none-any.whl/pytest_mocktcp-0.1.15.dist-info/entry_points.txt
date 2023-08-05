@@ -1,0 +1,2 @@
+[pytest11]
+mocktcp = pytest_mocktcp.mocktcp

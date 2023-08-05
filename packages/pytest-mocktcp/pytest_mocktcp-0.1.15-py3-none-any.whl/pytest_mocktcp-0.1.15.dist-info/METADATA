@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pytest-mocktcp
+Version: 0.1.15
+License: MIT
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: pytest-mock
+

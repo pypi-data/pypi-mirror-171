@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenPinpaiYingxiao = ChenchangwenPinpaiYingxiao.__main__:main
+chenchangwen-pinpai-yingxiao = ChenchangwenPinpaiYingxiao.__main__:main
+

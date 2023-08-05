@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: QLev
+Version: 0.0.1
+Summary: String distance metrics
+Author: Alysson Amaral
+Author-email: alysson.amaral@outlook.com
+Keywords: python,levenshtein,qwerty
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+License-File: LICENSE
+
+String distance metrics based on Levenshtein and Qwerty Matrix Distance

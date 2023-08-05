@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jy
+Version: 0.0.4
+Summary: utils for ipython geography
+Home-page: https://github.com/thorwhalen/uu/tree/master/jy
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# jy
+utils for ipython geography
+
+
+To install:	```pip install jy```
+
+

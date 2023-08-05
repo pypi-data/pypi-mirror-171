@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pagseguroCTS123/__init__.py
+pagseguroCTS123/config.py
+pagseguroCTS123/exceptions.py
+pagseguroCTS123/parsers.py
+pagseguroCTS123/utils.py
+pagseguroCTS123.egg-info/PKG-INFO
+pagseguroCTS123.egg-info/SOURCES.txt
+pagseguroCTS123.egg-info/dependency_links.txt
+pagseguroCTS123.egg-info/top_level.txt

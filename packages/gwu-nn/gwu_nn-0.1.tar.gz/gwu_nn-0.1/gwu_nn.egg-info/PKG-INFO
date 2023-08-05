@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: gwu-nn
+Version: 0.1
+Summary: Neural Network library for the George Washington University
+Home-page: https://gitlab.com/gwu_intro_nn/gwu_nn
+Author: Joel Klein
+Author-email: jdk51405@gmail.com
+License: MIT
+Description: # George Washington Neural Network
+        This repository contains a neural network library built from scratch for use in Neural Network courses at
+        The George Washington University. It is a basic implementation that provides a number of layers, activation
+        functions, and loss functions for students to explore how networks work at a low level. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

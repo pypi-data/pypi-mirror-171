@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gwu_nn/__init__.py
+gwu_nn/activation_functions.py
+gwu_nn/activation_layers.py
+gwu_nn/gwu_network.py
+gwu_nn/layers.py
+gwu_nn/loss_functions.py
+gwu_nn.egg-info/PKG-INFO
+gwu_nn.egg-info/SOURCES.txt
+gwu_nn.egg-info/dependency_links.txt
+gwu_nn.egg-info/not-zip-safe
+gwu_nn.egg-info/requires.txt
+gwu_nn.egg-info/top_level.txt

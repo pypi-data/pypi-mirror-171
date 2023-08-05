@@ -1,0 +1,3 @@
+[console_scripts]
+manimbook-create=manimbook_create.convert:cli
+

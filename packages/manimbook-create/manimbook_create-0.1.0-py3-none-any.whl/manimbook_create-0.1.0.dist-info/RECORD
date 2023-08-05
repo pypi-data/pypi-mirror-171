@@ -1,0 +1,14 @@
+manimbook_create/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manimbook_create/convert.py,sha256=jeEatugQHd2SS1VSrrqEoWhYP3rzny4lV-U3XKI2bb8,4341
+manimbook_create/templates/ch1_live_demo.html,sha256=jwiznBSVZDziYSiYKoNpJ8loRBiXqYFpBrAs5nccOaM,13461
+manimbook_create/templates/index.html,sha256=M532Mra0qxOkbwAQLRJliJrMjJILhFuRxl0p4Myk1xc,1917
+manimbook_create/templates/index.json,sha256=e-_YjDnhafq8CeyKG0RLB6rQm6jc8NCqrEKjceXJ2qw,252
+manimbook_create/templates/reveal.js/base.html.j2,sha256=0zv9owV6cqCOxOy-xy2mv900lK4oXRJ_BMe8p1nzx8o,743
+manimbook_create/templates/reveal.js/conf.json,sha256=mKqvK9Hj0Wk1TqgnT-kAt7MoWf-MtawWF6Kj6ltro_c,337
+manimbook_create/templates/reveal.js/index.html.j2,sha256=R1PCtq7FQKgeBKo2FWgWuZbblNOjd-hR4xJnmJftHr0,6470
+manimbook_create/templates/reveal.js/static/custom_reveal.css,sha256=NA66CQF63HtisTZVLKyvjoLnvAi4X9rP74VYHa2fyws,2374
+manimbook_create/templates/scroll.html,sha256=rofp_rOAXAo4HqOzAe8P_3DhWbOTSlTscbsQuzV1naE,11409
+manimbook_create-0.1.0.dist-info/entry_points.txt,sha256=mT5qQ9yenRbEyJveGIjkwG6G_XBol7GFFEN8UbXuRbU,65
+manimbook_create-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+manimbook_create-0.1.0.dist-info/METADATA,sha256=1x8Ff_KSKdNlXaoJVc6rdc4MnqFXsvvVyM3D8UcgmDs,564
+manimbook_create-0.1.0.dist-info/RECORD,,

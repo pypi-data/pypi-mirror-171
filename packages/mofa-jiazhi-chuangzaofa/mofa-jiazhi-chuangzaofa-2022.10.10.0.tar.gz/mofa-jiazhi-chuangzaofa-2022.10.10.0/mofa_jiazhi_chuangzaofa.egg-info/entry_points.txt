@@ -1,0 +1,4 @@
+[console_scripts]
+MofaJiazhiChuangzaofa = MofaJiazhiChuangzaofa.__main__:main
+mofa-jiazhi-chuangzaofa = MofaJiazhiChuangzaofa.__main__:main
+

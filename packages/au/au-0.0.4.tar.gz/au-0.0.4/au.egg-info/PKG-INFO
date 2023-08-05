@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: au
+Version: 0.0.4
+Summary: Filtering outliers
+Home-page: https://github.com/thorwhalen/uu/tree/master/au
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# au
+Filtering outliers
+
+
+To install:	```pip install au```
+
+

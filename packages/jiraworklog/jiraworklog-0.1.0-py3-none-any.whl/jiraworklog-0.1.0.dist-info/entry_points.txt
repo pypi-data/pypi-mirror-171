@@ -1,0 +1,3 @@
+[console_scripts]
+jiraworklog=jiraworklog.application:main
+

@@ -1,0 +1,11 @@
+hummingbird_joystick.py,sha256=-vaFPlwPkxS_UyNBcYnS1VpzSMlzL_cbjydqxRFwAZE,1885
+hummingbird_joystick/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+hummingbird_joystick/__main__.py,sha256=0SstWtYv4CF_oA343kG1hUPZEc_Win5_QNLfrA3Fkac,409
+hummingbird_joystick/cli.py,sha256=RA5GlhKK6LUEv-mOK7VC_mbVMNmyxPu_bEFguH9iCOg,849
+hummingbird_joystick-0.0.1.dist-info/AUTHORS.rst,sha256=5xsWTHF2_jQ9pqp5v9Hh27s-60IkJQXDB81aoIowc78,60
+hummingbird_joystick-0.0.1.dist-info/LICENSE,sha256=f-z3TDlFdm1g1zfywea5jJL47iGeFCdEUHPrTT-kMRY,1100
+hummingbird_joystick-0.0.1.dist-info/METADATA,sha256=oLNMJE5dy8_WpoKX7K4lmGwf0WdveeXx5Rh7eMHq-nU,2213
+hummingbird_joystick-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hummingbird_joystick-0.0.1.dist-info/entry_points.txt,sha256=sDTPJLTUiN1kxfZ5sla7s0aK233pchDgRfc-ETIKNQY,71
+hummingbird_joystick-0.0.1.dist-info/top_level.txt,sha256=g3k32j05NMnX2HWn1UeIXxioqKvLIfdTVRz-BouXXj0,21
+hummingbird_joystick-0.0.1.dist-info/RECORD,,

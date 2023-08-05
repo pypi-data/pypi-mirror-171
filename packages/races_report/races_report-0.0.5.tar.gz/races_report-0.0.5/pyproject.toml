@@ -1,0 +1,30 @@
+[build-system]
+    requires = ["hatchling"]
+    build-backend = "hatchling.build"
+
+[project]
+    name = "races_report"
+    version = "0.0.5"
+    authors = [
+      { name="Oleh Holub", email="golub.zp@google.com" },
+    ]
+    dependencies = [
+        "prettytable",
+    ]
+    description = "A small package for builds a races report depending on the command line arguments"
+    readme = "README.md"
+    license = { file="LICENSE.txt" }
+    requires-python = ">=3.8"
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
+
+[tool.hatch.build]
+exclude = [
+  "/tests",
+  "/.idea",
+  "/results",
+  "/venv",
+]

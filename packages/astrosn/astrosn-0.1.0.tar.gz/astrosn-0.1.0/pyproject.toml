@@ -1,0 +1,48 @@
+[build-system]
+requires = ["flit_core >=3.5,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name= 'astrosn'
+authors = [{name = "Emir Karamehmetoglu", email = "emirkmo@github.com"}]
+dynamic = ["version", "description"]
+classifiers=["Programming Language :: Python :: 3",
+                 "License :: OSI Approved :: MIT License",
+                 "Operating System :: OS Independent",
+                 "Topic :: Scientific/Engineering :: Astronomy"]
+requires-python = '>=3.10'
+readme = "README.md"
+license = {file = "LICENSE.md"}
+dependencies = [
+    "astropy>=5.0",
+    "numpy>=1.21",
+    "pandas",
+    "svo_filters",
+    "matplotlib",
+    "seaborn",
+    "astroquery",
+    "corner",
+    "dust_extinction",
+    "lmfit",
+    "mpmath",
+    "specutils",
+    "tqdm",
+    "typing_extensions",
+    "numdifftools",
+    "emcee",
+    "piscola",
+    "svo_filters",
+    "requests",
+]
+
+[project.urls]
+Home = "https://github.com/emirkmo/supernova"
+
+[project.optional-dependencies]
+test = [
+    "pytest >=2.7.3",
+    "pytest-cov",
+]
+flows = [
+    "tendrils"
+]

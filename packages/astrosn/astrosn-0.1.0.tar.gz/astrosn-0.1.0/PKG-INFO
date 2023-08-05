@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: astrosn
+Version: 0.1.0
+Summary: Supernova analysis library by @emirkmo
+Author-email: Emir Karamehmetoglu <emirkmo@github.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: astropy>=5.0
+Requires-Dist: numpy>=1.21
+Requires-Dist: pandas
+Requires-Dist: svo_filters
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: astroquery
+Requires-Dist: corner
+Requires-Dist: dust_extinction
+Requires-Dist: lmfit
+Requires-Dist: mpmath
+Requires-Dist: specutils
+Requires-Dist: tqdm
+Requires-Dist: typing_extensions
+Requires-Dist: numdifftools
+Requires-Dist: emcee
+Requires-Dist: piscola
+Requires-Dist: svo_filters
+Requires-Dist: requests
+Requires-Dist: tendrils ; extra == "flows"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Home, https://github.com/emirkmo/supernova
+Provides-Extra: flows
+Provides-Extra: test
+
+# supernova
+
+Object-oriented python library for analyzing supernova data, focusing on generic data flow, conversion, and convenient plotting. 
+The scripts are meant to be imported and used inside external plotting and analysis codes/notebooks. (See SN2020lao directory for an example)
+
+Will also be a way to quickly import the SN data from my papers. However, please do not take it without
+referring to/citing the paper, (or publish it before mine is accepted without contacting me), thanks!
+

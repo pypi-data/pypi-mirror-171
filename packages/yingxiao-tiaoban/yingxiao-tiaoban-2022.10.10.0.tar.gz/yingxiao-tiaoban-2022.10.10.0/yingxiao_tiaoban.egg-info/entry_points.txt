@@ -1,0 +1,4 @@
+[console_scripts]
+YingxiaoTiaoban = YingxiaoTiaoban.__main__:main
+yingxiao-tiaoban = YingxiaoTiaoban.__main__:main
+

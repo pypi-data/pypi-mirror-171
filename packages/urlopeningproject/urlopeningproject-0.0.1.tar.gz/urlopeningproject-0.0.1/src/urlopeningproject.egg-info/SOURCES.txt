@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+pyproject.toml
+src/urlopeningproject/__init__.py
+src/urlopeningproject/code.py
+src/urlopeningproject.egg-info/PKG-INFO
+src/urlopeningproject.egg-info/SOURCES.txt
+src/urlopeningproject.egg-info/dependency_links.txt
+src/urlopeningproject.egg-info/top_level.txt

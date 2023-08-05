@@ -1,0 +1,7 @@
+django_validation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_validation/custom_validations.py,sha256=FiRhDUEAPr8dzcbXVL1VagLLm0cs9JGhfrL9Dbayzhg,884
+django_validation/model_validations.py,sha256=Wrc0x_lCFY8brW6Gv683ug8hFHTdu1nwZGmHBKWul2E,518
+custom_django_validation-0.0.1.dist-info/METADATA,sha256=Rwh_1jEahzsAXu1x0ERfit1bfJzChxV3ij-Xg6k_XLQ,2700
+custom_django_validation-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+custom_django_validation-0.0.1.dist-info/top_level.txt,sha256=Q5JndUiuvn_i124B5vniKYfbT7sIsBHNnhKrtzyQjdM,18
+custom_django_validation-0.0.1.dist-info/RECORD,,

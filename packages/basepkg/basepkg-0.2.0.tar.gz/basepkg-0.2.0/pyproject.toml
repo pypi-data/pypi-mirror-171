@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "basepkg"
+version = "0.2.0"
+description = ""
+authors = ["Thomas PETIT-JEAN <thomas.petitjean-ext@aphp.fr>"]
+readme = "README.md"
+packages = [{include = "basepkg"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+datapkgaphp = {version = "0.1.0", optional=true}
+
+[tool.poetry.extras]
+aphp=["datapkgaphp"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+pysimstudy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysimstudy/add_correlated_data.py,sha256=-8d84GoJJddTFlrqsM3ACVBcM6aFELMBdYuZ44XDZHg,4304
+pysimstudy/add_data.py,sha256=QIQZ20kqKvAVRC8y7wYpb4O7UH5MvOPhR3-nL6Igmoo,5761
+pysimstudy/asserts.py,sha256=vH-b0V5OWBS3CdawAWdbL7B8n0YZo5ox_TpjO1Q7zp8,12137
+pysimstudy/define_data.py,sha256=X13UeCbwNkVt-eFXLnmdgm010htd9W_9NdRewoyHn_k,15448
+pysimstudy/generate_correlated_data.py,sha256=nmaidBR9zDUSwI021xAURElsPmt1uce-VCkPxiFjyc0,18388
+pysimstudy/generate_data.py,sha256=CxVEvMEPyQrnl4dpmGUzYxFQoXKd3qZvLH0fa9Xqz84,20748
+pysimstudy/generate_dist.py,sha256=1l7KEdC_jibu-j2XG7BQ6Y4RKTSBDfDNgTeuqCUasM0,18357
+pysimstudy/group_data.py,sha256=uRu3NqT8VBfGEDu9qVQ0bkzL3sDPDsqPCrIhkqlihAw,12345
+pysimstudy/utility.py,sha256=X6IWFu3R2Djzd8hYYYt4nilZ36umpGGar4uSTv31XZM,21878
+pysimstudy-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pysimstudy-0.0.1.dist-info/METADATA,sha256=I-7_bFvR1VdD9XzyNDxAXjBAywRTX5_1rL3J3Dg1RYE,6028
+pysimstudy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysimstudy-0.0.1.dist-info/top_level.txt,sha256=1z41D7xA7kpNMGxORQgUVx5z8zRcynNkhN1NqNyAwGM,11
+pysimstudy-0.0.1.dist-info/RECORD,,

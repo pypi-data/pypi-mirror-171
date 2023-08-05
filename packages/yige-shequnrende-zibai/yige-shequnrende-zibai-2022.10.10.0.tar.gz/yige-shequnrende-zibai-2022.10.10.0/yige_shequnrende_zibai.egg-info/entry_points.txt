@@ -1,0 +1,4 @@
+[console_scripts]
+YigeShequnrendeZibai = YigeShequnrendeZibai.__main__:main
+yige-shequnrende-zibai = YigeShequnrendeZibai.__main__:main
+

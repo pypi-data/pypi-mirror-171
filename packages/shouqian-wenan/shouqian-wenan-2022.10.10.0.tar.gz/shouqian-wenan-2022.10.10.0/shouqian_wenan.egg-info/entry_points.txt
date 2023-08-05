@@ -1,0 +1,4 @@
+[console_scripts]
+ShouqianWenan = ShouqianWenan.__main__:main
+shouqian-wenan = ShouqianWenan.__main__:main
+

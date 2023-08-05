@@ -1,0 +1,4 @@
+[console_scripts]
+ZhongjiWenanZhuanxieXitong = ZhongjiWenanZhuanxieXitong.__main__:main
+zhongji-wenan-zhuanxie-xitong = ZhongjiWenanZhuanxieXitong.__main__:main
+

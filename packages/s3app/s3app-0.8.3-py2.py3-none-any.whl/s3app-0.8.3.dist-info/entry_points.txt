@@ -1,0 +1,2 @@
+[console_scripts]
+s3app = s3app.__init__:run

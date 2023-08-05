@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+0.0.2
+-----
+
+* 【Feature】启动页面后默认选中控件树；查看控件时增加wda连接情况判断并进行重试（仅使用设备id时）
+
+0.0.1
+-----
+
+* 【Feature】解决第二次查看index重复显示问题，index同时显示maxIndex
+* Initial commit

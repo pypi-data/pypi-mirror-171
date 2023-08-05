@@ -1,0 +1,10 @@
+solc_select/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solc_select/__main__.py,sha256=IZOWO5alEXOsvkxPjsjWlF5EB7FCLm3HKiwB4OxN7pc,3101
+solc_select/constants.py,sha256=wPBf7jw_CB6-Fct-A003nyjtZz8GQhwhruqKLOFMZO0,584
+solc_select/solc_select.py,sha256=sBm5lcrLDxCSKY6PzvWHrBOxWP_g8TkW9CG8NSRlkDI,8423
+solc_select-1.0.1.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+solc_select-1.0.1.dist-info/METADATA,sha256=CTXeXOhw3H5XKeoMzu-dek3fCDip0dZcE9WYqsTtfyI,4405
+solc_select-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+solc_select-1.0.1.dist-info/entry_points.txt,sha256=GVDjx_ZSJjEdqTCXRZiZNOlV6X0Lmv-eG_Qa4M8wi2Y,98
+solc_select-1.0.1.dist-info/top_level.txt,sha256=hwBBXiJ14WPuoSdKmfNFb3-COJ5T65HHJX_AMGUs5SQ,12
+solc_select-1.0.1.dist-info/RECORD,,

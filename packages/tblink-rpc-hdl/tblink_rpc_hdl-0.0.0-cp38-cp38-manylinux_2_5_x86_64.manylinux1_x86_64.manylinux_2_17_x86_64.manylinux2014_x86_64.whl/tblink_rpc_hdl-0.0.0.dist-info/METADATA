@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tblink-rpc-hdl
+Version: 0.0.0
+Summary: Provides a TbLink-RPC integration for HDL environments
+Home-page: https://github.com/tblink-rpc/tblink-rpc
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License: Apache 2.0
+Keywords: SystemVerilog,Verilog,RTL,Python
+License-File: LICENSE
+
+
+  Implements the tblink-rpc integration with HDL environments
+  

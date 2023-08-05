@@ -1,0 +1,1 @@
+https://github.com/mitmedialab/sherlock-project.git@72133280a1f479a85561c936c6a89d12eb985118#egg=sherlock

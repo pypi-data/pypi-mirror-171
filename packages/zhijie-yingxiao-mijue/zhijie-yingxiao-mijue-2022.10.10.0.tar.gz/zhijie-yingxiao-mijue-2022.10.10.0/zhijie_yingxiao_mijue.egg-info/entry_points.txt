@@ -1,0 +1,4 @@
+[console_scripts]
+ZhijieYingxiaoMijue = ZhijieYingxiaoMijue.__main__:main
+zhijie-yingxiao-mijue = ZhijieYingxiaoMijue.__main__:main
+

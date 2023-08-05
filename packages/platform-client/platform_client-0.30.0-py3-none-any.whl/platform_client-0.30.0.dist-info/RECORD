@@ -1,0 +1,9 @@
+platform_client/__init__.py,sha256=iUL4ZdPF8acDvPNJWmomEGow7Smhwwcl4rUePXpXIZ8,25
+platform_client/authentication.py,sha256=sVbOTZ5gYKRKV_L1QZ_DSnn0MOmZeWdRrORqnOTHbUY,2602
+platform_client/configuration.py,sha256=REFHH6FcLpnONSBgGqneuT8fEzjuZ3S6mk3HZ452f9s,1802
+platform_client/entity_engine.py,sha256=QEhHxVFyuAQ-HjDF0Sr2YOP2pSDv-uomLI0fTQmN85Q,14613
+platform_client-0.30.0.dist-info/LICENSE,sha256=Ajhl6JK_c1ljtJsTjzVzeixVRIsgA0rANeXY2xqEMVA,1049
+platform_client-0.30.0.dist-info/METADATA,sha256=5WyEFo7nlzSLAUmLj_ViVj7Su5QVJmTY3ICC5Uou09g,817
+platform_client-0.30.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+platform_client-0.30.0.dist-info/top_level.txt,sha256=6C4UCXhB7LAkt9Kchdgplyf0pwyiEuPdVZtzJec7EOI,16
+platform_client-0.30.0.dist-info/RECORD,,

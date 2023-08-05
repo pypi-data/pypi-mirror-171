@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+speedtest.py
+speedtest_cli_urlfix.egg-info/PKG-INFO
+speedtest_cli_urlfix.egg-info/SOURCES.txt
+speedtest_cli_urlfix.egg-info/dependency_links.txt
+speedtest_cli_urlfix.egg-info/entry_points.txt
+speedtest_cli_urlfix.egg-info/top_level.txt

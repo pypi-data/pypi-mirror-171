@@ -1,0 +1,5 @@
+pydantic
+PyYAML
+
+[handle]
+cdep-package-handle

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cdep-package-configuration
+Version: 0.0.0
+Summary: cdep configuration package.
+Home-page: UNKNOWN
+Author: xxx-xxxxxx
+Author-email: xxx-xxxxxx@xxxxxxxxx.es
+License: UNLICENSED
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: handle
+
+UNKNOWN
+

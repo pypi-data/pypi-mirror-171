@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ch1_live_demo",
+        "slides": "ch1_live_demo.slides.html",
+        "md": "ch1_live_demo.html"
+    },
+    {
+        "name": "ch2_credits",
+        "slides": "ch2_credits.slides.html",
+        "md": "ch2_credits.html"
+    }
+]

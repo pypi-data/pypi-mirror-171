@@ -1,0 +1,4 @@
+[console_scripts]
+ZhexienianChengxuyuanYudaodeFalvBug = ZhexienianChengxuyuanYudaodeFalvBug.__main__:main
+zhexienian-chengxuyuan-yudaode-falv-bug = ZhexienianChengxuyuanYudaodeFalvBug.__main__:main
+

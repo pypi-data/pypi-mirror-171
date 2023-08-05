@@ -1,0 +1,15 @@
+README.md
+setup.py
+ZohoSolutionsSuite/__init__.py
+ZohoSolutionsSuite/auth.py
+ZohoSolutionsSuite.egg-info/PKG-INFO
+ZohoSolutionsSuite.egg-info/SOURCES.txt
+ZohoSolutionsSuite.egg-info/dependency_links.txt
+ZohoSolutionsSuite.egg-info/top_level.txt
+ZohoSolutionsSuite/books/__init__.py
+ZohoSolutionsSuite/creator/__init__.py
+ZohoSolutionsSuite/crm/__init__.py
+ZohoSolutionsSuite/crm/records.py
+ZohoSolutionsSuite/desk/__init__.py
+ZohoSolutionsSuite/inventory/__init__.py
+ZohoSolutionsSuite/projects/__init__.py

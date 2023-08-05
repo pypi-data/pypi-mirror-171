@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: iprcssngpy
+Version: 0.0.1
+Summary: Package creation and image processing study
+Author: Romário Pereira Marinho
+Author-email: eng.romariopmarinho@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8;
+Requires-Dist: numpy (~=1.23.1)
+Requires-Dist: scikit-image (~=0.19.2)
+Requires-Dist: matplotlib (~=3.5.2)
+
+# IPrcssngPy
+The package IPrcssngPy is used to:
+- Processing:
+  -  Histrogram matching
+  - Structural similarity
+  - Resize image
+- Utils:
+  - Read image
+  - Save image
+  - Plot image
+  - Plot result
+  - Plot histogram
+## Installation
+Use the packpage manager [pip](https://pip.pypa.io/en/stable/) to install IPrcssngPy
+```bash
+pip install iprcssngpy
+```
+## Author
+RomÃ¡rio Pereira Marinho
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

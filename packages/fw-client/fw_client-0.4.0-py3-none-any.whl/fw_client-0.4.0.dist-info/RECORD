@@ -1,0 +1,9 @@
+fw_client/__init__.py,sha256=4qWjvLMyy8kMri8Ow-lEujGVMEFN7KdFBQMR6Ug8OCU,426
+fw_client/client.py,sha256=xF1t7E4UvEQt-zu-XdHiJpD6w_vlcqlz_ytgqyGPZRU,11388
+fw_client/config.py,sha256=nv9uJf1JLqbGFkuUXyxXnfL2DIWC4rtcOub8OkLFXyg,3248
+fw_client/errors.py,sha256=3JZBhnoxhEaS7ThRQ1kAUSVB_aoTn4-O1JcD0RXpqsQ,255
+fw_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fw_client-0.4.0.dist-info/LICENSE,sha256=l6rSIY1z68PIZljFVsWf7vH6pbhZay7Yz2EKgbsR8q0,1078
+fw_client-0.4.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+fw_client-0.4.0.dist-info/METADATA,sha256=Q9wsGIpQenN-t5JIjZ3VMDaS8MnnzeZ5mux8omuzCFU,1565
+fw_client-0.4.0.dist-info/RECORD,,

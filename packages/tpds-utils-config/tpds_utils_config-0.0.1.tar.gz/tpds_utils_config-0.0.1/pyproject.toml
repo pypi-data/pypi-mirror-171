@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=57",
+    "wheel",
+    "pyyaml"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tpds_utils_config"
+version = "0.0.1"
+authors = [
+  { name="TPDS", email="dataservices@travelpassgroup.com" },
+]
+description = "TPDS config utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

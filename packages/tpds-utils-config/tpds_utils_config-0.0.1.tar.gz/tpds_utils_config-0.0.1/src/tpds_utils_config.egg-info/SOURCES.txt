@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tpds_utils_config/__init__.py
+src/tpds_utils_config/config.py
+src/tpds_utils_config.egg-info/PKG-INFO
+src/tpds_utils_config.egg-info/SOURCES.txt
+src/tpds_utils_config.egg-info/dependency_links.txt
+src/tpds_utils_config.egg-info/top_level.txt

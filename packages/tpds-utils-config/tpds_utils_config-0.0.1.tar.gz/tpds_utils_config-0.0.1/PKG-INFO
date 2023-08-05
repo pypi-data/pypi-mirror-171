@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tpds_utils_config
+Version: 0.0.1
+Summary: TPDS config utilities
+Author-email: TPDS <dataservices@travelpassgroup.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Config
+Config functions for TPDS.

@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenYijuBaofen = ChenchangwenYijuBaofen.__main__:main
+chenchangwen-yiju-baofen = ChenchangwenYijuBaofen.__main__:main
+

@@ -1,0 +1,16 @@
+summac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+summac/benchmark.py,sha256=xIGDyE5YM1eTIVUkAzpCTgdkCpdgkMQc4wQ3StJupsU,19503
+summac/model_baseline.py,sha256=Uz8SbsEx-McrWM7Hqa6n5gCxLUr8BLoQVROwjAEYThk,6191
+summac/model_guardrails.py,sha256=9HCf3Eq_IVM33B9NUnInFsagbp3Pk8_boK8f7U7E4zg,7125
+summac/model_summac.py,sha256=JpnG0wsX0m-Z5Gf0Bf_cfTrtUUI4BDBbcdJL8ERUudA,18283
+summac/run_baseline.py,sha256=TWP4XFT81nHMvH4UlAIxNuSmQ0Ozdj7mDaoa_0QvmpE,5183
+summac/train_summac.py,sha256=NlYpZctA41J0z5_7usVLm_1XekMTsQjjq56CDOu1Ppk,6274
+summac/utils_misc.py,sha256=D3CtG3Az18EN84iD8iRBA2MDSyGWeIXOvsu_EwQ0n1A,1822
+summac/utils_optim.py,sha256=9xGBYN9Bc0vPwGQqWbaLyUyTkZgFIY7oDN_f53y-_z8,954
+summac/utils_scorer.py,sha256=vsMjG8qMf9XYmxWHDZSafNnxu7NyvQG5IYJsp8_W3Ro,2652
+summac/utils_scoring.py,sha256=obzstxewfLFUI12GaWSGhATP5qyOtcUUnIq6Ue99a9c,5125
+summac-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+summac-0.0.3.dist-info/METADATA,sha256=Cr1Fl7jPWVO9HSJseeBdTtnv1K__4wQJhXzU2ANmONs,5542
+summac-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+summac-0.0.3.dist-info/top_level.txt,sha256=1zIWq3gJHVyyVsyZd0egmMGtPwIzu7gWClxZkdD5iYw,7
+summac-0.0.3.dist-info/RECORD,,

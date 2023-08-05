@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cdev-assembly-line"
+version = "0.0.1"
+description = "Tool for generating Pypi ready Python Projects"
+authors = ["Daniel Sanchez <15sanchd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src/assembly_line"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^5.2"
+pre-commit = "^2.20.0"
+scriv = "^0.17.0"
+tox = "^3.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

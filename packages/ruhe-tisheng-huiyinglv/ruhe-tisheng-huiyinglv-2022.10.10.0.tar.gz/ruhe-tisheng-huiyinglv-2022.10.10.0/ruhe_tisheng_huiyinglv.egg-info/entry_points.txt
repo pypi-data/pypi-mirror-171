@@ -1,0 +1,4 @@
+[console_scripts]
+RuheTishengHuiyinglv = RuheTishengHuiyinglv.__main__:main
+ruhe-tisheng-huiyinglv = RuheTishengHuiyinglv.__main__:main
+

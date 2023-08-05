@@ -1,0 +1,12 @@
+halo_third_party_sdk_events/__init__.py,sha256=CZ3pBtu1mbaLgpFsNQRmHQu-BKEBlmAdYGciwv37Fmc,593
+halo_third_party_sdk_events/__version__.py,sha256=aNXvQJNj8mAQHxLdPp_m2fz3w94mHFne6oZy6uAuMPM,1201
+halo_third_party_sdk_events/event_verification_handler.py,sha256=eKK9ZAvGrDjHabObauy0jaVjRCEihtUq3s8KCxradB4,4342
+halo_third_party_sdk_events/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halo_third_party_sdk_events/serialize.py,sha256=zujNhp4qQkm3adug3PHLp99e-0Vv3UQw12ywFbGX9lU,15555
+halo_third_party_sdk_events/verifier.py,sha256=jbDjp8kK5rUcKirwDB5dBJU8ZrrSpuSc1FibOZyWrIs,21770
+halo_third_party_sdk_events/verifier_constants.py,sha256=JJ6KlY-M3hAuFPevlBd3T7RerMh8RIaRD7JumDxeZqY,1966
+halo_third_party_sdk_events-2.0.0.dist-info/LICENSE,sha256=V7bh2pUqsU0NHO9R5_jUMjMjpPZDcl-iCZkzi8zCHo8,544
+halo_third_party_sdk_events-2.0.0.dist-info/METADATA,sha256=FfucOzZ2ociKdwbvcIC2yts_nD6AwTqvcPiDKNJyj-U,3818
+halo_third_party_sdk_events-2.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+halo_third_party_sdk_events-2.0.0.dist-info/top_level.txt,sha256=kvvOiaRWveXMc1-fHilHezUxL4FDzLOOKzUr95VKq4c,28
+halo_third_party_sdk_events-2.0.0.dist-info/RECORD,,

@@ -1,0 +1,75 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary hummingbird-dual-motor-driver
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=hummingbird-dual-motor-driver/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    _extensions:               ['jinja2_time.TimeExtension']
+    _output_dir:               '/Users/fmorton/GitHub/tmp'
+    _template:                 'gh:ionelmc/cookiecutter-pylibrary'
+    allow_tests_inside_package: 'no'
+    appveyor:                  'no'
+    c_extension_function:      'longest'
+    c_extension_module:        '_hummingbird_dual_motor_driver'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    c_extension_test_pypi:     'no'
+    c_extension_test_pypi_username: 'fmorton'
+    codacy:                    'no'
+    codacy_projectid:          '[Get ID from https://app.codacy.com/gh/fmorton/hummingbird-dual-motor-driver/settings]'
+    codeclimate:               'no'
+    codecov:                   'yes'
+    command_line_interface:    'plain'
+    command_line_interface_bin_name: 'hummingbird-dual-motor-driver'
+    coveralls:                 'no'
+    distribution_name:         'hummingbird-dual-motor-driver'
+    email:                     'fmorton@mac.com'
+    full_name:                 'Frank Morton'
+    github_actions:            'yes'
+    github_actions_osx:        'yes'
+    github_actions_windows:    'yes'
+    legacy_python:             'no'
+    license:                   'MIT license'
+    linter:                    'flake8'
+    package_name:              'hummingbird_dual_motor_driver'
+    pre_commit:                'yes'
+    pre_commit_formatter:      'black'
+    project_name:              'Hummingbird Dual Motor Driver'
+    project_short_description: 'A dual motor driver for Birdbrain Technologies Hummingbird'
+    pypi_badge:                'yes'
+    pypi_disable_upload:       'no'
+    release_date:              'today'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'github.com'
+    repo_main_branch:          'main'
+    repo_name:                 'hummingbird-dual-motor-driver'
+    repo_username:             'fmorton'
+    requiresio:                'yes'
+    scrutinizer:               'no'
+    setup_py_uses_pytest_runner: 'no'
+    setup_py_uses_setuptools_scm: 'no'
+    sphinx_docs:               'yes'
+    sphinx_docs_hosting:       'https://hummingbird-dual-motor-driver.readthedocs.io/'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    travis:                    'no'
+    travis_osx:                'no'
+    version:                   '0.0.1'
+    version_manager:           'bump2version'
+    website:                   'https://www.makernotebook.org'
+    year_from:                 '2022'
+    year_to:                   '2022'

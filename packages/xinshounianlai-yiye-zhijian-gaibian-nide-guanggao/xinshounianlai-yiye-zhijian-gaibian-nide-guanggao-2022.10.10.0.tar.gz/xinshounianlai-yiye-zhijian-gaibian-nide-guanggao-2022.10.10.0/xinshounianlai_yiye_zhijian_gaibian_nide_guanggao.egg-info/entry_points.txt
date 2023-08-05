@@ -1,0 +1,4 @@
+[console_scripts]
+XinshounianlaiYiyeZhijianGaibianNideGuanggao = XinshounianlaiYiyeZhijianGaibianNideGuanggao.__main__:main
+xinshounianlai-yiye-zhijian-gaibian-nide-guanggao = XinshounianlaiYiyeZhijianGaibianNideGuanggao.__main__:main
+

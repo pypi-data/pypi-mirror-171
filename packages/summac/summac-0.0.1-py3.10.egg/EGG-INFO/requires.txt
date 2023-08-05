@@ -1,0 +1,8 @@
+click<7.2.0,>=7.1.1
+xlrd==1.2.0
+requests
+numpy
+pandas
+datasets==1.7.0
+scikit-learn==1.0.2
+nltk==3.6.5

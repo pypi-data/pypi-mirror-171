@@ -1,0 +1,10 @@
+versionedobj/__init__.py,sha256=i9ZSJQx0M7AJrumWkFAhSLxC3WF6GbhP6PljYkPeMNE,278
+versionedobj/exceptions.py,sha256=N58IwmQ1bkSn9AT0LK9-XxHJNUGfq4cw44P0LTI2bzw,595
+versionedobj/object.py,sha256=aAbJ4ByWFVrWUqHMECIpMOt_rbcYpxOi9Wd5oX51dq4,8063
+versionedobj/serializer.py,sha256=Moaxd3TwdpOMEy6paILSXXQSF8EB1ppgVQfFgtBLmXQ,11403
+versionedobj/utils.py,sha256=kNno17PoVUoMhou1ehMkBuu8v6rE2y5hFuIkj7U71vY,4878
+versionedobj-1.1.0.dist-info/LICENSE,sha256=FOBJAd_xszS6fbFtMYBn7VRp2Ymk2pG-aOD9YQdJJaM,10761
+versionedobj-1.1.0.dist-info/METADATA,sha256=lmR0KieIq7CJH-h7mfwoF-j92uBXru4IQR9Si58Mxco,20792
+versionedobj-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+versionedobj-1.1.0.dist-info/top_level.txt,sha256=241kUNO3YuKrdjI3Fe9o5t-r6UdktsRLzhpJBYvoAVY,13
+versionedobj-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+pytket/extensions/pyquil/__init__.py,sha256=xyJjsKCeHGm4rDoJk8K7W3grRcOi3pNO-Pnbgtmc88o,946
+pytket/extensions/pyquil/_metadata.py,sha256=u-mqRp_TI6RzyxSTiYr87y0kUW99rLwD2mTmw4bqPTo,73
+pytket/extensions/pyquil/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/pyquil/pyquil_convert.py,sha256=p-eX7KmAXYbujs53TxMpVf_wSzlJVrMZScgBSvFuf5I,15671
+pytket/extensions/pyquil/backends/__init__.py,sha256=xcCxLA1bzP6-J0ZdLyQv2hIbYisabVAxEfTPBAp_b1g,764
+pytket/extensions/pyquil/backends/forest.py,sha256=PqkF7OXtzGiXZsBm_jBvqUcBV8u9SspjqZY_0yMAjBU,16323
+pytket_pyquil-0.27.0rc0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytket_pyquil-0.27.0rc0.dist-info/METADATA,sha256=Mh9zFwtRFj3Zblq4Igdswaj5c3Grh6OH1WNQ4zAHdu4,4095
+pytket_pyquil-0.27.0rc0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytket_pyquil-0.27.0rc0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_pyquil-0.27.0rc0.dist-info/RECORD,,

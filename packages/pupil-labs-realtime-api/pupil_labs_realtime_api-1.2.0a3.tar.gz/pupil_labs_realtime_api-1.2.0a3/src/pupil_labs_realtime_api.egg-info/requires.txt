@@ -1,0 +1,33 @@
+aiohttp[speedups]
+aiortsp
+av
+click
+nptyping<2
+rich
+websockets
+zeroconf
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[:python_version <= "3.10"]
+typing-extensions
+
+[docs]
+furo
+jaraco.packaging>=8.2
+rst.linker>=1.9
+sphinx<4.4
+
+[docs:python_version < "3.8"]
+importlib-metadata
+
+[opencv]
+opencv-python
+
+[testing]
+pytest>=6
+pytest-checkdocs>=2.4
+pytest-cov
+pytest-enabler>=1.0.1
+pytest-mypy

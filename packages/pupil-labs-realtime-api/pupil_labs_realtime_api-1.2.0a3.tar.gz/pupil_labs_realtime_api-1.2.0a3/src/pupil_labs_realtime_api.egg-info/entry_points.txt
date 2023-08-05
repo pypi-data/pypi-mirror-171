@@ -1,0 +1,2 @@
+[console_scripts]
+pl-discover = pupil_labs.realtime_api.discovery:cli

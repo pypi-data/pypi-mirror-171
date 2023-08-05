@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyfii/__init__.py
+pyfii/drone.py
+pyfii/fii.py
+pyfii/read.py
+pyfii/show.py
+pyfii.egg-info/PKG-INFO
+pyfii.egg-info/SOURCES.txt
+pyfii.egg-info/dependency_links.txt
+pyfii.egg-info/requires.txt
+pyfii.egg-info/top_level.txt

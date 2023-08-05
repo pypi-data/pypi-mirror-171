@@ -1,0 +1,32 @@
+{
+    "schemaId": "properties/raw-property",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Schema of material's preliminary property",
+    "allOf": [
+        {
+            "description": "entity schema",
+            "$ref": "../system/entity.json"
+        }
+    ],
+    "properties": {
+        "slug": {
+            "description": "property slug, e.g. total_energy",
+            "type": "string"
+        },
+        "group": {
+            "description": "property group, e.g. qe:dft:gga:pbe",
+            "type": "string"
+        },
+        "data": {
+            "description": "container of the information, specific to each property",
+            "type": "object"
+        },
+        "source": {
+            "$ref": "source.json"
+        }
+    },
+    "required": [
+        "data",
+        "source"
+    ]
+}

@@ -1,0 +1,13 @@
+prestodb/__init__.py,sha256=brzqAeNAUVQuuZXClJsI0E2Fr7J8L4Fa5tG3AaV6jwE,786
+prestodb/auth.py,sha256=E717nOgydaEkTfslJ7vI4kTop43reYjH4VbL4_dSLL0,4305
+prestodb/client.py,sha256=BhxbPQcRla-eqcaXBtodHkgKW4U7JEGEWdXWRu99Hjc,20461
+prestodb/constants.py,sha256=YipAcIJ79X-5W0WLFp8b7AfLZwkmecQxzvKW0Ja3SCY,1695
+prestodb/dbapi.py,sha256=MPIAlTBdOWgxgwgerql3v6iPriBUgMieAmSvUisDiww,10628
+prestodb/exceptions.py,sha256=h_AV9oaZ_1Sb49aUOL2CJ1OCAOWdXaFFT11nic6e7v4,4835
+prestodb/redirect.py,sha256=8wbktHkZ7ftYjFg13QvXQSf_LpwpsoxMNn3KhPrM3lk,1623
+prestodb/transaction.py,sha256=o-aiXYTS-zC-e5YsO1AuuOIhxBgSAci0IUKWXMa8rQQ,3424
+presto_python_client-0.8.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+presto_python_client-0.8.3.dist-info/METADATA,sha256=z8vdnc-rHocJwFmjqMjsQ4EuEnXy8I-voQrHa3U3QGE,2011
+presto_python_client-0.8.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+presto_python_client-0.8.3.dist-info/top_level.txt,sha256=tNEu4DSpAr2Z1dFZXt-YE0iGb7VEVO0owsi9zGFnsDs,9
+presto_python_client-0.8.3.dist-info/RECORD,,

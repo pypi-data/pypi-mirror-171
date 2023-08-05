@@ -1,0 +1,6 @@
+create_drf_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_drf_app/main.py,sha256=RdKcSKBOyFyRoyA8Q5bq2XIdzjSBvvL1w4DyR1Ur_ls,993
+create_drf_app-0.1.7.dist-info/entry_points.txt,sha256=NvRauJ0CStHSKG8XHtimWiibt1fHdWFhA0WPJqV0GTg,58
+create_drf_app-0.1.7.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+create_drf_app-0.1.7.dist-info/METADATA,sha256=L968dm5yEcT-gEH-SvChQ4TEaTbspx_Iuxe2Y6JOZ6w,512
+create_drf_app-0.1.7.dist-info/RECORD,,

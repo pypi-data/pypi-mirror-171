@@ -1,0 +1,4 @@
+[console_scripts]
+X539DanganVol1 = X539DanganVol1.__main__:main
+x539-dangan-vol1 = X539DanganVol1.__main__:main
+

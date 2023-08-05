@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: CDLparser
+Version: 0.24
+Summary: A python3 netcdf CDL parser
+Author: Ben Sanderson
+License-File: LICENSE.TXT

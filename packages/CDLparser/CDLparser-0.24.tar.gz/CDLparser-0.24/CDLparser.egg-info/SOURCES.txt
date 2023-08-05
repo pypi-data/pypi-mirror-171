@@ -1,0 +1,10 @@
+LICENSE.TXT
+README.md
+setup.py
+CDLparser.egg-info/PKG-INFO
+CDLparser.egg-info/SOURCES.txt
+CDLparser.egg-info/dependency_links.txt
+CDLparser.egg-info/requires.txt
+CDLparser.egg-info/top_level.txt
+cdlparser/__init__.py
+cdlparser/cdlparser.py

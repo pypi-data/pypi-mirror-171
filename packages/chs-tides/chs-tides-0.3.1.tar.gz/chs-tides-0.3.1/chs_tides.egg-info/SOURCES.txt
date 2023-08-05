@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+chs-tides/__init__.py
+chs-tides/chs_iwls.py
+chs-tides/const.py
+chs_tides.egg-info/PKG-INFO
+chs_tides.egg-info/SOURCES.txt
+chs_tides.egg-info/dependency_links.txt
+chs_tides.egg-info/requires.txt
+chs_tides.egg-info/top_level.txt

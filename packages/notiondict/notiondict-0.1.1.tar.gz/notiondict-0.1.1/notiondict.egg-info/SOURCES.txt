@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+notiondict/__init__.py
+notiondict/config.yml
+notiondict/get_active_window_title_macos.scpt
+notiondict/notiondict.py
+notiondict.egg-info/PKG-INFO
+notiondict.egg-info/SOURCES.txt
+notiondict.egg-info/dependency_links.txt
+notiondict.egg-info/entry_points.txt
+notiondict.egg-info/not-zip-safe
+notiondict.egg-info/requires.txt
+notiondict.egg-info/top_level.txt

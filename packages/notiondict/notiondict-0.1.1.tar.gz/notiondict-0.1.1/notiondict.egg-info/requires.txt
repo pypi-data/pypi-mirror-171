@@ -1,0 +1,5 @@
+readmdict
+requests
+docopt
+pyclip
+PyYAML

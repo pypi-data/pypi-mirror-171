@@ -1,0 +1,9 @@
+napari_input_visualizer/__init__.py,sha256=T3RWl3-pj6lHPz_udeqcrNQ39WtjOZTVV1-BkgtKEuw,109
+napari_input_visualizer/_widget.py,sha256=eoKUbu1b5fDPy2iyWGeWOi5xme22_2IeoG8zrakw4Qo,10400
+napari_input_visualizer/napari.yaml,sha256=JglEdf2VRf_2EUywmlp22svQ1dWBZPa7LXv2k5lDW1M,370
+napari_input_visualizer-0.0.1.dist-info/LICENSE,sha256=xFneyyILcZrwAUJXGIf1kmn3qGZxmlz0rRUzbTChvKw,1486
+napari_input_visualizer-0.0.1.dist-info/METADATA,sha256=6w1Uq8H1jfV9n-DLsxSM74PHn5355w4oBBNZC1q9-qw,4641
+napari_input_visualizer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_input_visualizer-0.0.1.dist-info/entry_points.txt,sha256=fHA12zV-QGhX6EVHffxu5-vVzjM5vOqy-y9-5XYYbqE,80
+napari_input_visualizer-0.0.1.dist-info/top_level.txt,sha256=oR6tRPW32gN0Tahzanp9GZP1mS-GhXWMQr_VGZtDWYs,24
+napari_input_visualizer-0.0.1.dist-info/RECORD,,

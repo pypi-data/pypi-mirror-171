@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-input-visualizer = napari_input_visualizer:napari.yaml

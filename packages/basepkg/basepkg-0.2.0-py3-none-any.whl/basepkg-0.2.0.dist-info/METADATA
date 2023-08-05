@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: basepkg
+Version: 0.2.0
+Summary: 
+Author: Thomas PETIT-JEAN
+Author-email: thomas.petitjean-ext@aphp.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: aphp
+Requires-Dist: datapkgaphp (==0.1.0); extra == "aphp"
+Description-Content-Type: text/markdown
+
+

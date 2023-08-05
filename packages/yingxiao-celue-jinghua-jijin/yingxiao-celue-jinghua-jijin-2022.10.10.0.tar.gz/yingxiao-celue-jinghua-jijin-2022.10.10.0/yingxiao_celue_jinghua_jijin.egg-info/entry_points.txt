@@ -1,0 +1,4 @@
+[console_scripts]
+YingxiaoCelueJinghuaJijin = YingxiaoCelueJinghuaJijin.__main__:main
+yingxiao-celue-jinghua-jijin = YingxiaoCelueJinghuaJijin.__main__:main
+

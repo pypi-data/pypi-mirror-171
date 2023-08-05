@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/unicode_age.pyx
+src/unicode_age.egg-info/PKG-INFO
+src/unicode_age.egg-info/SOURCES.txt
+src/unicode_age.egg-info/dependency_links.txt
+src/unicode_age.egg-info/requires.txt
+src/unicode_age.egg-info/top_level.txt

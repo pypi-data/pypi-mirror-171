@@ -1,0 +1,28 @@
+[project]
+name = "unicode_age"
+version = "15.0.0"
+description = "A package for determining what version a Unicode codepoint was added to the standard"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = ["pytest", "twine", "cibuildwheel", "Cython", "build"]
+
+[build-system]
+requires = ["setuptools", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{37,38,39,310}, pypy{37,38,39}
+
+[testenv]
+deps = pytest
+commands = pytest
+"""
+
+[tool.cibuildwheel]
+test-requires = "pytest"
+test-command = "pytest -v {project}/tests"

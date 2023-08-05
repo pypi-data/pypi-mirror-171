@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hc-log-tools
+Version: 1.0.7
+Author: xukai.shi
+Author-email: shixukai@163.com
+License-File: LICENSE
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: setuptools (==58.1.0)
+

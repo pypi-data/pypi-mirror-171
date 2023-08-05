@@ -1,0 +1,15 @@
+otkerneldesign/BayesianQuadratureWeighting.py,sha256=eO6AtoVzAbwkY3n4somcTIX64ql67Hhg80aP4sP9Ycs,5205
+otkerneldesign/GreedySupportPoints.py,sha256=F_7dTL8TIbjRfV_4wUDjQKUeuYbjvnvUCZR1gsTImG4,11875
+otkerneldesign/KernelHerding.py,sha256=oLgIEHipysNe8_Rj3opwYg8XidZXx8lS4Qs2tXKRXyU,20836
+otkerneldesign/KernelHerdingTensorized.py,sha256=QRI_d2dGBuJQNJOBH2UclV8H8_-xG2l-blimFW7dbq8,21152
+otkerneldesign/TestSetWeighting.py,sha256=EYeeJDUZWHYPIEPYX1BWKdm1i05omANSkKgT_UIRBSY,6362
+otkerneldesign/__init__.py,sha256=D2_Grd0J8Vjnfdnb1HHYefX42ioREea-czBOcsSBk8o,476
+test/test_BayesianQuadratureWeighting.py,sha256=sUDrZ4IgB5mWQzsiR1Br9bME7TNIN0paqkGVfULJTtk,1220
+test/test_GreedySupportPoints.py,sha256=5opFstx8kYPBjybuBM3MeB1pgLBlVeJ8ss_S7bAN5s0,1386
+test/test_KernelHerding.py,sha256=hW_xCxfSsK6Mm3Cc7C1yJ5g4iU-S1LtdsuEPduteEZM,1218
+test/test_KernelHerdingTensorized.py,sha256=ITCzkiCWpzhZ3uhyt6MzNMMTykVB98HzdcwW8GgVkjs,1429
+otkerneldesign-0.1.4.dist-info/COPYING.LESSER,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+otkerneldesign-0.1.4.dist-info/METADATA,sha256=H5rcYGiIhOXK31HCmyUX1JHi2kIFknxUc-8q60Bp4Lg,2228
+otkerneldesign-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+otkerneldesign-0.1.4.dist-info/top_level.txt,sha256=m5YZW4aYTu9g3apSGj7k_e-0KtnC1_W_LHFxMRBKUuI,20
+otkerneldesign-0.1.4.dist-info/RECORD,,

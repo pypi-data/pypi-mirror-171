@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oiseau
+Version: 0.1.0
+Summary: 
+Author: tiagovla
+Author-email: tiagovla@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: gmsh (>=4.10.3,<5.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)

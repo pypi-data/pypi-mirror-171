@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+PowerWrapper/System.py
+PowerWrapper/__init__.py
+PowerWrapper/errors.py
+PowerWrapper/maths.py
+PowerWrapper.egg-info/PKG-INFO
+PowerWrapper.egg-info/SOURCES.txt
+PowerWrapper.egg-info/dependency_links.txt
+PowerWrapper.egg-info/requires.txt
+PowerWrapper.egg-info/top_level.txt

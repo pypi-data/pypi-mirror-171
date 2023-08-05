@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: class_wise_rl_diagrams
+Version: 0.1
+Summary: Libraray to generate multiple classwise calibration diagrams for multi-class classification domain
+Home-page: https://github.com/Sanskar95/class_wise_rl_diagrams
+Author: Sanskar Gupta
+Author-email: snskr95@gmail.com
+License: MIT
+Download-URL: https://github.com/Sanskar95/class_wise_rl_diagrams/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Calibration,Uncertainty,Confidence
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

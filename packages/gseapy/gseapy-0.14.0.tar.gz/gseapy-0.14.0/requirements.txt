@@ -1,0 +1,10 @@
+pip>=19.1
+wheel
+numpy>=1.9.0
+scipy
+matplotlib>=1.4.3
+pandas>=0.16
+requests
+joblib
+setuptools-rust>=0.10.2
+

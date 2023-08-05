@@ -1,0 +1,12 @@
+README.md
+setup.py
+X539DanganVol4/README.md
+X539DanganVol4/__init__.py
+X539DanganVol4/__main__.py
+X539DanganVol4/file.pdf
+X539DanganVol4/index.html
+x539_dangan_vol4.egg-info/PKG-INFO
+x539_dangan_vol4.egg-info/SOURCES.txt
+x539_dangan_vol4.egg-info/dependency_links.txt
+x539_dangan_vol4.egg-info/entry_points.txt
+x539_dangan_vol4.egg-info/top_level.txt

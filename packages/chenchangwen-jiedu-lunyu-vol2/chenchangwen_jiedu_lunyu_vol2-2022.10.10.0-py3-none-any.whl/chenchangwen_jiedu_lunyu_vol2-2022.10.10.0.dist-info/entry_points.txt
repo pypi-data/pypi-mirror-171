@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenJieduLunyuVol2 = ChenchangwenJieduLunyuVol2.__main__:main
+chenchangwen-jiedu-lunyu-vol2 = ChenchangwenJieduLunyuVol2.__main__:main
+

@@ -1,0 +1,11 @@
+_bloock_bridge_lib.pypy38-pp73-win_amd64.pyd,sha256=ewIw0pC_ttl7p_hIQvLfhnQwaoCptqqCwnzvqyxbKO0,4062720
+_bridge/__init__.py,sha256=5P0vj4lf-cgoTOLi_FKDOVt8S649ioyNGFAhNuObzLA,34
+_bridge/bridge.py,sha256=KUGGQvXY2kSDxcsJRnF5a0uOurSLCwdxNCrgBQXUFaQ,639
+_bridge/channel.py,sha256=s_hGWqSNbjUvuqW2VurvRZybFaP9AzmmyQGbYeG_9P0,2214
+_ffi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_ffi/build.py,sha256=01dBbR6Go_YB5lRC1rUOUXqi_m9W0O7Wb6whFqO1DPM,1604
+_ffi/ffi.py,sha256=FHMaJ11db2fDEyNbKiedjqglcT1T1i7HAjIHLnVoNZI,515
+bloock_sdk-2.0.0b9.dist-info/METADATA,sha256=0VcIri0A554isTdS6Mk8f3lR8SMSL_2fGwItSUepL8c,5822
+bloock_sdk-2.0.0b9.dist-info/WHEEL,sha256=06TODGy9zsn9QCb4Oo1wjtnM2jOjgiTR78nw1cWltRU,107
+bloock_sdk-2.0.0b9.dist-info/top_level.txt,sha256=BnA2ch6evvASwYjQVHJyQjbWgWY4tuTf7P9AHpqcOxc,32
+bloock_sdk-2.0.0b9.dist-info/RECORD,,

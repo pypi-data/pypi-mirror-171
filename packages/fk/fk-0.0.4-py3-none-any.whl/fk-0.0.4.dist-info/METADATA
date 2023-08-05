@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fk
+Version: 0.0.4
+Summary: Based on code from Julien Palard.
+Home-page: https://github.com/thorwhalen/uu/tree/master/fk
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# fk
+Based on code from Julien Palard.
+
+
+To install:	```pip install fk```
+
+

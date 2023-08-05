@@ -1,0 +1,6 @@
+kmedoids_debug-0.4.1.dist-info/METADATA,sha256=GMgzYBPUAqjvyq0rVbX0AUg0MXp81n5JltqCxGY8xms,7040
+kmedoids_debug-0.4.1.dist-info/WHEEL,sha256=zu6S3IlREJwLIczgWGZF5tkkm6zcn9fESfirdcN3wAQ,96
+kmedoids_debug-0.4.1.dist-info/license_files/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+kmedoids/__init__.py,sha256=pt-l5M07-alp5ncWqlmJGRuFDy6K9y34JzdzJXZZDgM,35502
+kmedoids/kmedoids.cp310-win_amd64.pyd,sha256=NoXe6ACp4Kmn9IYMRr3MAdJ-NjFNiVPbHWnKb-skSjU,990208
+kmedoids_debug-0.4.1.dist-info/RECORD,,

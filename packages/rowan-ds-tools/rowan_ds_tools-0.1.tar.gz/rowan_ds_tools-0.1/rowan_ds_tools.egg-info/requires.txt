@@ -1,0 +1,9 @@
+numpy
+pandas
+protobuf
+pytest
+scipy
+SQLAlchemy
+google-cloud
+google-cloud-storage
+psycopg2-binary

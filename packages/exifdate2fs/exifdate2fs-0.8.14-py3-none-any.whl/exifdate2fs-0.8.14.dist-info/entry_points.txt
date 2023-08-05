@@ -1,0 +1,2 @@
+[console_scripts]
+exifdate2fs = exifdate2fs.__init__:main

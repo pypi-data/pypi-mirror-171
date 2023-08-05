@@ -1,0 +1,1 @@
+This is keystore2. It's twice as good as keystore. Doesn't do much yet. Make sure to have the OS dependencies required.

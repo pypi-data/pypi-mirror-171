@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: image-processing-package-srmaia
+Version: 0.0.1
+Summary: Pacote de processamento de imagens usando Skimage
+Home-page: https://github.com/usrmaia/image-processing-package
+Author: George Maia - usrmaia
+Author-email: georgemaiaf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# image-processing-package
+O pacote "image-processing-package" é usado para:
+
+Módulo "processing":
+* Correspondência de histograma;
+* Similaridade estrutural;
+* Redimensionar imagem.
+
+Módulo "Utils":
+* Ler imagem;
+* Salvar imagem;
+* Plotar imagem;
+* Resultado do gráfico;
+* Plotar histograma.
+## Instalção do Pacote
+Use o gerenciador de pacotes [pip](https://test.pypi.org/simple/) para instalar image-processing-package
+```
+pip install image-processing-package-srmaia
+```
+

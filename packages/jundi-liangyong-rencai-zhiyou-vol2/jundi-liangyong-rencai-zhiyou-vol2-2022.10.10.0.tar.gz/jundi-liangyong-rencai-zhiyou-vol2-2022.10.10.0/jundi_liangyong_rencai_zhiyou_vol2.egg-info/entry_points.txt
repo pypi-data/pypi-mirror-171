@@ -1,0 +1,4 @@
+[console_scripts]
+JundiLiangyongRencaiZhiyouVol2 = JundiLiangyongRencaiZhiyouVol2.__main__:main
+jundi-liangyong-rencai-zhiyou-vol2 = JundiLiangyongRencaiZhiyouVol2.__main__:main
+

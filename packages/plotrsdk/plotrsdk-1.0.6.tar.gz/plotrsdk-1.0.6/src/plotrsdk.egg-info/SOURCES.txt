@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/plotrsdk/__init__.py
+src/plotrsdk/books.py
+src/plotrsdk/chapters.py
+src/plotrsdk/characters.py
+src/plotrsdk/movies.py
+src/plotrsdk/quotes.py
+src/plotrsdk/service.py
+src/plotrsdk/utils.py
+src/plotrsdk.egg-info/PKG-INFO
+src/plotrsdk.egg-info/SOURCES.txt
+src/plotrsdk.egg-info/dependency_links.txt
+src/plotrsdk.egg-info/top_level.txt

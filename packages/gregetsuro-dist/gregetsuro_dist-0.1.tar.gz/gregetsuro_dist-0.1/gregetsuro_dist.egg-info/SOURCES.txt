@@ -1,0 +1,10 @@
+setup.py
+gregetsuro_dist/Binomialdistribution.py
+gregetsuro_dist/Gaussiandistribution.py
+gregetsuro_dist/Generaldistribution.py
+gregetsuro_dist/__init__.py
+gregetsuro_dist.egg-info/PKG-INFO
+gregetsuro_dist.egg-info/SOURCES.txt
+gregetsuro_dist.egg-info/dependency_links.txt
+gregetsuro_dist.egg-info/not-zip-safe
+gregetsuro_dist.egg-info/top_level.txt

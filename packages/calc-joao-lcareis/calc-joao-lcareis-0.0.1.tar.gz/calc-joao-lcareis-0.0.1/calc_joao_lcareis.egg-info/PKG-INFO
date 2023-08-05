@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: calc-joao-lcareis
+Version: 0.0.1
+Summary: Mini Calculadora
+Home-page: https://github.com/JoaoLucio1204/Pacotes
+Author: JoaoLucio
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# calc-joao-lucio-a-reis
+
+Descricao: Mini calculadora para praticar o conceito de criacao de pacotes
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install calc-joao-lcareis
+```
+
+
+
+## Author
+Joao Lucio
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

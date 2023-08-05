@@ -1,0 +1,8 @@
+README.md
+setup.py
+calc-joao-lcareis/__init__.py
+calc-joao-lcareis/file1_name.py
+calc_joao_lcareis.egg-info/PKG-INFO
+calc_joao_lcareis.egg-info/SOURCES.txt
+calc_joao_lcareis.egg-info/dependency_links.txt
+calc_joao_lcareis.egg-info/top_level.txt

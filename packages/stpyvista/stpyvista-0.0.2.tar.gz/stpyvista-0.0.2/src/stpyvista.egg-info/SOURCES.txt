@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/stpyvista/__init__.py
+src/stpyvista/__main__.py
+src/stpyvista.egg-info/PKG-INFO
+src/stpyvista.egg-info/SOURCES.txt
+src/stpyvista.egg-info/dependency_links.txt
+src/stpyvista.egg-info/requires.txt
+src/stpyvista.egg-info/top_level.txt

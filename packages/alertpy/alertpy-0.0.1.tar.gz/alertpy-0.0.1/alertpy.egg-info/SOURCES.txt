@@ -1,0 +1,8 @@
+README.md
+setup.py
+alertpy/__init__.py
+alertpy.egg-info/PKG-INFO
+alertpy.egg-info/SOURCES.txt
+alertpy.egg-info/dependency_links.txt
+alertpy.egg-info/requires.txt
+alertpy.egg-info/top_level.txt

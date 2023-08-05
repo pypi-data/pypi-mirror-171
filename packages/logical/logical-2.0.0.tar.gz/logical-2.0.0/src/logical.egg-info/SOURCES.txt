@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/logical/__init__.py
+src/logical/logical.py
+src/logical.egg-info/PKG-INFO
+src/logical.egg-info/SOURCES.txt
+src/logical.egg-info/dependency_links.txt
+src/logical.egg-info/requires.txt
+src/logical.egg-info/top_level.txt

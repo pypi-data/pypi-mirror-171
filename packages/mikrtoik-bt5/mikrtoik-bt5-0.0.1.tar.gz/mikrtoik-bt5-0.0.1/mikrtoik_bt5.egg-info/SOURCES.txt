@@ -1,0 +1,9 @@
+README.md
+setup.py
+mikrotik_bt5/__init__.py
+mikrotik_bt5/client.py
+mikrtoik_bt5.egg-info/PKG-INFO
+mikrtoik_bt5.egg-info/SOURCES.txt
+mikrtoik_bt5.egg-info/dependency_links.txt
+mikrtoik_bt5.egg-info/requires.txt
+mikrtoik_bt5.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+efficientnet
+opencv-python
+pystow
+tensorflow>=2.8.0

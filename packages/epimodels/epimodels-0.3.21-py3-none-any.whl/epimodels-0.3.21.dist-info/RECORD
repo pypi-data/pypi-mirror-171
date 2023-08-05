@@ -1,0 +1,11 @@
+epimodels/__init__.py,sha256=Gm4D-29Xa2ewrSY82cg6-XtofB__uXCAWjWtaP81yqE,1263
+epimodels/continuous/__init__.py,sha256=gzcDoM4lIG3suIi7Vi-65QsBH44afREbJeh7H32suzE,67
+epimodels/continuous/models.py,sha256=zVyAkRMkN4bUjYaCIaj1G-7PeAdv1heQjebiZEGsPAk,7104
+epimodels/discrete/__init__.py,sha256=gzcDoM4lIG3suIi7Vi-65QsBH44afREbJeh7H32suzE,67
+epimodels/discrete/models.py,sha256=eWTx7uMrGMudBAigfpT6hyVsFgPk1gwXxUegjAHxbaw,23584
+epimodels/tools/__init__.py,sha256=uPkG_zfRDlEL3Tk-4_PgeEExcKEuNG812_t-OgowrfA,67
+epimodels/tools/phase.py,sha256=2yc8l8Vjc_DruacwA_0q0YhQ4Drw1kgjFd6ZD8oW6JU,1407
+epimodels-0.3.21.dist-info/LICENSE.txt,sha256=bA719BKTZAPYGw9xrAChIlgb4_aMFFlm1Irrj4lXIic,1089
+epimodels-0.3.21.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+epimodels-0.3.21.dist-info/METADATA,sha256=dDnMYWsK84A0NIaKSUWb-BlDPjZYsv6fYkBieNY7luI,672
+epimodels-0.3.21.dist-info/RECORD,,

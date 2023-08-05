@@ -1,0 +1,13 @@
+scib_metrics/__init__.py,sha256=R6HtfVjA3Q4dhi3RHMzbrawz03FO0OZAaI_DZm5PP60,586
+scib_metrics/_ari_nmi.py,sha256=zB_2N3uCLAZ9iByjShpT-jB8b7a9-nsciKsbi0PFqa8,1214
+scib_metrics/_isolated_labels.py,sha256=798hUHPmR00sC5BrFWX3TJTCdLBb8AF8q8RkhA69PTA,2622
+scib_metrics/_settings.py,sha256=S8_wFkigvxAnNdNgGj1b9j2r1yejyfJaJSyxXRP4hA4,4063
+scib_metrics/_silhouette.py,sha256=5G8g6yeYbOsgzJeEbSp4LowLvuZGrvCYzH4Tv2SJ2OA,2229
+scib_metrics/utils/__init__.py,sha256=Moy5nGnj97RsPWjjv3o4kjwYAVEbt5Rh6B3CQmGVTes,156
+scib_metrics/utils/_dist.py,sha256=r9YWVgeiy6ZHCvC7zhW2O3DyIVzkz0iemr5furyfWa0,668
+scib_metrics/utils/_kmeans.py,sha256=c4LsUr5TheYj1nk1Vo54X9MOWhHRAt4hREnNokfrFvQ,4340
+scib_metrics/utils/_silhouette.py,sha256=CxS_oMoMuGsy_G1Q6k9nSyf0SHzwPKesYC_4YHKI3fw,3824
+scib_metrics-0.0.3.dist-info/METADATA,sha256=WxRidCfu8nCMyaWjMqPu8p26kJcREPs6ivnDgaL0YYk,5263
+scib_metrics-0.0.3.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+scib_metrics-0.0.3.dist-info/licenses/LICENSE,sha256=GRRQaq9hdMbxLTKedbegvvcbeF-Vh8UeHYIXoYUXXKM,1519
+scib_metrics-0.0.3.dist-info/RECORD,,

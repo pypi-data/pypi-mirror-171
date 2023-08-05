@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flask_fullstack.egg-info/PKG-INFO
+flask_fullstack.egg-info/SOURCES.txt
+flask_fullstack.egg-info/dependency_links.txt
+flask_fullstack.egg-info/requires.txt
+flask_fullstack.egg-info/top_level.txt

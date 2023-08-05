@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_pkg_binlecode"
+version = "0.0.4"
+authors = [
+  { name="Bin Le", email="bin.le.code@gmail.com" },
+]
+description = "A small test package by setuptools"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/binlecode/example-python-setuptools"

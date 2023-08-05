@@ -1,0 +1,4 @@
+[console_scripts]
+TuluXinsheng = TuluXinsheng.__main__:main
+tulu-xinsheng = TuluXinsheng.__main__:main
+

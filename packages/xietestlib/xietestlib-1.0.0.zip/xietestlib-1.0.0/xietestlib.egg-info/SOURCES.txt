@@ -1,0 +1,11 @@
+License.txt
+MANIFEST.in
+README.rst
+Tool.py
+setup.py
+xietestlib/__init__.py
+xietestlib/xielibone.py
+xietestlib.egg-info/PKG-INFO
+xietestlib.egg-info/SOURCES.txt
+xietestlib.egg-info/dependency_links.txt
+xietestlib.egg-info/top_level.txt

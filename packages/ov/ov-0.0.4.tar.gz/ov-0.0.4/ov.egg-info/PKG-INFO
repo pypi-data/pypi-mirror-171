@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ov
+Version: 0.0.4
+Summary: Dynamo access
+Home-page: https://github.com/thorwhalen/uu/tree/master/ov
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# ov
+Dynamo access
+
+
+To install:	```pip install ov```
+
+

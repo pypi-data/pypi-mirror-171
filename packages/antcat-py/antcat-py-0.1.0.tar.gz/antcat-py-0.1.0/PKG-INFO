@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: antcat-py
+Version: 0.1.0
+Summary: AntCat.org API Access in Python.
+Home-page: https://github.com/injawoogie/antcat-py.git
+Author: Richard Makey
+Author-email: injawoogie@icloud.com
+License: MIT
+Keywords: antcat catalog taxonomic

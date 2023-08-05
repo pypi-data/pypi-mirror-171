@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: finance-datareader-hsb
+Version: 0.0.3
+Summary: The FinanceDataReader is financial data reader(crawler) for finance.
+Home-page: https://github.com/seulbinHwang/FinanceDataReader/
+Author: hsb
+Author-email: jksg01019@gmail.com
+License: GPLv3+
+License-File: LICENSE
+Requires-Dist: bokeh
+Requires-Dist: plotly
+Requires-Dist: backtrader
+Requires-Dist: matplotlib (==3.2.2)
+

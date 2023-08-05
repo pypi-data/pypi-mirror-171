@@ -1,0 +1,9 @@
+races_report/__about__.py,sha256=dclCB8EwEJ4f45zOH4ddVuABNRTcZW9grCl48B01pVw,132
+races_report/__init__.py,sha256=L80u3tDKxRvkIgTzCMotoTw2ZSvTGa4bRP2HpAaGXEQ,109
+races_report/custom_exceptions.py,sha256=gD7OY0pe91ZT9kujwsjxkt0LBx6Yg7_fZ8iqB1c56Qs,126
+races_report/main.py,sha256=6Ddo1WSIihCiX7D9fQEP3o7MYK-9wIbpOZBIX-qQ1xg,1276
+races_report/races_report.py,sha256=fbT-wqCBGGfMYcN0Rqz_8suDiFc5gfU1Gv_kbuxIGhE,7200
+races_report-0.0.5.dist-info/METADATA,sha256=snX2o_b8eASoNhDtHlcONtRl1BR3FOfibfwwT7_uOTc,4716
+races_report-0.0.5.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+races_report-0.0.5.dist-info/licenses/LICENSE.txt,sha256=fem5aCs6sn1e7SkopVYkVrMd4ndON0beJlBY0uBH88M,1107
+races_report-0.0.5.dist-info/RECORD,,

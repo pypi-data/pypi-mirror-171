@@ -1,0 +1,12 @@
+bakepy/__about__.py,sha256=qUSLsz55D2wPFrZU_JOqXixfCBltjwxg9zGqjgFe5cw,125
+bakepy/__init__.py,sha256=FQKhxUPyJRGE92hhExYU3wJuc-6GQqmDy91dNFjmoFk,104
+bakepy/html.py,sha256=AwMDj3myWIX39naI_SGpeYAOe7bAIyRCPmcIWU1EY70,5213
+bakepy/ipython.py,sha256=GZevaOAY2tUcOoQysz1dm3LQjrGPIiiMeukq1RmjuXQ,7576
+bakepy/recipes.py,sha256=kcskP0yZStZHPbN4V3_c2VnZVjk0DFHZayencH8Jk8I,1772
+bakepy/rendering.py,sha256=ySMGvC63mQZ2AHitechDZRCA9kaii9P7bwUNsei2cBI,5426
+bakepy/report.py,sha256=2Zlq-V2-hxmmZZH6E2A8_gobGl_sSeNQuiSaTuRhvcI,27920
+bakepy/utils.py,sha256=_DMMPaduQkIzUCej_KhiDFmrk3FPpsZjCJY_b2zCmeY,918
+bakepy-0.0.2.dist-info/METADATA,sha256=z4Ch05BKGk9wDUmvXEc1_uGwBXDYcdiqvldLbnVI-h0,1325
+bakepy-0.0.2.dist-info/WHEEL,sha256=pXyArdmKHUKTm5iUX9rRnkSY3Ss4HYzSn7I4vT2gVVg,105
+bakepy-0.0.2.dist-info/licenses/LICENSE.txt,sha256=e_zg_5eqCGa_tFhDsXo-_Um7Csb7Punh6hSSEEfh64c,1094
+bakepy-0.0.2.dist-info/RECORD,,

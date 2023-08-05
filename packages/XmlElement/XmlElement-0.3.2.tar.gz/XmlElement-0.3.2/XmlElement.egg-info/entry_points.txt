@@ -1,0 +1,3 @@
+[console_scripts]
+jsontoxml = XmlElement.app:json_to_xml
+xmltojson = XmlElement.app:xml_to_json

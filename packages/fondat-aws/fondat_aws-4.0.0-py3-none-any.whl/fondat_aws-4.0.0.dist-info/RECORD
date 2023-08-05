@@ -1,0 +1,10 @@
+fondat/aws/athena.py,sha256=TiHkIidgEJnFXdQaWQpuqT2lZOn-8U4-k0Q0NbUJcbM,26967
+fondat/aws/client.py,sha256=7UIwNmldhAip8wLYAwfRAAzFsMWmPiTVEVHCbtYzRxk,2655
+fondat/aws/cloudwatch.py,sha256=DydTjWjIscf2DXfECND_1ZXK2aW0jbxQCuSAIdBFGb8,7582
+fondat/aws/lambda_.py,sha256=M0liDt9HTZW_HY4WJBsnBqu6jnyekquS1WsZ7X6tKhs,3568
+fondat/aws/s3.py,sha256=NkrNFwP5-tGUasDZ6GlxzNrkOqCbb04bgP5pl6yfj-s,4915
+fondat/aws/secretsmanager.py,sha256=SK3xuTK2NsHtu6k7nsaHw7NFF3MIthe3lyVeIBQu_RM,4635
+fondat_aws-4.0.0.dist-info/LICENSE,sha256=ryiO7x_Su4alxMfKyHeTmN3Gm6XcjtENgJmkciHcFBI,1058
+fondat_aws-4.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fondat_aws-4.0.0.dist-info/METADATA,sha256=iNQ2MFB55Kb9BL32TvOIk0w5VtDa1yT4oTRZNeo2G5o,1587
+fondat_aws-4.0.0.dist-info/RECORD,,

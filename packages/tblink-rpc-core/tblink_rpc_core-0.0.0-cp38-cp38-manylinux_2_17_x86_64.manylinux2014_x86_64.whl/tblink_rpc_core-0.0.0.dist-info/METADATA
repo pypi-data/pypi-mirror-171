@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tblink-rpc-core
+Version: 0.0.0
+Summary: Provides the core TbLink-RPC library
+Home-page: https://github.com/tblink-rpc/tblink-rpc-core
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License: Apache 2.0
+Keywords: SystemVerilog,Verilog,RTL,Python
+License-File: LICENSE
+Requires-Dist: pyyaml
+
+
+  Core library implementing local and socket RPC communication for simulation
+  

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pooch-cli"
+version = "0.1.0"
+description = "Command-line interface for Pooch"
+authors = ["Danilo Horta <danilo.horta@pm.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pooch_cli"}]
+
+[tool.poetry.dependencies]
+pooch = "*"
+python = "^3.8"
+tqdm = "*"
+typer = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pytest = "*"
+pyright = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pooch = 'pooch_cli.main:app'

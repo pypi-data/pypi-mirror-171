@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: Trial2Vec
+Version: 0.0.1a0
+Summary: Pretrained BERT models for encoding clinical trial documents to compact embeddings.
+Home-page: https://github.com/RyanWangZf/Trial2Vec
+Author: Zifeng Wang
+Author-email: zifengw2@illinois.edu
+Keywords: clinical trial,machine learning,data mining,information retrieval
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Trial2Vec
+Wang, Zifeng and Sun, Jimeng. (2022). Trial2Vec: Zero-Shot Clinical Trial Document Similarity Search using Self-Supervision. Findings of EMNLP'22.
+
+# Usage
+Get pretrained Trial2Vec model in three lines:
+
+```python
+from trial2vec import Trial2Vec
+
+model = Trial2Vec()
+
+model.from_pretrained()
+```
+
+# How to install
+Install the correct `PyTorch` version by referring to https://pytorch.org/get-started/locally/.
+
+Then install `Trial2Vec` by
+
+```bash
+
+pip install git+https://github.com/RyanWangZf/Trial2Vec.git
+
+```
+
+or
+```bash
+
+pip install trial2vec
+
+```
+
+# Search similar trials
+Use `Trial2Vec` to search similar clinical trials:
+
+```python
+
+# load demo data
+from trial2vec import load_demo_data
+data = load_demo_data()
+
+# contains trial documents
+test_data = {'x': data['x']} 
+
+# make prediction
+pred = model.predict(test_data)
+```
+
+# Encode trials
+
+Use `Trial2Vec` to encode clinical trial documents:
+
+```python
+
+test_data = {'x': df} # contains trial documents
+
+emb = model.encode(test_data) # make inference
+
+# or just find the pre-encoded trial documents
+emb = [model[nct_id] for test_data['x']['nct_id']]
+```
+

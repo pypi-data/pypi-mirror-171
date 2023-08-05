@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ZohoSolutionsSuite
+Version: 0.1.1
+Summary: Wrapper for Zoho API operations; migration, automations,  etc.
+Home-page: UNKNOWN
+Author: Dylan Garrett
+Author-email: dylan.g@zohocorp.com
+License: UNKNOWN
+Keywords: zoho,crm,api,tools,migration
+Platform: UNKNOWN
+
+Initially began as a pet project, the ZohoSolutionsSuite 	seeks to bring the ease of use that Deluge offers to endpoints, to other apps as well!
+

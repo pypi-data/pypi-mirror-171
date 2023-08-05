@@ -1,0 +1,14 @@
+mathy/__init__.py,sha256=ynbwjXHsNyiAEVFbAbk2IKM-xSQqpDN3GIaLDBqCn_I,28
+mathy/about.py,sha256=_cQ46LjKPoArTYnltR-x7M1fvzsGsl0uO355FisRGT4,261
+mathy/api.py,sha256=7du7JCU2OrTit1nDW00WA8fPD_ujP57-GKIzeq9NgEI,945
+mathy/cli.py,sha256=Ggl6n7xdcO437U963C0EpH5q42hjYxi5HXna2SMOfhw,3101
+mathy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathy/solver.py,sha256=8CalgXOJNPudCaayQiGYtaTfS4ULjT2CnoOMBmdW95Y,8870
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=L51t7GoVKVF_LS-kADpAMyYQeTuM2dfLnqngrp0vtJk,308
+tests/test_cli.py,sha256=xQHeA9oLsyHaVjQ0l5o_ESjRk80ZK0clrNsohuc2Nc4,2051
+mathy-0.9.4.dist-info/METADATA,sha256=Xyy8K60tTQtnj_KyFuage2twcJQ-XzUSjQdWKyUbqgA,3846
+mathy-0.9.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mathy-0.9.4.dist-info/entry_points.txt,sha256=KScZrGLn1fJBKTxLzT-c579AnLywzRShxPiWn1_uLSE,71
+mathy-0.9.4.dist-info/top_level.txt,sha256=E6Dfnzi7t1JO_mpCaghNR18k-7dDw1iKGmivZ67UHWg,12
+mathy-0.9.4.dist-info/RECORD,,

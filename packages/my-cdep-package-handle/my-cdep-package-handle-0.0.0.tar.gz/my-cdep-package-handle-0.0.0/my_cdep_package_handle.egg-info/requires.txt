@@ -1,0 +1,4 @@
+pydantic
+
+[configuration]
+cdep-package-configuration

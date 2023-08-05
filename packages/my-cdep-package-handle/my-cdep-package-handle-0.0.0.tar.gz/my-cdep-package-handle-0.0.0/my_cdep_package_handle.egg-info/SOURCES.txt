@@ -1,0 +1,17 @@
+setup.py
+cdep/__init__.py
+cdep/handle/__init__.py
+cdep/handle/globals.py
+cdep/handle/classes/__handler.py
+cdep/handle/classes/__init__.py
+cdep/handle/functions/__get_deadmans_email_body.py
+cdep/handle/functions/__get_handler.py
+cdep/handle/functions/__init__.py
+cdep/handle/functions/__set_default_config.py
+cdep/handle/models/__handler_config.py
+cdep/handle/models/__init__.py
+my_cdep_package_handle.egg-info/PKG-INFO
+my_cdep_package_handle.egg-info/SOURCES.txt
+my_cdep_package_handle.egg-info/dependency_links.txt
+my_cdep_package_handle.egg-info/requires.txt
+my_cdep_package_handle.egg-info/top_level.txt

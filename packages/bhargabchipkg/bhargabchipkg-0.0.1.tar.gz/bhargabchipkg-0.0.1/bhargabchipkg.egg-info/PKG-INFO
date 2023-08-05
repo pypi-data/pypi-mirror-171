@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bhargabchipkg
+Version: 0.0.1
+Summary: helpful chi-square package
+Home-page: https://github.com/bhargabganguli/bhargabchipkg
+Download-URL: https://github.com/bhargabganguli/bhargabchipkg/archive/0.1.tar.gz
+Author: Bhargab
+Author-email: bhargab.ganguli@gmail.com
+License: MIT
+Keywords: chi_test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+License-File: LICENSE

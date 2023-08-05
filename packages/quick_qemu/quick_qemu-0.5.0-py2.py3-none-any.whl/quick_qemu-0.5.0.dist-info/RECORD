@@ -1,0 +1,9 @@
+quick_qemu/LICENSE.txt,sha256=x-EEyaygksGoxomkoS2u5LGVDX6Q_X3g9OzxLuZHiQM,1057
+quick_qemu/__init__.py,sha256=m0yWO3h0vQIaZsV9K6StI1ArMtz0GEo7rFnnbam4DVo,68
+quick_qemu/__main__.py,sha256=qjfp-GysNScSaPa7iqw1ax-VY9FhTNfgvIysSBbNrBk,93
+quick_qemu/quick_qemu/__init__.py,sha256=EupIaparwTegkj3QmCVBoWMCNITc3X--9UKwiG0qHKE,4651
+quick_qemu-0.5.0.dist-info/entry_points.txt,sha256=Qp11ooOjSwnu6B-RPLPOrohpZY_64MUln2_U5h8fQUk,46
+quick_qemu-0.5.0.dist-info/LICENSE,sha256=x-EEyaygksGoxomkoS2u5LGVDX6Q_X3g9OzxLuZHiQM,1057
+quick_qemu-0.5.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+quick_qemu-0.5.0.dist-info/METADATA,sha256=CsB8js6ySTQjjgMJUdAS4MQxwgZRKikkC1-Z__fuQsc,1284
+quick_qemu-0.5.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+ZhumaidanShang = ZhumaidanShang.__main__:main
+zhumaidan-shang = ZhumaidanShang.__main__:main
+

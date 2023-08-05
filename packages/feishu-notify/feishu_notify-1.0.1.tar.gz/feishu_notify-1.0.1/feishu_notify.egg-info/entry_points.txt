@@ -1,0 +1,2 @@
+[sentry.plugins]
+feishu_notify = feishu.plugin:FeiShuNotifyPlugin

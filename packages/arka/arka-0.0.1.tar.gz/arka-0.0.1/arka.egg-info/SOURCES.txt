@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+arka/__init__.py
+arka/__main__.py
+arka.egg-info/PKG-INFO
+arka.egg-info/SOURCES.txt
+arka.egg-info/dependency_links.txt
+arka.egg-info/top_level.txt

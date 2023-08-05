@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: arka
+Version: 0.0.1
+Summary: short description
+Requires-Python: >=3.10, <4
+License-File: LICENSE
+
+long description

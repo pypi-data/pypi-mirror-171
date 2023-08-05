@@ -1,0 +1,12 @@
+cfe/__init__.py,sha256=SNb2fUKWZHQktSViK142XFwk8yjUA0qojbEMSCApnH4,248
+cfe/df_utils.py,sha256=ElVzp14djOB2uMSWeuE-Dvl6t0HxV4YnW98Jfv_TuuY,18602
+cfe/dgp.py,sha256=g8gJx2ysVgyIrPsVKCaAUy8hXnt0_LN_6ERGPU1-fek,5576
+cfe/estimation.py,sha256=j16rWknCRB-Vy8QdpVFqm5bwZV5ybtw6TAKhwWxykXc,40050
+cfe/input_files.py,sha256=UzztqYRmEYSDvgTmAjlSRSg-pYd9nG3vYh_p7l1Hwfc,3409
+cfe/regression.py,sha256=hyr78mus3C40pYliTDj5uDjuAVnGNkYCqm_yU0T9YEc,34875
+cfe/result.py,sha256=tXXjvEXg3xwn4ehw3GPdh5t4NxmOxUVGtJ0AdfkcnMg,32519
+CFEDemands-0.5.0.dev0.dist-info/LICENSE.txt,sha256=qImFXcRJwxIHS80FE7uOx6FhmLY8apd4Y12aR54QU7w,282
+CFEDemands-0.5.0.dev0.dist-info/METADATA,sha256=RKf2u9f6jEWqlL58XjzvKBqBHpOZwIjW17fDqRqVru8,1403
+CFEDemands-0.5.0.dev0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+CFEDemands-0.5.0.dev0.dist-info/top_level.txt,sha256=etC2dNVXYICGmvCQqDBiRYt8P7vL4qCSwlCv1rmCqGs,4
+CFEDemands-0.5.0.dev0.dist-info/RECORD,,

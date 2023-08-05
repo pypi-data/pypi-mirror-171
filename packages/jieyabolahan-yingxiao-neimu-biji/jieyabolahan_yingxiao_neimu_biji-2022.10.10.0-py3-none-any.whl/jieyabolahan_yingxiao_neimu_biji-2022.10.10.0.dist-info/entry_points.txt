@@ -1,0 +1,4 @@
+[console_scripts]
+JieyabolahanYingxiaoNeimuBiji = JieyabolahanYingxiaoNeimuBiji.__main__:main
+jieyabolahan-yingxiao-neimu-biji = JieyabolahanYingxiaoNeimuBiji.__main__:main
+

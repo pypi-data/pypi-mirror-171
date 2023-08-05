@@ -1,0 +1,8 @@
+yamp/__init__.py,sha256=K5SiDdEGYMpdqXThrqwTqECJJBOQNTQDrnpc2K5mzKs,21
+yamp/plugin.py,sha256=w1vJMB8CDqnCyTFqauqH9IPFEA97qG5tN_xDXwkDLp8,3709
+yamp/repo_item.py,sha256=DEMJ0umjvwrDjKeKeXtp9K8r1iCs1IeaUi39yd7ue9E,4897
+mkdocs_yamp-0.1.2.dist-info/METADATA,sha256=BvJOXfPssbqHFSUfen44dMN2tDktq55fK3ePGYhDQHo,2745
+mkdocs_yamp-0.1.2.dist-info/WHEEL,sha256=pXyArdmKHUKTm5iUX9rRnkSY3Ss4HYzSn7I4vT2gVVg,105
+mkdocs_yamp-0.1.2.dist-info/entry_points.txt,sha256=Z34RsGbPkxxNYuoLbUnQqg3-ayIraFEsU6qB8BqbIKo,41
+mkdocs_yamp-0.1.2.dist-info/licenses/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+mkdocs_yamp-0.1.2.dist-info/RECORD,,

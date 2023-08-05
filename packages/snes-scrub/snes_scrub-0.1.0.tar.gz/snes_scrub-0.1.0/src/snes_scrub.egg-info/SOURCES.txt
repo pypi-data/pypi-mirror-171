@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+src/snes_scrub/Nintendo - Super Nintendo Entertainment System (20221002-102033).dat
+src/snes_scrub/__init__.py
+src/snes_scrub/scrub.py
+src/snes_scrub.egg-info/PKG-INFO
+src/snes_scrub.egg-info/SOURCES.txt
+src/snes_scrub.egg-info/dependency_links.txt
+src/snes_scrub.egg-info/entry_points.txt
+src/snes_scrub.egg-info/top_level.txt

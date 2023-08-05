@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+findsamefile/__init__.py
+findsamefile/find_same_find.py
+findsamefile.egg-info/PKG-INFO
+findsamefile.egg-info/SOURCES.txt
+findsamefile.egg-info/dependency_links.txt
+findsamefile.egg-info/top_level.txt

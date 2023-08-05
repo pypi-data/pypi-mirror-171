@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: olympyad
+Version: 0.0.3
+Summary: A collection of some gist post
+Home-page: https://github.com/thorwhalen/newut/tree/master/olympyad
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# olympyad
+A collection of some gist post, made reusable as a package
+
+
+To install:	```pip install olympyad```
+
+

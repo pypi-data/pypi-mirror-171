@@ -1,0 +1,2 @@
+[console_scripts]
+bids2cite = bids2cite.bids2cite:bids2cite

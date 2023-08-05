@@ -1,0 +1,13 @@
+bids2cite/__init__.py,sha256=yLn4wYCjOA9gcbDMLLGK69KQTtRewXeeEIajaCBAWfI,135
+bids2cite/_version.py,sha256=sgPJyoFCkdnvtjtMgzCjcK62_KA4ZHfhN2PpFzR9KTs,497
+bids2cite/authors.py,sha256=MPRQdf2LztYACUmjlx6qUdorhuQAub45sUTh69PX1ew,5937
+bids2cite/bids2cite.py,sha256=Bik1eAFLpBcPYrQK5OpThvLlcgIlCz9tPpUBrOOpumQ,8322
+bids2cite/license.py,sha256=4RO-bUKYuPKidb3eyt920LYn1ogf6D6a3rOv7C0T8lU,2947
+bids2cite/references.py,sha256=4Hp96N6dCL4eWL5s9q0n4d4VFTdI8wcu_LbTWnjLcVQ,4791
+bids2cite/utils.py,sha256=WB-qyStNl7wCVgoPffUVjvJC_mTHT4hqEg-efJugIDQ,1018
+bids2cite-0.1.1.dist-info/LICENSE,sha256=9Rh7ya7x3f8beotANlKjTCbNAy4pqxN5xHGqdl29d64,1581
+bids2cite-0.1.1.dist-info/METADATA,sha256=M0p8xO3_JP4y0p9QrVm7Uk_485goMbgUFScg4nhaLb0,5060
+bids2cite-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bids2cite-0.1.1.dist-info/entry_points.txt,sha256=bODr0WFCD0Z9ztbJ4XkxueDk7YZInePtrsQM52vf6zQ,60
+bids2cite-0.1.1.dist-info/top_level.txt,sha256=uGicYgZMKYdP08L6JtRdMi19Gr2jGEgaRk-sHph5ujA,10
+bids2cite-0.1.1.dist-info/RECORD,,

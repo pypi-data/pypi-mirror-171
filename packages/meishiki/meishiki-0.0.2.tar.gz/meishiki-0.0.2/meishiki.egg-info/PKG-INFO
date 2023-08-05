@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: meishiki
+Version: 0.0.2
+Summary: Calculation of Four Pillars of Destiny
+Home-page: UNKNOWN
+Author: tk42
+Author-email: nsplat+pip@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Meishiki
+
+## Requirement
+ - jinja2
+ - pyyaml
+ - python-box
+
+## Quickstart
+```bash
+$ pip install meishiki
+```
+Then,
+```
+# python3 ./generate_html.py YYYY-MM-DD HH:MM SEX
+```
+SEX should be specified when male = 0, female = 1
+
+## Thanks
+@hajime-f/meishiki
+
+

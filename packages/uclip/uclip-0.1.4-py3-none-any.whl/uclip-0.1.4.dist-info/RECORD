@@ -1,0 +1,11 @@
+uclip/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+uclip/compat.py,sha256=VAAIBjD2qkX0EHTEQ8ykEYSSbiP3NUSG50eu7wK9iY8,263
+uclip/config.py,sha256=I_G_iYnm2B2ki-BHYejUoBG4MQxTlTPGjP4utA1P9U0,1318
+uclip/main.py,sha256=fTK2IOtn6_sSbma9SV529ypd288xVOMJMmYGp6SHrbc,7701
+uclip/progress.py,sha256=j9q6pI-YiFN-QAg9c7xT5YXQNrAr0kBaIAGWJCkpKZA,1584
+uclip/uploader.py,sha256=V8BDolSGyPoVWVC7_Mc58iu9LQ-DZWj5l4XZuIY08LA,3318
+uclip-0.1.4.dist-info/entry_points.txt,sha256=Ct4k13aYHNVlbk6Ah8mypLzewXOBVh0o5K4JnbsFKoc,42
+uclip-0.1.4.dist-info/LICENSE,sha256=4Ve7mnd-78i4IU1_dbWdky2BCDryk5U2Jo_f932oFWY,1065
+uclip-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+uclip-0.1.4.dist-info/METADATA,sha256=gwTQ5dTHDUckh1fyUoph6WF4yPwn98lzKAb6urOCk6k,3374
+uclip-0.1.4.dist-info/RECORD,,

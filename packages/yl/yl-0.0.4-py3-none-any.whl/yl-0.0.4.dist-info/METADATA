@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yl
+Version: 0.0.4
+Summary: Get dictionaries from other objects
+Home-page: https://github.com/thorwhalen/uu/tree/master/yl
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# yl
+Get dictionaries from other objects
+
+
+To install:	```pip install yl```
+
+

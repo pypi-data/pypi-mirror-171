@@ -1,0 +1,10 @@
+densratio/RuLSIF.py,sha256=4yJ8yywcdcSZK3Bi8F76i9IvYIl0GTRwBRO-ZQ7WLOw,9156
+densratio/__init__.py,sha256=-hwW0bdSPqxFOAVk_F_U33fBEpzJRA8WonhUA9_vV7w,263
+densratio/core.py,sha256=8YF8LQaGhCzAxgdngriZvJml6BLGSLvX-_yVT_Liano,2205
+densratio/density_ratio.py,sha256=G12cZqYimke41sfI_i-kBV5GtXYC0DdqFIt6qWfLBbw,1709
+densratio/helpers.py,sha256=w3TSWVMiGEinQBMz1OQ67e8rj3FeTXydf3zN75-Z3w0,1044
+densratio-0.3.0.dist-info/LICENSE,sha256=i9AQpLZbaR3g0IgMCoh5k6fBHLSCcGaEOGtbCZKBKXo,50
+densratio-0.3.0.dist-info/METADATA,sha256=vwMS5lsTboAbnCntFazUVJE_dMQUwJmUnLv2n16l-Wo,11966
+densratio-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+densratio-0.3.0.dist-info/top_level.txt,sha256=2cdfb7vZCaqb8PLufj6gK_WnOAAPALZhHNx9i-wn5YI,10
+densratio-0.3.0.dist-info/RECORD,,

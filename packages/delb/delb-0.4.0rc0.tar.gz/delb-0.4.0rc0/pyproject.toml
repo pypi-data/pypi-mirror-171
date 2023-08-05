@@ -1,0 +1,84 @@
+[build-system]
+requires = ["poetry>=1"]
+build-backend = "poetry.masonry.api"
+
+[tool.coverage.run]
+source = ["_delb", "delb"]
+omit = [
+    "delb/exceptions.py",
+    "delb/names.py",
+    "delb/nodes.py",
+    "delb/parser.py",
+    "delb/typing.py",
+    "delb/utils.py"
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "def __repr__",
+    "if TYPE_CHECKING:",
+    "pass",
+    "pragma: no cover",
+    "raise InvalidCodePath",
+    "raise NotImplementedError",
+    "raise TypeError",
+    "raise ValueError"
+]
+fail_under = 97
+
+[tool.poetry]
+name = "delb"
+version = "0.4.0-rc0"
+description = "A library that provides an ergonomic model for XML encoded text documents (e.g. with TEI-XML)."
+authors = ["Frank Sachsenheim <funkyfuture@riseup.net>"]
+license = "AGPL-3.0"
+readme = "README.rst"
+documentation = "https://delb.readthedocs.io/"
+repository = "https://github.com/delb-xml/delb-py"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+keywords = ["xml", "markup", "tei", "text processing"]  # TODO one more
+packages = [
+    {include = "delb"},
+    {include = "_delb"},
+]
+include = ["CITATION.cff", "_delb/py.typed", "delb/py.typed"]
+
+[tool.poetry.extras]
+https-loader = ["httpx"]
+
+[tool.poetry.plugins.delb]
+https-loader = "_delb.plugins.https_loader"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cssselect = "*"
+httpx = {version = "^0.23.0", optional = true, extras = ["brotli", "http2"]}
+lxml = "*"
+setuptools = "*"
+
+[tool.poetry.dev-dependencies]
+autoclasstoc = "^1.1.1"
+black = "*"
+cffconvert = "^2.0.0"
+flake8-black = "*"
+lxml-stubs = "*"
+mypy = "*"
+pytest = "*"
+pytest-benchmark = "^3.4.1"
+pytest-cov = "*"
+sphinx = "*"
+sphinxcontrib-fulltoc = "*"
+sphinx-readable-theme = "^1.3"
+types-requests = "^2.21"
+types-setuptools = "*"
+typing-extensions = "*"
+xmldiff = "*"
+
+[tool.pytest.ini_options]
+addopts = "-W error::DeprecationWarning"

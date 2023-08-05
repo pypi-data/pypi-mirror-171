@@ -1,0 +1,9 @@
+derpcache/__init__.py,sha256=7WkbynqFwGRlvLym0YHIkbpG4rUCIGSfQ2GuelLCkk0,405
+derpcache/_cache.py,sha256=RSCPjcFf5_WsTXenqk0JvfpL0K2xfSjqrM0o922eQ90,9000
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cache.py,sha256=GkykVyaLMbUPv3Npacd9Dl36XxS7KBXpAL3vXJOlysQ,12541
+derpcache-0.1.0.dist-info/LICENCE.md,sha256=mCtKoS8e6xaf6ucq5a2hRD5gg0PynM7gzl7ljyGxqFE,32196
+derpcache-0.1.0.dist-info/METADATA,sha256=v8In2wdaE_b96FW3sC1MwESoY0LBUa8qtIJ10qgz_K8,2725
+derpcache-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+derpcache-0.1.0.dist-info/top_level.txt,sha256=eeUnjyvGeiUe24d71UJ9G8rspmz0AHvTTRUGajPeCDA,16
+derpcache-0.1.0.dist-info/RECORD,,

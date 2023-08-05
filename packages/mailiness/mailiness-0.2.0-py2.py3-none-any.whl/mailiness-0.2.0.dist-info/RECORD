@@ -1,0 +1,12 @@
+mailiness/__init__.py,sha256=BhiZOO8Un1uklS4ZhQDTVnXuRRlXEL981jfkOnkr4i4,64
+mailiness/cli.py,sha256=dmWBFi89GDxmqcFtQG_NUAiKt-ix0qnCzcV3xQpVSxY,9170
+mailiness/commands.py,sha256=JsfpeTcXQv42jGN0-0DkkSaK-5uHPxLSrJCFnFsEx1s,145
+mailiness/dkim.py,sha256=a1tPhpMLMSLYFZRaJUDBY_QsCQql9Hx7l3jtgYdJLhU,4261
+mailiness/handlers.py,sha256=wHtOXEY0T78w_eqQQvnfOyk_o9lKlhf-oBMEHY5lWLI,4873
+mailiness/repo.py,sha256=CAWirm-lZdh7fG7OrPJQxKfdHypuoq_TPq8in_Fi_AM,9800
+mailiness/settings.py,sha256=Fedt_yMVraXTc9p1hVJldDAf7c4txh5pqVLTxEmx9qY,1625
+mailiness-0.2.0.dist-info/METADATA,sha256=x-hAMrFjneqJyuqjYZCFSHGmloOMp_CsQJvfM_zsQgg,1137
+mailiness-0.2.0.dist-info/WHEEL,sha256=pXyArdmKHUKTm5iUX9rRnkSY3Ss4HYzSn7I4vT2gVVg,105
+mailiness-0.2.0.dist-info/entry_points.txt,sha256=oW6z-XC5AVchaml0p51nBNtGy97BInUMBVW1nwUi6KE,49
+mailiness-0.2.0.dist-info/licenses/LICENSE,sha256=wcEjqAAySIZKQPO5nnaBkvp1UVncq5YiLT2Ur62jeb8,1073
+mailiness-0.2.0.dist-info/RECORD,,

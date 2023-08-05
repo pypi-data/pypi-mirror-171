@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/custom_django_validation.egg-info/PKG-INFO
+src/custom_django_validation.egg-info/SOURCES.txt
+src/custom_django_validation.egg-info/dependency_links.txt
+src/custom_django_validation.egg-info/top_level.txt
+src/django_validation/__init__.py
+src/django_validation/custom_validations.py
+src/django_validation/model_validations.py

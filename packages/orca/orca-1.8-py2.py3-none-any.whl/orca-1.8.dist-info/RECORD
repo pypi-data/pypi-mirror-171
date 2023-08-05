@@ -1,0 +1,11 @@
+orca/__init__.py,sha256=jJENdb-dq5YtPLXWgXZRMQhuVjFfMROxEC-rzbrsPno,51
+orca/orca.py,sha256=VNNjAo5i29Sqvh46JhAriJ_BZuTaVgzrq6dvL1VHAuQ,65909
+orca/utils/__init__.py,sha256=O2iEgdeDY91DGsmBSJntYzphfXhMAgHi-y59rAgmVtY,95
+orca/utils/logutil.py,sha256=MFf_r64GSB8hLyWknb2ZfFAu4FbBlPF8sjKokRtpbvU,3349
+orca/utils/testing.py,sha256=cBgM_JiPC7EDcIzVXAl7wup4ClCrnsStTxDVWMpJ5A8,2026
+orca/utils/utils.py,sha256=yzOEP53nYmVaXH8SkaPosgOkmbr5aXqrBZOXUe1lVxs,602
+orca-1.8.dist-info/LICENSE.txt,sha256=AtgOEw9wixnxfFgw8UCW0fbgWTo__rscodF3PBfs4BE,1484
+orca-1.8.dist-info/METADATA,sha256=v88t7Xhf-UbLKGGlj2OZzpDUgx1dQaWxFZg2W8ucJaM,1730
+orca-1.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+orca-1.8.dist-info/top_level.txt,sha256=ImmOdc50UfGSNqwbT2NyOnkHrvN74RLygtePCGWOgEs,5
+orca-1.8.dist-info/RECORD,,

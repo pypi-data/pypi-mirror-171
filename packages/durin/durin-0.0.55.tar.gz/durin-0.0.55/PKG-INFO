@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: durin
+Version: 0.0.55
+Maintainer: Jens E. Pedersen
+Maintainer-email: jeped@kth.se
+License: LGPLv3
+Description-Content-Type: text/markdown
+Provides-Extra: aestream

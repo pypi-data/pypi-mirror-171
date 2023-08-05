@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: boka-mpl-templates
+Version: 0.2.0
+Summary: 
+Author: mbet
+Author-email: maarten.betman@boskalis.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: papersize (>=1.2.0,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)

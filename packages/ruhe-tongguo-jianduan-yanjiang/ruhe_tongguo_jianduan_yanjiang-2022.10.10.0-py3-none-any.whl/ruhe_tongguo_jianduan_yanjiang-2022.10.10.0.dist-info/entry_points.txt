@@ -1,0 +1,4 @@
+[console_scripts]
+RuheTongguoJianduanYanjiang = RuheTongguoJianduanYanjiang.__main__:main
+ruhe-tongguo-jianduan-yanjiang = RuheTongguoJianduanYanjiang.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+ZhumaidanXia = ZhumaidanXia.__main__:main
+zhumaidan-xia = ZhumaidanXia.__main__:main
+

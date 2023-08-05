@@ -1,0 +1,4 @@
+[console_scripts]
+ConglingDaoyiDakaCongweiGongkaideMimi = ConglingDaoyiDakaCongweiGongkaideMimi.__main__:main
+congling-daoyi-daka-congwei-gongkaide-mimi = ConglingDaoyiDakaCongweiGongkaideMimi.__main__:main
+

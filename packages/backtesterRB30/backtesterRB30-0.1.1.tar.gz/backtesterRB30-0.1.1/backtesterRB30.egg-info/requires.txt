@@ -1,0 +1,12 @@
+numpy
+asyncio
+pyzmq
+pydantic
+python-binance
+pandas
+matplotlib
+python-dotenv
+keyboard
+pycoingecko
+websocket-client
+requests

@@ -1,0 +1,4 @@
+[console_scripts]
+RenxingYingxiaoVol4 = RenxingYingxiaoVol4.__main__:main
+renxing-yingxiao-vol4 = RenxingYingxiaoVol4.__main__:main
+

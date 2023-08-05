@@ -1,0 +1,8 @@
+netifaces2-0.0.11.dist-info/METADATA,sha256=n35xN9diU_00IAG_lWso_pUIex5ZtnosGSHOX0T006c,2623
+netifaces2-0.0.11.dist-info/WHEEL,sha256=fNktRpP25hCXanHuZRhhXjlqsVoXLg5wFDWyfF52O9Y,145
+netifaces2-0.0.11.dist-info/license_files/LICENSE,sha256=IY9mQ-vHSqgWaMoIB-1-herwyKtAUkF0e4JCE4madx8,1055
+netifaces/defs.py,sha256=ylxBeJ5U3AcVJds5mmWt3er_-8qFIdUvIDdyNsU4VCM,1356
+netifaces/__init__.py,sha256=dwQgdvl3h56QHVZj4o1qMgoJfcPob5jTqzJfaBuiP1s,1768
+netifaces/routes.py,sha256=aaXoUqdMhZ4tK_K7W4NYp2LjZ-YjENQFZ-DmquDq6to,1417
+netifaces/netifaces.cpython-39-darwin.so,sha256=2gVsQqAyGyyG9dR3SISOXxyTllMK607G3eiPlxrmmB0,1233135
+netifaces2-0.0.11.dist-info/RECORD,,

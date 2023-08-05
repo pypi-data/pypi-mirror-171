@@ -1,0 +1,12 @@
+misspellings_lib-2.0.1.data/scripts/misspellings,sha256=qDeNNZU-tRrLc8Qfub_HC_3ljeRhJEfGLnvAdcsJE0k,2845
+utils/__init__.py,sha256=LOKnB-nwfdyrOh1g2gVdh2MmYUowvU-hX8_pQr-zQIQ,517
+utils/argument_parser.py,sha256=DmPhAfLw2HAQCKAocO_ykH28vy5A0szl8wnRUtQ1XNg,1787
+utils/files.py,sha256=4Dq6tccAFQjkh_nCQiHDRvKQijWZC8nbGIPzYUvKO0g,1373
+utils/suggestions.py,sha256=3eFGcclHSayxqiF5tiuFfTtvLmRgdZusOV1YGpxi3N8,984
+utils/version.py,sha256=xu0N61DrH-gYdDdO_4EiwcKJqxZkJSVESNEq30gpJMo,45
+utils/words.py,sha256=M55Hf6aNPFxvNX_I6kJVM8axWF5ET5UeS0-kQPrLhxc,1358
+misspellings_lib-2.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+misspellings_lib-2.0.1.dist-info/METADATA,sha256=pL6B3LcM92aGIpP0X8iZeN62VPdysAME781sw77dvUo,4162
+misspellings_lib-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+misspellings_lib-2.0.1.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+misspellings_lib-2.0.1.dist-info/RECORD,,

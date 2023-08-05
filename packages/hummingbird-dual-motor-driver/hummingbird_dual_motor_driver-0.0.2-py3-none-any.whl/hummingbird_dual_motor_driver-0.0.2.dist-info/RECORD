@@ -1,0 +1,11 @@
+hummingbird_dual_motor_driver.py,sha256=6_BQb9XHVAER7y3sCUWMKKNxjJ509I9eDz0lDQUw1jY,1991
+hummingbird_dual_motor_driver/__init__.py,sha256=miSsqPy2PFJ18TW9kocQJLcv4HFpkfQhcTzgAO-GTVE,22
+hummingbird_dual_motor_driver/__main__.py,sha256=6eRASNWc7PO0DzeR8Vr900WedkOXn1IB4jJJYzzQyBg,427
+hummingbird_dual_motor_driver/cli.py,sha256=dFefACrtesA_xAi-r8PWuJPxJfJgQI0d8kqTWF5by9Y,876
+hummingbird_dual_motor_driver-0.0.2.dist-info/AUTHORS.rst,sha256=QVI9TWL1VcRIzLeKW8Ei31BjQFWb9nQI61Oq7kl-xc4,65
+hummingbird_dual_motor_driver-0.0.2.dist-info/LICENSE,sha256=f-z3TDlFdm1g1zfywea5jJL47iGeFCdEUHPrTT-kMRY,1100
+hummingbird_dual_motor_driver-0.0.2.dist-info/METADATA,sha256=JAbUxTqQ-3OhBTanbJR1dEzQc1bOskU1LCkDFeW-vkU,2288
+hummingbird_dual_motor_driver-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hummingbird_dual_motor_driver-0.0.2.dist-info/entry_points.txt,sha256=IwUDy3V9ecVMZiBCOL3b8vGyrqC6mCuWvvFfnYN2GtY,89
+hummingbird_dual_motor_driver-0.0.2.dist-info/top_level.txt,sha256=alTbYSn9CcovSR98qrLk-CcVqVJ7taJY1FpPXpidnYk,30
+hummingbird_dual_motor_driver-0.0.2.dist-info/RECORD,,

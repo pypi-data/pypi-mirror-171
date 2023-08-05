@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+olympyad/__init__.py
+olympyad/compose_functions.py
+olympyad.egg-info/PKG-INFO
+olympyad.egg-info/SOURCES.txt
+olympyad.egg-info/dependency_links.txt
+olympyad.egg-info/not-zip-safe
+olympyad.egg-info/top_level.txt

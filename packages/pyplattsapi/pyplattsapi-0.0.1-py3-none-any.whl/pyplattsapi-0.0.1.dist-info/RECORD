@@ -1,0 +1,12 @@
+pyplattsapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyplattsapi/oil_inventory.py,sha256=tODbwR-9oA_LIHvSxTDvwYu86YPssM9rZEADRi70rOI,2871
+pyplattsapi/plattsapicore.py,sha256=LmNLHdFQPnaDUPsLlmzY5wJ0uREuO_jL5NWMDNbLNIw,1248
+pyplattsapi/world_oil_supply.py,sha256=oHmbTcfyxHo66V8uubHUQfqe0AfwxprFygxuZrwYsa8,1354
+pyplattsapi/world_refinery_database.py,sha256=cOl74ruCbgc9sHDk63Sn6ZHdE_x2oWZL49_bpFWYfj8,3561
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plattsapicore.py,sha256=_A3KSSkVSQ1j7cxzhUUUvGWviNbMlwyLsL__yUS_6WM,1638
+tests/test_world_oil_supply.py,sha256=2XO7XDHn0cFJMHMyMsoAqEam9hna0IngIhrr53zKuFM,688
+pyplattsapi-0.0.1.dist-info/METADATA,sha256=6tStDbS9JJX3zTEXdsG20EAT6QuT2GTZeGwmVWE2VOQ,495
+pyplattsapi-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyplattsapi-0.0.1.dist-info/top_level.txt,sha256=_gR0xvx5I3yA_0-eRS2KdFgHbAVd4m8WfHcDBYpcCVw,18
+pyplattsapi-0.0.1.dist-info/RECORD,,

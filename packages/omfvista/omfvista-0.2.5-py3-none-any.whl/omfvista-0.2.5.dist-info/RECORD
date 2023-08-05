@@ -1,0 +1,15 @@
+omfvista/__init__.py,sha256=KYMpswfxB4kCqjf4_eU-n6DHP0Jclgnm4XW-Hl7t9Xw,1198
+omfvista/lineset.py,sha256=uy9GwP2WJQXrLklQolsImslDaQX06mv0qy8lMw8g204,1029
+omfvista/pointset.py,sha256=4CWM4c0LH6TQO5ewOfDGR2x-jn8lGZYFOX0Am2Gi57E,798
+omfvista/surface.py,sha256=jlvAg8OlHxvreVrP8vxI26JF_t-JPzoO6sevCWDxC7Q,3053
+omfvista/utilities.py,sha256=7v72U5CcICfDl8jetUjZ5TFqOaUa95rDs5Skyvu_ZmY,2399
+omfvista/volume.py,sha256=tVo1fjBDdQrUCZjdzAzB7LJ7u0SyTbTi5wyEb-iioKo,2667
+omfvista/wrapper.py,sha256=0Nk-AejYna5quuMjxoo_sDUtHoVL2w8BhHnoPUaYlvY,3595
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/element_test.py,sha256=YNtECXpKsNQiLodWZt6n8YJ2mfiH_sIHvGl8i2U_SIA,8673
+tests/project_test.py,sha256=qwDF-p-LZrf_INemS_7eTmGDfJOGck3-UtzNA1elnoM,1404
+omfvista-0.2.5.dist-info/LICENSE,sha256=FsJYI52VcrH-sZtcXln66yu4T464etQK3gu2MT4m2Ys,1518
+omfvista-0.2.5.dist-info/METADATA,sha256=3V0YCVfCVrdenDA7eXFYp1Aw-wXWloezlvpBeUl07ec,4910
+omfvista-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omfvista-0.2.5.dist-info/top_level.txt,sha256=ZqMSUQCL0vDsuZpjWw29pLItBUoyTpWXW4dP0aThP2w,15
+omfvista-0.2.5.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+my_pkg/__init__.py
+my_pkg/my_module.py
+my_pkg_binlecode.egg-info/PKG-INFO
+my_pkg_binlecode.egg-info/SOURCES.txt
+my_pkg_binlecode.egg-info/dependency_links.txt
+my_pkg_binlecode.egg-info/top_level.txt

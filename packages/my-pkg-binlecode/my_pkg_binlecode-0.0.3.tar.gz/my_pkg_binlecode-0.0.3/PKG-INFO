@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: my_pkg_binlecode
+Version: 0.0.3
+Summary: A small test package by setuptools
+Home-page: 
+Author: Bin Le
+Author-email: Bin Le <bin.le.code@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# build a python package
+
+setuptools guide:
+https://setuptools.pypa.io/en/latest/userguide/index.html
+
+python wheel build distribution guide:
+https://realpython.com/python-wheels/
+
+This example uses setup() function within the `setup.py` script.
+
+```sh
+pyenv shell 3.9.7
+python -m venv venv
+source venv/bin/activate
+
+python -m pip install --upgrade pip wheel setuptools twine
+```
+
+## use build
+
+```sh
+python -m pip install --upgrade build
+```
+
+build with pyproject.toml
+
+```sh
+rm -rf build dist *.egg-info
+python -m build
+```
+
+
+
+## sdist
+
+`python setup sdist` generates source distribution:
+
+- dist folder that contains `<package-name>-<version>.tar.gz`
+- <package-name>.egg-info folder
+
+A source distribution contains source code.
+That includes not only Python code but also the source code of any extension
+modules (usually in C or C++) bundled with the package.
+With source distributions, extension modules are compiled on the user’s side
+rather than the developer’s.
+
+Source distributions also contain a bundle of metadata sitting in a directory
+called `<package-name>.egg-info`. Egg distribution format is being replaced
+by wheel distribution format.
+
+## bdist and bdist_wheel
+
+`bdist` means build distribution, which is not necessarily binary.
+
+`python setup.py bdist` generates:
+
+- dist/<package-name>-<version>.<platform>.tar.gz, which is the default
+  type of built distribution for the current platform
+- build/bdist.<platform>
+- build/lib folder that includes modules
+
+`python setup.py bdist_wheel` generates:
+
+- dist/<package-name>-<version>-<python>-<platform>.whl
+
+A wheel file is essentially a zip archive with metadata of supported python
+versions and platforms.
+
+Usually both source and wheel build distributions should be generated and
+uploaded to package index for download and install.
+
+```sh
+rm -rf build dist *.egg-info
+python setup.py sdist bdist_wheel
+```
+
+## upload package to PyPI
+
+First, register PyPI account if not yet.
+
+```sh
+twine upload dist/*
+```
+
+## install
+
+`pip install <package-name>` is a general way of installing package.
+pip always prefers wheel distribution over source distribution.
+If wheel distribution is available for the target platform, source distribution
+will be used to build package at client side.
+
+pip install on wheel skips setup.py execution, which is described below.
+
+Inside package folder, use
+`python setup.py install` to install the distribution package.
+
+A inline editable install is for development mode:
+`python setup.py install --editable .` will install with the source content
+that is editable, which is great for debuging and testing changes.
+
+## pyproject.toml
+
+A later [PEP517](https://www.python.org/dev/peps/pep-0517/) standard defines
+`pyproject.toml` as the new standard for packaging and distributing python
+modules.
+
+If there's no `pyproject.toml` available, setuptools will fall back to
+`setup.py` file.

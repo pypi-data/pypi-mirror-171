@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Pulse-Coupled-Neural-Networks
+Version: 0.0.2
+Summary: A simple python implementation for Pulse Coupled Neural Networks (PCNN)
+Home-page: https://github.com/ArdeleanRichard/Pulse-Coupled-Neural-Network
+Author: Eugen-Richard Ardelean
+Author-email: ardeleaneugenrichard@gmail.com
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+

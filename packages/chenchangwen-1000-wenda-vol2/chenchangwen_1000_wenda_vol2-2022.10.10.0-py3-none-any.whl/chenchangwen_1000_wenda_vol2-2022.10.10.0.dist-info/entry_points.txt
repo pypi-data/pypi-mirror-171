@@ -1,0 +1,4 @@
+[console_scripts]
+Chenchangwen1000WendaVol2 = Chenchangwen1000WendaVol2.__main__:main
+chenchangwen-1000-wenda-vol2 = Chenchangwen1000WendaVol2.__main__:main
+

@@ -1,0 +1,9 @@
+vietokenizer/__init__.py,sha256=uZcbp-r-8Swjt3Nf-rRLwUNT8NM6FAyuspF-C7fyoY0,128
+vietokenizer/constant.py,sha256=aGAk_cArVmJkhJjpW6z72O5gtOiWRwDnaDJsD9JYXFU,282
+vietokenizer/preprocess_load.py,sha256=VG4_V9wd3uhj6rVmxDeX2IT1MObpnagzBVHj-HFPros,1128
+vietokenizer/tokenizer.py,sha256=ZNnc7ym1dpwWz6Y4ETF_Yv1khhSx6Dhl4wIW833fGpA,2977
+vietokenizer-1.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+vietokenizer-1.0.1.dist-info/METADATA,sha256=a7U0CwR2x-PL7OCjQDR7nOpvgDcyJK0TS-eLkj0U6pU,2470
+vietokenizer-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vietokenizer-1.0.1.dist-info/top_level.txt,sha256=VjG9qcLWWhr-LGBrbMX6SqbFX9WjssUyFAmM0mNdKQQ,13
+vietokenizer-1.0.1.dist-info/RECORD,,

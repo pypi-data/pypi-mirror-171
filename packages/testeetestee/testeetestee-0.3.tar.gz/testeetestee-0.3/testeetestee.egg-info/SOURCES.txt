@@ -1,0 +1,8 @@
+setup.py
+test_pppackage/__init__.py
+test_pppackage/print_hello.py
+testeetestee.egg-info/PKG-INFO
+testeetestee.egg-info/SOURCES.txt
+testeetestee.egg-info/dependency_links.txt
+testeetestee.egg-info/requires.txt
+testeetestee.egg-info/top_level.txt

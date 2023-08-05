@@ -1,0 +1,4 @@
+[console_scripts]
+QuanmouTongjian = QuanmouTongjian.__main__:main
+quanmou-tongjian = QuanmouTongjian.__main__:main
+

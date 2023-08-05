@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bnum
+Version: 0.1
+Summary: Bounded numbers.
+Author: David Eyk
+Author-email: david@worldsenoughstudios.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE.rst

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bopdf/__init__.py
+bopdf/pdf2image.py
+bopdf/pdf2text.py
+bopdf.egg-info/PKG-INFO
+bopdf.egg-info/SOURCES.txt
+bopdf.egg-info/dependency_links.txt
+bopdf.egg-info/top_level.txt

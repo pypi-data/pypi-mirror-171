@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+feishu_notify.egg-info/PKG-INFO
+feishu_notify.egg-info/SOURCES.txt
+feishu_notify.egg-info/dependency_links.txt
+feishu_notify.egg-info/entry_points.txt
+feishu_notify.egg-info/requires.txt
+feishu_notify.egg-info/top_level.txt

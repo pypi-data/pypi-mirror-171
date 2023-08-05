@@ -1,0 +1,8 @@
+CHANGES
+=======
+
+0.0.1
+-----
+
+* 【Feature】解决第二次查看index重复显示问题，index同时显示maxIndex
+* Initial commit

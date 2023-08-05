@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hayp
+Version: 0.0.8
+Summary: Librería para analizar redes de petri
+Author: Duver hernandez Cobos, Georffrey Julian Arevalo Prado, Sebastian Yañez Rojas
+Requires-Dist: numpy
+Requires-Dist: graphviz
+

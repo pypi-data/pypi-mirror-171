@@ -1,0 +1,13 @@
+meishiki/__init__.py,sha256=QZbqwTMLMvDn7Z24UcQauAMUhCE3W5iKxFgqxgrne64,261
+meishiki/consts.py,sha256=Q-hWRde9UvyizhBIKwNBcsgnq97TLniMgpmJYWixvuE,436
+meishiki/consts.yaml,sha256=4ChfJxxTGJUcUwnZvEORZWkDgCusi0RFd6tAZ0Ppo9k,51664
+meishiki/errors.py,sha256=ujI8BjOFjas_RUCanwZTMQbbcUEPkUhD8hkpTVUvoh8,348
+meishiki/meishiki.py,sha256=RdaOtaS_9Sqc7FCtnhA3epP39bH697hLoY07XGiE1Tk,15082
+meishiki/output.py,sha256=szA20LqdwDOn-YUzs0DtPET8MMtJS0Ssg-zMtuAb0Sg,13983
+meishiki/unsei.py,sha256=N5xt1zb5GyIRCa__ADwg5_hH02BFjEhMNvmgs4BZuZo,10582
+meishiki/util.py,sha256=Mb-wfdgpgDEEruFgayozPLGQGZ8azL17ydB2BTQ7Leg,1234
+meishiki-0.0.1.dist-info/LICENSE,sha256=UcVfpRq-ib_ERjaFEM8zTuYc7bmr-sph5PS-gI-Zyy0,1061
+meishiki-0.0.1.dist-info/METADATA,sha256=iIKiuLRc6_kfD3efp7yZyF5IKcjY5paH0c4RPNPkJfo,615
+meishiki-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+meishiki-0.0.1.dist-info/top_level.txt,sha256=UA79pVPTOK9Lfw0cmBcRHy-zBcM_rx0uDgoqgbaCo3o,9
+meishiki-0.0.1.dist-info/RECORD,,

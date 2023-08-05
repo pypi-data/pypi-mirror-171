@@ -1,0 +1,10 @@
+django-crispy-forms~=1.8
+icalendar~=4.0
+django-timezone-field>=3.1
+
+[test]
+Django<4
+django-debug-toolbar
+django-extensions
+black
+flake8

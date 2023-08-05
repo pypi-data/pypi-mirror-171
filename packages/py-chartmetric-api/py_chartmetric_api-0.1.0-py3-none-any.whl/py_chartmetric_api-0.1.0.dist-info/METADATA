@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: py-chartmetric-api
+Version: 0.1.0
+Summary: simple Python library for retrieving data from chartmetric.com
+License: MIT
+Author: Felix Perron-Brault
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# py_chartmetric_api
+
+py_chartmetric_api is a simple Python library for retrieving data from [chartmetrics.com](https://chartmetric.com/).
+
+## Requirements
+- Python 3.9 or later
+
+## Installation
+
+```bash
+$ pip install py_chartmetric_api
+```
+
+## Usage
+
+```python
+import py_chartmetric_api
+
+# returns first 100 artists that had a first relaase 30 days ago or less
+py_chartmetric_api.artist.get_artists_with_filters(0, 100, {"firstReleaseDaysAgo": "30"})
+
+# returns 300 artists that have between 1000 and 100000 spotify followers
+py_chartmetric_api.artist.get_artists_by_stats("sp_followers", 1000, 100000, 300)
+
+```
+Refer to examply.py for a more in-depth example
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

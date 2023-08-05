@@ -1,0 +1,4 @@
+[console_scripts]
+ZizhuZhangxianshengGongzhonggaoBeifenVol2 = ZizhuZhangxianshengGongzhonggaoBeifenVol2.__main__:main
+zizhu-zhangxiansheng-gongzhonggao-beifen-vol2 = ZizhuZhangxianshengGongzhonggaoBeifenVol2.__main__:main
+

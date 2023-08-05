@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ranged-number
+Version: 1.0.0
+Summary: number with limits in python
+Author: Noam Avned
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+# ranged number
+
+Can be used with only intiger and floats.
+
+class that checks if number is in range and create a number in range (float).  
+
+to import use ``import rangednumber``
+
+
+Change Log
+=======================
+
+1.0.0 (10/10/2022)
+-------------------
+- First Release

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ranged_number.egg-info/PKG-INFO
+ranged_number.egg-info/SOURCES.txt
+ranged_number.egg-info/dependency_links.txt
+ranged_number.egg-info/top_level.txt
+rangednumber/__init__.py

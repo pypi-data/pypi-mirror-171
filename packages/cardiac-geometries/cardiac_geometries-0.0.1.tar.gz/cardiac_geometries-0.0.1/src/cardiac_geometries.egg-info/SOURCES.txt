@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/cardiac_geometries.egg-info/PKG-INFO
+src/cardiac_geometries.egg-info/SOURCES.txt
+src/cardiac_geometries.egg-info/dependency_links.txt
+src/cardiac_geometries.egg-info/entry_points.txt
+src/cardiac_geometries.egg-info/not-zip-safe
+src/cardiac_geometries.egg-info/requires.txt
+src/cardiac_geometries.egg-info/top_level.txt

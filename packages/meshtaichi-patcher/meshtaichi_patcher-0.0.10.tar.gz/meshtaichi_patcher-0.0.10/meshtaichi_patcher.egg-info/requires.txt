@@ -1,0 +1,5 @@
+pymeshlab
+numpy
+
+[test]
+pytest>=6.0

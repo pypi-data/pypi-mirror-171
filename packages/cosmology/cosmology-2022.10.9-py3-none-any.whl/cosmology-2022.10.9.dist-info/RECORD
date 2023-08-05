@@ -1,0 +1,10 @@
+cosmology/__init__.py,sha256=fQz3eExXf03UPXEpmYZyEG5_yRj4Q4lD0SZX0IKMU3o,200
+cosmology/_structure.py,sha256=L7d_1Y1NtylrWvr5vrJXlECxM80bMoFUPTrJLQEPMeo,7765
+cosmology/astropy.py,sha256=dPp7hDrwUN32-ElG5-zAUb1Qwa8mGos2hj9GcE61Rho,2358
+cosmology/background.py,sha256=taUfHygbZLmWpXltcMIlMpNnEctk3PAEcOsP8DZc3eI,12091
+cosmology/camb.py,sha256=S3evloLN0ulfoES4hIWzqZaykgP_DdmdxzKqwoY2vig,2337
+cosmology-2022.10.9.dist-info/LICENSE.txt,sha256=hUQ9sMhR56gFjyH73_eyN6wCUTcuFD-Pvza4QRnN3bs,1072
+cosmology-2022.10.9.dist-info/METADATA,sha256=PtnitQawfoy6V1yO93vRaOzqI5J3FQs3VKguDRL1BY0,927
+cosmology-2022.10.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cosmology-2022.10.9.dist-info/top_level.txt,sha256=xd6ij5Ro9zpG99D2DNDR2aiShxGezzVhpSqx_rW21ko,10
+cosmology-2022.10.9.dist-info/RECORD,,

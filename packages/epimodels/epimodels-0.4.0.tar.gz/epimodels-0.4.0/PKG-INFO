@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: epimodels
+Version: 0.4.0
+Summary: Library of mathematical epidemic models for use in simulation studies and inference
+Home-page: https://github.com/fccoelho/epimodels
+Author: Flávio Codeço Coelho
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cython (==0.29.32)
+Requires-Dist: matplotlib (>=3.6.1,<4.0.0)
+Requires-Dist: mypy (==0.982)
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Requires-Dist: pyitlib
+Requires-Dist: scipy (>=1.9.2,<2.0.0)
+Requires-Dist: sphinx
+Requires-Dist: sympy (>=1.11.1,<2.0.0)

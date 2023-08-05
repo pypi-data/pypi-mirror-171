@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nuxt
+Version: 0.0.9
+Summary: A integration tools for build web app with python.
+Home-page: https://github.com/Arvintian/nuxt
+Author: arvin
+Author-email: arvintian8@gamil.com
+License: MIT
+Description: Nuxt is a integration tools for build web app with python, built on top of [Madara](https://github.com/Arvintian/madara)/[Starlette](https://github.com/encode/starlette)/[Gunicorn](https://github.com/benoitc/gunicorn)/[Uvicorn](https://github.com/encode/uvicorn).
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

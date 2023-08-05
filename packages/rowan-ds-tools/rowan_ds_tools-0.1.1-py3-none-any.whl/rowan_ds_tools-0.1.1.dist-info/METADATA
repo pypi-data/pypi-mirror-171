@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rowan-ds-tools
+Version: 0.1.1
+Summary: A suite of commonly used DS functions/classes
+Author-email: Rowan Mankoo <rowan.mankoo@gmail.com>
+Project-URL: Homepage, https://github.com/RowanMankoo/rowan_ds_tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.23.3)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: protobuf (==4.21.7)
+Requires-Dist: pytest (==6.2.4)
+Requires-Dist: scipy (==1.9.2)
+Requires-Dist: SQLAlchemy (==1.4.22)
+Requires-Dist: google-cloud (==0.34.0)
+Requires-Dist: google-cloud-storage (==2.5.0)
+Requires-Dist: psycopg2-binary (==2.9.4)
+
+# rowan_ds_tools
+
+A suite of commonly used DS functions/classes
+
+

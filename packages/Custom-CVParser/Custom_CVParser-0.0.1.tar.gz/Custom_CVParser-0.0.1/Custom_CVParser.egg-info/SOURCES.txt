@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+Custom_CVParser.egg-info/PKG-INFO
+Custom_CVParser.egg-info/SOURCES.txt
+Custom_CVParser.egg-info/dependency_links.txt
+Custom_CVParser.egg-info/entry_points.txt
+Custom_CVParser.egg-info/not-zip-safe
+Custom_CVParser.egg-info/requires.txt
+Custom_CVParser.egg-info/top_level.txt
+custom_CVParser/__init__.py
+custom_CVParser/command_line.py
+custom_CVParser/constants.py
+custom_CVParser/resume_parser.py
+custom_CVParser/utils.py

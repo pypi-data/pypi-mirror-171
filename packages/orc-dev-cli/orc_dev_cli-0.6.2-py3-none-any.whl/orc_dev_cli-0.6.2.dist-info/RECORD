@@ -1,0 +1,13 @@
+orc_dev_cli/__init__.py,sha256=jFlbxEJFS0G44LE-yXXVSwXACA1J_NyYDk5E20_2zpc,22
+orc_dev_cli/addon_state.py,sha256=p0PCK_v9Jz2rZmuFGiR1NBYHVI2xZFbJqV2ahX0BxEs,6790
+orc_dev_cli/cli.py,sha256=O-EP7tv-YyrqA_0nAiBBOSqS_n1rJnAd0A-gaJaTkuc,4159
+orc_dev_cli/code.py,sha256=_WXhYfcVK4klIdvr83c07rg0i931ov8f-qkM1dqckkI,5834
+orc_dev_cli/config.py,sha256=JGIlnjhM8s7X7QsaNS-HwKmmSRFdLu3vu3GS1_stKJU,1995
+orc_dev_cli/data/index_build.toml,sha256=9eGon6cj52UppIGfEt2TY9h2gitLkUde3pPb4r1k5oM,7007
+orc_dev_cli/index_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orc_dev_cli/index_build/default.py,sha256=1Ge1wt6pT4wsSrZervHYEJ1xWpsdtzB6kR6BynzV6j8,911
+orc_dev_cli/index_build/index.py,sha256=OCjxefQDm46EocfqUYbOFlK9dXssoWbqEL493Mq6D20,17200
+orc_dev_cli-0.6.2.dist-info/entry_points.txt,sha256=NNN6E9U18UEXuuCqL1uvxGu3JVAqrxTl0ShaHwyboWw,43
+orc_dev_cli-0.6.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+orc_dev_cli-0.6.2.dist-info/METADATA,sha256=dnGwRTUnYOEgfmU-8BZcQWwVinIDKY2gAHHN_Sz4QVY,1936
+orc_dev_cli-0.6.2.dist-info/RECORD,,

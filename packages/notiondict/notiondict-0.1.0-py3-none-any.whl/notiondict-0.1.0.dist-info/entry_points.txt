@@ -1,0 +1,2 @@
+[console_scripts]
+notiondict = notiondict.notiondict:main

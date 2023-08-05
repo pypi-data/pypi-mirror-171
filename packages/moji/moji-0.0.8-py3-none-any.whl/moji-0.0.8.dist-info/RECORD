@@ -1,0 +1,10 @@
+moji/__init__.py,sha256=OGJZyj3eQxBofDMgllgfDofhz8T0tjLd4NW5z-beGDI,15
+moji/dacc.py,sha256=1JmzmoHqDIj0TTR6LN8LKUh_z_iYJ--_-G8P0XRIEk4,1092
+moji/util.py,sha256=wAHedIX4ln9WOr1LW_h1rfOX64qWYzY3nsN69c8L95g,485
+moji/data/emoji2vec.tsv,sha256=y79N5sAw4Mbk55b5p1CBUqW-NPoZUTpmIpB8KdrWis0,9781564
+moji/data/emoji_joined.tsv,sha256=9FHwWqA8a1mdB9t7bjvwjCqgp15BZSuemx6vYvc2NsQ,107059
+moji-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+moji-0.0.8.dist-info/METADATA,sha256=3V680nAXU7V0ne8nQjFR-bbTFn--Df9WP6vgMzGjM5g,3091
+moji-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+moji-0.0.8.dist-info/top_level.txt,sha256=wc05mEQ5zlYOCUGl96M4jWT6pps9dt66NCh8k7sryvI,5
+moji-0.0.8.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+README.md
+setup.py
+rhsolpy/__init__.py
+rhsolpy/rankine_hugoniot.py
+rhsolpy.egg-info/PKG-INFO
+rhsolpy.egg-info/SOURCES.txt
+rhsolpy.egg-info/dependency_links.txt
+rhsolpy.egg-info/top_level.txt

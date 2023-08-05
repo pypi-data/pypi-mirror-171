@@ -1,0 +1,29 @@
+#!python
+
+import argparse
+import sys
+
+import numpy as np
+
+from pygwb.baseline import Baseline
+from pygwb.detector import Interferometer
+from pygwb.omega_spectra import OmegaSpectrogram
+from pygwb.parameters import Parameters
+from pygwb.postprocessing import (
+    calc_Y_sigma_from_Yf_sigmaf,
+    calculate_point_estimate_sigma_spectra,
+)
+from pygwb.statistical_checks import StatisticalChecks, run_statistical_checks_from_file
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-c', '--combine_file_path',help="combined file containing spectra",action="store", type=str)
+    parser.add_argument('-dsc', '--dsc_file_path',help="delta sigma cut file containing sigmas and more",action="store", type=str)
+    parser.add_argument('-pd', '--plot_dir',help="Directory where plots should be saved",action="store", type=str)
+    parser.add_argument('-pf', '--param_file',help="Parameter file used during analysis",action="store", type=str)
+    
+    args = parser.parse_args()
+
+    test = run_statistical_checks_from_file(args.combine_file_path, args.dsc_file_path, args.plot_dir, args.param_file)
+    
+    test.generate_all_plots()

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: eeg-fConn
+Version: 1.0.0
+Summary: To compute the functional connectivity from EEG in various bands
+Home-page: UNKNOWN
+Author: Muhammad Salman Kabir
+Author-email: kabir.msalman@gmail.com
+License: GNU
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+

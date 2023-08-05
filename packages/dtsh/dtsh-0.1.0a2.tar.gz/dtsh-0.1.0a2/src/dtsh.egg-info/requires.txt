@@ -1,0 +1,6 @@
+devicetree
+rich
+Pygments
+
+[test]
+pytest

@@ -1,0 +1,6 @@
+setup.py
+hayp.egg-info/PKG-INFO
+hayp.egg-info/SOURCES.txt
+hayp.egg-info/dependency_links.txt
+hayp.egg-info/requires.txt
+hayp.egg-info/top_level.txt

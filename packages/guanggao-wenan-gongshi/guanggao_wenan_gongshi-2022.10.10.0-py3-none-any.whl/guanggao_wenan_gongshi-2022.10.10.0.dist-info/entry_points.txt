@@ -1,0 +1,4 @@
+[console_scripts]
+GuanggaoWenanGongshi = GuanggaoWenanGongshi.__main__:main
+guanggao-wenan-gongshi = GuanggaoWenanGongshi.__main__:main
+

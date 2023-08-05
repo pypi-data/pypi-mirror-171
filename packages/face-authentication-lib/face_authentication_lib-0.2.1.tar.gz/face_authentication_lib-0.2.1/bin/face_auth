@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+import sys
+from face_authentication_lib import FaceAuth
+
+# Default values in case of arguments are not entered by user
+api_key = ""
+image_file = ""
+video_file = ""
+accuracy = "normal"
+face_detection_model = "default"
+face_recognition_model = "default"
+detect_face_spoofing = False
+
+try:
+    api_key = sys.argv[1]
+    image_file = sys.argv[2]
+    video_file = sys.argv[3]
+    accuracy = sys.argv[4]
+    face_detection_model = sys.argv[5]
+    face_recognition_model = sys.argv[6]
+    if sys.argv[7]:
+        detect_face_spoofing = True
+except:
+    pass
+
+# Instantiate a FaceAuth object using API key
+face_auth = FaceAuth(api_key)
+
+# Call 'authenticate' method to perform face authentication given an image and video of user's face
+authentication_result = face_auth.authenticate(image_file=image_file,
+                                               video_file=video_file,
+                                               accuracy=accuracy,
+                                               face_detection_model=face_detection_model,
+                                               face_recognition_model=face_recognition_model,
+                                               detect_face_spoofing=detect_face_spoofing)
+
+print(authentication_result)

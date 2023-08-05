@@ -1,0 +1,14 @@
+adorable/__init__.py,sha256=y3D0VQy_7jViVTZsQQrqIu-jXGlM904I9uAcl4Ab9YI,284
+adorable/_ansi_conv.py,sha256=8upd4PBEV7XOTXYpQ43h_AYNj6Ssw4RcuuDXKZQ0IsQ,4914
+adorable/_palette.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adorable/ansi.py,sha256=7C8FC2iTicCo8pC3ObkBxw-KKzNHC4nmjw3nMrXRvdY,3150
+adorable/color.py,sha256=U2EfFnsGfDPCbQWGxQ7r66ZqeEJxh9XEg5hMr9JpPbE,9607
+adorable/markup.py,sha256=_DfFbWhqPsHSxAyAM5iZRvMi8mZt-oBaTKFfG6C0jSw,3535
+adorable/style.py,sha256=flMit-WqnN_JnRANy0OxT-XnMuLIj9k_XclDV01tsIk,453
+adorable/term.py,sha256=rR1Q030WJD6XR9cUAPouiuHuh0t3mYS0cpy4_3XAeQM,1049
+adorable/utils.py,sha256=sTpjVuIEy_PE5aV12u81e3sE-Mqb25oKUosxn8qUneE,1080
+adorable/webcolors.py,sha256=n9P0za-xq4OETYt5_sP0EXcHwlbBywsCSmFW1v2EB0Q,4391
+adorable-0.0.1b2.dist-info/METADATA,sha256=NVWkiqooVegCOM8FjKQKrOCNlCulc_GFNtMv8n4KH2k,682
+adorable-0.0.1b2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adorable-0.0.1b2.dist-info/top_level.txt,sha256=h3eUB-qKzgb1tkLg7PJUmKMD6Zbq3HhgawuT3MSUUFM,9
+adorable-0.0.1b2.dist-info/RECORD,,

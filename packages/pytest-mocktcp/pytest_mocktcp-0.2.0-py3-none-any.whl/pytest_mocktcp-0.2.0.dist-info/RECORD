@@ -1,0 +1,8 @@
+pytest_mocktcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mocktcp/plugin.py,sha256=paaeMmAZcLp-WYm2FeKtUOH50ngrA3faIl1wqMMGWpM,20597
+pytest_mocktcp-0.2.0.dist-info/LICENSE,sha256=up4tpyHbtBiY-vY-uWEIPOOoq8-hp95_-zt_JFyn_pY,1073
+pytest_mocktcp-0.2.0.dist-info/METADATA,sha256=zD8OAcSRbayQQvSjoSg99RTqz7YwyZyeH_1h3nlblO4,2013
+pytest_mocktcp-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_mocktcp-0.2.0.dist-info/entry_points.txt,sha256=OUyJzH-t3ly7yQUWq3wYr1zY0vVVvaQSzM9Cjv--UG4,43
+pytest_mocktcp-0.2.0.dist-info/top_level.txt,sha256=RZCmDqyBCMlPpgF-0MDQkYzNxmROxiETV67B9HzxeRg,15
+pytest_mocktcp-0.2.0.dist-info/RECORD,,

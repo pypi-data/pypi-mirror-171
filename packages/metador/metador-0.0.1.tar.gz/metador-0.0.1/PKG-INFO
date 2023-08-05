@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: metador
+Version: 0.0.1
+Summary: The metadata-first research data management framework.
+Author: a.pirogov
+Author-email: a.pirogov@fz-juelich.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Metador
+
+Stub, to be published by end 2022 / early 2023.
+

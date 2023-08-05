@@ -1,0 +1,4 @@
+[console_scripts]
+ChenchangwenLaobanXinfa = ChenchangwenLaobanXinfa.__main__:main
+chenchangwen-laoban-xinfa = ChenchangwenLaobanXinfa.__main__:main
+

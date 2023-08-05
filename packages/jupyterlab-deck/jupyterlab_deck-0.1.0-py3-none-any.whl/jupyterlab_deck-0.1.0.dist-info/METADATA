@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: jupyterlab-deck
+Version: 0.1.0
+Summary: A lightweight presentation mode for JupyterLab.
+Author-email: jupyterlab-deck contributors <deathbeds@googlegroups.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jupyterlab >=3,<4
+Project-URL: Bug Tracker, https://github.com/deathbeds/ipydrawio/issues
+Project-URL: Changelog, https://github.com/deathbeds/jupyterlab-deck/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://jupyterlab-deck.rtfd.io
+Project-URL: Source, https://github.com/deathbeds/jupyterlab-deck
+
+# `jupyterlab-deck`
+
+[![rtd-badge]][rtd] [![binder-badge]][binder] [![ci-badge]][ci]
+
+[binder-badge]: https://mybinder.org/badge_logo.svg
+[binder]:
+  https://mybinder.org/v2/gh/deathbeds/jupyterlab-deck/HEAD?urlpath=lab/tree/examples/README.ipynb
+[ci-badge]: https://img.shields.io/github/checks-status/deathbeds/jupyterlab-deck/main
+[ci]: https://github.com/deathbeds/jupyterlab-deck/actions?query=branch%3Amain
+[rtd-badge]: https://img.shields.io/readthedocs/jupyterlab-deck
+[rtd]: https://jupyterlab-deck.rtfd.io
+
+> Lightweight presentations for JupyterLab
+
+## Installation
+
+```bash
+pip install jupyterlab-deck
+```
+
+or
+
+```
+mamba install jupyterlab-deck # or conda, if you must
+```
+
+> See [`CONTRIBUTING.md`](https://github.com/deathbeds/jupyterlab-deck) for a
+> development installation.
+
+## Usage
+
+- Add _slide metadata_ with the _Advanced tools_
+- When viewing a _Notebook_, click the _deck_ icon
+- Use the _navigation controls_ or _keyboard shortcuts_ to navigate through the deck
+- Exit the deck with <kbd>shift+esc</kbd>
+
+## Enabling Deck Mode at startup
+
+- see the JupyterLab docs about [settings `overrides.json`][overrides].
+
+```json
+{
+  "@deathbeds/jupyterlab-deck:plugin": {
+    "active": true
+  }
+}
+```
+
+[overrides]:
+  https://jupyterlab.readthedocs.io/en/stable/user/directories.html#overrides-json
+
+## Uninstall
+
+```
+pip uninstall jupyterlab-deck
+```
+
+or
+
+```
+mamba remove jupyterlab-deck # or conda if you must
+```
+

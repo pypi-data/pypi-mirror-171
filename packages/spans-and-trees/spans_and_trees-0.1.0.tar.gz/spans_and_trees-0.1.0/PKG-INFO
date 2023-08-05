@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: spans_and_trees
+Version: 0.1.0
+Summary: Convert between XML trees and span representation
+Home-page: https://github.com/jakelever/spansandtrees
+Author: Jake Lever
+Author-email: jake.lever@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: xml spans
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8

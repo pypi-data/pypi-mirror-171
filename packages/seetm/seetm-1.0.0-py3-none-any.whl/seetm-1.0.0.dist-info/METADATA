@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: seetm
+Version: 1.0.0
+Summary: Converts English tokens into the equivalent Sinhala representation using IPA (International Phonetic Alphabet)
+Home-page: https://github.com/dinushiTJ/seetm
+Author: Dinushi Jayasinghe
+Author-email: dinushitj@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eng-to-ipa (~=0.0.2)
+Requires-Dist: gensim (~=4.1.2)
+
+not provided
+

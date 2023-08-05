@@ -1,0 +1,7 @@
+include LICENSE.txt
+include README.md
+include history.txt
+include macal/interpreter/*
+include macal/examples/*
+include macal/Library/*
+include macal/Library/Extern/*

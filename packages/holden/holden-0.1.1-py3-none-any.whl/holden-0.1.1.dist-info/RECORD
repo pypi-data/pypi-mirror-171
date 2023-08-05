@@ -1,0 +1,10 @@
+holden/__init__.py,sha256=bA0coLx2tzSOXpZlZM7TUyVDjbg1NxfHW0oiNNVx_Ss,2459
+holden/base.py,sha256=i9Bv6ZW3UzZshS_SpnjXrBw13J4_0DHl0Oidtw5rDNQ,21021
+holden/composites.py,sha256=KO7wP4gbbe-b7YLpDkF9hILQxPDBOQfqOJrNUhutzx0,5790
+holden/forms.py,sha256=kyKoAzTeJgFgVrgy1JtB_WKWcnW2LVw0qe2tVeoCTsM,40926
+holden/graphs.py,sha256=oP6hthsKM9lFltNX6ilLfYBdwr5tjhoXywn4BE1nPQQ,51090
+holden/traits.py,sha256=O7o2wSWP96YM_b4yphYd_-4rjgQ4406qpEzy-dga5iw,9885
+holden-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+holden-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+holden-0.1.1.dist-info/METADATA,sha256=_uF2lZdAxzAGhpQ1LeYvo2UWxk_QOESWtfiAwJYUcTA,1937
+holden-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pytest_mocktcp/__init__.py
+src/pytest_mocktcp/mocktcp.py
+src/pytest_mocktcp.egg-info/PKG-INFO
+src/pytest_mocktcp.egg-info/SOURCES.txt
+src/pytest_mocktcp.egg-info/dependency_links.txt
+src/pytest_mocktcp.egg-info/entry_points.txt
+src/pytest_mocktcp.egg-info/requires.txt
+src/pytest_mocktcp.egg-info/top_level.txt

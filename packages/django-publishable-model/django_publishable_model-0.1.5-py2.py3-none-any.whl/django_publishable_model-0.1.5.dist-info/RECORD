@@ -1,0 +1,14 @@
+publishable_model/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+publishable_model/apps.py,sha256=Ri7E3Rq8FEO9vkWjR_AFY77WwZzM29IVFWymzPeF5ZY,128
+publishable_model/managers.py,sha256=A0QQA6QuSbdOcpREl6fhqw4thkBps-kuy1Y4BIlN9WE,774
+publishable_model/models.py,sha256=YpWF71EuiR-A3juB5376HdV7BWoahs5fObMYE99nsW4,3013
+publishable_model/querysets.py,sha256=_hIj0LCcc2VUhLR8jjmdXNVTodEEU-sHie7v2AKUtss,1034
+publishable_model/settings.py,sha256=C6xnExGDECDue7t-Q3ZzvLa9aZ1N14x6eVQULl2H8F0,133
+publishable_model/admin/__init__.py,sha256=iIKWkgaUBDjKC1tcif0FtEwF55Gl9h4SylOCB0l1rHo,21
+publishable_model/admin/admin.py,sha256=Gpj9cGz435af1RYw5DXGzWOiRhf_u8u1jqkYUfIdjks,5791
+publishable_model/admin/admin_filters.py,sha256=50LjMXkYPIOtLaOKHUiBlWRq6niE0rCT59wBCX5WmMM,1865
+django_publishable_model-0.1.5.dist-info/LICENSE.md,sha256=xMpanCMdZ3OIJeh67SPuAB3gh_tGKjZ-mtmppb7aijM,1095
+django_publishable_model-0.1.5.dist-info/METADATA,sha256=4dPg1vx0M408xOk0v_y3EJl_3LvsS7mQWRpL-aTQUhk,3394
+django_publishable_model-0.1.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_publishable_model-0.1.5.dist-info/top_level.txt,sha256=hnLztIKXC6RKlj8zc4aLOk6AF3rXgL6Tef9k_g7On4U,18
+django_publishable_model-0.1.5.dist-info/RECORD,,

@@ -1,0 +1,35 @@
+{% extends 'layouts/base.html' %}
+
+{% from 'macros/user_interface.html' import clickableCard %}
+
+{% block main %}
+
+    <div class="grid-wrapper">
+        <div class="view">
+            <div class="row mb0">
+                <div class="col s12 m8 offset-m2">
+                    <div class="card rounded">
+                        <div class="card-content">
+                            <span class="card-title center-align">Company Info</span>
+                            <form action="{{ url_for('admin.company_post') }}" method="POST"
+                                  enctype="multipart/form-data">
+                                {{ company_form.hidden_tag() }}
+                                <div class="row">
+                                    <div class="col s12 m10 input-field">
+                                        {{ company_form.name() }}
+                                        {{ company_form.name.label }}
+                                    </div>
+                                    <div class="col s12 m2 input-field center-align">
+                                        {{ company_form.submit(class="btn") }}
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

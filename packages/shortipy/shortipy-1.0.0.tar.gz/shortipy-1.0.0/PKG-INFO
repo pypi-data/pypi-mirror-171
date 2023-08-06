@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shortipy
+Version: 1.0.0
+Summary: Shortipy is a RESTful Web API, written in Python language and based on the Flask micro-framework, designed to manage shortened links.
+Author: Simone Perini
+Author-email: perinisimone98@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=2.2.2,<3.0.0)
+Requires-Dist: flask-redis (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# shortipy
+
+**Shortipy** is a *RESTful Web API*, written in *Python* language and based on the *Flask* micro-framework, designed to manage shortened links. 
+

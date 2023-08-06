@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: adicao-subtracao
+Version: 0.0.1
+Summary: Esse pacote faz soma e subtracao de dois números
+Home-page: https://github.com/jonatas177/Meu_Portfolio
+Author: jonatas bernardes de oliveira
+Author-email: jonatas-bernardes@hotmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aritmetica_basica
+
+Description. 
+The package aritmetica_basica is used to:
+	- 
+	-
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install aritmetica_basica
+
+```bash
+pip install adicao_subtracao
+```
+
+## Usage
+
+```python
+from aritmetica_basica.adicao import aritmetica_basica
+aritmetica_basica.adicao()
+```
+
+## Author
+Jonatas
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

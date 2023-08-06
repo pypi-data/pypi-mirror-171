@@ -1,0 +1,4 @@
+[console_scripts]
+ChuliZijideFoudingju = ChuliZijideFoudingju.__main__:main
+chuli-zijide-foudingju = ChuliZijideFoudingju.__main__:main
+

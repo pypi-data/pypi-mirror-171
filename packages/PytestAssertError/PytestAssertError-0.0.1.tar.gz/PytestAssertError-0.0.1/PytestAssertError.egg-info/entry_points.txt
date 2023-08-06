@@ -1,0 +1,3 @@
+[pytest11]
+change_assert = pytest_assert_error_plugin
+

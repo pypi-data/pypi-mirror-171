@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: PytestAssertError
+Version: 0.0.1
+Summary: 修改pytest运行报错为中文
+Home-page: UNKNOWN
+Author: Jakilo
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: image_processing_DIO
+Version: 0.0.2
+Summary: Package basic of processing image
+Home-page: https://github.com/ernestojr-7/image-processing-DIO
+Author: my_name
+Author-email: santosunior@gmail.com
+License: UNKNOWN
+Description: # package_name
+        
+        Description. 
+        The package image-processing-DIO is used to:
+        
+        	Processing:
+        	
+        		- Histogram matching
+        		- Structural similarity
+        		- Resize image
+        	Utils:
+        
+        		- Read image
+        		- Save image
+        		- Plot image
+        		- Plot result
+        		- Plot histogram
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image-processing-DIO
+        
+        ```bash
+        pip install image-processing-DIO
+        ```
+        
+        ## Usage
+        
+        ```python
+        from image-processing-DIO.processing import combination
+        combination.find_difference()
+        ```
+        
+        ## Author
+        Ernesto
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<script>window.texme = { style: 'none' }</script>
+<script>
+    function setZoom(zoom) {
+        el = document.querySelector('main')
+        el = el || instance.getContainer();
+        var p = ["webkit", "moz", "ms", "o"],
+            s = "scale(" + zoom + ")"
+        for (var i = 0; i < p.length; i++) {
+            el.style[p[i] + "Transform"] = s;
+        }
+        el.style["transform"] = s;
+    }
+    zoom = 1;
+    function zoomin() {
+        zoom = zoom + 0.05;
+        setZoom(zoom);
+    }
+    function zoomout() {
+        zoom = zoom - 0.05;
+        setZoom(zoom);
+    }
+    function reset() {
+        zoom = 1;
+        setZoom(zoom);
+    }
+    
+        
+    function moveEyes(e) {
+        leftEye = document.querySelector('#leftEye');
+        rightEye = document.querySelector('#rightEye');
+        leftPupil = document.querySelector('#leftPupil');
+        rightPupil = document.querySelector('#rightPupil');
+        mouth = document.querySelector('#mouth');
+        var t = e.pageX || null != e.touches && e.touches.length && e.touches[0].pageX
+        , n = e.pageY || null != e.touches && e.touches.length && e.touches[0].pageY
+        , r = leftEye.getBoundingClientRect()
+        , i = rightEye.getBoundingClientRect()
+        , o = r.x + r.width / 2
+        , s = r.y + window.scrollY + r.height / 2
+        , c = i.x + i.width / 2
+        , l = i.y + window.scrollY + i.height / 2
+        , u = Math.atan2(n - s, t - o)
+        , h = Math.atan2(n - l, t - c)
+        , p = Math.sqrt((n - s) * (n - s) + (t - o) * (t - o))
+        , d = Math.sqrt((n - l) * (n - l) + (t - c) * (t - c))
+        , f = r.y + window.scrollY + r.height - r.width / 2
+        , m = i.y + window.scrollY + i.height - i.width / 2;
+    
+        pokingLeftEye = Math.sqrt((n - f) * (n - f) + (t - o) * (t - o)) < 10,
+        pokingRightEye = Math.sqrt((n - m) * (n - m) + (t - c) * (t - c)) < 10,
+        leftPupil.setAttribute("transform", "translate(" + (Math.cos(u) * Math.min(12, p) - 8) + "," + Math.min(Math.sin(u) * Math.min(10, p) + 7, 12) + ")"),
+        rightPupil.setAttribute("transform", "translate(" + (Math.cos(h) * Math.min(12, d) - 8) + "," + Math.min(Math.sin(h) * Math.min(10, d) + 7, 12) + ")"),
+        pokingLeftEye ? leftEye.style.transform = "translate(0, 30px) scale(1, 0)" : leftEye.style.transform = "translate(0, 0) scale(1, 1)",
+        pokingRightEye ? rightEye.style.transform = "translate(0, 30px) scale(1, 0)" : rightEye.style.transform = "translate(0, 0) scale(1, 1)",
+        mouth && (pokingLeftEye || pokingRightEye ? mouth.setAttribute("d", "M150.65,55c5.5-1.4,7.9-3.9,13.5-4,6.9-.1,9.5,1.8,12.7,2.8l-.3-3.1c-3.4-1.3-6.3-2.8-11.7-2.8-3.9,0-8.6,1.6-14.6,4") : mouth.setAttribute("d", "M150.65,53.43c5.53,0,1.93.07,13.51,0,10.31,0,12.42-.09,15.7-.15,0,0-.27-3.11-.27-3.11-3.67.06-9.31.18-14.71.18-3.86,0-8.54,0-14.57,0"))
+    }
+    function blink(e) {
+        Math.random() < .3 && (leftEye.style.transform = "translate(0, 30px) scale(1, 0)",
+        rightEye.style.transform = "translate(0, 30px) scale(1, 0)",
+        window.setTimeout(function () {
+            leftEye.style.transform = "translate(0, 0) scale(1, 1)",
+            rightEye.style.transform = "translate(0, 0) scale(1, 1)"
+        }, 100))
+    }
+    window.texme.onRenderPage = () => {
+        document.querySelector('pre')?.remove()
+        document.body.innerHTML += `
+        <div id="randy">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.22 281.9">
+    <defs>
+        <linearGradient id="linus-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(255, 255, 255);"></stop>
+            <stop offset="100%" style="stop-color: rgb(190, 190, 190);"></stop>
+        </linearGradient>
+    </defs>
+    <g id="leftEye" class="eyeball" style="transition-property: transform; transition-duration: 100ms;">
+        <path class="white"
+            d="M155.89,19 a19,19,0,0,1-3.74,11.35l-30.38.29 a18.17,18.17,0,0,1-4-11.64,19,19,0,0,1,38.09,0Z"></path>
+        <path id="leftPupil" d="M142.28,4.21 a2.53,2.53,0,1,0,.17,0h-.17l2.92-1 a7.71,7.71,0,1,1-7.71,7.71,7.71,7.71,0,0,1,7.71-7.71"
+            transform="translate(-16.625287446839156,12)"></path>
+    </g>
+    <g id ="rightEye" class="eyeball" style="transition-property: transform; transition-duration: 100ms;">
+        <path class="white"
+            d="M210.89,19 a19,19,0,0,1-3.74,11.35l-30.38.29 a18.17,18.17,0,0,1-4-11.64,19,19,0,0,1,38.09,0Z"></path>
+        <path id="rightPupil" d="M197.28,4.21 a2.53,2.53,0,1,0,.17,0h-.17l2.92-1 a7.71,7.71,0,1,1-7.71,7.71,7.71,7.71,0,0,1,7.71-7.71"
+            transform="translate(-17.08578741955014,12)"></path>
+    </g>
+    <g>
+        <path
+            d="M196.41,61.43H132 c15.38,63.8,25.07,105.39,25.07,151,0,8,0,69.5-23.36,69.5-12, 0-22.22-10.83-22.22-20.51,0-2.85,0-4,4-12.53,15.38-39.31, 15.38-88.31,15.38-92.29,0-3.42,0-43.87-12-95.14H85.13c-7.4, 0-23.54,13.12-23.54-5.11,0-12.53,8.16-25.65,18.41-25.65H237.43 c13.1,0,28.27,12.91,29.94,35.38,1.14,15.25-6.27,30.21-29.64, 30.6-22.58.37-37.1-6.42-57.91-14.63-3.71-1.46-10.85-14.32-7.29 -11.66C187.59,81.6,240.12,82.54,242,61.43H209.52c12.53,42.73, 26.77,92.29,73.49,192,4.55,9.12,4.55,10.26,4.55,13.68,0,12-10.25, 14.81-15.38,14.81-16.52,0-21.08-14.81-27.91-38.74-9.12-29.06 -9.12-30.19-14.81-53L196.41,61.43"
+            style="fill: rgb(88, 196, 221);"></path>
+        <path
+            id="mouth"
+            d="M150.65,53.43c5.53,0,1.93.07,13.51,0,10.31,0,12.42-.09,15.7-.15,0,0-.27-3.11-.27-3.11-3.67.06-9.31.18-14.71.18-3.86,0-8.54,0-14.57,0">
+        </path>
+    </g>
+</svg>
+</div>`
+        document.querySelector('body').addEventListener('mousemove', moveEyes)
+        document.querySelector('body').addEventListener('touchmove', moveEyes)
+        window.setInterval(blink, 2e3)
+        document.querySelectorAll("video").forEach(async (video) => {
+            document.querySelectorAll("video").forEach(async (video) => {
+                function openFullscreen(elem) {
+                    if (elem.requestFullscreen) {
+                        elem.requestFullscreen();
+                    } else if (elem.webkitRequestFullscreen) { /* Safari */
+                        elem.webkitRequestFullscreen();
+                    } else if (elem.msRequestFullscreen) { /* IE11 */
+                        elem.msRequestFullscreen();
+                    }
+                }
+                video.addEventListener("dblclick", () => openFullscreen(video));
+                video.addEventListener("click", () => video.play());
+                video.autoplay = true;
+                video.controls = false;
+                video.loop = true;
+                video.muted = true;
+                await video.play();
+            });
+        }, false);
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/texme@1.2.0"></script>
+<style>
+    body {
+        color: #fff;
+        background: #444;
+        line-height: 1.5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    main {
+        max-width: 50em;
+        background: #111;
+        padding: 2em 3em;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0.5em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    h7 {
+        margin: 1em 0 0.5em 0;
+        line-height: 1.2;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    pre,
+    code,
+    samp,
+    kbd {
+        color: #0cc73b;
+        font-family: monospace, monospace;
+    }
+
+    pre,
+    blockquote {
+        background: #262626;
+        padding: 0.5em;
+    }
+
+    pre {
+        overflow: auto;
+        white-space: pre;
+        overflow-x: auto;
+        line-height: normal;
+        font-family: Menlo, 'DejaVu Sans Mono', consolas, 'Courier New', monospace;
+    }
+
+    blockquote {
+        border-left: medium solid #ccc;
+        margin: 1em 0;
+    }
+
+    blockquote :first-child {
+        margin-top: 0;
+    }
+
+    blockquote :last-child {
+        margin-bottom: 0;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: thin solid #999;
+        padding: 0.3em 0.4em;
+        text-align: left;
+    }
+
+    .zoom {
+        display: none;
+        z-index: 20;
+    }
+
+    .white {
+        fill: rgb(255, 255, 255)
+    }
+
+    #randy {
+        display: none;
+    }
+
+
+    @media screen and (min-width: 40em) {
+        body {
+            background: rgb(0, 0, 0);
+            padding: 0;
+            margin: 0;
+        }
+
+        #randy {
+            display: block;
+            position: fixed;
+            top: 1em;
+            right: 0;
+            width: 15%;
+        }
+
+        .zoom {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            bottom: 3%;
+            left: 3%;
+            justify-content: center;
+        }
+
+        .zoom .buttons {
+            display: flex;
+            flex-direction: column;
+            background: #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            height: 4em;
+            width: 4em;
+            border: none;
+            background-color: transparent;
+        }
+
+        .buttons svg {
+            height: 1.5em;
+            width: 1.5em;
+        }
+
+        button:hover {
+            background-color: #444;
+            transition: 1s;
+            color: #fff
+        }
+
+        main {
+            background-color: #111;
+            padding: 5em 6em;
+            transform-origin: top center;
+            margin: 1em auto;
+            /* box-shadow: 0.4em 0.4em 0.4em #222; */
+        }
+    }
+</style>
+<div class="zoom">
+    <div class="buttons">
+        <button onclick="zoomin()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M12 5.25a.75.75 0 01.75.75v5.25H18a.75.75 0 010 1.5h-5.25V18a.75.75 0 01-1.5 0v-5.25H6a.75.75 0 010-1.5h5.25V6a.75.75 0 01.75-.75z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        <button onclick="zoomout()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.25 12a.75.75 0 01.75-.75h12a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        <button onclick="reset()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M12 5.25c1.213 0 2.415.046 3.605.135a3.256 3.256 0 013.01 3.01c.044.583.077 1.17.1 1.759L17.03 8.47a.75.75 0 10-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 00-1.06-1.06l-1.752 1.751c-.023-.65-.06-1.296-.108-1.939a4.756 4.756 0 00-4.392-4.392 49.422 49.422 0 00-7.436 0A4.756 4.756 0 003.89 8.282c-.017.224-.033.447-.046.672a.75.75 0 101.497.092c.013-.217.028-.434.044-.651a3.256 3.256 0 013.01-3.01c1.19-.09 2.392-.135 3.605-.135zm-6.97 6.22a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.752-1.751c.023.65.06 1.296.108 1.939a4.756 4.756 0 004.392 4.392 49.413 49.413 0 007.436 0 4.756 4.756 0 004.392-4.392c.017-.223.032-.447.046-.672a.75.75 0 00-1.497-.092c-.013.217-.028.434-.044.651a3.256 3.256 0 01-3.01 3.01 47.953 47.953 0 01-7.21 0 3.256 3.256 0 01-3.01-3.01 47.759 47.759 0 01-.1-1.759L6.97 15.53a.75.75 0 001.06-1.06l-3-3z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+    </div>
+</div>
+<textarea>

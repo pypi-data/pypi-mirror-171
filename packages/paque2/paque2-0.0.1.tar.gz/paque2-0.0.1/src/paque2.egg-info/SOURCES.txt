@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/paque2/__init__.py
+src/paque2/modelo.py
+src/paque2.egg-info/PKG-INFO
+src/paque2.egg-info/SOURCES.txt
+src/paque2.egg-info/dependency_links.txt
+src/paque2.egg-info/top_level.txt

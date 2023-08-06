@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.egg-info/PKG-INFO
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.egg-info/SOURCES.txt
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.egg-info/dependency_links.txt
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.egg-info/top_level.txt
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.py
+oa_missionaries_and_cannibals/src/oa_missionaries_and_cannibals.egg-info/SOURCES.txt

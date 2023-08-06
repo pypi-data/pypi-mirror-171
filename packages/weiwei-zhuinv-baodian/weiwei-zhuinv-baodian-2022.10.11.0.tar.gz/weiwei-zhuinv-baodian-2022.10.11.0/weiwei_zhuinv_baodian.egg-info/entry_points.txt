@@ -1,0 +1,4 @@
+[console_scripts]
+WeiweiZhuinvBaodian = WeiweiZhuinvBaodian.__main__:main
+weiwei-zhuinv-baodian = WeiweiZhuinvBaodian.__main__:main
+

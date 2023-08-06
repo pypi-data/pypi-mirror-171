@@ -1,0 +1,4 @@
+[console_scripts]
+YishengdeXingjihua = YishengdeXingjihua.__main__:main
+yishengde-xingjihua = YishengdeXingjihua.__main__:main
+

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: swaml
+Version: 0.1.0
+Summary: Populates those tedious package versions for your environment.yml.
+License: LICENSE
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+Populates those tedious package versions for your environment.yml.

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imarac"
+dynamic = [
+    "version"
+]
+authors = [
+    { name = "romaiiiiinnn" }
+]
+description = "Tool to check ratio of image."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "click==8.1.3",
+    "filetype==1.1.0",
+    "imagesize==1.4.1",
+    "rich==12.5.1"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+[project.scripts]
+imarac = "imarac.entrypoint:check_ratio"
+
+[project.urls]
+"Homepage" = "https://gitlab.com/romaiiiinnn/imarac"
+"Bug Tracker" = "https://gitlab.com/romaiiiinnn/imarac/-/issues"
+
+[tool.setuptools_scm]
+write_to = "imarac/_version.py"
+
+[tool.pylint]
+max-line-length = 240
+ignore-paths = "test/"
+

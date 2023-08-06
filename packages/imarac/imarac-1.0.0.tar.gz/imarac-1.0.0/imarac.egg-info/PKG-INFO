@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: imarac
+Version: 1.0.0
+Summary: Tool to check ratio of image.
+Author: romaiiiiinnn
+License: MIT
+Project-URL: Homepage, https://gitlab.com/romaiiiinnn/imarac
+Project-URL: Bug Tracker, https://gitlab.com/romaiiiinnn/imarac/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# imarac
+
+**imarac** (for **ima**ge **ra**tio **c**hecker) is a CLI tool developed to check the ratio of an image. It's really useful to print photo with the good ratio!
+
+## Description
+
+This tool is useful to walk into a directory and check the ratio of every image file.
+
+## Dependencies
+
+- [click](https://click.palletsprojects.com) to easily create a CLI
+- [rich](https://rich.readthedoc.io) to create a beautiful CLI
+- [filetype.py](https://github.com/h2non/filetype.py) to detect file type
+- [imagesize](https://github.com/shibukawa/imagesize_py) to detect image size
+
+## Installation
+
+```console
+pip install imarac
+```
+
+## Usage
+
+```console
+Usage: imarac [OPTIONS]
+
+Options:
+  -d, --dir, --directory DIRECTORY  Directory to check.  [required]
+  -r, --ratio FLOAT RANGE           Image desired ratio.  [x>0; required]
+  -v, --verbose                     Add more information during processing.
+  --help                            Show this message and exit.
+```
+
+### Example
+
+For a normal use:
+
+```console
+imarac -d my-holyday-pictures -r 1.5
+
+📂 /path/to/my-holyday-pictures
+┣━━ 📂 thecat
+┗━━ 📂 nature
+    ┗━━ beautifulmontain.jpg (ratio: 1.3)
+```
+
+With verbose option: 
+
+```console
+imarac -d my-holyday-pictures -r 1.5 -v
+
+📂 /path/to/my-holyday-pictures
+┣━━ 📂 thecat
+┃   ┣━━ mycat.jpg (ratio: 1.5)
+┃   ┗━━ mycatwithme.jpg (ratio: 1.5)
+┗━━ 📂 nature
+    ┣━━ awesomecliff.jpg (ratio: 1.5)
+    ┣━━ beautifulmontain.jpg (ratio: 1.3)
+    ┗━━ infinitesea.jpg (ratio: 1.5)
+```

@@ -1,0 +1,4 @@
+[console_scripts]
+MoguiYuehuixueVer3 = MoguiYuehuixueVer3.__main__:main
+mogui-yuehuixue-ver3 = MoguiYuehuixueVer3.__main__:main
+

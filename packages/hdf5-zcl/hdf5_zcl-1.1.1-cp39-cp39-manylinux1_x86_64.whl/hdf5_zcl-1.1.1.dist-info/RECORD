@@ -1,0 +1,10 @@
+hdf5_zcl/__init__.cpython-39-x86_64-linux-gnu.so,sha256=Qn8v10Zw3muOdS4lpUyY5RsOsEyJeGzZae7CUS9RMA4,25944
+hdf5_zcl/hdf5_function.cpython-39-x86_64-linux-gnu.so,sha256=i5NQZHCfwIwAakkxsVejUbRk4G3A5DkQnVNLX6Ys4M8,117824
+hdf5_zcl/swmr/library/Bufferlib.cpython-39-x86_64-linux-gnu.so,sha256=lsn5Fp2up_n5cRL6IdNw8hx10A4wepJm77Kkp1iJpJ4,71712
+hdf5_zcl/swmr/library/__init__.cpython-39-x86_64-linux-gnu.so,sha256=qOpJlZr-7wOsE7aOcKhgUc2ajq06EPpLPMnguo9CJjQ,31352
+hdf5_zcl/swmr/library/swmr_writer.cpython-39-x86_64-linux-gnu.so,sha256=e8mI9jvpEzgrxdPLGD51cD-nuyYDLofW8obsEcsjZ-g,112888
+hdf5_zcl/swmr/library/swmrlib.cpython-39-x86_64-linux-gnu.so,sha256=ot3bHtyxx0S0VOUmzoqC_q-WDJtocnQGTO5UJjHh0Ds,138720
+hdf5_zcl-1.1.1.dist-info/METADATA,sha256=CbzwDvhd-s38ktSo3ghyZugtWTFfje-sC8Xp_PRuxhg,53
+hdf5_zcl-1.1.1.dist-info/WHEEL,sha256=XGG5hFQRBvPg_AbQ9Tz-vXqq83wWYxtnoPYl6-1tPj4,108
+hdf5_zcl-1.1.1.dist-info/top_level.txt,sha256=kHc6MagvtSYAj_5qM5txP3b8NNl-U1wPfi7Qwt6EfUM,9
+hdf5_zcl-1.1.1.dist-info/RECORD,,

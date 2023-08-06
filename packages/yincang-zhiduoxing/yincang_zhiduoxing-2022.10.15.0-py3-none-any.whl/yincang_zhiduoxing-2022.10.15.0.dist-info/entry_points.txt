@@ -1,0 +1,4 @@
+[console_scripts]
+YincangZhiduoxing = YincangZhiduoxing.__main__:main
+yincang-zhiduoxing = YincangZhiduoxing.__main__:main
+

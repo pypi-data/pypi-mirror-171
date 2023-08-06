@@ -1,0 +1,8 @@
+// testing number of arguments in the function.
+include system;
+
+func => (arg1) {
+    console(arg1);
+}
+
+func("one", "this should error");

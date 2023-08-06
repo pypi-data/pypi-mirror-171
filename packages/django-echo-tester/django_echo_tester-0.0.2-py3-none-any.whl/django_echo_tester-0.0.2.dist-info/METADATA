@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: django-echo-tester
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/mohamed17717/EchoTester
+Author: Mhmd
+Author-email: d3v.mhmd@gmail.com
+License: MIT
+Keywords: django tect echo automate
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=3.2)
+Requires-Dist: requests (>=2.28)
+
+# EchoTester
+
+Django app , that record requests that comes to your project then run them whenever you want to determine if things breaks while development (in case you don't have tests written)
+
+## How to use it
+
+### Installation
+
+```bash
+pip install django-echo-tester
+```
+
+```python
+INSTALLED_APPS = [
+    ...    
+    'echo_tester'
+]
+```
+
+```python
+
+MIDDLEWARE = [
+    ...
+    'echo_tester.middleware.TesterMiddleware',
+]
+
+```
+
+
+
+
+## Basic use
+
+
+## Features & How to use
+pip install xxx
+add to django requirements
+
+python manage.py runecho
+
+
+
+
+
+## Features && How to use them
+## Settings and how to customize them
+
+

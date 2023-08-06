@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyFinitDiff
+Version: 0.0.14
+Summary: A package for finit difference.
+Home-page: https://github.com/MartinPdeS/PyFinitDiff
+Author: Martin Poinsinet de Sivry
+Author-email: Martin.poinsinet.de.sivry@gmail.com
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+
+PyFinitDiff
+===========
+
+
+A package to compute finit-difference matrices.

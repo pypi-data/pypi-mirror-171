@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiYuehuixueZhiwentiJizhongying = ChaojiYuehuixueZhiwentiJizhongying.__main__:main
+chaoji-yuehuixue-zhiwenti-jizhongying = ChaojiYuehuixueZhiwentiJizhongying.__main__:main
+

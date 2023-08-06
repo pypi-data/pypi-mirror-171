@@ -1,0 +1,4 @@
+[console_scripts]
+BulizhiChuangye = BulizhiChuangye.__main__:main
+bulizhi-chuangye = BulizhiChuangye.__main__:main
+

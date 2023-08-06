@@ -1,0 +1,5 @@
+setup.py
+src/MohamedSatarySecondTest.egg-info/PKG-INFO
+src/MohamedSatarySecondTest.egg-info/SOURCES.txt
+src/MohamedSatarySecondTest.egg-info/dependency_links.txt
+src/MohamedSatarySecondTest.egg-info/top_level.txt

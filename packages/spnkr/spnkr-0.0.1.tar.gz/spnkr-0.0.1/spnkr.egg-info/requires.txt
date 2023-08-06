@@ -1,0 +1,7 @@
+ms-cv
+orjson
+requests
+dataclass-wizard
+
+[dev]
+pytest

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: logfmt-julian-sobott
+Version: 0.2.0
+Summary: Logging Formatter to format log messages in logfmt format
+Home-page: https://github.com/JulianSobott/python-logfmt
+License: MIT
+Keywords: logfmt,logging,formatter
+Author: JulianSobott
+Author-email: julian.sobott@mail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Logging
+Project-URL: Repository, https://github.com/JulianSobott/python-logfmt

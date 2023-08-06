@@ -1,0 +1,15 @@
+fastsubtrees/__init__.py,sha256=9EpOORBcnlGh_tLk1antatmqIFuIOEt7kPVe9cSJPUg,915
+fastsubtrees/_scripts_support.py,sha256=k0hdlyHAzt5SDHQZ-otCLPnDjJZ4dSWKvyrLj2aDxIQ,2195
+fastsubtrees/attribute.py,sha256=rhKIZn6yEycb87177nzDbayu_pKXtQaPBfa3KC2VoBo,1408
+fastsubtrees/error.py,sha256=tRQY9JNkk1HnXdjsPTqqBQaElNIt8uvONMxWYJAIb-0,556
+fastsubtrees/tree.py,sha256=1jQ_GSbfAPF1xb4qvA_ak7Gb-FZYrpktAlWNcyhRB_0,10806
+fastsubtrees/ids_modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastsubtrees/ids_modules/attr_from_tabular_file.py,sha256=2I66xwmvo9nD_gTzMkTmV4moUPzoy67OwYt8vIxSj64,607
+fastsubtrees/ids_modules/ids_from_database.py,sha256=iWChPUfTTQwZDWtJ555Xjd4emX248Ni0L0T6Fs15LlQ,1623
+fastsubtrees/ids_modules/ids_from_tabular_file.py,sha256=ZNmcZgvtGOtS_WL0H8uRwb-k8f_Ly6BIOEL-LRX-oxw,810
+fastsubtrees-1.6.data/scripts/fastsubtrees,sha256=wzTHZfUEq8UrydsUhXpikoJtnowVWE0BI0rEHUTEIY0,1983
+fastsubtrees-1.6.dist-info/LICENSE.txt,sha256=sjesAXEJLQ27gBoSqD2y-uiN3VdeV3rR0PJsfrC5rjA,1089
+fastsubtrees-1.6.dist-info/METADATA,sha256=D3H4PTEh52MxRMd57_-jBtJZxc_UdGWwslRYo03uO0Q,9778
+fastsubtrees-1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastsubtrees-1.6.dist-info/top_level.txt,sha256=4f1GeKfK08UxopKQsNN_RdYMQVIFJMK_pz_gs31GmeA,13
+fastsubtrees-1.6.dist-info/RECORD,,

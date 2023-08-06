@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+xf_auth/Auth.py
+xf_auth/HTTPStatus.py
+xf_auth/StatefulSession.py
+xf_auth/Util.py
+xf_auth/__init__.py
+xf_auth.egg-info/PKG-INFO
+xf_auth.egg-info/SOURCES.txt
+xf_auth.egg-info/dependency_links.txt
+xf_auth.egg-info/requires.txt
+xf_auth.egg-info/top_level.txt

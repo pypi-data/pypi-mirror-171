@@ -1,0 +1,10 @@
+README.md
+setup.py
+PythConfig.egg-info/PKG-INFO
+PythConfig.egg-info/SOURCES.txt
+PythConfig.egg-info/dependency_links.txt
+PythConfig.egg-info/entry_points.txt
+PythConfig.egg-info/top_level.txt
+pyconfig/__init__.py
+pyconfig/command_line.py
+pyconfig/pyconfig.py

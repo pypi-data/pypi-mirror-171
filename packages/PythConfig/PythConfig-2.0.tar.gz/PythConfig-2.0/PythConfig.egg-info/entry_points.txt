@@ -1,0 +1,2 @@
+[console_scripts]
+pyconfig = pyconfig.command_line:run

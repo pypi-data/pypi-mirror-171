@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: django-inspire
+Version: 0.0.1
+Summary: Inspiring Django Command.
+Home-page: https://sawirstudio.com/
+Author: Ricardo Sawir
+Author-email: sawir.ricardo@gmail.com
+Requires-Python: >=2.7
+License-File: LICENSE.md

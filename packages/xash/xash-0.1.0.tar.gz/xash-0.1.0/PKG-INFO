@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: xash
+Version: 0.1.0
+Summary: Data Science, Data Analysis, Plotting, ...
+Home-page: https://github.com/med-merchise/xash
+License: GPL-3.0-or-later
+Keywords: data science,data analysis
+Author: Medardo Antonio Rodriguez
+Requires-Python: >=3.10,<3.11
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Provides-Extra: all
+Provides-Extra: dash
+Provides-Extra: data
+Provides-Extra: geo
+Provides-Extra: notebooks
+Provides-Extra: office
+Provides-Extra: plotly-notebooks
+Provides-Extra: stats
+Requires-Dist: cufflinks (>=0.17.3,<0.18.0); extra == "dash" or extra == "all"
+Requires-Dist: dash (>=2.6.2,<3.0.0); extra == "dash" or extra == "all"
+Requires-Dist: dash-bootstrap-components (>=1.2.1,<2.0.0); extra == "dash" or extra == "all"
+Requires-Dist: dash-daq (>=0.5.0,<0.6.0); extra == "dash" or extra == "all"
+Requires-Dist: jupyter-dash (>=0.4.2,<0.5.0); extra == "plotly-notebooks" or extra == "all"
+Requires-Dist: kaleido (==0.2.1); extra == "dash" or extra == "all"
+Requires-Dist: matplotlib (>=3.6.0,<4.0.0); extra == "notebooks" or extra == "all"
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0); extra == "office" or extra == "all"
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: plotly (>=5.10.0,<6.0.0); extra == "dash" or extra == "all"
+Requires-Dist: plotly-geo (>=1.0.0,<2.0.0); extra == "geo" or extra == "all"
+Requires-Dist: scikit-learn (>=1.1.2,<2.0.0); extra == "data" or extra == "all"
+Requires-Dist: scipy (>=1.9.1,<2.0.0)
+Requires-Dist: seaborn (>=0.12.0,<0.13.0); extra == "data" or extra == "stats" or extra == "all"
+Requires-Dist: xotl.tools (>=2.2.5,<3.0.0)
+Project-URL: Repository, https://github.com/med-merchise/xash
+Description-Content-Type: text/x-rst
+
+Xash Project!
+=============
+
+Data science, data analysis, graph visualization, ...
+
+
+Install
+-------
+
+Development Stage:
+
+  Check `ADR-5`_ on project `xint` about how to use poetry_ to manage how to
+  evolve projects on development stages.
+
+.. _adr-5: https://github.com/med-merchise/xint/blob/main/docs/source/adrs/adr-0005-poetry-for-development-stage.rst
+.. _poetry: https://python-poetry.org
+
+Production Stage:
+
+  *This section is under construction*
+
+After installation tasks:
+
+  Each of our projects should have a ``backlog-0001`` document with task to
+  execute after a project is installed.  This document must be located in the
+  ``docs/source/backlog`` directory.
+
+
+Documentation
+-------------
+
+To manage the documentation of this project you must install it locally with
+the ``docs`` group enabled::
+
+  poetry install --with docs
+
+
+*This section is under construction*
+

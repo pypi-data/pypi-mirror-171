@@ -1,0 +1,10 @@
+setup.py
+jum_probabillity/Binomialdistribution.py
+jum_probabillity/Gaussiandistribution.py
+jum_probabillity/Generaldistribution.py
+jum_probabillity/__init__.py
+jum_probabillity.egg-info/PKG-INFO
+jum_probabillity.egg-info/SOURCES.txt
+jum_probabillity.egg-info/dependency_links.txt
+jum_probabillity.egg-info/not-zip-safe
+jum_probabillity.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+drf_filestream/__init__.py,sha256=Ij5gYGx3KVOV0bAkkAJ8TL6jZPOJYtnPdpvO6NJ9fFc,189
+drf_filestream/apps.py,sha256=MapCNDkIK9N7Q4TwLpdiXcatMbkfHhHdncemkCbmrko,159
+drf_filestream/models.py,sha256=Z4hS9BKF9SNyLBc-JkdM6tfCAjbC8ruMtc11LTnaIYQ,2334
+drf_filestream/serializers.py,sha256=qCaLLS0DJZn-M6bF41kKtzQE-lbJHWR8L1Vpdtj92H8,647
+drf_filestream/urls.py,sha256=eHfHx8g1Y27GogLsCj3YiYuiZclsdOP4mj5iGDbgjz0,167
+drf_filestream/utils.py,sha256=fabu3YZC6pr0t9xkyuyXM2-z1e8phzCU5UFAcKrqMJM,1462
+drf_filestream/views.py,sha256=dYfNKBdmWj94gZywj4wUwPKvcCQHgY-ZffAqjEfT9Rk,666
+drf_filestream/migrations/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+drf_filestream/version/version.json,sha256=V54_lGY8Yv7E_CCNbtWXEKOSptjKRuYI9TE5GurfYCA,257
+drf_filestream-1.0.1.dist-info/METADATA,sha256=U1fGGjZw8FAYegbQ6IF2SN86zLxmGu5vmgzNgXFOZsw,1557
+drf_filestream-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+drf_filestream-1.0.1.dist-info/top_level.txt,sha256=A_B7jCyXzOY0XxsmVYBX0V3v2KL4CMktRnenie2ATWw,15
+drf_filestream-1.0.1.dist-info/RECORD,,

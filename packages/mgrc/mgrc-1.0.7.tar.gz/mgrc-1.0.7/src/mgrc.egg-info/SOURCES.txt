@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mgrc/__init__.py
+src/mgrc/help.py
+src/mgrc/t.py
+src/mgrc.egg-info/PKG-INFO
+src/mgrc.egg-info/SOURCES.txt
+src/mgrc.egg-info/dependency_links.txt
+src/mgrc.egg-info/top_level.txt

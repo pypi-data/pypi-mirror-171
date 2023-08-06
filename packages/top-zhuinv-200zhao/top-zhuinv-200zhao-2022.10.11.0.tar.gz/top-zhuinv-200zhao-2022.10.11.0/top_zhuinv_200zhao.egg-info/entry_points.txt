@@ -1,0 +1,4 @@
+[console_scripts]
+TopZhuinv200zhao = TopZhuinv200zhao.__main__:main
+top-zhuinv-200zhao = TopZhuinv200zhao.__main__:main
+

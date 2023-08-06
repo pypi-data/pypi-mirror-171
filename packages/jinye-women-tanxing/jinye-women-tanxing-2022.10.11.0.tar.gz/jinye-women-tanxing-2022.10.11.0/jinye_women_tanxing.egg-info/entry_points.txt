@@ -1,0 +1,4 @@
+[console_scripts]
+JinyeWomenTanxing = JinyeWomenTanxing.__main__:main
+jinye-women-tanxing = JinyeWomenTanxing.__main__:main
+

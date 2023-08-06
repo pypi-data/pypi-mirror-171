@@ -1,0 +1,16 @@
+pyyc/__init__.py,sha256=lWm_FHaj1b7DI6Io9bQ9dIxv45ZzfXpA2LjLYdl3y5M,238
+pyyc/__main__.py,sha256=CSt-lDgt0g5DC8txf8Iwhhg32G92PC9yLJMX6ThY1XU,394
+pyyc/mod.py,sha256=gVadlN-g8W9EeTfHqFQfKeBPHbsZF8sewu8eLpBygsU,2128
+pyyc/config/default.cfg,sha256=_-0iXnLRB498Tjn1gvWbrKjop6ewAvMtvl8F3UD7-7I,27
+pyyc/config/default.cfg~,sha256=FVb__kAQjABZCILDJRIrpnHBDgcYYitTGLl6SmBQS5Y,13
+pyyc/subpkgA/__init__.py,sha256=i72ua2f6yDO6ZdGxxJ3mfHPNXtYEO9BiNvMtyNH5Ohs,225
+pyyc/subpkgA/modA1.py,sha256=QjO_tpw9eFevCLapKyyXWs2Oyg6oXTVduNrYZkL78yo,118
+pyyc/subpkgA/modA2.py,sha256=gBCl55LVFJRqjiBuH9DagaK1zzGfaw-mLGcMb-MOeEY,118
+pyyc/subpkgB/__init__.py,sha256=exxkFcVFL0lhXSi1ifuij7lhKfzz9B3Ny9FFDfdB4GQ,116
+pyyc/subpkgB/modB.py,sha256=I8UQ3IH9kM3wpv6b6VIqbdPzribFy6-aSsno4xNQZDc,184
+pyyc-0.3.dist-info/LICENSE,sha256=0GmtG5Z4GXCvpfFu8zTkYlu-OQ3FY1yexNooYvXJCK4,1532
+pyyc-0.3.dist-info/METADATA,sha256=wx4aYJsEIYy_vBo40U2BpkTgIQNdtFbPNvydkwOd7p8,3624
+pyyc-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyyc-0.3.dist-info/entry_points.txt,sha256=3wDNMACjnG5p58k9dEzmpy7whFr4rOvlaN3hnG5OSDQ,83
+pyyc-0.3.dist-info/top_level.txt,sha256=Y2Pqm5v4st47VKw7VmFqra3r56LbQmQy_LWv8ctwMRU,5
+pyyc-0.3.dist-info/RECORD,,

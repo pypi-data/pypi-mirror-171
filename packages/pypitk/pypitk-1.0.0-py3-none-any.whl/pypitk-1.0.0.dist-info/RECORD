@@ -1,0 +1,15 @@
+pypitk/.DS_Store,sha256=GS3567IyfGCV5tUKro5yX4OcyUZfKyed39vm7Y2EXA0,6148
+pypitk/__init__.py,sha256=ndm_9EFUfG2PWxfF7czmCI7o1EuuRAxrpZ0OZSrS1AE,81
+pypitk/build.py,sha256=DOImE5e55FMWx1ZUyPs0dwDEOvYXgwN1OiCxOjBM_fQ,1934
+pypitk/pypipackage/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+pypitk/pypipackage/__init__.py,sha256=fvfQF1emWTWpJBUhncAwu-sYVtcWCbO2mEu_UFU03pg,958
+pypitk/pypipackage/commands.py,sha256=KPe0spXjDvQQGC-i7thBY5pE4dITnuV-p2DrRHR_z2w,2328
+pypitk/pypipackage/config.py,sha256=i8YvqNgN11Ct_MyvIDQC5tZ_rqCd-DiNKUzP1hffPjU,4388
+pypitk/pypipackage/content.py,sha256=KSDiEA4lLBUWAoSTXip_iNU3YMNGFaflQUMHYIuLtcA,1140
+pypitk/pypipackage/paths.py,sha256=o8uQOcnvrSpsyX-efgOwLKjP1pZARp-akjJyUMpZP_o,448
+pypitk/pypipackage/templates.py,sha256=BEe52TyGwFsTCceqOCfu6DsA2tPrg9BntSiUbyG25KU,356
+pypitk/pypipackage/util.py,sha256=oax77YWeE-DtWegBoB-31MHSdgYuju-sD_1IJ28ao5E,534
+pypitk-1.0.0.dist-info/LICENSE,sha256=j53v47_mQxYWiYmDDUB5OlB08lqLE_O7iwk5FKfCf3M,1091
+pypitk-1.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pypitk-1.0.0.dist-info/METADATA,sha256=AID3xDKQNxktIp6Bw9JXQLbYnPOfIgAdV0i2nlcxz14,614
+pypitk-1.0.0.dist-info/RECORD,,

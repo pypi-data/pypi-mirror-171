@@ -1,0 +1,9 @@
+triangulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triangulator/triangulator.py,sha256=pcvjoCu7ssP7cQ9MPaJcLOzKgL8o8uN_ba9HgIvU-Uc,1587
+triangulator/geometry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triangulator/geometry/angles.py,sha256=aHINcXtWMP-GkN5ErLjkgQBoeMqXJFApZvk20Rctr3I,172
+triangulator/geometry/points.py,sha256=s70Nm5E2trdwJ1eQ98xYxWRjmwr0Vo0sEKpjqllPiTE,487
+triangulator-1.0.1.dist-info/METADATA,sha256=tb1LctWjorl45S3njeWNzHTkSgtz73aLNK6iHXgwZr4,676
+triangulator-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+triangulator-1.0.1.dist-info/top_level.txt,sha256=nqYz32xjg2f5IDic2aKmi2zMduBRhIGHtnGl6Pds9ok,13
+triangulator-1.0.1.dist-info/RECORD,,

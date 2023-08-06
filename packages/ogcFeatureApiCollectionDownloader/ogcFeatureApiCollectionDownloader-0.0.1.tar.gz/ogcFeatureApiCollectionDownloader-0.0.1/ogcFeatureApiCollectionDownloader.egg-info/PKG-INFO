@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ogcFeatureApiCollectionDownloader
+Version: 0.0.1
+Summary: Automatically download a collection from an OGC Feature API
+Home-page: https://github.com/mkeller3/ogcFeatureApiCollectionDownloader
+Author: Michael Keller
+Author-email: michaelkeller03@gmail.com
+License: GNU General Public License v3.0
+Description: # ogcFeatureApiCollectionDownloader
+        
+        A python package to automatically download data from an OGC Feature API Collection.
+        
+        ## Install
+        `pip install ogcFeatureApiCollectionDownloader`
+        
+        ## How to use
+        ```
+        import os
+        
+        from ogcFeatureApiCollectionDownloader import downloader
+        
+        download_location = f"{os.getcwd()}/downloads"
+        
+        downloader.DownloadCollection(
+            url="https://demo.pygeoapi.io/stable/collections/lakes/"
+        ).download(
+            download_path=download_location
+        )
+        
+        
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

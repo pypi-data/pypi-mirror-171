@@ -1,0 +1,3 @@
+[console_scripts]
+ogcFeatureApiCollectionDownloader = ogcFeatureApiCollectionDownloader.__main__:main
+

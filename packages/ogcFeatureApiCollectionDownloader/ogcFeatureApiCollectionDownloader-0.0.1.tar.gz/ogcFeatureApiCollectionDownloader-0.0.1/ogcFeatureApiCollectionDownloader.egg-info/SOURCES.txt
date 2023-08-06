@@ -1,0 +1,10 @@
+README.md
+setup.py
+ogcFeatureApiCollectionDownloader/__init__.py
+ogcFeatureApiCollectionDownloader/downloader.py
+ogcFeatureApiCollectionDownloader.egg-info/PKG-INFO
+ogcFeatureApiCollectionDownloader.egg-info/SOURCES.txt
+ogcFeatureApiCollectionDownloader.egg-info/dependency_links.txt
+ogcFeatureApiCollectionDownloader.egg-info/entry_points.txt
+ogcFeatureApiCollectionDownloader.egg-info/requires.txt
+ogcFeatureApiCollectionDownloader.egg-info/top_level.txt

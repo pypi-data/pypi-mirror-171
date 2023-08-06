@@ -1,0 +1,8 @@
+README.rst
+setup.py
+conio_rest_async.egg-info/PKG-INFO
+conio_rest_async.egg-info/SOURCES.txt
+conio_rest_async.egg-info/dependency_links.txt
+conio_rest_async.egg-info/not-zip-safe
+conio_rest_async.egg-info/top_level.txt
+foo/__init__.py

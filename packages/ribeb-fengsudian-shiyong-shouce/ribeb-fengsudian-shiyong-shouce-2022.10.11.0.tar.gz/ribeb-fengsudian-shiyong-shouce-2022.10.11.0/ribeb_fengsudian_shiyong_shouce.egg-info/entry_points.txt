@@ -1,0 +1,4 @@
+[console_scripts]
+RibebFengsudianShiyongShouce = RibebFengsudianShiyongShouce.__main__:main
+ribeb-fengsudian-shiyong-shouce = RibebFengsudianShiyongShouce.__main__:main
+

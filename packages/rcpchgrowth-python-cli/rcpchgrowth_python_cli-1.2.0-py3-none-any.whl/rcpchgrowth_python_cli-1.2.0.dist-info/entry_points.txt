@@ -1,0 +1,2 @@
+[console_scripts]
+rcpchgrowth = rcpchgrowth_python_cli.__main__:methods

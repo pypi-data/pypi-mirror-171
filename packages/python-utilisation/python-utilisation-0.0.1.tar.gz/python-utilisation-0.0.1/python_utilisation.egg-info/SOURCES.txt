@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+python_utilisation/__init__.py
+python_utilisation/main.py
+python_utilisation/utils_enum.py
+python_utilisation.egg-info/PKG-INFO
+python_utilisation.egg-info/SOURCES.txt
+python_utilisation.egg-info/dependency_links.txt
+python_utilisation.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: numero-nome
+Version: 0.0.1
+Summary: Significa o nome completo pela soma se suas letras, pela numerologia.
+Home-page: https://github.com/alan-vieira/numero-nome-package
+Author: Alan Vieira
+Author-email: alansilvavieira@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# numero_nome
+
+## Description 
+O pacote numero_nome Ã© usado:
+
+- Somar os valores das letras do nome informado
+- Verificar significado do resultado da soma em relaÃ§Ã£o a numerologia
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numerologia_nome
+
+```bash
+pip install numero_nome
+```
+
+## Usage
+
+```python
+from numero_nome import processamento
+processamento.significa_num(processamento.vetor_numero())
+```
+
+## Author
+Alan Silva Vieira
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

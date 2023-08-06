@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nile-coverage
+Version: 0.1.0b0
+Summary: Nile plugin adding coverage reports for Cairo Smart Contracts.
+Home-page: https://github.com/ericnordelo/nile-coverage
+Author: "Eric Nordelo"
+Author-email: "eric.nordelo39@gmail.com"
+License: "MIT"
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Provides-Extra: testing
+License-File: LICENSE.txt
+
+=============
+nile-coverage
+=============
+
+    Nile plugin adding coverage reports for Cairo Smart Contracts.
+
+
+

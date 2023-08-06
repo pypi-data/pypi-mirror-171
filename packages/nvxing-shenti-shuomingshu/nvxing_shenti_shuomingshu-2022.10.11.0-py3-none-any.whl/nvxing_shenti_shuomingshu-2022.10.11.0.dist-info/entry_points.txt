@@ -1,0 +1,4 @@
+[console_scripts]
+NvxingShentiShuomingshu = NvxingShentiShuomingshu.__main__:main
+nvxing-shenti-shuomingshu = NvxingShentiShuomingshu.__main__:main
+

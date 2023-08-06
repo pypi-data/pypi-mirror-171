@@ -1,0 +1,4 @@
+[console_scripts]
+NanrenDiyike = NanrenDiyike.__main__:main
+nanren-diyike = NanrenDiyike.__main__:main
+

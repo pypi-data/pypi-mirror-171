@@ -1,0 +1,12 @@
+xsget/__init__.py,sha256=s928UzqYTth4N98wicV4c1dUkpLX95AylaCSAfAgME0,4290
+xsget/book.py,sha256=V2TLpICgFqpoz8lBKUVhYNej8ysvAzpCVihuQOKzH5s,355
+xsget/chapter.py,sha256=JvDHohxtAlr9HDZidvV3O0ASjuvrhmioRKMv5NWpbzM,916
+xsget/xsget.py,sha256=R1rHCUOQAHk8nyv2IyEkckVvzeXbSgn0tVEbnmzfSQk,12374
+xsget/xsget.toml,sha256=9Jj5q9bqKKSY26b2fPv7D0pn09VxRswUWzgewL7iEWs,1526
+xsget/xstxt.py,sha256=9QXdAui3FFMeKg7Hi_G8GvNmW_FLL8mDirwGp8akUqs,12715
+xsget/xstxt.toml,sha256=Mby-nb3zS4r6mNXbS27r96FjSPA55-t0brtBWRWJyGk,3154
+xsget-0.1.4.dist-info/entry_points.txt,sha256=ed_dCHC5GW-vuLLxSkBodBLL-gD0XaU4r-dltfcHIQA,63
+xsget-0.1.4.dist-info/LICENSE.md,sha256=tGtFDwxWTjuR9syrJoSv1Hiffd2u8Tu8cYClfrXS_YU,31956
+xsget-0.1.4.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+xsget-0.1.4.dist-info/METADATA,sha256=hg_TUQKdrfp-tx0reU05FHSWXa_TkPSW0zEQJDFJ678,5764
+xsget-0.1.4.dist-info/RECORD,,

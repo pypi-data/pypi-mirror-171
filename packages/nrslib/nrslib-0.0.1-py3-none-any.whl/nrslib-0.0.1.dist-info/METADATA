@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: nrslib
+Version: 0.0.1
+Summary: Standardised Library for the Benchmarking of News Recommenders Systems
+Project-URL: Documentation, https://newsrecommenderlib.github.io/
+Project-URL: Issues, https://github.com/newsrecommenderlib/nrslib/issues
+Project-URL: Source, https://github.com/newsrecommenderlib/nrslib
+Author: Ahmed Elzamarany, Nadine Maeser, Noel Chia
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: hydra-colorlog>=1.1.0
+Requires-Dist: hydra-core>=1.1.0
+Requires-Dist: hydra-optuna-sweeper>=1.1.0
+Requires-Dist: isort
+Requires-Dist: nbstripout
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: pre-commit
+Requires-Dist: pudb
+Requires-Dist: pytest
+Requires-Dist: python-dotenv
+Requires-Dist: pytorch-lightning>=1.5.10
+Requires-Dist: retrying
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: swifter
+Requires-Dist: tensorboard
+Requires-Dist: torch>=1.10.0
+Requires-Dist: torchmetrics>=0.7.0
+Requires-Dist: torchvision>=0.11.0
+Description-Content-Type: text/markdown
+
+# nrslib
+
+This library is a modular, end-to-end pipeline for news recommender systems.
+
+## Quick Start
+
+### Main Technologies
+
+Familarity with the follow tools are recommended to use this library.
+
+[PyTorch Lightning](https://www.pytorchlightning.ai/) - a lightweight PyTorch wrapper for high-performance AI research. Think of it as a framework for organizing your PyTorch code.
+
+[Hydra](https://hydra.cc/) - a framework for elegantly configuring complex applications. The key feature is the ability to dynamically create a hierarchical configuration by composition and override it through config files and the command line.
+
+[TorchMetrics](https://torchmetrics.readthedocs.io/) - a collection of 80+ PyTorch metrics implementations and an easy-to-use API to create custom metrics.
+
+[Lightning-Hydra-Template](https://github.com/ashleve/lightning-hydra-template) - A clean and scalable template to kickstart your deep learning project.
+
+### Running a model
+
+Import the library
+
+```python
+import nrslib
+```
+
+Export default configs
+
+```python
+nrslib.export_default_config(“~/configs”)
+```
+
+Choose and edit configs in the open console dialog and start training afterwards
+
+```python
+nrslib.start_train(“~/configs”, [“experiment=naml.yaml”])
+```
+
+To test a model, run
+
+```python
+nrslib.start_test(“~/configs”, [“experiment=naml.yaml”])
+```
+
+To extend a model or datamodule inherit it
+
+```python
+from nrslib.src.models.naml import NAML
+class ImprovedNAML(NAML):
+```
+
+Then adjust the configurations to use the new class
+
+```yaml
+_target_: path.to.class.ImprovedNAML
+```

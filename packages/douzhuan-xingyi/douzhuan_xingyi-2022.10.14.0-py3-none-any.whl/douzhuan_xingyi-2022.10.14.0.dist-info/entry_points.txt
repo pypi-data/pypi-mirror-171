@@ -1,0 +1,4 @@
+[console_scripts]
+DouzhuanXingyi = DouzhuanXingyi.__main__:main
+douzhuan-xingyi = DouzhuanXingyi.__main__:main
+

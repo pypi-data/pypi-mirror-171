@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: pynteracta
+Version: 0.1.3
+Summary: A wrapper for Interacta API
+License: LICENSE
+Keywords: api
+Author: Simone Dalla
+Author-email: simodalla@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: PyJWT[crypto] (>=2.5,<3.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+PYnteracta, utility e wrapper per api di Interacta
+---------------------------------------------------
+
+Utility e libreria wrapper open-source in linguaggio Python per l'interfacciamento con le api rest
+di [Interacta](https://catalogocloud.agid.gov.it/service/1892).
+
+
+Installazione
+-------------
+
+```
+python -m pip install pynteracta
+```
+
+Utilizzo utility command line
+-----------------------------
+
+Pynteracta ha un'interfaccia a riga di comando per verificare l'accesso all'ambiente di prova
+Playgroud o ad un ambiente di produzione di Interacta.
+
+Accesso e lista dei post della community di default dell'ambiente Playgroud di Interacta.
+
+    $ pynteracta playground
+
+    Connessione all'ambiente Playground di Interacta...
+    Login effettuato con successo!
+    Elenco dei post:
+    ┏━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+    ┃ Id  ┃ Titolo                                ┃ Descrizione                           ┃
+    ┡━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+    │ 599 │ Il mio primo post su Interacta        │ Questo è il mio primo post di         │
+    │     │                                       │ Interacta e lo sto creando tramite le │
+    │     │                                       │ Interacta External API.               │
+    │     │                                       │                                       │
+    │ 598 │ Benvenuto nel Playground di Interacta │ Interacta Playground è un ambiente    │
+    │     │                                       │ pensato per permetterti di testare le │
+    │     │                                       │ nostre API e verificare con i tuoi    │
+    │     │                                       │ occhi i risultati delle tue chiamate. │
+    │     │                                       │                                       │
+    │     │                                       │ Si tratta di un ambiente condiviso,   │
+    │     │                                       │ quindi utilizza un linguaggio....     │
+    │     │                                       │                                       │
+    └─────┴───────────────────────────────────────┴───────────────────────────────────────┘
+
+Accesso e lista dei post della community di default di un ambiente di produzione di Interacta.
+
+Sono supportati due metodi di accesso:
+
+- [Username/Password](https://injenia.atlassian.net/wiki/spaces/IEAD/pages/3624075265/Autenticazione#Autenticazione-per-mezzo-di-Username-%2F-Password%3A)
+```
+    $ pynteracta login --base-url **URL_PRODUZIONE** --user **UTENTE**
+    Password: ****
+    Connessione all'instanza Interacta **URL_PRODUZIONE** con 'username/password' ...
+    Login effettuato con successo!
+```
+
+- [Service Account](https://injenia.atlassian.net/wiki/spaces/IEAD/pages/3624075265/Autenticazione#Autenticazione-via-Service-Account-(Server-to-Server))
+```
+    $ pynteracta login --base-url **URL_PRODUZIONE** --service-account-file **PATH**
+    Password: ****
+    Connessione all'instanza Interacta **URL_PRODUZIONE** con 'service account' ...
+    Login effettuato con successo!
+```
+
+Recupero lista dei primi 10 post della community identificata dall'id passata come parametro
+
+    $ pynteracta --base-url **URL_PRODUZIONE** list-posts **COMMUNITY-ID**
+
+Logout da un ambiente di produzione
+
+    $ pynteracta logout
+

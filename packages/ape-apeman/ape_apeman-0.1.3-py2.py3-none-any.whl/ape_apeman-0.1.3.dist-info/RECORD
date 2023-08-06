@@ -1,0 +1,12 @@
+ape_apeman/__init__.py,sha256=HimVnprbw6W3iuDARND-UIx4UJ-I5BHS2G76et2YkYY,235
+ape_apeman/cli.py,sha256=9fNEvhVXZrHhMdFJxOKlYKTo4-phQTtgx9b2Bnd-nDA,3574
+ape_apeman/context.py,sha256=yQZhfyRhcv63eQ0RB5ASBfa57snIgZ8OUavu_X1lThY,1080
+ape_apeman/exception_handler.py,sha256=ktSUKmxp5G6SfH7dnE28YYZ6i2q4K_8poZ3bTqRGPXo,1067
+ape_apeman/json.py,sha256=bcce5n1kuZKkirbALrMKt73fyhcV64cYVboG-WYewJo,1104
+ape_apeman/main.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+ape_apeman/version.py,sha256=gJSoibpr2eFUyY7UwIbgPBP83A5-IZfdrhWea0A9Vog,127
+ape_apeman-0.1.3.dist-info/entry_points.txt,sha256=bLFCaMY5hTvhmwloiH7qi_QgLI_HHaHc2uuPB33Ra2U,41
+ape_apeman-0.1.3.dist-info/LICENSE,sha256=jckHDSsX1b_CdhJDNaLRfFvZV3iproIxckmg9uTfShQ,1071
+ape_apeman-0.1.3.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+ape_apeman-0.1.3.dist-info/METADATA,sha256=aB9eiqlETkqMgyuyw5S24bxMFiWEgtzyVXWr7eOoNGc,2203
+ape_apeman-0.1.3.dist-info/RECORD,,

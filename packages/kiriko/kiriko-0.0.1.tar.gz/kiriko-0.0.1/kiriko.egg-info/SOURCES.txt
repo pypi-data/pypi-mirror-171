@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+kiriko/__init__.py
+kiriko.egg-info/PKG-INFO
+kiriko.egg-info/SOURCES.txt
+kiriko.egg-info/dependency_links.txt
+kiriko.egg-info/entry_points.txt
+kiriko.egg-info/top_level.txt
+kiriko.egg-info/zip-safe
+kiriko/shell/__init__.py
+kiriko/shell/usage.py
+kiriko/src/temp.txt

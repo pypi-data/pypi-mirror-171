@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-shukur"
+version = "0.3.0"
+description = "THis is our test project"
+authors = ["Shukur Iminov <ssean6754@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_shukur"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

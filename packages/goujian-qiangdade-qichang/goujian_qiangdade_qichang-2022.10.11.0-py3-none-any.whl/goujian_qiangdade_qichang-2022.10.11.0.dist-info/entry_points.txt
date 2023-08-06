@@ -1,0 +1,4 @@
+[console_scripts]
+GoujianQiangdadeQichang = GoujianQiangdadeQichang.__main__:main
+goujian-qiangdade-qichang = GoujianQiangdadeQichang.__main__:main
+

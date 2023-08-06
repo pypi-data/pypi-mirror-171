@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_feature_extractor.py
+unb_emg_toolbox/__init__.py
+unb_emg_toolbox/feature_extractor.py
+unb_emg_toolbox.egg-info/PKG-INFO
+unb_emg_toolbox.egg-info/SOURCES.txt
+unb_emg_toolbox.egg-info/dependency_links.txt
+unb_emg_toolbox.egg-info/requires.txt
+unb_emg_toolbox.egg-info/top_level.txt

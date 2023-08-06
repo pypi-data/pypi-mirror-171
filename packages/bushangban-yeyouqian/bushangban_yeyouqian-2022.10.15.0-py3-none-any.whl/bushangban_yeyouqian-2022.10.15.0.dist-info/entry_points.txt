@@ -1,0 +1,4 @@
+[console_scripts]
+BushangbanYeyouqian = BushangbanYeyouqian.__main__:main
+bushangban-yeyouqian = BushangbanYeyouqian.__main__:main
+

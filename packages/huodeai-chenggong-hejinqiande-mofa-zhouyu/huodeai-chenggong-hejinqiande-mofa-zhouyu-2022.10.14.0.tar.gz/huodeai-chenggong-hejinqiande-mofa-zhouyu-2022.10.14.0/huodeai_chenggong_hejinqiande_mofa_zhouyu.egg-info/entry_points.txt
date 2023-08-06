@@ -1,0 +1,4 @@
+[console_scripts]
+HuodeaiChenggongHejinqiandeMofaZhouyu = HuodeaiChenggongHejinqiandeMofaZhouyu.__main__:main
+huodeai-chenggong-hejinqiande-mofa-zhouyu = HuodeaiChenggongHejinqiandeMofaZhouyu.__main__:main
+

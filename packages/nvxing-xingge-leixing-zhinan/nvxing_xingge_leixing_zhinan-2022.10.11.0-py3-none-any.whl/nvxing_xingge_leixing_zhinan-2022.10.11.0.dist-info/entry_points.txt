@@ -1,0 +1,4 @@
+[console_scripts]
+NvxingXinggeLeixingZhinan = NvxingXinggeLeixingZhinan.__main__:main
+nvxing-xingge-leixing-zhinan = NvxingXinggeLeixingZhinan.__main__:main
+

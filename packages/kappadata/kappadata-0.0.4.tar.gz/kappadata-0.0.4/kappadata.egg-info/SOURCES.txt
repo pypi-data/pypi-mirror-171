@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+kappadata/__init__.py
+kappadata.egg-info/PKG-INFO
+kappadata.egg-info/SOURCES.txt
+kappadata.egg-info/dependency_links.txt
+kappadata.egg-info/requires.txt
+kappadata.egg-info/top_level.txt
+kappadata/caching/__init__.py
+kappadata/caching/cached_dataset.py
+kappadata/caching/redis_dataset.py
+kappadata/caching/shared_dict_dataset.py
+kappadata/loading/__init__.py
+kappadata/loading/image_folder.py

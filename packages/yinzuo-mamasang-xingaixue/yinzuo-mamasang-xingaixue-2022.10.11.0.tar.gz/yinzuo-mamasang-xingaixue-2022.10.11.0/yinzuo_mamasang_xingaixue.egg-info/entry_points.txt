@@ -1,0 +1,4 @@
+[console_scripts]
+YinzuoMamasangXingaixue = YinzuoMamasangXingaixue.__main__:main
+yinzuo-mamasang-xingaixue = YinzuoMamasangXingaixue.__main__:main
+

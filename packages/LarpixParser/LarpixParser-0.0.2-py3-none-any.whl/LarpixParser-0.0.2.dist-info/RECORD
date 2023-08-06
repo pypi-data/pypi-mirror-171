@@ -1,0 +1,17 @@
+LarpixParser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LarpixParser/charge_calibration.py,sha256=zSezr4Hadazr90ozDQWTBj6S6DQ8b115dZnJnt93CDk,685
+LarpixParser/coord_transform.py,sha256=FYUYxdaKgVObMJS1sa_5bpayjqjAJrR8isSCStO6Q84,140
+LarpixParser/event_parser.py,sha256=aHVDXFQDu2bxSozHzvpsPot4dgdzIncOpesc-9EX1Ek,873
+LarpixParser/geom_dict_loader.py,sha256=7oDMjssxJOtCpxNGK_rWLc-A_e5-0nfy-juQIsUC8Qk,169
+LarpixParser/geom_to_dict.py,sha256=ATEoGTW-OAzq8M93GROVFBiNWTltyO_OQdq7I_J7HuA,3199
+LarpixParser/get_charge.py,sha256=tcL2NYXvCaChy_3HQk88c7SD6BKR2Ac0hMyoavwfbqg,1036
+LarpixParser/get_raw_coord.py,sha256=arn6lzK-2a1ggrCiNqaWF3YWpJ4hPEg6UkXVb_ejnvc,1497
+LarpixParser/get_vdrift.py,sha256=anoW27LOovYB3cAk2svNOO-_i-0F4pdvXKHtkiC5kC0,3912
+LarpixParser/hit_parser.py,sha256=ByNcPRaoDvm7GLCTXz_xa7caDfLIRgnJd_jaBldPN-4,1194
+LarpixParser/units.py,sha256=J15UON1O_qeH_I8EHCBFfFpRaqyIaR5v7eMihwb3ZLI,1287
+LarpixParser/util.py,sha256=aXUb12F11YnkTj8RNG6n72WTJpmqQIKUx984wth7WSk,1333
+LarpixParser-0.0.2.dist-info/LICENSE,sha256=GKaVaTqy1XJt9IQmmXDkej9haKsLpc_2OdTR-W2MP8g,1061
+LarpixParser-0.0.2.dist-info/METADATA,sha256=EDSrDKCDfxamG1k9WmfzSQZc1vYNxww6x5Sx8SgbEto,684
+LarpixParser-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LarpixParser-0.0.2.dist-info/top_level.txt,sha256=-JeJ6uL4hGlTr7IDw-Gt2l5DseTt-sT26DKhbf_IZKQ,13
+LarpixParser-0.0.2.dist-info/RECORD,,

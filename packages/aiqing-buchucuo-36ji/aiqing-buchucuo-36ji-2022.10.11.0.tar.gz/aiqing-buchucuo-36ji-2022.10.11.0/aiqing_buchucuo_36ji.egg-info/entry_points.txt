@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingBuchucuo36ji = AiqingBuchucuo36ji.__main__:main
+aiqing-buchucuo-36ji = AiqingBuchucuo36ji.__main__:main
+

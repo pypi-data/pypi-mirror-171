@@ -1,0 +1,2 @@
+notebooks/* linguist-documentation=false
+*.py linguist-language=python

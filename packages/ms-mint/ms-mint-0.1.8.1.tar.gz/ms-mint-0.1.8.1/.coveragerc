@@ -1,0 +1,6 @@
+[run]
+omit = 
+    */app/*
+    */_version.py
+    */__init__.py
+    ms_mint/filelock.py

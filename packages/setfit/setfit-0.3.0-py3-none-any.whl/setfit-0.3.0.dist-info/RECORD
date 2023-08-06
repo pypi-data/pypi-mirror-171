@@ -1,0 +1,13 @@
+setfit/__init__.py,sha256=zWUulLo62pgbey0qnR5tmvBO1IHnoB-khZ1EaMKqNdU,92
+setfit/data.py,sha256=bGkE0CbBofocGs6-Hkq-nOjshFjcgFs0A0p_8cbW3nI,5816
+setfit/integrations.py,sha256=MGvzaaEghZ0ErCuQ2kzWNBQokIxoJFWQL4cPL6rQMgo,1360
+setfit/logging.py,sha256=4Trd7DkfIkd6Zlt3jtfsUgKXGy6cnEJapUdwi4TKqnw,9747
+setfit/modeling.py,sha256=PRPC_X6fuF-Hw8Yuigck8zl51K-VeIpgjWs7V-5EODI,12662
+setfit/pipeline.py,sha256=qnZQw35vRpusjXJvhVsRR-Cew9IDEwo47H5UBrJtJqo,357
+setfit/trainer.py,sha256=YzjbY95EolJfkCAPFXNvYr5hAaqRagVZe2Vp7RtgywM,18366
+setfit/utils.py,sha256=DiEn2sWBlvKnHPd3tQWTx6jFWgAoZf9dnmWKDI0ruXw,5321
+setfit-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+setfit-0.3.0.dist-info/METADATA,sha256=3TZvS5nl6gtTHLw5vzPfWJIIBb0XjKs1n9dVpygSfWU,1565
+setfit-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+setfit-0.3.0.dist-info/top_level.txt,sha256=ernawvyDeHtp05b0yeuW8bbGgKaEemOLBklod7Gh0pY,7
+setfit-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+README.rst
+setup.py
+evencrypt.egg-info/PKG-INFO
+evencrypt.egg-info/SOURCES.txt
+evencrypt.egg-info/dependency_links.txt
+evencrypt.egg-info/not-zip-safe
+evencrypt.egg-info/top_level.txt
+foo/__init__.py

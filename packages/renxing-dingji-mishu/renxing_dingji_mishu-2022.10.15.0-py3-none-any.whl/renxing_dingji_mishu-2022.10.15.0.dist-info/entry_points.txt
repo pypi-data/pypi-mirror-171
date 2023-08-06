@@ -1,0 +1,4 @@
+[console_scripts]
+RenxingDingjiMishu = RenxingDingjiMishu.__main__:main
+renxing-dingji-mishu = RenxingDingjiMishu.__main__:main
+

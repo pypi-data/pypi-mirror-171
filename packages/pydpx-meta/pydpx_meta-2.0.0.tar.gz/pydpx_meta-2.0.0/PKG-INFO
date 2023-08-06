@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydpx_meta
+Version: 2.0.0
+Summary: Python dpx image meta data read write library
+Home-page: https://github.com/plinecom/pydpx_meta
+Author: Masataka Koike
+Author-email: plinecom@gmail.com
+License: MIT
+Keywords: dpx image meta header
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+UNKNOWN
+

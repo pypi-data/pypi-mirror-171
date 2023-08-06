@@ -1,0 +1,9 @@
+shiftES/__init__.py,sha256=y5meXHLOhNeuqp1HRaMtS-NHSMFnZ4Uf5HQUoAcIZtI,63
+shiftES/calculate_effectsize.py,sha256=xr711SEnSod7yXN4_x6TM5a5tf8LWXjxhBTwfBuFz4Q,5867
+shiftES/shiftes.py,sha256=sWu9f5KSGMlfhf-503uriuvxfeoQTsbfCk5Tnzk1xJQ,2982
+shiftES/tests.py,sha256=qEA2tg6HmvAjQwuR0m2wx-l_yxhUndVhjuaOvMVKkqk,1347
+shiftES-1.0.1.data/scripts/calculate_effectsize.py,sha256=Rlv-7AXD9W4Bjv2xi-ro5xzgzvFdSMBdaobZbr-l4e4,5854
+shiftES-1.0.1.dist-info/METADATA,sha256=_LnMxyi0I1gsm8ouHgxTf3F-W5DCY5hWE54f0yjmXz8,373
+shiftES-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shiftES-1.0.1.dist-info/top_level.txt,sha256=Vg7jsPnKx7F80KEe75eNC0UmqsKV40RQU4sTMMwOsQI,8
+shiftES-1.0.1.dist-info/RECORD,,

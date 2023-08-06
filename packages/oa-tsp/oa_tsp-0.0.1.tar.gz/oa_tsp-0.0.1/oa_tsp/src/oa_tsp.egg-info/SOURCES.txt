@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+oa_tsp/src/oa_tsp.egg-info/PKG-INFO
+oa_tsp/src/oa_tsp.egg-info/SOURCES.txt
+oa_tsp/src/oa_tsp.egg-info/dependency_links.txt
+oa_tsp/src/oa_tsp.egg-info/top_level.txt
+oa_tsp/src/oa_tsp.py
+oa_tsp/src/oa_tsp.egg-info/SOURCES.txt

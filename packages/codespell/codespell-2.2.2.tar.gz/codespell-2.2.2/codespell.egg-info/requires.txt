@@ -1,0 +1,16 @@
+
+[dev]
+check-manifest
+flake8
+pytest
+pytest-cov
+pytest-dependency
+tomli
+
+[hard-encoding-detection]
+chardet
+
+[toml]
+
+[toml:python_version < "3.11"]
+tomli

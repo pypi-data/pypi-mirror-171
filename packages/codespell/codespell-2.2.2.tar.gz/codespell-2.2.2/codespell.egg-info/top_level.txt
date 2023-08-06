@@ -1,0 +1,4 @@
+bin
+codespell_lib
+dist
+example

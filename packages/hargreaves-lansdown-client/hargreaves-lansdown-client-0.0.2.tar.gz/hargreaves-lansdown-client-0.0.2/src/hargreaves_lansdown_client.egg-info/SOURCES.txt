@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/hargreaves_lansdown_client/HLClient.py
+src/hargreaves_lansdown_client/__init__.py
+src/hargreaves_lansdown_client.egg-info/PKG-INFO
+src/hargreaves_lansdown_client.egg-info/SOURCES.txt
+src/hargreaves_lansdown_client.egg-info/dependency_links.txt
+src/hargreaves_lansdown_client.egg-info/top_level.txt

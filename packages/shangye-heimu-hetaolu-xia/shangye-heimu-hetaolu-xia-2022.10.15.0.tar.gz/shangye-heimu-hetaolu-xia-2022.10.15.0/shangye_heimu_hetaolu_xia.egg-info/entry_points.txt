@@ -1,0 +1,4 @@
+[console_scripts]
+ShangyeHeimuHetaoluXia = ShangyeHeimuHetaoluXia.__main__:main
+shangye-heimu-hetaolu-xia = ShangyeHeimuHetaoluXia.__main__:main
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+marvel_func/__init__.py
+marvel_func/api_call.py
+marvel_func/char_filter.py
+marvel_func.egg-info/PKG-INFO
+marvel_func.egg-info/SOURCES.txt
+marvel_func.egg-info/dependency_links.txt
+marvel_func.egg-info/not-zip-safe
+marvel_func.egg-info/top_level.txt

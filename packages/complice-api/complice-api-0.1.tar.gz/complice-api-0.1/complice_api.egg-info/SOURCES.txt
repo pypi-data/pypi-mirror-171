@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+complice/__init__.py
+complice/complice.py
+complice_api.egg-info/PKG-INFO
+complice_api.egg-info/SOURCES.txt
+complice_api.egg-info/dependency_links.txt
+complice_api.egg-info/not-zip-safe
+complice_api.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: complice-api
+Version: 0.1
+Summary: A Python wrapper for the Complice API
+Home-page: https://github.com/masonc15/complice-api
+Author: Colin Mason
+Author-email: masonc789@gmail.com
+License: MIT
+License-File: LICENSE

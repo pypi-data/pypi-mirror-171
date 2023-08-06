@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingguangpuAiqingQizongzui = AiqingguangpuAiqingQizongzui.__main__:main
+aiqingguangpu-aiqing-qizongzui = AiqingguangpuAiqingQizongzui.__main__:main
+

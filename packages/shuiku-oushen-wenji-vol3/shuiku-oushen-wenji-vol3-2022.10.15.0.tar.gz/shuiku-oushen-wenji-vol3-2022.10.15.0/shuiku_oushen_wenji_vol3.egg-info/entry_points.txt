@@ -1,0 +1,4 @@
+[console_scripts]
+ShuikuOushenWenjiVol3 = ShuikuOushenWenjiVol3.__main__:main
+shuiku-oushen-wenji-vol3 = ShuikuOushenWenjiVol3.__main__:main
+

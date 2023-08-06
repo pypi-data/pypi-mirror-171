@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: arty_random_test_lib
+Version: 1.0.0
+Summary: Dummy utility library
+Home-page: https://github.com/kenshinapa/GenericPythonLib.git
+Author: Arturo Padilla Ayala
+Author-email: r2padillaayala@gmail.com
+License-File: LICENSE
+
+# GenericPythonLib
+This is just a test. I intend to create a test library and upload it to PyPi

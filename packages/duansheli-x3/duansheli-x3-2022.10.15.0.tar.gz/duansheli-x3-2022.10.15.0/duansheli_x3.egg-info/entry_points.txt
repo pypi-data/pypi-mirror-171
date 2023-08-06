@@ -1,0 +1,4 @@
+[console_scripts]
+DuansheliX3 = DuansheliX3.__main__:main
+duansheli-x3 = DuansheliX3.__main__:main
+

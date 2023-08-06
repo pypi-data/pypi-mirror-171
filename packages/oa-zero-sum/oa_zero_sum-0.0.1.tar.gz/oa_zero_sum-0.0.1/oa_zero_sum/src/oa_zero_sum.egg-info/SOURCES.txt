@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+oa_zero_sum/src/oa_zero_sum.egg-info/PKG-INFO
+oa_zero_sum/src/oa_zero_sum.egg-info/SOURCES.txt
+oa_zero_sum/src/oa_zero_sum.egg-info/dependency_links.txt
+oa_zero_sum/src/oa_zero_sum.egg-info/top_level.txt
+oa_zero_sum/src/oa_zero_sum.py
+oa_zero_sum/src/oa_zero_sum.egg-info/SOURCES.txt

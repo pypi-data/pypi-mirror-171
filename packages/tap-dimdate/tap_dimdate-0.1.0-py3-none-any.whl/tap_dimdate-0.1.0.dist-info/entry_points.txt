@@ -1,0 +1,3 @@
+[console_scripts]
+tap-dimdate=tap_dimdate.tap:TapDimDate.cli
+

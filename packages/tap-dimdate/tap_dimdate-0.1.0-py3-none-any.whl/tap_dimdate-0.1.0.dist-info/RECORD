@@ -1,0 +1,10 @@
+tap_dimdate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_dimdate/schemas/calendar.json,sha256=sg6Onjeoy6dmv2JgqiHemY7I_BNsRxwNHYUl6g52GgY,721
+tap_dimdate/streams.py,sha256=uP8w6toK9gdcHTChGN-c4CRafZSxAMoVZIt-5fFODu4,1651
+tap_dimdate/tap.py,sha256=OUF_YKXvLc-kxHrPGw0lOocyFCbVyOn0BEOJlPnupPw,910
+tap_dimdate/tests/__init__.py,sha256=XHrbHy3oXaAAeO_jfUpO2glEIugf0L8zw-uANbJ00LA,34
+tap_dimdate/tests/test_core.py,sha256=8gaOJzf7_g5CRnVGpVGlsFVontnZi36Xfy8p-X5V4ck,651
+tap_dimdate-0.1.0.dist-info/entry_points.txt,sha256=RJfR6WehANt8tXMlLw8nf-UeA_S32Q6vwen0quoMCTY,62
+tap_dimdate-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+tap_dimdate-0.1.0.dist-info/METADATA,sha256=0yPVFQl7lHqBk3SYBrAdVOJfpgEOnEeRyDWsXN2ARyU,3708
+tap_dimdate-0.1.0.dist-info/RECORD,,

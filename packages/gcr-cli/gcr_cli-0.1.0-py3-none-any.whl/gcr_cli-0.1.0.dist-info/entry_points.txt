@@ -1,0 +1,3 @@
+[console_scripts]
+gcr=gcr_cli.gcr:app
+

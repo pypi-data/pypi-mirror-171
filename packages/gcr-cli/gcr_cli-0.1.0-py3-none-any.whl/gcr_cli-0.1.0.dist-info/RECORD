@@ -1,0 +1,6 @@
+gcr_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcr_cli/gcr.py,sha256=yjTLOkaI36hZxAp2GHdixV87ze6UOOXqpAw19z1splQ,5873
+gcr_cli-0.1.0.dist-info/entry_points.txt,sha256=6YJCU_VOXtvByYUvVILiUfe-59a8siYAeb-WvkZRmoI,39
+gcr_cli-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gcr_cli-0.1.0.dist-info/METADATA,sha256=dQ1fgDoMIAdcUmqlggTMbOPtilRy48oajGiJWSTGQsU,726
+gcr_cli-0.1.0.dist-info/RECORD,,

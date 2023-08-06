@@ -1,0 +1,58 @@
+Particles: 2897
+Timesteps: 10
+MPI Ranks: 1
+Random seed: 2897
+Rank: 0: OpenMP is disabled
+Proc: 0 is on node shuds
+
+Step: 0
+Forces kernel returned: 99412.885663 
+Forces compute time: 0.085 seconds
+Forces comms time:   0.000 seconds
+
+Step: 1
+Forces kernel returned: 96998.607089 
+Forces compute time: 0.084 seconds
+Forces comms time:   0.000 seconds
+
+Step: 2
+Forces kernel returned: 94571.166682 
+Forces compute time: 0.058 seconds
+Forces comms time:   0.000 seconds
+
+Step: 3
+Forces kernel returned: 92129.025890 
+Forces compute time: 0.071 seconds
+Forces comms time:   0.000 seconds
+
+Step: 4
+Forces kernel returned: 89670.650463 
+Forces compute time: 0.054 seconds
+Forces comms time:   0.000 seconds
+
+Step: 5
+Forces kernel returned: 87194.507860 
+Forces compute time: 0.050 seconds
+Forces comms time:   0.000 seconds
+
+Step: 6
+Forces kernel returned: 84699.064618 
+Forces compute time: 0.050 seconds
+Forces comms time:   0.000 seconds
+
+Step: 7
+Forces kernel returned: 82182.783550 
+Forces compute time: 0.050 seconds
+Forces comms time:   0.000 seconds
+
+Step: 8
+Forces kernel returned: 79644.120572 
+Forces compute time: 0.082 seconds
+Forces comms time:   0.000 seconds
+
+Step: 9
+Forces kernel returned: 77081.520911 
+Forces compute time: 0.069 seconds
+Forces comms time:   0.000 seconds
+
+Final total 77081.520911 after total time of 0.655 seconds.

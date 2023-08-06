@@ -1,0 +1,27 @@
+[0]  2022-10-13 12:46:36,865 libensemble.libE (INFO): Logger initializing: [workerID] precedes each line. [0] = Manager
+[0]  2022-10-13 12:46:36,865 libensemble.libE (INFO): libE version v0.9.2+dev
+[0]  2022-10-13 12:46:36,867 libensemble.manager (INFO): Manager initiated on node shuds
+[0]  2022-10-13 12:46:36,867 libensemble.manager (INFO): Manager exit_criteria: {'sim_max': 8}
+[1]  2022-10-13 12:46:36,866 libensemble.worker (INFO): Worker 1 initiated on node shuds
+[2]  2022-10-13 12:46:36,867 libensemble.worker (INFO): Worker 2 initiated on node shuds
+[3]  2022-10-13 12:46:36,867 libensemble.worker (INFO): Worker 3 initiated on node shuds
+[4]  2022-10-13 12:46:36,867 libensemble.worker (INFO): Worker 4 initiated on node shuds
+[1]  2022-10-13 12:46:36,873 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker1_0: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 2023 10 2023
+[2]  2022-10-13 12:46:36,873 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker2_0: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 2900 10 2900
+[3]  2022-10-13 12:46:36,873 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker3_0: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 1288 10 1288
+[4]  2022-10-13 12:46:36,873 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker4_0: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 2897 10 2897
+[3]  2022-10-13 12:46:37,089 libensemble.executors.executor (INFO): Task libe_task_forces_worker3_0 finished with errcode 0 (FINISHED)
+[3]  2022-10-13 12:46:37,108 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker3_1: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 1623 10 1623
+[1]  2022-10-13 12:46:37,158 libensemble.executors.executor (INFO): Task libe_task_forces_worker1_0 finished with errcode 0 (FINISHED)
+[1]  2022-10-13 12:46:37,163 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker1_1: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 1846 10 1846
+[3]  2022-10-13 12:46:37,397 libensemble.executors.executor (INFO): Task libe_task_forces_worker3_1 finished with errcode 0 (FINISHED)
+[3]  2022-10-13 12:46:37,401 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker3_2: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 2655 10 2655
+[1]  2022-10-13 12:46:37,404 libensemble.executors.executor (INFO): Task libe_task_forces_worker1_1 finished with errcode 0 (FINISHED)
+[1]  2022-10-13 12:46:37,407 libensemble.executors.mpi_executor (INFO): Launching task libe_task_forces_worker1_2: mpirun -hosts shuds -np 1 --ppn 1 /home/shudson/libensemble/libe_release_093/libensemble/libensemble/tests/scaling_tests/forces/forces_gpu/../forces_app/forces.x 1818 10 1818
+[2]  2022-10-13 12:46:37,484 libensemble.executors.executor (INFO): Task libe_task_forces_worker2_0 finished with errcode 0 (FINISHED)
+[4]  2022-10-13 12:46:37,559 libensemble.executors.executor (INFO): Task libe_task_forces_worker4_0 finished with errcode 0 (FINISHED)
+[1]  2022-10-13 12:46:37,657 libensemble.executors.executor (INFO): Task libe_task_forces_worker1_2 finished with errcode 0 (FINISHED)
+[3]  2022-10-13 12:46:37,799 libensemble.executors.executor (INFO): Task libe_task_forces_worker3_2 finished with errcode 0 (FINISHED)
+[0]  2022-10-13 12:46:37,801 libensemble.manager (INFO): Term test tripped: sim_max
+[0]  2022-10-13 12:46:37,801 libensemble.manager (INFO): Term test tripped: sim_max
+[0]  2022-10-13 12:46:37,801 libensemble.libE (INFO): Manager total time: 0.935

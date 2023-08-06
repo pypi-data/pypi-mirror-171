@@ -1,0 +1,11 @@
+Manager     : Starting ensemble at: 2022-10-13 12:46:36.864
+Worker     1: Gen no     1: gen Time: 0.000 Start: 2022-10-13 12:46:36.869 End: 2022-10-13 12:46:36.869 Status: Not set
+Worker     3: sim_id     2: sim Time: 0.228 Start: 2022-10-13 12:46:36.872 End: 2022-10-13 12:46:37.100 Status: Completed
+Worker     1: sim_id     0: sim Time: 0.289 Start: 2022-10-13 12:46:36.872 End: 2022-10-13 12:46:37.161 Status: Completed
+Worker     3: sim_id     4: sim Time: 0.290 Start: 2022-10-13 12:46:37.108 End: 2022-10-13 12:46:37.398 Status: Completed
+Worker     1: sim_id     5: sim Time: 0.243 Start: 2022-10-13 12:46:37.162 End: 2022-10-13 12:46:37.405 Status: Completed
+Worker     2: sim_id     1: sim Time: 0.614 Start: 2022-10-13 12:46:36.872 End: 2022-10-13 12:46:37.486 Status: Completed
+Worker     4: sim_id     3: sim Time: 0.689 Start: 2022-10-13 12:46:36.872 End: 2022-10-13 12:46:37.561 Status: Completed
+Worker     1: sim_id     7: sim Time: 0.251 Start: 2022-10-13 12:46:37.407 End: 2022-10-13 12:46:37.658 Status: Completed
+Worker     3: sim_id     6: sim Time: 0.400 Start: 2022-10-13 12:46:37.400 End: 2022-10-13 12:46:37.800 Status: Completed
+Manager     : Exiting ensemble at: 2022-10-13 12:46:37.804 Time Taken: 0.94

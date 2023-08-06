@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/LSBSteg.py
+src/__init__.py
+src/steganography_package_joaoalves.egg-info/PKG-INFO
+src/steganography_package_joaoalves.egg-info/SOURCES.txt
+src/steganography_package_joaoalves.egg-info/dependency_links.txt
+src/steganography_package_joaoalves.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: steganography_package_joaoalves
+Version: 0.0.1
+Summary: Basic steganography package
+Author-email: Joao Alves <joao.alves64@gmail.com>
+Project-URL: Homepage, https://github.com/joaoalvesgb/steganography
+Project-URL: Bug Tracker, https://github.com/joaoalvesgb/steganography/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Steganography
+
+This is a basic package for use steganography concepts

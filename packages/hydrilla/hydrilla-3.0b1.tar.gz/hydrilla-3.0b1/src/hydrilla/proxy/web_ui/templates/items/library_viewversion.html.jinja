@@ -1,0 +1,103 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI library version view page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "items/item_viewversion.html.jinja" %}
+
+{% block title %}
+  {{ _('web_ui.items.single_version.library.title') }}
+{% endblock %}
+
+{% block heading %}
+  {% if version_display_info.is_local %}
+    {{
+      _('web_ui.items.single_version.library_local.heading.name_{}')
+          .format(version_display_info.info.long_name)
+    }}
+  {% else %}
+    {{
+      _('web_ui.items.single_version.library.heading.name_{}')
+          .format(version_display_info.info.long_name)
+    }}
+  {% endif %}
+{% endblock %}
+
+{% block item_install_failed_msg %}
+  {{ _('web_ui.items.single_version.library.install_failed') }}
+{% endblock %}
+
+{% block item_is_installed_msg %}
+  {{ _('web_ui.items.single_version.library.is_installed') }}
+{% endblock %}
+
+{% block item_is_not_installed_msg %}
+  {{ _('web_ui.items.single_version.library.is_not_installed') }}
+{% endblock %}
+
+{% block version_list_heading %}
+  {{ _('web_ui.items.single_version.library.version_list_heading') }}
+{% endblock %}
+
+{% block main_info_rest %}
+  {{ label(_('web_ui.items.single_version.library.scripts_label')) }}
+
+  {% if version_display_info.info.scripts %}
+    {{ item_file_list(version_display_info.info.scripts, 'web_resource') }}
+  {% else %}
+    <p>
+      {{ _('web_ui.items.single_version.library.no_script_files') }}
+    </p>
+  {% endif %}
+
+  <div class="horizontal-separator"></div>
+
+  {% if version_display_info.info.dependencies %}
+    {{ label(_('web_ui.items.single_version.library.deps_label')) }}
+
+    {% macro make_dep_url(spec) -%}
+      {{
+        url_for(
+            '.show_library_dep',
+            item_version_id = version_display_info.ref.id,
+            dep_identifier = spec.identifier
+        )
+      }}
+    {%- endmacro %}
+
+    {{ item_link_list(version_display_info.info.dependencies, make_dep_url) }}
+  {% endif %}
+
+  {{ label(_('web_ui.items.single_version.library.enabled_label')) }}
+
+  <p>
+    {% if version_display_info.active == ActiveStatus.REQUIRED %}
+      {{ _('web_ui.items.single_version.library.item_required') }}
+    {%
+      elif version_display_info.active == ActiveStatus.NOT_ACTIVE or
+           settings.mapping_use_mode == MappingUseMode.WHEN_ENABLED
+    %}
+      {{ _('web_ui.items.single_version.library.item_not_activated') }}
+    {% elif settings.mapping_use_mode == MappingUseMode.QUESTION %}
+      {{ _('web_ui.items.single_version.library.item_will_be_asked_about') }}
+    {% else %}
+      {# settings.mapping_use_mode == MappingUseMode.AUTO #}
+      {{ _('web_ui.items.single_version.library.item_auto_activated') }}
+    {% endif %}
+  </p>
+{% endblock main_info_rest %}

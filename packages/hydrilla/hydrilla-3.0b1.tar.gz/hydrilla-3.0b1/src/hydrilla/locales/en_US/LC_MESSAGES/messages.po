@@ -1,0 +1,1273 @@
+# SPDX-License-Identifier: CC0-1.0
+#
+# English (United States) translations for hydrilla.
+# Copyright (C) 2021, 2022 Wojtek Kosior <koszko@koszko.org>
+# Available under the terms of Creative Commons Zero v1.0 Universal.
+msgid ""
+msgstr ""
+"Project-Id-Version: hydrilla 2.0\n"
+"Report-Msgid-Bugs-To: koszko@koszko.org\n"
+"POT-Creation-Date: 2022-10-10 16:44+0200\n"
+"PO-Revision-Date: 2022-02-12 00:00+0000\n"
+"Last-Translator: Wojtek Kosior <koszko@koszko.org>\n"
+"Language: en_US\n"
+"Language-Team: en_US <koszko@koszko.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: src/hydrilla/builder/build.py:84 src/hydrilla/builder/local_apt.py:123
+#: src/hydrilla/builder/local_apt.py:428
+msgid "couldnt_execute_{}_is_it_installed"
+msgstr "Could not execute '{}'. Is the tool installed and reachable via PATH?"
+
+#: src/hydrilla/builder/build.py:88 src/hydrilla/builder/local_apt.py:127
+#: src/hydrilla/builder/local_apt.py:432
+msgid "command_{}_failed"
+msgstr "The following command finished execution with a non-zero exit status: {}"
+
+#: src/hydrilla/builder/build.py:204
+msgid "path_contains_double_dot_{}"
+msgstr ""
+"Attempt to load '{}' which includes a forbidden parent reference ('..') "
+"in the path."
+
+#: src/hydrilla/builder/build.py:211
+msgid "loading_{}_outside_package_dir"
+msgstr "Attempt to load '{}' which lies outside package source directory."
+
+#: src/hydrilla/builder/build.py:215
+msgid "loading_reserved_index_json"
+msgstr "Attempt to load 'index.json' which is a reserved filename."
+
+#: src/hydrilla/builder/build.py:222
+msgid "referenced_file_{}_missing"
+msgstr "Referenced file '{}' is missing."
+
+#: src/hydrilla/builder/build.py:413
+msgid "report_spdx_not_in_copyright_list"
+msgstr ""
+"Told to generate 'report.spdx' but 'report.spdx' is not listed among "
+"copyright files. Refusing to proceed."
+
+#: src/hydrilla/builder/build.py:490
+msgid "build_package_from_srcdir_to_dstdir"
+msgstr ""
+"Build Hydrilla package from `scrdir` and write the resulting files under "
+"`dstdir`."
+
+#: src/hydrilla/builder/build.py:492
+msgid "source_directory_to_build_from"
+msgstr "Source directory to build from."
+
+#: src/hydrilla/builder/build.py:494
+msgid "path_instead_of_index_json"
+msgstr ""
+"Path to file to be processed instead of index.json (if not absolute, "
+"resolved relative to srcdir)."
+
+#: src/hydrilla/builder/build.py:496
+msgid "path_instead_for_piggyback_files"
+msgstr ""
+"Path to a non-standard directory with foreign packages' archive files to "
+"use."
+
+#: src/hydrilla/builder/build.py:498
+msgid "built_package_files_destination"
+msgstr "Destination directory to write built package files to."
+
+#: src/hydrilla/builder/build.py:500
+#: src/hydrilla/mitmproxy_launcher/launch.py:65
+#: src/hydrilla/server/serve.py:207 src/hydrilla/server/serve.py:225
+#: src/hydrilla/server/serve.py:265
+#, python-format
+msgid "%(prog)s_%(version)s_license"
+msgstr ""
+"%(prog)s %(version)s\n"
+"Copyright (C) 2021,2022 Wojtek Kosior and contributors.\n"
+"License GPLv3+: GNU AGPL version 3 or later "
+"<https://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law."
+
+#: src/hydrilla/builder/build.py:501 src/hydrilla/server/serve.py:226
+#: src/hydrilla/server/serve.py:266
+msgid "version_printing"
+msgstr "Print version information and exit."
+
+#: src/hydrilla/builder/common_errors.py:61
+msgid "STDOUT_OUTPUT_heading"
+msgstr "## Command's standard output ##"
+
+#: src/hydrilla/builder/common_errors.py:64
+msgid "STDERR_OUTPUT_heading"
+msgstr "## Command's standard error output ##"
+
+#: src/hydrilla/builder/local_apt.py:156
+msgid "distro_{}_unknown"
+msgstr "Attempt to use an unknown software distribution '{}'."
+
+#: src/hydrilla/builder/local_apt.py:200
+msgid "couldnt_import_{}_is_it_installed"
+msgstr ""
+"Could not import '{}'. Is the module installed and visible to this Python"
+" instance?"
+
+#: src/hydrilla/builder/local_apt.py:208
+msgid "gpg_couldnt_recv_key_{}"
+msgstr "Could not import PGP key '{}'."
+
+#: src/hydrilla/builder/local_apt.py:327
+msgid "apt_install_output_not_understood"
+msgstr "The output of an 'apt-get install' command was not understood."
+
+#: src/hydrilla/builder/local_apt.py:353
+msgid "apt_download_gave_bad_filename_{}"
+msgstr "The 'apt-get download' command produced a file with unexpected name '{}'."
+
+#: src/hydrilla/builder/piggybacking.py:110
+msgid "loading_{}_outside_piggybacked_dir"
+msgstr ""
+"Attempt to load '{}' which lies outside piggybacked packages files root "
+"directory."
+
+#: src/hydrilla/item_infos.py:91
+msgid "err.item_info.filename_invalid_{}"
+msgstr "Item definition conatains an illegal path: {}"
+
+#: src/hydrilla/item_infos.py:516
+#, python-brace-format
+msgid "uuid_mismatch_{identifier}"
+msgstr "Two different uuids were specified for item '{identifier}'."
+
+#: src/hydrilla/json_instances.py:87
+msgid "bad_json_comment_line_{line_num}_char_{char_num}"
+msgstr ""
+"JSON document contains an invalid comment at line {line_num}, char "
+"{char_num}."
+
+#: src/hydrilla/json_instances.py:138
+msgid "unknown_schema_{}"
+msgstr "JSON document declares its schema as '{}' which is not a known schema."
+
+#: src/hydrilla/json_instances.py:189
+msgid "err.util.text_in_{}_not_valid_json"
+msgstr "Not a valid JSON file: {}"
+
+#: src/hydrilla/json_instances.py:192
+msgid "err.util.text_not_valid_json"
+msgstr "Not a valid JSON file."
+
+#: src/hydrilla/json_instances.py:207
+msgid "no_schema_number_in_instance"
+msgstr "JSON schema number is missing from a document."
+
+#: src/hydrilla/mitmproxy_launcher/launch.py:58
+msgid "cli_help.haketilo"
+msgstr ""
+"Run Haketilo proxy.\n"
+"\n"
+"This command starts Haketilo as a local HTTP proxy which a web browser "
+"can then use."
+
+#: src/hydrilla/mitmproxy_launcher/launch.py:60
+msgid "cli_opt.haketilo.port"
+msgstr "TCP port number the proxy should listen on (1-65535)."
+
+#: src/hydrilla/mitmproxy_launcher/launch.py:63
+msgid "cli_opt.haketilo.dir"
+msgstr "Data directory for Haketilo to use."
+
+#: src/hydrilla/mitmproxy_launcher/launch.py:66
+msgid "cli_opt.haketilo.version"
+msgstr "Print version information and exit"
+
+#: src/hydrilla/proxy/addon.py:128
+msgid "haketilo_dir_already_configured"
+msgstr ""
+"Attempt was made to configure Haketilo Mitmproxy addon with data "
+"directory path but it has already been configured."
+
+#: src/hydrilla/proxy/addon.py:183
+msgid "err.proxy.unknown_error_{}_try_again"
+msgstr ""
+"Haketilo experienced an error. Try again.\n"
+"\n"
+"{}"
+
+#: src/hydrilla/proxy/policies/payload_resource.py:264
+msgid "api.file_not_found"
+msgstr "Requested file could not be found."
+
+#: src/hydrilla/proxy/policies/payload_resource.py:387
+msgid "api.resource_not_enabled_for_access"
+msgstr "Requested resource is not enabled for access."
+
+#: src/hydrilla/proxy/state_impl/concrete_state.py:92
+msgid "err.proxy.unknown_db_schema"
+msgstr ""
+"Haketilo's data files have been altered, possibly by a newer version of "
+"Haketilo."
+
+#: src/hydrilla/proxy/state_impl/concrete_state.py:96
+msgid "err.proxy.no_sqlite_foreign_keys"
+msgstr ""
+"This installation of Haketilo uses an SQLite version which does not "
+"support foreign key constraints."
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:101
+msgid "web_ui.base.title.haketilo_proxy"
+msgstr "Haketilo"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:284
+msgid "web_ui.base.nav.home"
+msgstr "Home"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:285
+msgid "web_ui.base.nav.rules"
+msgstr "Script blocking"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:286
+msgid "web_ui.base.nav.packages"
+msgstr "Packages"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:287
+msgid "web_ui.base.nav.libraries"
+msgstr "Libraries"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:288
+msgid "web_ui.base.nav.repos"
+msgstr "Repositories"
+
+#: src/hydrilla/proxy/web_ui/templates/base.html.jinja:289
+msgid "web_ui.base.nav.import"
+msgstr "Import"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:23
+msgid "web_ui.import.title"
+msgstr "Import items"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:41
+msgid "web_ui.import.heading"
+msgstr "Import items"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:43
+msgid "web_ui.import.heading_import_from_file"
+msgstr "From file"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:49
+msgid "web_ui.err.uploaded_file_not_zip"
+msgstr "The uploaded file is not a valid ZIP file."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:53
+msgid "web_ui.err.invalid_uploaded_malcontent"
+msgstr "The uploaded archive does not contain valid Haketilo malcontent."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:61
+msgid "web_ui.import.choose_zipfile_button"
+msgstr "Select file"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:68
+msgid "web_ui.import.install_from_file_button"
+msgstr "Import from selected file"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:75
+msgid "web_ui.import.heading_import_ad_hoc"
+msgstr "Ad hoc"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:78
+msgid "web_ui.err.invalid_ad_hoc_package"
+msgstr "The ad hoc package being imported contains errors."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:84
+msgid "web_ui.import.identifier_field_label"
+msgstr "Identifier"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:86
+msgid "web_ui.err.invalid_ad_hoc_identifier"
+msgstr "Chosen identifier is not valid."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:90
+msgid "web_ui.import.long_name_field_label"
+msgstr "Long name (optional)"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:93
+msgid "web_ui.import.version_field_label"
+msgstr "Version (optional)"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:95
+msgid "web_ui.err.invalid_ad_hoc_version"
+msgstr "Chosen version is not valid."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:99
+msgid "web_ui.import.description_field_label"
+msgstr "Description (optional)"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:102
+msgid "web_ui.import.patterns_field_label"
+msgstr "URL patterns (each on its own line)"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:104
+msgid "web_ui.err.invalid_ad_hoc_patterns"
+msgstr "Chosen patterns are not valid."
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:108
+msgid "web_ui.import.script_text_field_label"
+msgstr "JavaScript to execute on pages that match one of the patterns"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:111
+msgid "web_ui.import.lic_text_field_label"
+msgstr "Package license text (optional)"
+
+#: src/hydrilla/proxy/web_ui/templates/import.html.jinja:116
+msgid "web_ui.import.install_ad_hoc_button"
+msgstr "Add new package"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:23
+msgid "web_ui.home.title"
+msgstr "Welcome"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:27
+msgid "web_ui.home.heading.welcome_to_haketilo"
+msgstr "Welcome to Haketilo!"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:31
+msgid "web_ui.home.this_is_haketilo_page"
+msgstr ""
+"This is a virtual site hosted locally by Haketilo. You can use it to "
+"configure Haketilo proxy."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:37
+msgid "web_ui.home.heading.about_haketilo"
+msgstr "About this tool"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:41
+msgid "web_ui.home.html.haketilo_is_blah_blah"
+msgstr ""
+"Haketilo is a tool that gives users more control over their web browsing."
+" It can block unwanted JavaScript software on web pages as well as add "
+"custom logic to them. Haketilo was orignally developed as a browser "
+"extension but has since been made into an HTTP proxy. It is built on top "
+"of the popular <a href=\"https://mitmproxy.org/\">mitmproxy</a>."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:48
+msgid "web_ui.home.heading.configuring_browser_for_haketilo"
+msgstr "Configuring the browser for Haketilo"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:52
+msgid "web_ui.home.html.to_add_certs_do_xyz"
+msgstr ""
+"Haketilo proxy works by modifying data exchanged by your browser and web "
+"servers. This works without problems for http:// URLs. For https:// URLs,"
+" however, the transmitted data is protected from modification using "
+"cryptography. For your browser to trust the data modified by Haketilo, it"
+" needs to be told to recognize proxy's cryptographic certificate. If you "
+"haven't already, download the right certificate from <a "
+"href=\"http://mitm.it\">this page</a> and add it to your operating "
+"system, browser or both."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:59
+msgid "web_ui.home.heading.options"
+msgstr "Global options"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:62
+msgid "web_ui.home.mapping_usage_mode_label"
+msgstr "Package usage mode"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:71
+msgid "web_ui.home.packages_are_used_when_enabled"
+msgstr ""
+"Hektilo is currently configured to only use packages that were explicitly"
+" enabled."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:74
+msgid "web_ui.home.user_gets_asked_whether_to_enable_package"
+msgstr ""
+"Hektilo is currently configured to ask whenever a package is found that "
+"could be used for the current site."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:78
+msgid "web_ui.home.packages_are_used_automatically"
+msgstr ""
+"Hektilo is currently configured to automatically use packages that are "
+"available for the current site."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:85
+msgid "web_ui.home.use_enabled_button"
+msgstr "Use when enabled"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:88
+msgid "web_ui.home.use_question_button"
+msgstr "Ask whether to use"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:91
+msgid "web_ui.home.use_auto_button"
+msgstr "Use automatically"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:98
+msgid "web_ui.home.script_blocking_mode_label"
+msgstr "Default scripts treatment"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:106
+msgid "web_ui.home.scripts_are_allowed_by_default"
+msgstr ""
+"By default Haketilo currently allows JavaScript sent by websites to the "
+"browser to execute."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:109
+msgid "web_ui.home.scripts_are_blocked_by_default"
+msgstr ""
+"By default Haketilo currently blocks JavaScript sent by websites to the "
+"browser from executing."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:113
+msgid "web_ui.home.allow_scripts_button"
+msgstr "Allow scripts"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:114
+msgid "web_ui.home.block_scripts_button"
+msgstr "Block scripts"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:125
+msgid "web_ui.home.advanced_features_label"
+msgstr "Advanced features"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:133
+msgid "web_ui.home.user_is_advanced_user"
+msgstr "Interface features for advanced users are currently enabled."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:136
+msgid "web_ui.home.user_is_simple_user"
+msgstr "Interface features for advanced users are currently disabled."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:143
+msgid "web_ui.home.user_make_advanced_button"
+msgstr "Enable"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:146
+msgid "web_ui.home.user_make_simple_button"
+msgstr "Disable"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:154
+msgid "web_ui.home.orphans_label"
+msgstr "Orphans"
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:160
+msgid "web_ui.home.orphans_to_delete_{mappings}"
+msgstr "Haketilo is holding some unused packages that can be removed ({mappings})."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:164
+msgid "web_ui.home.orphans_to_delete_exist"
+msgstr "Haketilo is holding some unused libraries that can be removed."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:168
+msgid "web_ui.home.orphans_to_delete_{mappings}_{resources}"
+msgstr ""
+"Haketilo is holding some unused items that can be removed (packages: "
+"{mappings}; libraries: {resources})."
+
+#: src/hydrilla/proxy/web_ui/templates/index.html.jinja:177
+msgid "web_ui.home.prune_orphans_button"
+msgstr "Prune orphans"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_view.html.jinja:44
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:30
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:35
+msgid "web_ui.err.file_installation_error"
+msgstr "Failed to install needed items from repository."
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_view.html.jinja:48
+msgid "web_ui.err.impossible_situation_error"
+msgstr "Item constraints prevent the action from succeeding."
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_view.html.jinja:52
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:34
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:39
+msgid "web_ui.err.repo_communication_error"
+msgstr "Couldn't communicate with repository."
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:61
+msgid "web_ui.err.item_not_compatible"
+msgstr "This item is not compatible with current Haketilo version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:68
+msgid "web_ui.items.single_version.identifier_label"
+msgstr "Identifier"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:76
+msgid "web_ui.items.single_version.version_label"
+msgstr "Version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:85
+msgid "web_ui.items.single_version.uuid_label"
+msgstr "UUID"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:95
+msgid "web_ui.items.single_version.description_label"
+msgstr "Description"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:104
+msgid "web_ui.items.single_version.licenses_label"
+msgstr "License and copyright files"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:110
+msgid "web_ui.items.single_version.no_license_files"
+msgstr "There are no designated files with legal information."
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:117
+msgid "web_ui.items.single_version.required_mappings_label"
+msgstr "Required packages"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:137
+msgid "web_ui.items.single_version.min_haketilo_ver_label"
+msgstr "Minimum compatible Haketilo version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:147
+msgid "web_ui.items.single_version.max_haketilo_ver_label"
+msgstr "Maximum compatible Haketilo version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:164
+msgid "web_ui.items.single_version.install_uninstall_label"
+msgstr "Installation status"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:171
+msgid "web_ui.items.single_version.retry_install_button"
+msgstr "Retry installation"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:175
+msgid "web_ui.items.single_version.leave_uninstalled_button"
+msgstr "Leave uninstalled"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:179
+msgid "web_ui.items.single_version.install_button"
+msgstr "Install"
+
+#: src/hydrilla/proxy/web_ui/templates/items/item_viewversion.html.jinja:181
+msgid "web_ui.items.single_version.uninstall_button"
+msgstr "Uninstall"
+
+#: src/hydrilla/proxy/web_ui/templates/items/libraries.html.jinja:23
+msgid "web_ui.libraries.title"
+msgstr "Libraries"
+
+#: src/hydrilla/proxy/web_ui/templates/items/libraries.html.jinja:39
+msgid "web_ui.libraries.heading"
+msgstr "Available libraries"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_view.html.jinja:23
+msgid "web_ui.items.single.library.title"
+msgstr "Library view"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_view.html.jinja:27
+msgid "web_ui.items.single.library.heading.name_{}"
+msgstr "Libraries named '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_view.html.jinja:37
+msgid "web_ui.items.single.library.version_list_heading"
+msgstr "Available versions"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:24
+msgid "web_ui.items.single_version.library.title"
+msgstr "Library version view"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:30
+msgid "web_ui.items.single_version.library_local.heading.name_{}"
+msgstr "Local library '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:35
+msgid "web_ui.items.single_version.library.heading.name_{}"
+msgstr "Library '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:42
+msgid "web_ui.items.single_version.library.install_failed"
+msgstr "Couldn't install this library version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:46
+msgid "web_ui.items.single_version.library.is_installed"
+msgstr "Library is currently installed."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:50
+msgid "web_ui.items.single_version.library.is_not_installed"
+msgstr "Library is not currently installed."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:54
+msgid "web_ui.items.single_version.library.version_list_heading"
+msgstr "Other available versions of the library"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:58
+msgid "web_ui.items.single_version.library.scripts_label"
+msgstr "Scripts"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:64
+msgid "web_ui.items.single_version.library.no_script_files"
+msgstr "There are no JavaScript files in this library."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:71
+msgid "web_ui.items.single_version.library.deps_label"
+msgstr "Dependencies"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:86
+msgid "web_ui.items.single_version.library.enabled_label"
+msgstr "Usage status"
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:90
+msgid "web_ui.items.single_version.library.item_required"
+msgstr "This library version is required by an enabled package."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:95
+msgid "web_ui.items.single_version.library.item_not_activated"
+msgstr "This library version is not used by any package enabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:97
+msgid "web_ui.items.single_version.library.item_will_be_asked_about"
+msgstr "This library version is not used by any package enabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/library_viewversion.html.jinja:100
+msgid "web_ui.items.single_version.library.item_auto_activated"
+msgstr ""
+"This library version is used by some package. The package has not been "
+"explicitly configured by the user but is going to be activated "
+"automatically."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:23
+msgid "web_ui.items.single.package.title"
+msgstr "Package view"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:27
+msgid "web_ui.items.single.package.heading.name_{}"
+msgstr "Packages named '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:40
+msgid "web_ui.items.single.package.enabled_label"
+msgstr "Usage status"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:46
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:117
+msgid "web_ui.items.unenable_button"
+msgstr "Forget"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:47
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:118
+msgid "web_ui.items.disable_button"
+msgstr "Disable"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:48
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:119
+msgid "web_ui.items.enable_button"
+msgstr "Enable"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:53
+msgid "web_ui.items.single.package.item_not_enabled"
+msgstr "The package has not been explicitly configured by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:56
+msgid "web_ui.items.single.package.item_disabled"
+msgstr "The package has been explicitly disabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:60
+msgid "web_ui.items.single.package.item_enabled"
+msgstr "The package has been enabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:75
+msgid "web_ui.items.single.package.pinning_label"
+msgstr "Enabled package pinning"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:81
+msgid "web_ui.items.single.package.unpin_button"
+msgstr "Unpin"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:86
+msgid "web_ui.items.single.package.pin_local_repo_button"
+msgstr "Pin to local packages"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:89
+msgid "web_ui.items.single.package.pin_repo_button"
+msgstr "Pin to repository"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:92
+msgid "web_ui.items.single.package.pin_ver_button"
+msgstr "Pin to current version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:97
+msgid "web_ui.items.single.package.not_pinned"
+msgstr "The package is not pinned to any version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:101
+msgid "web_ui.items.single.package.pinned_repo_local"
+msgstr "The package is pinned to only use locally installed versions."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:104
+msgid "web_ui.items.single.package.pinned_repo_{}"
+msgstr "The package is pinned to only use versions from repository '{}'."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:111
+msgid "web_ui.items.single.package.pinned_ver"
+msgstr "The package is pinned to a specific version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_view.html.jinja:126
+msgid "web_ui.items.single.package.version_list_heading"
+msgstr "Available versions"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:24
+msgid "web_ui.items.single_version.package.title"
+msgstr "Package version view"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:30
+msgid "web_ui.items.single_version.package_local.heading.name_{}"
+msgstr "Local package '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:35
+msgid "web_ui.items.single_version.package.heading.name_{}"
+msgstr "Package '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:42
+msgid "web_ui.items.single_version.package.install_failed"
+msgstr "Couldn't install this package version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:46
+msgid "web_ui.items.single_version.package.is_installed"
+msgstr "Package is currently installed."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:50
+msgid "web_ui.items.single_version.package.is_not_installed"
+msgstr "Package is not currently installed."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:54
+msgid "web_ui.items.single_version.package.version_list_heading"
+msgstr "Other available versions of the package"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:58
+msgid "web_ui.items.single_version.package.payloads_label"
+msgstr "Payloads"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:101
+msgid "web_ui.items.single_version.package.no_payloads"
+msgstr "This package has no payloads."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:107
+msgid "web_ui.items.single_version.package.enabled_label"
+msgstr "Usage status"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:128
+msgid "web_ui.items.single_version.package.item_not_activated"
+msgstr "This package is not enabled. This version won't be used."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:130
+msgid "web_ui.items.single_version.package.item_will_be_asked_about"
+msgstr ""
+"This package is not currently enabled. You will be asked whether to "
+"enable this version of it when you visit a website where it can be used."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:133
+msgid "web_ui.items.single_version.package.item_auto_activated"
+msgstr ""
+"This package version has not been explicitly enabled but it is going to "
+"be used automatically."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:137
+msgid "web_ui.items.single_version.package.item_disabled"
+msgstr "All versions of the package have been explicitly disabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:141
+msgid "web_ui.items.single_version.package.item_enabled"
+msgstr "The package has been enabled by the user."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:156
+msgid "web_ui.items.single_version.package.pinning_label"
+msgstr "Enabled package pinning"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:168
+msgid "web_ui.items.single_version.unpin_button"
+msgstr "Unpin"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:173
+msgid "web_ui.items.single_version.not_pinned"
+msgstr "The package is not pinned to any version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:178
+msgid "web_ui.items.single_version.pinned_repo_local"
+msgstr "The package is pinned to only use locally installed versions."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:181
+msgid "web_ui.items.single_version.pinned_repo_{}"
+msgstr "The package is pinned to only use versions from repository '{}'."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:192
+msgid "web_ui.items.single_version.pin_local_repo_button"
+msgstr "Pin to local packages"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:197
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:210
+msgid "web_ui.items.single_version.pin_repo_button"
+msgstr "Pin to repository"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:204
+msgid "web_ui.items.single_version.repin_repo_button"
+msgstr "Pin to this repository"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:218
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:229
+msgid "web_ui.items.single_version.pin_ver_button"
+msgstr "Pin to this version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:221
+msgid "web_ui.items.single_version.pinned_ver"
+msgstr "The package is pinned to this version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:224
+msgid "web_ui.items.single_version.repin_ver_button"
+msgstr "Pin to this version"
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:226
+msgid "web_ui.items.single_version.pinned_other_ver"
+msgstr "The package is pinned to a different version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:234
+msgid "web_ui.items.single_version.active_ver_is_this_one"
+msgstr "This is the currently active version."
+
+#: src/hydrilla/proxy/web_ui/templates/items/package_viewversion.html.jinja:238
+msgid "web_ui.items.single_version.active_ver_is_{}"
+msgstr "Currently active version is '{}'."
+
+#: src/hydrilla/proxy/web_ui/templates/items/packages.html.jinja:23
+msgid "web_ui.packages.title"
+msgstr "Packages"
+
+#: src/hydrilla/proxy/web_ui/templates/items/packages.html.jinja:39
+msgid "web_ui.packages.heading"
+msgstr "Available packages"
+
+#: src/hydrilla/proxy/web_ui/templates/items/packages.html.jinja:73
+msgid "web_ui.packages.enabled_version_{}"
+msgstr "enabled version {}"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:24
+msgid "web_ui.prompts.auto_install_error.title"
+msgstr "Installation failure"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:29
+msgid "web_ui.err.retry_install.file_installation_error"
+msgstr ""
+"Another failure occured when retrying to install needed items from "
+"repository."
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:33
+msgid "web_ui.err.retry_install.repo_communication_error"
+msgstr "Another failure occured when retrying to communicate with repository."
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:37
+msgid "web_ui.prompts.auto_install_error.heading"
+msgstr "Installation failure"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:42
+msgid "web_ui.prompts.auto_install_error.package_{}_failed_to_install"
+msgstr ""
+"Automatically activated package '{}' failed to install because Haketilo "
+"couldn't fetch package files from its repository server. Please verify "
+"that you do have network connection and try again. You can also choose to"
+" permanently disable the package."
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:47
+msgid "web_ui.prompts.auto_install_error.disable_button"
+msgstr "Disable"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/auto_install_error.html.jinja:48
+msgid "web_ui.prompts.auto_install_error.retry_button"
+msgstr "Retry installation"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:25
+msgid "web_ui.prompts.package_suggestion.title"
+msgstr "Package suggestion"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:38
+msgid "web_ui.prompts.package_suggestion.heading"
+msgstr "Package suitable for current site was found"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:43
+msgid "web_ui.prompts.package_suggestion.do_you_want_to_enable_package_{}"
+msgstr ""
+"Do you want to enable package '{}'? It will then be used whenever you "
+"visit this site."
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:48
+msgid "web_ui.prompts.package_suggestion.disable_button"
+msgstr "Disable"
+
+#: src/hydrilla/proxy/web_ui/templates/prompts/package_suggestion.html.jinja:49
+msgid "web_ui.prompts.package_suggestion.enable_button"
+msgstr "Enable"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:23
+msgid "web_ui.repos.add.title"
+msgstr "New repository"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:26
+msgid "web_ui.repos.add.heading"
+msgstr "Configure a new repository"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:28
+msgid "web_ui.repos.add.name_field_label"
+msgstr "Name"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:30
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:68
+msgid "web_ui.err.repo_name_invalid"
+msgstr "Chosen name is not valid."
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:33
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:72
+msgid "web_ui.err.repo_name_taken"
+msgstr "Chosen name is already in use."
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:37
+msgid "web_ui.repos.add.url_field_label"
+msgstr "URL"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:39
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:116
+msgid "web_ui.err.repo_url_invalid"
+msgstr "Chosen URL is not vald."
+
+#: src/hydrilla/proxy/web_ui/templates/repos/add.html.jinja:45
+msgid "web_ui.repos.add.submit_button"
+msgstr "Add repository"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:23
+msgid "web_ui.repos.title"
+msgstr "Repositories"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:32
+msgid "web_ui.repos.heading"
+msgstr "Manage repositories"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:36
+msgid "web_ui.repos.add_repo_button"
+msgstr "Configure new repository"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:41
+msgid "web_ui.repos.repo_list_heading"
+msgstr "Configured repositories"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:64
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:79
+msgid "web_ui.repos.package_count_{}"
+msgstr "packages: {}"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/index.html.jinja:76
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:47
+msgid "web_ui.repos.local_packages_semirepo"
+msgstr "Local items"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:23
+msgid "web_ui.repos.single.title"
+msgstr "Repository view"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:43
+msgid "web_ui.err.repo_api_version_unsupported"
+msgstr ""
+"Repository uses an unsupported API version. You might need to update "
+"Haketilo."
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:50
+msgid "web_ui.repos.single.heading.name_{}"
+msgstr "Repository '{}'"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:53
+msgid "web_ui.repos.single.name_label"
+msgstr "Name"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:59
+msgid "web_ui.repos.single.update_name_button"
+msgstr "Change name"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:82
+msgid "web_ui.repos.single.no_update_name_button"
+msgstr "Cancel"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:86
+msgid "web_ui.repos.single.commit_update_name_button"
+msgstr "Set new name"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:97
+msgid "web_ui.repos.single.repo_is_deleted"
+msgstr ""
+"This repository has been deleted but you're still holding packages that "
+"came from it."
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:102
+msgid "web_ui.repos.single.url_label"
+msgstr "URL"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:108
+msgid "web_ui.repos.single.update_url_button"
+msgstr "Change URL"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:124
+msgid "web_ui.repos.single.no_update_url_button"
+msgstr "Cancel"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:128
+msgid "web_ui.repos.single.commit_update_url_button"
+msgstr "Set new URL"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:135
+msgid "web_ui.repos.single.last_refreshed_label"
+msgstr "Last refreshed on"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:139
+msgid "web_ui.repos.single.repo_never_refreshed"
+msgstr "This repository has not been refreshed yet"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:148
+msgid "web_ui.repos.single.stats_label"
+msgstr "Statistics"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:153
+msgid "web_ui.repos.item_count_{mappings}_{resources}"
+msgstr "packages: {mappings}; libraries: {resources}"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:161
+msgid "web_ui.repos.item_count_{mappings}"
+msgstr "packages: {mappings}"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:170
+msgid "web_ui.repos.single.actions_label"
+msgstr "Actions"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:172
+msgid "web_ui.repos.single.remove_button"
+msgstr "Remove repository"
+
+#: src/hydrilla/proxy/web_ui/templates/repos/show_single.html.jinja:173
+msgid "web_ui.repos.single.refresh_button"
+msgstr "Refresh"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:23
+msgid "web_ui.rules.add.title"
+msgstr "New rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:26
+msgid "web_ui.rules.add.heading"
+msgstr "Define a new rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:28
+msgid "web_ui.rules.add.pattern_field_label"
+msgstr "URL pattern"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:31
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:56
+msgid "web_ui.err.rule_pattern_invalid"
+msgstr "Chosen URL pattern is not vald."
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:36
+msgid "web_ui.rules.add.block_or_allow_label"
+msgstr "Page's JavaScript treatment"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:40
+msgid "web_ui.rules.add.block_label"
+msgstr "block"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:45
+msgid "web_ui.rules.add.allow_label"
+msgstr "allow"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/add.html.jinja:52
+msgid "web_ui.rules.add.submit_button"
+msgstr "Add rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/index.html.jinja:23
+msgid "web_ui.rules.title"
+msgstr "Script blocking"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/index.html.jinja:32
+msgid "web_ui.rules.heading"
+msgstr "Manage script blocking"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/index.html.jinja:36
+msgid "web_ui.rules.add_rule_button"
+msgstr "Define new rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/index.html.jinja:41
+msgid "web_ui.rules.rule_list_heading"
+msgstr "Defined rules"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:23
+msgid "web_ui.rules.single.title"
+msgstr "Rule view"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:36
+msgid "web_ui.rules.single.heading.allow"
+msgstr "Script allowing rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:38
+msgid "web_ui.rules.single.heading.block"
+msgstr "Script blocking rule"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:42
+msgid "web_ui.rules.single.pattern_label"
+msgstr "URL pattern"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:48
+msgid "web_ui.rules.single.update_pattern_button"
+msgstr "Change URL pattern"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:66
+msgid "web_ui.rules.single.no_update_pattern_button"
+msgstr "Cancel"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:70
+msgid "web_ui.rules.single.commit_update_pattern_button"
+msgstr "Set new pattern"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:77
+msgid "web_ui.rules.single.block_or_allow_label"
+msgstr "Rule function"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:82
+msgid "web_ui.rules.single.allow_button"
+msgstr "Allow JavaScript"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:83
+msgid "web_ui.rules.single.block_button"
+msgstr "Block JavaScript"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:101
+msgid "web_ui.rules.single.actions_label"
+msgstr "Actions"
+
+#: src/hydrilla/proxy/web_ui/templates/rules/show_single.html.jinja:103
+msgid "web_ui.rules.single.remove_button"
+msgstr "Remove rule"
+
+#: src/hydrilla/server/malcontent.py:80
+msgid "err.server.malcontent_path_not_dir_{}"
+msgstr "Provided 'malcontent_dir' path does not name a directory: {}"
+
+#: src/hydrilla/server/malcontent.py:99
+msgid "err.server.couldnt_load_item_from_{}"
+msgstr "Couldn't load item from {}."
+
+#: src/hydrilla/server/malcontent.py:112
+msgid "err.server.no_file_{required_by}_{ver}_{file}_{sha256}"
+msgstr ""
+"'{required_by}', version '{ver}' uses a file named {file} with SHA256 "
+"hash of {sha256}, but the file is missing."
+
+#: src/hydrilla/server/malcontent.py:136
+msgid "err.server.item_{item}_in_file_{file}"
+msgstr "Item {item} incorrectly present under {file}."
+
+#: src/hydrilla/server/malcontent.py:142
+msgid "item_version_{ver}_in_file_{file}"
+msgstr "Item version {ver} incorrectly present under {file}."
+
+#: src/hydrilla/server/malcontent.py:169
+msgid "err.server.no_dep_{resource}_{ver}_{dep}"
+msgstr "Unknown dependency '{dep}' of resource '{resource}', version '{ver}'."
+
+#: src/hydrilla/server/malcontent.py:184
+msgid "err.server.no_payload_{mapping}_{ver}_{payload}"
+msgstr "Unknown payload '{payload}' of mapping '{mapping}', version '{ver}'."
+
+#: src/hydrilla/server/malcontent.py:199
+msgid "err.server.no_mapping_{required_by}_{ver}_{required}"
+msgstr "Unknown mapping '{required}' required by '{required_by}', version '{ver}'."
+
+#: src/hydrilla/server/malcontent.py:227
+msgid "server.err.couldnt_register_{mapping}_{ver}_{pattern}"
+msgstr ""
+"Couldn't register mapping '{mapping}', version '{ver}' (pattern "
+"'{pattern}')."
+
+#: src/hydrilla/server/serve.py:84
+msgid "err.server.opt_hydrilla_parent_not_implemented"
+msgstr ""
+"Hydrilla was told to connect to a parent Hydrilla server but this feature"
+" is not yet implemented."
+
+#: src/hydrilla/server/serve.py:213
+msgid "serve_hydrilla_packages_explain_wsgi_considerations"
+msgstr ""
+"Serve Hydrilla packages.\n"
+"\n"
+"This command is meant to be a quick way to run a local or development "
+"Hydrilla instance. For better performance, consider deployment using "
+"WSGI."
+
+#: src/hydrilla/server/serve.py:216
+msgid "directory_to_serve_from_overrides_config"
+msgstr ""
+"Directory to serve files from. Overrides value from the config file (if "
+"any)."
+
+#: src/hydrilla/server/serve.py:218
+msgid "project_url_to_display_overrides_config"
+msgstr ""
+"Project url to display on generated HTML pages. Overrides value from the "
+"config file (if any)."
+
+#: src/hydrilla/server/serve.py:220
+msgid "tcp_port_to_listen_on_overrides_config"
+msgstr ""
+"TCP port number to listen on (0-65535). Overrides value from the config "
+"file (if any)."
+
+#: src/hydrilla/server/serve.py:223
+msgid "path_to_config_file_explain_default"
+msgstr ""
+"Path to Hydrilla server configuration file (optional, by default Hydrilla"
+" loads its own config file, which in turn tries to load "
+"/etc/hydrilla/config.json)."
+
+#: src/hydrilla/server/serve.py:255
+msgid "config_option_{}_not_supplied"
+msgstr "Missing configuration option '{}'."
+
+#: src/hydrilla/server/serve.py:259
+msgid "serve_hydrilla_packages_wsgi_help"
+msgstr ""
+"Serve Hydrilla packages.\n"
+"\n"
+"This program is a WSGI script that runs Hydrilla repository behind an "
+"HTTP server like Apache2 or Nginx. You can configure Hydrilla through the"
+" /etc/hydrilla/config.json file."
+
+#: src/hydrilla/url_patterns.py:136
+msgid "err.url_pattern_{}.bad"
+msgstr "Not a valid Haketilo URL pattern: {}"
+
+#: src/hydrilla/url_patterns.py:139
+msgid "err.url_{}.bad"
+msgstr "Not a valid URL: {}"
+
+#: src/hydrilla/url_patterns.py:146
+msgid "err.url_pattern_{}.bad_scheme"
+msgstr "URL pattern has an unknown scheme: {}"
+
+#: src/hydrilla/url_patterns.py:149
+msgid "err.url_{}.bad_scheme"
+msgstr "URL has an unknown scheme: {}"
+
+#: src/hydrilla/url_patterns.py:154
+msgid "err.url_pattern_{}.special_scheme_port"
+msgstr "URL pattern has an explicit port while it shouldn't: {}"
+
+#: src/hydrilla/url_patterns.py:166
+msgid "err.url_pattern_{}.bad_port"
+msgstr "URL pattern has a port outside of allowed range (1-65535): {}"
+
+#: src/hydrilla/url_patterns.py:169
+msgid "err.url_{}.bad_port"
+msgstr "URL has a port outside of allowed range (1-65535): {}"
+
+#: src/hydrilla/url_patterns.py:190
+msgid "err.url_pattern_{}.has_query"
+msgstr "URL pattern has a query string while it shouldn't: {}"
+
+#: src/hydrilla/url_patterns.py:194
+msgid "err.url_pattern_{}.has_frag"
+msgstr "URL pattern has a fragment string while it shouldn't: {}"
+

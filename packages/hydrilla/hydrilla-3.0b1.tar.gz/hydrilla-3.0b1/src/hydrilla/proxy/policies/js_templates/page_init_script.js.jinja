@@ -1,0 +1,148 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Haketilo page APIs code template.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2021,2022 Wojtek Kosior
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute forms of that code without the copy of the GNU
+GPL normally required by section 4, provided you include this
+license notice and, in case of non-source distribution, a URL
+through which recipients can access the Corresponding Source.
+If you modify file(s) with this exception, you may extend this
+exception to your version of the file(s), but you are not
+obligated to do so. If you do not wish to do so, delete this
+exception statement from your version.
+
+As a special exception to the GPL, any HTML file which merely
+makes function calls to this code, and for that purpose
+includes it by reference shall be deemed a separate work for
+copyright law purposes. If you modify this code, you may extend
+this exception to your version of the code, but you are not
+obligated to do so. If you do not wish to do so, delete this
+exception statement from your version.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's license. Although I request that you do not make use of this
+code in a proprietary program, I am not going to enforce this in court.
+-#}
+
+(function(){
+    /*
+     * Snapshot some variables that other code could theoretically redefine
+     * later. We're not making the effort to protect from redefinition of
+     * prototype properties right now.
+     */
+    const console = window.console;
+    const fetch = window.fetch;
+    const JSON = window.JSON;
+    const URL = window.URL;
+    const Array = window.Array;
+    const Uint8Array = window.Uint8Array;
+    const CustomEvent = window.CustomEvent;
+    const window_dispatchEvent = window.dispatchEvent;
+
+    /* Get values from the proxy. */
+    function decode_jinja(str) {
+        return decodeURIComponent(atob(str));
+    }
+    const unique_token = decode_jinja("{{ unique_token_encoded }}");
+    const assets_base_url = decode_jinja("{{ assets_base_url_encoded }}");
+    window.haketilo_version = JSON.parse(
+        decode_jinja("{{ haketilo_version }}")
+    );
+
+    /* Make it possible to serialize an Error object. */
+    function error_data_jsonifiable(error) {
+        const jsonifiable = {};
+        for (const property of ["name", "message", "fileName", "lineNumber"])
+	    jsonifiable[property] = error[property];
+
+        return jsonifiable;
+    }
+
+    /* Make it possible to serialize a Uint8Array. */
+    function uint8_to_hex(array) {
+        return [...array].map(b => ("0" + b.toString(16)).slice(-2)).join("");
+    }
+
+    async function on_unrestricted_http_request(event) {
+        const name = "haketilo_CORS_bypass";
+
+        if (typeof event.detail      !== "object" ||
+	    event.detail             === null     ||
+	    typeof event.detail.id   !== "string" ||
+	    typeof event.detail.data !== "string") {
+	    console.error(`Unrestricted HTTP: Invalid detail.`, event.detail);
+	    return;
+        }
+
+        try {
+	    const data = JSON.parse(event.detail.data);
+
+            const params = new URLSearchParams({
+                target_url:    data.url,
+                extra_headers: JSON.stringify(data.headers || [])
+            });
+            const replacement_url = assets_base_url + "api/unrestricted_http";
+            const replacement_url_obj = new URL(replacement_url);
+            replacement_url_obj.search = params;
+
+	    const response = await fetch(replacement_url_obj.href, data.init);
+            const response_buffer = await response.arrayBuffer();
+
+            const true_headers_serialized =
+                  response.headers.get("x-haketilo-true-headers");
+
+            if (true_headers_serialized === null)
+                throw new Error("Unrestricted HTTP: The 'X-Haketilo-True-Headers' HTTP response header is missing. Are we connected to Haketilo proxy?")
+
+            const true_headers = JSON.parse(
+                decodeURIComponent(true_headers_serialized)
+            );
+
+            const bad_format_error_msg =
+                  "Unrestricted HTTP: The 'X-Haketilo-True-Headers' HTTP response header has invalid format.";
+
+            if (!Array.isArray(true_headers))
+                throw new Error(bad_format_error_msg);
+
+            for (const [header, value] of true_headers) {
+                if (typeof header !== "string" || typeof value !== "string")
+                    throw new Error(bad_format_error_msg);
+            }
+
+            var result = {
+	        status:     response.status,
+	        statusText: response.statusText,
+	        headers:    true_headers,
+	        body:       uint8_to_hex(new Uint8Array(response_buffer))
+            };
+        } catch(e) {
+	    var result = {error: error_data_jsonifiable(e)};
+        }
+
+        const response_name = `${name}-${event.detail.id}`;
+        const detail = JSON.stringify(result);
+        window_dispatchEvent(new CustomEvent(response_name, {detail}));
+}
+
+window.addEventListener("haketilo_CORS_bypass", on_unrestricted_http_request);
+})();

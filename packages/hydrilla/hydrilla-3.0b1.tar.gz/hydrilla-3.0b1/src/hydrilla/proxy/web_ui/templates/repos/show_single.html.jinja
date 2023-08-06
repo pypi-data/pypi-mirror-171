@@ -1,0 +1,182 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI repository settings page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %} {{ _('web_ui.repos.single.title') }} {% endblock %}
+
+{% block style %}
+  {{ super() }}
+
+  {% include 'include/checkbox_tricks_style.css.jinja' %}
+{% endblock %}
+
+{% import 'import/checkbox_tricks.html.jinja' as tricks %}
+
+{% block main %}
+  {% if file_installation_error is defined %}
+    {{ error_note(_('web_ui.err.file_installation_error')) }}
+  {% endif %}
+
+  {% if repo_communication_error is defined %}
+    {{ error_note(_('web_ui.err.repo_communication_error')) }}
+  {% endif %}
+
+  {% if repo_api_version_unsupported is defined %}
+    {{ error_note(_('web_ui.err.repo_api_version_unsupported')) }}
+  {% endif %}
+
+  {% if display_info.is_local_semirepo %}
+    <h3>{{ _('web_ui.repos.local_packages_semirepo') }}</h3>
+  {% else %}
+    <h3>
+      {{ _('web_ui.repos.single.heading.name_{}').format(display_info.name) }}
+    </h3>
+    {% if not display_info.deleted %}
+      {{ label(_('web_ui.repos.single.name_label')) }}
+
+      <p>
+        {{ display_info.name }}
+      </p>
+
+      {% set button_text = _('web_ui.repos.single.update_name_button') %}
+      {% set initial_show = repo_name_invalid is defined %}
+      {% set initial_show = initial_show or repo_name_taken is defined %}
+      {{ tricks.sibling_hider(button_text, 'edit_name', initial_show) }}
+
+      <form method="POST">
+        <input type="hidden" name="action" value="update_repo_data">
+
+        {% if repo_name_invalid is defined %}
+          {{ error_note(_('web_ui.err.repo_name_invalid')) }}
+        {% endif %}
+
+        {% if repo_name_taken is defined %}
+          {{ error_note(_('web_ui.err.repo_name_taken')) }}
+        {% endif %}
+
+        <div class="flex-row">
+          <input name="name" value="{{ display_info.name }}" required="">
+        </div>
+
+        <div class="flex-row">
+          <label for="{{ tricks.hider_id('edit_name') }}"
+                 class="red-button button-brodering-right">
+            {{ _('web_ui.repos.single.no_update_name_button') }}
+          </label>
+          <div class="button-row-separator"></div>
+          <button class="green-button button-bordering-left">
+            {{ _('web_ui.repos.single.commit_update_name_button') }}
+          </button>
+        </div>
+      </form>
+
+      <div class="horizontal-separator"></div>
+    {% endif %}{# not display_info.deleted #}
+  {% endif %}{# else/ display_info.is_local_semirepo #}
+
+  {% if display_info.deleted and not display_info.is_local_semirepo %}
+    <p>
+      {{ _('web_ui.repos.single.repo_is_deleted') }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% elif not display_info.deleted %}
+    {{ label(_('web_ui.repos.single.url_label')) }}
+
+    <p>
+      {{ display_info.url }}
+    </p>
+
+    {% set button_text = _('web_ui.repos.single.update_url_button') %}
+    {% set initial_show = repo_url_invalid is defined %}
+    {{ tricks.sibling_hider(button_text, 'edit_url', initial_show) }}
+
+    <form method="POST">
+      <input type="hidden" name="action" value="update_repo_data">
+
+      {% if repo_url_invalid is defined %}
+          {{ error_note(_('web_ui.err.repo_url_invalid')) }}
+      {% endif %}
+
+      {{ form_field('url', sep_after=false) }}
+
+      <div class="flex-row">
+        <label for="{{ tricks.hider_id('edit_url') }}"
+               class="red-button button-brodering-right">
+          {{ _('web_ui.repos.single.no_update_url_button') }}
+        </label>
+        <div class="button-row-separator"></div>
+        <button class="green-button button-bordering-left">
+          {{ _('web_ui.repos.single.commit_update_url_button') }}
+        </button>
+      </div>
+    </form>
+
+    <div class="horizontal-separator"></div>
+
+    {{ label(_('web_ui.repos.single.last_refreshed_label')) }}
+
+    <p>
+      {% if display_info.last_refreshed is none %}
+        {{ _('web_ui.repos.single.repo_never_refreshed') }}
+      {% else %}
+        {{ display_info.last_refreshed.strftime('%F %H:%M') }}
+      {% endif %}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}{# not display_info.deleted (elif) #}
+
+  {{ label(_('web_ui.repos.single.stats_label')) }}
+
+  <p>
+    {% if settings.advanced_user %}
+      {{
+        _('web_ui.repos.item_count_{mappings}_{resources}')
+            .format(
+                mappings  = display_info.mapping_count,
+                resources = display_info.resource_count
+            )
+      }}
+    {% else %}
+      {{
+        _('web_ui.repos.item_count_{mappings}')
+            .format(mappings = display_info.mapping_count)
+      }}
+    {% endif %}
+  </p>
+
+  {% if not display_info.deleted %}
+    <div class="horizontal-separator"></div>
+
+    {{ label(_('web_ui.repos.single.actions_label')) }}
+
+    {% set remove_text  = _('web_ui.repos.single.remove_button') %}
+    {% set refresh_text = _('web_ui.repos.single.refresh_button') %}
+
+    {{
+      button_row([
+          (['green-button'], refresh_text, {'action': 'refresh_repo'}),
+          (['red-button'], remove_text, {'action': 'remove_repo'})
+      ])
+    }}
+  {% endif %}
+{% endblock %}

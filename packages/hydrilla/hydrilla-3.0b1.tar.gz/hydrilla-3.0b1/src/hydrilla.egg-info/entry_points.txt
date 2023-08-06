@@ -1,0 +1,5 @@
+[console_scripts]
+haketilo = hydrilla.mitmproxy_launcher.launch:launch
+hydrilla = hydrilla.server:start
+hydrilla-builder = hydrilla.builder.build:perform
+hydrilla-server = hydrilla.server:start

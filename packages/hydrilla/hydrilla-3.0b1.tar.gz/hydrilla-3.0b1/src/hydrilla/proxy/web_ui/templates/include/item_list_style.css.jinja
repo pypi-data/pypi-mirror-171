@@ -1,0 +1,57 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI reusable stylesheet for lists.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+ul.item-list {
+    padding: 0;
+}
+
+ul.item-list > li {
+    list-style-type: none;
+    max-width: 100%;
+    white-space: nowrap;
+    margin: 0;
+}
+
+ul.item-list > li > :only-child {
+    display: block;
+    padding: 5px;
+    overflow-x: scroll;
+    border-bottom: 2px solid #999;
+}
+
+ul.item-list > li.entry-line-dashed > :only-child {
+    border-bottom-style: dashed
+}
+
+ul.item-list > li.entry-line-green > :only-child {
+    border-color: #4caf50;
+}
+
+ul.item-list > li.entry-line-blue > :only-child {
+    border-color: #504caf;
+}
+
+ul.item-list > li.entry-line-red > :only-child {
+    border-color: #af504c;
+}
+
+ul.item-list > li.invisible-entry-line > :only-child {
+    border-color: #fff;
+}

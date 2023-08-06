@@ -1,0 +1,35 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI reusable stylesheet for checkbox-based dynamically displayed
+elements.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+
+input.chbx-tricks-show-hide, input.chbx-tricks-hide-show {
+    display: none !important;
+}
+
+input.chbx-tricks-show-hide:checked+*+*,
+input.chbx-tricks-hide-show:not(:checked)+*+* {
+    display: none !important;
+}
+
+input.chbx-tricks-hide-show:checked+*,
+input.chbx-tricks-show-hide:not(:checked)+* {
+    display: none !important;
+}

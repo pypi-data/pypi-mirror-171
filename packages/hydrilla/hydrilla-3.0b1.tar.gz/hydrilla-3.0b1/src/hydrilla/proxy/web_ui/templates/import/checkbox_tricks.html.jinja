@@ -1,0 +1,35 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI reusable macros for checkbox-based dynamically displayed elements.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+
+{% macro hider_id(name) -%}
+  {{ name }}_chbx
+{%- endmacro %}
+
+{% macro sibling_hider(button_text, name, initial_show=false) %}
+  {% set attrs = {'type': 'checkbox', 'class': 'chbx-tricks-show-hide'} %}
+  {% do attrs.update({'id': hider_id(name)}) %}
+  {% do attrs.update({'checked': none if initial_show else ''}) %}
+  <input {{ attrs|xmlattr }}>
+  <label for="{{ hider_id(name) }}"
+         class="green-button block-with-bottom-margin">
+    {{ button_text }}
+  </label>
+{% endmacro %}

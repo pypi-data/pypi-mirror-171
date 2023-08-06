@@ -1,0 +1,49 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI repo creation page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %} {{ _('web_ui.repos.add.title') }} {% endblock %}
+
+{% block main %}
+  <h3>{{ _('web_ui.repos.add.heading') }}</h3>
+  <form method="POST">
+    {{ label(_('web_ui.repos.add.name_field_label'), 'name') }}
+    {% if repo_name_invalid is defined %}
+      {{ error_note(_('web_ui.err.repo_name_invalid')) }}
+    {% endif %}
+    {% if repo_name_taken is defined %}
+      {{ error_note(_('web_ui.err.repo_name_taken')) }}
+    {% endif %}
+    {{ form_field('name') }}
+
+    {{ label(_('web_ui.repos.add.url_field_label'), 'url') }}
+    {% if repo_url_invalid is defined %}
+      {{ error_note(_('web_ui.err.repo_url_invalid')) }}
+    {% endif %}
+    {{ form_field('url') }}
+
+    <div class="flex-row block-with-bottom-margin">
+      <button class="green-button">
+        {{ _('web_ui.repos.add.submit_button') }}
+      </button>
+    </div>
+  </form>
+{% endblock %}

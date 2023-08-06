@@ -1,0 +1,209 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI item version view page template.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "items/item_view.html.jinja" %}
+
+{% macro item_file_list(file_specs, file_type) %}
+  <ul class="item-list has-colored-links">
+    {% for spec in file_specs %}
+      <li class="invisible-entry-line">
+        {%
+          set url = url_for(
+              '.show_{}_file'.format(version_display_info.type.value),
+              item_version_id = version_display_info.ref.id,
+              file_type       = file_type,
+              name            = spec.name
+          )
+        %}
+        <div>
+          <a href="{{ url }}">
+            {{ spec.name }}
+          </a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro item_link_list(item_specs, make_url) %}
+  <ul class="item-list has-colored-links">
+    {% for spec in item_specs %}
+      <li class="invisible-entry-line">
+        <div>
+          <a href="{{ make_url(spec) }}">
+            {{ spec.identifier }}
+          </a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% block top_errors %}
+  {% if not version_display_info.info.compatible %}
+    {{ error_note(_('web_ui.err.item_not_compatible')) }}
+  {% endif %}
+{% endblock %}
+
+{% block main_info %}
+  {{ super() }}
+
+  {{ label(_('web_ui.items.single_version.identifier_label')) }}
+
+  <p>
+    {{ version_display_info.info.identifier }}
+  </p>
+
+  <div class="horizontal-separator"></div>
+
+  {{ label(_('web_ui.items.single_version.version_label')) }}
+
+  <p>
+    {{ version_with_repo(version_display_info) }}
+  </p>
+
+  <div class="horizontal-separator"></div>
+
+  {% if version_display_info.info.uuid is not none %}
+    {{ label(_('web_ui.items.single_version.uuid_label')) }}
+
+    <p>
+      {{ version_display_info.info.uuid }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  {% if version_display_info.info.description %}
+    {{ label(_('web_ui.items.single_version.description_label')) }}
+
+    <p>
+      {{ version_display_info.info.description }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  {{ label(_('web_ui.items.single_version.licenses_label')) }}
+
+  {% if version_display_info.info.source_copyright %}
+    {{ item_file_list(version_display_info.info.source_copyright, 'license') }}
+  {% else %}
+    <p>
+      {{ _('web_ui.items.single_version.no_license_files') }}
+    </p>
+  {% endif %}
+
+  <div class="horizontal-separator"></div>
+
+  {% if version_display_info.info.required_mappings %}
+    {{ label(_('web_ui.items.single_version.required_mappings_label')) }}
+
+    {% macro make_mapping_url(spec) -%}
+      {{
+        url_for(
+            '.show_required_mapping',
+            item_type           = version_display_info.type.alt_name,
+            item_version_id     = version_display_info.ref.id,
+            required_identifier = spec.identifier
+        )
+      }}
+    {%- endmacro %}
+
+    {% set required_specs = version_display_info.info.required_mappings %}
+    {{ item_link_list(required_specs, make_mapping_url) }}
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  {% if version_display_info.info.min_haketilo_ver != versions.int_ver_min %}
+    {{ label(_('web_ui.items.single_version.min_haketilo_ver_label')) }}
+
+    <p>
+      {{ versions.version_string(version_display_info.info.min_haketilo_ver) }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  {% if version_display_info.info.max_haketilo_ver != versions.int_ver_max %}
+    {{ label(_('web_ui.items.single_version.max_haketilo_ver_label')) }}
+
+    <p>
+      {{ versions.version_string(version_display_info.info.max_haketilo_ver) }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  {% block main_info_rest required %}{% endblock %}
+
+  {%
+    if settings.advanced_user and
+       version_display_info.active != ActiveStatus.REQUIRED
+  %}
+    <div class="horizontal-separator"></div>
+
+    {{ label(_('web_ui.items.single_version.install_uninstall_label')) }}
+
+    {% set install_but_classes   = ['green-button'] %}
+    {% set uninstall_but_classes = ['green-button'] %}
+    {% if version_display_info.installed == InstalledStatus.FAILED_TO_INSTALL %}
+      {%
+        set install_text =
+            _('web_ui.items.single_version.retry_install_button')
+      %}
+      {%
+        set uninstall_text =
+            _('web_ui.items.single_version.leave_uninstalled_button')
+      %}
+      <p>{% block item_install_failed_msg required %}{% endblock %}</p>
+    {% else %}
+      {% set install_text   = _('web_ui.items.single_version.install_button') %}
+      {%
+        set uninstall_text = _('web_ui.items.single_version.uninstall_button')
+      %}
+      {% if version_display_info.installed == InstalledStatus.INSTALLED %}
+        {% do install_but_classes.append('disabled-button') %}
+        {%
+          if uninstall_disallowed is defined or
+              version_display_info.active == ActiveStatus.REQUIRED
+        %}
+          {% do uninstall_but_classes.append('disabled-button') %}
+        {% endif %}
+        <p>{% block item_is_installed_msg required %}{% endblock %}</p>
+      {% else %}
+        {# version_display_info.installed == InstalledStatus.NOT_INSTALLED #}
+        {% do uninstall_but_classes.append('disabled-button') %}
+        <p>{% block item_is_not_installed_msg required %}{% endblock %}</p>
+      {% endif %}
+    {% endif %}{# else/ version_display_info.installed == InstalledStatus.... #}
+
+    {% set uninstall_fields = {'action': 'uninstall_item_version'} %}
+    {% set install_fields   = {'action': 'install_item_version'} %}
+
+    {{
+      button_row([
+          (uninstall_but_classes, uninstall_text, uninstall_fields),
+          (install_but_classes,   install_text,   install_fields)
+      ])
+    }}
+  {% endif %}{# settings.advanced_user #}
+{% endblock main_info %}

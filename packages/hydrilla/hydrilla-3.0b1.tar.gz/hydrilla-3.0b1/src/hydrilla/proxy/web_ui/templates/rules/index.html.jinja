@@ -1,0 +1,61 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI script allowing/blocking rule list page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %}{{ _('web_ui.rules.title') }}{% endblock %}
+
+{% block style %}
+  {{ super() }}
+
+  {% include 'include/item_list_style.css.jinja' %}
+{% endblock %}
+
+{% block main %}
+  <h3>{{ _('web_ui.rules.heading') }}</h3>
+
+  <a href="{{ url_for('.add_rule') }}"
+     class="green-button block-with-bottom-margin">
+    {{ _('web_ui.rules.add_rule_button') }}
+  </a>
+
+  <div class="horizontal-separator"></div>
+
+  <h4>{{ _('web_ui.rules.rule_list_heading') }}</h4>
+
+  <ul class="item-list">
+    {% for info in display_infos %}
+
+      {% if info.allow_scripts %}
+        {% set entry_classes = ['entry-line-red'] %}
+      {% else %}
+        {% set entry_classes = ['entry-line-blue'] %}
+      {% endif %}
+
+      <li class="{{ entry_classes|join(' ') }}">
+        <a href="{{ url_for('.show_rule', rule_id=info.ref.id) }}">
+          <div>
+            {{ info.pattern }}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

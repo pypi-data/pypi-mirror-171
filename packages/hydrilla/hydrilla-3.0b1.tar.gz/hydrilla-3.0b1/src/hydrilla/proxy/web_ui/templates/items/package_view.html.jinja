@@ -1,0 +1,127 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI package view page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "items/item_view.html.jinja" %}
+
+{% block title %} {{ _('web_ui.items.single.package.title') }} {% endblock %}
+
+{% block heading %}
+  {{
+    _('web_ui.items.single.package.heading.name_{}')
+        .format(display_info.identifier)
+  }}
+{% endblock %}
+
+{% block main_info %}
+  {{ super() }}
+
+  {#
+  The labels and buttons below are similar to those in single package versions
+  view but not similar enough for us to be able to refactor common code.
+  #}
+
+  {{ label(_('web_ui.items.single.package.enabled_label')) }}
+
+  {% set enable_but_classes = ['blue-button'] %}
+  {% set unenable_but_classes = ['green-button'] %}
+  {% set disable_but_classes = ['red-button'] %}
+
+  {% set unenable_text = _('web_ui.items.unenable_button') %}
+  {% set disable_text  = _('web_ui.items.disable_button') %}
+  {% set enable_text   = _('web_ui.items.enable_button') %}
+
+  <p>
+    {% if display_info.enabled == EnabledStatus.NO_MARK %}
+      {% do unenable_but_classes.append('disabled-button') %}
+      {{ _('web_ui.items.single.package.item_not_enabled') }}
+    {% elif display_info.enabled == EnabledStatus.DISABLED %}
+      {% do disable_but_classes.append('disabled-button') %}
+      {{ _('web_ui.items.single.package.item_disabled') }}
+    {% else %}
+      {# display_info.enabled == EnabledStatus.ENABLED #}
+      {% do enable_but_classes.append('disabled-button') %}
+      {{ _('web_ui.items.single.package.item_enabled') }}
+    {% endif %}
+  </p>
+
+  {{
+    button_row([
+        (disable_but_classes,  disable_text,  {'action': 'disable_item'}),
+        (unenable_but_classes, unenable_text, {'action': 'unenable_item'}),
+        (enable_but_classes,   enable_text,   {'action': 'enable_item'})
+    ])
+  }}
+
+  {% if display_info.enabled == EnabledStatus.ENABLED %}
+    <div class="horizontal-separator"></div>
+
+    {{ label(_('web_ui.items.single.package.pinning_label')) }}
+
+    {% set unpin_but_classes = ['green-button'] %}
+    {% set pin_repo_but_classes = ['green-button'] %}
+    {% set pin_ver_but_classes = ['green-button'] %}
+
+    {% set unpin_text = _('web_ui.items.single.package.unpin_button') %}
+
+    {% if display_info.active_version.is_local %}
+      {%
+        set pin_repo_text =
+          _('web_ui.items.single.package.pin_local_repo_button')
+      %}
+    {% else %}
+      {% set pin_repo_text = _('web_ui.items.single.package.pin_repo_button') %}
+    {% endif %}
+
+    {% set pin_ver_text = _('web_ui.items.single.package.pin_ver_button') %}
+
+    <p>
+      {% if display_info.frozen == FrozenStatus.NOT_FROZEN %}
+        {% do unpin_but_classes.append('disabled-button') %}
+        {{ _('web_ui.items.single.package.not_pinned') }}
+      {% elif display_info.frozen == FrozenStatus.REPOSITORY %}
+        {% do pin_repo_but_classes.append('disabled-button') %}
+        {% if display_info.active_version.is_local %}
+          {{ _('web_ui.items.single.package.pinned_repo_local') }}
+        {% else %}
+          {{
+            _('web_ui.items.single.package.pinned_repo_{}')
+                .format(display_info.active_version.info.repo)
+          }}
+        {% endif %}
+      {% else %}
+        {# display_info.frozen == FrozenStatus.EXACT_VERSION #}
+        {% do pin_ver_but_classes.append('disabled-button') %}
+        {{ _('web_ui.items.single.package.pinned_ver') }}
+      {% endif %}
+    </p>
+
+    {{
+      button_row([
+          (unpin_but_classes,    unpin_text,    {'action': 'unfreeze_item'}),
+          (pin_repo_but_classes, pin_repo_text, {'action': 'freeze_to_repo'}),
+          (pin_ver_but_classes,  pin_ver_text,  {'action': 'freeze_to_version'})
+      ])
+    }}
+  {% endif %}{# display_info.enabled == EnabledStatus.ENABLED #}
+{% endblock %}
+
+{% block version_list_heading %}
+  {{ _('web_ui.items.single.package.version_list_heading') }}
+{% endblock %}

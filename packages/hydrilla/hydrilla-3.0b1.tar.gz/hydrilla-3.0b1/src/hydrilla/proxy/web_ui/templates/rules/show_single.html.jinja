@@ -1,0 +1,106 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI script allowing/blocking rule modification page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %} {{ _('web_ui.rules.single.title') }} {% endblock %}
+
+{% block style %}
+  {{ super() }}
+
+  {% include 'include/checkbox_tricks_style.css.jinja' %}
+{% endblock %}
+
+{% import 'import/checkbox_tricks.html.jinja' as tricks %}
+
+{% block main %}
+  <h3>
+    {% if display_info.allow_scripts %}
+      {{ _('web_ui.rules.single.heading.allow') }}
+    {% else %}
+      {{ _('web_ui.rules.single.heading.block') }}
+    {% endif %}
+  </h3>
+
+  {{ label(_('web_ui.rules.single.pattern_label')) }}
+
+  <p>
+    {{ display_info.pattern }}
+  </p>
+
+  {% set button_text = _('web_ui.rules.single.update_pattern_button') %}
+  {% set initial_show = rule_pattern_invalid is defined %}
+  {{ tricks.sibling_hider(button_text, 'edit_pattern', initial_show) }}
+
+  <form method="POST">
+    <input type="hidden" name="action" value="update_rule_data">
+
+    {% if rule_pattern_invalid is defined %}
+      {{ error_note(_('web_ui.err.rule_pattern_invalid')) }}
+    {% endif %}
+
+    <div class="flex-row">
+      <input name="pattern" value="{{ display_info.pattern }}" required="">
+    </div>
+
+    <div class="flex-row">
+      <label for="{{ tricks.hider_id('edit_pattern') }}"
+             class="red-button button-bordering-right">
+        {{ _('web_ui.rules.single.no_update_pattern_button') }}
+      </label>
+      <div class="button-row-separator"></div>
+      <button class="green-button button-bordering-left">
+        {{ _('web_ui.rules.single.commit_update_pattern_button') }}
+      </button>
+    </div>
+  </form>
+
+  <div class="horizontal-separator"></div>
+
+  {{ label(_('web_ui.rules.single.block_or_allow_label')) }}
+
+  {% set allow_but_classes = ['red-button'] %}
+  {% set block_but_classes = ['blue-button'] %}
+
+  {% set allow_text = _('web_ui.rules.single.allow_button') %}
+  {% set block_text = _('web_ui.rules.single.block_button') %}
+
+  {% if display_info.allow_scripts %}
+    {% do allow_but_classes.append('disabled-button') %}
+  {% else %}
+    {% do block_but_classes.append('disabled-button') %}
+  {% endif %}
+
+  {{
+    button_row([
+            (allow_but_classes, allow_text, {'allow': 'true'}),
+            (block_but_classes, block_text, {'allow': 'false'})
+        ], {'action': 'update_rule_data'}
+    )
+  }}
+
+  <div class="horizontal-separator"></div>
+
+  {{ label(_('web_ui.rules.single.actions_label')) }}
+
+  {% set button_text = _('web_ui.rules.single.remove_button') %}
+  {% set extra_fields = {'action': 'remove_rule'} %}
+  {{ button_row([(['green-button'], button_text, extra_fields)]) }}
+{% endblock %}

@@ -1,0 +1,4 @@
+[console_scripts]
+WolongBujuXitongKecheng = WolongBujuXitongKecheng.__main__:main
+wolong-buju-xitong-kecheng = WolongBujuXitongKecheng.__main__:main
+

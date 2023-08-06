@@ -1,0 +1,4 @@
+[console_scripts]
+QingsongxueShengmingLingshuMiaodongRenxin = QingsongxueShengmingLingshuMiaodongRenxin.__main__:main
+qingsongxue-shengming-lingshu-miaodong-renxin = QingsongxueShengmingLingshuMiaodongRenxin.__main__:main
+

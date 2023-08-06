@@ -1,0 +1,82 @@
+[tool.poetry]
+name = "oagdedupe"
+version = "0.2.1"
+description = "oagdedupe is a Python library for scalable entity resolution, using active learning to learn blocking configurations, generate comparison pairs, then clasify matches."
+readme = "README.md"
+homepage = ""
+license = "MIT"
+repository = "https://github.com/chansooligans/oagdedupe"
+documentation = "https://deduper.readthedocs.io/en/latest/"
+keywords = ["dedupe", "entity resolution", "record linkage", "blocking"]
+authors = [
+    "Chansoo Song",
+    "Gautam Sisodia"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+pandas = "^1.4.2"
+networkx = "^2.8"
+numpy = "^1.22.1"
+jellyfish = "^0.9.0"
+scikit-learn = "^1.0.2"
+tqdm = "^4.58.0"
+pytest = "^7.1.2"
+ipykernel = "^6.13.0"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+flake8 = "^4.0.1"
+ray = "^1.13.0"
+modAL = "^0.4.1"
+fastapi = {extras = ["all"], version = "^0.79.0"}
+SQLAlchemy = "^1.4.39"
+diagrams = "^0.21.1"
+Faker = "^13.15.1"
+jupytext = {version = "^1.14.1", optional = true}
+autodocsumm = {version = "^0.2.9", optional = true}
+psycopg2-binary = "^2.9.3"
+pathos = "^0.2.9"
+myst-parser = "^0.18.0"
+Sphinx = "^5.1.1, !=5.2.0.post0"
+sphinx-rtd-theme = "^1.0.0"
+pydantic = {extras = ["dotenv"], version = "^1.10.2"}
+protobuf = "^3.20.2"
+nbconvert = "^6.5.1"
+graphviz = "^0.19.0"
+pre-commit = "^2.20.0"
+dependency-injector = "^4.40.0"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+black = "^22.6.0"
+
+[tool.black]
+line-length = 80
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \.dedupe
+  | \.dedupe_test
+  | _build
+  | buck-out
+  | build
+  | dist
+  | references
+  | scratch
+)/
+'''
+
+
+[tool.poetry.extras]
+book=["autodocsumm"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

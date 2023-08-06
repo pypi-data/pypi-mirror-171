@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+snaketool/__init__.py
+snaketool/__main__.py
+snaketool/snaketool.CITATION
+snaketool/snaketool.LICENSE
+snaketool/snaketool.VERSION
+snaketool/util.py
+snaketool.egg-info/PKG-INFO
+snaketool.egg-info/SOURCES.txt
+snaketool.egg-info/dependency_links.txt
+snaketool.egg-info/entry_points.txt
+snaketool.egg-info/requires.txt
+snaketool.egg-info/top_level.txt
+snaketool/config/config.yaml
+snaketool/workflow/Snakefile

@@ -1,0 +1,4 @@
+include snaketool/snaketool.LICENSE
+include snaketool/snaketool.CITATION
+include snaketool/snaketool.VERSION
+recursive-include snaketool *

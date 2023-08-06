@@ -1,0 +1,4 @@
+# Snakemake config
+input:
+output: 'snaketool.out/'
+log: 'snaketool/snaketool.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+YushenTanshengsi = YushenTanshengsi.__main__:main
+yushen-tanshengsi = YushenTanshengsi.__main__:main
+

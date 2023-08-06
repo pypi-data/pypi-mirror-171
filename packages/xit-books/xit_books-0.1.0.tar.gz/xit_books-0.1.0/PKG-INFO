@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: xit-books
+Version: 0.1.0
+Summary: Documentation manager based on 'Sphinx' and some extensions.
+Home-page: https://github.com/med-merchise/xit.books
+License: GPL-3.0-or-later
+Author: Medardo Antonio Rodriguez
+Requires-Python: >=3.10,<3.11
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Provides-Extra: all
+Provides-Extra: data
+Provides-Extra: devops
+Provides-Extra: docs
+Provides-Extra: notebooks
+Provides-Extra: web
+Requires-Dist: jupyterlab-code-formatter (>=1.5.3,<2.0.0); extra == "notebooks" or extra == "all"
+Requires-Dist: jupyterlab[docs] (>=3.4.5,<4.0.0); extra == "notebooks" or extra == "all"
+Requires-Dist: jupytext (>=1.14.1,<2.0.0); extra == "notebooks" or extra == "all"
+Requires-Dist: matplotlib (>=3.6.0,<4.0.0); extra == "notebooks" or extra == "data" or extra == "all"
+Requires-Dist: myst-nb (>=0.16.0,<0.17.0); extra == "notebooks" or extra == "all"
+Requires-Dist: numpydoc (>=1.4.0,<2.0.0); extra == "data" or extra == "all"
+Requires-Dist: pydata-sphinx-theme (>=0.10.1,<0.11.0); extra == "data" or extra == "all"
+Requires-Dist: sphinx (>=5.2.3,<6.0.0)
+Requires-Dist: sphinx-autodoc-annotation (>=1.0.post1,<2.0)
+Requires-Dist: sphinx-issues (>=3.0.1,<4.0.0); extra == "devops" or extra == "all"
+Requires-Dist: sphinx-rtd-theme (>=1.0.0,<2.0.0); extra == "docs" or extra == "all"
+Requires-Dist: voila (>=0.3.6,<0.4.0); extra == "web" or extra == "all"
+Project-URL: Repository, https://github.com/med-merchise/xit.books
+Description-Content-Type: text/x-rst
+
+Xit Projects (Books)!
+=====================
+
+Documentation manager and generator based on 'Sphinx'.
+
+.. note::
+
+   The project is currently in development and is not ready for production
+   use.
+
+
+Install
+-------
+
+Development Stage:
+
+  Check `ADR-4 <xit-adr-4_>`__ on base namespace project about how to use
+  poetry_ to manage how to evolve projects on development stages.
+
+  *This section is under construction*
+
+.. _xit-adr-4: https://github.com/med-merchise/xit/blob/main/docs/source/adrs/adr-0004-poetry-for-development-stage.rst
+.. _poetry: https://python-poetry.org
+
+Production Stage:
+
+  *This section is under construction*
+
+After installation tasks:
+
+  Each of our projects should have a ``backlog-0001`` document with task to
+  execute after a project is installed.  This document must be located in the
+  ``docs/source/backlog`` directory.
+
+
+Documentation
+-------------
+
+**Note** that because the purpose of this project is to be a documentation
+manager, it will be usualy installed in other projects as a development
+dependency.
+
+*This section is under construction*
+

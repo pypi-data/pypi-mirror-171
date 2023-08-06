@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingguangpuSaocaozuoDaquan = AiqingguangpuSaocaozuoDaquan.__main__:main
+aiqingguangpu-saocaozuo-daquan = AiqingguangpuSaocaozuoDaquan.__main__:main
+

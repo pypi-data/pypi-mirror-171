@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-rybitska"
+version = "0.3.0"
+description = "This is test project"
+authors = ["Khrystyna Rybitska <krybitska@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_rybitska"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

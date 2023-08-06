@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-new-project=poetry_new_project.app:cli
+

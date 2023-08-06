@@ -1,0 +1,4 @@
+[console_scripts]
+ZuishouNvshengHuanyingde30daHuati = ZuishouNvshengHuanyingde30daHuati.__main__:main
+zuishou-nvsheng-huanyingde-30da-huati = ZuishouNvshengHuanyingde30daHuati.__main__:main
+

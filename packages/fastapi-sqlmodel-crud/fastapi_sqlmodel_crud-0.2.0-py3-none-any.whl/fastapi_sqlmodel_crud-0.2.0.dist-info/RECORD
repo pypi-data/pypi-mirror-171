@@ -1,0 +1,10 @@
+fastapi_sqlmodel_crud/README.md,sha256=xXeoJtLjUEovl4C2zYPbnTjNc5TEgVXEmEYiJ5j-suM,1727
+fastapi_sqlmodel_crud/__init__.py,sha256=rwEdlY1dTYiPPgDcsiXdbToIg7sq7C34PyQGzWmVM14,205
+fastapi_sqlmodel_crud/_sqlmodel.py,sha256=fovJ2OWx3f6a5pVtIFzRMPr2SxXTUCb79JJpDFiC5EI,21825
+fastapi_sqlmodel_crud/base.py,sha256=DPE5ovInePLFyFdRcDjeiMMkI2pzl2JQCNB71N89DPc,8011
+fastapi_sqlmodel_crud/parser.py,sha256=cp0oLEXFznYlT-OMyTWXaDwu_7q8xPUywnzm_EJLkgk,7494
+fastapi_sqlmodel_crud/schema.py,sha256=IhZ7PggUmkGrTGsQxyDdTFD1jfmDnqVfiiVSElV6UpY,1900
+fastapi_sqlmodel_crud/utils.py,sha256=lII61YxL2nMGCOfC_2I4CVuuyNQ0esWPkcDc7jH96t8,3341
+fastapi_sqlmodel_crud-0.2.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+fastapi_sqlmodel_crud-0.2.0.dist-info/METADATA,sha256=MrNeaedHFMAJFFtTZF1hRpeW4Ir14pMmGUb2xTT59vs,3194
+fastapi_sqlmodel_crud-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+QingxuChongji = QingxuChongji.__main__:main
+qingxu-chongji = QingxuChongji.__main__:main
+

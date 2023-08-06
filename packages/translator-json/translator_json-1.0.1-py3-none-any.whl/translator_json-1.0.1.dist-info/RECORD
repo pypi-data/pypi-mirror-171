@@ -1,0 +1,9 @@
+translator/__init__.py,sha256=qL2piEewOXykgOOvfhJZ-_EqfeOuSwFPDw7v-za5PWY,145
+translator/_version.py,sha256=B0Tt2cLZsNraHT0ujFGYuFegDOyPXavP7NM-CEh2WAY,497
+translator/translate_generator.py,sha256=Sv8HyPPHAXtifd_eLYDTcuVrTBW9B-AGD1zmUFrquPo,2675
+translator_json-1.0.1.data/data/requirements.txt,sha256=Z_2uxLNZE4GSlxeUC5dFTqdp3Qw6SFRGDAHUQVj7k40,110
+translator_json-1.0.1.dist-info/METADATA,sha256=G71sFqp0UlnouJTuAc3xJYYGYymUePCpwFktCejgY4U,1248
+translator_json-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+translator_json-1.0.1.dist-info/entry_points.txt,sha256=cU74jXSrdoCcqk1BsTw7wBXoosbf0FSCZG7SYWWi6Hg,84
+translator_json-1.0.1.dist-info/top_level.txt,sha256=TstlcpN5V_LQaCMBHw2BiRQXtexg1Cq7SC8lIwymH_c,11
+translator_json-1.0.1.dist-info/RECORD,,

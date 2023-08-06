@@ -1,0 +1,4 @@
+[console_scripts]
+LangzuShengjing = LangzuShengjing.__main__:main
+langzu-shengjing = LangzuShengjing.__main__:main
+

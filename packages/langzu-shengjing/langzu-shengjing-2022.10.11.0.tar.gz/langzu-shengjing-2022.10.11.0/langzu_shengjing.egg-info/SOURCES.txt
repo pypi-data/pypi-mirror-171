@@ -1,0 +1,12 @@
+README.md
+setup.py
+LangzuShengjing/README.md
+LangzuShengjing/__init__.py
+LangzuShengjing/__main__.py
+LangzuShengjing/file.pdf
+LangzuShengjing/index.html
+langzu_shengjing.egg-info/PKG-INFO
+langzu_shengjing.egg-info/SOURCES.txt
+langzu_shengjing.egg-info/dependency_links.txt
+langzu_shengjing.egg-info/entry_points.txt
+langzu_shengjing.egg-info/top_level.txt

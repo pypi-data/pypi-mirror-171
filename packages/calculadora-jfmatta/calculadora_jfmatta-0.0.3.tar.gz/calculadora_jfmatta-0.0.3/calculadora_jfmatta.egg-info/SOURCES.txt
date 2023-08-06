@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+calculadora_jfmatta/__init__.py
+calculadora_jfmatta/calculadora.py
+calculadora_jfmatta.egg-info/PKG-INFO
+calculadora_jfmatta.egg-info/SOURCES.txt
+calculadora_jfmatta.egg-info/dependency_links.txt
+calculadora_jfmatta.egg-info/top_level.txt

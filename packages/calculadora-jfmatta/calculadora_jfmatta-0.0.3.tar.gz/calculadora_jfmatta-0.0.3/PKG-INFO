@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: calculadora_jfmatta
+Version: 0.0.3
+Summary: Cálculos simples
+Home-page: https://github.com/JulianoMata/calculadora
+Author: JulianoMata
+Author-email: jfmatta@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### calculadora_jfmatta
+
+#### Description.
+
+The package calculadora_jfmatta is used for:
+
+Simple calculations:
+
+- Sum
+- Subtraction
+- Multiplication
+- Division
+- Potentiation
+- Module.
+
+#### Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install calculadora_jfmatta
+
+```bash
+pip install calculadora_jfmatta
+```
+
+#### Used
+
+```python
+from calculadora_jfmatta import calculadora
+calculadora.calcular()
+
+from calculadora_jfmatta import calculadora
+calculadora.continuar_calculo()
+```
+
+#### Author
+
+JulianoMata
+
+#### License
+
+[MIT](https://choosealicense.com/licenses/mit/)

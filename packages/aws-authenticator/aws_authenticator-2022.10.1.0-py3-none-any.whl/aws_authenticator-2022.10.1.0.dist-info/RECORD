@@ -1,0 +1,5 @@
+aws_authenticator/__init__.py,sha256=mxDh7aPpRpLlvEkto0qnSmYVLNHS8pNC80CzdHN2i_s,5254
+aws_authenticator/__main__.py,sha256=UYcERJphrZgkl_JeioPRxf7I8NZtOFy2MfSP1vbGZlQ,141
+aws_authenticator-2022.10.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+aws_authenticator-2022.10.1.0.dist-info/METADATA,sha256=EdiShHRdv8iAC1h6RjNTrixLtVokAOPz3IclkHlFFJI,2849
+aws_authenticator-2022.10.1.0.dist-info/RECORD,,

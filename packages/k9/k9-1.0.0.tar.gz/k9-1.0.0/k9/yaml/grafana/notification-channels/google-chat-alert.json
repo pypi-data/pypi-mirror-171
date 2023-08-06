@@ -1,0 +1,18 @@
+{
+  "id": 73,
+  "uid": "GoogChat1",
+  "name": "Google Chat Alert",
+  "type": "googlechat",
+  "isDefault": true,
+  "sendReminder": false,
+  "disableResolveMessage": false,
+  "frequency": "",
+  "created": "2020-12-21T15:09:25Z",
+  "updated": "2020-12-21T15:09:25Z",
+  "settings": {
+    "autoResolve": true,
+    "httpMethod": "POST",
+    "uploadImage": false,
+    "url": "update_me"
+  }
+}

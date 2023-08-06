@@ -1,0 +1,19 @@
+unclassified:
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+    installations:
+    - credentialsId: {{secretName}}
+      name: "sonarqube"
+      serverUrl: {{sonarUrl}}
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+tool:
+  sonarRunnerInstallation:
+    installations:
+    - name: "sonarqube"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "4.7.0.2747"

@@ -1,0 +1,18 @@
+{
+  "id": 11,
+  "uid": "SN2_LnxMk",
+  "name": "Prometheus Alert Manager",
+  "type": "prometheus-alertmanager",
+  "isDefault": false,
+  "sendReminder": false,
+  "disableResolveMessage": false,
+  "frequency": "",
+  "created": "2020-12-21T15:09:25Z",
+  "updated": "2020-12-21T15:09:25Z",
+  "settings": {
+    "autoResolve": true,
+    "httpMethod": "POST",
+    "uploadImage": false,
+    "url": "http://prometheus-alertmanager.cluster-tools.svc.cluster.local"
+  }
+}

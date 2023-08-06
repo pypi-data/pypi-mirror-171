@@ -1,0 +1,24 @@
+# see documentation for examples
+# https://k9.docs.simoncomputing.com/cluster-config.html
+clusterName: '{{clusterName}}'
+baseDomain: '{{clusterName}}.{{rootDomain}}'
+validationDomain: '{{rootDomain}}'
+cidrPrefix: '10.10'
+isCicd: {{isCicd}}
+eksVersion: 1.21
+
+workerGroups:
+  - workerGroupName: 'worker-group-1'
+    instanceType: 't3.large'
+    amiType: 'AL2_x86_64'
+    desiredCount: 2
+    minCount: 1
+    maxCount: 4
+
+databases:
+  - dBClusterId: '{{clusterName}}-rds-db'
+    engineType: 'postgres'
+    engineVersion: '11.12'
+    isProduction: {{isPrd}}
+    default: true
+

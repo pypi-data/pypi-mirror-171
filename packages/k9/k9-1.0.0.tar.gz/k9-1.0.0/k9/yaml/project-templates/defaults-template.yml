@@ -1,0 +1,10 @@
+jenkins:
+  # k9 create cicd will automatically edit this section
+    jenkinsUrl:
+    clusterName:
+
+clusters:
+    - clusterName: np
+      useBlueGreen: False
+    - clusterName: prd
+      useBlueGreen: True

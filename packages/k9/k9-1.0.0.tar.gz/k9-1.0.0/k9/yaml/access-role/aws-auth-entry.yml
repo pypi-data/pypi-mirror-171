@@ -1,0 +1,4 @@
+- groups:
+  - system:masters
+  rolearn: {{roleArn}}
+  username: eks-access-role-user

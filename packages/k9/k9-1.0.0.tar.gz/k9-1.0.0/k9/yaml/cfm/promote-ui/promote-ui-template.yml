@@ -1,0 +1,99 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: A runbook that accepts a UI version to promote, and a target bucket to promote to.
+Resources:
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: {{appName}}-ui-promotion-role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - 'sts:AssumeRole'
+            Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+        Version: 2012-10-17
+      Description: Role used by the ui-promotion lambda functions.
+      ManagedPolicyArns:
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
+      Policies:
+        - PolicyName: {{appName}}-ui-promotion-policy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Sid: WriteBuckets
+                Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:ListBucket
+                  - s3:PutObjectAcl
+                  - s3:GetObjectTagging
+                  - s3:PutObjectTagging
+                Resource:
+                  - !Sub arn:${AWS::Partition}:s3:::{{prdBucket}}
+                  - !Sub arn:${AWS::Partition}:s3:::{{satBucket}}
+                  - !Sub arn:${AWS::Partition}:s3:::{{satBucket}}/*
+                  - !Sub arn:${AWS::Partition}:s3:::{{prdBucket}}/*
+              - Sid: ReadBuilds
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:ListBucket
+                  - s3:GetObjectTagging
+                Resource:
+                  - !Sub arn:${AWS::Partition}:s3:::{{buildsBucket}}
+                  - !Sub arn:${AWS::Partition}:s3:::{{buildsBucket}}/*
+  UIPromoteLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: {{appName}}-ui-promotion
+      Description: Promotes a ui version to a target bucket. Buckets are defined in environment variables (Configuration > Environment variables). Use the {{appName}}-ui-promotion automation document to run this lambda.
+      Runtime: python3.8
+      Role: !GetAtt LambdaRole.Arn
+      Handler: index.handler
+      Timeout: 60
+      Layers:
+        - {{lambdaLayer}}
+      Environment:
+        Variables:
+          BUILDS_BUCKET: {{buildsBucket}}
+          PRD_BUCKET: {{prdBucket}}
+          SAT_BUCKET: {{satBucket}}
+          REGION: {{region}}
+      Code:
+        ZipFile: |
+          {% filter indent(width=10) %}{{script|safe}}{% endfilter %}
+  Runbook:
+    Type: AWS::SSM::Document
+    Properties:
+      Content:
+        description: Promotes a {{appName}} UI version to a target bucket. Find builds at https://s3.console.${AWS::Partition}.amazon.com/s3/buckets/{{buildsBucket}}
+        schemaVersion: '0.3'
+        parameters:
+          Version:
+            type: String
+            description: The version to promote.
+            allowedPattern: ^[0-9\.-]+$
+          TargetEnv:
+            type: String
+            description: The environment to promote.
+            allowedValues:
+              - sat
+              - prd
+        mainSteps:
+          - name: execute_ui_promotion_lambda
+            action: 'aws:invokeLambdaFunction'
+            inputs:
+              FunctionName: !Ref UIPromoteLambda
+              Payload: '{"Version": "{{Version}}", "TargetEnv": "{{TargetEnv}}"}'
+            description: Calls ui-promotion lambda with the version and target params.
+      DocumentType: Automation
+      Name: {{appName}}-ui-promotion
+Outputs:
+  RunbookLink:
+    Export:
+      Name: link-to-{{appName}}-ui-runbook
+    Value: !Sub https://{{region}}.console.${AWS::Partition}.amazon.com/systems-manager/documents/{{appName}}-ui-promotion/description?region={{region}}
+    Description: Link to the runbook.

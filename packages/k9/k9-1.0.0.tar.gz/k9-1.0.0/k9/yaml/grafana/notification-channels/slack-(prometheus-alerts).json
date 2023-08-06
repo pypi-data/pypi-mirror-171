@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "uid": "pMh_Y7bMz",
+  "name": "Slack (prometheus-alerts)",
+  "type": "slack",
+  "isDefault": false,
+  "sendReminder": false,
+  "disableResolveMessage": false,
+  "frequency": "",
+  "created": "2020-12-21T15:09:25Z",
+  "updated": "2020-12-21T15:09:25Z",
+  "settings": {
+    "autoResolve": true,
+    "httpMethod": "POST",
+    "icon_emoji": "",
+    "uploadImage": false,
+    "url": "https://hooks.slack.com/services/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"
+  }
+}

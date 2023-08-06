@@ -1,0 +1,40 @@
+# see documentation for examples
+# https://k9.docs.simoncomputing.com/app-config.html
+appName: {{appName}}
+webSite: False
+rootDomain: {{rootDomain}}
+
+jenkins:
+  folderName: {{appName}}
+
+  secrets:
+    - name: pypiCredentials #optional
+
+deployments:
+  - clusterName: np
+    environments:
+      - env: dvl
+        customers: []
+        appSecret: dvl-{{appName}}-app-secret
+        springActiveProfile: dev
+        updateTag: latest
+      - env: sat
+        appSecret: sat-{{appName}}-app-secret
+        springActiveProfile: sat
+        updateTag: test
+        useBlueGreen: True
+  - clusterName: prd
+    environments:
+      - env: prd
+        customers: []
+        appSecret: prd-{{appName}}-app-secret
+        springActiveProfile: prd
+        updateTag: prod
+
+webDeployment:
+  repository: https://gitlab.com/technology-innovations-lab/comp-prep/{{appName}}-ui.git
+  deployTokenSecret: {{appName}}-web-deploy-token-secret
+
+serviceDeployment:
+  repository: https://gitlab.com/technology-innovations-lab/comp-prep/{{appName}}-service.git
+  deployTokenSecret: {{appName}}-service-deploy-token-secret

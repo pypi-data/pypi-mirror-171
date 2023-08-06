@@ -1,0 +1,23 @@
+# poll-deploy values
+image: {{AWSAccount}}.dkr.ecr{{fips}}.{{region}}.amazonaws.com/{{instance.appName}}
+env: {{instance.env}}
+uiHost: https://{{instance.uiUrl}}
+secretName: {{appSecretName}}
+replicaCount: 2
+activeProfile: {{instance.springActiveProfile}}
+dbCredsAwsSecret: {{dbSecretName}}
+
+ingressHost: {{instance.serviceUrl}}
+ingressAnnotations:
+  kubernetes.io/ingress.class: alb
+  alb.ingress.kubernetes.io/scheme: internet-facing
+  alb.ingress.kubernetes.io/target-type: ip
+  alb.ingress.kubernetes.io/healthcheck-path: /healthcheck
+  alb.ingress.kubernetes.io/group.name: {{instance.clusterName}}-ingress-group
+  alb.ingress.kubernetes.io/certificate-arn: {{serviceCertArn}}
+
+region: {{region}}
+useBlueGreen: {{useBlueGreen}}
+
+updateTag: {{instance.updateTag}} # ignored if useBlueGreen is true
+

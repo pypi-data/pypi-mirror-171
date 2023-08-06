@@ -1,0 +1,118 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Stack for creating an ec2 instance for SSM access. k9 can be run from this instance.
+Parameters:
+  Subnet:
+    Description: Subnet to place the ssm instance on.
+    Type: AWS::EC2::Subnet::Id
+  LatestAmiId:
+    Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
+    Default: '/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2'
+Resources:
+  EC2SSMRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: ssm-instance-role
+      Description: The IAM role used by the ssm ec2 instance. Needs to be powerful to run k9.
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: "Allow"
+            Principal:
+              Service: ["ec2.amazonaws.com"]
+            Action: "sts:AssumeRole"
+      Path: "/"
+      ManagedPolicyArns:
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/AmazonSSMManagedInstanceCore'
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/CloudWatchAgentServerPolicy'
+  Policy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Sid: VisualEditor0
+          Effect: Allow
+          Action:
+          - rds:*
+          - ssmmessages:*
+          - cloudfront:*
+          - secretsmanager:*
+          - s3:*
+          - rds-data:*
+          - cloudformation:*
+          - elasticloadbalancing:*
+          - ssm:*
+          - ecs:*
+          - route53:*
+          - lambda:*
+          - ecr:*
+          - ec2:*
+          - eks:*
+          - acm:*
+          - autoscaling:*
+          - sts:AssumeRole
+          - iam:ListAccountAliases
+          Resource: "*"
+        - Sid: VisualEditor1
+          Effect: Allow
+          Action: iam:*
+          Resource:
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:server-certificate/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:role/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:sms-mfa/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:instance-profile/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:user/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:access-report/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:oidc-provider/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:mfa/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:saml-provider/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:group/*
+          - !Sub arn:${AWS::Partition}:iam::${AWS::AccountId}:policy/*
+      PolicyName: ssm-k9-runner-policy
+      Roles:
+        - !Ref EC2SSMRole
+  EC2InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Path: '/'
+      Roles:
+        - !Ref EC2SSMRole
+  SSMec2Instance:
+      Type: AWS::EC2::Instance
+      Properties:
+        ImageId: !Ref LatestAmiId
+        InstanceType: "t3.micro"
+        IamInstanceProfile: !Ref EC2InstanceProfile
+        SubnetId: !Ref Subnet
+        Tags:
+          - Key: Name
+            Value: ssm-instance
+        UserData:
+          Fn::Base64:
+            !Sub |
+              #!/bin/bash
+              yum update -y
+              # Enable SSM
+              yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+              systemctl enable amazon-ssm-agent
+              systemctl start amazon-ssm-agent
+
+              # install git
+              sudo yum install git -y
+
+              cd ~
+              # install pipenv
+              python3 -m pip install pipenv
+
+              # install kubectl
+              curl -o kubectl https://s3.us-west-2.amazonaws.com/amazon-eks/1.21.2/2021-07-05/bin/linux/amd64/kubectl
+              chmod +x ./kubectl
+              mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
+              echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
+
+              # install helm
+              curl -L https://git.io/get_helm.sh | bash -s -- --version v3.8.2
+Outputs:
+  SSMec2Instance:
+    Description: The instance ID of the demo instance.
+    Value: !Ref SSMec2Instance

@@ -1,0 +1,87 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: A runbook that accepts a service version and a tag to apply to it.
+Resources:
+  LambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: {{appName}}-service-promotion-role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - 'sts:AssumeRole'
+            Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+        Version: 2012-10-17
+      Description: Role used by the service-promotion lambda functions.
+      ManagedPolicyArns:
+        - !Sub 'arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
+      Policies:
+        - PolicyName: {{appName}}-service-promotion-policy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Sid: WriteBuckets
+                Effect: Allow
+                Action:
+                  - ecr:CompleteLayerUpload
+                  - ecr:UploadLayerPart
+                  - ecr:InitiateLayerUpload
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:PutImage
+                  - ecr:BatchGetImage
+                  - ecr:GetAuthorizationToken
+                Resource:
+                  - !Sub arn:${AWS::Partition}:ecr:{{region}}:${AWS::AccountId}:repository/{{appName}}
+  ServicePromoteLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: {{appName}}-service-promotion
+      Description: Promotes a service version to a target tag. ECR repositories are defined in environment variables (Configuration > Environment variables). Use the {{appName}}-service-promotion automation document to run this lambda.
+      Role: !GetAtt LambdaRole.Arn
+      Timeout: 60
+      Environment:
+        Variables:
+          ACCOUNT_ID: !Sub ${AWS::AccountId}
+          REPO_NAME: {{appName}}
+          REGION: {{region}}
+      Runtime: python3.8
+      Handler: index.handler
+      Code:
+        ZipFile: |
+          {% filter indent(width=10) %}{{script|safe}}{% endfilter %}
+  Runbook:
+    Type: AWS::SSM::Document
+    Properties:
+      Content:
+        description: !Sub Promotes a {{appName}} service version. Find build versions at https://{{region}}.console.${AWS::Partition}.amazon.com/ecr/repositories/private/${AWS::AccountId}/{{appName}}?region={{region}}
+        schemaVersion: '0.3'
+        parameters:
+          Version:
+            type: String
+            description: The version to promote.
+            allowedPattern: ^[0-9\.-]+$
+          Tag:
+            type: String
+            description: The tag to apply.
+            allowedValues:
+              - test
+              - blue
+              - green
+              - prod
+        mainSteps:
+          - name: execute_service_promotion_lambda
+            action: 'aws:invokeLambdaFunction'
+            inputs:
+              FunctionName: !Ref ServicePromoteLambda
+              Payload: '{"Version": "{{Version}}", "Tag": "{{Tag}}"}'
+            description: Calls service-promotion lambda with the version and target params.
+      DocumentType: Automation
+      Name: {{appName}}-service-promotion
+Outputs:
+  RunbookLink:
+    Export:
+      Name: link-to-{{appName}}-service-runbook
+    Value: !Sub https://{{region}}.console.${AWS::Partition}.amazon.com/systems-manager/documents/{{appName}}-service-promotion/description?region={{region}}
+    Description: Link to the runbook.

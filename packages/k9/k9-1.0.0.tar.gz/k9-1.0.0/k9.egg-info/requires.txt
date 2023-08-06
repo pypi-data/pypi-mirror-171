@@ -1,0 +1,4 @@
+kubernetes
+jinja2
+requests
+atomic-cloud==2.0.1

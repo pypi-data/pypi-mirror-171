@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingBaoxianMiji = AiqingBaoxianMiji.__main__:main
+aiqing-baoxian-miji = AiqingBaoxianMiji.__main__:main
+

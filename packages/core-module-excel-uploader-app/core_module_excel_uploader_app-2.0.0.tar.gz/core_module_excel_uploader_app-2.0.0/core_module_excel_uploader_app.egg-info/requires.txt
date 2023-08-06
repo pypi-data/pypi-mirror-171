@@ -1,0 +1,4 @@
+Django
+xlrd==2.0.1
+core-parser-app==2.0.*
+xml-utils==1.19.*

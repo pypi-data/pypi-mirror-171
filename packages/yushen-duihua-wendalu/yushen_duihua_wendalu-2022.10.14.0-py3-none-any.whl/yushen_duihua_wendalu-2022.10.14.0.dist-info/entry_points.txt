@@ -1,0 +1,4 @@
+[console_scripts]
+YushenDuihuaWendalu = YushenDuihuaWendalu.__main__:main
+yushen-duihua-wendalu = YushenDuihuaWendalu.__main__:main
+

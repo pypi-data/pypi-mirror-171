@@ -1,0 +1,6 @@
+README.md
+setup.py
+trips_py.egg-info/PKG-INFO
+trips_py.egg-info/SOURCES.txt
+trips_py.egg-info/dependency_links.txt
+trips_py.egg-info/top_level.txt

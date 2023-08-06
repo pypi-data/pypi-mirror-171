@@ -1,0 +1,4 @@
+[console_scripts]
+JiaoniChaogupiaoZhichanlunXinjie = JiaoniChaogupiaoZhichanlunXinjie.__main__:main
+jiaoni-chaogupiao-zhichanlun-xinjie = JiaoniChaogupiaoZhichanlunXinjie.__main__:main
+

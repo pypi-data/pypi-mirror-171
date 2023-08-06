@@ -1,0 +1,11 @@
+rdfhelpers/__init__.py,sha256=MROvmiZc7UXuxJ28uF8llVn2v31mWPdrFnf3M_IgyKA,1294
+rdfhelpers/constructor.py,sha256=wTa1vDMyJ8oaIQuxpKMaP5SAM7cV4vA9kFZb4FC6ZA4,2823
+rdfhelpers/gsp.py,sha256=Rm_H0Ho7DOzd5tO3FCVz6Eb3yn2Ayfk51nsBv3ULXAI,2738
+rdfhelpers/labels.py,sha256=go8pLTF2LH_tbtmXLwHhJLSy6y7wpiQuK-KjiMMG4cU,6180
+rdfhelpers/rdfhelpers.py,sha256=KJyJIh2r_8OY_9AuKTjR3WqEe80AQcMl3XiIqPicaaU,11879
+rdfhelpers/templated.py,sha256=7B4cyFyMpbP5zYo4U_TzEmX98414xRIlsEI6EqwYy3w,2286
+rdfhelpers-0.2.5.dist-info/LICENSE,sha256=6pHgJvxnUPTboWxqmeZfTr2EgpGZ3fo7bEwaQII6twY,1530
+rdfhelpers-0.2.5.dist-info/METADATA,sha256=uK0WpK35Ag97W8ie2mP9j_27SID6s4BLgVUEIivddZk,1191
+rdfhelpers-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rdfhelpers-0.2.5.dist-info/top_level.txt,sha256=EeN4Kp1YcC0BPyNQ_vocg5TDdzPQNFq5-Zkr9TeF-TE,11
+rdfhelpers-0.2.5.dist-info/RECORD,,

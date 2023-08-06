@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: weditorplus
+Version: 1.0.1
+Summary: "weditor special dev"
+Home-page: UNKNOWN
+Author: wiliam.wang
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Requires-Dist: tornado (>=4.3)
+Requires-Dist: six
+Requires-Dist: pillow
+Requires-Dist: logzero
+Requires-Dist: cached-property
+Requires-Dist: uiautomator2 (>=2.10.1)
+Requires-Dist: facebook-wda (>=1.0.5)
+Requires-Dist: pywin32 ; (sys_platform == 'win32')
+
+test
+
+PBR_VERSION=1.0.0 python3 setup.py bdist_wheel
+

@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>WEditor</title>
+  <link rel="stylesheet" href="/cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/libs/css/buttons.css">
+  <link rel="stylesheet" type="text/css" href="/static/libs/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/cdn.jsdelivr.net/bootstrap.select/1.12.2/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="{{static_url('style.css')}}">
+
+  <!-- jstree -->
+  <link rel="stylesheet" href="/cdn.jsdelivr.net/npm/jstree@3.3.8/dist/themes/default/style.min.css">
+  <!-- bootstrap-table -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+  
+  <style>
+    .element_table::before {
+      margin-top: 15px;
+      margin-left: 15px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #959595;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      content: "元素列表";
+  }
+  .function_table::before {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "功能列表";
+}
+.parent_table:before {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "父页面跳转列表";
+}
+.param{
+  background-color:#87CEFA;
+}
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <nav class="navbar navbar-default" style="margin-bottom: 0px">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          ATX <strong>WEditor</strong>
+          <small v-text="version"></small>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--         <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        </ul> -->
+        <form class="navbar-form navbar-left" onsubmit="return false">
+          <div class="form-group">
+            <select v-model="platform" class="selectpicker" value="Android" title="Platform" data-width="fit">
+              <option data-icon="fa fa-android" value="Android">Android</option>
+              <option data-icon="fa fa-apple" value="iOS">iOS</option>
+              <!-- <option data-icon="glyphicon-apple" value="Neco">Neco(beta)</option> -->
+            </select>
+            <!-- <el-select v-model="serial" allow-create filterable placeholder="选择或输入">
+              <el-option
+                v-for="item in deviceList" :key="item.value" :label="item.label + ':' + item.value" :value="item.value">
+              </el-option>
+            </el-select> -->
+            <input type="text" v-model="serial" class="form-control" v-bind:placeholder="deviceUrl">
+          </div>
+          <button type="submit" class="btn btn-default" v-on:click="doConnect" :disabled="connecting">
+            Connect
+            <i v-if="connecting" class="fa fa-spinner fa-spin"></i>
+            <span v-if="deviceId" class="glyphicon glyphicon-grain color-green"></span>
+          </button>
+          <button :disabled="loading || connecting" class="btn btn-default" v-on:click="dumpHierarchyWithScreen()">
+            <i class="fa fa-refresh" :class='{"fa-spin": dumping}'></i> Dump Hierarchy
+          </button>
+          <template v-if="platform == 'Android'">
+            <el-switch v-model="liveScreen" active-text="实时" inactive-text="静态">
+            </el-switch>
+          </template>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- <li><a href="#">Link</a></li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">相关文档 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a target="_blank" href="https://github.com/openatx/weditor">openatx/weditor</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a target="_blank" href="https://github.com/openatx/weditor">uiautomator2快速参考</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a target="_blank" href="https://github.com/openatx/uiautomator2">openatx/uiautomator2</a></li>
+              <li><a target="_blank" href="https://github.com/openatx/facebook-wda">openatx/facebook-wda</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="upper">
+      <div id="left">
+        <div>
+        </div>
+        <section id="screen">
+          <canvas id="fgCanvas" @dblclick="doTap(nodeSelected)" class="canvas-fg" v-bind:style="canvasStyle"></canvas>
+          <canvas id="bgCanvas" class="canvas-bg" v-bind:style="canvasStyle"></canvas>
+          <span class="finger finger-0" style="transform: translate3d(200px, 100px, 0px)"></span>
+          <img style="z-index: 10" v-if="loading" src="/static/loading.svg">
+        </section>
+        <section id="footer">
+          <button class="btn" @click="doKeyevent('power')">
+            <i class="fa fa-power-off color-red"></i> POWER</button>
+          <button class="btn" @click="doKeyevent('home')">
+            <i class="fa fa-home"></i> Home</button>
+          <button class="btn" @click="doKeyevent('back')" v-show="platform.toLowerCase() == 'android'">
+            <i class="fa fa-chevron-left"></i> Back</button>
+          <button class="btn" disabled="true">Menu</button>
+        </section>
+        <!-- <div class="horizon-gap"></div> -->
+
+      </div>
+      <div id="vertical-gap1" class="handle vertical-gap"></div>
+
+      <div class="middle">
+        <div class="panel panel-default middle-panel">
+          <div class="panel-heading">
+            <i class="fa fa-empire" aria-hidden="true"></i> Selected Element
+            <span class="pull-right">
+              <button :disabled="loading" class="btn btn-default btn-xs" v-on:click="clearCanvas()">
+                <i class="fa fa-square-o"></i> Clear Canvas
+              </button>
+            </span>
+          </div>
+          <div class="panel-body">
+            <div class="text-center">
+              <button class="btn btn-default btn-sm" :disabled="!nodeSelected" @click="doTapWidget()">Tap
+                Widget(Beta)</button>
+              <button class="btn btn-default btn-sm" :disabled="!nodeSelected" v-on:click="doTap()">Tap</button>
+              <button class="btn btn-default btn-sm" v-on:click="doSendKeys('')">Send Keys</button>
+              <!-- <button class="btn btn-default btn-sm" v-on:click="doClear()">Clear Text</button> -->
+            </div>
+          </div>
+          <table class="table table-bordered table-weditor table-condensed" id="selected_element">
+            <thead>
+              <tr>
+                <th style="width: 8em">Prop</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template v-if="platform == 'Android'">
+                <tr>
+                  <td class="always-exists-attr">activity</td>
+                  <td contenteditable v-text="activity"></td>
+                </tr>
+              </template>
+              <template>
+                <tr>
+                  <td class="always-exists-attr">XPathLite</td>
+                  <td contenteditable v-text="elemXPathLite"></td>
+                </tr>
+                <!-- <tr>
+                  <td>XPath(full)</td>
+                  <td contenteditable v-text="elemXPathFull"></td>
+                </tr> -->
+                <tr>
+                  <td>
+                    <span @click="showCursorPercent = !showCursorPercent" class="cursor-pointer">
+                      坐标
+                      <i :class="{'inactive': !showCursorPercent}">%</i>
+                      <i :class="{'inactive': showCursorPercent}">px</i>
+                    </span>
+                  </td>
+                  <td>
+                    <span title="双击复制" @dblclick="copyToClipboard('('+cursorValue.x+', '+cursorValue.y+')')">
+                      ({{!cursorValue.x}}, {{!cursorValue.y}})
+                    </span>
+                    <a href="#" @click="doPositionTap(cursorValue.x, cursorValue.y)">点击</a>
+                  </td>
+                </tr>
+              </template>
+              <template>
+                <tr v-show="elem._type">
+                  <td>className</td>
+                  <td>
+                    <i v-if="platform == 'iOS'">XCUIElementType</i><span v-text="elem._type"></span>
+                    <small v-if="platform == 'iOS'" style="cursor: pointer; float: right;"
+                      @click="copyToClipboard('XCUIElementType' + elem._type)">复制</small>
+                  </td>
+                </tr>
+                <tr v-for="key in filterAttributeKeys(elem)" :key="key">
+                  <td>{{!"* " + key}}</td>
+                  <td><code v-text="elem[key]" class="prop-value"></code></td>
+                </tr>
+                <tr v-if="elem.rect">
+                  <td># rect</td>
+                  <td>{{!JSON.stringify(elem.rect)}}</td>
+                </tr>
+              </template>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+          <h5>
+            代码
+          </h5>
+          <!-- c9-ide -->
+          <input type="text" v-model="generatedCode" class="form-control input-sm">
+          <div class="checkbox">
+            <label>
+              <input v-model="autoCopy" type="checkbox"> 自动复制代码
+            </label>
+            <label>
+              <input v-model="useXPathOnly" type="checkbox"> 强制使用XPath
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="vertical-gap"></div>
+      
+          <div id="right">
+            <div class="panel panel-default" style="margin-bottom: 0px; border-bottom: 0px">
+              <div class="panel-heading">
+                <span class="glyphicon glyphicon-music"></span> Coding
+                <span class="pull-right coding-commands">
+                  <el-button @click="initPythonWebSocket" size="mini" style="color: red;" v-if="!pyshell.wsOpen">
+                    <i class="fa fa-unlink"></i> 点击重连
+                  </el-button>
+                  <el-tooltip :open-delay="500" content="Command+Shift+Enter" placement="top">
+                    <el-button type="primary" size="mini" plain @click="codeRunSelected" :loading="codeRunning">单行或选中运行
+                    </el-button>
+                  </el-tooltip>
+                  <el-tooltip :open-delay="500" content="Command+Enter" placement="top">
+                    <el-button type="primary" size="mini" plain icon="el-icon-caret-right"
+                      @click="runPythonWithConnect(editor.getValue())" :loading="codeRunning">
+                    </el-button>
+                  </el-tooltip>
+                  <el-tooltip :open-delay="200" content="Stop debugging" placement="top">
+                    <el-button type="primary" size="mini" plain :disabled="!codeRunning" @click="stopDebugging">
+                      <i class="fa fa-stop"></i>
+                    </el-button>
+                  </el-tooltip>
+                  <el-button icon="el-icon-delete" type="warning" size="mini" plain @click="clearCode">重置代码
+                  </el-button>
+                  <el-button icon="el-icon-document-copy" type="primary" size="mini" plain
+                    @click="copyToClipboard(editor.getValue())">
+                  </el-button>
+                  <el-button type="danger" size="mini" plain @click="restartKernel">
+                    <i title="重启服务" class="fa fa-repeat"></i> <span v-if="pyshell.restarting"> ...</span>
+                  </el-button>
+                </span>
+              </div>
+            </div>
+            <pre class="editor-container">
+              
+              <div id="editor"></div>
+            </pre>
+        
+            <el-tabs type="border-card" v-model="tabActiveName">
+              <el-tab-pane label="CaseEditor" name="CaseEditor">
+                <div class="box" style="height: auto;">
+                  <div class="well well-lg" style="width: 100%;">
+                  <form class="form">
+                    
+                    <div class="form-group row">
+                      <label for="pagename" class="col-sm-2 control-label">文件保存目录</label>
+                      <div class="col-sm-8">
+                        <!-- <input class="form-control" id="filepath" > -->
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="filepath" placeholder="Please type your file dir...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="go()">Go!</button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="pagelist" class="col-sm-2 control-label">页面列表</label>
+                      <div class="col-sm-8">
+                        <select class="form-control" id="pagelist" onchange="selectpage()">
+                          
+                        
+                        </select>
+                      </div>   
+                    </div>  
+                    
+                    <div class="form-group row">
+                      <label for="pagename" class="col-sm-2 control-label">页面名称</label>
+                      <div class="col-sm-10">
+                        <input class="form-control" id="pagename" >
+                      </div>
+                    </div>
+
+                    <div class="row" style="height: 10px;"></div>
+
+                    <div class="form-group row">
+                      <label for="inputPassword3" class="col-sm-2 control-label">根页面</label>
+                      <div class="col-sm-10 checkbox">
+                        <label>
+                          <input type="checkbox" id="rootpage" value="0">
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+
+                    
+                    
+                    <div class="element_table form-group panel panel-default row">
+                      <div class="panel-body">
+                      <table class="table table-condensed" id="para_table" style="table-layout:fixed;word-wrap:break-word;">  
+                        <tr>  
+                            <th style="text-align:center" width="9%">Name</th>
+                            <th style="text-align:center" width="15%">Desc</th>
+                            <th style="text-align:center" width="15%">Selector</th>
+                            <th style="text-align:center" width="10%">Text</th>
+                            <th style="text-align:center" width="15%">Position</th>
+                            <th style="text-align:center" width="15%">Image</th>
+                            <th style="text-align:center" width="9%">操作</th>  
+                        </tr>  
+
+                      </table>
+
+                    </div> 
+                      <div class="row" id="addtrdiv" style="margin-bottom: 30px; margin-right: 30px; float: right;">  
+                          <button type="button" class="btn btn-success btn-link" onclick="addtr()">Add Element</button>  
+                      </div>
+                      
+                    </div>
+
+
+                    <div class="function_table form-group panel panel-default row">
+                      <div id="add_function" class="panel-body" style="height: auto;display:block;justify-content: center;align-items: center;" >
+                        <div class="form-group panel panel-success row">
+
+                          <div class="panel-body" style="height: auto;">
+
+                            <div class="form-group row">
+                              <span class="btn" data-id="tableWeight_0" onclick="AddTableCell(this)">添加一列</span>
+                              <span class="btn" data-id="tableWeight_0" onclick="DelTableCell(this)">删除一列</span>
+                              <span class="btn" data-id="tableWeight_0" onclick="AddTableRow(this)">添加一行</span>
+                              <span class="btn" data-id="tableWeight_0" onclick="DelTableRow(this)">删除一行</span>
+
+                            </div>
+                            
+                            <table id="tableWeight_0" class="table table-bordered">
+                                <thead>
+                                  <tr>
+                                    <th>#</th>
+                                    <th>KEY Param</th>
+                                    <th>KEY Param</th>
+                                    <th>KEY Param</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action1_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+
+
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li  data-id="action1_0" onclick="selectaction(this)">None</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Action</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Param</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Value</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Result</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Return</li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li  data-id="action1_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>
+                                     
+                                    
+                                      
+                                        <input type="text" class="form-control" list="item_action1_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action1_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action2_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action2_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action2_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action2_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action2_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action3_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action3_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action3_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action3_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action3_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action4_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action4_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action4_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action4_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action4_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action5_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action5_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action5_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action5_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action5_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action6_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action6_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action6_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action6_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action6_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action7_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action7_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action7_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action7_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action7_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action8_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action8_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action8_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action8_0" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action8_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="input-group">
+                                        
+                                        <div class="input-group-btn">
+                                          <button id="action9_0" type="button" class="btn btn-default">None</button>
+                                          <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            <span class="caret"></span>
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                            <li data-id="action9_0" onclick="selectaction(this)">None</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Action</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">FunctionName</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Param</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Value</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">LocalVar</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">GlobalVar</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Result</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Return</li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                                            <li data-id="action9_0"  onclick="selectaction(this)">Separated link</li>
+                                          </ul>
+                                        </div>                 
+                                        <input type="text" class="form-control"  list="item_action9_0" id="data_list_input1" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                                        <datalist id="item_action9_0">
+                                        </datalist>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                            </table>   
+                        
+                        
+                          </div> 
+                        </div>
+                        
+                        
+                      </div> 
+                      <div class="row">
+                        <span class="btn btn-info" onclick="Addfunc()" style="margin-bottom: 30px; margin-right: 30px;float: right;">Add Function</span>
+                      </div>
+                    </div>
+
+                    <div class="parent_table form-group panel panel-default row">
+                      <div class="panel-body">
+
+                        
+                        <div class="form-group row">
+                          <label for="inputPas" class="col-sm-2 control-label">选中父页面</label>
+                          <div class="col-sm-10">
+                            <select id="select_parent_page" class="form-control" onchange="selectparentpage()">
+                        
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inpud3" class="col-sm-2 control-label">页面跳转功能</label>
+                          <div class="col-sm-10" >
+                            <select class="form-control" id="select_parent_func" onchange="selectparentfunc()">
+                             
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputEmail3" class="col-sm-2 control-label">功能参数</label>
+                          <div class="col-sm-10">
+                            <div class="input-group"  style="float:left;display:flex;width:100%">
+                      
+                              <input type="text" id="param1" style="margin-right: 5px;" class="form-control" placeholder="Param1">
+                              <input type="text" id="param2" style="margin-right: 5px;" class="form-control" placeholder="Param2">
+                              <input type="text" id="param3" style="margin-right: 5px;" class="form-control" placeholder="Param3">
+                              <input type="text" id="param4" style="margin-right: 5px;" class="form-control" placeholder="Param4">
+                              <input type="text" id="param5" style="margin-right: 5px;" class="form-control" placeholder="Param5">
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    
+
+                    <div class="form-group row">
+                      <div class="col-sm-10" >
+                        
+                      </div>
+                      <div class="col-sm-2" >
+                        <span class="btn btn-success" onclick="save()">Save</span>
+                      </div>
+                    </div>
+                    
+                  
+                  </form>
+                  </div>
+                </div>
+              </el-tab-pane>
+              <el-tab-pane label="CaseList" name="CaseList">
+                <div id="caselist">
+                  
+                </div>
+              </el-tab-pane>
+            </el-tabs>
+
+        <!-- Colding Area -->
+        <el-tabs type="border-card" v-model="tabActiveName">
+          <el-tab-pane label="Hierarchy" name="hierarchy">
+            <div class="input-group input-group-sm">
+              <div class="input-group-btn">
+                <button class="btn btn-default">
+                  <i class="glyphicon glyphicon-plus"></i>
+                </button>
+              </div>
+              <input id="jstree-search" type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </span>
+            </div>
+            <div class="box">
+              <div id="jstree-hierarchy"></div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="Console" name="console">
+            <div id="console">
+              <img v-if="codeRunning" src="/static/running.svg">
+              <pre
+                ref="console"><span style="cursor: pointer" v-for="data in pyshell.consoleData" @dblclick="gotoCursorLine(data.lineno)" v-text="data.value"></span></pre>
+            </div>
+          </el-tab-pane>
+        </el-tabs>
+      </div>
+    </div>
+
+    <!-- alert and dialogs -->
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">
+              <span class="color-red">
+                <i class="fa fa-warning"></i> Error</span>
+            </h4>
+          </div>
+          <div class="modal-body">
+            <pre v-html="error"></pre>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="/cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="/cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/cdn.jsdelivr.net/bootstrap.select/1.12.2/js/bootstrap-select.min.js"></script>
+
+<!-- ace editor -->
+<script src="/cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-noconflict/ace.min.js"></script>
+<script src="/cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-noconflict/mode-python.min.js"></script>
+<script src="/cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-noconflict/ext-language_tools.min.js"></script>
+<script src="/cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-noconflict/ext-searchbox.min.js"></script>
+<script src="/cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-noconflict/theme-monokai.js"></script>
+
+<!-- <script src="http://10.240.187.174:8000/_d/js"></script> -->
+<script src="/cdn.jsdelivr.net/npm/jstree@3.3.8/dist/jstree.min.js"></script>
+
+<script src="{{static_url('libs/vue-2.5.16/vue.js')}}"></script>
+<script src="/unpkg.com/element-ui/lib/index.js"></script>
+
+<script src="{{static_url('js/common.js')}}"></script>
+<script src="{{static_url('js/index.js')}}"></script>
+
+<script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+
+
+<!-- Baidu Analytics -->
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?eefa59dfd5fb29fcc57a8b2437ad5ab1";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+
+</script>
+
+
+<script>
+  var allpageobj = "";//全局变量
+  var func_panl_id = 0;
+  function search_input_value(obj){ 
+    var tea_school=obj.value;
+    obj.value = obj.value
+    obj.setAttribute("value",obj.value)
+
+  }
+  function selectparentfunc(){
+    // 切换时先清楚class param
+    for(var j=0;j<5;j++){
+      var param= document.getElementById(`param${j+1}`)
+
+      param.setAttribute("class","form-control")
+      param.setAttribute("value","")
+
+    }
+
+    var page_name= $('#select_parent_page option:selected').val();
+
+    var func_name = $('#select_parent_func option:selected').val();
+    console.log("vassssdd:",func_name)
+
+    for(var i=0,rows=allpageobj.length; i<rows; i++){
+      
+      if(page_name ==allpageobj[i]['PageName']){
+        //  获取当前页面的功能列表 
+        var func_param = allpageobj[i]["Functions"][func_name]["func_param"]
+        console.log("func_param::",func_param)
+
+        for(var j=0;j<func_param.length;j++){
+            console.log(`#param${j+1}`)
+            var param= document.getElementById(`param${j+1}`)
+
+            param.setAttribute("class","form-control param")
+            param.setAttribute("value",func_param[j])
+         
+            
+
+          }
+
+
+      }
+    }
+
+
+    
+  }
+  function selectparentpage(){
+
+    var vs = $('#select_parent_page option:selected').val();
+    console.log("vassss:",vs)
+    for(var i=0,rows=allpageobj.length; i<rows; i++){
+      console.log("vsd",vs,allpageobj[i]['PageName'])
+      if(vs ==allpageobj[i]['PageName']){
+        console.log(allpageobj[i]);
+        //  获取当前页面的功能列表 
+        var pageobj = allpageobj[i]["Functions"]
+        
+        var selectparentfunc = document.getElementById("select_parent_func")
+        $("#select_parent_func").empty()
+
+        var str =""
+        for(var key in pageobj){
+          
+          str = str+"<option value="+key+">"+key+"</option>"
+
+        }
+        selectparentfunc.innerHTML = str;
+        
+      }
+
+  }}
+
+  function selectaction(e){
+    //获取被选中的option标签selectaction
+    
+    var id = e.getAttribute('data-id');
+    console.log(id,e.innerHTML);
+    console.log(document.getElementById(id));
+    document.getElementById(id).innerHTML = e.innerHTML;
+    var action_list = ["click","input","start","start_app","stop","text"];
+    var param_list = [];
+    // 获取该页面的元素
+    var ele_table = document.getElementById("para_table");
+    var rows = ele_table.rows.length;
+    for(var i=1;i<rows;i++){
+      param_list.push(ele_table.rows[i].cells[0].innerHTML)
+      
+    }
+    param_list.push("AppPackage");
+    param_list.push("MainActivity");
+    
+    if(e.innerHTML=="Action"){
+      console.log("e.innerHTML",e.innerHTML,"#item_"+id)
+      
+      
+      $('#item_'+id +' option').remove();
+      var item_action = document.getElementById("item_"+id)
+      console.log("e.innerHTMLitem_action",item_action)
+      
+ 
+      var str =""
+      for(var i=0;i<action_list.length;i++){
+        str = str+"<option value="+action_list[i]+">"+action_list[i]+"</option>"
+      }
+      console.log("e.str",str)
+      item_action.innerHTML = str;
+      
+    
+    }else if(e.innerHTML=="FunctionName"){
+      $('#item_'+id +' option').remove();
+      var item_action = document.getElementById("item_"+id);
+      item_action.innerHTML = "";
+      
+
+    }else if(e.innerHTML=="Value"){
+      $('#item_'+id +' option').remove();
+      console.log("::::","item_"+id)
+      var item_param = document.getElementById("item_"+id)
+      
+ 
+      var str =""
+      for(var i=0;i<param_list.length;i++){
+        str = str+"<option value="+param_list[i]+">"+param_list[i]+"</option>"
+      }
+      console.log("e.str",str)
+      item_param.innerHTML = str;
+      
+
+    }else if(e.innerHTML=="Param"){
+      $('#item_'+id +' option').remove();
+      e.parentNode.parentNode.parentNode.children[1].setAttribute("class","form-control param");
+      var item_action = document.getElementById("item_"+id);
+
+      var pp = $('#item_'+id).parent().parent().parent().parent().find(".param");
+      var params_arr =[];
+      for(var i=0;i<pp.length;i++){
+        console.log("ooo:",pp[i].value);
+        params_arr.push(pp[i].value)
+
+      }
+      var newArr = params_arr.filter(function(item,index){
+      return params_arr.indexOf(item) === index;  // 因为indexOf 只能查找到第一个 
+      });
+
+      console.log("ddd:",pp)
+      var str =""
+      for(var i=0;i<newArr.length;i++){
+        str = str+"<option value="+newArr[i]+">"+newArr[i]+"</option>"
+      }
+      console.log("e.str",str)
+      item_action.innerHTML = str;
+
+    }else if(e.innerHTML=="Result"){
+      e.parentNode.parentNode.parentNode.children[1].setAttribute("class","form-control param");
+      var item_action = document.getElementById("item_"+id);
+
+      var pp = $('#item_'+id).parent().parent().parent().parent().find(".param");
+      var params_arr =[];
+      for(var i=0;i<pp.length;i++){
+        console.log("ooo:",pp[i].value);
+        params_arr.push(pp[i].value)
+
+      }
+      var newArr = params_arr.filter(function(item,index){
+      return params_arr.indexOf(item) === index;  // 因为indexOf 只能查找到第一个 
+      });
+
+      console.log("ddd:",pp)
+      var str =""
+      for(var i=0;i<newArr.length;i++){
+        str = str+"<option value="+newArr[i]+">"+newArr[i]+"</option>"
+      }
+      console.log("e.str",str)
+      item_action.innerHTML = str;
+
+    }
+
+    
+  }
+
+  function Addfunc(){
+    //var add_function = document.getElementById("add_function"); 
+    //add_function.appendChild($(function_content))
+    func_panl_id = func_panl_id+1;
+    var function_content = `
+    <div class="form-group panel panel-success row">
+      <div class="panel-body" style="height: auto;">
+
+        <div class="form-group row">
+          <span class="btn" data-id="tableWeight_${func_panl_id}" onclick="AddTableCell(this)">添加一列</span>
+          <span class="btn" data-id="tableWeight_${func_panl_id}" onclick="DelTableCell(this)">删除一列</span>
+          <span class="btn" data-id="tableWeight_${func_panl_id}" onclick="AddTableRow(this)">添加一行</span>
+          <span class="btn" data-id="tableWeight_${func_panl_id}" onclick="DelTableRow(this)">删除一行</span>
+
+        </div>
+        
+        <table id="tableWeight_${func_panl_id}" class="table table-bordered">
+          
+          <thead>
+            <tr>
+                      <th>#</th>
+                      <th>KEY Param</th>
+                      <th>KEY Param</th>
+                      <th>KEY Param</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action1_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+
+
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action1_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action1_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>
+                       
+                      
+                        
+                          <input type="text" class="form-control"  list="item_action1_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action1_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action2_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action2_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action2_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action2_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action2_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action3_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action3_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action3_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action3_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action3_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action4_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action4_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action4_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action4_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action4_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action5_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action5_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action5_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action5_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action5_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action6_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action6_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action6_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action6_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action6_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action7_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action7_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action7_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action7_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action7_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action8_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action8_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action8_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action8_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action8_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                          
+                          <div class="input-group-btn">
+                            <button id="action9_${func_panl_id}" type="button" class="btn btn-default">None</button>
+                            <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                              <li data-id="action9_${func_panl_id}" onclick="selectaction(this)">None</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Action</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">FunctionName</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Param</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Value</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">LocalVar</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">GlobalVar</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Result</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Return</li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+                              <li data-id="action9_${func_panl_id}"  onclick="selectaction(this)">Separated link</li>
+                            </ul>
+                          </div>                 
+                          <input type="text" class="form-control"  list="item_action9_${func_panl_id}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+                          <datalist id="item_action9_${func_panl_id}">
+                          </datalist>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+              </table>   
+          
+          
+            </div> 
+          </div>
+            
+    `
+    $("#add_function").append(function_content);
+    console.log("add function")
+  }
+  //动态添加行
+
+  function AddTableRow(e)
+  {
+
+    var id = e.getAttribute('data-id');
+    console.log(id,id.split("_").length);
+    //获取当前panlid
+
+    var panlid = id.split("_")[1];
+    
+    var Table = document.getElementById(id); //取得自定义的表对象
+    
+    var rows = Table.rows.length;
+    
+    NewRow = Table.insertRow(); //添加行
+
+   
+    var cellLength=Table.rows[0].cells.length;
+
+    var last_td_button_id = Table.rows[rows-1].cells[cellLength-1].children[0].children[0].children[0].getAttribute("id")
+    var max_action_num = parseInt(last_td_button_id.split("_")[0].split("action")[1])
+
+    
+    var columncell = `<th scope="row">3</th>`
+
+
+    console.log(cellLength)
+    for(var i=0; i<cellLength;i++){
+      var NewCell=NewRow.insertCell();
+      max_action_num = max_action_num+1
+      var cellContent = ` 
+    <div class="input-group">          
+      <div class="input-group-btn">
+        <button id="action${max_action_num}_${panlid}" type="button" class="btn btn-default">None</button>
+        <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown1">
+          <li data-id="action${max_action_num}_${panlid}" onclick="selectaction(this)">None</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Action</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">FunctionName</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Param</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Value</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">LocalVar</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">GlobalVar</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Result</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Return</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Separated link</li>
+        </ul>
+      </div>                 
+      <input type="text" class="form-control"  list="item_action${max_action_num}_${panlid}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+      <datalist id="item_action${max_action_num}_${panlid}">
+      </datalist>
+    </div>
+    ` 
+      if(i==0){
+        
+        NewCell.innerHTML=columncell;
+       }else{
+        NewCell.innerHTML=cellContent;
+
+       }
+      
+      
+      }
+  }
+  
+  //动态添加列
+  function AddTableCell(e){
+    var id = e.getAttribute('data-id');
+    console.log(id);
+    var panlid = id.split("_")[1];
+    
+    var columncell = "<th>KEY Param</th>"
+
+
+
+     var Table = document.getElementById(id);  //取得自定义的表对象
+    
+     var rowLength = Table.rows.length;  //行數量
+
+     var cellLength=Table.rows[0].cells.length; //查找單元格数量
+
+
+
+    var last_td_button_id = Table.rows[rowLength-1].cells[cellLength-1].children[0].children[0].children[0].getAttribute("id")
+    var max_action_num = parseInt(last_td_button_id.split("_")[0].split("action")[1])
+
+     for(var i=0;i<rowLength;i++){
+       //第一行添加一个输入框
+       var NewCell= Table.rows[i].insertCell(cellLength)
+
+
+       max_action_num = max_action_num+1
+      var cellContent = ` 
+    <div class="input-group">          
+      <div class="input-group-btn">
+        <button id="action${max_action_num}_${panlid}" type="button" class="btn btn-default">None</button>
+        <button type="button" id="dropdown1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown1">
+          <li data-id="action${max_action_num}_${panlid}" onclick="selectaction(this)">None</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Action</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">FunctionName</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Param</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Value</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">LocalVar</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">GlobalVar</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Result</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Return</li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)" role="separator" class="divider"></li>
+          <li data-id="action${max_action_num}_${panlid}"  onclick="selectaction(this)">Separated link</li>
+        </ul>
+      </div>                 
+      <input type="text" class="form-control"  list="item_action${max_action_num}_${panlid}" value='' autocomplete="on" onkeyup="search_input_value(this)">
+      <datalist id="item_action${max_action_num}_${panlid}">
+      </datalist>
+    </div>
+    ` 
+       
+
+
+       if(i==0){
+        NewCell.innerHTML=columncell;
+       }else{
+        NewCell.innerHTML=cellContent;
+
+       }
+       
+       
+       
+     }
+     
+  }
+  //删除一行
+  function DelTableRow(e){
+    var id = e.getAttribute('data-id');
+    console.log(id);
+    
+    var Table = document.getElementById(id);  //取得自定义的表对象
+    
+    var rowLength = Table.rows.length;  //行數量
+    
+    if(rowLength>2){ 
+       Table.deleteRow(rowLength-1);
+    }else{
+      alert('不能全部删除！');
+    }
+  }
+  //删除一列
+  function DelTableCell(e){
+    var id = e.getAttribute('data-id');
+    console.log(id);
+     
+    var Table = document.getElementById(id);  //取得自定义的表对象
+    
+    var rowLength = Table.rows.length;  //行數量
+    
+    var cellLength=Table.rows[0].cells.length; //查找單元格数量
+    if(cellLength>1){
+      for(var i=0;i<rowLength;i++){
+      Table.rows[i].deleteCell(cellLength-1);
+      }
+    }else{
+      alert('不能全部删除！');
+    }
+   // if(rowLength>2){ 
+       //Table.rows[0].deleteCell(2);
+    //}else{
+    // alert('不能全部删除！');
+    //}
+  }
+
+
+
+  //页面选中事件
+  function selectpage(){
+    //获取被选中的option标签
+    var vs = $('#pagelist option:selected').val();
+    
+    
+    for(var i=0,rows=allpageobj.length; i<rows; i++){
+      console.log("vsd",vs,allpageobj[i]['PageName'])
+      if(vs ==allpageobj[i]['PageName']){
+        console.log(allpageobj[i]);
+        // 处理回显数据
+        document.getElementById("pagename").value = allpageobj[i]["PageName"];
+        //回显checkbox
+        $("#rootpage").attr("checked",false);
+        if (allpageobj[i]["PageType"] == "Activity"){
+          $("#rootpage").attr("checked",true);
+        }else{
+          $("#rootpage").attr("checked",false);
+        }
+        //元素回显
+
+        var table = $("#para_table");
+        table.empty();
+
+        var tr_head = $('<tr> '+ 
+          '<th style="text-align:center" width="9%">Name</th>'+
+         '<th style="text-align:center" width="15%">Desc</th>'+
+          '<th style="text-align:center" width="15%">Selector</th>'+
+          '<th style="text-align:center" width="10%">Text</th>'+
+          '<th style="text-align:center" width="15%">Position</th>'+
+          '<th style="text-align:center" width="15%">Image</th>'+
+          '<th style="text-align:center" width="9%">操作</th>'+ 
+        '</tr>');
+        table.append(tr_head);
+
+        //var tableobj = allpageobj[i]["Elements"]
+        for (var prop in allpageobj[i]["Elements"]) {
+          //获取image的状态值显示在表格里面
+          var pp = "";
+          console.log("keydd:",allpageobj[i]["Elements"][prop]["Image"])
+          if (allpageobj[i]["Elements"][prop]["Image"]!=null){
+
+            for (var key in allpageobj[i]["Elements"][prop]["Image"]){
+              console.log("key:",key)
+              pp = key;
+
+            }
+          }
+          console.log(prop)
+          var tr= $("<tr>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+prop+"</td>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Description"]+"</td>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Selector"].split("==")[1]+ "</td>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Text"]+ "</td>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Position"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Activity"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Index"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Desc"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Package"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["ResourceId"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["Coord"]+"</td>" +
+          "<td style='display:none;' onclick='tdclick(this)'>"+allpageobj[i]["Elements"][prop]["ClassName"]+"</td>" +
+          "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+pp+"</td>" +
+          "<td align='center' onclick='deletetr(this)'><button type='button' class='btn btn-xs btn-link' >"+"删除"+"</button></td></tr>");
+          table.append(tr);
+        }
+        
+        break;
+
+      }
+    }
+    
+   }
+
+  function go(){
+
+    // 获取文件保存的目录，这个必须输入的，请先确认好
+    var ele_info = {};
+    var filepath = document.getElementById("filepath").value;
+    ele_info["file_path"] = filepath
+    console.log("lllpppl:", "flag")
+    $.ajax({
+      url: "/case/info",
+      type: "GET",
+      dataType: "json",
+      data:ele_info,
+      success: function(data){
+        //console.log("dddll",data)
+        allpageobj = data['all_page_obj']
+        var pagelist = $("#pagelist");
+        $("#pagelist").empty(); 
+
+        var options= "";
+        for(var i=0,rows=data['data'].length; i<rows; i++){
+          options = "<option>"+data['data'][i]+"</option>"
+          pagelist.append(options)
+        }
+        
+        //加载到父页面配置中
+        var select_parent_page = $("#select_parent_page");
+        $("#select_parent_page").empty(); 
+        var options= "";
+        for(var i=0,rows=data['data'].length; i<rows; i++){
+          options = "<option>"+data['data'][i]+"</option>"
+          select_parent_page.append(options)
+        }
+       
+
+      },// end sucess func
+      error: function(data){
+          console.log(data)
+      }// end error func
+  })
+
+  
+  }
+  function save(){
+    var ele_info = {};
+    // 获取文件保存的目录，这个必须输入的，请先确认好
+    var filepath = document.getElementById("filepath").value;
+    ele_info["file_path"] = filepath
+    // 获取页面的名称inputEmail3
+    var page_name = document.getElementById("pagename").value;
+
+    ele_info["page_name"] = page_name
+    //获取是否是根结点
+    var flag = document.getElementById('rootpage').checked;
+    
+    console.log("lllpppl:", flag)
+    ele_info["root_page"] = flag
+   
+
+    var mytable = document.getElementById("para_table");
+    var data = [];
+    
+
+    
+
+    console.log("data::0");
+  
+    for(var i=0,rows=mytable.rows.length; i<rows; i++){
+      for(var j=0,cells=mytable.rows[i].cells.length; j<cells-1; j++){
+        if(!data[i]){
+          data[i] = new Array();
+        }
+        data[i][j] = mytable.rows[i].cells[j].innerHTML;
+      }
+  
+    }
+    ele_info["elements"] = data.slice(1)
+
+    
+    
+    console.log($("#add_function").find('table'))
+    var func_tab_list = $("#add_function").find('table');
+    ele_info["functions"] = []
+    var key="";
+    var value= "";
+    for(var p=0;p<func_tab_list.length;p++){
+      //console.log(func_tab_list[p])
+      //获取功能列表编辑的数据
+      var data1 = [];
+      for(var i=1;i<func_tab_list[p].rows.length; i++){
+        for(var j=1; j<func_tab_list[p].rows[i].cells.length; j++){
+          console.log(func_tab_list[p].rows[i].cells[j])
+          if(!data1[i]){
+            data1[i] = new Array();
+          }
+          key = func_tab_list[p].rows[i].cells[j].children[0].children[0].children[0].innerHTML;
+          value = func_tab_list[p].rows[i].cells[j].children[0].children[1].value;
+          console.log("value",func_tab_list[p].rows[i].cells[j].children[0].children[1],value)
+          data1[i][j] = key+":"+value;
+        }
+    
+      }
+      ele_info["functions"].push(data1.slice(1));
+      // 处理父页面跳转
+
+      var select_parent_page = $('#select_parent_page option:selected').val();
+      var select_parent_func = $('#select_parent_func option:selected').val();
+      var parms = []
+      for(var j=0;j<5;j++){
+        var param= document.getElementById(`param${j+1}`)
+        if (param.value){
+          parms.push(param.value)
+
+        }
+        
+        
+
+      }
+      if (select_parent_func){
+          ele_info["parents"] = {
+          "select_parent_page":select_parent_page,
+          "select_parent_func":select_parent_func,
+          "parms":parms
+        }
+      }else{
+          ele_info["parents"]=[]
+        }
+      
+      ele_info["serial"]=localStorage.getItem("serial")
+      console.log("serial",ele_info["serial"])
+
+      
+      
+      
+
+
+    }
+    console.log("ele_functions",ele_info["functions"]);
+    console.log("save");
+    //var pdata = {"ddd":"23"}
+    $.ajax({
+      url: "/element/add",
+      type: "POST",
+      dataType: "json",
+      data:JSON.stringify(ele_info),
+      success: function(data){
+        console.log("dddddpppp",data)
+
+      },// end sucess func
+      error: function(data){
+          console.log(data)
+      }// end error func
+  })
+
+
+  }
+
+  
+  function save_para_table(){
+
+    var tableinfo = gettableinfo();
+    alert(tableinfo);
+   
+   
+   }
+   //get table infomation
+   function gettableinfo(){
+    var key = "";
+    var value = "";
+    var tabledata = "";
+    var table = $("#para_table");
+    var tbody = table.children();
+    var trs = tbody.children();
+    for(var i=1;i<trs.length;i++){
+     var tds = trs.eq(i).children();
+     for(var j=0;j<tds.length;j++){
+      if(j==0){
+       if(tds.eq(j).text()==null||tds.eq(j).text()==""){
+        return null;
+       }
+       key = "key\":\""+tds.eq(j).text();
+      }
+      if(j==1){
+       if(tds.eq(j).text()==null||tds.eq(j).text()==""){
+        return null;
+       }
+       value = "value\":\""+tds.eq(j).text();
+      }
+     }
+     if(i==trs.length-1){
+      tabledata += "{\""+key+"\",\""+value+"\"}";
+     }else{
+      tabledata += "{\""+key+"\",\""+value+"\"},";
+     }
+    }
+    tabledata = "["+tabledata+"]";
+    return tabledata;
+   }
+   
+   function tdclick(tdobject){
+    var td=$(tdobject);
+    td.attr("onclick", "");
+    //1,取出当前td中的文本内容保存起来
+    var text=td.text();
+    //2,清空td里面的内容
+    td.html(""); //也可以用td.empty();
+    //3，建立一个文本框，也就是input的元素节点
+    var input=$("<input>");
+    //4，设置文本框的值是保存起来的文本内容
+    input.attr("value",text);
+    input.bind("blur",function(){
+     var inputnode=$(this);
+     var inputtext=inputnode.val();
+     var tdNode=inputnode.parent();
+     tdNode.html(inputtext);
+     tdNode.click(tdclick);
+     td.attr("onclick", "tdclick(this)");
+    });
+    input.keyup(function(event){
+     var myEvent =event||window.event;
+     var kcode=myEvent.keyCode;
+     if(kcode==13){
+      var inputnode=$(this);
+      var inputtext=inputnode.val();
+      var tdNode=inputnode.parent();
+      tdNode.html(inputtext);
+      tdNode.click(tdclick);
+     }
+    });
+   
+    //5，将文本框加入到td中
+    td.append(input);
+    var t =input.val();
+    input.val("").focus().val(t);
+   //    input.focus();
+   
+    //6,清除点击事件
+    td.unbind("click");
+   }
+   function addtr(){
+    //william add,并且在一个table上添加了一个id:selected_element
+    var mytable = document.getElementById("selected_element");
+    var data = [];
+    var ele_info = {};
+    console.log("data::0");
+    var tmp = "";
+    for(var i=0,rows=mytable.rows.length; i<rows; i++){
+      for(var j=0,cells=mytable.rows[i].cells.length; j<cells; j++){
+        if(!data[i]){
+          data[i] = new Array();
+        }
+        data[i][j] = mytable.rows[i].cells[j].innerHTML;
+      }
+      if (data[i][0].indexOf("activity") != -1){
+        ele_info[data[i][0]] = data[i][1];
+      }
+      if (data[i][0].indexOf("XPathLite") != -1){
+        ele_info[data[i][0]] = data[i][1];
+      }
+      if (data[i][0].indexOf("className") != -1){
+        tmp = data[i][1]
+        ele_info["className"] = tmp.match(/n>(\S*)</)[1];
+
+      }
+      if (data[i][0].indexOf("px") != -1){
+        tmp = data[i][1]
+        ele_info["coordinate"] = tmp.match(/\(.*?\)/)[0];
+      }
+      if (data[i][0].indexOf("text") != -1){
+
+        tmp = data[i][1]
+        ele_info["text"] = tmp.match(/>(\S*)</)[1];
+      }
+      if (data[i][0].indexOf("resourceId") != -1){
+        tmp = data[i][1]
+        ele_info["resourceId"] = tmp.match(/>(\S*)</)[1];
+      }
+      if (data[i][0].indexOf("package") != -1){
+
+        tmp = data[i][1]
+        ele_info["package"] = tmp.match(/>(\S*)</)[1];
+      }
+      if (data[i][0].indexOf("description") != -1){
+        
+        tmp = data[i][1]
+        ele_info["description"] = tmp.match(/>(\S*)</)[1];
+      }
+      if (data[i][0].indexOf("rect") != -1){
+        ele_info["rect"] = data[i][1];
+      }
+      if (data[i][0].indexOf("index") != -1){
+        tmp = data[i][1]
+        ele_info["index"] = tmp.match(/>(\S*)</)[1];
+      }
+      tmp = "";
+
+      
+    }
+    console.log("data::",data,ele_info);
+
+
+
+    //william add 
+
+    var table = $("#para_table");
+    var tr= $("<tr>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+"clickbtn"+"</td>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+"descc"+"</td>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+ele_info["XPathLite"]+ "</td>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+ele_info["text"]+ "</td>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+ele_info["rect"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["activity"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["index"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["description"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["package"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["resourceId"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["coordinate"]+"</td>" +
+     "<td style='display:none;' onclick='tdclick(this)'>"+ele_info["className"]+"</td>" +
+     "<td style='text-align:center;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;' onclick='tdclick(this)'>"+"</td>" +
+     "<td align='center' onclick='deletetr(this)'><button type='button' class='btn btn-xs btn-link' >"+"删除"+"</button></td></tr>");
+    table.append(tr);
+   }
+   function deletetr(tdobject){
+    var td=$(tdobject);
+    td.parents("tr").remove();
+   }
+
+   
+</script>

@@ -1,0 +1,3 @@
+[console_scripts]
+weditorplus = weditorplus.__main__:main
+

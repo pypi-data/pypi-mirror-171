@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: PymaciesArg
+Version: 0.0.1a0
+Summary: An extension that registers all pharmacies in Argentina.
+Home-page: https://github.com/juniors90/PymaciesArg
+Author: Ferreira Juan David
+Author-email: juandavid9a0@gmail.com
+License: The MIT License
+Project-URL: Source, https://github.com/juniors90/PymaciesArg
+Project-URL: Tracker, https://github.com/juniors90/PymaciesArg/issues
+Project-URL: Donate, https://www.paypal.com/donate?hosted_button_id=LFAQ7E7TJ4HSY
+Project-URL: Funding, https://paypal.me/juniors90
+Keywords: Pharmacies,Argentina,Data Science
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+PymaciesArg (Building)
+======================
+
+[![Build status](https://github.com/juniors90/PymaciesArg/actions/workflows/CI.yml/badge.svg)](https://github.com/juniors90/PymaciesArg/actions)
+[![codecov](https://codecov.io/gh/juniors90/PymaciesArg/branch/main/graph/badge.svg?token=kMzNWlpS4X)](https://codecov.io/gh/juniors90/PymaciesArg)
+![docstr-cov](https://img.shields.io/endpoint?url=https://jsonbin.org/juniors90/PymaciesArg/badges/docstr-cov)
+[![GitHub license](https://img.shields.io/github/license/juniors90/PymaciesArg)](https://github.com/juniors90/PymaciesArg/blob/main/LICENSE)
+[![Forks](https://img.shields.io/github/forks/juniors90/PymaciesArg)](https://github.com/juniors90/PymaciesArg/stargazers)
+[![star](https://img.shields.io/github/stars/juniors90/PymaciesArg?color=yellow)](https://github.com/juniors90/PymaciesArg/network/members)
+[![issues](https://img.shields.io/github/issues/juniors90/PymaciesArg?color=teal)](https://github.com/juniors90/PymaciesArg/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/juniors90/PymaciesArg?color=green)](https://github.com/juniors90/PymaciesArg/graphs/contributors)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+

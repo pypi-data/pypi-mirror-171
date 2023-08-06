@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HM1507_3GUI
+Version: 0.4b0
+Summary: Module for saving data from the HAMEG HM1507-3 oscilloscope to the PC.
+Home-page: https://github.com/pypa/sampleproject
+Author: LukasFun, Jean-Claude Feltes
+Author-email: lfreudenberg@uni-osnabrueck.de, jean-claude.feltes@education.lu
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HM1507_3GUI package
+
+This module provides a GUI for saving data from the HAMEG HM1507-3 oscilloscope to the PC as .png, .svg and .csv files. It requires the DSMVLib module.

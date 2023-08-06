@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ManimBook</title>
+    <script defer>
+      // console.log(frame);
+      fetch("index.json").then(async (resp) => {
+        const files = await resp.json();
+        current_ch = 0;
+        const container = document.querySelector("iframe");
+        container.src = files[0].md;
+        function changeframe(f) {
+          container.src = f;
+        }
+
+        drop_btn = document.querySelector(".dropdown button");
+        drop_btn.innerText = files[0].name;
+
+        const slides_btn = document.querySelector(".slides");
+        slides_btn.onclick = () => {
+          container.src = files[current_ch].slides;
+        };
+        for (const file of files) {
+          chapter = document.createElement("span");
+          chapter.innerText = file.name;
+          chapter.onclick = () => {
+            changeframe(file.md);
+            current_ch = files.indexOf(file);
+            drop_btn.innerText = file.name;
+          };
+          document.querySelector(".dropdown-content").appendChild(chapter);
+        }
+
+        container.contentWindow.onclick = function (event) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        };
+        window.onclick = function (event) {
+          if (!event.target.matches(".dropbtn")) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains("show")) {
+                openDropdown.classList.remove("show");
+              }
+            }
+          }
+        };
+      });
+      function showChapters() {
+        document.getElementById("chapters").classList.toggle("show");
+      }
+    </script>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #content {
+        position: absolute;
+        border: none;
+        height: 95%;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      /* Dropdown Button */
+      .dropbtn {
+        background-color: #3498db;
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtn:hover,
+      .dropbtn:focus {
+        background-color: #2980b9;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 60%;
+        z-index: 100;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content span {
+        color: black;
+        background-color: #f2f2f2;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content span:hover {
+        background-color: #ddd;
+      }
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {
+        display: block;
+      }
+      .topnav {
+        position: absolute;
+        display: flex;
+        background-color: #333;
+        overflow: visible;
+        height: 50px;
+        width: 100%;
+      }
+      .book {
+        width: 40%;
+      }
+      .book h1 {
+        text-align: center;
+        font-size: large;
+        color: white;
+        padding: 0;
+        margin: 8px;
+      }
+      .slides {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+        justify-content: center;
+      }
+
+      .slides .toggle {
+        display: flex;
+        flex-direction: column;
+        background: #ccc;
+        border-radius: 5px;
+      }
+
+      .slides .toggle button {
+        height: 4em;
+        width: 4em;
+        border: none;
+        background-color: transparent;
+      }
+
+      .toggle svg {
+        height: 1.5em;
+        width: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="topnav">
+      <div class="dropdown">
+        <button onclick="showChapters()" class="dropbtn">Chapters</button>
+        <div id="chapters" class="dropdown-content"></div>
+      </div>
+      <div class="book">
+        <h1>Live Demo</h1>
+      </div>
+    </nav>
+    <iframe id="content" src="https://www.google.com">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+    <div class="slides">
+      <div class="toggle">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

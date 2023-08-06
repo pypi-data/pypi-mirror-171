@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: manimbook-create
+Version: 0.1.4
+Summary: Convert a Jupyter notebook to a ManimBook (compressed html documents)
+Author: Kush Patel
+Author-email: kush@kush.in
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: chanim (>=1.3,<2.0)
+Requires-Dist: manim (>=0.16.0.post0,<0.17.0)
+Requires-Dist: manim-physics (>=0.2.4,<0.3.0)
+Requires-Dist: nbconvert (>=7.2.1,<8.0.0)
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+

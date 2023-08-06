@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/Dimv.egg-info/PKG-INFO
+src/Dimv.egg-info/SOURCES.txt
+src/Dimv.egg-info/dependency_links.txt
+src/Dimv.egg-info/requires.txt
+src/Dimv.egg-info/top_level.txt
+src/dimv/Dimv.py
+src/dimv/__init__.py
+src/dimv/download.py
+src/dimv/download_folder.py
+src/dimv/parse_url.py

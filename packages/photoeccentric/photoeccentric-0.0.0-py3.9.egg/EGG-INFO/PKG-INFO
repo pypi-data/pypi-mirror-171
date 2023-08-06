@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: photoeccentric
+Version: 0.0.0
+Summary: Fall 2020/Spring 2021
+Home-page: https://link-to-your-project
+Author: Sheila Sagear
+Author-email: Sheila Sagear <ssagear@ufl.edu>
+License: BSD 3-Clause License
+Platform: UNKNOWN
+License-File: LICENSE
+
+photoeccentric is a transit light curve analysis tool for eccentric transiting systems.
+
+photoeccentric has its documentation hosted at https://photoeccentric.readthedocs.io/en/latest/.
+
+.. image:: docs/logo.jpeg
+   :width: 400
+   :alt: Photoeccentric Logo
+
+Author: Sheila Sagear (ssagear@ufl.edu)
+
+

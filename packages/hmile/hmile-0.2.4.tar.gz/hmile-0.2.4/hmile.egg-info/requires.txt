@@ -1,0 +1,15 @@
+mplfinance
+ta
+pandas
+elasticsearch
+torch
+numpy
+tensorflow
+tensorboard
+yfinance
+multitasking
+IPython
+TA-Lib
+
+[test]
+unittest2

@@ -1,0 +1,4 @@
+[console_scripts]
+LiuyaoYucexue = LiuyaoYucexue.__main__:main
+liuyao-yucexue = LiuyaoYucexue.__main__:main
+

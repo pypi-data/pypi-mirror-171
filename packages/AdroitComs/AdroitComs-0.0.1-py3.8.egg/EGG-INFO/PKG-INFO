@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: AdroitComs
+Version: 0.0.1
+Summary: A package for communicating with HDT Adroit robots over CAN.
+Home-page: UNKNOWN
+Author: Cameron Devine
+Author-email: camdev@uw.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

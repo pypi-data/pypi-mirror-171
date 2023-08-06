@@ -1,0 +1,12 @@
+SQLAlchemy
+psycopg2
+
+[build]
+setuptools-git
+wheel
+twine
+
+[test]
+pytest
+pytest-cov
+testfixtures

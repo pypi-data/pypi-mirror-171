@@ -1,0 +1,16 @@
+rules:
+  space-word: 1
+  space-punctuation: 1
+  fullwidth: 1
+  halfwidth: 1
+  no-space-fullwidth: 1
+  spellcheck: 2
+spellcheck:
+  words:
+    - HTML
+    - URL
+    - iOS
+    - iPad
+    - iPhone
+    - Wi-Fi
+    - wifi = Wi-Fi

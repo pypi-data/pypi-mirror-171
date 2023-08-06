@@ -1,0 +1,15 @@
+pystatis/__init__.py,sha256=lN0bRc8118u_CDEa_ph66aLFh28zTdV8Tno9feJTW0I,676
+pystatis/cache.py,sha256=GKt96KiOMq6gDB8lqyEBJ8-tlELZPik39S56Fwve9Vo,6564
+pystatis/config.py,sha256=S86jRBMHm7ktQcy7l4wgmOI6ST4OMd0SF1sU3F3dLZc,5159
+pystatis/cube.py,sha256=yppzLEiur_Gdm-1HShwpJDe_YnIjf43N5QXQuBrgq_o,6593
+pystatis/custom_exceptions.py,sha256=d06b6GgLQ1FQ0W-3QkMb6fvkzFQpPvQtWVu8kH_lmY8,191
+pystatis/data/evas.csv,sha256=CHdBvcmaZjqpTwz8h9FGDu9Xh7YgUrNX_VIQduKOhiE,13917
+pystatis/find.py,sha256=jPC8L0qv-MIwA3In2WF_5sj772lyCeX-8RmNH5K6-PE,9968
+pystatis/helloworld.py,sha256=rMnFOwRcM2M4MSDWW64m3BrG1UyZVMZEW8EGdvoqwBQ,1448
+pystatis/http_helper.py,sha256=8OiBfSO5_IfdvmkgEv7nksglvMu_fmiSgQeTw5Yf8lY,9490
+pystatis/profile.py,sha256=yfozPQJfR-juEyQcBBnLMjN4udm1PUdHDGUDqRwObos,2136
+pystatis/table.py,sha256=ekTZn2g85jaQapprqD9GrAntehsYtOrGMpL8SYj3-_s,1735
+pystatis-0.1.4.dist-info/LICENSE.txt,sha256=uo95Mmgrnb6LUINwUDXN1zYNxG8gdaOsqJOmG1nzVM0,1074
+pystatis-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pystatis-0.1.4.dist-info/METADATA,sha256=rZKh4_HpoKngvFReIfLp6bm--sUV4Ni5i_KmVdUuWwc,9731
+pystatis-0.1.4.dist-info/RECORD,,

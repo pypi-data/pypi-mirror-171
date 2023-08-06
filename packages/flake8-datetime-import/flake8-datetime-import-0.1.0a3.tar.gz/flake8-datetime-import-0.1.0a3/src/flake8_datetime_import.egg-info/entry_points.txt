@@ -1,0 +1,2 @@
+[flake8.extension]
+DTI = flake8_datetime_import:Plugin

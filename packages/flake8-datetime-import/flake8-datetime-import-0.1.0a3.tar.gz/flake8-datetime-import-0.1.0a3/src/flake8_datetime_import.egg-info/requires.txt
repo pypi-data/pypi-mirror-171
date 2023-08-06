@@ -1,0 +1,13 @@
+
+[:python_version < "3.8"]
+importlib-metadata>=0.9
+
+[build]
+build
+
+[dev]
+tox
+pre-commit
+
+[gh]
+tox-gh

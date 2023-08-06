@@ -1,0 +1,4 @@
+[console_scripts]
+QimenDunjiaYushishenYingyong = QimenDunjiaYushishenYingyong.__main__:main
+qimen-dunjia-yushishen-yingyong = QimenDunjiaYushishenYingyong.__main__:main
+

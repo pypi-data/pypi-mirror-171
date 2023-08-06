@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-card-framework
+Version: 0.1.0
+Summary: API for rendering Chat App Card json.
+Home-page: https://github.com/google/python-card-framework
+Author: David Harcombe
+Author-email: davidharcombe@google.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+

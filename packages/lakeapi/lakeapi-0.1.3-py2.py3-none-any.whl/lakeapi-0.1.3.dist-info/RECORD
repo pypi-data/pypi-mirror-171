@@ -1,0 +1,13 @@
+lakeapi/__init__.py,sha256=SMqpedpwRxS_gA1SUS_0YXmoAkR6KKRYCcgbNi5vxSA,209
+lakeapi/_cache.py,sha256=Nxi4xxIXlw7WsfjQTqVn_DajqVk9hXU4wrS8xgrxXtY,534
+lakeapi/_read.py,sha256=q7GSsLjKqH1FmdcMFM1u-j2r_olTrM08KXw9V5X8Xjk,6995
+lakeapi/_read_parquet.py,sha256=Korf2EYSsPsyyWmALf8NmLEIDEQrJtEmYGxAuTB04l8,47524
+lakeapi/main.py,sha256=Xer2l-Tvda4HJ7cenR0_xWm-AnCZDHm2c-9hKiLO3RM,6192
+lakeapi-0.1.3.dist-info/AUTHORS.rst,sha256=PFotYx9cMV3szyoM8q7hJWUYlQ35rpP_YWVgotGcruo,150
+lakeapi-0.1.3.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+lakeapi-0.1.3.dist-info/METADATA,sha256=Ag88Hlcl74VGFIX93aJIfS2HuPOm3Zg24c3PBxfy29I,2893
+lakeapi-0.1.3.dist-info/NOTICE.rst,sha256=mOKqcIo-clgsjCVgd5lPgaI9YUmFN_gE9dmGu4hPT8s,97
+lakeapi-0.1.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+lakeapi-0.1.3.dist-info/entry_points.txt,sha256=GvCQpJTj0lqcq98OzGsfbw84FuDA9N_8haZnX4usBHQ,46
+lakeapi-0.1.3.dist-info/top_level.txt,sha256=I7kSHw3ChFRVhOa_gmzGy3rBCYCP8gPvBMmbWuYY6Ys,8
+lakeapi-0.1.3.dist-info/RECORD,,

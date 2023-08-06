@@ -1,0 +1,6 @@
+README.md
+setup.py
+calculadora_vinicius.egg-info/PKG-INFO
+calculadora_vinicius.egg-info/SOURCES.txt
+calculadora_vinicius.egg-info/dependency_links.txt
+calculadora_vinicius.egg-info/top_level.txt

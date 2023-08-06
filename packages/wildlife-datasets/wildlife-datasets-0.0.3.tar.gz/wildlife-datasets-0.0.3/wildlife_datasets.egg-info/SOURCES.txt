@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+wildlife_datasets.egg-info/PKG-INFO
+wildlife_datasets.egg-info/SOURCES.txt
+wildlife_datasets.egg-info/dependency_links.txt
+wildlife_datasets.egg-info/requires.txt
+wildlife_datasets.egg-info/top_level.txt

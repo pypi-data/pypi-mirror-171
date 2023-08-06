@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: play-and-code
+Version: 0.0.1
+Summary: A small example package
+Author-email: Play and Code <info@play-code.de>, Hassan Abu-Jabir <hassan@abujabir.de>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (>=2.1.2)
+
+Simple Visual Python learning lib

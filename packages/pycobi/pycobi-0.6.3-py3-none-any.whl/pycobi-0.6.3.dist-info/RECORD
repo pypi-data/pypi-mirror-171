@@ -1,0 +1,9 @@
+pycobi/__init__.py,sha256=rkG_Ftqn4LeZDuNU9xEQJpmx2sbIpe5K0jQrYI7o_ao,1123
+pycobi/pycobi.py,sha256=YHxcfGxOaFlnk4grLyBCUtO6L9ILt8FEfLdvlXxvT1Y,49981
+pycobi_tests/__init__.py,sha256=aaOHAKDRx-hQMePdOq_rZCdXqUYuyJql_KQFR5J7PtA,1070
+pycobi_tests/test_odesystem.py,sha256=46XMR4oegV7zi50eRp7l4kaOmX85M6n4_ufitpZS6Co,741
+pycobi-0.6.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pycobi-0.6.3.dist-info/METADATA,sha256=QLp4KKJEIH1p50JdsFl2Aow-2qUYZGhn7Lrw53wqtLk,4431
+pycobi-0.6.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycobi-0.6.3.dist-info/top_level.txt,sha256=T1L0fgRm_Wt-45xsnmgd-jYzVfYBcDi7e1g3c2YTNWI,20
+pycobi-0.6.3.dist-info/RECORD,,

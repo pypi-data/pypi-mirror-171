@@ -1,0 +1,4 @@
+[console_scripts]
+LieshouTixi = LieshouTixi.__main__:main
+lieshou-tixi = LieshouTixi.__main__:main
+

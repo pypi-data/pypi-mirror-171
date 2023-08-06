@@ -1,0 +1,4 @@
+[console_scripts]
+LianzhaoVer3 = LianzhaoVer3.__main__:main
+lianzhao-ver3 = LianzhaoVer3.__main__:main
+

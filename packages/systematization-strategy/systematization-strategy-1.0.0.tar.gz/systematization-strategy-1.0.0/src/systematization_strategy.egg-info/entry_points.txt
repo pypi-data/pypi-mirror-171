@@ -1,0 +1,2 @@
+[console_scripts]
+sstrategy = sstrategy.__main__:main

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/sstrategy/__init__.py
+src/sstrategy/__main__.py
+src/systematization_strategy.egg-info/PKG-INFO
+src/systematization_strategy.egg-info/SOURCES.txt
+src/systematization_strategy.egg-info/dependency_links.txt
+src/systematization_strategy.egg-info/entry_points.txt
+src/systematization_strategy.egg-info/requires.txt
+src/systematization_strategy.egg-info/top_level.txt

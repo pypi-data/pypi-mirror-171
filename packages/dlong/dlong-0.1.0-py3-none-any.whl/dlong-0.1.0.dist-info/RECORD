@@ -1,0 +1,11 @@
+dlong/__init__.py,sha256=YISxrQDz8W5loNPALdf0zgX9yQdeTk3TDzfPBkLaNIk,123
+dlong/types.py,sha256=vxuWXrOSewqJt5SRy9Uagg0_5LOvJTrmsGBUBEXMXDw,622
+dlong/core/__init__.py,sha256=UuSnFZiQvJ-0oJGaScVqBDcHiHsfr3wUfLkBFo7SQcY,179
+dlong/core/damages.py,sha256=uNX5lkBw7KGRL7jdvMymbT91O3idXLN3XPVz0lI0nm8,923
+dlong/core/discounts.py,sha256=83p684_70UfE_R15UzejzCMiG1ue-OjJ3nlkpHQbUwQ,1187
+dlong/core/recipes.py,sha256=R_r6hJP1d86pya8_OVfkDJ64LQBgR-fsYb5Om1IRbw8,916
+dlong-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dlong-0.1.0.dist-info/METADATA,sha256=dsdYxLdDDYYGtX_5d7XDYMa3OpUFuHIYwz8M3aoCe8s,3586
+dlong-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dlong-0.1.0.dist-info/top_level.txt,sha256=1DW0xLI-YCvx62tc4BrXs8Hikj0kIFJXwBcA0rphD3Q,6
+dlong-0.1.0.dist-info/RECORD,,

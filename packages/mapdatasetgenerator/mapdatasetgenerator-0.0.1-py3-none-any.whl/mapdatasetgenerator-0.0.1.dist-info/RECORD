@@ -1,0 +1,15 @@
+LICENSE,sha256=sD6oI78MrMNiWbRfAZEmZyWXrrEapQqoq9ZuJSA6aPo,1117
+mapdataset/__init__.py,sha256=ZlxwBNSC9gj0M-kDloW5EB13rFzpyIIhGQbXXO1JkCg,18
+mapdataset/lib/__init__.py,sha256=kMx3ZYhjZPIu51kUKIG4ggDAagt3kib5pcgG7nX2-40,67
+mapdataset/lib/ImageGroupReader.py,sha256=1qSio-phjT9HEvj_dxkyxXPK7YyYN6OSynp3srM5BZI,1024
+mapdataset/lib/maps.py,sha256=Yjuz_4xfUl__uYXK0bZy16XvJ7EBZ8OT30K9hKl9cgE,6810
+mapdataset/osm2graphdata.py,sha256=9bEplS7cotWIDp39fDNbA44jQELwggMVEK6CmOthpR8,621
+mapdataset/osm2imgdata.py,sha256=_mVdQwRj8BiTjYqH1yEYaxNYEuGHa7QBjU9p1CpoJVw,734
+mapdataset/read.py,sha256=rQvV_Vfxk16bq99GhGuVcNEE3U3lzxpAGQkfbHQRCog,705
+mapdataset/readmbtiles.py,sha256=aa2NQDiVpsdGAv3B8DyY4ZRRRuUpXMnnRVt87A5sCyA,132
+mapdataset/run.py,sha256=FjO-dOIUzlTf5eF54BQPFTN_HO_1pheU-yhw7ZV716c,688
+mapdataset/sliceimages.py,sha256=W4hFiP7XJjYeTm27UT21h6oH-Wivsru0Hre_fvogodo,215
+mapdatasetgenerator-0.0.1.dist-info/LICENSE,sha256=sD6oI78MrMNiWbRfAZEmZyWXrrEapQqoq9ZuJSA6aPo,1117
+mapdatasetgenerator-0.0.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+mapdatasetgenerator-0.0.1.dist-info/METADATA,sha256=3Nk2-q7zRPVXD7YeH9yRpG-2kXHZSbX1NAJsfwg-J5o,3241
+mapdatasetgenerator-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: raypyc
+Version: 0.0.1
+Summary: A python wrapper for raylib
+Author: Dor Shapira
+Author-email: <sdor2803@gmail.com>
+Keywords: python,raylib,simple,easy-to-use,video games,graphic library
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A python wrapper for raylib using ctypes

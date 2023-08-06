@@ -1,0 +1,4 @@
+[console_scripts]
+TujieLiurenDaquanVol3 = TujieLiurenDaquanVol3.__main__:main
+tujie-liuren-daquan-vol3 = TujieLiurenDaquanVol3.__main__:main
+

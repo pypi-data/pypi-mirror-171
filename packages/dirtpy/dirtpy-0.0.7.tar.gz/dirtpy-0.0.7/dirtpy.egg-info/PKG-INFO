@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dirtpy
+Version: 0.0.7
+Summary: An Entity Component System for your instancing needs
+Author: Auraven
+Author-email: grandbossanvoa@gmail.com
+Keywords: python,pygame,ecs,instance,json,entity,component,system,game
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+An ECS designed for entity instancing with serialization to/from JSON utilizing pydantic. A System update structure built arounds tickrates and priority

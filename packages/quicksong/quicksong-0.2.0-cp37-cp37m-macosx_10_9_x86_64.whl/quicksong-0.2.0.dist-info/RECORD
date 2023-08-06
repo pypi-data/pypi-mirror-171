@@ -1,0 +1,9 @@
+quicksong/__init__.py,sha256=i_oYxuWcJ03ua42FwBYfiiQFkEmnXiKHAz9zGfDG4R4,108
+quicksong/core.py,sha256=ercQWGLGlaS2TJgm3BGjdw41AuEnIGgL04m8zED3Xr0,8069
+quicksong/features.cpython-37m-darwin.so,sha256=ZKZ8YmCiSLSTukXKbNSByrjLqgNb77nuSPVGQMdCZi0,64688
+quicksong/model.py,sha256=VJEgP54klOMj_mST4yrCjA540a_LDaubguqzNx_nscA,574
+quicksong/streaming.py,sha256=LSE6yurXUXJPlY40ovrG2FAant7xNX1IHXY0AP0GRn4,5677
+quicksong-0.2.0.dist-info/METADATA,sha256=NpJskhMUGcHmkKRBXwWxnvw0A2XQ_tLPry2UGkVGlJ8,862
+quicksong-0.2.0.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+quicksong-0.2.0.dist-info/top_level.txt,sha256=sBZIa_3eO77qTldHp-Zw6FdyOgCU20vi_6AlSWE_dpk,10
+quicksong-0.2.0.dist-info/RECORD,,

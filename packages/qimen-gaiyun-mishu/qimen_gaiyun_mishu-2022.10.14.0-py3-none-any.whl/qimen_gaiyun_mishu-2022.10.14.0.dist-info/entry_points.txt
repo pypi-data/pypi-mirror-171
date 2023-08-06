@@ -1,0 +1,4 @@
+[console_scripts]
+QimenGaiyunMishu = QimenGaiyunMishu.__main__:main
+qimen-gaiyun-mishu = QimenGaiyunMishu.__main__:main
+

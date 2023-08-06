@@ -1,0 +1,4 @@
+[console_scripts]
+TaileLantu = TaileLantu.__main__:main
+taile-lantu = TaileLantu.__main__:main
+

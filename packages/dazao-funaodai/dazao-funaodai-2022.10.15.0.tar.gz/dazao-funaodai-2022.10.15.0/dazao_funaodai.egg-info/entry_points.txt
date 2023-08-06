@@ -1,0 +1,4 @@
+[console_scripts]
+DazaoFunaodai = DazaoFunaodai.__main__:main
+dazao-funaodai = DazaoFunaodai.__main__:main
+

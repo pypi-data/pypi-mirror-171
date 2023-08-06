@@ -1,0 +1,12 @@
+README.md
+setup.py
+DazaoFunaodai/README.md
+DazaoFunaodai/__init__.py
+DazaoFunaodai/__main__.py
+DazaoFunaodai/file.pdf
+DazaoFunaodai/index.html
+dazao_funaodai.egg-info/PKG-INFO
+dazao_funaodai.egg-info/SOURCES.txt
+dazao_funaodai.egg-info/dependency_links.txt
+dazao_funaodai.egg-info/entry_points.txt
+dazao_funaodai.egg-info/top_level.txt

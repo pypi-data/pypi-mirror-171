@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+src/cnvrtr/Converter.py
+src/cnvrtr/__init__.py
+src/cnvrtr.egg-info/PKG-INFO
+src/cnvrtr.egg-info/SOURCES.txt
+src/cnvrtr.egg-info/dependency_links.txt
+src/cnvrtr.egg-info/top_level.txt

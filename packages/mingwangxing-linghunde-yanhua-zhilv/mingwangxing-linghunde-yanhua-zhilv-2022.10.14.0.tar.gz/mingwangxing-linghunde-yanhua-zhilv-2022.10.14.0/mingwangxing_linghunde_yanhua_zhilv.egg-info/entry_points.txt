@@ -1,0 +1,4 @@
+[console_scripts]
+MingwangxingLinghundeYanhuaZhilv = MingwangxingLinghundeYanhuaZhilv.__main__:main
+mingwangxing-linghunde-yanhua-zhilv = MingwangxingLinghundeYanhuaZhilv.__main__:main
+

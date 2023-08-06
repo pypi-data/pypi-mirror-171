@@ -1,0 +1,15 @@
+kiriko/__init__.py,sha256=4E321GUFtFfn5nQc4no8CxlaKnezaSyVanY7h8kriP0,95
+kiriko/shell/__init__.py,sha256=-d63PDnXS9oV_iJo9oI7XlxYyWO15SoPTABTwCkgOis,60
+kiriko/shell/usage.py,sha256=r5Grcl8HoGsp2wbwURxPfr7-LarkedFfu1P0hLax_Cw,194
+kiriko/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiriko-0.0.1.dist-info/LICENSE,sha256=-c7nNoVc0tOlHheDKz3DoQ7meSyZGusP6c18nqFochI,1062
+kiriko-0.0.1.dist-info/METADATA,sha256=Lw9d_9Vp9TE8OoV0Gjni7qMBe7VG0ZnZ4tDOtTkU_kw,515
+kiriko-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kiriko-0.0.1.dist-info/entry_points.txt,sha256=F4Gd8Ajme5QdTu_vlzQUAZP41Z2eAWn70gWXM4F0Os0,44
+kiriko-0.0.1.dist-info/top_level.txt,sha256=hQ2CevmIVJeIwg6jLEv9d_p5iqtwC-nxwS6beTLFP_o,7
+kiriko-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kiriko-0.0.1.dist-info/RECORD,,

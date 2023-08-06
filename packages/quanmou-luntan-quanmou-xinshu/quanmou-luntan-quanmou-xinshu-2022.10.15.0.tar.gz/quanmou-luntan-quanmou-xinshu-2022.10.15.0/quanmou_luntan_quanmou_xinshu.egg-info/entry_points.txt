@@ -1,0 +1,4 @@
+[console_scripts]
+QuanmouLuntanQuanmouXinshu = QuanmouLuntanQuanmouXinshu.__main__:main
+quanmou-luntan-quanmou-xinshu = QuanmouLuntanQuanmouXinshu.__main__:main
+

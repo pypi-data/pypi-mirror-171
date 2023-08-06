@@ -1,0 +1,4 @@
+[console_scripts]
+NvrenDaodiZaixiangShenme = NvrenDaodiZaixiangShenme.__main__:main
+nvren-daodi-zaixiang-shenme = NvrenDaodiZaixiangShenme.__main__:main
+

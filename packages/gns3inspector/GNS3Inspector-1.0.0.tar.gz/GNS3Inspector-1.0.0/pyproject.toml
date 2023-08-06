@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "GNS3Inspector"
+version = "1.0.0"
+description = "Tool to easier view and edit the router's configuration files in GNS3"
+license = "ISC"
+authors = ["Lukas Neuenschwander <fjellvannet@gmail.com>"]
+repository = "https://github.com/fjellvannet/GNS3Inspector.git"
+readme = "README.md"
+include = [
+    "LICENSE.md"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^6.0"
+fagus = "^1.0.1"
+rich = "^12.6.0"
+click = "^8.1.3"
+black = "^22.10.0"
+readline = "^6.2.4.1"
+
+
+[tool.black]
+line-length = 120
+
+
+[tool.poetry.scripts]
+gns3inspector = "gns3inspector.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

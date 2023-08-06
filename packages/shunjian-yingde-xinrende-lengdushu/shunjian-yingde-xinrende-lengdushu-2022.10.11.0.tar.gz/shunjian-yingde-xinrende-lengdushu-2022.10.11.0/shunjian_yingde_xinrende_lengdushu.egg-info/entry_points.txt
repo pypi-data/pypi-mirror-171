@@ -1,0 +1,4 @@
+[console_scripts]
+ShunjianYingdeXinrendeLengdushu = ShunjianYingdeXinrendeLengdushu.__main__:main
+shunjian-yingde-xinrende-lengdushu = ShunjianYingdeXinrendeLengdushu.__main__:main
+

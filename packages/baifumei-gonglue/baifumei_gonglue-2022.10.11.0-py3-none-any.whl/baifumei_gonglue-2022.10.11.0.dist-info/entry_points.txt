@@ -1,0 +1,4 @@
+[console_scripts]
+BaifumeiGonglue = BaifumeiGonglue.__main__:main
+baifumei-gonglue = BaifumeiGonglue.__main__:main
+

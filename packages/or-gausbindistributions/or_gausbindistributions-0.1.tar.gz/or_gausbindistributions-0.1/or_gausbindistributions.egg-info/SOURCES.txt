@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+or_gausbindistributions/Binomialdistribution.py
+or_gausbindistributions/Gaussiandistribution.py
+or_gausbindistributions/Generaldistribution.py
+or_gausbindistributions/__init__.py
+or_gausbindistributions.egg-info/PKG-INFO
+or_gausbindistributions.egg-info/SOURCES.txt
+or_gausbindistributions.egg-info/dependency_links.txt
+or_gausbindistributions.egg-info/not-zip-safe
+or_gausbindistributions.egg-info/top_level.txt

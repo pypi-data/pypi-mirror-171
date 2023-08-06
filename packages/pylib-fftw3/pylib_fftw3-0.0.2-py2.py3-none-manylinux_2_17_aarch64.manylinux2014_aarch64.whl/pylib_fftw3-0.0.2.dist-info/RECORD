@@ -1,0 +1,17 @@
+pylib_fftw3/__init__.py,sha256=tcrg5qbInu5-2CQT9sVLM8YU9AUIWVcODr6udrolYL4,464
+pylib_fftw3/placeholder.cpython-36m-aarch64-linux-gnu.so,sha256=UCB0NpHcZW3D-0WC_gCVxBQcjMlu1dsoTzGTWgzvp5U,78456
+pylib_fftw3/include/fftw3.f,sha256=H4pcmkjz43JrZnlwkH0i48sMuf347IvnUh-3mP0778Y,2447
+pylib_fftw3/include/fftw3q.f03,sha256=n23k90Wh2nGdl-bhjo8RgTXR9FOOmpkpy_j9cuz-FcY,25902
+pylib_fftw3/include/fftw3.h,sha256=DdG5iLaB1Xl6rxDCxXwQf33KUQaV5LlLOFXrUlUNKCw,31986
+pylib_fftw3/include/fftw3l.f03,sha256=a3KbqK-kdMISa9ryeAA75i6kWSuMED17MAubrzxkqaI,27203
+pylib_fftw3/include/fftw3.f03,sha256=jXkxOtIOXqPXYpRUivGFB--9l71SOOnvRN-1tOudN0c,55032
+pylib_fftw3/lib64/libfftw3.a,sha256=19xRr6GiYTPYNB4rFD7sbUlRH8RRtJ3euZGtRBNi9lw,1986380
+pylib_fftw3/lib64/cmake/fftw3/FFTW3LibraryDepends.cmake,sha256=lCGq6YTD8TGeBVvAJYf5fhTB1flPQr6z2-Qx7-Mg3_k,4060
+pylib_fftw3/lib64/cmake/fftw3/FFTW3ConfigVersion.cmake,sha256=0qWeaffPICHSfTec6VPUx31aoXUa9JQZgXFELnyZGN8,376
+pylib_fftw3/lib64/cmake/fftw3/FFTW3Config.cmake,sha256=whe-hU2mATQ9U3_IrUsFdGtpu-ZvbTWhBve2iHNPCnk,593
+pylib_fftw3/lib64/cmake/fftw3/FFTW3LibraryDepends-release.cmake,sha256=Ha4rTOUbsxZJJlHivQE1sY06uUM01rvIaUqhSXr6uxA,833
+pylib_fftw3/lib64/pkgconfig/fftw3.pc,sha256=cltjeFpmKQPFpWuA15XWDGG5zwVewPi0nToZDMUsNGQ,387
+pylib_fftw3-0.0.2.dist-info/top_level.txt,sha256=fkB2xOvVsC7C-v09WmA9A0Q5NqcEolS8XlDQbjTc9ag,12
+pylib_fftw3-0.0.2.dist-info/METADATA,sha256=c-Afa8tJuxXuvScWRvirNqPWTF5pBEqwHDxQJoyEr-w,218
+pylib_fftw3-0.0.2.dist-info/RECORD,,
+pylib_fftw3-0.0.2.dist-info/WHEEL,sha256=fs6x75cDYkv5PFRX7iVBbv_gSBHiTS80pxc86x9GRMg,221

@@ -1,0 +1,4 @@
+[console_scripts]
+NvrenXiangzuoChongwuNanrenZhiaiLiewu = NvrenXiangzuoChongwuNanrenZhiaiLiewu.__main__:main
+nvren-xiangzuo-chongwu-nanren-zhiai-liewu = NvrenXiangzuoChongwuNanrenZhiaiLiewu.__main__:main
+

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ICIW_Plots
+Version: 1.0.1
+Summary: A collection of tools for use in the Institute of Chemical Engineering at Ulm University.
+Author: Hannes Stagge
+Author-email: hannes.stagge@uni-ulm.de
+License: MIT License
+License-File: LICENSE.txt

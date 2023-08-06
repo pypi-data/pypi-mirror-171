@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: propergitblame
+Version: 0.0.1
+Summary: a better git blame
+Author: chua qi wang
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: numba
+
+# propergitblame
+propergitblame CLI

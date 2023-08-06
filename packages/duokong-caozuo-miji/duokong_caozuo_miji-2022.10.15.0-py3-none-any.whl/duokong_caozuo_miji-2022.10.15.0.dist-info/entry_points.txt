@@ -1,0 +1,4 @@
+[console_scripts]
+DuokongCaozuoMiji = DuokongCaozuoMiji.__main__:main
+duokong-caozuo-miji = DuokongCaozuoMiji.__main__:main
+

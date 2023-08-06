@@ -1,0 +1,9 @@
+scikit-learn
+torchtext
+torchvision
+torch-geometric
+Pillow
+numpy
+scipy
+pandas
+matplotlib

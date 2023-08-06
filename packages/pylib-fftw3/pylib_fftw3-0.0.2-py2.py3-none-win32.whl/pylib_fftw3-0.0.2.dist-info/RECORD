@@ -1,0 +1,17 @@
+pylib_fftw3/__init__.py,sha256=PICbd0TS55wGVkp66wqGKDBBBQ14_SlVgig8Un-ACDs,480
+pylib_fftw3/placeholder.cp36-win32.pyd,sha256=vqvjML0MUOdrI8mdCtOJQneCpqsy_yYI7iP41wY2ROk,8704
+pylib_fftw3/include/fftw3.f,sha256=H4pcmkjz43JrZnlwkH0i48sMuf347IvnUh-3mP0778Y,2447
+pylib_fftw3/include/fftw3.f03,sha256=WVYEaWqiEFkKNMI3LTHHpz_oNk_B9mkmSGJmEwkxEu0,56296
+pylib_fftw3/include/fftw3.h,sha256=DdG5iLaB1Xl6rxDCxXwQf33KUQaV5LlLOFXrUlUNKCw,31986
+pylib_fftw3/include/fftw3l.f03,sha256=a3KbqK-kdMISa9ryeAA75i6kWSuMED17MAubrzxkqaI,27203
+pylib_fftw3/include/fftw3q.f03,sha256=n23k90Wh2nGdl-bhjo8RgTXR9FOOmpkpy_j9cuz-FcY,25902
+pylib_fftw3/lib/fftw3.lib,sha256=M_bLrzQ1kkP9m2TQ9Jo1PWCPyeYmCjGf9Jvmf7Is1qc,5672472
+pylib_fftw3/lib/cmake/fftw3/FFTW3Config.cmake,sha256=0gd7xz68SrHhAX0LWXvQ-cGy1ykQ4Gf495x-803ClXw,632
+pylib_fftw3/lib/cmake/fftw3/FFTW3ConfigVersion.cmake,sha256=GTaqwD7BErCBQEoCGMvrSZ12anV9y2WnGIehQh58-gs,388
+pylib_fftw3/lib/cmake/fftw3/FFTW3LibraryDepends-debug.cmake,sha256=KDYl1kRL_svd14Ky-CTBujwrUQlsO4pyZB5oznLO5R4,836
+pylib_fftw3/lib/cmake/fftw3/FFTW3LibraryDepends.cmake,sha256=w-nUtEoOG6HCHx2Q-5_G4HccUyQ2MbNcEYA1uLqfods,3998
+pylib_fftw3/lib/pkgconfig/fftw3.pc,sha256=Vyn-UD6wC1cyLtj24AtzpepR8rVTYzlq2aUiuWub7gw,444
+pylib_fftw3-0.0.2.dist-info/METADATA,sha256=c-Afa8tJuxXuvScWRvirNqPWTF5pBEqwHDxQJoyEr-w,218
+pylib_fftw3-0.0.2.dist-info/WHEEL,sha256=OdACmRr8tcuy_wvG8RXS8plNkU76yf7IF4Ul8MW8BrY,115
+pylib_fftw3-0.0.2.dist-info/top_level.txt,sha256=fkB2xOvVsC7C-v09WmA9A0Q5NqcEolS8XlDQbjTc9ag,12
+pylib_fftw3-0.0.2.dist-info/RECORD,,

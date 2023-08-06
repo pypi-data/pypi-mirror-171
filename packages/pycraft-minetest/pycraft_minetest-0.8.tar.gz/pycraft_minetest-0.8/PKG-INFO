@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pycraft_minetest
+Version: 0.8
+Summary: Modified, simplified and improved libraries to code in Python via Minetest.
+Home-page: https://github.com/sprintingkiwi/pycraft_lib
+Download-URL: https://github.com/sprintingkiwi/pycraft_lib/tarball/0.6
+Author: alenorfo & gmenegoz
+Author-email: ale.norfo@gmail.com
+Keywords: game,development,learning,education,turtle
+License-File: LICENSE

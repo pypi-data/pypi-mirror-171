@@ -1,0 +1,4 @@
+biopython
+pyfastx
+pandas
+wget

@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+magpy/HOp.py
+magpy/QSystem.py
+magpy/__init__.py
+magpy/methods.py
+magpy.egg-info/PKG-INFO
+magpy.egg-info/SOURCES.txt
+magpy.egg-info/dependency_links.txt
+magpy.egg-info/requires.txt
+magpy.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+NvrenZuixihuanNanrenZheyang = NvrenZuixihuanNanrenZheyang.__main__:main
+nvren-zuixihuan-nanren-zheyang = NvrenZuixihuanNanrenZheyang.__main__:main
+

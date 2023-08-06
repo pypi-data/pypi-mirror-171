@@ -1,0 +1,4 @@
+[console_scripts]
+NanrenYongwenZhengfuNvren = NanrenYongwenZhengfuNvren.__main__:main
+nanren-yongwen-zhengfu-nvren = NanrenYongwenZhengfuNvren.__main__:main
+

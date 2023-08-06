@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kima
+Version: 0.1.30
+Summary: A data analysis framework for exoplanet detection
+Author-email: João Faria <joao.faria@astro.up.pt>
+License: MIT License
+Project-URL: homepage, https://kima.science
+Project-URL: documentation, https://github.com/j-faria/kima
+Project-URL: repository, https://github.com/j-faria/kima
+Keywords: exoplanets,bayesian,gaussian processes,radial velocity
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+<img src="http://www.kima.science/assets/img/logo.png" 
+     width="200" alt="Logo created by Solène Ulmer-Moll">
+
+<p align="center">
+     A data analysis framework for exoplanet detection
+</p>
+</p>

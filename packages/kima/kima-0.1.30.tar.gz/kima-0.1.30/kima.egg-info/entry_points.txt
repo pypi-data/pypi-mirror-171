@@ -1,0 +1,5 @@
+[console_scripts]
+kima-checkpriors = pykima.check_priors:main
+kima-run = pykima.run:run_local
+kima-showresults = pykima.showresults:showresults
+kima-template = pykima.make_template:main

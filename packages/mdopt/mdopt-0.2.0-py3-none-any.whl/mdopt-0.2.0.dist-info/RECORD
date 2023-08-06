@@ -1,0 +1,16 @@
+mdopt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdopt/contractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdopt/contractor/contractor.py,sha256=zHMQQF1oeAx1I1OCWLJ5rCCVm4wpMNPUZJ52MI4KjUA,10216
+mdopt/mps/__init__.py,sha256=31zkiH5Tu72jGD3BA5xm8oZvG029mVoVhMhNF_6qXG0,34
+mdopt/mps/canonical.py,sha256=P8vEMOOBuUDuiQajsb29EEDU0TWiqZidqEKYunkFbZg,15979
+mdopt/mps/explicit.py,sha256=ZehbhLH6FIh4FBSulMRVDTGB2elpANhr08_lGmPR0SY,13424
+mdopt/mps/utils.py,sha256=UowY3mwW_O9CCJmZSpg-6WjGtB4o6H00K6868yDOfJ0,16072
+mdopt/optimiser/__init__.py,sha256=dWtASkWAP_d5E9uKUVbobpUsuFzS2ui1-QNQQBEIMJo,23
+mdopt/optimiser/dephasing_dmrg.py,sha256=ptYc83F6c3oPc9p-Ay5WkTXmb0PB11SNxuif2DXHq08,13431
+mdopt/optimiser/dmrg.py,sha256=btVDDY_6vF9Z5J6WUywzJ9M9Dz-VifDDaO6Qmu8QIeM,12106
+mdopt/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdopt/utils/utils.py,sha256=UNfpnwU7wkKj0uGv3XxDJWQOqsglaje_DvtTgQMbsmU,14502
+mdopt-0.2.0.dist-info/LICENSE.md,sha256=qg2PasgkT8aWmixor1h_ARxZ4pW5nkvGzcVStfs_8EA,1078
+mdopt-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+mdopt-0.2.0.dist-info/METADATA,sha256=xFbfemc6Yune3TWK4OyvY_sxGbBAlrkueOqgA66fCaE,804
+mdopt-0.2.0.dist-info/RECORD,,

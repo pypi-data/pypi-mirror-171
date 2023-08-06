@@ -1,0 +1,4 @@
+[console_scripts]
+WeishenmeLengchangdeZongshini = WeishenmeLengchangdeZongshini.__main__:main
+weishenme-lengchangde-zongshini = WeishenmeLengchangdeZongshini.__main__:main
+

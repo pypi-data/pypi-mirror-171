@@ -1,0 +1,17 @@
+pyclick/__init__.py,sha256=0lPh7z9_gbyWwYx_wvgFslBIzWSAcBwlGu1pUVXRbxE,26
+pyclick/admin.py,sha256=AYV2s8La6E5VosXUeqA9z3YVK6soMsQ_tnCSv4KpX6I,393
+pyclick/apps.py,sha256=OXvlVNO9p8uufIVzXSSRot7It8b6bbImTLVNyJOFy9s,89
+pyclick/authorization.py,sha256=YRb0qRjh7jFlu4xIsHAD-PbDXNwNBmdU4XVJHCk-ZPg,1275
+pyclick/forms.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclick/models.py,sha256=CrzEu6Pb25O9-VnEjh0dYVUYWRAL9JFrZsNZnCHWHXk,1482
+pyclick/serializers.py,sha256=I7t_bAtqP-laN_sIy7F_BwwADmiXa72aYRWdgzLN7kM,746
+pyclick/status.py,sha256=YMTFJWJ-gVXAgcfXkSy2j6fC0Uxz6-9rfEkR6qVSuPA,259
+pyclick/utils.py,sha256=LF3ClfjW03akRFJXvRnx27G8DXNK5GfEE4AO9Ln3gGA,1397
+pyclick/views.py,sha256=Iy8oB9cA6CaXIo3ZK6tf37JIwmrQkBhMMJybCnRyWjM,4075
+pyclick/migrations/0001_initial.py,sha256=D_iAOionjaDz88R5iH1U8zIbcXO4NvdwGJhJrYif7_U,1439
+pyclick/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_click-0.1.dist-info/LICENSE,sha256=VFmFi4fo5seaJPS-ojJsDtmkVBMD4vraflGEXdezgBU,2284
+python_click-0.1.dist-info/METADATA,sha256=KiAHBbeq7S425z_OyeC0-hUSN3TJuPPy97_gvi8nPBw,12415
+python_click-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_click-0.1.dist-info/top_level.txt,sha256=snALuyoht-__LcLrdtSB7Kgx67sTEsT8DlV7AdKjO0I,8
+python_click-0.1.dist-info/RECORD,,

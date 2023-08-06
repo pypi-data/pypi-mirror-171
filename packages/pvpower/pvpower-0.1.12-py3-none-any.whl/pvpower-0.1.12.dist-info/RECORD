@@ -1,0 +1,10 @@
+pvpower/estimator.py,sha256=poTxZRJy9h3HHZ_S6pqmLD9ApbHj4AILAn3Wy4v1j_A,3553
+pvpower/forecast.py,sha256=u-10nsVcpiX0eR604PNzLhb--SIEdOCf8ldrmCAu3XI,9153
+pvpower/forecast_24h.py,sha256=J3uEfayOizqAaiNQOw2wNF9iVfYqPi6I7-wfvSsdqMw,4542
+pvpower/traindata.py,sha256=qHa6O0C6nIhG1BiPuZihDzNSOZsfFA4nlvG_ciaSlsA,4445
+pvpower/weather_forecast.py,sha256=kdlDPXY9BRG_gKZOlmGfjSHLUKmWwtkDOOwJE8PKcao,4263
+pvpower-0.1.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pvpower-0.1.12.dist-info/METADATA,sha256=73RnWCMa8FBlZJbj-2FVW7z4woQSGDtCXIP0usYHF2c,4186
+pvpower-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pvpower-0.1.12.dist-info/top_level.txt,sha256=nunGUZplscyuP4wh-2Mx9XHTnShTxKb_-2ceaeFhLEY,8
+pvpower-0.1.12.dist-info/RECORD,,

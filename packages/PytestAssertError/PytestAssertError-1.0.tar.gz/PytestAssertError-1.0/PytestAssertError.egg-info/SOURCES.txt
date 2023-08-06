@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+PytestAssertError.egg-info/PKG-INFO
+PytestAssertError.egg-info/SOURCES.txt
+PytestAssertError.egg-info/dependency_links.txt
+PytestAssertError.egg-info/entry_points.txt
+PytestAssertError.egg-info/requires.txt
+PytestAssertError.egg-info/top_level.txt

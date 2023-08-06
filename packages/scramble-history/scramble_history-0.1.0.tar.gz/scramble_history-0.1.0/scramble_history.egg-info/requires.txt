@@ -1,0 +1,8 @@
+click>=8.0
+logzero
+IPython
+
+[testing]
+pytest
+mypy
+flake8

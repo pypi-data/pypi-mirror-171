@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+test-829/__init__.py
+test_829.egg-info/PKG-INFO
+test_829.egg-info/SOURCES.txt
+test_829.egg-info/dependency_links.txt
+test_829.egg-info/top_level.txt

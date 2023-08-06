@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+numero_nome/__init__.py
+numero_nome/processamento.py
+numero_nome.egg-info/PKG-INFO
+numero_nome.egg-info/SOURCES.txt
+numero_nome.egg-info/dependency_links.txt
+numero_nome.egg-info/top_level.txt

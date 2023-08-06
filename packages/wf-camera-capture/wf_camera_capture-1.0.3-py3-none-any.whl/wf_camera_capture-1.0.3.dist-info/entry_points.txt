@@ -1,0 +1,3 @@
+[console_scripts]
+wf_capture_tools=capture.cli:main
+

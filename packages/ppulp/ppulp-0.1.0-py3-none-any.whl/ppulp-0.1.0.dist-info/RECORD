@@ -1,0 +1,16 @@
+ppulp/__init__.py,sha256=7lWzSY6gvd7cykAt3Sg9blkKvonPkey4BKSSbigwLlc,842
+ppulp/problem.py,sha256=tuWZ0kAuzjwJ7PzmocCiCi_FV2T3bRWanuJfPvx8ceg,3365
+ppulp/utils.py,sha256=SmfDLpTv6h3q7uOWxEEaH-FfkbXLMNmfcOJj7Y2F-8w,6399
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ppulp.py,sha256=ntHL7gI7cMScneTBMWsAuu2Sfr0GST4c1FpK-uSX-1E,1381
+tests/tutorials/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tutorials/test_partitioning_problem.py,sha256=0mtBoRIoiN3O8cEsU052J2OH2-43ZAAcJLcBwGOTOq4,1418
+tests/tutorials/test_problem_descriptions.py,sha256=OnCOA5PMOAL0c5cltmcwCEFWF_1vF6KFrD8ABn7VFmg,4064
+tests/tutorials/test_sudoku.py,sha256=VdGhUWharIywNQxK_8QN4WFf5cmBISGtjY1INM2SBzU,2656
+tests/tutorials/test_transportation_problem.py,sha256=In7dyLzMOsak4SDLbeKJngjQBQs9bt-mjtprXhhMhL0,1926
+tests/tutorials/test_two_stage_production_planning_problem.py,sha256=bmoYUqiO0WS54ZerMtMmgNhzaATMc702N3PzEZCXQcQ,4280
+ppulp-0.1.0.dist-info/LICENSE,sha256=SL4kTsydVisnB2ZqGz68hN2T5hzNwWGAs4Km3p2-hsY,1072
+ppulp-0.1.0.dist-info/METADATA,sha256=Ze5YT0smD7hyX3aoO-oDs-SkTiKbbHW8sBI2ZS9uNu8,2314
+ppulp-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ppulp-0.1.0.dist-info/top_level.txt,sha256=EfpIrZi5MtHA5TrUfnzjdYsRuP1jnxKFOWzCdLJtVZk,12
+ppulp-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+vquest = vquest.__main__:main

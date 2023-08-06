@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/uscovid_v2.py
+src/uscovid_v2.egg-info/PKG-INFO
+src/uscovid_v2.egg-info/SOURCES.txt
+src/uscovid_v2.egg-info/dependency_links.txt
+src/uscovid_v2.egg-info/entry_points.txt
+src/uscovid_v2.egg-info/top_level.txt

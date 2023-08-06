@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyForks
+Version: 0.0.1
+Summary: A package to interface with Trailforks.com
+Home-page: http://pypi.python.org/pypi/PyForks/
+Author: Trailforks Python Library
+Author-email: MinnMTB@gmail.com
+License: LICENSE.txt
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: lxml
+Requires-Dist: bs4
+
+nothing here

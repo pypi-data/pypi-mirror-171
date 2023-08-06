@@ -1,0 +1,11 @@
+naipy/__init__.py,sha256=WTT9rY8-08-ETZU2HLDLaaS-bqOCH4aOBni-JajoYss,23
+naipy/client.py,sha256=Y28nCr--10VJoWzQ1eJxJZiD3NQxgtYl6B2_rY4PS1g,6143
+naipy/error.py,sha256=13YLRAo3ScKx6x0E0Nfd_6Cnm2SAADg75iICQGZXdqs,43
+naipy/http.py,sha256=6cBP83JHs0SWK-UzQUU7W-x5yNyxFenZomC8_WohSII,1652
+naipy/model.py,sha256=hijw9TDvZtQ-48rQjlHGZ0DfEkgsxQWI4dEh9nL5w48,10861
+naipy/sync.py,sha256=NsYWH65lIE5Hx_y-o6yz3yvuL31tCUDUYSo9ftxXzXg,6668
+naipy-2.5.0.dist-info/License,sha256=6_ZzBxOzNULLzkEsZil7Smzn8yt6-EWZr1LOr_twET4,1091
+naipy-2.5.0.dist-info/METADATA,sha256=FGOGoFkP_z6HXpDaqWnUNMi-tnOtPVY-ewl1vuUxY9o,1609
+naipy-2.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+naipy-2.5.0.dist-info/top_level.txt,sha256=-Lxs-pLzrcwRem1ERrQTnZF8HB77eUw_pozLaF5usDg,6
+naipy-2.5.0.dist-info/RECORD,,

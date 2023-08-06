@@ -1,0 +1,15 @@
+Click<9,>=7.0
+
+[docs]
+sphinx<6,>=3.0
+Pallets-Sphinx-Themes
+m2r2
+
+[tests]
+pytest
+
+[tests_cov]
+pytest
+pytest-cov
+coverage<6
+coveralls

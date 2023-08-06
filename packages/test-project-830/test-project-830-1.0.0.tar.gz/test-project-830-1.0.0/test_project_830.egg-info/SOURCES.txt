@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+test-project-830/__init__.py
+test_project_830.egg-info/PKG-INFO
+test_project_830.egg-info/SOURCES.txt
+test_project_830.egg-info/dependency_links.txt
+test_project_830.egg-info/top_level.txt

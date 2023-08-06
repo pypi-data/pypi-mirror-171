@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SWPQueue/Core.py
+SWPQueue/__init__.py
+SWPQueue.egg-info/PKG-INFO
+SWPQueue.egg-info/SOURCES.txt
+SWPQueue.egg-info/dependency_links.txt
+SWPQueue.egg-info/top_level.txt
+SWPQueue.egg-info/zip-safe

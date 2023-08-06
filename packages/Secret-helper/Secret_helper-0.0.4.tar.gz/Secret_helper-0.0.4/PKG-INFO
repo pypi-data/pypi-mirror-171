@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Secret_helper
+Version: 0.0.4
+Summary: A helper function to get the secrets
+Home-page: UNKNOWN
+Author: Pranav Chandran
+Author-email: pranav.chandran@gmail.com
+License: MIT
+Keywords: Secret_helper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+A helper function to get the secrets from the json file (Encrypted) and
+ return the decrypted secrets.
+
+
+
+Change Log
+====================
+
+Version 0.0.1 (2022-10-12)
+- Initial release
+
+Version 0.0.2 (2022-10-12)
+- Fixed the data issue
+
+Version 0.0.4 (2022-10-13)
+- comment the print statements for the test
+- Return None if the input is not valid
+

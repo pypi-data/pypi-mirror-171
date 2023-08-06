@@ -1,0 +1,18 @@
+#exclude devel.txt
+include readme_devel.txt
+include docs/*
+
+#
+#
+#
+include todo/*
+#
+# examples
+#
+include examples/general/*
+include examples/misc/*
+include examples/meeus/*
+include examples/montenbruck_pfleger/*
+include examples/quthmann/*
+include examples/softure/*
+

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: argocd
+Version: 0.3.0
+Summary: Python client for ArgoCD
+Author-email: Mayank Pathak <onlinejudge95@gmail.com>
+Project-URL: Homepage, https://github.com/onlinejudge95/argopy
+Project-URL: Bug Tracker, https://github.com/onlinejudge95/argopy/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.28.1)
+
+argopy
+======
+
+Python client for argocd server. This provides unique interface for the argocd REST APIs.

@@ -1,0 +1,7 @@
+requests
+dynaconf>=3.0.0
+Jinja2
+cloudevents
+xmltodict
+tqdm
+crcmod

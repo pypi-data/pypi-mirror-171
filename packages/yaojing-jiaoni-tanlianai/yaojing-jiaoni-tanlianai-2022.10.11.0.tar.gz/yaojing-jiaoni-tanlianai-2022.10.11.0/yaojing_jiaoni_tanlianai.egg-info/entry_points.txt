@@ -1,0 +1,4 @@
+[console_scripts]
+YaojingJiaoniTanlianai = YaojingJiaoniTanlianai.__main__:main
+yaojing-jiaoni-tanlianai = YaojingJiaoniTanlianai.__main__:main
+

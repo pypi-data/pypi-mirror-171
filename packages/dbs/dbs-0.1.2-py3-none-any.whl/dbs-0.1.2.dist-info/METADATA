@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dbs
+Version: 0.1.2
+Summary: 
+Author: yeger00
+Author-email: yeger00@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: databases[aiosqlite] (>=0.6.1,<0.7.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# DBS
+
+## Getting started
+Installation:
+```
+pip install dbs
+```
+
+Run with:
+```
+python3 -m dbs.query
+```
+

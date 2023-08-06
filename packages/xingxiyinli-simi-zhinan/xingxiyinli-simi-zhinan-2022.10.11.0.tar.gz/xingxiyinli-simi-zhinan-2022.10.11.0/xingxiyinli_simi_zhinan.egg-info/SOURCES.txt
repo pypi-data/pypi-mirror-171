@@ -1,0 +1,12 @@
+README.md
+setup.py
+XingxiyinliSimiZhinan/README.md
+XingxiyinliSimiZhinan/__init__.py
+XingxiyinliSimiZhinan/__main__.py
+XingxiyinliSimiZhinan/file.pdf
+XingxiyinliSimiZhinan/index.html
+xingxiyinli_simi_zhinan.egg-info/PKG-INFO
+xingxiyinli_simi_zhinan.egg-info/SOURCES.txt
+xingxiyinli_simi_zhinan.egg-info/dependency_links.txt
+xingxiyinli_simi_zhinan.egg-info/entry_points.txt
+xingxiyinli_simi_zhinan.egg-info/top_level.txt

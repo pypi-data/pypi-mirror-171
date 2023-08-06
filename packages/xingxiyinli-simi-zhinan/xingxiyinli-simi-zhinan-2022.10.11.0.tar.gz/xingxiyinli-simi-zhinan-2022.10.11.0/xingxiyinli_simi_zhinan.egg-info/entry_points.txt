@@ -1,0 +1,4 @@
+[console_scripts]
+XingxiyinliSimiZhinan = XingxiyinliSimiZhinan.__main__:main
+xingxiyinli-simi-zhinan = XingxiyinliSimiZhinan.__main__:main
+

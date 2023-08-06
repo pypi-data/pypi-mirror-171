@@ -1,0 +1,4 @@
+[console_scripts]
+ChanzhongshuochanJiaoniChaogupiao = ChanzhongshuochanJiaoniChaogupiao.__main__:main
+chanzhongshuochan-jiaoni-chaogupiao = ChanzhongshuochanJiaoniChaogupiao.__main__:main
+

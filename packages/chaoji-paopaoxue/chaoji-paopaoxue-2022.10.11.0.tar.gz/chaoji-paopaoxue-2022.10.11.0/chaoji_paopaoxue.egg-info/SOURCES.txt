@@ -1,0 +1,12 @@
+README.md
+setup.py
+ChaojiPaopaoxue/README.md
+ChaojiPaopaoxue/__init__.py
+ChaojiPaopaoxue/__main__.py
+ChaojiPaopaoxue/file.pdf
+ChaojiPaopaoxue/index.html
+chaoji_paopaoxue.egg-info/PKG-INFO
+chaoji_paopaoxue.egg-info/SOURCES.txt
+chaoji_paopaoxue.egg-info/dependency_links.txt
+chaoji_paopaoxue.egg-info/entry_points.txt
+chaoji_paopaoxue.egg-info/top_level.txt

@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: pycnysr
+Version: 0.0.2
+Summary: a simple multi directory watcher and syncer
+Keywords: files,synchronization,rsync,watcher
+Author: Laurent Baillet
+Author-email: laurent.baillet@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: coverage[toml] (>=6.5.0,<7.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: notify-py (>=0.3.3,<0.4.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: temppathlib (>=1.2.0,<2.0.0)
+Requires-Dist: types-pyyaml (>=6.0.12,<7.0.0)
+Requires-Dist: watchdog (>=2.1.9,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pycnysr
+
+A simple directory watcher and syncer
+
+# usage
+
+Based on a YAML config file (see the [example configuration file](config.dist.yaml)), this module synchronizes a local directory to one or more local or remote directories, using [rsync](https://rsync.samba.org) as the underlying backend.
+
+It uses two levels of exclusion and inclusion in order to avoid useless expensive rsync calls. At a first level, files that don't need to be monitored
+can be excluded at a cheap cost. At a second level, only files that need to be
+really rsynced can be configured and fine tuned.
+
+It should be able to run on Windows, Linux and macOS and generate optional notifications.
+
+# in practice
+
+```yaml
+my-repository:
+  destinations: [
+    "my-host:~/my-repository/"
+  ]
+  event_handler:
+    excludes: [
+      ".*tmp.*"
+    ]
+    includes: [
+      ".*/api/.*",
+      ".*/conf/.*",
+    ]
+  notify: true
+  rsync:
+    filters: [
+      "- ***/*.pyc",
+      "- ***/__pycache__/",
+      "+ api/***",
+      "+ conf/***",
+      "- *"
+    ]
+    options: [
+      '--archive',
+      '--delete',
+      '--rsh=ssh'
+    ]
+  source: ~/Sites/my-repository/
+```
+
+Given this `config.yaml` file, changes in the source directory `~/Sites/my-repository/` will be propagated to `my-host:~/my-repository/` via SSH with options eventually passed in the `rsync.options` list.
+
+First, only files not excluded in the `event_handler.excludes` (by default: [])
+and included by the `event_handler.includes` (by default: ['.*']) will be
+passed to the rsync process.
+
+Then, rsync is called with the [filter rules](https://download.samba.org/pub/rsync/rsync.1) built from the `rsync.filters` list.
+
+Tet's run the watcher:
+
+```console
+❯ pycnysr --config config.yaml
+2022-10-13 21:03:17 INFO set log level to INFO
+2022-10-13 21:03:17 INFO rsync binary is /opt/homebrew/bin/rsync
+2022-10-13 21:03:17 INFO using config /Users/laurent/Sites/pycnysr/config.yaml
+2022-10-13 21:03:17 INFO syncing repository named my-repository located in /Users/laurent/Sites/pycnysr to ['/Users/laurent/Downloads/dest/']
+2022-10-13 21:03:17 INFO observers all initialized
+````
+
+On another console, create a file:
+
+```console
+touch api/new-file.txt
+```
+See the file synchronized:
+
+```console
+2022-10-13 21:03:23 INFO synchronizing /Users/laurent/Sites/pycnysr/new-file.txt
+```
+
+# warning
+
+Use with care. early development.
+
+# license
+
+This project is licensed under the terms of the MIT license.
+

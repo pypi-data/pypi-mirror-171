@@ -1,0 +1,16 @@
+rechtspraak_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rechtspraak_extractor/rechtspraak.py,sha256=_J7cva2QMTFlYe9cAfc5May3l0T_mwhF7nhyh8_vcTg,4044
+rechtspraak_extractor/rechtspraak_api.py,sha256=jOewaWt3BVsdP23W-WX-UnVPleT4gT3XSqykWZf6nOc,4034
+rechtspraak_extractor/rechtspraak_functions.py,sha256=RepL6dD_vgFmFMsrRQsem_oqkDT-E8Yx5wlyZW2_AAI,1293
+rechtspraak_extractor/rechtspraak_metadata.py,sha256=q3zVUZMTkqhcAcZe644GdBcNpsBenRpM_maKYb0ar1I,6405
+rechtspraak_extractor/rechtspraak_metadata_api_pp.py,sha256=QLomfSPZBS-sdCKkVaIUhQfu64U8oj01zoKjFYKLB44,6398
+rechtspraak_extractor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rechtspraak_extractor/tests/test_rechtspraak.py,sha256=yjyd4TgP-G3NZta9YLoU2kSRd1ND4ILTn-4XWKnTljY,193
+rechtspraak_extractor/tests/test_rechtspraak_api.py,sha256=3ahbE6FGHlmDEnu22P7rDSsCUPA-SFjpeGN5iTzKYY0,4108
+rechtspraak_extractor/tests/test_rechtspraak_functions.py,sha256=GY6gQkhide5ivpnY__InovUGTjuaNjseuw9Tm-RbV4c,1215
+rechtspraak_extractor/tests/test_rechtspraak_metadata_api_pp.py,sha256=PoRufCC-edN-bh1nYmuOL8sJ8Sih5LL4tuqyBFeUQ-A,6538
+rechtspraak_extractor-1.0.6.dist-info/LICENSE,sha256=L9TzLN-mYycr2GVOmG8kKowaQtrf8Bf5CljaY6DrXpY,1082
+rechtspraak_extractor-1.0.6.dist-info/METADATA,sha256=voJEczOa9simmlJSrM3khZjEjoh0GU6KlkG-VFWnm7k,5858
+rechtspraak_extractor-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rechtspraak_extractor-1.0.6.dist-info/top_level.txt,sha256=kZrBS0jM46OwMtPg2iW3MEVoZEuLZ8aGlMIfkkMZ_pU,22
+rechtspraak_extractor-1.0.6.dist-info/RECORD,,

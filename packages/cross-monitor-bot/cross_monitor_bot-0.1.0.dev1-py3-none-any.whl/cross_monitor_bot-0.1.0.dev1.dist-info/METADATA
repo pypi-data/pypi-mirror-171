@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cross-monitor-bot
+Version: 0.1.0.dev1
+Summary: Cross ping units and send notification to messager.
+Home-page: https://github.com/glowlex/cross_monitor_bot
+Author: glowlex
+Author-email: antonioavocado777@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: Utilities
+Requires-Dist: croniter (<2.0.0,>=1.3.0)
+Requires-Dist: aiogram (<3.0.0,>=2.0.0)
+Requires-Dist: requests (<3.0.0,>=2.0.0)
+
+UNKNOWN
+
+

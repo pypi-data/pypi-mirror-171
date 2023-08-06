@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+zp_config/__init__.py
+zp_config/config.py
+zp_config.egg-info/PKG-INFO
+zp_config.egg-info/SOURCES.txt
+zp_config.egg-info/dependency_links.txt
+zp_config.egg-info/not-zip-safe
+zp_config.egg-info/top_level.txt

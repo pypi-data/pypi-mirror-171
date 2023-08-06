@@ -1,0 +1,4 @@
+[console_scripts]
+YigeDicengrendeQuanmoushu = YigeDicengrendeQuanmoushu.__main__:main
+yige-dicengrende-quanmoushu = YigeDicengrendeQuanmoushu.__main__:main
+

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: balance
+Version: 0.0.0
+Summary: balance is a Python package offering a simple workflow and methods for dealing with biased data samples when looking to infer from them to some target population of interest. 
+Home-page: https://github.com/facebookresearch/balance
+Author: Facebook, Inc.
+License: GPLv2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+Requires-Dist: ipfn
+Requires-Dist: ipython
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: patsy
+Requires-Dist: plotly
+Requires-Dist: scipy (<=1.8.1)
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: statsmodels
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+UNKNOWN
+
+

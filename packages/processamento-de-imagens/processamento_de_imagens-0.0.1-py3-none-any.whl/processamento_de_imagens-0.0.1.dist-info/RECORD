@@ -1,0 +1,11 @@
+image processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image processing/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image processing/processing/combinacao.py,sha256=LNO2Gtbs3XFaiWjSg4hOA4HwmgeTmDKfQ4_IoIh9Rbw,871
+image processing/processing/transformacao.py,sha256=6pWlOekwWTBZSxpEwh14CcYnT63gbtbEs3roTRqVKYg,384
+image processing/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image processing/utils/io.py,sha256=3nSLaUD2RnSfsx_-ptX7p_GSksupFXOeoxiNMa1Sn7E,204
+image processing/utils/plot.py,sha256=bPpRY8FrGFOzL2SOGVCRZ0g3FwmzUB5_3FQA_BRqRg8,1036
+processamento_de_imagens-0.0.1.dist-info/METADATA,sha256=u4fzJTDxhPozPlfl_27wzeQsIqpz9BXU3ClOGYyfyaM,1588
+processamento_de_imagens-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+processamento_de_imagens-0.0.1.dist-info/top_level.txt,sha256=y4biAO1zVkC_GBg6whZ5vNsscpPKgF9B7sL52g9U81U,17
+processamento_de_imagens-0.0.1.dist-info/RECORD,,

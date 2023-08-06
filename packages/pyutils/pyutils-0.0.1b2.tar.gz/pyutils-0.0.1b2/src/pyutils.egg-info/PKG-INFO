@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pyutils
+Version: 0.0.1b2
+Summary: Python Utilities
+Author-email: Scott Gasch <scott.gasch@gmail.com>
+License: 
+        Except where otherwise noted in the source code and described in the
+        NOTICE file, all code is © Copyright 2021-2022 Scott Gasch.
+        
+        Licensed under the Apache License, Version 2.0 (the "License"); you
+        may not use this project except in compliance with the License.  You
+        may obtain a copy of the License at
+        
+            http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+        
+Project-URL: Homepage, https://wannabe.guru.org/pydocs/pyutils/pyutils.html
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# pyutils
+
+---
+
+This is a collection of Python utilities that I wrote and find useful.
+From collections that try to emulate Pythonic patterns
+(pyutils.collectionz) to a "smart" natural language date parser
+(pyutils.datetimez.dateparse_utils), to filesystem helpers
+(pyutils.files.file_utils) to a "simple" parallelization framework
+(pyutils.parallelize.parallelize).  I hope you find them useful, too.
+
+Code is under `src/pyutils/*`.  Most code includes doctests inline.
+
+Tests are under tests/*.  To run all tests:
+
+    cd tests/
+    ./run_tests.py --all [--coverage]
+
+See the README under tests/ and the code of run_tests.py for more
+options / information.
+
+This package generates Sphinx docs which are available at:
+
+    [https://wannabe.guru.org/pydocs/pyutils/pyutils.html](https://wannabe.guru.org/pydocs/pyutils/pyutils.html)
+
+Package code is checked into a local git server and available to clone
+from https://wannabe.guru.org/git/pyutils.git or under:
+
+    [https://wannabe.guru.org/gitweb/?p=pyutils.git;a=summary](https://wannabe.guru.org/gitweb/?p=pyutils.git;a=summary)
+
+For a long time this was just a local library on my machine that my
+tools imported but I've now decided to release it on PyPi.  Early
+development happened in a different git repo:
+
+    [https://wannabe.guru.org/gitweb/?p=python_utils.git;a=summary](https://wannabe.guru.org/gitweb/?p=python_utils.git;a=summary)
+
+I hope you find this useful.  LICENSE and NOTICE describe reusing it
+and where everything came from.  Drop me a line if you are using this,
+find a bug, or have a question.
+
+  --Scott Gasch [scott.gasch@gmail.com](mailto://scott.gasch@gmail.com)
+

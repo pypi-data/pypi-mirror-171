@@ -1,0 +1,9 @@
+gitaudit/REQUIREMENTS,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+gitaudit/VERSION,sha256=y-NTX1iTRVRydKI09GknkRSUGWd6Z3N7bhfzcbY_3e0,5
+gitaudit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitaudit/dummy.py,sha256=OpG3Dihpkt0lybBbT3UszlIhFDEJ1_GtXmzMom7FWR0,22
+gitaudit-0.0.2.dist-info/LICENSE,sha256=xpNheUtDosGM-dSzkXnK9dqXSlVsTOB13pNDak7TqpA,1071
+gitaudit-0.0.2.dist-info/METADATA,sha256=Nn8-dVOMoiwI0Kzi7Pnx2_MpBazLM4VWsejdj83_RJY,246
+gitaudit-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitaudit-0.0.2.dist-info/top_level.txt,sha256=8Od4b_wWk1dprW34EztmaGbCQMzDMiyzpHoO8JjGoa8,9
+gitaudit-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+<script type="text/javascript">
+var gaJsHost = "http://www." //(("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript async src='" + gaJsHost + "googletagmanager.com/gtag/js?id={{ analytics_code }}' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', '{{ analytics_code }}');
+
+
+</script>

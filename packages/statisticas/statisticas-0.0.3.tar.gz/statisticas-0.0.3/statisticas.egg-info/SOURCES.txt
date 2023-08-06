@@ -1,0 +1,9 @@
+README.md
+setup.py
+statisticas/__init__.py
+statisticas/med_disper.py
+statisticas/med_tend_central.py
+statisticas.egg-info/PKG-INFO
+statisticas.egg-info/SOURCES.txt
+statisticas.egg-info/dependency_links.txt
+statisticas.egg-info/top_level.txt

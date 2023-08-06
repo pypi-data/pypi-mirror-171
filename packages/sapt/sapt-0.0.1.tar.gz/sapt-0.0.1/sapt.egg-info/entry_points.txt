@@ -1,0 +1,4 @@
+[console_scripts]
+sapt install=aptUtil:installsapt purge = aptUtil:purge
+sapt purge = aptUtil:purge
+

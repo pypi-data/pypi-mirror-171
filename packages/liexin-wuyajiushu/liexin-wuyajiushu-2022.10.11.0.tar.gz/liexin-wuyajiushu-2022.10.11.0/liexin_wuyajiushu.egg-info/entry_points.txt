@@ -1,0 +1,4 @@
+[console_scripts]
+LiexinWuyajiushu = LiexinWuyajiushu.__main__:main
+liexin-wuyajiushu = LiexinWuyajiushu.__main__:main
+

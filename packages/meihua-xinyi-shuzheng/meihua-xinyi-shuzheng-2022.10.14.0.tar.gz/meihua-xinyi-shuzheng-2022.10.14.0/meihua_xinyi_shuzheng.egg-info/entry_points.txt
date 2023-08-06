@@ -1,0 +1,4 @@
+[console_scripts]
+MeihuaXinyiShuzheng = MeihuaXinyiShuzheng.__main__:main
+meihua-xinyi-shuzheng = MeihuaXinyiShuzheng.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+MeihuaXinyiShuzheng/README.md
+MeihuaXinyiShuzheng/__init__.py
+MeihuaXinyiShuzheng/__main__.py
+MeihuaXinyiShuzheng/file.pdf
+MeihuaXinyiShuzheng/index.html
+meihua_xinyi_shuzheng.egg-info/PKG-INFO
+meihua_xinyi_shuzheng.egg-info/SOURCES.txt
+meihua_xinyi_shuzheng.egg-info/dependency_links.txt
+meihua_xinyi_shuzheng.egg-info/entry_points.txt
+meihua_xinyi_shuzheng.egg-info/top_level.txt

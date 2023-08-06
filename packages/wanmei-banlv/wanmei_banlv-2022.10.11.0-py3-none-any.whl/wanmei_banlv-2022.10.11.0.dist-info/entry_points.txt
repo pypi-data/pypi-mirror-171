@@ -1,0 +1,4 @@
+[console_scripts]
+WanmeiBanlv = WanmeiBanlv.__main__:main
+wanmei-banlv = WanmeiBanlv.__main__:main
+

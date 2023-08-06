@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pydiscordkit/__init__.py
+pydiscordkit/main.py
+pydiscordkit/setup.py
+pydiscordkit.egg-info/PKG-INFO
+pydiscordkit.egg-info/SOURCES.txt
+pydiscordkit.egg-info/dependency_links.txt
+pydiscordkit.egg-info/requires.txt
+pydiscordkit.egg-info/top_level.txt

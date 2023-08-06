@@ -1,0 +1,59 @@
+# pydiscordkit
+
+A Discord Automation library that doesn't use the Official Discord API
+
+## About
+Opens your browser, opens Discord, and sends the message, built for plug and play.
+
+This does not use the Discord API, using this will not lead to your account getting banned [**This cannot be guaranteed, if this project is used for malicious activities like server raiding and spam, this may lead to your acoount being terminated, otherwise you're good to go**].
+
+This project was inspired by [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit).
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pydiscordkit.
+
+```bash
+pip install pydiscordkit
+```
+
+## Usage
+
+```python
+from pydiscordkit import send_dm, msg_server
+
+# send a dm
+send_dm('Your message here','958012620600934441', 120)
+# third argument is the time in seconds after which the message should be sent, 120 here means 2 minutes
+
+# send message to a server
+msg_server('Your message here','Server ID','Channel ID',120)
+# fourth argument is the time in seconds after which the message should be sent, 120 here means 2 minutes
+
+```
+
+## Discord Web URL 
+This section explains how the discord web url works. 
+
+### DM channel ID
+![CHANNELIDIMG](https://raw.githubusercontent.com/therealcyber71/pydiscordkit/main/imgs/dmchannelid.png) \
+The number highlighted in yellow is the dm channel id.
+
+### Server and Channel ID
+![SERVERCHANNELIDIMG](https://raw.githubusercontent.com/therealcyber71/pydiscordkit/main/imgs/serveridchannelid.png) 
+The number highlighted in cyan is the server id and the number highlighted in yellow is the channel id 
+
+\
+These numbers can be copy pasted as arguments for the `send_dm` and `msg_server`functions.
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+## Support
+Join our [Discord Server](https://discord.gg/JDNAFMkpQN)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

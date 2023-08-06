@@ -1,0 +1,12 @@
+PyForks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyForks/trailforks.py,sha256=5quKlzwadc65OKheRYqM2bd6ZVgSRC4n5-7Ha2Q4T7E,6429
+PyForks/trailforks_region.py,sha256=k80x74sBsg8x_7Ln4Ha5FDTNwZXx44uTxPsxAUxTEek,5541
+PyForks/trailforks_user.py,sha256=c8wGF-y5ZIuRxJOIPrkfy_zHTc0b-X4QLJpQYf3vqc8,6965
+PyForks/_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyForks/_test/test_regions.py,sha256=_TF9BAD_7TyAfPfQt5uFE-W93YxNZa_unMmHXLkDsz4,507
+PyForks/_test/test_users.py,sha256=Okk00O2N229TR1t-DQYTktz5jhu-Dhwlmj-PgKxd99k,1476
+PyForks-0.0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+PyForks-0.0.5.dist-info/METADATA,sha256=iTe3LrRtF7ApBBTgVQk85WXrymtfN2YZ1X1CcfuNang,658
+PyForks-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyForks-0.0.5.dist-info/top_level.txt,sha256=84C5Yo7k2srW5epe-qx3jIcz3DbAGkx45VP8FAGIqzY,8
+PyForks-0.0.5.dist-info/RECORD,,

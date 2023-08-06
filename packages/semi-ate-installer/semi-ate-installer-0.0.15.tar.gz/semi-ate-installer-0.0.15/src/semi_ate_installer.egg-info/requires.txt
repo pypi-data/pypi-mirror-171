@@ -1,0 +1,15 @@
+questionary==1.10.0
+pyfiglet>=0.8
+packaging
+click
+conda
+mamba
+
+[dev]
+black
+isort>=5.0
+flake8
+mypy
+types-setuptools
+pytest
+pre-commit

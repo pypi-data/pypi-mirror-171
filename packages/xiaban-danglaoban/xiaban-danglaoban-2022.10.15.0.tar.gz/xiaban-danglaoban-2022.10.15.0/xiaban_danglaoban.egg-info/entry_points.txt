@@ -1,0 +1,4 @@
+[console_scripts]
+XiabanDanglaoban = XiabanDanglaoban.__main__:main
+xiaban-danglaoban = XiabanDanglaoban.__main__:main
+

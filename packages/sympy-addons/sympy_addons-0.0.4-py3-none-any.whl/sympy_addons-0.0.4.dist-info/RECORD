@@ -1,0 +1,12 @@
+sympy_addons/__init__.py,sha256=bbwLYc_iLcxDa09VL5wJGGwwdGCczRwr-2AGOILA9Kw,105
+sympy_addons/calculus.py,sha256=Z1OSS5L0PZRSlqkR2iHhA5T2bSjOl552i7hZNMN0yVo,510
+sympy_addons/graphviz.py,sha256=4DzTN60dVoVE-wmxl-jC0zW6wjsJv52F0ukr53sJ5p8,2847
+sympy_addons/query.py,sha256=frcHlGOxHMAvvDxTN0AlfWgvU-dVL5LofuixPrulGKo,12205
+sympy_addons/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sympy_addons/tests/test_calculus.py,sha256=urwbWnm4mZtVbAZVZA7loAkTTNlOdqbaU4imbCYM8ro,432
+sympy_addons/tests/test_query.py,sha256=88K-U26sDqRDnv5hpViw-nlEvQWiKnScdSw3EfFfSOg,3970
+sympy_addons-0.0.4.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+sympy_addons-0.0.4.dist-info/METADATA,sha256=91LF_YoW6ZHKL-Sir1FbUKitMrDZMQMuwsUZMllJ9ag,4387
+sympy_addons-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sympy_addons-0.0.4.dist-info/top_level.txt,sha256=iSXG4wOGMewtULJl6uIZLGLGIHSpsCP6qMIoZ8WFDqQ,13
+sympy_addons-0.0.4.dist-info/RECORD,,

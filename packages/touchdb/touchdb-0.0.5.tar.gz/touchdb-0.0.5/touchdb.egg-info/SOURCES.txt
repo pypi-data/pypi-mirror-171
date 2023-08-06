@@ -1,0 +1,8 @@
+setup.py
+touchdb/Database.py
+touchdb/Exceptions.py
+touchdb/__init__.py
+touchdb.egg-info/PKG-INFO
+touchdb.egg-info/SOURCES.txt
+touchdb.egg-info/dependency_links.txt
+touchdb.egg-info/top_level.txt

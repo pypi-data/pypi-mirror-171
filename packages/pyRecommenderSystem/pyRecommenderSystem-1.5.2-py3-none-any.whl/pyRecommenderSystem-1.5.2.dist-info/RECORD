@@ -1,0 +1,17 @@
+pyRecommenderSystem/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyRecommenderSystem/algorithm/__init__.py,sha256=YStzH02ofxU_4XdVlCISb97ITbRmBgxtd0er90feYHI,327
+pyRecommenderSystem/algorithm/cb_tf_idf.py,sha256=uVgwkf1wxvnecOgDMd4BWiS6KR33kchWDAIyRxrbcjs,5508
+pyRecommenderSystem/algorithm/cf_item.py,sha256=_CzStyQrjdswfknEAv9cf3mwR3v8gE-UEOoQM7TOj68,7156
+pyRecommenderSystem/algorithm/cf_lf.py,sha256=UhaoM7q3OVdbLrb0qoaSghpo0wF2zsEu2rb0VgsEfnI,4366
+pyRecommenderSystem/algorithm/cf_nn.py,sha256=nszgPN1xcpLa4WMz9XdS1mQoKwsGARtRSxoQk7ybMcc,9089
+pyRecommenderSystem/algorithm/cf_svd.py,sha256=EBH2BWkLqUqvVveax_4OdVCwKiirBJYFRzl-BLYApuw,10331
+pyRecommenderSystem/algorithm/cf_user.py,sha256=6soDGL_BA2uRkzaLDryc0EEaO2qUuqILSdYdsNy5Odk,7157
+pyRecommenderSystem/algorithm/cf_user_item.py,sha256=_njZY40lD9AaZpgKsPGxBmW3hOpL8ofKf-tVedMrUDM,9280
+pyRecommenderSystem/util/__init__.py,sha256=fyGjpJoP_Cr-BphF1_XfOFmjNndvbCiG1Xx-SiQPpc4,37
+pyRecommenderSystem/util/gwo.py,sha256=mCbck_Z_Jk-HOYRbnksy44UI_QW4eA7z6r5fDS-_dPk,6113
+pyRecommenderSystem-1.5.2.dist-info/LICENSE,sha256=FzhBCJMNptgoexbzammifY0Qcw2a54TRrnQiA2D4uFE,683
+pyRecommenderSystem-1.5.2.dist-info/METADATA,sha256=6u2uXs8a_DalsmRkNfjBSMlGVye3O06Uo6AFR1v0ygY,9731
+pyRecommenderSystem-1.5.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyRecommenderSystem-1.5.2.dist-info/top_level.txt,sha256=thlAx9Kzxwn8WQYjxNBY18q22bdL6DjGmdW6wJCcbaM,20
+pyRecommenderSystem-1.5.2.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pyRecommenderSystem-1.5.2.dist-info/RECORD,,

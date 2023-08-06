@@ -1,0 +1,3 @@
+lazarus_loot
+loot_settings_parser
+src

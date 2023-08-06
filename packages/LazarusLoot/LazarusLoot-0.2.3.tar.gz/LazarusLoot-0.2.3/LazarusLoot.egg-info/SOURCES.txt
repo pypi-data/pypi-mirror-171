@@ -1,0 +1,10 @@
+setup.py
+LazarusLoot.egg-info/PKG-INFO
+LazarusLoot.egg-info/SOURCES.txt
+LazarusLoot.egg-info/dependency_links.txt
+LazarusLoot.egg-info/entry_points.txt
+LazarusLoot.egg-info/requires.txt
+LazarusLoot.egg-info/top_level.txt
+src/config.py
+src/lazarus_loot.py
+src/loot_settings_parser.py

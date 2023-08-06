@@ -1,0 +1,15 @@
+Slash/__init__.py,sha256=MbB7WV9YOq4LSLaTXr0AAbO2G8dUBEJRXS7C4A9ZNCE,162
+Slash/types_.py,sha256=mg4yIlnAi8yvPPHrx5JRnsU06h2yThB7xmqCz4w3-JU,18556
+Slash/Core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Slash/Core/__main__.py,sha256=3RYmcjBISekLEIzILfPmitXEVbPIBkMf7R2Ypsy1eBo,424
+Slash/Core/core.py,sha256=z4mrlz67XYRa9UHyUpyei-FASPX2yL6xOc3E7dOb94c,15058
+Slash/Core/db_manager.py,sha256=VjBksx8MvPSkvn9T56Wq_6ieMrpECE5u_PLyLXP6lN4,24
+Slash/Core/exceptions_.py,sha256=eWLDS9rwCrWoNFIrXfWy1XhkZ7dQnRW7dz599BTg6BE,983
+Slash/Core/migrate.py,sha256=vsNNIB92tpv3ZtQEvBc7iPER5G_cCztz6t5t41gB-SE,10053
+Slash/Core/migration_templates.py,sha256=dViTiHG5tdH0C1CbvGs6nMxnVeGXi4EgwSCOdj9x6HM,305
+Slash/Core/operations_.py,sha256=uORRg2Irq0UVS4P_pSLisNP0WbYSUPFQCGvimbwbTLg,12281
+Slash92-1.5.2.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+Slash92-1.5.2.1.dist-info/METADATA,sha256=1dpwmkQfIVdR4vAzXLA95R_d8T614wplTWWGtXIZZJg,22946
+Slash92-1.5.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Slash92-1.5.2.1.dist-info/top_level.txt,sha256=-9DWdUJq5WoWeTO6-MlQyPC90KTaMkuxDJL3XLFYU1w,17
+Slash92-1.5.2.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+XiguanZhifu = XiguanZhifu.__main__:main
+xiguan-zhifu = XiguanZhifu.__main__:main
+

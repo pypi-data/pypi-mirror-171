@@ -1,0 +1,3 @@
+[console_scripts]
+gateway = twgw_controller.gateway:main
+

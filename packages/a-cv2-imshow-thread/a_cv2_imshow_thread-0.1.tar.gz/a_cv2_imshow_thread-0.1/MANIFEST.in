@@ -1,0 +1,4 @@
+include a_cv2_imshow_thread/requirements.txt
+include a_cv2_imshow_thread/thirdparty.json
+include a_cv2_imshow_thread/README.MD
+include a_cv2_imshow_thread/LICENSE

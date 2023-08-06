@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gztools
+Version: 0.0.5
+Summary: 干支工具
+Home-page: https://github.com/ikale/gztools
+Author: ikale
+Author-email: ikale@qq.com
+License: Apache-2.0
+Keywords: 干支,十神,天干,地支
+Platform: any
+Requires-Python: >=3.4, <4
+
+术数研究

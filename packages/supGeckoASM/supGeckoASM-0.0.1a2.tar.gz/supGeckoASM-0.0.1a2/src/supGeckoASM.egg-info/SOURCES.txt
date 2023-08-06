@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/supGeckoASM/__init__.py
+src/supGeckoASM/cli.py
+src/supGeckoASM.egg-info/PKG-INFO
+src/supGeckoASM.egg-info/SOURCES.txt
+src/supGeckoASM.egg-info/dependency_links.txt
+src/supGeckoASM.egg-info/entry_points.txt
+src/supGeckoASM.egg-info/requires.txt
+src/supGeckoASM.egg-info/top_level.txt
+src/supGeckoASM/include/macros.inc
+src/supGeckoASM/ldscript/NTSC-J_1.0.ld
+src/supGeckoASM/ldscript/NTSC-J_1.1.ld
+src/supGeckoASM/ldscript/common.ld

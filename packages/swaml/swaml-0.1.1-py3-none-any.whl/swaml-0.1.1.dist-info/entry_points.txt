@@ -1,0 +1,3 @@
+[console_scripts]
+swaml=swaml.main:app
+

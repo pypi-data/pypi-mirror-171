@@ -1,0 +1,54 @@
+/*
+Program: Meraki v1
+Author:  Marco Caspers
+Date:    29-09-2022
+Version: 1.0
+
+Description:
+
+
+This is a Meraki Dashboard API library
+
+You can use it in your source code by issuing this command:
+
+	include meraki_v1;
+
+*/
+
+GetLastErrorMessage => ()											external "ext_meraki", "GetLastErrorMessage";
+InitDashboardApi => (api_key) 										external "ext_meraki", "FnInitDashboardApi";
+getApiVersion => ()													external "ext_meraki", "GetApiVersion";
+get_org_Organizations => () 										external "ext_meraki", "GetOrganizations";
+get_org_Organization => (org_id) 									external "ext_meraki", "GetOrganization";
+get_org_Inventory => (org_id) 										external "ext_meraki", "GetInventory";
+get_org_Devices => (org_id) 										external "ext_meraki", "GetDevices";
+get_dev_Device => (serial) 			    							external "ext_meraki", "GetDevice";
+get_org_DevicesStatuses => (org_id) 								external "ext_meraki", "GetDevicesStatuses";
+get_org_DevicesUplinksLossAndLatency => (org_id) 					external "ext_meraki", "GetDevicesLatency";
+get_org_DevicesUplinksLossAndLatencyEx => (org_id) 					external "ext_meraki", "GetDevicesLatencyEx";
+get_org_DeviceManagementInterface => (serial) 						external "ext_meraki", "GetDeviceManagementInterface";
+get_org_ConfigTemplates => (org_id) 								external "ext_meraki", "GetConfigTemplates";
+get_org_Networks => (org_id) 										external "ext_meraki", "GetNetworks";
+get_net_Network => (network_id)										external "ext_meraki", "GetNetwork";
+get_app_OrganizationApplianceUplinkStatuses => (org_id) 			external "ext_meraki", "GetApplianceUplinkStatuses";
+get_org_LicensesOverview => (org_id) 								external "ext_meraki", "GetLicenseOverview";
+get_app_Performance => (serial) 									external "ext_meraki", "GetAppPerformance";
+get_net_NetworkTraffic => (networkId, timespan) 					external "ext_meraki", "GetNetworkTraffic"; // obsolete, use UplinkUsageHistory.
+get_net_NetworkEvents => (networkId, product_Type, start_After) 	external "ext_meraki", "GetNetworkEvents";
+get_app_OrganizationSecurityEvents => (org_id, time_span) 			external "ext_meraki", "GetOrgSecurityEvents";
+get_switch_DeviceSwitchPortsStatuses => (serial, time_span) 		external "ext_meraki", "GetSwitchPortStatuses";
+get_switch_DeviceSwitchPortsStatusT0 => (serial, t0) 				external "ext_meraki", "GetSwitchPortStatusT0";
+get_app_NetworkApplianceUplinkUsageHistory => (networkId) 			external "ext_meraki", "GetApplianceUplinkUsageHistory";
+get_net_ApplianceTrafficShapingUplinkBandwidth => (networkId) 		external "ext_meraki", "GetApplianceTrafficShapingUplinkBandwidth";
+get_wireless_DeviceWirelessStatus => (serial) 						external "ext_meraki", "GetWirelessStatus";
+get_org_SensorReadingsHistory => (org_id)							external "ext_meraki", "GetSensorReadingsHistory";
+
+read_filters => (customer) 											external "ext_meraki", "ReadFilters";
+flatten_record => (rec) 											external "ext_meraki", "FlattenRecord";
+flatten_tuple => (tup) 												external "ext_meraki", "FlattenTuple";
+
+output => (params args) 											external "ext_meraki", "Output";
+outputoncondition => (params args) 									external "ext_meraki", "OutputOnCondition";
+header => (params args) 											external "ext_meraki", "Header";
+productinfo => (params args) 										external "ext_meraki", "ProductInfo";
+deviceheader => (params args) 										external "ext_meraki", "DeviceHeader";

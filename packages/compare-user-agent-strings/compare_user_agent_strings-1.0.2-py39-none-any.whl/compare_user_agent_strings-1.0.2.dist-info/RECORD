@@ -1,0 +1,10 @@
+compare_user_agent_strings/__init__.py,sha256=oP12DRKM4bQZWPLMEaRb9XNODQp0AG4fnrEg6aZptOg,530
+compare_user_agent_strings/__main__.py,sha256=qWE_XnQ2467lBNPDgTJIwfn-fgCBuTdif-buJk9Xb0w,636
+compare_user_agent_strings/__version__.py,sha256=KogX3uaviUy6yfMdz9mlvW7E9GbR3BxGooaQVfKcg7c,852
+compare_user_agent_strings/run_examples.py,sha256=YKINRFOxa78bdEL7hzQQMT9z0oXxuIGlhvgp7Ai3unQ,3081
+compare_user_agent_strings/ua_fingerprint.py,sha256=U0CCHBYZ6ADV8XC46GNxzjVGP8mrsBWMl1CiKtGCrWU,14473
+compare_user_agent_strings-1.0.2.dist-info/LICENSE,sha256=IdLXCxlVLbVCUQ1c_6pFlo1U_Re_V00vBlO6l2PX0RM,1068
+compare_user_agent_strings-1.0.2.dist-info/METADATA,sha256=Ufa380lb-B00dFhMclK1W50JN86xmPkjiZlgHRTU89U,15088
+compare_user_agent_strings-1.0.2.dist-info/WHEEL,sha256=ZvcC9yJ-3jt0s3Z9GqWdFU0zAv0WwFaltzmW3pHC9do,93
+compare_user_agent_strings-1.0.2.dist-info/top_level.txt,sha256=xPri1VwXTHCp9KL80WY4RnkoT_ZDiDEd4HQUVKfX7i0,27
+compare_user_agent_strings-1.0.2.dist-info/RECORD,,

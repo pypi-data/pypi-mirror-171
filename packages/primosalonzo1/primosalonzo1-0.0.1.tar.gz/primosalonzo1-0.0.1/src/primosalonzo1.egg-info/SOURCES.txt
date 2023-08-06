@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/primosalonzo1.py
+src/primosalonzo1.egg-info/PKG-INFO
+src/primosalonzo1.egg-info/SOURCES.txt
+src/primosalonzo1.egg-info/dependency_links.txt
+src/primosalonzo1.egg-info/top_level.txt

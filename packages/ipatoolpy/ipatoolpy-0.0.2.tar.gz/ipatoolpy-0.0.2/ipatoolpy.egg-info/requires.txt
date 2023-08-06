@@ -1,0 +1,6 @@
+setuptools
+requests
+click
+loguru
+psutil
+PySocks

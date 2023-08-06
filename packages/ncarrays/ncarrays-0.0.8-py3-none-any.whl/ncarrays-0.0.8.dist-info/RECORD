@@ -1,0 +1,11 @@
+ncarrays/__init__.py,sha256=9cukEOsJSSCfic4BmI0DiiCbEOukwPIjdwSKGkzK4jY,288
+ncarrays/_coordinate_system.py,sha256=yELHUMlQ54GCAPWx-TyW2lBExvbOP6C7U8Z_wEEPRIs,5426
+ncarrays/_geospatial_functions.py,sha256=jUeR5Xldu3h4I_vPv32NjZPylYnaudSw1sT-y0dhJBM,8788
+ncarrays/_ncarrays.py,sha256=bPDZiG08vlhclTFjo33XE7ZPQ86Ol_HmHC_EU-K4-Bs,11679
+ncarrays/_post_processing.py,sha256=dVyPphx2L0_Nl25yaPrnGL_SLeOOlICLseR28D6nlog,1813
+ncarrays/_variable_interpretation.py,sha256=Wse9MZCDtoTEWEUrolpRjf0AtQQtBEiCAxQNnFIKCaw,5321
+ncarrays-0.0.8.dist-info/LICENSE,sha256=jvTvhqWGcunLAqzb4E_suzaulsTd6rel2UvzL7YUvgE,1072
+ncarrays-0.0.8.dist-info/METADATA,sha256=n0DFVdPI92p5DObPFLKCRbX4fgEerAIJSVVlXerTG2M,562
+ncarrays-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ncarrays-0.0.8.dist-info/top_level.txt,sha256=cqNEYQ21_15nNTdB6tDUo6ilqBe6beRnBVq5H-t4sRk,9
+ncarrays-0.0.8.dist-info/RECORD,,

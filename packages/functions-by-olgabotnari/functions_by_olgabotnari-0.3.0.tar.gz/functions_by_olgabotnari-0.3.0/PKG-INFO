@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: functions-by-olgabotnari
+Version: 0.3.0
+Summary: This is our test project
+Author: Olga Botnari
+Author-email: olga.u.botnari@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions 
+
+### This is our test project. 
+### Please install this package
+'''
+pip install functions_by_olgabotnari
+'''
+
+### You can also install older packages
+'''
+pip install functions-by-olgabotnari==VERSION_NUMBER
+'''
+

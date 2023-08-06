@@ -1,0 +1,4 @@
+[console_scripts]
+NvxingXinlixue = NvxingXinlixue.__main__:main
+nvxing-xinlixue = NvxingXinlixue.__main__:main
+

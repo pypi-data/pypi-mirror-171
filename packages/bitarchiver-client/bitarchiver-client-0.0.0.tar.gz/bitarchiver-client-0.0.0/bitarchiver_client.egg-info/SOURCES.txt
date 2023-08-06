@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitarchiver_client.egg-info/PKG-INFO
+bitarchiver_client.egg-info/SOURCES.txt
+bitarchiver_client.egg-info/dependency_links.txt
+bitarchiver_client.egg-info/not-zip-safe
+bitarchiver_client.egg-info/top_level.txt
+foo/__init__.py

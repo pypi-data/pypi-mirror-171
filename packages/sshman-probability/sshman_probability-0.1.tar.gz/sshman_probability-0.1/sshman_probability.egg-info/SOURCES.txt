@@ -1,0 +1,10 @@
+setup.py
+sshman_probability/Binomialdistribution.py
+sshman_probability/Gaussiandistribution.py
+sshman_probability/Generaldistribution.py
+sshman_probability/__init__.py
+sshman_probability.egg-info/PKG-INFO
+sshman_probability.egg-info/SOURCES.txt
+sshman_probability.egg-info/dependency_links.txt
+sshman_probability.egg-info/not-zip-safe
+sshman_probability.egg-info/top_level.txt

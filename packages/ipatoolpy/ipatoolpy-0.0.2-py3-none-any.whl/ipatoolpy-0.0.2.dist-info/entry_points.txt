@@ -1,0 +1,3 @@
+[console_scripts]
+ipatoolpy = cli.main:main
+

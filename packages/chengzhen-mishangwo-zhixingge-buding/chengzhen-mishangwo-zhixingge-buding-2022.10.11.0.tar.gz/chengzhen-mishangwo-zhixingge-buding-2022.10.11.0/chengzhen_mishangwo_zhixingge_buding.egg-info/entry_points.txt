@@ -1,0 +1,4 @@
+[console_scripts]
+ChengzhenMishangwoZhixinggeBuding = ChengzhenMishangwoZhixinggeBuding.__main__:main
+chengzhen-mishangwo-zhixingge-buding = ChengzhenMishangwoZhixinggeBuding.__main__:main
+

@@ -1,0 +1,52 @@
+program:
+    name: jbac
+    description: JSON-based API Client for the CLI
+    args:
+        config_file_path:
+            flags: '-c|--config-file-path'
+            cmd_type: option
+            required: false
+            default: './pycurl_conf.yml'
+        cert_file_path:
+            flags: '-C|--cert-file-path'
+            cmd_type: option
+            required: false
+        method:
+            cmd_type: position
+            required: false
+            default: 'GET'
+        route:
+            cmd_type: position
+            required: true
+        params:
+            cmd_type: option
+            flags: '-p|--params'
+            required: false
+        data:
+            flags: '-d|--data'
+            cmd_type: option
+            required: false
+        data_file_path:
+            flags: '-f|--data-file-path'
+            cmd_type: option
+            required: false
+        graphql_query_file:
+            flags: '-g|--graphql-query-file'
+            cmd_type: option
+            required: false
+        graphql_vars:
+            flags: '-V|--graphql-vars'
+            cmd_type: option
+            required: false
+        dry_run:
+            flags: '-D|--dry-run'
+            cmd_type: option
+            require: false
+            action: store_true
+            default: false
+        verbose:
+            flags: '-v|--verbose'
+            cmd_type: option
+            require: false
+            action: store_true
+            default: false

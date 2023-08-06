@@ -1,0 +1,19 @@
+This is a program the takes contracts window from printscreen data and interrogates playernames via their citizendata on https://robertsspaceindustries.com/citizens/ 
+and prints a table that lists their enlist date and affilated orgs. Supports up to 10 players captured at a time.
+Will only scan for suspect apprehension missions
+
+Ensure that you have tesseract installed and modify your "Path" environment variable for the user inorder for this script to function
+i have included a bat file calle "Empathen". If you drop this into your tesseract directory, it will automatically form a path for you.
+
+
+DOWNLOAD LINK for 64 bit Tesseract
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+i have included a bat file calle "Empathen". If you drop this into your tesseract directory it will automatically form a path for you.
+
+The way the table reads is as follows in a repeating pattern:
+
+---------  ----------	...
+Playername Enlist date
+org 1      org rank 1
+org 2      org rank 2
+---------  ----------	...

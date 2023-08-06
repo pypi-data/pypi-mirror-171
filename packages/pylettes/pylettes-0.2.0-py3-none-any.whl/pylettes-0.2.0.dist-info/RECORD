@@ -1,0 +1,11 @@
+pylettes/__init__.py,sha256=uscUqoQSy0gUaV54qAfV88SQPsM3vmuwwRXVSB-lmCQ,204
+pylettes/_version.py,sha256=xVFpI8t3iP94xvF47pLb2ZVBj66qrsqZKmOOJ9ujDEw,60
+pylettes/base.py,sha256=uuP1sS4diLPgIa31DvMzdmGQiqU7XwQ0ThWtpjlDdkk,3774
+pylettes/categorical.py,sha256=BmB5OwExgWrV_l0ZtxcWiICEE8-0rRP_6fxmH5DAs3k,1648
+pylettes/sequential.py,sha256=g9fTO_c2VDptI3qI8C-62cAXcje2WfXZDbyYxl9dYUg,7698
+pylettes/utils.py,sha256=CkSDG0mWV7ICoL5UIv4BeJcGdEV6QB4Y4aw7gh-elzo,2287
+pylettes-0.2.0.dist-info/LICENSE,sha256=p0MJ6z5whBKgPxdmGzCCZoLaANDt6sENf6mFtR6vJYw,32456
+pylettes-0.2.0.dist-info/METADATA,sha256=x23qDEBVijkVfXooyfDiSuXqe2dHI5NUe1f88gw9gZM,3783
+pylettes-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylettes-0.2.0.dist-info/top_level.txt,sha256=I-OOwVPV1ZkIsApRDXwP2QmmBIaT1-k-ehBWiZxD8p8,9
+pylettes-0.2.0.dist-info/RECORD,,

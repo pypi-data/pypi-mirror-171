@@ -1,0 +1,8 @@
+README.rst
+setup.py
+conio_sagas.egg-info/PKG-INFO
+conio_sagas.egg-info/SOURCES.txt
+conio_sagas.egg-info/dependency_links.txt
+conio_sagas.egg-info/not-zip-safe
+conio_sagas.egg-info/top_level.txt
+foo/__init__.py

@@ -1,0 +1,10 @@
+google_custom_search/__init__.py,sha256=azlHh6dhmlUnzXiZkEcqJAnpvYz3wygaWNYVz_32UHc,123
+google_custom_search/enums.py,sha256=GSw8lZfPpVSjX0H9xqLHTlcr9XFRj5D6WvuPABa7Br8,719
+google_custom_search/errors.py,sha256=aaYBJNFtR3vohyNCLe9y2Ob4ZlgdSCt9vRMdZQJqF2U,177
+google_custom_search/search.py,sha256=VDS5oow-_dQ6hH7Rd1LLES64UspGjA6k8mJ1sTo7hw8,3212
+google_custom_search/types.py,sha256=eSSQb1ubPgh9Vjef5WyG7lXcY6mlpNSFn-UQNMf_Dhs,955
+google_custom_search-2.1.0a0.dist-info/LICENSE,sha256=LdIhyKs_zZPR30oLEY1iRilEpSNYchkXE5hsxpH5vNA,1067
+google_custom_search-2.1.0a0.dist-info/METADATA,sha256=FeIDQnGNP94Y3zZX6YpSKoxPbVvrnyf8V8M7FfJUR6U,3096
+google_custom_search-2.1.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+google_custom_search-2.1.0a0.dist-info/top_level.txt,sha256=Kt2ht8wX5JtIykc0V-6wHPxbeKsxwNPtFBkbMKfYg98,21
+google_custom_search-2.1.0a0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+NanrenBuhuaiNvrenBuai = NanrenBuhuaiNvrenBuai.__main__:main
+nanren-buhuai-nvren-buai = NanrenBuhuaiNvrenBuai.__main__:main
+

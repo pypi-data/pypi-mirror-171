@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: functions-by-elikanzharbek
+Version: 0.3.0
+Summary: This is our first project
+Author: Eliza Kanzharbek
+Author-email: elikanzharbek@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions 
+
+#### This is our test project. 
+#### Please install this package 
+```
+pip install functions-by-elikanzharbek
+```
+
+#### You can also install older  package 
+```
+pip install functions-by-elikanzharbek==VERSION_NUMBER
+```
+

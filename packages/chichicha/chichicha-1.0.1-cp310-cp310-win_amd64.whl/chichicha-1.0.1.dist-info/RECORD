@@ -1,0 +1,11 @@
+wpcsys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wpcsys/pywpc.cp310-win_amd64.pyd,sha256=hRTSGBPPuAFxahGFl4evHqHYEP-wzZtWMianxv8Dn44,1596928
+wpcsys/pywpc.cp38-win_amd64.pyd,sha256=sFGk0IxGehInzH6kMhIBj3lQPEPe1F6aZSs194aA33s,1746432
+wpcsys/pywpc.cp39-win_amd64.pyd,sha256=koZVQwVikZAV_jSxlNNh4G2GrQHP025lDANmXDni9Vk,1754624
+wpcsys/pywpc.pyd,sha256=aI6z4k5hqM5WfhiWEKoxwmO95aPjKIuXfmQE3th-T5o,1595904
+wpcsys/version.py,sha256=JKfY49sS47mELcNFr5jD0xLW2Tnsw3D4yAa8Sl4xe5A,49
+chichicha-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+chichicha-1.0.1.dist-info/METADATA,sha256=P6N5SJL_QmFYGGEPEF4_9oxzdpBabksydZP0DIB7Ugg,6925
+chichicha-1.0.1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+chichicha-1.0.1.dist-info/top_level.txt,sha256=0_MMgzXCFieTV8Cugw10SqWzdlq5d7HLRWNRKTxB33w,7
+chichicha-1.0.1.dist-info/RECORD,,

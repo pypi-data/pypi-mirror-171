@@ -1,0 +1,11 @@
+prefix=/Users/runner/work/pylib-fftw3/pylib-fftw3/build/lib.macosx-10.9-x86_64-3.6/pylib_fftw3
+exec_prefix=/Users/runner/work/pylib-fftw3/pylib-fftw3/build/lib.macosx-10.9-x86_64-3.6/pylib_fftw3
+libdir=/Users/runner/work/pylib-fftw3/pylib-fftw3/build/lib.macosx-10.9-x86_64-3.6/pylib_fftw3/lib
+includedir=/Users/runner/work/pylib-fftw3/pylib-fftw3/build/lib.macosx-10.9-x86_64-3.6/pylib_fftw3/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3 
+Libs.private: -lm
+Cflags: -I${includedir}

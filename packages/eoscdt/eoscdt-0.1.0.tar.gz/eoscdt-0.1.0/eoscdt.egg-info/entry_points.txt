@@ -1,0 +1,6 @@
+[console_scripts]
+cdt-cc = eoscdt:run_cdt_cc
+cdt-cpp = eoscdt:run_cdt_cpp
+cdt-ld = eoscdt:run_cdt_ld
+cdt-pp = eoscdt:run_cdt_pp
+

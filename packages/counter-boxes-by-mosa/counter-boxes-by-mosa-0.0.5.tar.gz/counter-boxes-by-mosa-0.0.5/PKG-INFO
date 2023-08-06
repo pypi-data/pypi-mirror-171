@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: counter-boxes-by-mosa
+Version: 0.0.5
+Summary: this is for counting boxes from vidoes as a computer vision problem
+Home-page: https://github.com/m7mdmosa27/counter_boxes
+Author: mo_mosa
+Author-email: mohamedmosa.work@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# counter_boxes
+

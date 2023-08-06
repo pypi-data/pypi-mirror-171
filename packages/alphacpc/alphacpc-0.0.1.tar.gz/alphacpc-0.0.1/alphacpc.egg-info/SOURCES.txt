@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+Personnal/__init__.py
+Personnal/example.py
+alphacpc.egg-info/PKG-INFO
+alphacpc.egg-info/SOURCES.txt
+alphacpc.egg-info/dependency_links.txt
+alphacpc.egg-info/top_level.txt

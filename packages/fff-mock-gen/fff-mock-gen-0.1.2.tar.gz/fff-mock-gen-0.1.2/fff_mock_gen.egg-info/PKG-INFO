@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fff-mock-gen
+Version: 0.1.2
+Summary: Automatic mock generation using FFF
+Home-page: https://github.com/Amcolex/fff-mock-gen.git
+Author: Alex Pabouctsidis
+Author-email: alex.pabouct@gmail.com
+License-File: LICENSE
+
+Scan a C header file and generate a mock file using FFF

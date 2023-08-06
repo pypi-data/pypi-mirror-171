@@ -1,0 +1,4 @@
+[console_scripts]
+ShengmingShuziBusiyi = ShengmingShuziBusiyi.__main__:main
+shengming-shuzi-busiyi = ShengmingShuziBusiyi.__main__:main
+

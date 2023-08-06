@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_old_school_for_loop/LICENSE
+a_pandas_ex_old_school_for_loop/README.MD
+a_pandas_ex_old_school_for_loop/__init__.py
+a_pandas_ex_old_school_for_loop/requirements.txt
+a_pandas_ex_old_school_for_loop/thirdparty.json
+a_pandas_ex_old_school_for_loop.egg-info/PKG-INFO
+a_pandas_ex_old_school_for_loop.egg-info/SOURCES.txt
+a_pandas_ex_old_school_for_loop.egg-info/dependency_links.txt
+a_pandas_ex_old_school_for_loop.egg-info/requires.txt
+a_pandas_ex_old_school_for_loop.egg-info/top_level.txt

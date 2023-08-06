@@ -1,0 +1,4 @@
+include a_pandas_ex_old_school_for_loop/requirements.txt
+include a_pandas_ex_old_school_for_loop/thirdparty.json
+include a_pandas_ex_old_school_for_loop/README.MD
+include a_pandas_ex_old_school_for_loop/LICENSE

@@ -1,0 +1,4 @@
+flatten_any_dict_iterable_or_whatsoever
+nestednop
+pandas
+useful_functions_easier_life

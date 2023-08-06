@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: functions-by-ambrosi91
+Version: 0.3.0
+Summary: This is a test project.
+Author: ambrosi91
+Author-email: ambrosi11151991@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions
+
+#### This is our test project
+#### Please install this package
+```
+pip install functions-by-ambrosi91
+```
+
+#### You can also install older packages
+```
+pip install functions-by-ambrosi91==VERSION_NUMBER
+```

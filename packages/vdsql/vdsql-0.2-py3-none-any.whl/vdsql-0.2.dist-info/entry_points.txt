@@ -1,0 +1,5 @@
+[console_scripts]
+vdsql = vdsql.__main__:main
+
+[visidata.plugins]
+vdsql = vdsql

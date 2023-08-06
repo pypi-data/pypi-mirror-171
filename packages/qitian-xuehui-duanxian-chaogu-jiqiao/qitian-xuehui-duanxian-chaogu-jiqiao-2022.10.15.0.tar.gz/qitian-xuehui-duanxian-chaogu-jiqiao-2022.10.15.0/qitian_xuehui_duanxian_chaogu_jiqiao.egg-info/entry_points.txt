@@ -1,0 +1,4 @@
+[console_scripts]
+QitianXuehuiDuanxianChaoguJiqiao = QitianXuehuiDuanxianChaoguJiqiao.__main__:main
+qitian-xuehui-duanxian-chaogu-jiqiao = QitianXuehuiDuanxianChaoguJiqiao.__main__:main
+

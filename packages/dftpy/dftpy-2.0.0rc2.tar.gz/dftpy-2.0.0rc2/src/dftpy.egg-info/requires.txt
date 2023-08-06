@@ -1,0 +1,26 @@
+ase>=3.22.0
+numpy>=1.11.0
+scipy>=0.18.0
+
+[:python_version < "3.8"]
+importlib-metadata>=0.12
+
+[all]
+ase>=3.21.1
+mpi4py
+mpi4py-fft
+pyfftw
+pylibxc2
+upf_to_json
+xmltodict
+
+[libxc]
+pylibxc2
+
+[mpi]
+mpi4py
+mpi4py-fft
+
+[upf]
+upf_to_json
+xmltodict

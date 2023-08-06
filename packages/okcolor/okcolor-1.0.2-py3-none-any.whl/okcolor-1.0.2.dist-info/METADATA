@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: okcolor
+Version: 1.0.2
+Summary: Generates aesthetically pleasing RGB colors
+Home-page: https://github.com/pncnmnp/okcolor
+Author: Parth Parikh
+Author-email: parthparikh1999p@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+
+# okcolor
+_Generates aesthetically pleasing RGB colors_
+
+# Install
+```bash
+python3 -m pip install okcolor
+```
+
+# Usage
+To generate RGB values:
+```python
+from okcolor import colors
+tuple(colors.visualize(sat=0.5, val=0.95))
+```
+
+To visualize random RGB values:
+```python
+colors.visualize()
+```
+![Screen Shot 2022-10-13 at 11 46 50 PM](https://user-images.githubusercontent.com/24948340/195758007-37126352-1776-44e5-adcf-0fdd512c6243.png)
+
+# License
+Under [MIT License](https://github.com/pncnmnp/okcolor/blob/master/LICENSE)

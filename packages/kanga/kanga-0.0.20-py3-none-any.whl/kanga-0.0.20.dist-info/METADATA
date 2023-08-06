@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kanga
+Version: 0.0.20
+Summary: MCMC diagnostics
+Home-page: https://github.com/papamarkou/kanga
+Download-URL: https://github.com/papamarkou/kanga/archive/v0.0.20.tar.gz
+Author: Theodore Papamarkou
+Author-email: theodore.papamarkou@gmail.com
+License: MIT
+Keywords: Bayesian,diagnostics,Markov chains,MCMC,Monte Carlo
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: statsmodels (>=0.12.0)
+Requires-Dist: matplotlib (>=3.3.3)
+Requires-Dist: seaborn (>=0.11.0)
+
+# kanga
+
+MCMC diagnostics in Python.
+
+kanga can be installed via conda or via pip.
+
+To install kanga using conda, run
+```
+conda install -c conda-forge kanga
+```
+
+To install kanga using pip, run
+```
+pip install kanga
+```

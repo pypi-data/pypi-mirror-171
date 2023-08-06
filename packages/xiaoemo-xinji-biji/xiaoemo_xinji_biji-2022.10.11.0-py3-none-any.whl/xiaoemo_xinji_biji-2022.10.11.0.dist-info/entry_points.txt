@@ -1,0 +1,4 @@
+[console_scripts]
+XiaoemoXinjiBiji = XiaoemoXinjiBiji.__main__:main
+xiaoemo-xinji-biji = XiaoemoXinjiBiji.__main__:main
+

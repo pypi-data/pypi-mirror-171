@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mama
+Version: 0.6.3
+Summary: A modular C++ build tool even your mama can use
+Home-page: https://github.com/RedFox20/Mama
+Author: Jorma Rebane
+Author-email: jorma.rebane@gmail.com
+License: MIT
+Keywords: mama,build,mamabuild,c,c++,tool,cmake,simple,easy,package,manager,cross-platform
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: distro
+Requires-Dist: keyring
+Requires-Dist: keyrings.cryptfile
+

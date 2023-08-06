@@ -1,0 +1,21 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "minidir",
+        "pydir",
+        "setuptools"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "cSpell.enableFiletypes": [
+        "properties"
+    ]
+}

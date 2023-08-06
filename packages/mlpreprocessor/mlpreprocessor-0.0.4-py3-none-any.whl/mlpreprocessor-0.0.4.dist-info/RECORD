@@ -1,0 +1,11 @@
+mlpreprocessor/__init__.py,sha256=zCOWS_CWdbx1mDox3iODekZyY2spO-N68Qx2fgXQaJI,1477
+mlpreprocessor/version.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+mlpreprocessor/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlpreprocessor/file/base.py,sha256=ckfIz2sSKxTFbAGc1CdBkVU-8SS1Bpr3mSvpn6T0VgE,2694
+mlpreprocessor/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlpreprocessor/image/base.py,sha256=3iq63oMsjjUKG9yYz82x4gKsR0nF_FGkqXDUFza231w,9
+mlpreprocessor-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mlpreprocessor-0.0.4.dist-info/METADATA,sha256=einRfcDsfIMMmsQLcSTqNTqisT2fMfZtQwrVazixqQc,303
+mlpreprocessor-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mlpreprocessor-0.0.4.dist-info/top_level.txt,sha256=MAT8O40-1-7lqSy-gfpqw9ObHrb4mKsTqDJXPBfHdlk,15
+mlpreprocessor-0.0.4.dist-info/RECORD,,

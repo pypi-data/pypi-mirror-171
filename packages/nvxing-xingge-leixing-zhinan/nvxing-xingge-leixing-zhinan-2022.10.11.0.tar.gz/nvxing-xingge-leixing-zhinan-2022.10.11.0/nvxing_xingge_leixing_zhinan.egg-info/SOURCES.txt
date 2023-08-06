@@ -1,0 +1,12 @@
+README.md
+setup.py
+NvxingXinggeLeixingZhinan/README.md
+NvxingXinggeLeixingZhinan/__init__.py
+NvxingXinggeLeixingZhinan/__main__.py
+NvxingXinggeLeixingZhinan/file.pdf
+NvxingXinggeLeixingZhinan/index.html
+nvxing_xingge_leixing_zhinan.egg-info/PKG-INFO
+nvxing_xingge_leixing_zhinan.egg-info/SOURCES.txt
+nvxing_xingge_leixing_zhinan.egg-info/dependency_links.txt
+nvxing_xingge_leixing_zhinan.egg-info/entry_points.txt
+nvxing_xingge_leixing_zhinan.egg-info/top_level.txt

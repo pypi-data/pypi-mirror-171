@@ -1,0 +1,4 @@
+[console_scripts]
+MoguiJiaosheshu = MoguiJiaosheshu.__main__:main
+mogui-jiaosheshu = MoguiJiaosheshu.__main__:main
+

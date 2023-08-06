@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: statisticas
+Version: 0.0.3
+Summary: The package has the purpose of help calculate statistics
+Home-page: https://github.com/LucasMGuima/statisticas-package
+Author: LucasMGuima
+Author-email: lucasmguima@outlook.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Statisticas
+Description. 
+The package Statisticas is used to:
+	- Calculate the central trend measure
+	- Calculate the dispersion measure
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install statisitcs
+
+```bash
+pip install statisticas
+```
+
+## Author
+LucasMGuima
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

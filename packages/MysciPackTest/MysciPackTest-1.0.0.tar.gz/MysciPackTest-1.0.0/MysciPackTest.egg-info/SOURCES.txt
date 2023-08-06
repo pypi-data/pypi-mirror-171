@@ -1,0 +1,10 @@
+README.md
+setup.py
+MysciPackTest.egg-info/PKG-INFO
+MysciPackTest.egg-info/SOURCES.txt
+MysciPackTest.egg-info/dependency_links.txt
+MysciPackTest.egg-info/top_level.txt
+mysci_01/__init__.py
+mysci_01/computation.py
+mysci_01/printing.py
+mysci_01/readdata.py

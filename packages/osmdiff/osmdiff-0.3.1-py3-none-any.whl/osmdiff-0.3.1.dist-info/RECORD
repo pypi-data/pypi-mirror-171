@@ -1,0 +1,9 @@
+osmdiff/__init__.py,sha256=KIfIN6gvdED79Ruwp-UYR6FpXLQfKmK2KBtW93IS1es,111
+osmdiff/augmenteddiff.py,sha256=v9bkBDu4nM7FulqcfphoxvrzpWG4ZM-WPDDtZCEHMcE,4581
+osmdiff/osmchange.py,sha256=I2c7Mea8dn_dcy7nBPyvJ06_HJwHtomUdrpLzaWD6jo,3534
+osmdiff/osm/__init__.py,sha256=wAdiX8doDE4n4dcMHCfut0eyEJLvI9yqDU88NCu29fY,48
+osmdiff/osm/osm.py,sha256=61AjKWCZ5wPfLExEKwNbF8_3bj1V3UzgcJcOB4Be4w0,3052
+osmdiff-0.3.1.dist-info/METADATA,sha256=US_PbFIaegPlKfSNiQnoytqG25skduOcTNbJ3GJfwDo,3859
+osmdiff-0.3.1.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+osmdiff-0.3.1.dist-info/licenses/LICENSE,sha256=jYTxNWGM7L98XpHLtaDgV0PzQ2yLqvUQVVwy1eTAn3w,562
+osmdiff-0.3.1.dist-info/RECORD,,

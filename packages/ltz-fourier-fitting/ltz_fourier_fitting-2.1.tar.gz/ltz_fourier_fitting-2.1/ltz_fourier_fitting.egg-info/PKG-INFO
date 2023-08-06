@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ltz-fourier-fitting
+Version: 2.1
+Summary: #划分微元时不按照单位长度进行，傅里叶级数设置为精度的一半较好;若按照单位长度进行，傅里叶级数设置为len*精度的一般较好
+Author: ltz
+License-File: license.txt

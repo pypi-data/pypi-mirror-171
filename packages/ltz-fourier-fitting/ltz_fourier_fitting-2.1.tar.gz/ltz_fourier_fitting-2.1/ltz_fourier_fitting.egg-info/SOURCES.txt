@@ -1,0 +1,8 @@
+license.txt
+setup.py
+ltz_fourier_fitting/__init__.py
+ltz_fourier_fitting/ltz_fourier_fittings.py
+ltz_fourier_fitting.egg-info/PKG-INFO
+ltz_fourier_fitting.egg-info/SOURCES.txt
+ltz_fourier_fitting.egg-info/dependency_links.txt
+ltz_fourier_fitting.egg-info/top_level.txt

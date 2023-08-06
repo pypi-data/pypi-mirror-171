@@ -1,0 +1,11 @@
+opencvtools/__init__.py,sha256=3O7XVBu1-JdFAnfyLVgcy-wjJ7OhwyF7GOgGGM_r5D8,178
+opencvtools/capture.py,sha256=ljyV3boTwSur9l-mJZBX4Fu1gFMcm43dJ95-aOdJbZ0,841
+opencvtools/colors.py,sha256=w5rluHv2IquokOVAlJIMNsOpsvpCfYAsvPEP-5WvI2o,941
+opencvtools/fps_meter.py,sha256=tUAyVSQ50O7BO8TkG2BGXxCN2CjTFMt8f87XH_ke_Ds,1120
+opencvtools/img.py,sha256=ue02VQKOdjRStCXb086fyTNiiZ_T12rjRjb_j7zvop8,4146
+opencvtools/video_preview.py,sha256=diI80X3Pe3twCbV2rajVrhlVXDq5FhibWfFx7dzyhq0,3992
+opencv_tools-0.2.1.dist-info/LICENSE,sha256=jVrwzc5sIsXI9lLYp3IOd8YkhtAqUtPCUj9vCy8VZ1M,1096
+opencv_tools-0.2.1.dist-info/METADATA,sha256=YLzinWOh3sOFP_IInS4cn2wWaWqDIyAPwmmdArYid2g,1148
+opencv_tools-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opencv_tools-0.2.1.dist-info/top_level.txt,sha256=W5zfoMCv7cbNozgR8vQk5s4I6vqhKRd8CqJF-VwzhgI,12
+opencv_tools-0.2.1.dist-info/RECORD,,

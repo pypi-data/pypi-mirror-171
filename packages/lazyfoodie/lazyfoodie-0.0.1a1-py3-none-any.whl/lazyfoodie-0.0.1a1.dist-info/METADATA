@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lazyfoodie
+Version: 0.0.1a1
+Summary: A simple package for finding (and choosing) nearby restaurants.
+Author-email: loganthomas <logan.thomas005@gmail.com>
+Project-URL: Homepage, https://github.com/loganthomas/lazyfoodie
+Project-URL: Bug Tracker, https://github.com/loganthomas/lazyfoodie/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `lazyfoodie`
+A simple package for finding (and choosing) nearby restaurants.

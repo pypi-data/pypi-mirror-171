@@ -1,0 +1,7 @@
+opencv-python
+numpy
+fpdf
+numba
+pdf2image
+Pillow
+PyPDF2

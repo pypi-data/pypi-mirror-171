@@ -1,0 +1,13 @@
+carveman/Controller.py,sha256=6MaKaU1ECmZcOkfs4Tlr8i7ngYp8GcBkf3xgYMPmQ_A,1336
+carveman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+carveman/__main__.py,sha256=EVZQDYgcx4r02etsMoJOhArkRU0k5Gvc9waW-GShy7c,1264
+carveman/carver/CarverBase.py,sha256=7YJTWJ0jJwq5yHardGdDlh6rx_aLhuqW8INuBPko4aU,1973
+carveman/carver/ImageCarver.py,sha256=66O5d10tbbOe8uSHLHLAuXAVdkOc7vull_r-fawTeTo,315
+carveman/carver/PDFCarver.py,sha256=qq0-X53_9T0xt7fMQbTfpsPOLztkirfwmJyuxwz0cZw,241
+carveman/carver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+carveman-0.2.0.dist-info/LICENSE.md,sha256=snvcgke-lQnZUwgw7zHPEZrn7882rjNLHIhl1ATfZ1s,1094
+carveman-0.2.0.dist-info/METADATA,sha256=TDrer0WyZkuBGRDnu5i-EJIQnWSc0KAsEbxkvF84ThY,3288
+carveman-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+carveman-0.2.0.dist-info/entry_points.txt,sha256=iI4HjbN8ybV1fzYEUnDqbBg9iv-9U_J1aHQ01cu3P_8,52
+carveman-0.2.0.dist-info/top_level.txt,sha256=7lQKbd5K9dNr6wPQ33UZSX9BSyMFoH1-T6iNA2RQyBw,9
+carveman-0.2.0.dist-info/RECORD,,

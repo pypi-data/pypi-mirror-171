@@ -1,0 +1,2 @@
+[console_scripts]
+op2_parser = op2_parser.cli:main

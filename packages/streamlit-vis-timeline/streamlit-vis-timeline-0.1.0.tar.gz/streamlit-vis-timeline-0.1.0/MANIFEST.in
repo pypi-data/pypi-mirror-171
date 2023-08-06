@@ -1,0 +1,2 @@
+recursive-include streamlit_timeline/frontend/build *
+include changelog.md

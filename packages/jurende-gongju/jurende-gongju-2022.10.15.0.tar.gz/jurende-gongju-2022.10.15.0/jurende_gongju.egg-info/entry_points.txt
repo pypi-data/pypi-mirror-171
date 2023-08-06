@@ -1,0 +1,4 @@
+[console_scripts]
+JurendeGongju = JurendeGongju.__main__:main
+jurende-gongju = JurendeGongju.__main__:main
+

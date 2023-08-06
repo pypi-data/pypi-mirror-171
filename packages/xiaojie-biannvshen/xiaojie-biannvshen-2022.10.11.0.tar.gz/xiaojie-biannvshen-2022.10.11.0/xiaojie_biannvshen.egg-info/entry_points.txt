@@ -1,0 +1,4 @@
+[console_scripts]
+XiaojieBiannvshen = XiaojieBiannvshen.__main__:main
+xiaojie-biannvshen = XiaojieBiannvshen.__main__:main
+

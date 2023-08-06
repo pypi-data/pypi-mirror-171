@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitana_client.egg-info/PKG-INFO
+bitana_client.egg-info/SOURCES.txt
+bitana_client.egg-info/dependency_links.txt
+bitana_client.egg-info/not-zip-safe
+bitana_client.egg-info/top_level.txt
+foo/__init__.py

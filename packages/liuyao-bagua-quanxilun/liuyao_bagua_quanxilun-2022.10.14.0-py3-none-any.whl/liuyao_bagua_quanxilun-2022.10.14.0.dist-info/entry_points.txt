@@ -1,0 +1,4 @@
+[console_scripts]
+LiuyaoBaguaQuanxilun = LiuyaoBaguaQuanxilun.__main__:main
+liuyao-bagua-quanxilun = LiuyaoBaguaQuanxilun.__main__:main
+

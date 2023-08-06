@@ -1,0 +1,4 @@
+[console_scripts]
+CongmingNanrenYaoduNvrenXinlixue = CongmingNanrenYaoduNvrenXinlixue.__main__:main
+congming-nanren-yaodu-nvren-xinlixue = CongmingNanrenYaoduNvrenXinlixue.__main__:main
+

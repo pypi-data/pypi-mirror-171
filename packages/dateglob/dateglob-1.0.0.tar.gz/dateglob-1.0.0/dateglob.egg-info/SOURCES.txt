@@ -1,0 +1,12 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+dateglob.py
+requirements-dev.txt
+setup.cfg
+setup.py
+dateglob.egg-info/PKG-INFO
+dateglob.egg-info/SOURCES.txt
+dateglob.egg-info/dependency_links.txt
+dateglob.egg-info/top_level.txt

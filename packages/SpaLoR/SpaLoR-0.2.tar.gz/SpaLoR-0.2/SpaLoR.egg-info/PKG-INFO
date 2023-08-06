@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SpaLoR
+Version: 0.2
+Summary: A python library for sparse and low rank matrix methods used in machine learning, like Matrix Completion, Robust PCA, and CUR factorizations
+Home-page: http://www.spalor.org
+Author: April Sagan
+Author-email: aprilsagan1729@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SpaLoR: A Python Library for Sparse and Low Rank Methods in Optimization and Machine Learning
+

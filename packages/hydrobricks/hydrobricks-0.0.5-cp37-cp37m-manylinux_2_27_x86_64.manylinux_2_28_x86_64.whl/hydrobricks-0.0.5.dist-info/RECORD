@@ -1,0 +1,17 @@
+_hydrobricks.cpython-37m-x86_64-linux-gnu.so,sha256=kKGvOQTLzPixAj7Wu4PgadS1SgiLXNBxuGBFoaW9V90,13179544
+hydrobricks-0.0.5.dist-info/top_level.txt,sha256=MweA5urmgQshJosCJ82Ar1ZlzwsixlA1sLzItUw9PCI,25
+hydrobricks-0.0.5.dist-info/METADATA,sha256=xVeNEmqO1b2oBtywy31-P0M1bXYmkE8lGMgyF7K6KtE,875
+hydrobricks-0.0.5.dist-info/RECORD,,
+hydrobricks-0.0.5.dist-info/LICENSE,sha256=CztK0K5XXICcLGIhBh6bsi6axVFSi8ARJm30AKFwJSM,1070
+hydrobricks-0.0.5.dist-info/WHEEL,sha256=8Yg9R755GPmufGsv5pilEofBrr6ZAb0xHf6HsS4qqE8,151
+hydrobricks/utils.py,sha256=HkN7lmysm2UnPSBBbVregX0Sck0PLyEUNBWTX0OLapI,3996
+hydrobricks/parameters.py,sha256=Q6h43frebi3n4Ho4-1SFpisr1y3TI_UOaioO82Mwg34,9459
+hydrobricks/time_series.py,sha256=6iTUjAV1Ohkm_X1Ce1AJ9LR3z6BV191KDhsIFW1phw8,1275
+hydrobricks/__init__.py,sha256=-UAdve0Pd1JXBR-YEGCLwrsx5s2pPHz_WS6NY4o_0ak,438
+hydrobricks/observations.py,sha256=aF939G2PPlgCP-aHCc01TFcnCKzPkMe2GT-KLxmNgQA,155
+hydrobricks/forcing.py,sha256=s7o0WiOaBaCQ-Jx8357UXl_nSwjMAPMQiDCbkRp9GCw,6688
+hydrobricks/plotting.py,sha256=w5404NKpgZqz9Uk2AAcDP3PFqvSi0SKywYWeQv0NP4Y,681
+hydrobricks/hydro_units.py,sha256=GtloPL7Z3VeB4NBQ353Pn_TppTMkMNM1qOXfBAc5aQk,5889
+hydrobricks/models/__init__.py,sha256=IP9_LIg5ZXNFk8h84QpXM-3QBS2WNMx4WueI1CKT_HY,127
+hydrobricks/models/base_model.py,sha256=50EyHWkZ_nm_6g8YgwSMmEOKYUhH5aVMYsWoB1Sfs2c,6562
+hydrobricks/models/socont.py,sha256=xiQ_acTtqq7y4Hl9Eif3uhUoZt1fSAzYk1PGJOjP_NQ,4805

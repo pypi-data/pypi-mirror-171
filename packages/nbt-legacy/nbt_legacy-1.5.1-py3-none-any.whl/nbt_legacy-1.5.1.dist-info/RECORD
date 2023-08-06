@@ -1,0 +1,10 @@
+nbt/__init__.py,sha256=Me2gpHTek_hcGFopBA5HQfGr-VIhrFcPj5VpjxEOIiQ,505
+nbt/chunk.py,sha256=f27Urhn_hCwqPQjgPpxAMBjPrnvdZ8EdmR0madDArr4,14283
+nbt/nbt.py,sha256=1QDWaAszUpMK5Q5D8kGN2i6hSipS0vCvjKhf1l2yFuc,22610
+nbt/region.py,sha256=XZTGzpj3QsG7mr0NRYtCuDqyzwMyFFXO8c_HhiHOMis,33145
+nbt/world.py,sha256=lSon5VXvGd-MoDN7it50thhtniEV94yh7c5RIZK38Jg,12121
+nbt_legacy-1.5.1.dist-info/LICENSE.txt,sha256=UkYEiJ6zgH4WXeFLQpQQb4QGyp-h4h_0UO727JIMJnk,1097
+nbt_legacy-1.5.1.dist-info/METADATA,sha256=l311AgRjTwOaWZDlPcf6tZxCXrVgbZes4ZURck5fKV4,6700
+nbt_legacy-1.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nbt_legacy-1.5.1.dist-info/top_level.txt,sha256=N2XLfE9MZFy5C-nMdQQhoZblptWpGJT-cz5xcVsaBMY,4
+nbt_legacy-1.5.1.dist-info/RECORD,,

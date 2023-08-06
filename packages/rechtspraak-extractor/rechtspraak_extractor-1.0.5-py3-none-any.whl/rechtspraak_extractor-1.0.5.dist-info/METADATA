@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rechtspraak-extractor
+Version: 1.0.5
+Summary: Library for extracting rechtspraak data
+Home-page: UNKNOWN
+Author: LawTech Lab
+Author-email: pranav.bapat@student.maastrichtuniversity.nl
+License: MIT
+Project-URL: Bug Tracker, https://github.com/maastrichtlawtech/case-law-explorer
+Keywords: rechtspraak,extractor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: xmltodict (==0.13.0)
+Requires-Dist: python-dotenv (==0.15.0)
+
+Library for extracting rechtspraak data
+

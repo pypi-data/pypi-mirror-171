@@ -1,0 +1,4 @@
+[console_scripts]
+XingshangNvrenpian = XingshangNvrenpian.__main__:main
+xingshang-nvrenpian = XingshangNvrenpian.__main__:main
+

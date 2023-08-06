@@ -1,0 +1,4 @@
+[console_scripts]
+QimenFeijiaMijue = QimenFeijiaMijue.__main__:main
+qimen-feijia-mijue = QimenFeijiaMijue.__main__:main
+

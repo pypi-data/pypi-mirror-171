@@ -1,0 +1,4 @@
+[console_scripts]
+QiyanYuehuiFazeWenji = QiyanYuehuiFazeWenji.__main__:main
+qiyan-yuehui-faze-wenji = QiyanYuehuiFazeWenji.__main__:main
+

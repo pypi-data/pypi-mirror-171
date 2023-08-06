@@ -1,0 +1,15 @@
+----------------------221013_144958
+Python    | 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:29:51) [MSC v.1929 64 bit (AMD64)]
+PyQt6     | 6.4.0
+PyQtGraph | 0.13.1
+PyOpenGL  | 3.1.6
+Platform  | Windows-10-10.0.19044-SP0
+CPU       | AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+GPU       | NVIDIA GeForce GTX 1070
+-----------------------------------
+==== ========== ===== ===== ===== ======== ====== ====== ==================== 
+py   QT_LIB     <FPS> MIN   MAX   <RAM MB> <CPU%> <GPU%> pyqtgraph            
+---- ---------- ----- ----- ----- -------- ------ ------ -------------------- 
+3.10 PyQt6      49.6  33.4  50.1  197      3.8    32.7   0.13.1              
+
+

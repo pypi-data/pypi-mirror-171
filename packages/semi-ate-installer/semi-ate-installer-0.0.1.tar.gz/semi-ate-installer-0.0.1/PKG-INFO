@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: semi-ate-installer
+Version: 0.0.1
+Summary: "Semi ATE Installer package for ATE Projects"
+Home-page: 
+Author: "The Semi-ATE Project Contributors"
+Author-email: "ate.organization@gmail.com"
+Requires-Python: >=3.9
+Provides-Extra: dev
+License-File: LICENSE
+
+""

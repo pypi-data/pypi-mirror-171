@@ -1,0 +1,12 @@
+atoti_azure/LICENSE,sha256=NLXh0imEbNp4WGmvPIA9H-T0v5UmUJMT4xLoBL-4Iro,23066
+atoti_azure/__init__.py,sha256=z-mzx6Luf9D6yomIQhRNnLEczCpmgXA7KQFfGSpN3rQ,897
+atoti_azure/_plugin.py,sha256=hsndP0nyLa1NckXkDWPv541aJtIXtTM2eT_MI2ujzRg,536
+atoti_azure/client_side_encryption.py,sha256=OQ9r9BjA6Nm7UG0HeG1v0PFHKnKbWW1jU5iaim1IDrE,869
+atoti_azure/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_azure/data/atoti-azure.jar,sha256=uz9M_N9hPYII5-8M0cx4k-QjH4yRZACJL6PjhyXlQqE,29272629
+atoti_azure-0.7.1.dist-info/LICENSE,sha256=NLXh0imEbNp4WGmvPIA9H-T0v5UmUJMT4xLoBL-4Iro,23066
+atoti_azure-0.7.1.dist-info/METADATA,sha256=3hImqkAz-I6__bzaXkTCZ_g9KktiyuAaf0bEJIwUkls,868
+atoti_azure-0.7.1.dist-info/WHEEL,sha256=Hch5tpoMEC8NL3_Wr5FrPyo7xp-YgN95monhz2s5P2g,109
+atoti_azure-0.7.1.dist-info/entry_points.txt,sha256=3zvU_U_uv3d4aQkQqcc7Bw6doeQZZ4QYKDxn2WiGe2M,56
+atoti_azure-0.7.1.dist-info/top_level.txt,sha256=HyIWFhoSiCFLWXVILOpyIbN0Eg2CJeSUo2JzbmiMMF8,12
+atoti_azure-0.7.1.dist-info/RECORD,,

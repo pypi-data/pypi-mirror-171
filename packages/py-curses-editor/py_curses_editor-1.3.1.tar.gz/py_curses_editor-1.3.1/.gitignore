@@ -1,0 +1,6 @@
+*.un~
+*.pyc
+*.egg-info/
+build/
+dist/
+editor/_version.py

@@ -1,0 +1,4 @@
+[console_scripts]
+YaodongXiuxiudeshi = YaodongXiuxiudeshi.__main__:main
+yaodong-xiuxiudeshi = YaodongXiuxiudeshi.__main__:main
+

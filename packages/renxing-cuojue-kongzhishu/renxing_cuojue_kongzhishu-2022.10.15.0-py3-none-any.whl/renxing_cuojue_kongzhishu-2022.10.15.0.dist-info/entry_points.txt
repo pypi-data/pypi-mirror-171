@@ -1,0 +1,4 @@
+[console_scripts]
+RenxingCuojueKongzhishu = RenxingCuojueKongzhishu.__main__:main
+renxing-cuojue-kongzhishu = RenxingCuojueKongzhishu.__main__:main
+

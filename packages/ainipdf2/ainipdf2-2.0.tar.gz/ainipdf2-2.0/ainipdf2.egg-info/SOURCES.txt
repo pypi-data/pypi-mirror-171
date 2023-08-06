@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ainipdf/__init__.py
+ainipdf/pdf2image.py
+ainipdf/pdf2text.py
+ainipdf2.egg-info/PKG-INFO
+ainipdf2.egg-info/SOURCES.txt
+ainipdf2.egg-info/dependency_links.txt
+ainipdf2.egg-info/top_level.txt

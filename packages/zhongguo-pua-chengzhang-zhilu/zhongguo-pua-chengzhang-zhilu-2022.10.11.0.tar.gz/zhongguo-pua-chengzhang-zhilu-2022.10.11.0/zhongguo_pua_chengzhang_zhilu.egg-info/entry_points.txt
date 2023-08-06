@@ -1,0 +1,4 @@
+[console_scripts]
+ZhongguoPuaChengzhangZhilu = ZhongguoPuaChengzhangZhilu.__main__:main
+zhongguo-pua-chengzhang-zhilu = ZhongguoPuaChengzhangZhilu.__main__:main
+

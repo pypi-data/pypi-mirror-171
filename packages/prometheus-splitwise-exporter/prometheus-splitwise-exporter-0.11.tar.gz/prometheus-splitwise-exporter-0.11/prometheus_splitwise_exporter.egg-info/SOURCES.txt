@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README.rst
+prometheus-splitwise-exporter.py
+setup.cfg
+setup.py
+prometheus_splitwise_exporter.egg-info/PKG-INFO
+prometheus_splitwise_exporter.egg-info/SOURCES.txt
+prometheus_splitwise_exporter.egg-info/dependency_links.txt
+prometheus_splitwise_exporter.egg-info/requires.txt
+prometheus_splitwise_exporter.egg-info/top_level.txt

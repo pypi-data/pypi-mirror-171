@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fyers_api_builder/__init__.py
+fyers_api_builder.egg-info/PKG-INFO
+fyers_api_builder.egg-info/SOURCES.txt
+fyers_api_builder.egg-info/dependency_links.txt
+fyers_api_builder.egg-info/requires.txt
+fyers_api_builder.egg-info/top_level.txt

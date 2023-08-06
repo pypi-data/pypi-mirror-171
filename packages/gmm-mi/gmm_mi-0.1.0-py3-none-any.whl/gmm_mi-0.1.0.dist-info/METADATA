@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gmm-mi
+Version: 0.1.0
+Summary: Estimate mutual information distribution with Gaussian mixture models
+Home-page: https://github.com/dpiras/GMM-MI
+Author: Davide Piras
+Author-email: dr.davide.piras@gmail.com
+License: GNU General Public License v3.0 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+License-File: LICENSE_EXT.txt
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: matplotlib (>=3.1.2)
+Requires-Dist: numpy (>=1.17.4)
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: scipy (>=1.7.1)
+

@@ -1,0 +1,11 @@
+build
+dist
+*.egg-info
+__pycache__
+*.tree
+*.json
+.DS_Store
+*/.DS_store
+*.swp
+benchmarks_*.tsv
+ntdumps

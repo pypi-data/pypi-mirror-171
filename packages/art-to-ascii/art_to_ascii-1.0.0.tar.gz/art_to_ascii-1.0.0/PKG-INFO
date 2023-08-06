@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: art_to_ascii
+Version: 1.0.0
+Summary: turn image to ascii art
+Author: Noam Avned
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Image to ascii
+=======================
+
+turn image path to a string of ascii art
+
+Change Log
+=======================
+
+1.0.0 (14/10/2022)
+-------------------
+- First Release

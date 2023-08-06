@@ -1,0 +1,5 @@
+pynput
+colr
+pyperclip
+psutil
+colorama

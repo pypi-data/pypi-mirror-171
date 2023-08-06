@@ -1,0 +1,8 @@
+README.md
+setup.py
+john_robert/__init__.py
+john_robert/about_me.py
+john_robert.egg-info/PKG-INFO
+john_robert.egg-info/SOURCES.txt
+john_robert.egg-info/dependency_links.txt
+john_robert.egg-info/top_level.txt

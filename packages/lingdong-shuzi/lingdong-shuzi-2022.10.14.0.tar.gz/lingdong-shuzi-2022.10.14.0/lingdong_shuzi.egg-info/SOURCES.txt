@@ -1,0 +1,12 @@
+README.md
+setup.py
+LingdongShuzi/README.md
+LingdongShuzi/__init__.py
+LingdongShuzi/__main__.py
+LingdongShuzi/file.pdf
+LingdongShuzi/index.html
+lingdong_shuzi.egg-info/PKG-INFO
+lingdong_shuzi.egg-info/SOURCES.txt
+lingdong_shuzi.egg-info/dependency_links.txt
+lingdong_shuzi.egg-info/entry_points.txt
+lingdong_shuzi.egg-info/top_level.txt

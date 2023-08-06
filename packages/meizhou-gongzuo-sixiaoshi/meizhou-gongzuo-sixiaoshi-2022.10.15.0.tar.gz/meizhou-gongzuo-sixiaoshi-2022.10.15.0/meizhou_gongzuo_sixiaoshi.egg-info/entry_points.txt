@@ -1,0 +1,4 @@
+[console_scripts]
+MeizhouGongzuoSixiaoshi = MeizhouGongzuoSixiaoshi.__main__:main
+meizhou-gongzuo-sixiaoshi = MeizhouGongzuoSixiaoshi.__main__:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+bioat=bioat.console.commands.application:main
+

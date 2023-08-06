@@ -1,0 +1,4 @@
+[console_scripts]
+NianlideMimiVol2 = NianlideMimiVol2.__main__:main
+nianlide-mimi-vol2 = NianlideMimiVol2.__main__:main
+

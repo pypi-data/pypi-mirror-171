@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=byY6IcftE0tWwbNWDhBsPcigpGzyOFGByL8ZY9IbR9E,37
+mensajes/adios/__init__.py,sha256=Vx5y-gnL_hUYdZJIb8pQLt6byGFyO6KjJms4xK9QLOQ,46
+mensajes/adios/despedida.py,sha256=CrT-AD3qOe4DT5O_VnITpDLTq6uVQa44fUnN-CdPASs,177
+mensajes/hola/__init__.py,sha256=Jy35i9sET89H1yeVGs1JTBUjNv4FCZnozmjzPYquoyI,41
+mensajes/hola/saludos.py,sha256=BmZFxbmMU4EyJfitcyBnRtAebzvNy8zj50EQfXwfZq8,485
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=LOxRCFBDbQSMEE7wZevySkYf11_9lHWv0dXJ5DdZfrE,483
+mensajes_kelvinnieves-5.0.dist-info/LICENSE,sha256=VvVsnkvNDQM4wdlbN-ME3ckoZpL90SjxJchy8ZCZFB4,1092
+mensajes_kelvinnieves-5.0.dist-info/METADATA,sha256=v7TlP8wUrBYgVmxmuOfoVsvxqCrRnjebYlTM8ahCHfY,636
+mensajes_kelvinnieves-5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mensajes_kelvinnieves-5.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+mensajes_kelvinnieves-5.0.dist-info/RECORD,,

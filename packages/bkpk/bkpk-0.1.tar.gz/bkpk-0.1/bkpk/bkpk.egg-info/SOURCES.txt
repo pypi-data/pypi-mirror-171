@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bkpk/bkpk.egg-info/PKG-INFO
+bkpk/bkpk.egg-info/SOURCES.txt
+bkpk/bkpk.egg-info/dependency_links.txt
+bkpk/bkpk.egg-info/entry_points.txt
+bkpk/bkpk.egg-info/top_level.txt

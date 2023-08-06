@@ -1,0 +1,27 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "tier"
+version = "0.1.0.dev1"
+description = "Python Versioning CLI"
+authors = [ "Josh Wycuff <Joshua.Wycuff@turner.com>",]
+license = "MIT"
+readme = "README.md"
+[[tool.poetry.packages]]
+include = "tier"
+
+[tool.tier]
+commit-id = "9a08807848d1897d42983c1bf1a1b38de57ba6bf"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+toml = "^0.10.2"
+
+[tool.poetry.scripts]
+tier = "tier.main:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.1.3"
+coverage = "^6.5.0"

@@ -1,0 +1,10 @@
+co2_reading_plugin/__init__.py,sha256=QNoWk7RHT4iz3svI-wtTn6pYaztbx7Sw5C21rRgdHcQ,5306
+co2_reading_plugin/additional_config.ini,sha256=5eFxflL4srih4mQ3VsztY0ziQJYYtx_rTwRfvrQCgQE,92
+co2_reading_plugin/additional_sql.sql,sha256=wxCDzF9XC9uLbiT7ZVNOtCmFQv_gr1ogZjQ4MVKU-SY,211
+co2_reading_plugin/ui/contrib/jobs/co2_reading.yaml,sha256=sqjCnvlC1s9lcEMpiHjBkzST37ulmyjrIUscDr9N4sk,326
+co2_reading_plugin-0.0.4.dist-info/LICENSE.txt,sha256=Kjuo1wEzXBxtIQm3yLYJLIRO6hgWkMopAOs91wiCZqg,1049
+co2_reading_plugin-0.0.4.dist-info/METADATA,sha256=tpirjh-VGSdO-IyOVDJGdTJKaz-KTZwuWjD4ULRcYOY,845
+co2_reading_plugin-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+co2_reading_plugin-0.0.4.dist-info/entry_points.txt,sha256=ZhYq8ICeq354BzhQguYgtyb9l3gFBhpUURGE3N42AVY,61
+co2_reading_plugin-0.0.4.dist-info/top_level.txt,sha256=Qt1kZSE-Y1wdMeoiF_xB0rqp71q45ijm2LE5TUakNwI,19
+co2_reading_plugin-0.0.4.dist-info/RECORD,,

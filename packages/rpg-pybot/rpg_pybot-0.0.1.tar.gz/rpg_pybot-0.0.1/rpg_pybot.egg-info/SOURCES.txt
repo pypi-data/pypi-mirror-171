@@ -1,0 +1,11 @@
+README.md
+setup.py
+rpg_pybot/__init__.py
+rpg_pybot.egg-info/PKG-INFO
+rpg_pybot.egg-info/SOURCES.txt
+rpg_pybot.egg-info/dependency_links.txt
+rpg_pybot.egg-info/top_level.txt
+rpg_pybot/dice/__init__.py
+rpg_pybot/dice/roll.py
+rpg_pybot/players/__init__.py
+rpg_pybot/players/player.py

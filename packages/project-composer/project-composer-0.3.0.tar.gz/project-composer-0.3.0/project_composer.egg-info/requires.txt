@@ -1,0 +1,12 @@
+click>=8.0
+colorlog
+
+[dev]
+flake8
+pytest
+freezegun
+sphinx
+sphinx-rtd-theme
+livereload
+twine
+tox

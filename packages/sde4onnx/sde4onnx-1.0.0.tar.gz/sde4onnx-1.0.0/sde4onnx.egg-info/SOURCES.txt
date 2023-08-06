@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sde4onnx/__init__.py
+sde4onnx/__main__.py
+sde4onnx/onnx_doc_string_eraser.py
+sde4onnx.egg-info/PKG-INFO
+sde4onnx.egg-info/SOURCES.txt
+sde4onnx.egg-info/dependency_links.txt
+sde4onnx.egg-info/entry_points.txt
+sde4onnx.egg-info/top_level.txt

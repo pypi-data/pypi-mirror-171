@@ -1,0 +1,6 @@
+setup.py
+xxcore/__init__.py
+xxcore.egg-info/PKG-INFO
+xxcore.egg-info/SOURCES.txt
+xxcore.egg-info/dependency_links.txt
+xxcore.egg-info/top_level.txt

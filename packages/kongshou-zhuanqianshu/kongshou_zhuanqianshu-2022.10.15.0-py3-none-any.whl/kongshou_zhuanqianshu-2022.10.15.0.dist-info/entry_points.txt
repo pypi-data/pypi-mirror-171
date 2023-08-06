@@ -1,0 +1,4 @@
+[console_scripts]
+KongshouZhuanqianshu = KongshouZhuanqianshu.__main__:main
+kongshou-zhuanqianshu = KongshouZhuanqianshu.__main__:main
+

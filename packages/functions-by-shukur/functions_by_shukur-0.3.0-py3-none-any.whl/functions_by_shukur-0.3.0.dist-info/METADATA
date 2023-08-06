@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: functions-by-shukur
+Version: 0.3.0
+Summary: THis is our test project
+Author: Shukur Iminov
+Author-email: ssean6754@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instractions
+
+#### This is our test project.
+
+#### Please install this package
+```
+pip install functions-by-shukur
+```
+
+#### Please install this packages
+```
+ pip install functions-by-shukur==VERSION_NUMBER
+```

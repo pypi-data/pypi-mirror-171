@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: semi-ate-installer
+Version: 0.0.1
+Summary: "Semi ATE Installer package for ATE Projects"
+Home-page: 
+Author: "The Semi-ATE Project Contributors"
+Author-email: "ate.organization@gmail.com"
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: questionary (==1.10.0)
+Requires-Dist: pyfiglet (>=0.8)
+Requires-Dist: packaging
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort (>=5.0) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-setuptools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+
+""

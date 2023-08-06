@@ -1,0 +1,9 @@
+regex-stubs/METADATA.toml,sha256=Xe_VPNCtS3S_DnhOGt-V8ZSouMIb_KM5vtO1RHVFGys,22
+regex-stubs/__init__.pyi,sha256=dRHbnggsRYhBpwhHkZhLvxX5Tct21I8bJksynwRBWAU,21
+regex-stubs/_regex.pyi,sha256=WhPu_3rSQYNONXSwgPeqgzB_RiLFesGNNAX2suCRomw,10974
+regex-stubs/_regex_core.pyi,sha256=cu3TnevOWaPlfGrhOq3KcvWkJlx88N9O-9gDP1wEk8Q,1051
+regex-stubs/regex.pyi,sha256=mdsn8B2ItUpoNWLVsLSW0a6MtXF6uxfKL6Km0GuVqKU,8538
+types_regex-2022.9.13.1.dist-info/METADATA,sha256=d4qM3wkLKSZqVqjBuTt4AxhYJxhUNztVr2i7qjz6BQs,1166
+types_regex-2022.9.13.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_regex-2022.9.13.1.dist-info/top_level.txt,sha256=f3TLEOp0P1pbBY2jUQii9WD4Vuam1DNhh_xn0E4yEOA,12
+types_regex-2022.9.13.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+lazarus_loot = src.lazarus_loot:cli

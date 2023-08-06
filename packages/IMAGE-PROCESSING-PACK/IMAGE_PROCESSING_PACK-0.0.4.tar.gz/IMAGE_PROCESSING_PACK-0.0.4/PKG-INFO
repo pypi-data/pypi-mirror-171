@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: IMAGE_PROCESSING_PACK
+Version: 0.0.4
+Summary: Version for test, processing to image - Project development by Karina Kato - teacher for DIO
+Home-page: https://github.com/Gil-uai/DIO-Gera-o-Tech-Unimed/tree/main/CAP_02-Python/02_Projetos/Pacotes/IMAGE_PROCESSING_PACK
+Author: Gilcimar Gomes
+Author-email: aguiar.gilcimar@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Processamento de Imagens :framed_picture: 
+
+## Bootcamp DIO - Unimed/BH
+
+#### Capitulo 02 - Python - 
+
+DescriÃ§Ã£o / Description :
+
+O pacote IMAGE-PROCESSING-PACK Ã© utilizado para: 
+
+- **MÃ³dulo processing:**
+  - Correspondencia de histograma
+  - Similaridade estrutural;
+  - Redimensionamento da imagem
+- **MÃ³dulo utils:**
+  - Ler imagem
+  - Salvar imagem
+  - Plotar imagem
+  - Resultado do grÃ¡fico
+  - Plotar histograma
+
+
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install IMAGE_PROCESSING_PACK
+```
+
+
+
+## Author
+"Gilcimar Gomes"
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

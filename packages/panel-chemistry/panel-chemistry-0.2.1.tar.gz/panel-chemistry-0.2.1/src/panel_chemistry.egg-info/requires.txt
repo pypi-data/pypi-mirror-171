@@ -1,0 +1,10 @@
+panel
+
+[all]
+jupyter
+jupyterlab
+awesome-panel-cli
+py3Dmol
+
+[dev]
+awesome-panel-cli

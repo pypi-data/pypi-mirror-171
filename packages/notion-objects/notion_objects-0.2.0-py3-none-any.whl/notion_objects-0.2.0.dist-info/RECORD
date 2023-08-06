@@ -1,0 +1,10 @@
+notion_objects/__init__.py,sha256=TpdxLTdXcDegCM78waWMyWmNxsd4NRZPAm_TADeaO-k,96
+notion_objects/database.py,sha256=Zl8W7R4xwR4UBhJQ8hT-_l8OVYJynpoo09E47Pzsxe4,1812
+notion_objects/encode.py,sha256=ig8kgzmwFrP4IoB3zFZzx1rWQR88RLGJrsZhR3iyR_E,299
+notion_objects/objects.py,sha256=v9M42L9kRL5Dl7nxNUxKw9-QqWl1ZSEcRqzWzZb-n4o,1860
+notion_objects/properties.py,sha256=hKtj5aJNPTd4B4t8yPYEjVKOcv1gLijmwEo4w-cMI1I,8691
+notion_objects-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+notion_objects-0.2.0.dist-info/METADATA,sha256=QKp9EKGAAEdUXNvBPLT0TDDlZo9jCPE6ZCiIAwGqmsU,4221
+notion_objects-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+notion_objects-0.2.0.dist-info/top_level.txt,sha256=5Ov3xc9dKXvhDdXNy28v1qSSAthpdwlp0KDIZfPWnLw,15
+notion_objects-0.2.0.dist-info/RECORD,,

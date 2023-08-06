@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pylinc
+Version: 0.0.0
+Summary: A general-purposed utility kit.
+Home-page: https://github.com/Linc-tw/pylinc
+Author: Chieh-An Lin
+Author-email: turtlelin1210@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: astropy (>=4.0.0)
+Requires-Dist: pandas (>=1.2.0)
+Requires-Dist: matplotlib (>=3.0.0)
+Provides-Extra: healpy
+Requires-Dist: healpy (>=3.5.3) ; extra == 'healpy'
+

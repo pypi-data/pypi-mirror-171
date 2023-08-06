@@ -1,0 +1,2 @@
+[console_scripts]
+easyvcf = easyvcf.command_line:main

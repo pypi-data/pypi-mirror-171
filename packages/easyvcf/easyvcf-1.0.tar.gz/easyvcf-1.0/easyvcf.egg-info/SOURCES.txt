@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+easyvcf/command_line.py
+easyvcf/converter.py
+easyvcf.egg-info/PKG-INFO
+easyvcf.egg-info/SOURCES.txt
+easyvcf.egg-info/dependency_links.txt
+easyvcf.egg-info/entry_points.txt
+easyvcf.egg-info/not-zip-safe
+easyvcf.egg-info/top_level.txt

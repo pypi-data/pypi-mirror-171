@@ -1,0 +1,4 @@
+[console_scripts]
+WannengZhuanqianXilieShuji = WannengZhuanqianXilieShuji.__main__:main
+wanneng-zhuanqian-xilie-shuji = WannengZhuanqianXilieShuji.__main__:main
+

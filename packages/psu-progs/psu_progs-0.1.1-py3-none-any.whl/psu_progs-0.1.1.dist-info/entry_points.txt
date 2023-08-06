@@ -1,0 +1,3 @@
+[console_scripts]
+korad-charge-lithium-ion=psu_progs.charge_lithium_ion:charge
+

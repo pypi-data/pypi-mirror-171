@@ -1,0 +1,2 @@
+[console_scripts]
+pysarpu = pysarpu.cli:main

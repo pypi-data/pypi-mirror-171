@@ -1,0 +1,3 @@
+include system;
+console($"this is a test that works{'.'}");
+console($"this is a test that should fail");

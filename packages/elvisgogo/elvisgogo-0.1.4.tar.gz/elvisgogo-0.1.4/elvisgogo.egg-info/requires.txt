@@ -1,0 +1,11 @@
+numpy
+pandas
+xlrd
+xlrd3
+matplotlib
+scikit-learn
+LRY
+torch
+torchvision
+tensorflow
+urllib

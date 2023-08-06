@@ -1,0 +1,16 @@
+grouphug/__init__.py,sha256=t1FVD_3k8Y4RkCj6E05f5-kVR2SMewOlk_YoyisATrY,252
+grouphug/collator.py,sha256=MHSR7KYqPpKNBgoH_MZgcRJIwfF3CmGZ-vjLKPx_4_o,7266
+grouphug/config.py,sha256=EEwmSwUtKUoYy4uGN871HOeSg74oLeFTf8qVUhtdsf4,857
+grouphug/dataset_collection.py,sha256=CKHbzllnQsUfexn9rJ3ZYfXbemx-Lt4VXf-ePVINr6c,4715
+grouphug/dataset_formatter.py,sha256=mLRCtCOlp_rt9MGEuX4Mj_qisEMQtQm4jDj4G-KomOo,19361
+grouphug/heads/__init__.py,sha256=N19Xf1snDcDMPLmTq_F2WEOgIoRtgHwYONptYHMoI3w,427
+grouphug/heads/base.py,sha256=nnOv48KiDLjwt6zWHYNZ8BdAcXTl7KsuXJmQG9d0Rmc,2434
+grouphug/heads/classification.py,sha256=8YRbWOfjYG1Eq-MYzOcWeWBKl6oxnSNVAVWWRFpsaFo,17676
+grouphug/heads/lm.py,sha256=E2fRLJYwce3NTq8dlxiOzuCng32lAm1_21Nolpm1Zgs,19407
+grouphug/model.py,sha256=9DDesIHfV0aTX-dWOB0dMQNbHu_-Fj5867AseQYdwUQ,19654
+grouphug/trainer.py,sha256=-L8sUoN3D925vzCZA1sCU9GKbeJKT10q0pM_l-8AdX0,11634
+grouphug/utils.py,sha256=Dw4Vev3Joh6xX3TghCMtcZu_m-7zEnFZqnYlSAIWSgg,711
+chatdesk_grouphug-0.7.2.dist-info/LICENSE,sha256=uPC2IvgsiVDNltpK0azZ6IN97ryPUwIUHoGBtODWN4c,11887
+chatdesk_grouphug-0.7.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chatdesk_grouphug-0.7.2.dist-info/METADATA,sha256=ecQBbA_v0-tOM6VqF8VcgKTzEevY09ASr5W7kKa0b4A,5655
+chatdesk_grouphug-0.7.2.dist-info/RECORD,,

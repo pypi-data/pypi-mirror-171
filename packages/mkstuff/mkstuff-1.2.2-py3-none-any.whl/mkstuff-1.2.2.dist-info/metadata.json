@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "mkstuff", "run_requires": [{"requires": ["astropy", "numpy", "scipy"]}], "summary": "builtins ", "test_requires": [{"requires": ["pytest", "pytest-cov", "pytest-pep8"]}], "version": "1.2.2"}

@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiYuehuixueZhijieduBameiDaren = ChaojiYuehuixueZhijieduBameiDaren.__main__:main
+chaoji-yuehuixue-zhijiedu-bamei-daren = ChaojiYuehuixueZhijieduBameiDaren.__main__:main
+

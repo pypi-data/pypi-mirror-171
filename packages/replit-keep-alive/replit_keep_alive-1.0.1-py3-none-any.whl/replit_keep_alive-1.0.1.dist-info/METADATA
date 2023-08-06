@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: replit-keep-alive
+Version: 1.0.1
+Summary: Create a webserver to keep your repl online using a pinger. (such as https://up.rdsl.ga/)
+Home-page: https://github.com/Raadsl/Replit-keep-alive-pypi
+Author: Raadsel
+Author-email: iraadsel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is a simple package to create a webserver to keep your repl online using a pinger. (such as https://up.rdsl.ga/).
+
+Usage:
+
+```py
+from replit-keep-alive import start
+start("Text")
+```
+Paste that somewhere in your code!
+
+

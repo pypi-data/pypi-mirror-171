@@ -1,0 +1,12 @@
+README.rst
+setup.py
+./__init__.py
+./__main__.py
+./repo.py
+./status.py
+repo.egg-info/PKG-INFO
+repo.egg-info/SOURCES.txt
+repo.egg-info/dependency_links.txt
+repo.egg-info/entry_points.txt
+repo.egg-info/namespace_packages.txt
+repo.egg-info/top_level.txt

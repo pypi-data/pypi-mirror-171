@@ -1,0 +1,4 @@
+[console_scripts]
+RibenZuiqiangJiaoyiJishu = RibenZuiqiangJiaoyiJishu.__main__:main
+riben-zuiqiang-jiaoyi-jishu = RibenZuiqiangJiaoyiJishu.__main__:main
+

@@ -1,0 +1,13 @@
+fortitudo/tech/__init__.py,sha256=dezPZewcm7UIRSu5Co7r7d4SVBbfa2Y7sVpKl_ZAC6E,1414
+fortitudo/tech/data/parameters.csv,sha256=YrofLTutaUl5rhjBLhKzG8mB9agSnSpKOgC8TzEIjDY,636
+fortitudo/tech/data/pnl.csv,sha256=tr8drcEE2bwLRFdrQOX4Nvunz5rMICDXrU8jRHdQNPc,2056742
+fortitudo/tech/data/time_series.csv,sha256=7avss30969lE19JOH5bd0Oeb7a9JjZeIC9w5uXNvqXs,3725592
+fortitudo/tech/data.py,sha256=R8k2F3H9zA2QsPSQf0E1Y4FM6SAccPP7L8XhlzmhyQo,2084
+fortitudo/tech/entropy_pooling.py,sha256=vwJTETo9nr2u-0lgLktRNLoBUZMvOz6YXa9Y19UZgu0,3143
+fortitudo/tech/functions.py,sha256=q40lyp6F8SN3sPFPAiYaKOPogZAPWV9gjPyMsqtGd80,7326
+fortitudo/tech/optimization.py,sha256=fwpeiS7EHHxkOyEnxUlZlj6h0QL9zpGiqwOHfatFDkk,13132
+fortitudo/tech/option_pricing.py,sha256=kINVpEbIqLG2eXIsDw9jW7N7xBG7j1D_-jpQGxqjvjI,2406
+fortitudo.tech-0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fortitudo.tech-0.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fortitudo.tech-0.7.dist-info/METADATA,sha256=xk6bcLiplhJXWumSdlJg4KmaWgMbcKr0OvCpUZl811A,5093
+fortitudo.tech-0.7.dist-info/RECORD,,

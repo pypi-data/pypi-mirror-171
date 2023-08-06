@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: functions-by-vladalt
+Version: 0.3.0
+Summary: This is our testproject
+Author: Vladyslav Altyok
+Author-email: vladyslav.altyok@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions 
+
+### Please install this package
+
+```
+pip install functions-by-vladalt
+```
+
+### You can also install older package
+
+```
+pip install functions-by-vladalt=VERSION_NUMBER
+```

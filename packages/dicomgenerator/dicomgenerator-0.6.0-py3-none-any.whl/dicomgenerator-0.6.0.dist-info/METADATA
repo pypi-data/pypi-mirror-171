@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dicomgenerator
+Version: 0.6.0
+Summary: 
+Author: sjoerdk
+Author-email: sjoerd.kerkstra@radboudumc.nl
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: factory-boy (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Requires-Dist: pydicom (>=2.3.0,<3.0.0)
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0)

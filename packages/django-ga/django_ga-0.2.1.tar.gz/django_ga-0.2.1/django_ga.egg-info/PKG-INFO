@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: django-ga
+Version: 0.2.1
+Summary: A simple Django application to integrate Google Analytics
+Home-page: https://github.com/tapetop18135/django_ga/tree/main
+Author: Nuttakit Kutparb
+Author-email: a5810032@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,ga,google,analytics,django,template,tag
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities

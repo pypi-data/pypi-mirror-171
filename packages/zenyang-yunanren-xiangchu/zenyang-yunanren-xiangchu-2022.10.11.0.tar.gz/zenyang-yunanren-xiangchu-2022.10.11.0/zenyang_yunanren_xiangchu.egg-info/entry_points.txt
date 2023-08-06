@@ -1,0 +1,4 @@
+[console_scripts]
+ZenyangYunanrenXiangchu = ZenyangYunanrenXiangchu.__main__:main
+zenyang-yunanren-xiangchu = ZenyangYunanrenXiangchu.__main__:main
+

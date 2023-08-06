@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pytest-change_assert
+Version: 1.1
+Summary: 修改报错中文为英文
+Home-page: UNKNOWN
+Author: Jakilo
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Requires-Python:  >=3

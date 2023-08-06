@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tom-alertstreams
+Version: 0.1.0
+Summary: Reusable TOMToolkit app for listening to kafka streams.
+Home-page: https://github.com/TOMToolkit/tom-alertstreams
+License: GPL-3.0-only
+Keywords: tomtoolkit,astronomy,astrophysics,cosmology,science
+Author: TOM Toolkit Project
+Author-email: tomtoolkit@lco.global
+Requires-Python: >=3.8,<3.12
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: gcn-kafka (>=0.2,<0.3)
+Requires-Dist: hop-client (>=0.7,<0.8)
+Requires-Dist: psycopg2-binary (>=2.9,<3.0)
+Requires-Dist: tomtoolkit (>=2.10,<3.0)
+Project-URL: Repository, https://github.com/TOMToolkit/tom-alertstreams
+Description-Content-Type: text/markdown
+
+

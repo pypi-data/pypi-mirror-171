@@ -1,0 +1,15 @@
+{
+    logs
+    name
+    startedAt
+    uptime
+    apiVersion
+    dependencies {
+        name
+        url
+        apiVersionSpecifier
+        state
+        remoteApiVersion
+        remoteName
+    }
+}

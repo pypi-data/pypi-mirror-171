@@ -1,0 +1,4 @@
+[console_scripts]
+YidongPingjunxianMimaVol2 = YidongPingjunxianMimaVol2.__main__:main
+yidong-pingjunxian-mima-vol2 = YidongPingjunxianMimaVol2.__main__:main
+

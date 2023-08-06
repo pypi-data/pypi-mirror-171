@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+swapslib/__init__.py
+swapslib/defaults.py
+swapslib.egg-info/PKG-INFO
+swapslib.egg-info/SOURCES.txt
+swapslib.egg-info/dependency_links.txt
+swapslib.egg-info/requires.txt
+swapslib.egg-info/top_level.txt

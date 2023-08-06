@@ -1,0 +1,13 @@
+
+[tests]
+pytest
+Django
+django-redis
+memory-profiler
+mock
+psutil
+python-memcached
+pymemcache
+redis
+pylibmc
+tox-pyenv

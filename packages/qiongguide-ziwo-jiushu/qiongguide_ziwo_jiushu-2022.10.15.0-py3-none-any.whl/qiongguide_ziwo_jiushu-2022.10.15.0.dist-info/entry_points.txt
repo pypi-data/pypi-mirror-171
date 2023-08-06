@@ -1,0 +1,4 @@
+[console_scripts]
+QiongguideZiwoJiushu = QiongguideZiwoJiushu.__main__:main
+qiongguide-ziwo-jiushu = QiongguideZiwoJiushu.__main__:main
+

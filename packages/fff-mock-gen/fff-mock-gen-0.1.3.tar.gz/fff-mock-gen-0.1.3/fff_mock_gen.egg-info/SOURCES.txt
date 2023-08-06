@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+setup.py
+fff_mock_gen/fff_mock_gen.py
+fff_mock_gen.egg-info/PKG-INFO
+fff_mock_gen.egg-info/SOURCES.txt
+fff_mock_gen.egg-info/dependency_links.txt
+fff_mock_gen.egg-info/entry_points.txt
+fff_mock_gen.egg-info/top_level.txt

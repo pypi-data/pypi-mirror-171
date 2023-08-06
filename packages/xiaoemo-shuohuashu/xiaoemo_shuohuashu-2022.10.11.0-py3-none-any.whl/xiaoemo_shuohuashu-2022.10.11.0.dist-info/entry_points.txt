@@ -1,0 +1,4 @@
+[console_scripts]
+XiaoemoShuohuashu = XiaoemoShuohuashu.__main__:main
+xiaoemo-shuohuashu = XiaoemoShuohuashu.__main__:main
+

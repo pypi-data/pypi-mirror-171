@@ -1,0 +1,6 @@
+[projetaai.ci]
+azure=projetaai_azure.plugin:ci_starters
+
+[projetaai.cli]
+azure=projetaai_azure.plugin:AzureCLI
+

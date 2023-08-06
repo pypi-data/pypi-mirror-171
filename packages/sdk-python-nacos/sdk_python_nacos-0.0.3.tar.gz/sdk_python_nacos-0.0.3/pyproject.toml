@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sdk_python_nacos"
+version = "0.0.3"
+authors = [
+  { name="jiannan", email="jiannan@intbee.com" },
+]
+description = "python min nacos client only get config"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pypi.org/project/sdk-python-nacos/"
+"Bug Tracker" = "https://pypi.org/project/sdk-python-nacos/issues"

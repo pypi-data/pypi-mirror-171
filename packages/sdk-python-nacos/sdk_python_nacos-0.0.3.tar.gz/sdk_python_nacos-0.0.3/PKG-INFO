@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sdk_python_nacos
+Version: 0.0.3
+Summary: python min nacos client only get config
+Project-URL: Homepage, https://pypi.org/project/sdk-python-nacos/
+Project-URL: Bug Tracker, https://pypi.org/project/sdk-python-nacos/issues
+Author-email: jiannan <jiannan@intbee.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# skd-python-nacos

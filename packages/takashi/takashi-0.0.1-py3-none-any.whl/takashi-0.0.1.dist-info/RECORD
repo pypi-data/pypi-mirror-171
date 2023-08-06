@@ -1,0 +1,9 @@
+src/app.py,sha256=Lv2llluJoeF1F0jqPK_fXFfrD1Gcq_cZJ4OTy9jVK2s,32
+src/args.py,sha256=xLjB60HZY05djznOBoZMVIfqexu9GjDCz2D3SsPTpkk,201
+src/sample.py,sha256=Rzf3htL3EdhEJORn--Qprk-9STkWY44n-x9AxcJcalE,166
+src/test_app.py,sha256=OQQ8PlG9k9IvKnVYkx6v8nnvjXbpN83wmXRwSE6I_6Y,524
+takashi-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+takashi-0.0.1.dist-info/METADATA,sha256=utgInZdLt78BoJefOAVMIcBLoIPUbW8SsHnleF8BCzk,1533
+takashi-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+takashi-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+takashi-0.0.1.dist-info/RECORD,,

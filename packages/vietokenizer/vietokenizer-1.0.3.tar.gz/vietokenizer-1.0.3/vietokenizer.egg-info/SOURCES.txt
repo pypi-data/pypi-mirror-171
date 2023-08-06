@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+vietokenizer/__init__.py
+vietokenizer/constant.py
+vietokenizer/preprocess_load.py
+vietokenizer/tokenizer.py
+vietokenizer.egg-info/PKG-INFO
+vietokenizer.egg-info/SOURCES.txt
+vietokenizer.egg-info/dependency_links.txt
+vietokenizer.egg-info/requires.txt
+vietokenizer.egg-info/top_level.txt

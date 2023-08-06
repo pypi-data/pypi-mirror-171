@@ -1,0 +1,4 @@
+[console_scripts]
+PuaWanhui = PuaWanhui.__main__:main
+pua-wanhui = PuaWanhui.__main__:main
+

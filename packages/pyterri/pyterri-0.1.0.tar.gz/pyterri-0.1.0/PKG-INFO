@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyterri
+Version: 0.1.0
+Summary: A simple python package for getting territorial.io player and clan data
+Home-page: 
+Author: theotherhades
+Author-email: theotherhades1@gmail.com
+License: BSD 2-clause
+Description-Content-Type: text/markdown
+
+# pyterri
+A simple python package for getting [territorial.io](https://territorial.io) player and clan data
+
+*Still in early development*
+
+## Installing
+soon
+
+## Usage
+also soon lol

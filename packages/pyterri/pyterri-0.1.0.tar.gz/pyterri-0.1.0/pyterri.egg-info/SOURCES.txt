@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyterri/__init__.py
+pyterri/clan.py
+pyterri/utils.py
+pyterri.egg-info/PKG-INFO
+pyterri.egg-info/SOURCES.txt
+pyterri.egg-info/dependency_links.txt
+pyterri.egg-info/requires.txt
+pyterri.egg-info/top_level.txt

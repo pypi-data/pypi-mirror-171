@@ -1,0 +1,7 @@
+setup.py
+kgf12345/__init__.py
+kgf12345/functions234.py
+kgf12345.egg-info/PKG-INFO
+kgf12345.egg-info/SOURCES.txt
+kgf12345.egg-info/dependency_links.txt
+kgf12345.egg-info/top_level.txt

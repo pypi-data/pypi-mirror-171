@@ -1,0 +1,10 @@
+bimato/__init__.py,sha256=2RY3diZJAn4ffTYpzW64y5cWgB-iInW4l1e0LCHOQak,1576
+bimato/api.py,sha256=lN0Lze1KsuQEvRe4FtdFM4hlXizGmP7vd_UX3a0bgGo,1357
+bimato/core.py,sha256=eV5NL9tn3z3m141lnJILiljOtx_OslDa1TAM-mbdpCM,4666
+bimato/network.py,sha256=6nj9RG2IE_u8Wc_fXnJAjS4eThaM9wB-y4stol-PmAw,4875
+bimato/poresize.py,sha256=HZ_zMAQJWTvux8PTBv-1V4TUmN_q3h3p26AJO5gtL1U,13022
+bimato/utils.py,sha256=lENwmpIh2WdrtHnfL5BLq2H9g-5Qs1r80yOyY-Bf38k,6395
+bimato-2022.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bimato-2022.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+bimato-2022.1.dist-info/METADATA,sha256=4sWEtUmSuA3olHo0-NlyB0TBTvY9hDC0eiwTiLdtJMU,732
+bimato-2022.1.dist-info/RECORD,,

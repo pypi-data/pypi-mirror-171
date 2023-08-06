@@ -1,0 +1,8 @@
+/docker
+/.vscode
+*__py_cache__*
+*__py_cache__/*
+/pypega-dm/samples
+.gitignore
+/pypega/dist
+/pypega-dm/dist

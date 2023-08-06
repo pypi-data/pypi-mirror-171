@@ -1,0 +1,4 @@
+[console_scripts]
+ChanlunJingjie = ChanlunJingjie.__main__:main
+chanlun-jingjie = ChanlunJingjie.__main__:main
+

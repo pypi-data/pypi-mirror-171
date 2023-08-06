@@ -1,0 +1,4 @@
+[console_scripts]
+XinghaiTanmi = XinghaiTanmi.__main__:main
+xinghai-tanmi = XinghaiTanmi.__main__:main
+

@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+pylib_openblas/__init__.py
+pylib_openblas/placeholder.c
+pylib_openblas.egg-info/PKG-INFO
+pylib_openblas.egg-info/SOURCES.txt
+pylib_openblas.egg-info/dependency_links.txt
+pylib_openblas.egg-info/top_level.txt

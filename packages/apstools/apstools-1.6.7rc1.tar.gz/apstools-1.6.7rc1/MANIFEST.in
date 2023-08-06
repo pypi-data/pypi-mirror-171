@@ -1,0 +1,8 @@
+include LICENSE.txt
+include apstools/devices/*.yml
+exclude .*
+exclude conda/*
+prune .*/
+prune *.egg-info/
+prune docs/
+prune ideas/

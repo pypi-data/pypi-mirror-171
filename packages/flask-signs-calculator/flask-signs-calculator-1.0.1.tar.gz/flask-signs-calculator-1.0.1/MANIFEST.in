@@ -1,0 +1,5 @@
+exclude signs_calculator/app.py
+exclude signs_calculator/extensions/admin.py
+prune tests
+graft signs_calculator/templates
+graft signs_calculator/static

@@ -1,0 +1,4 @@
+[console_scripts]
+NvrenDougaiZhidaodeNanrenMimi = NvrenDougaiZhidaodeNanrenMimi.__main__:main
+nvren-dougai-zhidaode-nanren-mimi = NvrenDougaiZhidaodeNanrenMimi.__main__:main
+

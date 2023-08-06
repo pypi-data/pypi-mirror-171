@@ -1,0 +1,10 @@
+setup.py
+MohamedSataryNinthTest/__init__.py
+MohamedSataryNinthTest/bye.py
+MohamedSataryNinthTest/helloWorld.py
+MohamedSataryNinthTest.egg-info/PKG-INFO
+MohamedSataryNinthTest.egg-info/SOURCES.txt
+MohamedSataryNinthTest.egg-info/dependency_links.txt
+MohamedSataryNinthTest.egg-info/top_level.txt
+MohamedSataryNinthTest/anothaone/__init__.py
+MohamedSataryNinthTest/anothaone/goodBye.py

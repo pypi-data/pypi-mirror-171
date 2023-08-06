@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boatrace.official"
+description = "Utils for Japanese boatrace official web site"
+authors = [
+    { name = "k0kishima", email = "okishimaxyz@gmail.com" }
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["boatrace", "kyotei"]
+dependencies = [
+    "beautifulsoup4==4.11.1",
+    "boatrace.models==0.0.1",
+    "numpy==1.23.4"
+]
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "boatrace.official.__version__"}
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests"]

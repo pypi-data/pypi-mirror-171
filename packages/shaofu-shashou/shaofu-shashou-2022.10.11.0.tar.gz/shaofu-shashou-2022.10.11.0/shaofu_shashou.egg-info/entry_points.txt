@@ -1,0 +1,4 @@
+[console_scripts]
+ShaofuShashou = ShaofuShashou.__main__:main
+shaofu-shashou = ShaofuShashou.__main__:main
+

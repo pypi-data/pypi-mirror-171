@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShaofuShashou/README.md
+ShaofuShashou/__init__.py
+ShaofuShashou/__main__.py
+ShaofuShashou/file.pdf
+ShaofuShashou/index.html
+shaofu_shashou.egg-info/PKG-INFO
+shaofu_shashou.egg-info/SOURCES.txt
+shaofu_shashou.egg-info/dependency_links.txt
+shaofu_shashou.egg-info/entry_points.txt
+shaofu_shashou.egg-info/top_level.txt

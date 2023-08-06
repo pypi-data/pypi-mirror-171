@@ -1,0 +1,10 @@
+tmflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmflow/learn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmflow/learn/base_polynomial_layer.py,sha256=2lSJONslbgscxfGfCaH1BTao-Y0h2QtFaCXcoPX6I2E,1672
+tmflow/learn/kronecker_polynomial_layer.py,sha256=xkaRO45EPg9tztH7G_Mdwnt9PirdaAkVmGTjYeUIfiU,1900
+tmflow/learn/polynomial_layer.py,sha256=t5JwDhYqrCWSObpAOnTeFKm3l1kYRKuY_wYIE-y0naQ,840
+tmflow-0.1.0.dist-info/LICENSE,sha256=Fg7EtyCRDeL_elmZOgmz1R52nPqMZU1vDGjVhIf1f9s,10949
+tmflow-0.1.0.dist-info/METADATA,sha256=0wyVSv8UgNsjuAIy9gz3iKSbp_1HAiNSKZw7q8w9AlY,2287
+tmflow-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tmflow-0.1.0.dist-info/top_level.txt,sha256=PPG_itDJ8RlgZUUc6_gFXzHs43Y2PkyiEuavOpvWHwE,7
+tmflow-0.1.0.dist-info/RECORD,,

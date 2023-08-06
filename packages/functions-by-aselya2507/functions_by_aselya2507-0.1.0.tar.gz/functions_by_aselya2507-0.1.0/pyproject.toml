@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-aselya2507"
+version = "0.1.0"
+description = "this is our test project"
+authors = ["Assel Agaidarova <aselya25789@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_aselya2507"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

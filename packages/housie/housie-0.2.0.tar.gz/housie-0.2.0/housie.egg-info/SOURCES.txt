@@ -1,0 +1,16 @@
+LICENSE.txt
+pyproject.toml
+housie/__init__.py
+housie/__main__.py
+housie/constants.py
+housie/display_util.py
+housie/game.py
+housie/generate_ticket.py
+housie/utils.py
+housie.egg-info/PKG-INFO
+housie.egg-info/SOURCES.txt
+housie.egg-info/dependency_links.txt
+housie.egg-info/top_level.txt
+housie/models/__init__.py
+housie/models/board.py
+housie/models/ticket.py

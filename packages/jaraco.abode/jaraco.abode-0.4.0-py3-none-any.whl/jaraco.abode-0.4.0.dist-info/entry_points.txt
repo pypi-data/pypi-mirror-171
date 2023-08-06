@@ -1,0 +1,2 @@
+[console_scripts]
+abodepy = abodepy.__main__:main

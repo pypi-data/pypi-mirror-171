@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sclmd
+Version: 0.4.7
+Summary: Semi-classical Langevin molecular dynamics
+Home-page: https://github.com/sclmd/sclmd
+Author: Jing-Tao Lv
+Author-email: jtlu@hust.edu.cn
+License: GNU General Public License v3.0
+Keywords: molecular dynamics,quantum bath,semiclassical generalized Langevin equation
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Molecular dynamics script using a semi-classical generalized Langevin equation
+

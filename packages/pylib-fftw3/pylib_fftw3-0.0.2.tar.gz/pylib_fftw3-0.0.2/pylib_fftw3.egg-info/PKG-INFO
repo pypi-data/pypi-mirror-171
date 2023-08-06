@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pylib-fftw3
+Version: 0.0.2
+Summary: Python packaging of FFTW3 3.3.10
+Author: chenkui164
+
+Binary distribution of FFTW3 static libraries

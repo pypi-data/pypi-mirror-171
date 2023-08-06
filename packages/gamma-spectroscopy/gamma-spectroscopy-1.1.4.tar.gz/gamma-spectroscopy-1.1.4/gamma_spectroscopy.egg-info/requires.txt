@@ -1,0 +1,4 @@
+numpy
+picosdk
+pyqt5
+pyqtgraph

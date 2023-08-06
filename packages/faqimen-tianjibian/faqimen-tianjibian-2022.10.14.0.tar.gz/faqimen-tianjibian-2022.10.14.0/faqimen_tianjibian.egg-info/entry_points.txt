@@ -1,0 +1,4 @@
+[console_scripts]
+FaqimenTianjibian = FaqimenTianjibian.__main__:main
+faqimen-tianjibian = FaqimenTianjibian.__main__:main
+

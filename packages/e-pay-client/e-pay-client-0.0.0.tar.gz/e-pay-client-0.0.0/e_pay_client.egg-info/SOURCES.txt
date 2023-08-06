@@ -1,0 +1,8 @@
+README.rst
+setup.py
+e_pay_client.egg-info/PKG-INFO
+e_pay_client.egg-info/SOURCES.txt
+e_pay_client.egg-info/dependency_links.txt
+e_pay_client.egg-info/not-zip-safe
+e_pay_client.egg-info/top_level.txt
+foo/__init__.py

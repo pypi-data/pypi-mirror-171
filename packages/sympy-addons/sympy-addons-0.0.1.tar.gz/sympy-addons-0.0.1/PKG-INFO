@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sympy-addons
+Version: 0.0.1
+Summary: Useful tools for working with SymPy
+Home-page: https://github.com/maroba/sympy-addons
+Author: Matthias Baer
+Author-email: matthias.r.baer@googlemail.com
+License: MIT
+Platform: ALL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sympy-addons
+
+Useful tools for working with SymPy.
+
+
+

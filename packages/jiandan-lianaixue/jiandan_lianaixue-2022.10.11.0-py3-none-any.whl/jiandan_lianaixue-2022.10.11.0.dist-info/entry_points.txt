@@ -1,0 +1,4 @@
+[console_scripts]
+JiandanLianaixue = JiandanLianaixue.__main__:main
+jiandan-lianaixue = JiandanLianaixue.__main__:main
+

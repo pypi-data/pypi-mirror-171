@@ -1,0 +1,4 @@
+[console_scripts]
+XibaodeLingxingLiaoyu = XibaodeLingxingLiaoyu.__main__:main
+xibaode-lingxing-liaoyu = XibaodeLingxingLiaoyu.__main__:main
+

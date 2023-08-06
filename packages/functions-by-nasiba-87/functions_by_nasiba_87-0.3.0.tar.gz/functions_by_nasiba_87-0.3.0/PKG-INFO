@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: functions-by-nasiba-87
+Version: 0.3.0
+Summary: 
+Author: somename
+Author-email: a@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions
+
+#### This is our first project.
+
+
+#### Please install this package
+```
+
+pip install functions_by_nasiba_87
+```
+
+#### You can also install older packages
+
+```
+pip install functions_by_nasiba_87==VERSION_NUMBER

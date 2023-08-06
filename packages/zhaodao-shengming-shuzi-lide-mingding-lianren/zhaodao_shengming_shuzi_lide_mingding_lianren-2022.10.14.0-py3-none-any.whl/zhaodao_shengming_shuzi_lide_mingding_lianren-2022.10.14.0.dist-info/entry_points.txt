@@ -1,0 +1,4 @@
+[console_scripts]
+ZhaodaoShengmingShuziLideMingdingLianren = ZhaodaoShengmingShuziLideMingdingLianren.__main__:main
+zhaodao-shengming-shuzi-lide-mingding-lianren = ZhaodaoShengmingShuziLideMingdingLianren.__main__:main
+

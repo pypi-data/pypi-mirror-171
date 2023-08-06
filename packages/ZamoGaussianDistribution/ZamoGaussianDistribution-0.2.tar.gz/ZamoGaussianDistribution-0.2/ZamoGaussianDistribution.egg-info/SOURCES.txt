@@ -1,0 +1,10 @@
+setup.py
+ZamoGaussianDistribution/Binomialdistribution.py
+ZamoGaussianDistribution/Gaussiandistribution.py
+ZamoGaussianDistribution/Generaldistribution.py
+ZamoGaussianDistribution/__init__.py
+ZamoGaussianDistribution.egg-info/PKG-INFO
+ZamoGaussianDistribution.egg-info/SOURCES.txt
+ZamoGaussianDistribution.egg-info/dependency_links.txt
+ZamoGaussianDistribution.egg-info/not-zip-safe
+ZamoGaussianDistribution.egg-info/top_level.txt

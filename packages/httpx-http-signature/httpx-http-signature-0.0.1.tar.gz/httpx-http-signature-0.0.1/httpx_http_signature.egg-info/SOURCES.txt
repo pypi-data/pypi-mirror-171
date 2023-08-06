@@ -1,0 +1,15 @@
+Changes.rst
+LICENSE
+Makefile
+README.rst
+common.mk
+pyproject.toml
+setup.cfg
+setup.py
+httpx_http_signature/__init__.py
+httpx_http_signature/version.py
+httpx_http_signature.egg-info/PKG-INFO
+httpx_http_signature.egg-info/SOURCES.txt
+httpx_http_signature.egg-info/dependency_links.txt
+httpx_http_signature.egg-info/requires.txt
+httpx_http_signature.egg-info/top_level.txt

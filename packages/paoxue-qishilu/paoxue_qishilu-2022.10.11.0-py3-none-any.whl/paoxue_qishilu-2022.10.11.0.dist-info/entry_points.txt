@@ -1,0 +1,4 @@
+[console_scripts]
+PaoxueQishilu = PaoxueQishilu.__main__:main
+paoxue-qishilu = PaoxueQishilu.__main__:main
+

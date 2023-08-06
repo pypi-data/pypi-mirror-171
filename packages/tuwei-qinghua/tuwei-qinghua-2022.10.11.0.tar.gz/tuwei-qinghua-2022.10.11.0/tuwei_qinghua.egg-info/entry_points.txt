@@ -1,0 +1,4 @@
+[console_scripts]
+TuweiQinghua = TuweiQinghua.__main__:main
+tuwei-qinghua = TuweiQinghua.__main__:main
+

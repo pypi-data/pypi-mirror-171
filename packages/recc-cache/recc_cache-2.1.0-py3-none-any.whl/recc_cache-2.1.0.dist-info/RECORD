@@ -1,0 +1,9 @@
+recc_cache/__init__.py,sha256=lG_XD6t-ckxnoiXHaPC96YP3sMtw35exZlA-vIkhcfo,130
+recc_cache/cache.py,sha256=EykDQkWOI22u8CkOGdzAP1epmZa1sqVCffV0PMM6fmg,7374
+recc_cache/redis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recc_cache/redis/redis_cache.py,sha256=gGlPK0Td6FOx5a0GgxXXQr2qLL-g2nW4esIRNgckzF8,6579
+recc_cache-2.1.0.dist-info/LICENSE,sha256=JW5M9luThwzhgOyGgbCMOdAa7-cWGXH7cY-pi2IsQyE,1052
+recc_cache-2.1.0.dist-info/METADATA,sha256=DCap6Q8AGNnf_uqrJJBoF6VrYqIIQt7FQq5BhMkVFl0,1482
+recc_cache-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recc_cache-2.1.0.dist-info/top_level.txt,sha256=bon6RclvVlQ7uQtcI3GWYHj_ZAXTmG8nH0zTIbjzsUM,11
+recc_cache-2.1.0.dist-info/RECORD,,

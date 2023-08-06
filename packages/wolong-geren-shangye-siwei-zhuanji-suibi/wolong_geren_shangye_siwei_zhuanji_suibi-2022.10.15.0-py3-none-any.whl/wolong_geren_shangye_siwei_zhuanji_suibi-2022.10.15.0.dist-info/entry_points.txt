@@ -1,0 +1,4 @@
+[console_scripts]
+WolongGerenShangyeSiweiZhuanjiSuibi = WolongGerenShangyeSiweiZhuanjiSuibi.__main__:main
+wolong-geren-shangye-siwei-zhuanji-suibi = WolongGerenShangyeSiweiZhuanjiSuibi.__main__:main
+

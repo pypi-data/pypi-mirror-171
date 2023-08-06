@@ -1,0 +1,8 @@
+menage_jupyter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+menage_jupyter/clean.py,sha256=2kkH71WVxKTsgur1Pp1krXBiZ89roXZvx5ubqvmD75I,1187
+menage_jupyter/code.py,sha256=4MDhdC5P89TeqPHID0NDfh-7bmA4O7tOCh5kqkVgPZU,3370
+menage_jupyter/constans.py,sha256=MfBIk7j2uQuy53MvHKywJcQvOUHaEh8N-EmPc2lXx8Q,82
+menage_jupyter-0.1.0.dist-info/LICENSE.md,sha256=JD9gGvTc-A-nDvFCnif1CYcYAD8qF3L4Xsl1o2m8eYw,63
+menage_jupyter-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+menage_jupyter-0.1.0.dist-info/METADATA,sha256=8qba0zGX9ZYpQOqBkrm9aqdGYiGDAGoh4JAP66YK5X4,472
+menage_jupyter-0.1.0.dist-info/RECORD,,

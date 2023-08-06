@@ -1,0 +1,7 @@
+/.vscode
+/__samples
+/__package
+/dist
+*__py_cache__*
+*__py_cache__/*
+pip-publish.sh

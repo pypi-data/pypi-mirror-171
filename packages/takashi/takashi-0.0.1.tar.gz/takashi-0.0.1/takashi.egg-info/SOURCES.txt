@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+src/app.py
+src/args.py
+src/sample.py
+src/test_app.py
+takashi.egg-info/PKG-INFO
+takashi.egg-info/SOURCES.txt
+takashi.egg-info/dependency_links.txt
+takashi.egg-info/requires.txt
+takashi.egg-info/top_level.txt

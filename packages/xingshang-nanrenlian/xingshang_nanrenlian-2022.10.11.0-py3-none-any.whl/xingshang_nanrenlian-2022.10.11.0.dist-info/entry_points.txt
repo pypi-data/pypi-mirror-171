@@ -1,0 +1,4 @@
+[console_scripts]
+XingshangNanrenlian = XingshangNanrenlian.__main__:main
+xingshang-nanrenlian = XingshangNanrenlian.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+YuqishiQiuaiLiaotian = YuqishiQiuaiLiaotian.__main__:main
+yuqishi-qiuai-liaotian = YuqishiQiuaiLiaotian.__main__:main
+

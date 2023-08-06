@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: emat
+Version: 0.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: appdirs
+Requires-Dist: pydot
+Requires-Dist: plotly (>=4.14)
+Requires-Dist: scipy
+Requires-Dist: scikit-learn (>=0.24)
+Requires-Dist: seaborn
+Requires-Dist: pyyaml
+Requires-Dist: cloudpickle
+Requires-Dist: packaging
+Requires-Dist: addicty
+Requires-Dist: yamllint
+Requires-Dist: pathspec
+Requires-Dist: tqdm
+
+# TMIP-EMAT: Exploratory Modeling and Analysis Tool
+
+TMIP-EMAT is a *methodological approach* to exploratory modeling and analysis.
+It provides a window to rigorous analytical methods for handling uncertainty
+and making well informed decisions using travel forecasting models of all
+types. It is designed to integrate with an existing transportation model or
+tool to perform exploratory analysis of a range of possible scenarios.
+
+The methodologies demonstrated in this toolset build on and extend the
+capabilities of the [EMA Workbench](https://github.com/quaquel/EMAworkbench).
+
+Documentation for this tool is published at 
+[http://tmip-emat.github.io](http://tmip-emat.github.io).

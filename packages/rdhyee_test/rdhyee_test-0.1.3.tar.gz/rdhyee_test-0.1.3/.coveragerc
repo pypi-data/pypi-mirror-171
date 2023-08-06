@@ -1,0 +1,7 @@
+[report]
+omit =
+    setup.py
+    rdhyee_test/__main__.py
+    rdhyee_test/_version.py
+    versioneer.py
+    tests/*

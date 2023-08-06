@@ -1,0 +1,8 @@
+cloudflare_dns/__init__.py,sha256=FZfSKDCqVtMF4DqDl5o8_8NuG9JhHRE2jorv3G0ZaVU,2423
+cloudflare_dns/cli.py,sha256=1xGHpA0kRfHr-JtEBaltRarUseYkC4H4dfYoRN9cCqE,9018
+cloudflare_dns-1.2.1.dist-info/LICENSE,sha256=09oxtnKRXlCng40v3tNLBe5qcIMJmJjzJfJT63rIzY0,1064
+cloudflare_dns-1.2.1.dist-info/METADATA,sha256=Yt9B87zEkEKITEoYFvlOl4tMIHKs6pDLvA0aoYbDruQ,5852
+cloudflare_dns-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloudflare_dns-1.2.1.dist-info/entry_points.txt,sha256=V7BXx9RIWVXfP_fZXQLT8242bBv5XzWww9utcw6ak_k,59
+cloudflare_dns-1.2.1.dist-info/top_level.txt,sha256=MQrleWJSLxLmno96xHLE3PfiDY5GFtUq_yyDxDIgIpM,15
+cloudflare_dns-1.2.1.dist-info/RECORD,,

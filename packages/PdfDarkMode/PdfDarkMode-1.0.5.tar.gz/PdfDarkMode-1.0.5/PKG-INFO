@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PdfDarkMode
+Version: 1.0.5
+Summary: Converts PDFs to have a grey background to be easier on the eyes
+Home-page: https://github.com/JustinTheWhale/PDF-Dark-Mode
+Author: JustinTheWhale
+Author-email: justinraymen@gmail.com
+License-File: LICENSE

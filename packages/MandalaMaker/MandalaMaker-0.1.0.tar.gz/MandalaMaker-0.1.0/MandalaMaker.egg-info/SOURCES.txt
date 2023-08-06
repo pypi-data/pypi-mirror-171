@@ -1,0 +1,16 @@
+License.txt
+setup.py
+MandalaMaker.egg-info/PKG-INFO
+MandalaMaker.egg-info/SOURCES.txt
+MandalaMaker.egg-info/dependency_links.txt
+MandalaMaker.egg-info/requires.txt
+MandalaMaker.egg-info/top_level.txt
+designs/__init__.py
+designs/bright.py
+designs/designs.py
+designs/turtle_math.py
+layers/__init__.py
+layers/layer1.py
+layers/layer2.py
+layers/layer3.py
+layers/layer4.py

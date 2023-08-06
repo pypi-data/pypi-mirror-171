@@ -1,0 +1,4 @@
+numpy
+turtle
+python-math
+random2

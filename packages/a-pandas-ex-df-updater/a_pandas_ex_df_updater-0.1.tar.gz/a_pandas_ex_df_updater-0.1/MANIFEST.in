@@ -1,0 +1,4 @@
+include a_pandas_ex_df_updater/requirements.txt
+include a_pandas_ex_df_updater/thirdparty.json
+include a_pandas_ex_df_updater/README.MD
+include a_pandas_ex_df_updater/LICENSE

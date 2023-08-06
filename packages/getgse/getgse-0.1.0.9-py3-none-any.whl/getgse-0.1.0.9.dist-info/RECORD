@@ -1,0 +1,11 @@
+getgse/__init__.py,sha256=7JxKg7k2Z7TTP6i-x-dyzmjVSApq_TArT5LslUK83CY,100
+getgse/getgse.py,sha256=JYWYLXq4oamHo9cEHuff4VHNUto2cVRW8xw1Hnfw1rc,3465
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_getgse.py,sha256=ynF-LJ2vkT_Hv9EewDkMcwe9fR5sok_pPhhLu9nGAa4,276
+getgse-0.1.0.9.dist-info/LICENSE,sha256=PvlOpfUMA3_JbRf6d99m95qTEnMSusvpNUvjClwOhn4,1067
+getgse-0.1.0.9.dist-info/METADATA,sha256=TlvPTNLEXQc68rf5vwDHUr6YhDvPa2yIAlk3V3Iada0,446
+getgse-0.1.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+getgse-0.1.0.9.dist-info/dependency_links.txt,sha256=IpT_fVbd6F8kC0pJ7PSNrjw1J2vV-QcAyR5ni0sJVQk,27
+getgse-0.1.0.9.dist-info/entry_points.txt,sha256=-Xmw33wTLgJb3qU2b0Oqi0DmDr1I_22GUCnTNa317O0,45
+getgse-0.1.0.9.dist-info/top_level.txt,sha256=HLsnHcKmUEgwzUxYJqTJfu9_6xJeSv4c_-KGWxomdzQ,13
+getgse-0.1.0.9.dist-info/RECORD,,

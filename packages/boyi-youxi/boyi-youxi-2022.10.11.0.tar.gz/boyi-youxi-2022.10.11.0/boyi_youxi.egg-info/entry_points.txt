@@ -1,0 +1,4 @@
+[console_scripts]
+BoyiYouxi = BoyiYouxi.__main__:main
+boyi-youxi = BoyiYouxi.__main__:main
+

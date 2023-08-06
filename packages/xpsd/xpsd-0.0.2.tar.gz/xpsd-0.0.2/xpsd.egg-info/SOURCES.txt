@@ -1,0 +1,9 @@
+README.md
+setup.py
+xpsd/__init__.py
+xpsd/xpsd.py
+xpsd.egg-info/PKG-INFO
+xpsd.egg-info/SOURCES.txt
+xpsd.egg-info/dependency_links.txt
+xpsd.egg-info/not-zip-safe
+xpsd.egg-info/top_level.txt

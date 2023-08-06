@@ -1,0 +1,11 @@
+pys3/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pys3/client.py,sha256=ZJa3a0YWOPZLOXEmTrlaJ_LP9Zx0-1w7Iz-vfu-uA9o,6168
+pys3/utils.py,sha256=ySf7-8Zjg9paBtTJ9bPqIXIjxAhrRcefRaLcyyAqzjw,851
+pys3thon/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pys3thon/client.py,sha256=ZJa3a0YWOPZLOXEmTrlaJ_LP9Zx0-1w7Iz-vfu-uA9o,6168
+pys3thon/utils.py,sha256=ySf7-8Zjg9paBtTJ9bPqIXIjxAhrRcefRaLcyyAqzjw,851
+pys3thon-0.1.0.dist-info/LICENSE,sha256=u0yxH_-xPlC0w8-wXkIESbssAjFdFhaX3sW5ljvHPpk,1068
+pys3thon-0.1.0.dist-info/METADATA,sha256=l3rJpCSMP1qBsW5cd9Uwg4n7FppFxiTRl1oOD1ixl9U,788
+pys3thon-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pys3thon-0.1.0.dist-info/top_level.txt,sha256=N9WU8xXk1D3QmqcRLgnEFDG32hh5CocWdZedmLQBuzg,9
+pys3thon-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+Xiyinjia = Xiyinjia.__main__:main
+xiyinjia = Xiyinjia.__main__:main
+

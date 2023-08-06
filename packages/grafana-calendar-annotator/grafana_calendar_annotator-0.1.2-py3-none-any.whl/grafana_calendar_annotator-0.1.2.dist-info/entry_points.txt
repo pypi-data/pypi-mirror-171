@@ -1,0 +1,3 @@
+[console_scripts]
+grafana-calendar-annotator=grafana_calendar_annotator.cli:cli
+

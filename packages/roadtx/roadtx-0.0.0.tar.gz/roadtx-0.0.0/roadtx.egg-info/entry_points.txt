@@ -1,0 +1,3 @@
+[console_scripts]
+roadtx = roadtools.roadtx.main:main
+

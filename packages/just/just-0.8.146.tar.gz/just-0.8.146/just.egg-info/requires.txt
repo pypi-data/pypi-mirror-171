@@ -1,0 +1,6 @@
+pyyaml
+glob2
+orjson
+requests
+ciso8601
+lxml

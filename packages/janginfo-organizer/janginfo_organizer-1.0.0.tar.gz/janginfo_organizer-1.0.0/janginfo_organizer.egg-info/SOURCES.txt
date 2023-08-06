@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+janginfo_organizer/__init__.py
+janginfo_organizer/main.py
+janginfo_organizer.egg-info/PKG-INFO
+janginfo_organizer.egg-info/SOURCES.txt
+janginfo_organizer.egg-info/dependency_links.txt
+janginfo_organizer.egg-info/not-zip-safe
+janginfo_organizer.egg-info/requires.txt
+janginfo_organizer.egg-info/top_level.txt
+scripts/janginfo_organizer

@@ -1,0 +1,2 @@
+[console_scripts]
+fff-mock-gen = fff_mock_gen.fff_mock_gen:main

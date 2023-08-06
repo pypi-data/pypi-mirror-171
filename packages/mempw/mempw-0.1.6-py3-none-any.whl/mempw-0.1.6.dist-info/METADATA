@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mempw
+Version: 0.1.6
+Summary: Python-based memorable password generator
+Home-page: https://github.com/mdvthu/mempw
+Author: Mark Thurston
+Author-email: mark@mdvthu.com
+License: Apache Licence version 2
+Requires-Dist: appdirs
+Requires-Dist: requests
+
+Generates pronouncable passwords based on system wordlists

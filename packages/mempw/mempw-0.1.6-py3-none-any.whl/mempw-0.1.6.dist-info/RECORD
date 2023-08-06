@@ -1,0 +1,10 @@
+mempw/__init__.py,sha256=3JF98VivdGCmMPqJ-pc9XCUR0jnexfkiIgf4oOlS6mI,45
+mempw/config.py,sha256=K7ub84ru-9g4WP5keb3hAd9dyhcZhfy4C3LdTYZtdO4,879
+mempw/core.py,sha256=W-g78d4flbc8fUfdg33EzAA4rrYvxUCpfpoG431YUpE,1103
+mempw/wordlist.py,sha256=mfk4RpihsHmtRVpBGH8n3I4ZCd1ZDnSVZ3YaURW__v4,2253
+mempw-0.1.6.dist-info/LICENCE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+mempw-0.1.6.dist-info/METADATA,sha256=g_cLVsohcCVitQpKAu0Rq2JqQzaxKWxugiVi-hQ9KgA,336
+mempw-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mempw-0.1.6.dist-info/entry_points.txt,sha256=YcAdMmn4mwFwhZQGSzzMPNqGlb_KMA53U89rr_jBnvg,41
+mempw-0.1.6.dist-info/top_level.txt,sha256=krVSzx5n2zSln5adJ9DiCjskB5M3J1g-g1LqVwbbed0,6
+mempw-0.1.6.dist-info/RECORD,,

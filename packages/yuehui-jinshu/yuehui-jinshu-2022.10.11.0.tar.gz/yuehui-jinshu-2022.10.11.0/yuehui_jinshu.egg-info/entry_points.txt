@@ -1,0 +1,4 @@
+[console_scripts]
+YuehuiJinshu = YuehuiJinshu.__main__:main
+yuehui-jinshu = YuehuiJinshu.__main__:main
+

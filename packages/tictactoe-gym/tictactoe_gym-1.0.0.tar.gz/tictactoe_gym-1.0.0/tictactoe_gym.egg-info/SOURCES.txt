@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+tictactoe_gym/__init__.py
+tictactoe_gym.egg-info/PKG-INFO
+tictactoe_gym.egg-info/SOURCES.txt
+tictactoe_gym.egg-info/dependency_links.txt
+tictactoe_gym.egg-info/requires.txt
+tictactoe_gym.egg-info/top_level.txt
+tictactoe_gym/envs/__init__.py
+tictactoe_gym/envs/tictactoe_env.py
+tictactoe_gym/example/play_game.py

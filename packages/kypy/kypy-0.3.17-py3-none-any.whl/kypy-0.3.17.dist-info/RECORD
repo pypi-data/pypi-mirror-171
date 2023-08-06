@@ -1,0 +1,11 @@
+kypy/KyvosLib.py,sha256=zwuJ6w7WLdWBk3fxByLfeJXkX75xMbK9xQLRmhq6m30,68438
+kypy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kypy/Metadata/OlapQueriesLib.py,sha256=OVm-lfa5kZyxb8uBJbJUQMCjvaiTGeuCxAr84opjuh0,3093
+kypy/Metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kypy/Statistics/KyvosMLLib.py,sha256=-5pNPOi_TguFh9MtVQu-BURa5kLYIBe_aLXYi2IlOKg,5178
+kypy/Statistics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kypy-0.3.17.dist-info/LICENSE,sha256=oD0qpNWcHV-yrkUwl06u2APVE6dkGD6Q-gLbOy2TXCw,1113
+kypy-0.3.17.dist-info/METADATA,sha256=G3eWJ-Q7MwFwtb14COk4HnrMwA_QtTwnjiY8dcRwbKU,1361
+kypy-0.3.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kypy-0.3.17.dist-info/top_level.txt,sha256=aSgPyNZJ5g5t7G1cwWfasOYnpZQYIQ38ZBCT3raoGu0,35
+kypy-0.3.17.dist-info/RECORD,,

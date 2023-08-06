@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: kypy
+Version: 0.3.17
+Summary: A python client library used to encapsulating Kyvos OLAP cube patterns.
+Home-page: https://github.com/eugenea-kyvos/KyPy.git
+Author: Eugene Asahara
+Author-email: eugene.asahara@kyvos.io
+License: UNKNOWN
+Keywords: kyvos insights,OLAP cubes,SmartOLAP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyodbc
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+Kyvos Python Library. Kyvos Insights, kyvosinsights.com
+
+Encapsulates common OLAP cube patterns.
+
+Holding place for the Kyvos Python Library (KyPy), set for community preview in Q1 2023.
+
+**** THIS PROJECT IS NOT YET LIVE *****
+
+INSTALLATION INSTRUCTIONS
+
+System Variables used by KyPy:
+
+KYVOS_MASTER_DATA_MANAGEMENT - A directory containing MDM mappings.
+KYVOS_METADATA - A directory containing Metadata information
+KYVOS_INPUT_DATA_DIR
+KYVOS_OUTPUT_DATA_DIR
+KYVOS_UID - Kyvos cluster user name.
+KYVOS_PWD *** Password should only be in the ODBC DSN.
+
+

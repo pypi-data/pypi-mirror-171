@@ -1,0 +1,5 @@
+test_pkg_poetry_binlecode/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+test_pkg_poetry_binlecode/my_module.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pkg_poetry_binlecode-0.1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+test_pkg_poetry_binlecode-0.1.5.dist-info/METADATA,sha256=TGLn2bzzQE92uZd6te8Pyrd1if6sC3Nvo0h6C3z0KzI,2381
+test_pkg_poetry_binlecode-0.1.5.dist-info/RECORD,,

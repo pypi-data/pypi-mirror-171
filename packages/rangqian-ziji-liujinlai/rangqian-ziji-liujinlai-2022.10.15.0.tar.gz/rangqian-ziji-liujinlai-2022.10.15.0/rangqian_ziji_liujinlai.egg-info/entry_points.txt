@@ -1,0 +1,4 @@
+[console_scripts]
+RangqianZijiLiujinlai = RangqianZijiLiujinlai.__main__:main
+rangqian-ziji-liujinlai = RangqianZijiLiujinlai.__main__:main
+

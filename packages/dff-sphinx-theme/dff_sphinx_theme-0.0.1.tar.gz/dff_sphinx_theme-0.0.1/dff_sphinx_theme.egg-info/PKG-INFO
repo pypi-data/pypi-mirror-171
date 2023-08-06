@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dff-sphinx-theme
+Version: 0.0.1
+Summary: Dialog Flow Framework Sphinx Theme
+Home-page: https://github.com/deeppavlov/dff_sphinx_theme
+Author: Alexander Sergeev
+Author-email: shveitsar215@gmail.com
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Documentation
+License-File: LICENSE

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Flashcards Terminal App
+Version: 0.0.1
+Summary: Flashcards Study App
+Author: jasonl27 (Jason Layvand)
+Author-email: <jasonlayvand@gmail.com>
+Keywords: python,terminal,app,study
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X

@@ -1,0 +1,13 @@
+setup.py
+Flashcards_Terminal_App.egg-info/PKG-INFO
+Flashcards_Terminal_App.egg-info/SOURCES.txt
+Flashcards_Terminal_App.egg-info/dependency_links.txt
+Flashcards_Terminal_App.egg-info/requires.txt
+Flashcards_Terminal_App.egg-info/top_level.txt
+flashcardscode/__init__.py
+flashcardscode/accountlogin.py
+flashcardscode/config.py
+flashcardscode/deletion.py
+flashcardscode/main.py
+flashcardscode/setcreation.py
+flashcardscode/studyoptions.py

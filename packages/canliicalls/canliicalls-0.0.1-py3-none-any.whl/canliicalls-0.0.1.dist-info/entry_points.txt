@@ -1,0 +1,2 @@
+[nbdev]
+canliicalls = canliicalls._modidx:d

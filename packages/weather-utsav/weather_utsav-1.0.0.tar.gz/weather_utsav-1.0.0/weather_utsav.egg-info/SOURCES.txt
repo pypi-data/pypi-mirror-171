@@ -1,0 +1,9 @@
+Lincence.txt
+readme.txt
+setup.py
+weather_utsav/__init__.py
+weather_utsav.egg-info/PKG-INFO
+weather_utsav.egg-info/SOURCES.txt
+weather_utsav.egg-info/dependency_links.txt
+weather_utsav.egg-info/requires.txt
+weather_utsav.egg-info/top_level.txt

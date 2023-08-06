@@ -1,0 +1,4 @@
+[console_scripts]
+BidanyiXiadeYouhuoshu = BidanyiXiadeYouhuoshu.__main__:main
+bidanyi-xiade-youhuoshu = BidanyiXiadeYouhuoshu.__main__:main
+

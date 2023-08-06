@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiGonglueLangji = LianaiGonglueLangji.__main__:main
+lianai-gonglue-langji = LianaiGonglueLangji.__main__:main
+

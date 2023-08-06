@@ -1,0 +1,4 @@
+[console_scripts]
+NanrenNadianXiangfa = NanrenNadianXiangfa.__main__:main
+nanren-nadian-xiangfa = NanrenNadianXiangfa.__main__:main
+

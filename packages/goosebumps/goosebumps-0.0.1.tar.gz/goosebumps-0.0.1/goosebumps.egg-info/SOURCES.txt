@@ -1,0 +1,7 @@
+README.md
+setup.py
+goosebumps.egg-info/PKG-INFO
+goosebumps.egg-info/SOURCES.txt
+goosebumps.egg-info/dependency_links.txt
+goosebumps.egg-info/requires.txt
+goosebumps.egg-info/top_level.txt

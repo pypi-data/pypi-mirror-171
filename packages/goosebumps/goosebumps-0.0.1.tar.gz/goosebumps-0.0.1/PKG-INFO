@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: goosebumps
+Version: 0.0.1
+Summary: Library for testing model sensitivity
+Home-page: https://github.com/caiocarneloz/goosebumps
+Author: Caio Carneloz
+Author-email: caiocarneloz@gmail.com
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: model,sensitivity,test
+Platform: UNKNOWN

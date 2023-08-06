@@ -1,0 +1,3 @@
+aorta[google]>=2.15.0
+cbra[google]>=0.154.0
+pydantic>=1.10.2

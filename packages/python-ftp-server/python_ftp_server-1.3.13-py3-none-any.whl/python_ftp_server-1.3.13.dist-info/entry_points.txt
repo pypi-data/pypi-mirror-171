@@ -1,0 +1,3 @@
+[console_scripts]
+python_ftp_server = python_ftp_server:ftp_server
+

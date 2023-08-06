@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nestednop/LICENSE
+nestednop/README.MD
+nestednop/__init__.py
+nestednop/requirements.txt
+nestednop/thirdparty.json
+nestednop.egg-info/PKG-INFO
+nestednop.egg-info/SOURCES.txt
+nestednop.egg-info/dependency_links.txt
+nestednop.egg-info/requires.txt
+nestednop.egg-info/top_level.txt

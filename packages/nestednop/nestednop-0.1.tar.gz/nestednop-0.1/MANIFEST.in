@@ -1,0 +1,4 @@
+include nestednop/requirements.txt
+include nestednop/thirdparty.json
+include nestednop/README.MD
+include nestednop/LICENSE

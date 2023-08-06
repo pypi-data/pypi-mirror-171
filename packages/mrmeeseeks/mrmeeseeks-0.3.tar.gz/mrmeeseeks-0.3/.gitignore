@@ -1,0 +1,5 @@
+/mr/__pycache__/
+*~
+doc/build/**/*
+**/__pycache__/**/*
+/dist/

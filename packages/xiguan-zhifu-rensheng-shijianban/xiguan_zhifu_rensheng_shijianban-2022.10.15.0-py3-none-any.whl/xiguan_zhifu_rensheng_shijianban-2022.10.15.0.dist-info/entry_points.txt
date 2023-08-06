@@ -1,0 +1,4 @@
+[console_scripts]
+XiguanZhifuRenshengShijianban = XiguanZhifuRenshengShijianban.__main__:main
+xiguan-zhifu-rensheng-shijianban = XiguanZhifuRenshengShijianban.__main__:main
+

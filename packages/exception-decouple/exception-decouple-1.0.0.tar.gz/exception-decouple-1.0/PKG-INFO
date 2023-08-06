@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: exception-decouple
+Version: 1.0
+Summary: A decorator that allows you to decouple exception handling
+Home-page: http://github.com/cfytrok/exception-decouple
+Author: Aleksandr Gavrilov
+Author-email: sanya-991@mail.ru
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ogdf-wheel
+Version: 2022.2
+Summary: An OGDF release build packaged as ready-to-use python wheel.
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7

@@ -1,0 +1,17 @@
+delicatessen/__init__.py,sha256=6w6caa7k_qC-ah8vX4yRZ5NI4jcTBs0F0qoPQM2RIEc,547
+delicatessen/data.py,sha256=Zdsvs_nQkb6GCIyNRC6zvbnZ0qB2YNfEqLJvPsm5rUI,3169
+delicatessen/estimating_equations.py,sha256=7xNSq1VodojDePSQ6_Ef1bPkZX4TWc8V8TYVRw4aSqA,134917
+delicatessen/mestimation.py,sha256=Xmbnwo-hdZ1z1jlAvFRAyhLOJEtiZ4UE9CcmYCFx8UE,31510
+delicatessen/utilities.py,sha256=MtL2e2mS45jjNeivcJAFSbpxU3hJacMhZ4XG-Cislm4,7524
+delicatessen/version.py,sha256=zB_rB1cARcxa28wOuaFUXqhNWOzvbKnNTm3qoc3MuuU,21
+delicatessen/estimating_equations/__init__.py,sha256=xooBMCUn-U3rvQCz6t8U_4HdAXyguEhxOk4E6jI2lD0,842
+delicatessen/estimating_equations/basic.py,sha256=Q_XjlLP5baCg_69f4TYQyhQpd3OALWGXp2bl6IBdtno,15643
+delicatessen/estimating_equations/causal.py,sha256=7zQvRyGhmip7PGmNzMB-9C8GQWaW3qrzcWlPY7pc5lI,29363
+delicatessen/estimating_equations/dose_response.py,sha256=z0T0vQaUdiOIOkQXr5rHawW4RivK6mxXiu2o0P6xbEw,20849
+delicatessen/estimating_equations/regression.py,sha256=10AtarNv_zoMMq64niowJHDHu-4vil29FEocroHUE6g,51009
+delicatessen/estimating_equations/survival.py,sha256=Q9ilQCa18D9W1GnA5W1s6PKvp18yBeaN1xTuM4eXwKg,38910
+delicatessen-0.6.dist-info/LICENSE,sha256=xP7a4iE-59MWBKokWDp5JGpI2odWIp7azTO2Hzs2GD4,1087
+delicatessen-0.6.dist-info/METADATA,sha256=Pj5atLx-k9s2logtO4w41ubrYflP0roj9eNJdTp82Gs,3829
+delicatessen-0.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+delicatessen-0.6.dist-info/top_level.txt,sha256=xsfqebqCiL1l4jy9QH0mXSAPJ6GTDyyzzo5zmDqSUf4,13
+delicatessen-0.6.dist-info/RECORD,,

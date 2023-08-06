@@ -1,0 +1,4 @@
+[console_scripts]
+ZhairenYuehuiZhinan = ZhairenYuehuiZhinan.__main__:main
+zhairen-yuehui-zhinan = ZhairenYuehuiZhinan.__main__:main
+

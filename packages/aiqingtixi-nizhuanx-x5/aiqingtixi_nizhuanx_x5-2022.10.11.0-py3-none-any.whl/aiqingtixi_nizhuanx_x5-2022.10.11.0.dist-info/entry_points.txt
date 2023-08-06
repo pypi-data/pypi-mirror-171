@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingtixiNizhuanxX5 = AiqingtixiNizhuanxX5.__main__:main
+aiqingtixi-nizhuanx-x5 = AiqingtixiNizhuanxX5.__main__:main
+

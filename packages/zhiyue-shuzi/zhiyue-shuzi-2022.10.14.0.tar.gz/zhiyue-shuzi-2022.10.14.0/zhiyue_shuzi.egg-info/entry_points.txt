@@ -1,0 +1,4 @@
+[console_scripts]
+ZhiyueShuzi = ZhiyueShuzi.__main__:main
+zhiyue-shuzi = ZhiyueShuzi.__main__:main
+

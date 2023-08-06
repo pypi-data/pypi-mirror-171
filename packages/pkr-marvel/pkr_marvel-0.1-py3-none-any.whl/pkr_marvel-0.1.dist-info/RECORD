@@ -1,0 +1,10 @@
+mypackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypackage/filter_data.py,sha256=zkl-8BsvSz5tavj5kWuF6pRUK5IH_8HIWmhjmKdfzrM,2461
+mypackage/filter_data_condition.py,sha256=6NIceC4OAjDHLIT1mBqN22CEYyK8eAnA2qKf9ywUdqw,286
+mypackage/filter_rows.py,sha256=X61MQ-sojm-WEOJzd9YZAZBzY0q1UWvYuz3yUx0LIBY,677
+mypackage/hash_func.py,sha256=6_BEGZqnd2YxCgJ2B5jLzaHOSJj-PQhzNgZO0-_XaNM,233
+pkr_marvel-0.1.dist-info/LICENSE,sha256=5oV-igsQ_w9Fry8JSMk3FV8VnMeAkS0BdlaPfMfliEI,1086
+pkr_marvel-0.1.dist-info/METADATA,sha256=rhZJaLpTpLR-rhLjl0RrJEhiHFhSpjYwVwqMQFG-mSc,241
+pkr_marvel-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pkr_marvel-0.1.dist-info/top_level.txt,sha256=ax2Dg5ulHxjedaMk72kLxMHSvJB80I9iLPYgNI4IQeA,10
+pkr_marvel-0.1.dist-info/RECORD,,

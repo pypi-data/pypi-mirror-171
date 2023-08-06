@@ -1,0 +1,11 @@
+README.md
+setup.py
+pixelplot/__init__.py
+pixelplot/dashedimagedraw.py
+pixelplot/metadata.py
+pixelplot/plotter.py
+pixelplot.egg-info/PKG-INFO
+pixelplot.egg-info/SOURCES.txt
+pixelplot.egg-info/dependency_links.txt
+pixelplot.egg-info/requires.txt
+pixelplot.egg-info/top_level.txt

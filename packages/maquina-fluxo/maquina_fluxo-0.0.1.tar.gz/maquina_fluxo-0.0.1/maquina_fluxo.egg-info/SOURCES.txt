@@ -1,0 +1,9 @@
+README.md
+setup.py
+maquina_fluxo/__init__.py
+maquina_fluxo/fluxo.py
+maquina_fluxo.egg-info/PKG-INFO
+maquina_fluxo.egg-info/SOURCES.txt
+maquina_fluxo.egg-info/dependency_links.txt
+maquina_fluxo.egg-info/requires.txt
+maquina_fluxo.egg-info/top_level.txt

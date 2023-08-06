@@ -1,0 +1,12 @@
+README.md
+setup.py
+NvrenPashenme/README.md
+NvrenPashenme/__init__.py
+NvrenPashenme/__main__.py
+NvrenPashenme/file.pdf
+NvrenPashenme/index.html
+nvren_pashenme.egg-info/PKG-INFO
+nvren_pashenme.egg-info/SOURCES.txt
+nvren_pashenme.egg-info/dependency_links.txt
+nvren_pashenme.egg-info/entry_points.txt
+nvren_pashenme.egg-info/top_level.txt

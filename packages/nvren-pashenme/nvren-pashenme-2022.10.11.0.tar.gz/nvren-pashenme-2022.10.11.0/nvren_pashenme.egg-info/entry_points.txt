@@ -1,0 +1,4 @@
+[console_scripts]
+NvrenPashenme = NvrenPashenme.__main__:main
+nvren-pashenme = NvrenPashenme.__main__:main
+

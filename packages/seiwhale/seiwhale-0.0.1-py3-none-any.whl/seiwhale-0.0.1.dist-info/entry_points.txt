@@ -1,0 +1,3 @@
+[console_scripts]
+sei=seiwhale.cli:run
+

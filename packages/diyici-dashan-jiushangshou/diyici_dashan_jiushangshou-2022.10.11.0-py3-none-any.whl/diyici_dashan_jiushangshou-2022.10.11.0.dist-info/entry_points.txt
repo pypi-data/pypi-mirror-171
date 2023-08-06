@@ -1,0 +1,4 @@
+[console_scripts]
+DiyiciDashanJiushangshou = DiyiciDashanJiushangshou.__main__:main
+diyici-dashan-jiushangshou = DiyiciDashanJiushangshou.__main__:main
+

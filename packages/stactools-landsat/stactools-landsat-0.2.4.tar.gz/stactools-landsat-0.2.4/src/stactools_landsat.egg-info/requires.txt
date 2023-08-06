@@ -1,0 +1,2 @@
+stactools>=0.2.4
+pystac_client>=0.3.2

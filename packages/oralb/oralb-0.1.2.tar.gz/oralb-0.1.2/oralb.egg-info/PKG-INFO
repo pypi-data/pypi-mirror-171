@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oralb
+Version: 0.1.2
+Summary: Connect to an OralB toothbrush via Bluetooth
+Home-page: https://github.com/bkbilly/oralb
+Author: bkbilly
+Author-email: bkbilly@hotmail.com
+License: UNKNOWN
+Description: # OralB Toothbrush
+        [![PyPI Version](https://img.shields.io/pypi/v/OralB?label=PyPI&logo=pypi)](https://pypi.org/project/OralB/)
+        
+        
+        Async method to read information from Bluetooth OralB Toothbrush.
+        
+        Exposes the following sensors:
+         - Brush Time
+         - Battery Life
+         - Selected Mode
+         - Operation status
+         - Sector
+         - Sector Time
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

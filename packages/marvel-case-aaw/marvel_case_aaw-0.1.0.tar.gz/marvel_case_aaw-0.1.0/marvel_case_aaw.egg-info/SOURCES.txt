@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+marvel_case_aaw.egg-info/PKG-INFO
+marvel_case_aaw.egg-info/SOURCES.txt
+marvel_case_aaw.egg-info/dependency_links.txt
+marvel_case_aaw.egg-info/requires.txt
+marvel_case_aaw.egg-info/top_level.txt
+mypckg/Functions.py
+mypckg/__init__.py

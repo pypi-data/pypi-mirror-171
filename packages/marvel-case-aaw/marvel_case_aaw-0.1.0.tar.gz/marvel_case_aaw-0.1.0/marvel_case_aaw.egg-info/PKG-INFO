@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: marvel-case-aaw
+Version: 0.1.0
+Summary: Marvel case study
+Home-page: 
+Author: Aaradhya Wadhwa
+Author-email: aaradhya7101@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+

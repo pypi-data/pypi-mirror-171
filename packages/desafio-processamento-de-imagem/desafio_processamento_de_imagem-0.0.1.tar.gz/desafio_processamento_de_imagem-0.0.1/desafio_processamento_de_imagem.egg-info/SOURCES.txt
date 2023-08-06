@@ -1,0 +1,13 @@
+README.md
+setup.py
+desafio_processamento_de_imagem/__init__.py
+desafio_processamento_de_imagem.egg-info/PKG-INFO
+desafio_processamento_de_imagem.egg-info/SOURCES.txt
+desafio_processamento_de_imagem.egg-info/dependency_links.txt
+desafio_processamento_de_imagem.egg-info/top_level.txt
+desafio_processamento_de_imagem/module1_name/__init__.py
+desafio_processamento_de_imagem/module1_name/file1_name.py
+desafio_processamento_de_imagem/module1_name/file2_name.py
+desafio_processamento_de_imagem/module2_name/__init__.py
+desafio_processamento_de_imagem/module2_name/file1_name.py
+desafio_processamento_de_imagem/module2_name/file2_name.py

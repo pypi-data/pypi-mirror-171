@@ -1,0 +1,33 @@
+# General Information
+DataNormalizer helps with importing datasets inside the platform by normalizing it. 
+
+```python
+import DataNormalizer
+```
+
+### App details/ authenticate
+The DataNormalizer library needs the details of the target app. This information can be retrieved through the Clappform library and then be passed to the library. 
+```python
+Clappform.Auth(baseURL="https://dev.clappform.com/", username="user@email.com", password="password")
+retrievedAppData = Clappform.App("app-name").ReadOne(extended=True)
+excelAsDF = pandas.read_excel("data.xlsx")
+fixedData = DataNormalizer.Diagnose(appData=readAppData, inputData=excelAsDF).matchKeys()
+```
+
+### obtainKeys
+Function that will find keys needed for the app, needs appData
+```python
+DataNormalizer.Validate(appData=None).obtainKeys()
+```
+
+### matchKeys
+Function that will find missing keys, needs appData and inputData
+```python
+DataNormalizer.Validate(appData=None, inputData=None).matchKeys()
+```
+
+### fixMismatch
+Function that will suggest changes to your dataset based on missing keys, needs appData and inputData
+```python
+DataNormalizer.Diagnose(appData=None, inputData=None).fixMismatch(strictness = 0.8)
+```

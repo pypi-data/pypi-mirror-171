@@ -1,0 +1,2 @@
+aio-pika>=8.2.4
+msgpack>=1.0.2

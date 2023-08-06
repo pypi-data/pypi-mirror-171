@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aio_pika_msgpack_rpc/__init__.py
+src/aio_pika_msgpack_rpc/msgpack_rpc.py
+src/aio_pika_msgpack_rpc.egg-info/PKG-INFO
+src/aio_pika_msgpack_rpc.egg-info/SOURCES.txt
+src/aio_pika_msgpack_rpc.egg-info/dependency_links.txt
+src/aio_pika_msgpack_rpc.egg-info/requires.txt
+src/aio_pika_msgpack_rpc.egg-info/top_level.txt

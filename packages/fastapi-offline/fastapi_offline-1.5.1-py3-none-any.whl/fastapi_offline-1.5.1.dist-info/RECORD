@@ -1,0 +1,13 @@
+fastapi_offline/__init__.py,sha256=5ZFucoJK7bTKc1n39bxHmOUHRTRo84J3yr7P48lz-ow,135
+fastapi_offline/consts.py,sha256=dQNV1D5cbz2dakyaSK-YajB3gTGkIPamExrypnkPZOY,299
+fastapi_offline/core.py,sha256=V62vzuKI5MbtfH9gQIi2x0xXoGrp3hYYIq8oRKSRHwk,3265
+fastapi_offline/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_offline/static/favicon.png,sha256=cOPeoFIQCjIrPOstAVMGlDq6ODvn1adAuwVgqsV83vM,412
+fastapi_offline/static/redoc.standalone.js,sha256=77kGx7mVN9EcdER2ZM4gQ-E-ra_N6AZq9QseAeD6kt0,1042008
+fastapi_offline/static/swagger-ui-bundle.js,sha256=LvfNu4jKqj_DKLkiUPQ47x5YzOZv6hm04HwV49-ZVV0,1058195
+fastapi_offline/static/swagger-ui.css,sha256=YJBLI92sfLMpdycbxNWyqNutowIMYPZQ1YHbWLWUqYs,144681
+fastapi_offline-1.5.1.dist-info/LICENSE,sha256=TJ7yIBfw_iJasWBcRotS_o6DW_jX0PcJ5ddfNFiMCbA,1055
+fastapi_offline-1.5.1.dist-info/METADATA,sha256=OQA816Pd3ejPJorFfMvJKCA06sep8R7JOQDWWlzpj0o,3324
+fastapi_offline-1.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastapi_offline-1.5.1.dist-info/top_level.txt,sha256=1lfSVMJyscqnA82blcA1uH9iceht9UH1reci37knNJc,16
+fastapi_offline-1.5.1.dist-info/RECORD,,

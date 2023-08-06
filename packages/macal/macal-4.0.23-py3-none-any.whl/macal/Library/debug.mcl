@@ -1,0 +1,2 @@
+DebugPrintScope => () external "debug", "DebugPrintScope";
+DebugPrintVariable => (varname) external "debug", "DebugPrintVariable";

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: milkviz
+Version: 0.6.0
+Summary: Self-opinionated miscellaneous visualizations library in python
+Home-page: https://github.com/Mr-Milk/milkviz
+License: MIT
+Author: Mr-Milk
+Author-email: yb97643@um.edu.mo
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Matplotlib
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Provides-Extra: all
+Requires-Dist: legendkit (>=0.2.4,<0.3.0)
+Requires-Dist: matplotlib (>=3.5,<4.0)
+Requires-Dist: matplotlib-venn (>=0.11.7,<0.12.0); extra == "all"
+Requires-Dist: networkx (>=2.8.6,<3.0.0); extra == "all"
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Project-URL: Repository, https://github.com/Mr-Milk/milkviz
+Description-Content-Type: text/markdown
+
+# MilkViz
+
+[![Documentation Status](https://img.shields.io/readthedocs/milkviz?logo=readthedocs&logoColor=white&style=flat-square)](https://milkviz.readthedocs.io/en/latest?badge=latest)
+![Build&Test](https://img.shields.io/github/workflow/status/Mr-Milk/milkviz/Build?style=flat-square&logo=github)
+![pypi version](https://img.shields.io/pypi/v/milkviz?color=blue&logo=python&logoColor=white&style=flat-square)
+
+Mr-Milk's own visualization library. 
+Some commonly used visualizations in my own research.
+But not available out there.
+
+[Gallery](https://milkviz.readthedocs.io/en/latest/gallery_examples/index.html)
+
+Copyright © 2022, Mr-Milk
+

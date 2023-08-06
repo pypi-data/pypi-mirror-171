@@ -1,0 +1,4 @@
+[console_scripts]
+KingWanhuiAiqingJihua = KingWanhuiAiqingJihua.__main__:main
+king-wanhui-aiqing-jihua = KingWanhuiAiqingJihua.__main__:main
+

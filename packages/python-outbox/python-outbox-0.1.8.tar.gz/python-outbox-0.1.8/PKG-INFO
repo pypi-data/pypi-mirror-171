@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: python-outbox
+Version: 0.1.8
+Summary: Implement the outbox pattern in a generic way for python projects.
+Home-page: https://github.com/Smixi/python-outbox
+License: MIT
+Keywords: events,outbox-pattern,event-driven
+Author: Sami Tahri
+Author-email: sismixx@hotmail.fr
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: SQLAlchemy (>=1.4.40,<2.0.0)
+Requires-Dist: SQLAlchemy-Utils (>=0.38.3,<0.39.0)
+Requires-Dist: black (>=22.8.0,<23.0.0)
+Requires-Dist: cloudevents (>=1.6.1,<2.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/Smixi/python-outbox/issues
+Project-URL: Repository, https://github.com/Smixi/python-outbox
+Description-Content-Type: text/markdown
+
+# Python-Outbox
+
+Python-outbox is a library that implement the Outbox pattern.
+
+It try to separate concerns of retrieving and publishing events in the pattern, allowing a generic implementation for any use case you would want.

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pypipr
+Version: 0.1.2
+Summary: The Python Package Index Project
+Author: ufiapjj
+Author-email: ufiapjj@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Poetry
+`poetry new pypipr`
+
+`poetry add <pakage>`
+
+`poetry version <0.0.0>`
+
+`poetry build`
+
+`poetry install`
+
+`poetry config pypi-token.pypi <TOKEN>`
+
+`poetry publish`
+

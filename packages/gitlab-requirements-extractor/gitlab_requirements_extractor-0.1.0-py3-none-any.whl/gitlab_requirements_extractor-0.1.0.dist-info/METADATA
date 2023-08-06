@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gitlab_requirements_extractor
+Version: 0.1.0
+Summary: Extract requirements from gitlab issues and created new issued for each requirement
+License: MIT
+Author-email: Christoph Becker <christoph.becker@exb.de>
+Requires-Python: >=3.10
+Requires-Dist: loguru>=0.6.0
+Requires-Dist: pydantic>=1.10.2
+Requires-Dist: python-decouple>=3.6
+Requires-Dist: python-gitlab>=3.10.0
+Description-Content-Type: text/markdown
+
+# gitlab_requirements_extractor
+
+Extract requirements from gitlab issues and created new issued for each requirement
+

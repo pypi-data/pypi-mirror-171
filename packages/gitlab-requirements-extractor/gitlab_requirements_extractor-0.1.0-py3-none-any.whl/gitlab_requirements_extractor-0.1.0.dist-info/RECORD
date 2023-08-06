@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=zZ7GZerFYgx5afLjOLAGPK7AdLKvyobMUbdTZveXc2U,1033
+requirements_extractor/__init__.py,sha256=P-PjAJWd2c67vOmIE_ZMS-xOfENVzYvfIU46ObiuHNo,3405
+requirements_extractor/__main__.py,sha256=na65B86jfkeyrpXFTbfZm54uDSCJyxY7zWcIAkRTAEM,88
+requirements_extractor/__version__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+requirements_extractor/extractor.py,sha256=QFTlnfH1vJqeA0RgnXe7p4Z2f3B_X0dygakobOvOCXo,28
+requirements_extractor/gitlab_connector.py,sha256=OopZTEItHCVOtBYwftef2yPR9qkENWaCqhaEjUN2aV8,3467
+requirements_extractor/gitlab_models.py,sha256=v9FbnBLxevxGm37FkSJpO-B3nXXCp3PFkdlkxDWhDy4,2297
+gitlab_requirements_extractor-0.1.0.dist-info/entry_points.txt,sha256=W0RmAeT_-7igQ8o5ZBiC616LTg4yy84aKd-LMJZNTVk,63
+gitlab_requirements_extractor-0.1.0.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+gitlab_requirements_extractor-0.1.0.dist-info/METADATA,sha256=Xf84hy8hKZg4a4dvwn0bFJkC-5FHb6lHLxjU79Uro6o,553
+gitlab_requirements_extractor-0.1.0.dist-info/RECORD,,

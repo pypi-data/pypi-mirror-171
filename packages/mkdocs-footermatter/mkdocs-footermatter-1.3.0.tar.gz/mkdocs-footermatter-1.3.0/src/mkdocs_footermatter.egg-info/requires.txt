@@ -1,0 +1,2 @@
+mkdocs>=1
+pendulum==2.1.2

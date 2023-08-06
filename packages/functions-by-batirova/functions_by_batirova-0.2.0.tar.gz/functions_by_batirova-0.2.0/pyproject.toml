@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions_by_batirova"
+version = "0.2.0"
+description = "This is out test project"
+authors = ["Gulnara Batirova <batirova@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_batirova"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

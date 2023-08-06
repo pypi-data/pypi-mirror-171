@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pixelplot
+Version: 1.0.0
+Summary: Limited plotting tool for limited display devices
+Home-page: https://github.com/Mezgrman/pixelplot
+Author: Julian Metzler
+Author-email: git@mezgr.de
+License: MIT
+Keywords: graph plot pixel display data visualization chart
+Platform: UNKNOWN
+Requires-Dist: Pillow
+
+UNKNOWN
+
+

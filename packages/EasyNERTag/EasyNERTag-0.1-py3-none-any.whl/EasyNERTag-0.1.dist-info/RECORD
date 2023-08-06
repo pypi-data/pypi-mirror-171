@@ -1,0 +1,9 @@
+easynertag/__init__.py,sha256=rxYJHghT32uzzvoYPSZnRC3uEk21qJJq9WouX5ephiA,48
+easynertag/core.py,sha256=wkTLyN3YKzVL8nThRA1o8JEq205rlFWMl_dCjnFDekU,2690
+tests/__init__.py,sha256=YIqCqmgIcbzhgGLX5VlWgH7rcNm3CSqk2_LlR-_q1gk,229
+tests/test_make_tag.py,sha256=Vz0aI3rrzlrr3ihz5rSsUsD1WQYwRin02ZeUYPwwUuY,1188
+EasyNERTag-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+EasyNERTag-0.1.dist-info/METADATA,sha256=So0uM2_khsfzr4TKkVewYhletUz3SWM9JkLpF8XxS_c,3221
+EasyNERTag-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EasyNERTag-0.1.dist-info/top_level.txt,sha256=D9MnCRbHJKNlezWjFZyI1v1Mvojl85AkYpErBbbI4As,17
+EasyNERTag-0.1.dist-info/RECORD,,

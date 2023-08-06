@@ -1,0 +1,8 @@
+colorama<1
+httpx<1
+python-dotenv<1
+
+[testing]
+pytest
+coverage[toml]
+covdefaults

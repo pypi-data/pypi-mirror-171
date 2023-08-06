@@ -1,0 +1,2 @@
+include requirements.txt
+include mongo_dynamic_models/version/version.json

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mongo_dynamic_models/__init__.py
+mongo_dynamic_models.egg-info/PKG-INFO
+mongo_dynamic_models.egg-info/SOURCES.txt
+mongo_dynamic_models.egg-info/dependency_links.txt
+mongo_dynamic_models.egg-info/requires.txt
+mongo_dynamic_models.egg-info/top_level.txt
+mongo_dynamic_models/core/__init__.py
+mongo_dynamic_models/version/version.json
+mongo_models/__init__.py
+mongo_models/core/__init__.py

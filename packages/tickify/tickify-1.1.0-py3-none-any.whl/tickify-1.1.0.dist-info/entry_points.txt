@@ -1,0 +1,2 @@
+[console_scripts]
+tickify = tickify.__main__:main

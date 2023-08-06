@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+sapt.egg-info/PKG-INFO
+sapt.egg-info/SOURCES.txt
+sapt.egg-info/dependency_links.txt
+sapt.egg-info/entry_points.txt
+sapt.egg-info/top_level.txt

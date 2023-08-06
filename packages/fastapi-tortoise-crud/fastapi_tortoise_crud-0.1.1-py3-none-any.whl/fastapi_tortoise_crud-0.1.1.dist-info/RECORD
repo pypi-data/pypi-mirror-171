@@ -1,0 +1,7 @@
+__init__.py,sha256=N-Ur05iT1GIAmtMjMglgA8R2uu2Q7LEeURUD0r8JDRw,151
+crud.py,sha256=HFaAdlZ5F1zp3T9YXkHggoLoub3BRmvkkbngkVBClWw,5095
+model.py,sha256=b2MVffZIsc6oaB2c6KpeIwhjfSpLESdq5XYAV6rtFco,3380
+response_code.py,sha256=QztDbXIP9ZfenVFublvKI-MVY3e3GHLThll1yWRqv1Q,1630
+fastapi_tortoise_crud-0.1.1.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+fastapi_tortoise_crud-0.1.1.dist-info/METADATA,sha256=zfC18OZNDV_kD6wv9W8G4wd07Xv5tnXsby5nU5lKZ68,296
+fastapi_tortoise_crud-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+GunchuangdanXinlixueVol1 = GunchuangdanXinlixueVol1.__main__:main
+gunchuangdan-xinlixue-vol1 = GunchuangdanXinlixueVol1.__main__:main
+

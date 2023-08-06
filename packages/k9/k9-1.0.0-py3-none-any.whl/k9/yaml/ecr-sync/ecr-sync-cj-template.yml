@@ -1,0 +1,40 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: 'ecr-sync'
+spec:
+  schedule: '{{schedule}}'
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 2
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      backoffLimit: 4
+      template:
+        spec:
+          terminationGracePeriodSeconds: 0
+          restartPolicy: OnFailure
+          containers:
+          - name: ecr-cron-job
+            imagePullPolicy: IfNotPresent
+            image: '{{image}}'
+            command:
+              - "/sync.sh"
+            env:
+              - name: REPO_NAME
+                value: '{{env.repo_name}}'
+              - name: NP_REGION
+                value: '{{env.np_region}}'
+              - name: PRD_REGION
+                value: '{{env.prd_region}}'
+              - name: NP_ACCOUNT
+                value: '{{env.np_account}}'
+              - name: PRD_ACCOUNT
+                value: '{{env.prd_account}}'
+            volumeMounts:
+            - mountPath: /var/run/docker.sock
+              name: 'dockersock'
+          volumes:
+          - name: 'dockersock'
+            hostPath:
+              path: '/var/run/docker.sock'

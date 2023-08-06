@@ -1,0 +1,10 @@
+clusterName: {{clusterName}}-cluster
+
+defaultTags:
+  clusterName: {{clusterName}}
+  baseDomain: {{baseDomain}}
+
+# view valid repositories here
+# https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases
+image:
+  repository: {{albRepoUrl}}

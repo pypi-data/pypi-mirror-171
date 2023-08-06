@@ -1,0 +1,23 @@
+grafana:
+  ingress:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: 'alb'
+      alb.ingress.kubernetes.io/group.name: '{{clusterName}}-ingress-group'
+      alb.ingress.kubernetes.io/scheme: 'internet-facing'
+      alb.ingress.kubernetes.io/target-type: 'ip'
+      alb.ingress.kubernetes.io/certificate-arn: '{{certArn}}'
+    hosts:
+      - 'grafana.{{baseDomain}}'
+    tls:
+      - hosts:
+          - 'grafana.{{baseDomain}}'
+  persistence:
+    enabled: true
+    storageClassName: 'standard'
+    type: 'pvc'
+    existingClaim: false
+  grafana.ini:
+    # used for the links sent to slack/google chat
+    server:
+      root_url: 'https://grafana.{{baseDomain}}'

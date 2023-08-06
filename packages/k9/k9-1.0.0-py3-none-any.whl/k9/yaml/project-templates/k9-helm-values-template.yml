@@ -1,0 +1,6 @@
+# Helm information for {{appName}} repository.
+# Information k9 needs to run helm install for each environment.
+# k9 will generate all necessary fields in each deployment's values.yml file
+repoUrl: https://charts.simoncomputing.com
+repoName: {{appName}}-service
+chartName: {{appName}}

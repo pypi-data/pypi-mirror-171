@@ -1,0 +1,18 @@
+{
+  "id": 12,
+  "uid": "jKhlY7bGk",
+  "name": "lambda",
+  "type": "webhook",
+  "isDefault": false,
+  "sendReminder": false,
+  "disableResolveMessage": false,
+  "frequency": "",
+  "created": "2020-12-21T15:09:25Z",
+  "updated": "2020-12-21T15:09:25Z",
+  "settings": {
+    "autoResolve": true,
+    "httpMethod": "POST",
+    "uploadImage": false,
+    "url": "https://mgvzmexuke.execute-api.us-east-1.amazonaws.com/default/print_alert"
+  }
+}

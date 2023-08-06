@@ -1,0 +1,28 @@
+# Template to create a Multibranch pipeline job using JCasC and Jenkins Job DSL
+
+jobs:
+    - script: >
+        folder('{{folderName}}') {
+            displayName('{{folderName}}')
+            description('Folder for {{appName}}')
+        }
+
+    - script: >
+        multibranchPipelineJob('{{folderName}}/{{jobName}}') {
+            description('{{deployType}} Job for {{appName}}')
+            branchSources {
+                git {
+                    id('{{jobName}}')
+                    remote('{{repoUrl}}')
+                    credentialsId('{{credentialsId}}')
+                }
+                orphanedItemStrategy {
+                    discardOldItems {
+                        numToKeep(0)
+                    }
+                }
+                triggers {
+                    cron('* * * * *')
+                }
+            }
+        }

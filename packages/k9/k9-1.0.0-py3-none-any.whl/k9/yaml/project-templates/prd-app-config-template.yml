@@ -1,0 +1,22 @@
+# see documentation for examples
+# https://k9.docs.simoncomputing.com/app-config.html
+appName: {{appName}}
+webSite: False
+rootDomain: {{rootDomain}}
+
+deployments:
+  - clusterName: prd
+    environments:
+      - env: prd
+        customers: ["uva"]
+        appSecret: prd-{{appName}}-app-secret
+        springActiveProfile: prd
+        updateTag: prod
+
+webDeployment:
+  repository: https://gitlab.com/technology-innovations-lab/boiler-plate-app/ui-2022.git
+  deployTokenSecret: {{appName}}-web-deploy-token-secret
+
+serviceDeployment:
+  repository: https://gitlab.com/technology-innovations-lab/comp-prep/{{appName}}-service.git
+  deployTokenSecret: {{appName}}-service-deploy-token-secret

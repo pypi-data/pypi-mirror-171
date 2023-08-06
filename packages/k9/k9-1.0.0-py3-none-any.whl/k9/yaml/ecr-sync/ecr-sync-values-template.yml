@@ -1,0 +1,15 @@
+# where the cron job will be deployed
+clusterName: '{{clusterName}}'
+namespace: '{{appName}}-ecr-sync'
+# default is every 2 minutes
+schedule: '*/2 * * * *'
+# default to latest
+image: 'simoncomputing/ecr-sync:latest'
+# environment variables that allow the script to connect to the correct ECRs
+env:
+  repo_name: '{{appName}}'
+  np_region: '{{region}}'
+  prd_region: '{{region}}'
+  np_account: ''
+  prd_account: '{{account}}'
+  

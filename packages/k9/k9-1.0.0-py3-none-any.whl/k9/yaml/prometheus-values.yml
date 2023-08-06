@@ -1,0 +1,35 @@
+prometheus:
+  alertmanager:
+    persistentVolume:
+      storageClass: "standard"
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: alb
+        alb.ingress.kubernetes.io/group.name: {{clusterName}}-ingress-group
+        alb.ingress.kubernetes.io/scheme: internet-facing
+        alb.ingress.kubernetes.io/target-type: ip
+        alb.ingress.kubernetes.io/certificate-arn: {{certArn}}
+      hosts:
+        - alertmanager.{{baseDomain}}/*
+      tls:
+        - hosts:
+            - alertmanager.{{baseDomain}}
+  server:
+    global:
+      scrape_interval: 15s
+    persistentVolume:
+      storageClass: "standard"
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: alb
+        alb.ingress.kubernetes.io/group.name: {{clusterName}}-ingress-group
+        alb.ingress.kubernetes.io/scheme: internet-facing
+        alb.ingress.kubernetes.io/target-type: ip
+        alb.ingress.kubernetes.io/certificate-arn: {{certArn}}
+      hosts:
+        - prometheus.{{baseDomain}}/*
+      tls:
+        - hosts:
+            - prometheus.{{baseDomain}}

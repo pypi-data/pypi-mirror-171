@@ -1,0 +1,16 @@
+elasticsearch:
+  version: 7.10.1
+  persistence:
+    size: 35Gi
+    storageClass: standard
+
+kibana:
+  ingress:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: alb
+      alb.ingress.kubernetes.io/group.name: {{clusterName}}-ingress-group
+      alb.ingress.kubernetes.io/scheme: internet-facing
+      alb.ingress.kubernetes.io/target-type: ip
+      alb.ingress.kubernetes.io/certificate-arn: {{certArn}}
+    host: kibana.{{baseDomain}}

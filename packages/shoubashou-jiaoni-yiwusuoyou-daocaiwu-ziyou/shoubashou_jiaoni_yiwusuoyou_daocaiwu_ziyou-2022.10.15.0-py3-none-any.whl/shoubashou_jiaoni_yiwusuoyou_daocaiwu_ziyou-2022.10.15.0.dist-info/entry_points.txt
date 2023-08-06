@@ -1,0 +1,4 @@
+[console_scripts]
+ShoubashouJiaoniYiwusuoyouDaocaiwuZiyou = ShoubashouJiaoniYiwusuoyouDaocaiwuZiyou.__main__:main
+shoubashou-jiaoni-yiwusuoyou-daocaiwu-ziyou = ShoubashouJiaoniYiwusuoyouDaocaiwuZiyou.__main__:main
+

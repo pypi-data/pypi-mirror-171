@@ -1,0 +1,13 @@
+[tool.coverage.paths]
+source = [
+    "igwn_lldd_common/",
+    "/usr/lib/python*/*-packages/igwn_lldd_common/",
+    "/usr/local/lib/python*/*-packages/igwn_lldd_common/",
+]
+
+[tool.coverage.run]
+source = ["igwn_lldd_common"]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"

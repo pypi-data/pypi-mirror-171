@@ -1,0 +1,10 @@
+confluent-kafka
+configargparse
+ujson
+gpstime
+watchdog
+
+[test]
+pytest>=3.9.1
+pytest-cov>=2.4.0
+flaky

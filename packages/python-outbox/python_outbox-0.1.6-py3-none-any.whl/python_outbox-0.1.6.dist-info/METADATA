@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-outbox
+Version: 0.1.6
+Summary: 
+Author: Sami Tahri
+Author-email: sismixx@hotmail.fr
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (>=1.4.40,<2.0.0)
+Requires-Dist: SQLAlchemy-Utils (>=0.38.3,<0.39.0)
+Requires-Dist: black (>=22.8.0,<23.0.0)
+Requires-Dist: cloudevents (>=1.6.1,<2.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)

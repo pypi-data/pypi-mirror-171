@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tpds_utils_env_var/__init__.py
+src/tpds_utils_env_var/env_var.py
+src/tpds_utils_env_var.egg-info/PKG-INFO
+src/tpds_utils_env_var.egg-info/SOURCES.txt
+src/tpds_utils_env_var.egg-info/dependency_links.txt
+src/tpds_utils_env_var.egg-info/top_level.txt

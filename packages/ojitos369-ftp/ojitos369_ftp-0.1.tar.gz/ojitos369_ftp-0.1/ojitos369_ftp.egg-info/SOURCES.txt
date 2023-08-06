@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ojitos369_ftp/__init__.py
+ojitos369_ftp/ftp.py
+ojitos369_ftp.egg-info/PKG-INFO
+ojitos369_ftp.egg-info/SOURCES.txt
+ojitos369_ftp.egg-info/dependency_links.txt
+ojitos369_ftp.egg-info/top_level.txt

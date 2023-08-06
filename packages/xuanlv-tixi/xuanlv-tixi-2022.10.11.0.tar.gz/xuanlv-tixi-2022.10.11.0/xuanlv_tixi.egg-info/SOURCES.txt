@@ -1,0 +1,12 @@
+README.md
+setup.py
+XuanlvTixi/README.md
+XuanlvTixi/__init__.py
+XuanlvTixi/__main__.py
+XuanlvTixi/file.pdf
+XuanlvTixi/index.html
+xuanlv_tixi.egg-info/PKG-INFO
+xuanlv_tixi.egg-info/SOURCES.txt
+xuanlv_tixi.egg-info/dependency_links.txt
+xuanlv_tixi.egg-info/entry_points.txt
+xuanlv_tixi.egg-info/top_level.txt

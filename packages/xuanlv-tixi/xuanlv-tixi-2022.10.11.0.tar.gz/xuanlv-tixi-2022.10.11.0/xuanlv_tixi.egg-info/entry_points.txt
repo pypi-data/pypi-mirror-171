@@ -1,0 +1,4 @@
+[console_scripts]
+XuanlvTixi = XuanlvTixi.__main__:main
+xuanlv-tixi = XuanlvTixi.__main__:main
+

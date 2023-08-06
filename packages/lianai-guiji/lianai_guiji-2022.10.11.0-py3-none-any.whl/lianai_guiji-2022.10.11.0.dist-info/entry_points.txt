@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiGuiji = LianaiGuiji.__main__:main
+lianai-guiji = LianaiGuiji.__main__:main
+

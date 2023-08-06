@@ -1,0 +1,11 @@
+include VERSION
+include ea/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include ea VERSION
+recursive-include ea **.html
+recursive-include ea **.j2
+recursive-include ea **.json
+recursive-include ea **.yaml
+recursive-include ea **.xml

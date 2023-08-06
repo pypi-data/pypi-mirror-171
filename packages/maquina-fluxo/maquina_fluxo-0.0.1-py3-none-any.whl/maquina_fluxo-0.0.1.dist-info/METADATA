@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: maquina-fluxo
+Version: 0.0.1
+Summary: Calculo perda de carga
+Home-page: https://github.com/erickhiroyuki/Projeto-3-CD
+Author: Erick
+Author-email: erickhiroyuki@alunos.utfpr.edu.br
+Requires-Python: >=3.10.8
+Description-Content-Type: text/markdown
+Requires-Dist: colebrook (==0.0.5)
+Requires-Dist: matplotlib (==3.6.1)
+Requires-Dist: numpy (==1.23.4)
+
+# Calculo Perda de carga em uma mÃ¡quina de fluxo
+
+Description. 
+ParÃ¢metros:
+	- Tem como padrÃ¢o dados de acessÃ³rios Tigre
+	- a planta utilizada Ã© do bloco K do prÃ©dio da UTFPR - Londrina
+
+## InstalaÃ§Ã£o
+
+Use o gerenciador de pacotes: [pip](https://pip.pypa.io/en/stable/) para instalar este pacote
+
+```bash
+pip install maquina_fluxo
+```
+
+## Uso
+
+```python
+import maquina_fluxo 
+```
+
+## Author
+Erick
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

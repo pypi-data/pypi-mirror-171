@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+oa_8_queens/src/oa_8_queens.egg-info/PKG-INFO
+oa_8_queens/src/oa_8_queens.egg-info/SOURCES.txt
+oa_8_queens/src/oa_8_queens.egg-info/dependency_links.txt
+oa_8_queens/src/oa_8_queens.egg-info/top_level.txt
+oa_8_queens/src/oa_8_queens.py
+oa_8_queens/src/oa_8_queens.egg-info/SOURCES.txt

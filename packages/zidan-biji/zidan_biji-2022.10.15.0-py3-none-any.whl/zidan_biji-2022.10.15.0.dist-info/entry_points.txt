@@ -1,0 +1,4 @@
+[console_scripts]
+ZidanBiji = ZidanBiji.__main__:main
+zidan-biji = ZidanBiji.__main__:main
+

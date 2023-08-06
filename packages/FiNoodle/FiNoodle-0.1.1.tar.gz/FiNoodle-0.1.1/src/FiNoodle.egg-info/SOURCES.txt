@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/FiNoodle.egg-info/PKG-INFO
+src/FiNoodle.egg-info/SOURCES.txt
+src/FiNoodle.egg-info/dependency_links.txt
+src/FiNoodle.egg-info/requires.txt
+src/FiNoodle.egg-info/top_level.txt

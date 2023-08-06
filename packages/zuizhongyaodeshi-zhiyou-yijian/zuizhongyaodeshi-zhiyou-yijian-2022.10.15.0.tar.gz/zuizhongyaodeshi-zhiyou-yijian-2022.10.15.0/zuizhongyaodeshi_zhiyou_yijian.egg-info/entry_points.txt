@@ -1,0 +1,4 @@
+[console_scripts]
+ZuizhongyaodeshiZhiyouYijian = ZuizhongyaodeshiZhiyouYijian.__main__:main
+zuizhongyaodeshi-zhiyou-yijian = ZuizhongyaodeshiZhiyouYijian.__main__:main
+

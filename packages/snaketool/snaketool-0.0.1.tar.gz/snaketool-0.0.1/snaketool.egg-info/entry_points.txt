@@ -1,0 +1,3 @@
+[console_scripts]
+snaketool = snaketool.__main__:main
+

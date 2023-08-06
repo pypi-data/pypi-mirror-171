@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: snaketool
+Version: 0.0.1
+Summary: Snakemake-powered commandline tool to do a thing.
+Home-page: UNKNOWN
+Author: Michael Roach
+Author-email: example@email.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

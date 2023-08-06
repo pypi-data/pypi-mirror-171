@@ -1,0 +1,4 @@
+[console_scripts]
+DuizhengXiayaoZhinvxingFenleixue = DuizhengXiayaoZhinvxingFenleixue.__main__:main
+duizheng-xiayao-zhinvxing-fenleixue = DuizhengXiayaoZhinvxingFenleixue.__main__:main
+

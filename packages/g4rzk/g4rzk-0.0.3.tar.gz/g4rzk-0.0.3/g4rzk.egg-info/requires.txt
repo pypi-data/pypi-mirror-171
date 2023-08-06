@@ -1,0 +1,6 @@
+bs4
+rich
+inquirer
+requests
+futures
+cython

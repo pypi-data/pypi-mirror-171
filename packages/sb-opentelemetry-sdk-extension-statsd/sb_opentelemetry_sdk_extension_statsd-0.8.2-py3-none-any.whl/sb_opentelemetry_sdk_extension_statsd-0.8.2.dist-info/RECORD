@@ -1,0 +1,7 @@
+opentelemetry/sdk/extension/statsd/version.py,sha256=AOk7LTHO11lzzMP1OiGLmwHgzlymj79A8HbPdD6A6f0,606
+opentelemetry/sdk/extension/statsd/metrics/__init__.py,sha256=rfp4l5hA1_Yo8rpCankDaGRRKqQmsaaUjKfLdIdcfuk,11076
+sb_opentelemetry_sdk_extension_statsd-0.8.2.dist-info/LICENSE,sha256=ycBOCpk7legHnimNAK2yKxPIrrZaw0woDtx06mQlBJM,11349
+sb_opentelemetry_sdk_extension_statsd-0.8.2.dist-info/METADATA,sha256=t_8eAt5sz6VqenrH6cBXTkzqDdp15NK3Oj38e0KL9H0,14855
+sb_opentelemetry_sdk_extension_statsd-0.8.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sb_opentelemetry_sdk_extension_statsd-0.8.2.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+sb_opentelemetry_sdk_extension_statsd-0.8.2.dist-info/RECORD,,

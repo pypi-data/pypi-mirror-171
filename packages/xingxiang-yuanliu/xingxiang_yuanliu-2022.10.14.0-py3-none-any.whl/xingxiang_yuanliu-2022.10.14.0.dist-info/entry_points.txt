@@ -1,0 +1,4 @@
+[console_scripts]
+XingxiangYuanliu = XingxiangYuanliu.__main__:main
+xingxiang-yuanliu = XingxiangYuanliu.__main__:main
+

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: functions-by-xujajon89
+Version: 0.3.0
+Summary: This is our test project
+Author: Sarvarkhuja Tursinov
+Author-email: xujajon89@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions
+
+#### This is our test project.
+#### PLease install this package
+```
+pip install functions-by-xujajon89
+```
+#### You can also install older packages
+```
+pip install functions-by-xujajon89==VERSION_NUMBER
+```

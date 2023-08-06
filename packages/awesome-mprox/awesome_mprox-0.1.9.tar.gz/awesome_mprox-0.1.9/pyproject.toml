@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "awesome_mprox"
+version = "0.1.9"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "poetry_build_testing_12345"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "*"
+boto3 = { version = "*", optional = true }
+
+[tool.poetry.extras]
+databases = ["boto3"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+conda_pip_minimal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conda_pip_minimal/__main__.py,sha256=LqPbwLfEw_Raxl-N7XGFuK5jfTRySQ7Fj2zBW0gD-nU,62
+conda_pip_minimal/cli.py,sha256=7liQxSWX0MuLzKrx89hQF34Rbeow1fe5hLeEswzc7-c,2647
+conda_pip_minimal/cmd.py,sha256=EnyofhknMXI79fk2wjQ_jzQQ_GnPUGe4l8LOyHGbVb8,929
+conda_pip_minimal/conda_env.py,sha256=fg3kDTkatr9jBI55bXExH7W4qBJ7a1xZZjw4IeDO28g,1577
+conda_pip_minimal/deps.py,sha256=35TL784x8vUQJ409PDO4OASoD1CeSzFI5evPnzAv2PY,1722
+conda_pip_minimal/min.py,sha256=zVVgBWG9TMcCG55ZLr81RY2wlklUTYJlm3fLxWeDlI4,5321
+conda_pip_minimal/result_capture.py,sha256=mNkzzgYc6cBRmIhrCv2V4_oZ6DIbGk83SaiO3RnLAh4,1826
+conda_pip_minimal/version.py,sha256=tJ8mNLZ6OUunphjxupmgtNFSHIE6fxXVgsmtvc1kX7k,706
+conda_pip_minimal-0.1.4.dist-info/entry_points.txt,sha256=Kd9LmR1ktleJBgSABhWEK46mjsLhZy5YaHA1nHxtG5w,55
+conda_pip_minimal-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+conda_pip_minimal-0.1.4.dist-info/METADATA,sha256=xwtx_EThlNSUMTcpGe82dYvOsWLvgaAt3du-_8RQ7Ss,6478
+conda_pip_minimal-0.1.4.dist-info/RECORD,,

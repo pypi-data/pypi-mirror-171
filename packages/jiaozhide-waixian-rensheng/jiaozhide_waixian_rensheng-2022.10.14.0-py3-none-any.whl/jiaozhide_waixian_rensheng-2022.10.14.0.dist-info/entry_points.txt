@@ -1,0 +1,4 @@
+[console_scripts]
+JiaozhideWaixianRensheng = JiaozhideWaixianRensheng.__main__:main
+jiaozhide-waixian-rensheng = JiaozhideWaixianRensheng.__main__:main
+

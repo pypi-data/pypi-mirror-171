@@ -1,0 +1,44 @@
+About the Author
+~~~~~~~~~~~~~~~~
+
+Very sorry, my English is not pretty good because i am just a middle
+school sutdent in Shanghai,China.
+
+I was playing the game “diaosigui” (or called “HangMan”) with my
+classmates when suddenlyI had an inspiration – Why not put it into
+python!
+
+It is easy for me to do, and I completed it in 10 minutes. All I need to
+do is to wait then.
+
+--------------
+
+How to use
+~~~~~~~~~~
+
+It is very easy. First, use\ ``pip install diaosigui``\ to get the
+package. Second, import it. Third, use it:``dsg.diaosigui()``. "No
+argument" is allowed.
+
+Copy the code if you are idle.
+
+.. code:: python
+
+   import diaosigui as dsg
+   try:
+       dsg.diaosigui(use_windows=True, ans='Any word you want...')
+   except:
+       print("There must be sth. wrong with the installation")
+
+Easy, right?
+
+--------------
+
+Thanks
+~~~~~~
+
+Thank the following people:
+
+-  ☐ My friends
+-  ☐ My python teacher
+-  ☐ You

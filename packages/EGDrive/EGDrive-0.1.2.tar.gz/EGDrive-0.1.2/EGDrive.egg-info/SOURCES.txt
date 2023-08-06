@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+requirements.txt
+setup.py
+EGDrive/__init__.py
+EGDrive.egg-info/PKG-INFO
+EGDrive.egg-info/SOURCES.txt
+EGDrive.egg-info/dependency_links.txt
+EGDrive.egg-info/requires.txt
+EGDrive.egg-info/top_level.txt

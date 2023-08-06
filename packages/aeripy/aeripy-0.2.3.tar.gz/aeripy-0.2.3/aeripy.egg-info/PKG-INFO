@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aeripy
+Version: 0.2.3
+Summary: Aeries API Python Adapter
+Home-page: https://aeripy.readthedocs.io/
+Author: Ryan Aguilar
+Author-email: ryanaguilar323@gmail.com
+License: Simplified BSD License
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Aeripy
+======
+
+Aeripy is a Python adapter for the Aeries SIS API.
+
+Installation
+-------------
+
+Aeripy is supported on Python 3.8+. The recommended way to install AeriPy is via pip.
+
+.. code-block::
+
+    pip install aeripy
+
+Quickstart
+___________
+
+The below example uses the Aeries demo database API_KEY and API url.  Both are found in their `documentation <https://support.aeries.com/support/solutions/articles/14000113681-aeries-api-building-a-request>`_.
+
+
+.. code-block:: python3
+
+    from aeripy import AeripyApi
+    aeries = AeripyApi(hostname='demo.aeries.net/aeries/api/', api_key='477abe9e7d27439681d62f4e0de1f5e1')
+
+    # Get all staff
+    staff = aeries.get_staff()
+

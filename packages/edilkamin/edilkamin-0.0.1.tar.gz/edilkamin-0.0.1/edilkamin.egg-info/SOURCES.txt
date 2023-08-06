@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+edilkamin.egg-info/PKG-INFO
+edilkamin.egg-info/SOURCES.txt
+edilkamin.egg-info/dependency_links.txt
+edilkamin.egg-info/top_level.txt

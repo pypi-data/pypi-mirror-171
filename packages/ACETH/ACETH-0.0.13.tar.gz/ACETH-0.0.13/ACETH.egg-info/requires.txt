@@ -1,0 +1,10 @@
+accelerate
+bitsandbytes
+emoji
+numpy
+pandas
+scikit-learn
+sklearn
+tensorflow
+torch
+transformers

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: g4rzk
+Version: 0.1
+Summary: Yang Tau Tau Ajah Akwkwkw.
+Home-page: https://github.com/g4rzk/g4rzk
+Download-URL: https://github.com/g4rzk/g4rzk/archive/g4rzk.tar.gz
+Author: Angga Kurniawan
+Author-email: g4rzkurniawan@gmail.com
+License: MIT
+Keywords: g4rzk,garzk,garz.id,anggaxd
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: rich
+Requires-Dist: inquirer
+Requires-Dist: requests
+Requires-Dist: futures
+
+# ME AS G4RZK AKWKWK
+YANG TAU TAU AJAH

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: multi-notifier
+Version: 0.1.2
+Summary: notify multiple recipients on multiple protocols
+Author: Seuling N.
+License: multi_notifier currently has no license model.
+Requires-Python: >=3.10
+
+notify multiple recipients on multiple protocols

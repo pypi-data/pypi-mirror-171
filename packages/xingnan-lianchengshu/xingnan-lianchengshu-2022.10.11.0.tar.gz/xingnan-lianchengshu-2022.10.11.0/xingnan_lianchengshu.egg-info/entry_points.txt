@@ -1,0 +1,4 @@
+[console_scripts]
+XingnanLianchengshu = XingnanLianchengshu.__main__:main
+xingnan-lianchengshu = XingnanLianchengshu.__main__:main
+

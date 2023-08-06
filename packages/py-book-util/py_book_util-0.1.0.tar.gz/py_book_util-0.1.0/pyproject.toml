@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-book-util"
+version = "0.1.0"
+description = ""
+authors = ["\"Richard.Tang\" <tang_can@qq.com>"]
+readme = "README.md"
+packages = [{include = "py_book_util"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

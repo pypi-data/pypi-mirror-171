@@ -1,0 +1,9 @@
+brainfuckpy/__init__.py,sha256=4pAzNSQt2JqKUgakLW314ykxkWxaVGdv8e8UgN1AjGg,49
+brainfuckpy/__main__.py,sha256=C_rx6wTfd_Mmp4jS6YOVhoaTaD_W1ZusO0hhX6PQQ88,2003
+brainfuckpy/brainfuck.py,sha256=ERZnhdYUER7pcC80yRao6OrXdH25t-8lXuvUhlsxQmk,3302
+brainfuckpy/visualize.py,sha256=ybqbyNd9-Pbx1QvmWvsNumENBTMR8FQPfiHWKePj0TY,1974
+brainfuckpy-0.2.0.dist-info/LICENSE,sha256=Bn2eiTW9BjM5kb6d7SvUR6iBe84LFxl3yDGDiV_vEJ8,1075
+brainfuckpy-0.2.0.dist-info/METADATA,sha256=8EiU542XptVWAhc0ywl2lrvT7xuN66qVxboLvjzeWfc,2373
+brainfuckpy-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+brainfuckpy-0.2.0.dist-info/top_level.txt,sha256=zStZNWFOFHDuETDOk11-gb0ZJBqsCN6fraOJPYq14fA,12
+brainfuckpy-0.2.0.dist-info/RECORD,,

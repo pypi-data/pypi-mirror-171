@@ -1,0 +1,4 @@
+[console_scripts]
+YibailingbataoFangan = YibailingbataoFangan.__main__:main
+yibailingbatao-fangan = YibailingbataoFangan.__main__:main
+

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: liastools
+Version: 0.0.0
+Summary: Linux Astronomy Tools
+Home-page: http://linux-astronomie.de
+Author: Torsten Röhl
+Author-email: devel@softure.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LIAS Tools
+
+Linux Astronomy Tools.
+Astronomical Ingredients for the Advanced Amateur.
+
+## Instructions
+
+1. Install:
+
+```
+pip install liastools
+```
+
+2. Run Examples:
+
+```
+#Download package: liastoolsx-x.x.x.tar.gz and extract
+
+#cd to the examples directory and run the examples
+
+```
+
+3. Ride the space skyway home to 80s Miami

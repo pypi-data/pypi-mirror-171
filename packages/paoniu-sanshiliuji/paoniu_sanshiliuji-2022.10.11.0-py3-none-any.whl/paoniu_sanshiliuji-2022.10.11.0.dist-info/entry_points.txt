@@ -1,0 +1,4 @@
+[console_scripts]
+PaoniuSanshiliuji = PaoniuSanshiliuji.__main__:main
+paoniu-sanshiliuji = PaoniuSanshiliuji.__main__:main
+

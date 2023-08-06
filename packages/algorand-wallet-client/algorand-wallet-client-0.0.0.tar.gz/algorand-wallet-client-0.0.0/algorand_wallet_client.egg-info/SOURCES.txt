@@ -1,0 +1,8 @@
+README.rst
+setup.py
+algorand_wallet_client.egg-info/PKG-INFO
+algorand_wallet_client.egg-info/SOURCES.txt
+algorand_wallet_client.egg-info/dependency_links.txt
+algorand_wallet_client.egg-info/not-zip-safe
+algorand_wallet_client.egg-info/top_level.txt
+foo/__init__.py

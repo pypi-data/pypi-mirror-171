@@ -1,0 +1,4 @@
+[console_scripts]
+PaoxueKuaisuXuexiBaodian = PaoxueKuaisuXuexiBaodian.__main__:main
+paoxue-kuaisu-xuexi-baodian = PaoxueKuaisuXuexiBaodian.__main__:main
+

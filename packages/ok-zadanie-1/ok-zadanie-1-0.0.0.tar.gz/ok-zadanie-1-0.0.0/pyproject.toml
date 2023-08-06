@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ok-zadanie-1"
+version = "0.0.0"
+description = ""
+authors = ["Rafał Majewski <goodheropl@gmail.com>"]
+license = "UNLICENSED"
+packages = [
+	{ include = "ok_zadanie_1", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^2.8.7"
+matplotlib = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.26.0"
+flake8 = "^5.0.4"
+pylint = "^2.15.3"
+mypy = "^0.982"
+toml = "^0.10.2"
+pylint-quotes = "^0.2.3"
+poethepoet = "^0.16.4"
+isort = "^5.10.1"
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+formatting-fix = { shell = "isort src/ && autopep8 --in-place --aggressive --recursive src/" }
+formatting-check = { shell = "pylint --load-plugins=pylint_quotes --disable=all --enable=invalid-string-quote src/" }
+linting-check = { shell = "pylint --load-plugins=pylint_quotes --disable=FORMAT,consider-iterating-dictionary,invalid-string-quote,use-dict-literal,consider-using-dict-items,duplicate-code src/" }
+typing-check = { shell = "mypy src/" }

@@ -1,0 +1,4 @@
+[console_scripts]
+NanrenZhenxiang = NanrenZhenxiang.__main__:main
+nanren-zhenxiang = NanrenZhenxiang.__main__:main
+

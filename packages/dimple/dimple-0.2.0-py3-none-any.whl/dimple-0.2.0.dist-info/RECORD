@@ -1,0 +1,11 @@
+dimple/__init__.py,sha256=4r0rEe4JqrH3dPg4V8tjWspkYHVC5YjADQMPk_7ZN8w,2022
+dimple/catalog.py,sha256=euxREwUneO4CpmZkLRWjK62CJnpTZiMM1NOBdQsHE5w,9017
+dimple/constants.py,sha256=areWiItx4Ony0sdR9m_fZ_uiJQk-omjydbXmlAhEOQo,43
+dimple/filters.py,sha256=J1CXM0UrTV9SO6lj-YtIxQXnDxjcbS9inyXb6DQyDfc,2498
+dimple/globber.py,sha256=8do7I1sHBlarjrT9paw7OfohodZ4-NfHXe7RcgBXw7A,547
+dimple/internal.py,sha256=PWMHfLa1j0Yn22qFWyirW-M4A-mE4YOpIRYYi7XcJqQ,5268
+dimple/load.py,sha256=YOMqlX3xT0dmng4x_2aBFlkeNPznziA9WgCnv7b_pPs,1095
+dimple-0.2.0.dist-info/LICENSE,sha256=m_yBT1KO1g_HJIcN1Cb7BbldnIWou7dumxi2o01QbnU,1083
+dimple-0.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+dimple-0.2.0.dist-info/METADATA,sha256=iyoUuOdnmIavdGw4YNYpUdJQfVkfzKSELmUMe9oNia4,392
+dimple-0.2.0.dist-info/RECORD,,

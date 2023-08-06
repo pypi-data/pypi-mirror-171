@@ -1,0 +1,4 @@
+[console_scripts]
+ShishangZuishiyongdeYuehuiJinnang = ShishangZuishiyongdeYuehuiJinnang.__main__:main
+shishang-zuishiyongde-yuehui-jinnang = ShishangZuishiyongdeYuehuiJinnang.__main__:main
+

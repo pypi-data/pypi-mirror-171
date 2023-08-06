@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/streamlit_searchbar/__init__.py
+src/streamlit_searchbar.egg-info/PKG-INFO
+src/streamlit_searchbar.egg-info/SOURCES.txt
+src/streamlit_searchbar.egg-info/dependency_links.txt
+src/streamlit_searchbar.egg-info/requires.txt
+src/streamlit_searchbar.egg-info/top_level.txt
+src/streamlit_searchbar/frontend/index.html
+src/streamlit_searchbar/frontend/main.js
+src/streamlit_searchbar/frontend/streamlit-component-lib.js
+src/streamlit_searchbar/frontend/style.css

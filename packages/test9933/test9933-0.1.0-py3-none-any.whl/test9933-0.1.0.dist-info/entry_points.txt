@@ -1,0 +1,3 @@
+[console_scripts]
+greet=test9933.trolld:troll_user
+

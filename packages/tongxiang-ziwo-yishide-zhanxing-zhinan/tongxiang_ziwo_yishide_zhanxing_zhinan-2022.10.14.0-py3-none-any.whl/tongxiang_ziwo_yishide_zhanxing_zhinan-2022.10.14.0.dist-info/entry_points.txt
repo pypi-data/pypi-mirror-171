@@ -1,0 +1,4 @@
+[console_scripts]
+TongxiangZiwoYishideZhanxingZhinan = TongxiangZiwoYishideZhanxingZhinan.__main__:main
+tongxiang-ziwo-yishide-zhanxing-zhinan = TongxiangZiwoYishideZhanxingZhinan.__main__:main
+

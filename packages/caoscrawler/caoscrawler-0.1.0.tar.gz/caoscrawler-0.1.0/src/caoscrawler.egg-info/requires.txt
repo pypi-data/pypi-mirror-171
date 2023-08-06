@@ -1,0 +1,7 @@
+importlib-resources
+caosdb
+caosadvancedtools>=0.6.0
+yaml-header-tools>=0.2.1
+pyyaml
+odfpy
+pandas

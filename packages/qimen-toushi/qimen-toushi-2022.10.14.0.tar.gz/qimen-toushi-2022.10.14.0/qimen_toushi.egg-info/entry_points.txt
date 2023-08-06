@@ -1,0 +1,4 @@
+[console_scripts]
+QimenToushi = QimenToushi.__main__:main
+qimen-toushi = QimenToushi.__main__:main
+

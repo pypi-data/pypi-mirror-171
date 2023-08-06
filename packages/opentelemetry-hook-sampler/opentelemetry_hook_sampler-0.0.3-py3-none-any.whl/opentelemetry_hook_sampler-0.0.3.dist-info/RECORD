@@ -1,0 +1,8 @@
+opentelemetry_hook_sampler/__init__.py,sha256=7NKUBFOoHPsQbGhxxUnZQwf0BwlOSpHWnZCDZlgUU8o,3916
+opentelemetry_hook_sampler/test_multiple_spans.py,sha256=cdK2N_9TTM_7wT_z25ELftmlQ9pGK9w1IGOUk4L-4gY,2494
+opentelemetry_hook_sampler/test_single_span.py,sha256=aqCB7S1rG4uYE033I0VZbLClJ3Wv3mdc9p1BKUFvX34,4016
+opentelemetry_hook_sampler-0.0.3.dist-info/LICENSE,sha256=WCrACBAhY03FEn7ElB0qQnSoAijADbacPNNN-CajK_A,1062
+opentelemetry_hook_sampler-0.0.3.dist-info/METADATA,sha256=XJ595ORbljKI5SzPZ5dQYhAudHBVFfI7NnHDJm27lvM,2661
+opentelemetry_hook_sampler-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opentelemetry_hook_sampler-0.0.3.dist-info/top_level.txt,sha256=HGRJoxFjEciENpaZGmStDUZZq9XafmCqxYDRVz_-WeA,27
+opentelemetry_hook_sampler-0.0.3.dist-info/RECORD,,

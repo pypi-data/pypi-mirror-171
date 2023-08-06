@@ -1,0 +1,4 @@
+[console_scripts]
+ShuofudeZuigaoJingjie = ShuofudeZuigaoJingjie.__main__:main
+shuofude-zuigao-jingjie = ShuofudeZuigaoJingjie.__main__:main
+

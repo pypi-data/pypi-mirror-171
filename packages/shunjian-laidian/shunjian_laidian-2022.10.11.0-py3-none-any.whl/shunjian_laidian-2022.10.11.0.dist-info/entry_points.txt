@@ -1,0 +1,4 @@
+[console_scripts]
+ShunjianLaidian = ShunjianLaidian.__main__:main
+shunjian-laidian = ShunjianLaidian.__main__:main
+

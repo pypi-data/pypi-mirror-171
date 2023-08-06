@@ -1,0 +1,14 @@
+modelangelo/__init__.py,sha256=YNf6GvF0O21aqXHP-lbJavet9qxIh9jz84RH_5HdrWo,4632
+modelangelo/bibtex.py,sha256=xYo_yYuXRknV9RG7F_kypnmWhp_J1IHRVMbojXDzVRc,1741
+modelangelo/icon.jpeg,sha256=m92_E4ydr-tTlZwUTSf7puxsEDFHIkLWf6obEz9sqiI,26218
+modelangelo/protocols.conf,sha256=kJUfRwoGu05MeCxxh0xc0z6pcvSTCl2v6JjmDqYTl3Y,203
+modelangelo/protocols/__init__.py,sha256=4TYarQtsTJtPrFIWbD4og7tD-ajQTI2pyEu1qs89s7Y,354
+modelangelo/protocols/protocol_model_angelo.py,sha256=JcnqDw832ft9NuuWwpge2ny433RWa0yZPcc-FsdCZ5o,5710
+modelangelo/viewers/__init__.py,sha256=sYlTGuZec7tj1fZd1HlGxYfFQmM-XWxYQniUXJzMBI4,299
+modelangelo/wizards/__init__.py,sha256=kauewf08WljrFEDuSY25bSpNYK7ZGgeL-Y9nLeewY2c,299
+scipion_em_modelangelo-3.0.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+scipion_em_modelangelo-3.0.1.dist-info/METADATA,sha256=7CBmn_QQD2EKOkJNeuvrfAANTbSNYa4jIKYaErg6naI,1052
+scipion_em_modelangelo-3.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scipion_em_modelangelo-3.0.1.dist-info/entry_points.txt,sha256=wVEPhUgF9o_A-1L76GMouQOY2Xe8u11jh0B-adnBrTU,47
+scipion_em_modelangelo-3.0.1.dist-info/top_level.txt,sha256=9t6dA5n9ZSsj-1vOv_RD3IIx_VT8rZMB8G-sqOX0NG0,12
+scipion_em_modelangelo-3.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: unipercept
+Version: 0.0.1
+Summary: A unified perception system using deep learning
+Author-email: "Kurt H.W. Stolle" <k.h.w.stolle@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# unified-perception
+Research project on unified panoptic segmentation, depth estimation and tracking.

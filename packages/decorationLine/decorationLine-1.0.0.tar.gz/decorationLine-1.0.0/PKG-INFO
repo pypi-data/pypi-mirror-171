@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: decorationLine
+Version: 1.0.0
+Summary: Python library to decorate the terminal in Python software.
+Home-page: https://github.com/DeividWilly/pylines
+Author: willypydev[DeividWilly]
+Author-email: deividwillydev@gmail.com
+License: GNU GPLv3
+Keywords: python3,python,terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+UNKNOWN
+

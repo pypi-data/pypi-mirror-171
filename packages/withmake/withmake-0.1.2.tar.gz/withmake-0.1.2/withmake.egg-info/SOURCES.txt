@@ -1,0 +1,9 @@
+README.md
+setup.py
+withmake/__init__.py
+withmake/script.py
+withmake.egg-info/PKG-INFO
+withmake.egg-info/SOURCES.txt
+withmake.egg-info/dependency_links.txt
+withmake.egg-info/requires.txt
+withmake.egg-info/top_level.txt

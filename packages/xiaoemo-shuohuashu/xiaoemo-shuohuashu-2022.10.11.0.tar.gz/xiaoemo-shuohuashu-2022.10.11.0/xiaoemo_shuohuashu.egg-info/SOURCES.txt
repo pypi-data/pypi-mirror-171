@@ -1,0 +1,12 @@
+README.md
+setup.py
+XiaoemoShuohuashu/README.md
+XiaoemoShuohuashu/__init__.py
+XiaoemoShuohuashu/__main__.py
+XiaoemoShuohuashu/file.pdf
+XiaoemoShuohuashu/index.html
+xiaoemo_shuohuashu.egg-info/PKG-INFO
+xiaoemo_shuohuashu.egg-info/SOURCES.txt
+xiaoemo_shuohuashu.egg-info/dependency_links.txt
+xiaoemo_shuohuashu.egg-info/entry_points.txt
+xiaoemo_shuohuashu.egg-info/top_level.txt

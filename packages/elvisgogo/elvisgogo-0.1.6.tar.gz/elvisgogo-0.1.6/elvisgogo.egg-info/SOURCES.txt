@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+elvisgogo/__init__.py
+elvisgogo/process.py
+elvisgogo/transfer_xlsx_to_csv.py
+elvisgogo.egg-info/PKG-INFO
+elvisgogo.egg-info/SOURCES.txt
+elvisgogo.egg-info/dependency_links.txt
+elvisgogo.egg-info/requires.txt
+elvisgogo.egg-info/top_level.txt

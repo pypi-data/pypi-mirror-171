@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pylingdocs_gui
+Version: 0.0.2
+Summary: A rudimentary GUI editor for pylingdocs.
+Home-page: https://github.com/fmatter/pylingdocs-gui
+Author: Florian Matter
+Author-email: florianmatter@gmail.com
+Project-URL: Bug Tracker, https://github.com/fmatter/pylingdocs-gui/issues
+Keywords: pylingdocs,linguistics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: publishing
+License-File: LICENSE
+
+# pylingdocs-gui
+
+![License](https://img.shields.io/github/license/fmatter/pylingdocs-gui)
+[![Linting](https://img.shields.io/github/workflow/status/fmatter/pylingdocs-gui/lint?label=linting)](https://github.com/fmatter/pylingdocs-gui/actions/workflows/lint.yml)
+[![PyPI](https://img.shields.io/pypi/v/pylingdocs-gui.svg)](https://pypi.org/project/pylingdocs-gui)
+![Versions](https://img.shields.io/pypi/pyversions/pylingdocs-gui)
+
+A rudimentary GUI editor for pylingdocs.
+
+* Installation: `pip install pylingdocs-gui`
+* Usage: run `pylingdocs-gui` in your pylingdocs project
+
+![Screenshot from 2022-09-22 10-13-03](https://user-images.githubusercontent.com/2378389/191810571-90272c83-37e3-408a-b7ee-4983a23cbef0.png)

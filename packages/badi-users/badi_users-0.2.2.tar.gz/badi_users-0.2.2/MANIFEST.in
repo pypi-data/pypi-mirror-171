@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.md
+recursive-include badi_user/static *.js *.css *.map *.png *.ico *.eot *.svg *.ttf *.woff *.woff2
+recursive-include badi_user/templates *.html schema.js
+recursive-include badi_user/locale *.mo
+global-exclude __pycache__
+global-exclude *.py[co]

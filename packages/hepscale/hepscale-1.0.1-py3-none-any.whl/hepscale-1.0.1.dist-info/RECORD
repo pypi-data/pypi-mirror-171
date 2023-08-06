@@ -1,0 +1,10 @@
+hepscale/__init__.py,sha256=tsG4kQyrcmnq5JkGRIXVWJ8BJZYe3bRDUtxbWGSqLQ4,138
+hepscale/main.py,sha256=iAZ9yhxLUBEBkDPq_2qq4GWJgsoXUbbTuYtPQe2TbNI,1376
+hepscale/plotting.py,sha256=aKCLk-lP8dtWy7r9N9M1p0JZdgcpREhoF_r6Ri1g9A8,4686
+hepscale/utility.py,sha256=VqMc2Fh_2JQTcGO7My20DOF97Ca6q6l1dYwkGptuKGI,999
+hepscale-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hepscale-1.0.1.dist-info/METADATA,sha256=_V8b-XyXzIxKluMwZ1mlrSB9c9zVzzhdG3N5cNE6j-g,526
+hepscale-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hepscale-1.0.1.dist-info/entry_points.txt,sha256=tTTHvBvvSfqkdImOxuub3dxHss-qA8_i2ImPdl5Jnwc,48
+hepscale-1.0.1.dist-info/top_level.txt,sha256=c-uNqWZ_nfW1dINiuTSnPYRkJdypJAmhA0p01VyAK1Q,9
+hepscale-1.0.1.dist-info/RECORD,,

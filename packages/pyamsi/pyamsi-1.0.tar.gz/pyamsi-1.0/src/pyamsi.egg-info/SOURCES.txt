@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pyamsi/Amsi.py
+src/pyamsi/amsiscanner.dll
+src/pyamsi/__init__.py
+src/pyamsi.egg-info/PKG-INFO
+src/pyamsi.egg-info/SOURCES.txt
+src/pyamsi.egg-info/dependency_links.txt
+src/pyamsi.egg-info/top_level.txt

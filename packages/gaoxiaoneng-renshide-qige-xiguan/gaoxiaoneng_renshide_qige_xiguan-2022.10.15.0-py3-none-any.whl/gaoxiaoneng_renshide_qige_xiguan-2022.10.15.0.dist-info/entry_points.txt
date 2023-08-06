@@ -1,0 +1,4 @@
+[console_scripts]
+GaoxiaonengRenshideQigeXiguan = GaoxiaonengRenshideQigeXiguan.__main__:main
+gaoxiaoneng-renshide-qige-xiguan = GaoxiaonengRenshideQigeXiguan.__main__:main
+

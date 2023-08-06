@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: streamlit-dbtree
+Version: 0.1.3
+Summary: Visualize Snowflake DB tree
+Author: Anthony Alteirac
+Author-email: anthony@alteirac.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit (>=1.2)
+Requires-Dist: jinja2
+Requires-Dist: snowflake-connector-python
+
+# streamlit-dbtree
+
+Visualize Snowflake DB tree
+
+## Installation instructions 
+
+```sh
+pip install streamlit-dbtree
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_dbtree import streamlit_dbtree
+
+ctx = snowflake.connector.connect(
+    user='<user_name>',
+    password='<password>'',
+    account='<account_locator>'
+    )   
+value = streamlit_dbtree(ctx,key="mysnownav")
+if value is not None:
+    for sel in value:
+        st.write(sel.get("id") +" IS A " +sel.get("type"))

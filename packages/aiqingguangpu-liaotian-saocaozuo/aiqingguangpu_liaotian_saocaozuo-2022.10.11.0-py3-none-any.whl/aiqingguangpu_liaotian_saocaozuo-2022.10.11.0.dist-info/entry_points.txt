@@ -1,0 +1,4 @@
+[console_scripts]
+AiqingguangpuLiaotianSaocaozuo = AiqingguangpuLiaotianSaocaozuo.__main__:main
+aiqingguangpu-liaotian-saocaozuo = AiqingguangpuLiaotianSaocaozuo.__main__:main
+

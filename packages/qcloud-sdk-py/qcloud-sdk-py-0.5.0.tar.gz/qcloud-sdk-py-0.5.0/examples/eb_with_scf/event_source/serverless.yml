@@ -1,0 +1,16 @@
+component: scf
+name: event-source
+inputs:
+  name: ${app}-${name}
+  src: ./
+  description: 事件源示例
+  handler: index.main_handler
+  runtime: Python3.6
+  namespace: default
+  region: ap-shanghai
+  memorySize: 64
+  timeout: 3
+  role: SCF_EBFullAccess
+  environment:
+    variables:
+      QCLOUDSDK_EB_DEFAULT_EVENT_BUS_ID: ${env:QCLOUDSDK_EB_DEFAULT_EVENT_BUS_ID}

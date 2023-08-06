@@ -1,0 +1,12 @@
+component: scf
+name: event-target
+inputs:
+  name: ${app}-${name}
+  src: ./
+  description: 事件目标示例
+  handler: index.main_handler
+  runtime: Python3.6
+  namespace: default
+  region: ap-shanghai
+  memorySize: 64
+  timeout: 3

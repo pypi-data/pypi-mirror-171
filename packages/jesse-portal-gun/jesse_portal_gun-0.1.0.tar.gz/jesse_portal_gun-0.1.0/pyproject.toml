@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jesse-portal-gun"
+version = "0.1.0"
+description = ""
+authors = ["Jesse Hartman <jesse@xample.com>"]
+readme = "README.md"
+packages = [{include = "jesse_portal_gun"}]
+
+[tool.poetry.scripts]
+jesse-portal-gun = "jesse_portal_gun.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

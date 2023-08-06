@@ -1,0 +1,8 @@
+setup.py
+tumiaji/__init__.py
+tumiaji/require.py
+tumiaji/sambura.py
+tumiaji.egg-info/PKG-INFO
+tumiaji.egg-info/SOURCES.txt
+tumiaji.egg-info/dependency_links.txt
+tumiaji.egg-info/top_level.txt

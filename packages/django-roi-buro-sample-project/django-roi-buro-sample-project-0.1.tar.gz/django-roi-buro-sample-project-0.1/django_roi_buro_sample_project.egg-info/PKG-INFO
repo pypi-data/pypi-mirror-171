@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: django-roi-buro-sample-project
+Version: 0.1
+Summary: A Django app to receive and save cpu usage.
+Home-page: https://gitlab.com/iplatforms_/roi-buro-test-project
+Author: Alexey Vasilenko
+Author-email: avavasilenko@gmail.com
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# roi-buro-test-project
+
+## Name
+ROI BURO sample test project
+
+## Description
+This is Django-based sample test project collect information about CPU usage and shows this stats at HTML page.
+
+## License
+For open source projects, say how it is licensed.
+
+## Project status
+Completed
+
+## Features
+
+-   Django 3.2
+-   Python 3.9
+-   [12-Factor](http://12factor.net/) based settings via [django-environ](https://github.com/joke2k/django-environ)
+-   Optimized settings
+-   OpenAPI based docs via [drf-spectacular](https://github.com/tfranzel/drf-spectacular)

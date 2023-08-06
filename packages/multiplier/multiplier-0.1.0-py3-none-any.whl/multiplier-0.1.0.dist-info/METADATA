@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: multiplier
+Version: 0.1.0
+Summary: Multiplier library
+Home-page: https://multiplier.readthedocs.io/
+Author: John Robert
+Author-email: condo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+UNKNOWN
+
+

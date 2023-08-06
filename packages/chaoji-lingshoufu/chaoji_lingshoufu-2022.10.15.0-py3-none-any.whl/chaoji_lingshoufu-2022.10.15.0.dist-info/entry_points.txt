@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiLingshoufu = ChaojiLingshoufu.__main__:main
+chaoji-lingshoufu = ChaojiLingshoufu.__main__:main
+

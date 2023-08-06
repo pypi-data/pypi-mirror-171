@@ -1,0 +1,12 @@
+README.md
+setup.py
+ChuliZijideFoudingju/README.md
+ChuliZijideFoudingju/__init__.py
+ChuliZijideFoudingju/__main__.py
+ChuliZijideFoudingju/file.pdf
+ChuliZijideFoudingju/index.html
+chuli_zijide_foudingju.egg-info/PKG-INFO
+chuli_zijide_foudingju.egg-info/SOURCES.txt
+chuli_zijide_foudingju.egg-info/dependency_links.txt
+chuli_zijide_foudingju.egg-info/entry_points.txt
+chuli_zijide_foudingju.egg-info/top_level.txt

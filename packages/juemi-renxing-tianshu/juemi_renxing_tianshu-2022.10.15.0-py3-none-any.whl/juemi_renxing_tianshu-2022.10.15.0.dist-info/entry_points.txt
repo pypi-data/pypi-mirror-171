@@ -1,0 +1,4 @@
+[console_scripts]
+JuemiRenxingTianshu = JuemiRenxingTianshu.__main__:main
+juemi-renxing-tianshu = JuemiRenxingTianshu.__main__:main
+

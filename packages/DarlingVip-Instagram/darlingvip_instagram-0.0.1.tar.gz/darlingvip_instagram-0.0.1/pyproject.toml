@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "DarlingVip-Instagram"
+version = "0.0.1"
+authors = [
+  { name="Darling Mquang", email="quang722008@gmail.com" },
+]
+description = "DO WHAT YOU WANT ON INSTAGRAM!"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

@@ -1,0 +1,14 @@
+feature_check/__init__.py,sha256=XWsWzyhNwGqo1sYMLi0Ocp8ywBDJdODZhC4OLvyYBuw,2030
+feature_check/__main__.py,sha256=4zZhGBKpauI07Suf1QJz2OFDB3ihdlbNXVYcP3mvAT4,7095
+feature_check/defs.py,sha256=idrqvXjgk5TV8Yh-mxyUGfAaBvLqYzKOUR2uYoTie5Y,3265
+feature_check/expr.py,sha256=rv73ToQ5pIZOcXUdmi1Lo2RckizTPqzJlFBnjUGsxSM,5161
+feature_check/obtain.py,sha256=BeAZKtYG3rFHzzr_cOnbiLnc_J7dHbjWcNJZh-yniSA,4219
+feature_check/parser.py,sha256=tdrVBT4U1QcoTNGp78OWZ25xx9LdJh9QJbWw0h1JHOQ,7924
+feature_check/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feature_check/version.py,sha256=NWIumhbL8Ld6HEpsceEU4ySoPfNggb8LQ-ocAiwKxSg,5636
+feature_check-2.0.0.dist-info/METADATA,sha256=AMBodxv8b32OA8n2PyqO3UO-k07sqcQoGHHIJXGtamw,3474
+feature_check-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+feature_check-2.0.0.dist-info/entry_points.txt,sha256=A1YENnnbj1rTnOEH4ACY3HfsaYF9-GYDqIBcmMHUGEc,62
+feature_check-2.0.0.dist-info/top_level.txt,sha256=5lafaCU6frvlONsIXLPO0FQOjxy_qvI8fOA08mLszQs,14
+feature_check-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+feature_check-2.0.0.dist-info/RECORD,,

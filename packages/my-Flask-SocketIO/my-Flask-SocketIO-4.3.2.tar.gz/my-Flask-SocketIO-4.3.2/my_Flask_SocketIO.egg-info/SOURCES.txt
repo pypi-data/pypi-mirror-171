@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+flask_socketio/__init__.py
+flask_socketio/namespace.py
+flask_socketio/test_client.py
+my_Flask_SocketIO.egg-info/PKG-INFO
+my_Flask_SocketIO.egg-info/SOURCES.txt
+my_Flask_SocketIO.egg-info/dependency_links.txt
+my_Flask_SocketIO.egg-info/not-zip-safe
+my_Flask_SocketIO.egg-info/requires.txt
+my_Flask_SocketIO.egg-info/top_level.txt

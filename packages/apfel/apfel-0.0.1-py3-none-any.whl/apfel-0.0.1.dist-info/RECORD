@@ -1,0 +1,10 @@
+apfel-0.0.1.data/scripts/apfel,sha256=uJp2Z8KPHIJML9LwC2-xHS4e0dd5qtJgE5aHriMI2LI,5765
+apfel-0.0.1.data/scripts/apfel-runqemu,sha256=0eTqD9-uLsfY3G14CpFXw7FsqM7W4cVZa5yeKNRMluk,1566
+bumper/__init__.py,sha256=xxfJc4uecUUtO9QxLLOoU2D3IGQpn4rZA104D_zGRUE,110
+bumper/__main__.py,sha256=qIMMeA8yzRgB8rf03lAamJryo6n0tFUuvshcQZ-NsCY,4006
+apfel-0.0.1.dist-info/LICENSE,sha256=FMH7tTD6Urp-4k81nujS8IJYymYIZdsTnDhsAggkn9w,32879
+apfel-0.0.1.dist-info/METADATA,sha256=KsQeBR-Prj31omfrUqSu9RM7XMpxPYivp7ziXR3sBcw,8748
+apfel-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apfel-0.0.1.dist-info/entry_points.txt,sha256=5HEJYOzNgbLR149yd-bWLO-RViwxni1yFsOVdZqZ0j0,46
+apfel-0.0.1.dist-info/top_level.txt,sha256=CQc7dpYsixEUX7S9FgbgsfQ2GH2ewAoz57xKwTyKMCU,7
+apfel-0.0.1.dist-info/RECORD,,

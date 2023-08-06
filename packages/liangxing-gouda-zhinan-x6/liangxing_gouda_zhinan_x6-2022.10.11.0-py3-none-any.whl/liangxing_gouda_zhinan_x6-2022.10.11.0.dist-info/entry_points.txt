@@ -1,0 +1,4 @@
+[console_scripts]
+LiangxingGoudaZhinanX6 = LiangxingGoudaZhinanX6.__main__:main
+liangxing-gouda-zhinan-x6 = LiangxingGoudaZhinanX6.__main__:main
+

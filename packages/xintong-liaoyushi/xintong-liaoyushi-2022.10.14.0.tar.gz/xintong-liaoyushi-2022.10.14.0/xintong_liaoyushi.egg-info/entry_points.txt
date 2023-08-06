@@ -1,0 +1,4 @@
+[console_scripts]
+XintongLiaoyushi = XintongLiaoyushi.__main__:main
+xintong-liaoyushi = XintongLiaoyushi.__main__:main
+

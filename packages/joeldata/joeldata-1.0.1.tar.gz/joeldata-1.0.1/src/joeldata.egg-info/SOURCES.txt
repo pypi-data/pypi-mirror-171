@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/joeldata/__init__.py
+src/joeldata/queue.py
+src/joeldata/stack.py
+src/joeldata.egg-info/PKG-INFO
+src/joeldata.egg-info/SOURCES.txt
+src/joeldata.egg-info/dependency_links.txt
+src/joeldata.egg-info/top_level.txt

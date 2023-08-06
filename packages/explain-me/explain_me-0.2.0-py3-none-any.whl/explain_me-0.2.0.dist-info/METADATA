@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: explain-me
+Version: 0.2.0
+Summary: package explain data concept python
+Author: vaziria
+Author-email: manorder123@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Explain Me
+
+# Example
+```
+from explain_me.visual import visualize_package
+
+
+
+
+
+with open('preview.html', 'w+') as file:
+    file.write("""
+<html>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+            
+            
+//get svg element.
+var svg = document.getElementsByTagName('svg')[0];
+
+            
+            
+        </script>
+
+        <div class="mermaid">
+            classDiagram
+    """)
+    
+
+    for line in visualize_package(nama_library):
+        file.write(line+"\n")
+
+    file.write("""
+            
+        </div>
+        <a id="link" href="#">download</a>
+    </body>
+</html>
+        """)
+```

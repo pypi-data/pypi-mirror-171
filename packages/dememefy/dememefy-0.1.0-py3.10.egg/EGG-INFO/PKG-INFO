@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dememefy
+Version: 0.1.0
+Summary: dememefy - make pics fun again
+Home-page: https://github.com/pinktoxin/dememefy
+License: BSD
+Requires-Python: >=3.7
+License-File: COPYING

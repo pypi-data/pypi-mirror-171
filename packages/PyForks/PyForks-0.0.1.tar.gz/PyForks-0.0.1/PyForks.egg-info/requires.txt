@@ -1,0 +1,6 @@
+pytest
+tqdm
+requests
+pandas
+lxml
+bs4

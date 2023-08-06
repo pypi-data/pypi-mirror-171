@@ -1,0 +1,4 @@
+[console_scripts]
+HuoyongPaoxueSiwei = HuoyongPaoxueSiwei.__main__:main
+huoyong-paoxue-siwei = HuoyongPaoxueSiwei.__main__:main
+

@@ -1,0 +1,17 @@
+concrt140.dll,sha256=LcInbOOJ48oiQJhNg6uGn79KmboUrzdf7ihwkGPmVKc,316816
+msvcp140.dll,sha256=cv5FmPC3XTHOLcYh6O8WEzjGRQuwF80GiVdFaQYDcp4,571312
+msvcp140_1.dll,sha256=fVIjj_Wnr29KXiKbGnRlog_BfitAHaXakhWjBzvyOMI,25520
+msvcp140_2.dll,sha256=7iKzQDJoy6w_KA8aSaf6KFwNAdpgH2kU1v5qrEMGjvo,187312
+msvcp140_codecvt_ids.dll,sha256=FPlDVH0f2xJQWe6537FGWXr5bKrD6pkCV4WV6bDHH7Q,21392
+slide_io.dll,sha256=gqpn6znM6mY-WEnnafyHacDkyBX5bVtWRxeUmvpQIMQ,29646336
+slideiopybind.cp310-win_amd64.pyd,sha256=HOyDzDTqrhadvhKqVRz1A7f0ODcDMbLJ6UP9-rloSy0,1905664
+vccorlib140.dll,sha256=4hcPE8RpE3TV-scYbuaO33_JYyR6UDobsxVVumeddtc,336288
+vcruntime140.dll,sha256=nStA8DlcxdG01eoXuElwwplx1EjDcQRnbbV3WG1K0bE,98224
+vcruntime140_1.dll,sha256=NASKuqBw7ME7MYzqMUJfTKPt0TPTUDGKxlJZ5gWMizI,37256
+slideio/__init__.py,sha256=Xom7v3gfogYArJDgksz1cGu-yO9Ggzxps9u5Znh2K7s,228
+slideio/py_slideio.py,sha256=t6aU7GD-hwQxhbx0lrdlGTWnMpJ2CKD4iODOCs6-Dwo,8407
+slideio-1.0.4.data/data/requirements-dev.txt,sha256=fl1XFMVP1ASyz98ZqAmw8JkD9kN71UF18hZjyaBtsmM,31
+slideio-1.0.4.dist-info/METADATA,sha256=kbpn--nMSuwhQXPBciiSzncrY2QkXOHxU5QHQZJou2Q,1209
+slideio-1.0.4.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+slideio-1.0.4.dist-info/top_level.txt,sha256=GjKvFJIq0ND8NFcAt3GozneEwtsW0rX09rDW1CrPGcI,8
+slideio-1.0.4.dist-info/RECORD,,

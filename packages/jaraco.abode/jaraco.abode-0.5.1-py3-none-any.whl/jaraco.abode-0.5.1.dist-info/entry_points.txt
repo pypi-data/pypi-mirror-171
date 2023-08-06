@@ -1,0 +1,3 @@
+[console_scripts]
+abode = jaraco.abode.__main__:main
+abodepy = jaraco.abode.__main__:main

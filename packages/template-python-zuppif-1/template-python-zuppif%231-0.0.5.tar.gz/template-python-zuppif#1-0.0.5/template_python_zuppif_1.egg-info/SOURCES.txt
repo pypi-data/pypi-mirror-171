@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/__init__.py
+src/hello.py
+template_python_zuppif_1.egg-info/PKG-INFO
+template_python_zuppif_1.egg-info/SOURCES.txt
+template_python_zuppif_1.egg-info/dependency_links.txt
+template_python_zuppif_1.egg-info/requires.txt
+template_python_zuppif_1.egg-info/top_level.txt
+test/test_hello.py

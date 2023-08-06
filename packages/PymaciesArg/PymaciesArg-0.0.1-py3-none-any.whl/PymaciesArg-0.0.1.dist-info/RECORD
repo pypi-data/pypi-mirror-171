@@ -1,0 +1,11 @@
+pymacies_arg/__init__.py,sha256=s0qyjxKs8NH6sc3JOueBG0Ln80HKOSFcQ1JQF7DkZK8,1024
+pymacies_arg/constants.py,sha256=KtGP1Syj6E_RNGgYWJcIbZvIHUltv5fsB5GqyTVcxm0,1224
+pymacies_arg/core.py,sha256=yrThn_CJftGGDYR53sVQ0Ll8LR-bshUQZ7UAxajyRLg,7603
+pymacies_arg/extractor.py,sha256=-NNxfJ-cbxdirknAR04-HaJIugE7F-0EctHlHVjkhKc,4145
+pymacies_arg/loaders.py,sha256=uBTRMXLyI6EguLC5fh0rSYJ2Vnt_XSdYaeUY7qxQcuY,4137
+pymacies_arg/transform.py,sha256=-Lup6KCK7DLd_2sQ_3aD9MgaPl17MVUx7SZOPw6bZZM,2368
+PymaciesArg-0.0.1.dist-info/LICENSE,sha256=no_6vOiW4KWxcpHyC5gIIONwPWZ9QdfqDw8A_lSWCFc,1086
+PymaciesArg-0.0.1.dist-info/METADATA,sha256=EPg0uXxKxhWL8TX0SyhIsfxrFCkHq4WqKuOyLN8gi6I,7340
+PymaciesArg-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PymaciesArg-0.0.1.dist-info/top_level.txt,sha256=4Poip1LYD7CIeMGpsyyf_ki6z1qwqbURwEjq5OqpWDU,13
+PymaciesArg-0.0.1.dist-info/RECORD,,

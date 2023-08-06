@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Dimv
+Version: 0.0.2
+Summary: An extension of gdown
+Home-page: https://github.com/Vermylion/Dimv
+Author: Guillaume Quarmeau
+Author-email: vermylioncode@gmail.com
+Project-URL: Bug Tracker, https://github.com/Vermylion/Dimv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: gdown
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google
+Requires-Dist: google-api-python-client
+
+# Dimv
+
+An extension of [gdown](https://pypi.org/project/gdown/) library, meant to simplify and extend the use of this incredible library
+
+### Features:
+
++ retrieve list of files (or file) in drive directory
++ download files individually or multiple at the time
++ Automatic folder and file naming if downloading folders
+
++ `shared` feature still not in place
+
+### Usage:
+
+Install `Dimv` on your system with pip:
+
+```
+pip install Dimv
+```
+
+### Example:
+
+```python
+import Dimv as dimv
+
+folder = 'https://drive.google.com/drive/folders/1e0GsZ6_RbG8su43MfiOx4pURIoOqEqaL'
+id = '1mJ-jfHNbXjjhCWIzaIW3ZvRaXw9VohpL'
+
+dimv.find_files(folder, quiet = True)
+
+dimv.find_file(id, folder, quiet = False)
+
+output = 'test/test.txt'
+dimv.download(id, output, shared = True, quiet = False)
+
+dimv.download_file(id, folder, output = 'test/test', quiet = False)
+
+dimv.download_files(folder, output = '', shared = True, quiet = False)
+```

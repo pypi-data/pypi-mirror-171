@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: temgymbasic
+Version: 0.5.5
+Summary: A educational TEM training package
+Project-URL: Homepage, https://github.com/AMCLab/TemGymBasic
+Author-email: David Landers <davidlanders2009@hotmail.com>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pyopengl
+Requires-Dist: pyqt5
+Requires-Dist: pyqtgraph
+Requires-Dist: triangle
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

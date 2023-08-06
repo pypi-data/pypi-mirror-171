@@ -1,0 +1,4 @@
+[console_scripts]
+LoveMijueZengqiangLianaiXiyinli = LoveMijueZengqiangLianaiXiyinli.__main__:main
+love-mijue-zengqiang-lianai-xiyinli = LoveMijueZengqiangLianaiXiyinli.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiDuxinshu = LianaiDuxinshu.__main__:main
+lianai-duxinshu = LianaiDuxinshu.__main__:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+pftree = pftree.__main__:main
+

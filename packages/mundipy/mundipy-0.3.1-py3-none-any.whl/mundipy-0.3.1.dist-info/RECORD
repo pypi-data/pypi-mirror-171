@@ -1,0 +1,14 @@
+mundipy/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mundipy/api/osm.py,sha256=Akk6qizB5NFsoT-soQOxFUUJmlZP-aVhAoBsSnInEis,1442
+mundipy/cache/__init__.py,sha256=szyoH83KA-QRz5krbWysVaQS5Q1H9eACGuY4xp8uFFE,2392
+mundipy/layer.py,sha256=0uvXsUsCRC61O1OX7cInjvJxzPe2Gv-HGOzcOk1L_lQ,5676
+mundipy/map.py,sha256=EgMygGLwD6tDMxANCVyqTAmXqTOgLyWQzccamEsWPMc,291
+mundipy/mundi.py,sha256=1d7Jb16nfJUS0kurAldloFdPk7RUMym-CENL_pqLHpI,10074
+mundipy/pcs/README.md,sha256=FxxcD3g17mYyzz0oXryMx1LsZlE07mfDhF9SraOtMOM,130
+mundipy/pcs/__init__.py,sha256=CM2xQWfQVOGsA_csUjsvA88IgEyvzjEVGymusrII5_I,3309
+mundipy/pcs/_simplify.py,sha256=J7HuvcW9132El-WsbWS9qupioIHDbjmjMSsbwFiVdtU,2377
+mundipy/pcs/crs_enhanced.fgb,sha256=F1zxXuxT6_yx6ZsUGl4vioDisTxSKXIIZV5mGc-bHLk,7153896
+mundipy-0.3.1.dist-info/LICENSE,sha256=HX8Eba7iXadd0IfndYcyz8knxUKMieNk78DXkbonHWc,1075
+mundipy-0.3.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+mundipy-0.3.1.dist-info/METADATA,sha256=7OofZJcibXJDHY6wix8wJeosgJEoeEy_-SEnmVJi76A,2369
+mundipy-0.3.1.dist-info/RECORD,,

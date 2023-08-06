@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jackylee/__init__.py
+jackylee/test.py
+jackyleeutils.egg-info/PKG-INFO
+jackyleeutils.egg-info/SOURCES.txt
+jackyleeutils.egg-info/dependency_links.txt
+jackyleeutils.egg-info/top_level.txt

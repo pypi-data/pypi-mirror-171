@@ -1,0 +1,12 @@
+README.md
+setup.py
+XialiuShehui/README.md
+XialiuShehui/__init__.py
+XialiuShehui/__main__.py
+XialiuShehui/file.pdf
+XialiuShehui/index.html
+xialiu_shehui.egg-info/PKG-INFO
+xialiu_shehui.egg-info/SOURCES.txt
+xialiu_shehui.egg-info/dependency_links.txt
+xialiu_shehui.egg-info/entry_points.txt
+xialiu_shehui.egg-info/top_level.txt

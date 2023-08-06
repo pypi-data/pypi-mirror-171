@@ -1,0 +1,3 @@
+[console_scripts]
+Custom_CVParser = Custom_CVParser.command_line:main
+

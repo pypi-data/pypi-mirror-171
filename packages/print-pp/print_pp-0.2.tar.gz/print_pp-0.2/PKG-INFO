@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: print_pp
+Version: 0.2
+Summary: Additional tools for printing
+Home-page: https://github.com/i27ae15/print_pp.git
+Author: Andres Melendes
+Author-email: andresruse18@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: printing,print
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10

@@ -1,0 +1,4 @@
+[console_scripts]
+BameiZhuanyeShuyu = BameiZhuanyeShuyu.__main__:main
+bamei-zhuanye-shuyu = BameiZhuanyeShuyu.__main__:main
+

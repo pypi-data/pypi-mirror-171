@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: photoeccentric
+Version: 0.0.0
+Summary: Fall 2020
+Home-page: https://link-to-your-project
+Author: Sheila Sagear
+Author-email: ssagear@ufl.edu
+License: BSD 3-Clause License
+Description: photoeccentric
+        
+        Package to calculate stellar densities and eccentricities for Kepler planets based on Kepler light curves and the photoeccentric effect (Dawson & Johnson 2012) (https://arxiv.org/pdf/1203.5537.pdf).
+        
+Platform: UNKNOWN

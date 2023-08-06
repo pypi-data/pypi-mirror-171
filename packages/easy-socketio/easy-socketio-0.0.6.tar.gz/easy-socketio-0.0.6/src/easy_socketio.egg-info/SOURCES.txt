@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/easy_socketio/__init__.py
+src/easy_socketio/socketio.py
+src/easy_socketio.egg-info/PKG-INFO
+src/easy_socketio.egg-info/SOURCES.txt
+src/easy_socketio.egg-info/dependency_links.txt
+src/easy_socketio.egg-info/requires.txt
+src/easy_socketio.egg-info/top_level.txt

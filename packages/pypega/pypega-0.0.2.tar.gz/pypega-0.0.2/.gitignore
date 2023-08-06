@@ -1,0 +1,8 @@
+/.vscode
+/src/pega_deployment_manager_environment/__pycache__
+/src/pega_deployment_manager_candidate/__pycache__
+/src/pega_deployment_manager_orchestrator/__pycache__
+PegaDM.py
+PostDeploy.py
+PreDeploy.py
+.gitignore

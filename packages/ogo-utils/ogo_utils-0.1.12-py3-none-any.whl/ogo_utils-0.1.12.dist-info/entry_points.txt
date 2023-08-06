@@ -1,0 +1,3 @@
+[console_scripts]
+ogoutils=ogoutils.__main__:main
+

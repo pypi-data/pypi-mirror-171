@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+doccle/__init__.py
+doccle/doccle.py
+py_doccle.egg-info/PKG-INFO
+py_doccle.egg-info/SOURCES.txt
+py_doccle.egg-info/dependency_links.txt
+py_doccle.egg-info/requires.txt
+py_doccle.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+pyproject.toml
+src/eniak.egg-info/PKG-INFO
+src/eniak.egg-info/SOURCES.txt
+src/eniak.egg-info/dependency_links.txt
+src/eniak.egg-info/requires.txt
+src/eniak.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: eniak
+Version: 0.0.1
+Summary: Essentials of NeuroImaging Analysis Kit.
+Author-email: Ma Feilong <mafeilong@gmail.com>
+Project-URL: Homepage, https://github.com/feilong/eniak
+Project-URL: Bug Tracker, https://github.com/feilong/eniak/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

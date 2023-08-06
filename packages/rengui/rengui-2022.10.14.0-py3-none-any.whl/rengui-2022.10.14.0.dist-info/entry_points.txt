@@ -1,0 +1,4 @@
+[console_scripts]
+Rengui = Rengui.__main__:main
+rengui = Rengui.__main__:main
+

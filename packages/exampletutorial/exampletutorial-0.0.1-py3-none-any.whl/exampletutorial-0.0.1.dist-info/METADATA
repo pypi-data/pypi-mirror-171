@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: exampletutorial
+Version: 0.0.1
+Summary: For generating A E S T H E T I C ascii art
+Home-page: https://github.com/jamescalam/aesthetic_ascii
+Author: Sergio Maestu
+Author-email: maestusergio@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Aesthetic ASCII (EXAMPLE TUTORIAL)
+
+Generate **A E S T H E T I C** ASCII art.
+
+## Instructions
+
+1. Install:
+
+```
+pip install exampletutorial
+```
+
+2. Generate an aesthetic ASCII visual:
+
+```python
+from exampletutorial import synthesize
+
+# initialize drive object (to generate visuals)
+drive = synthesize.Drive()
+# generate a ASCII visual (dark_mode optional)
+drive.generate(dark_mode=True)
+# save to png
+drive.to_png('aesthetic.png')
+```
+
+3. Ride the space skyway home to 80s Miami

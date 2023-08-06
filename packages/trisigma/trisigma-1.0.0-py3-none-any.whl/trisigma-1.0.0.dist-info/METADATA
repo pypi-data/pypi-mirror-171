@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: trisigma
+Version: 1.0.0
+Summary: trisigma engine
+Author: Arda Gok
+Author-email: ardagkmhs@gmail.com
+Keywords: python,algo-trading,finance,stocks,crypto,market
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: binance-connector
+Requires-Dist: requests
+
+[![Documentation Status](https://readthedocs.org/projects/trisigma/badge/?version=latest)](https://trisigma.readthedocs.io/en/latest/?badge=latest)
+# Trisigma
+``` bash
+$ pip install trisigma
+```
+
+Trisigma is an event-driven algo-trading framework. Its object-oriented representation of strategies makes it possible to completely seperate the trading logic from its target market. As a result, strategies can run on any market/brokerage firm,  backtested, and optimized without any additional tweaks.
+
+### Platforms
+* Binance.com
+* Binance.us
+* Interactive Brokers (paper and live trade)
+
+### Main Features
+* Binance.com, Binance.us and Interactive Brokers integration
+* Webull, Yahoo Finance and Binance historic data scraper.
+* Backtesting and Strategy Optimizer.
+* Google Sheets and Google Cloud Storage integration.
+* Slack Channel Integration.

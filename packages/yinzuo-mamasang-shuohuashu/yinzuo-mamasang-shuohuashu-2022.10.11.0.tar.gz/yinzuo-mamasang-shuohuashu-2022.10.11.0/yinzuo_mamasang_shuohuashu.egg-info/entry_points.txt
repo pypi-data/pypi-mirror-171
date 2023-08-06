@@ -1,0 +1,4 @@
+[console_scripts]
+YinzuoMamasangShuohuashu = YinzuoMamasangShuohuashu.__main__:main
+yinzuo-mamasang-shuohuashu = YinzuoMamasangShuohuashu.__main__:main
+

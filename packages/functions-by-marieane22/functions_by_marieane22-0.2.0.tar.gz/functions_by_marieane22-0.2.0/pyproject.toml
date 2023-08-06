@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-marieane22"
+version = "0.2.0"
+description = "This is a test project."
+authors = ["marieane22 <marieane@live.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_marieane22"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

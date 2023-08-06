@@ -1,0 +1,5 @@
+sh
+matplotlib
+scipy
+numpy
+ANIAnimator

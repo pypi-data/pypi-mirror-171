@@ -1,0 +1,4 @@
+[console_scripts]
+CuimianLianaishu = CuimianLianaishu.__main__:main
+cuimian-lianaishu = CuimianLianaishu.__main__:main
+

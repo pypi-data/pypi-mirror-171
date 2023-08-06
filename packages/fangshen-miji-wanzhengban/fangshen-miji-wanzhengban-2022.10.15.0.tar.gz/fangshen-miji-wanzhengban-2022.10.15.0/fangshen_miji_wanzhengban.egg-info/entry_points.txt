@@ -1,0 +1,4 @@
+[console_scripts]
+FangshenMijiWanzhengban = FangshenMijiWanzhengban.__main__:main
+fangshen-miji-wanzhengban = FangshenMijiWanzhengban.__main__:main
+

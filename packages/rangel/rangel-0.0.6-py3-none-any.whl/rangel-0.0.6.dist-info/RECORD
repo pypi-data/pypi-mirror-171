@@ -1,0 +1,8 @@
+rangel/__init__.py,sha256=Jq9dlZiemjhAAcPefvCHFVGCpuebPLKP4ttEz5hZAtA,45
+rangel/collection.py,sha256=_hNFQINCm9AtuI49b31NBfKAOMqrnQKtUnOtNa7OGyA,125250
+rangel/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rangel/util/rasterize.py,sha256=XFJpB9pQ6wYlmqW8BvPoU7diqiCsgair2y-yKFUxeUw,6343
+rangel-0.0.6.dist-info/METADATA,sha256=K-4Aiw0mIYOCzkB2MO7d9-XnSOpdxeuhoC7QIj3JrN4,928
+rangel-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rangel-0.0.6.dist-info/top_level.txt,sha256=VZCMeFt_y6FXgEPLtwUa05x2fMBSq4hpZzHZCvVmz8w,7
+rangel-0.0.6.dist-info/RECORD,,

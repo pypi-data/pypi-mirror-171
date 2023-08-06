@@ -1,0 +1,5 @@
+setup.py
+hsv2munsell.egg-info/PKG-INFO
+hsv2munsell.egg-info/SOURCES.txt
+hsv2munsell.egg-info/dependency_links.txt
+hsv2munsell.egg-info/top_level.txt

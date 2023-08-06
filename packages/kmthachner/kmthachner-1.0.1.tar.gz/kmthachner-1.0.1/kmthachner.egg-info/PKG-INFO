@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kmthachner
+Version: 1.0.1
+Summary: An NER API trained on CONLL2003
+Home-page: UNKNOWN
+Author: Nguyen Kim Thach
+Author-email: <kmthach.ai@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+An NER API trained on CONLL2003
+

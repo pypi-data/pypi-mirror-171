@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fs_notify_to_people.egg-info/PKG-INFO
+fs_notify_to_people.egg-info/SOURCES.txt
+fs_notify_to_people.egg-info/dependency_links.txt
+fs_notify_to_people.egg-info/entry_points.txt
+fs_notify_to_people.egg-info/requires.txt
+fs_notify_to_people.egg-info/top_level.txt

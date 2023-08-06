@@ -1,0 +1,10 @@
+gedcom7/__init__.py,sha256=RX6f6lupd6yG0fr5yyhCfFiP1TRaeQolSaCHf1-Vrj0,80
+gedcom7/const.py,sha256=knW7fcWHgnTNP4XERwboOlW6j13aQEmk71WcvIMsYTs,1967
+gedcom7/grammar.py,sha256=z7BEDpa5csJKkyemrcvTHKn6nhjD2TPnNkLD7tMphso,2848
+gedcom7/parser.py,sha256=fW5OndZ43iLuUvGUnrHC3Msf1CIgg3TTOXDC4zduwK0,1373
+gedcom7/types.py,sha256=7ENwHYckXwyMsmLBld2qqfFDq7OHcwBrYzJqpfcS7Ps,3820
+gedcom7-0.2.0.dist-info/LICENSE,sha256=UZzTZGY22j_HPggbHtGPAyOEG9IHas1KhId3QmwI0X0,1069
+gedcom7-0.2.0.dist-info/METADATA,sha256=BApZNPOGU5RuGAgd_o0RoXFnyojG4EGtePB7TAlKDlM,833
+gedcom7-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gedcom7-0.2.0.dist-info/top_level.txt,sha256=yByjRKVYkQ_RpncNBSum_r0qgjLpiHzOE64ov1jU1tE,8
+gedcom7-0.2.0.dist-info/RECORD,,

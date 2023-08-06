@@ -1,0 +1,4 @@
+[console_scripts]
+BujuCelue = BujuCelue.__main__:main
+buju-celue = BujuCelue.__main__:main
+

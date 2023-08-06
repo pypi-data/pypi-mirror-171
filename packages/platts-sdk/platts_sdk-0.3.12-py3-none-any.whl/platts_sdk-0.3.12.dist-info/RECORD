@@ -1,0 +1,6 @@
+platts_sdk/__init__.py,sha256=QeZrZBbg3pxWuIqEkK4UgXi_QcUsNOmgcuPFwKCoQgk,87
+platts_sdk/market_data.py,sha256=gt8FOZZnsPOSmjq25mik2I37d_oghWU62Tx1bxwCPWc,1995
+platts_sdk/tok.py,sha256=CD6YtlKcogDOOQi2ZyVp9YxKvJueWcMliG-fn5IsI4E,2051
+platts_sdk-0.3.12.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+platts_sdk-0.3.12.dist-info/METADATA,sha256=csAKpeHikffaVRZ8v_yCVLoTecvN6GvH5baZAkGAUnY,947
+platts_sdk-0.3.12.dist-info/RECORD,,

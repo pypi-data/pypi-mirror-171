@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: glist
+Version: 0.1.dev1
+Summary: Read and write from Google Sheets as if it were a csv.
+Home-page: https://github.com/JoshuaMathias/glist
+Author: Joshua Mathias
+Author-email: joshuaamathias@gmail.com
+License: CCO-1.0
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gcsv
+Read and write from Google Sheets as if it were a csv.

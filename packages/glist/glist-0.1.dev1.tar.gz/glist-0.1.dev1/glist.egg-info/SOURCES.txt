@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+./glist/__init__.py
+./glist/__meta__.py
+./glist/start_command_line/__init__.py
+./glist/start_command_line/start_command_line.py
+C:/Users/joshu/vagrant/data/community/glist/install.py
+glist.egg-info/PKG-INFO
+glist.egg-info/SOURCES.txt
+glist.egg-info/dependency_links.txt
+glist.egg-info/entry_points.txt
+glist.egg-info/requires.txt
+glist.egg-info/top_level.txt

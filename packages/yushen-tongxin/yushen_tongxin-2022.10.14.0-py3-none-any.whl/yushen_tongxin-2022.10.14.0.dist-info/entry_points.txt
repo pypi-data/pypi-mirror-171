@@ -1,0 +1,4 @@
+[console_scripts]
+YushenTongxin = YushenTongxin.__main__:main
+yushen-tongxin = YushenTongxin.__main__:main
+

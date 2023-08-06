@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.2 (10/10/2022)
+-------------------
+- Updated bug that aborted installation.

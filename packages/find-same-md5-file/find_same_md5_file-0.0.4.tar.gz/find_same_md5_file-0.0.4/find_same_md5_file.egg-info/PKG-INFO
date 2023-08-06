@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: find-same-md5-file
+Version: 0.0.4
+Summary: Python searches the same file based on md5
+Home-page: https://github.com/Fgaoxing/find-same-file
+Author: Fgaoxing
+Author-email: Fgaoxing0206@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# find-same-file
+[中文文档](https://www.yt-blog.top/58785)
+
+Python searches the same file based on md5
+## install
+```sh
+pip install find-same-md5-file
+```
+## Example
+```py
+import find_same_md5_find
+print(find_same_find.print_same('U:/'))# My U drive letter is U:, so the location is U:/
+```
+
+

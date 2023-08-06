@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pyxkcd.egg-info/PKG-INFO
+pyxkcd.egg-info/SOURCES.txt
+pyxkcd.egg-info/dependency_links.txt
+pyxkcd.egg-info/requires.txt
+pyxkcd.egg-info/top_level.txt
+xkcd/__init__.py
+xkcd/client.py
+xkcd/comic.py
+xkcd/errors.py

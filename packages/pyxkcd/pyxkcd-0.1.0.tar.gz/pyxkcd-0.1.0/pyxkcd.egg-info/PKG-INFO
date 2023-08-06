@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pyxkcd
+Version: 0.1.0
+Summary: A simple, easy-to-use xkcd API wrapper!
+License: MIT License
+Project-URL: Homepage, https://github.com/SomeHybrid/xkcd.py
+Keywords: xkcd,api,api wrapper
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyxkcd
+
+A simple, easy-to-use xkcd wrapper
+
+-----
+
+## Documentation
+
+Check the documentation [here](https://pyxkcd.readthedocs.io/en/latest/)
+
+## Quickstart
+
+### Sync mode:
+
+```py
+import xkcd
+
+client = xkcd.Client()
+
+latest = client.latest()
+print(latest.json())
+```
+
+### Async mode:
+
+```py
+import asyncio
+import xkcd
+
+client = xkcd.AsyncClient()
+
+async def main():
+    tasks = (client.random() for _ in range(25))
+    return await asyncio.gather(*tasks)
+
+asyncio.run(main())```

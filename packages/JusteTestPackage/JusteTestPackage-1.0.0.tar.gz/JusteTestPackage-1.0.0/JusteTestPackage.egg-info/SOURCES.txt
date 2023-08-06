@@ -1,0 +1,9 @@
+setup.py
+JusteTestPackage.egg-info/PKG-INFO
+JusteTestPackage.egg-info/SOURCES.txt
+JusteTestPackage.egg-info/dependency_links.txt
+JusteTestPackage.egg-info/top_level.txt
+mysci_22/__init__.py
+mysci_22/computation.py
+mysci_22/printing.py
+mysci_22/readdata.py

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-oauth-token-manager
+Version: 0.2.0
+Summary: API for managing stored OAuth credentials.
+Home-page: UNKNOWN
+Author: David Harcombe
+Author-email: davidharcombe@google.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Multi-style OAuth credentials store
+===================================
+
+

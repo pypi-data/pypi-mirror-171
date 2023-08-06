@@ -1,0 +1,3 @@
+[console_scripts]
+fenerbahce=fenerbahce.interface:interface
+

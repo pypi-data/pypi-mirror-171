@@ -1,0 +1,4 @@
+[console_scripts]
+GaoqianLuojiVol2 = GaoqianLuojiVol2.__main__:main
+gaoqian-luoji-vol2 = GaoqianLuojiVol2.__main__:main
+

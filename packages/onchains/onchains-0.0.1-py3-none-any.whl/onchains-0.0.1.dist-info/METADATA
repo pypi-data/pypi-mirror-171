@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: onchains
+Version: 0.0.1
+Author: Phillip Park
+Author-email: onchainsxyz@gmail.com
+Requires-Dist: pandas
+Requires-Dist: requests
+

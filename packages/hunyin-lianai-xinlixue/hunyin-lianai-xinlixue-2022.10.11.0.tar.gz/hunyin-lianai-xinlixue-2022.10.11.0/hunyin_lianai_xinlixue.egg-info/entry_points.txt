@@ -1,0 +1,4 @@
+[console_scripts]
+HunyinLianaiXinlixue = HunyinLianaiXinlixue.__main__:main
+hunyin-lianai-xinlixue = HunyinLianaiXinlixue.__main__:main
+

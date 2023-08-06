@@ -1,0 +1,4 @@
+[console_scripts]
+ZiweiTangaoVol3 = ZiweiTangaoVol3.__main__:main
+ziwei-tangao-vol3 = ZiweiTangaoVol3.__main__:main
+

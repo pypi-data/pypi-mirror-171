@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=B1knbURVAoy5qmZMTWiJ66bBKdjKKDpeaPynQ4m5mv4,19602
+src/ui_mainwindow.py,sha256=IR9299jmny_40JecWPghIBBliAFtK3N2aguNHNFK3PQ,9685
+src/utils.py,sha256=pbC7aburhR21HdkyShCn3dXMPzmPEswpMFWhTJgaVvM,4816
+src/viewer.py,sha256=ZaL9_hpTgCh4f8bXrV4n1jPTdLwVUEyMb7zCcv06s6M,2671
+quadcropper-0.2.dist-info/LICENSE,sha256=xkkd35-BYZzg92izjDFqYzwlNDSs1D-LDKmJHWfhSGA,1105
+quadcropper-0.2.dist-info/METADATA,sha256=bPaepu46g1KbEXcqeRW_BPbl2Yug_DzSs6tmD4bjJfY,593
+quadcropper-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quadcropper-0.2.dist-info/entry_points.txt,sha256=-jsW_QTNpFEEAfrhFRxa5lkLB781ldBJ71QGDyaLglA,46
+quadcropper-0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+quadcropper-0.2.dist-info/RECORD,,

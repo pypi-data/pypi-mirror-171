@@ -1,0 +1,4 @@
+[console_scripts]
+KapianBijiXiezuofa = KapianBijiXiezuofa.__main__:main
+kapian-biji-xiezuofa = KapianBijiXiezuofa.__main__:main
+

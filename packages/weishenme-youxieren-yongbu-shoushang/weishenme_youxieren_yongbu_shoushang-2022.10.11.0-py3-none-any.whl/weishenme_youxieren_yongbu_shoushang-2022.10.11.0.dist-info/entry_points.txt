@@ -1,0 +1,4 @@
+[console_scripts]
+WeishenmeYouxierenYongbuShoushang = WeishenmeYouxierenYongbuShoushang.__main__:main
+weishenme-youxieren-yongbu-shoushang = WeishenmeYouxierenYongbuShoushang.__main__:main
+

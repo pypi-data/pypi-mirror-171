@@ -1,0 +1,4 @@
+[console_scripts]
+ShenghuoHeike = ShenghuoHeike.__main__:main
+shenghuo-heike = ShenghuoHeike.__main__:main
+

@@ -1,0 +1,2 @@
+[console_scripts]
+tejaas = tejaas.main:main

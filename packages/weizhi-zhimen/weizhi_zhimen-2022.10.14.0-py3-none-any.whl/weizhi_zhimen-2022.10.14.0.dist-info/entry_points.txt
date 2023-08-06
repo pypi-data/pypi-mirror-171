@@ -1,0 +1,4 @@
+[console_scripts]
+WeizhiZhimen = WeizhiZhimen.__main__:main
+weizhi-zhimen = WeizhiZhimen.__main__:main
+

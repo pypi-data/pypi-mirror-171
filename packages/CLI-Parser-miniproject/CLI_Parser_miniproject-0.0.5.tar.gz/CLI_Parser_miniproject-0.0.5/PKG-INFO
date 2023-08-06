@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CLI_Parser_miniproject
+Version: 0.0.5
+Summary: python module
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: Command-line utility that lets us filter textual input stream based on regular expression pattern and generate log in CSV or JSON format as output stream with support for adding plugins for different formats
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,16 @@
+slidingpuzzle/__init__.py,sha256=PcatNn5GhlusivllqN8rZYcMTO-BYiefRLagdCqaN7c,2015
+slidingpuzzle/algorithms.py,sha256=zwqXK5sV9mm67hwVYHuTO5qwks2fgj2xqbRjexBABzA,17786
+slidingpuzzle/board.py,sha256=TOMRreeSSRYpVVYNDnfTSYkWSOYER8Jrv5RnL7fqLFY,10119
+slidingpuzzle/heuristics.py,sha256=8SsMyucOnzHTylYhEd8I97Z_4RRmYpso-ismiA51-qA,2211
+slidingpuzzle/state.py,sha256=L-LU1Z2Y9pHpJuoZL2JZwcIs4-CosjkaKuR4imDKFqY,3272
+slidingpuzzle/nn/__init__.py,sha256=D9UPFW-vpcliBhwul98PCBG5EKRoS0_1o_SaIUQVyXY,1410
+slidingpuzzle/nn/dataset.py,sha256=Ln64HuzL11liPv3EkJQIoN1ucAz747gbztUSN1syH8M,6118
+slidingpuzzle/nn/eval.py,sha256=amomhZq2CYlkmm8dK2BvKT5lCMw03ZHCyxGINEg2KTY,2687
+slidingpuzzle/nn/heuristics.py,sha256=Z8hSM2TvScipDZCqRFuW8Jq5fOmJL6wCejFaBIHQJdQ,2136
+slidingpuzzle/nn/models.py,sha256=KZIDAotvRreP18xdKNwfMqGD8_hA9YsVc-Yh5kmBubA,2877
+slidingpuzzle/nn/paths.py,sha256=CQXZ2BBnQZpvky-9q0DnCOSPnOI6rxltrjEaT7UkNBY,2191
+slidingpuzzle/nn/train.py,sha256=RvxHqRLOI8k0YxP06te5aoNRzAmRGissJfP-osSPbMA,8603
+slidingpuzzle-0.0.7.dist-info/METADATA,sha256=2TioB7vih0ChVNmqTV4govcsfh_pRP_gy3nNMyhOzjc,13495
+slidingpuzzle-0.0.7.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+slidingpuzzle-0.0.7.dist-info/licenses/LICENSE,sha256=lLkiRGL_3TH7GEiXwubGnfyfA_Zn2OKkWO1XswLfRoQ,10316
+slidingpuzzle-0.0.7.dist-info/RECORD,,

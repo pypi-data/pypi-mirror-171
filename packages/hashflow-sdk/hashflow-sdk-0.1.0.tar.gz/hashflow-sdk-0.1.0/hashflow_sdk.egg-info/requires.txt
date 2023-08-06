@@ -1,0 +1,4 @@
+web3==5.31.1
+eth-account
+setuptools==56.0.0
+eth_keys

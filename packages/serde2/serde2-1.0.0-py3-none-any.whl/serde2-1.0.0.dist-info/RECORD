@@ -1,0 +1,9 @@
+serde/__init__.py,sha256=WRW9u98oUkaEbQaew_Nrt8NYcRi1o91oqa-ArlxSxxE,212
+serde/helper.py,sha256=dwNs8QD_hXk2UhPwi5-pamNRpVbgJblhO4XvGTpz7cA,1733
+serde/jl.py,sha256=NzL1ddyMEQ12WXvQSzthP_4PrWiF0Y7CHNSHTvqLYiI,1236
+serde/json.py,sha256=zZCGUmNufSkPd8ckelu6imUcJsogB-BDJWyCj2Kt9Mo,887
+serde/yaml.py,sha256=s1SoPUHPumM71ix2R9vpwyM1VgAuN9sXG2zCXVxr9dI,380
+serde2-1.0.0.dist-info/LICENSE,sha256=RFga2USXvuQy8Cm9bc_bQPGXZSjO10jTUVzHSEknUuI,1064
+serde2-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+serde2-1.0.0.dist-info/METADATA,sha256=O-747SdEY95xJlS_ZCGoc3xJWyVrkO2WbG_hy2HO_ok,787
+serde2-1.0.0.dist-info/RECORD,,

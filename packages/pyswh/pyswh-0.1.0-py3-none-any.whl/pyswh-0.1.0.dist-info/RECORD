@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=hXtn5A5WRfiAgwaoD9LOodMgHGtnB3fdOBf7Q7JxNlY,620
+CITATION.cff,sha256=w7zRTg0qSYEB6PRL_3PU0Ey8n0gvG8lzlrkH-T64Q0w,978
+LICENSES/CC-BY-4.0.txt,sha256=1VdTnfaOdxzB7tzJHRP3D8qTDlCNEe7cr6SxXbSeN0Q,17023
+LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+LICENSES/MIT.txt,sha256=IkBOIVdvMDCHlwYRTQwfKQbHzTWuY5WwvHQq0P9XWIM,1072
+pyswh/__init__.py,sha256=lua6OCluYor6TVHIUef2s9TD4t5awWlAGzJG4RQtWgo,101
+pyswh/errors.py,sha256=cEIdMcJTyptkTh0UzxeKz69V5XLakYnuTDqpVbEhx_M,277
+pyswh/swh.py,sha256=zHLsW-KuztPjugl546RTYMeF8WvC4jgW1mm1QLIUK4k,10876
+pyswh-0.1.0.dist-info/LICENSES/MIT.txt,sha256=IkBOIVdvMDCHlwYRTQwfKQbHzTWuY5WwvHQq0P9XWIM,1072
+pyswh-0.1.0.dist-info/LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+pyswh-0.1.0.dist-info/LICENSES/CC-BY-4.0.txt,sha256=1VdTnfaOdxzB7tzJHRP3D8qTDlCNEe7cr6SxXbSeN0Q,17023
+pyswh-0.1.0.dist-info/LICENSE.md,sha256=s8FVmalTl44nP7LBUCDMVnMoG0dKicg9PUYQSmI2Vk0,541
+pyswh-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pyswh-0.1.0.dist-info/METADATA,sha256=qLrkWNizYAJCeBXc0TrWYgbMyAWNoE3T5m9Bpe4Z9Bs,3567
+pyswh-0.1.0.dist-info/RECORD,,

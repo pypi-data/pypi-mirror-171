@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitquote_client.egg-info/PKG-INFO
+bitquote_client.egg-info/SOURCES.txt
+bitquote_client.egg-info/dependency_links.txt
+bitquote_client.egg-info/not-zip-safe
+bitquote_client.egg-info/top_level.txt
+foo/__init__.py

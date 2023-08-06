@@ -1,0 +1,10 @@
+tripper/__init__.py,sha256=yyDEAA_OZuVk2U9dGsZnjOGZ876v3TtAStyrRo8mWY0,636
+tripper/interface.py,sha256=WG69sScHSMbC5WmKRGAxiDDUAyJsPnhbD8iRsW6xCaE,2789
+tripper/triplestore.py,sha256=yER7q2U189BwoOLTGjne3HxrhQyg4XnqkDZMhsaT3jA,29042
+tripper/backends/__init__.py,sha256=xlF43aQF25abqrpTxdzntfwU2CG8iLk_5Cmsb69x6zg,1330
+tripper/backends/ontopy.py,sha256=JNFKEG9Hn5svq4N3qgemUpibRiH_sjdB7Pm9zcA5bR4,7957
+tripper/backends/rdflib.py,sha256=E_M02wb3kvo9YfGU7xO9jHtsuWIAHovr7AF36QTTKY8,5076
+tripper-0.1.0.dist-info/LICENSE,sha256=LN1QEg3hykv3IqJvSz1DpDWPdugm-kHD7pZtEe4S0Ts,1092
+tripper-0.1.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+tripper-0.1.0.dist-info/METADATA,sha256=R5WLoyh-YuKSHoqgwRfMgtHW8TwgNhnBkin6pniF9ds,2788
+tripper-0.1.0.dist-info/RECORD,,

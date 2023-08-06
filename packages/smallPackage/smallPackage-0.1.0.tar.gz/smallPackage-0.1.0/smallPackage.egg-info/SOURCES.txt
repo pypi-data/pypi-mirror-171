@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+smallPackage/__init__.py
+smallPackage/adder.py
+smallPackage/module1.py
+smallPackage.egg-info/PKG-INFO
+smallPackage.egg-info/SOURCES.txt
+smallPackage.egg-info/dependency_links.txt
+smallPackage.egg-info/requires.txt
+smallPackage.egg-info/top_level.txt

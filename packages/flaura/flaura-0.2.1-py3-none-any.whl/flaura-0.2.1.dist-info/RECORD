@@ -1,0 +1,12 @@
+flaura/__init__.py,sha256=tzooV5XE_SDUkP-KDx2cBrAjLf6yABR8slM-aCugg08,619
+flaura/group.py,sha256=UOFDIjhm9xjhzg-TDdB9NHbfDH-8LG-LOua8xspZgGA,1012
+flaura/home.py,sha256=QHRmElATtihYDc6IkJzOsOeNafVvVvy-MELWCWJT8to,867
+flaura/merge.py,sha256=gQSVeTFjBY6Wf8YkO_e9Wt_aAJn7P_n-WHgDzHB8qfs,4023
+flaura/pull.py,sha256=04EdYomO5_RjKv4smH_5V7mhFfOD-eP5-d7Ad2FpEqk,868
+flaura/upstream.py,sha256=WwUfujQzkR0M7auZfcPmPGiUjHSyfYFVS-9U9mBvmjw,1766
+flaura-0.2.1.dist-info/entry_points.txt,sha256=lX65-RMGT2lyAZjf-WRdixCNbNkR3Tlqu3yCnzNfMEI,40
+flaura-0.2.1.dist-info/LICENSES/Apache-2.0.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+flaura-0.2.1.dist-info/LICENSES/MIT.txt,sha256=45xT3rWAkZgH195hUJXnMYVTgfEQA1UvyKp9X-JviPI,1104
+flaura-0.2.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+flaura-0.2.1.dist-info/METADATA,sha256=G6O0ENM42NwSkzEegAGdeW-yuf-6AtRLjtkjcVlGSXM,1339
+flaura-0.2.1.dist-info/RECORD,,

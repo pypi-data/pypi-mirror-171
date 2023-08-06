@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: flaura
+Version: 0.2.1
+Summary: Merge upstream with ease!
+Home-page: https://github.com/waylovely-project/flaura.git
+License: APACHE-2.0 OR MIT
+Author: Fiana Fortressia
+Author-email: fortressnordlys@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Version Control
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: tomlkit (>=0.11.5,<0.12.0)
+Project-URL: Repository, https://github.com/waylovely-project/flaura.git
+Description-Content-Type: text/markdown
+
+# Flaura
+Merge upstream with ease!
+
+Flaura implements all the merging behaviors of Git, and not only that, it's Git-ndependent, or standalone, which makes merging a non-Git folder, or just a certain folder in a Git repository, instead of the whole repository. 
+
+It allows hardforking to be like a charm!!
+
+## Project Status
+At the moment, Flaura is still in early development. 
+
+No commands have been implemented except `flaura merge` and `flaura init`. 
+
+`flaura merge` should be the basic functionality of Flaura for it to be useful, even though the UX is lacking!! You can see its documentation with `flaura merge --help`

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+argocd/__init__.py
+argocd/config.py
+argocd.egg-info/PKG-INFO
+argocd.egg-info/SOURCES.txt
+argocd.egg-info/dependency_links.txt
+argocd.egg-info/requires.txt
+argocd.egg-info/top_level.txt
+argocd/services/__init__.py
+argocd/services/certificate.py
+argocd/services/repository.py
+argocd/services/repository_creds.py
+argocd/services/settings.py
+argocd/services/version.py

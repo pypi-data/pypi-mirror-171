@@ -1,0 +1,12 @@
+README.md
+setup.py
+XiaoaoGushi/README.md
+XiaoaoGushi/__init__.py
+XiaoaoGushi/__main__.py
+XiaoaoGushi/file.pdf
+XiaoaoGushi/index.html
+xiaoao_gushi.egg-info/PKG-INFO
+xiaoao_gushi.egg-info/SOURCES.txt
+xiaoao_gushi.egg-info/dependency_links.txt
+xiaoao_gushi.egg-info/entry_points.txt
+xiaoao_gushi.egg-info/top_level.txt

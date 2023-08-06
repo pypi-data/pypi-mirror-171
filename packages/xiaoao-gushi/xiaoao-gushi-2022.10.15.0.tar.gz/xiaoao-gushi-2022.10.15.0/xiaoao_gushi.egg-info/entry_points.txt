@@ -1,0 +1,4 @@
+[console_scripts]
+XiaoaoGushi = XiaoaoGushi.__main__:main
+xiaoao-gushi = XiaoaoGushi.__main__:main
+

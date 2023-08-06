@@ -1,0 +1,12 @@
+supGeckoASM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supGeckoASM/cli.py,sha256=oD62QEeSz1ErCHjB3_uugXj8Pt4bEhLr86Kr-b2nEoo,6450
+supGeckoASM/include/macros.inc,sha256=jPk7XvdGYfFUJoQHsv92oUrw1jIaL08cvBaSEf94JsM,960
+supGeckoASM/ldscript/NTSC-J_1.0.ld,sha256=zvM_AgJ2K_h2UmKASbT2fJxfOFZLmmNyv-ZL3Az1sYI,2283943
+supGeckoASM/ldscript/NTSC-J_1.1.ld,sha256=c1gNOOUdrQPxF-cNtkkT6xS7geqKEm4kDv_RHDnSUCg,2262297
+supGeckoASM/ldscript/common.ld,sha256=rVXpxBUbIgCoavzhXjEj60f_HscHwgKbtvD45r44g9w,118
+supGeckoASM-0.0.1a1.dist-info/LICENSE,sha256=eUag5H5xavzS6jXameTsIN73KldDmYDsQguAiLhLLWM,1097
+supGeckoASM-0.0.1a1.dist-info/METADATA,sha256=Q7RkQfGoMdv6D3AROS4UQBs2eHENtxg1x6pLTQIaxt0,722
+supGeckoASM-0.0.1a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+supGeckoASM-0.0.1a1.dist-info/entry_points.txt,sha256=NMG9l6O8ah7sa6yuHKojaoc-81kGcaa2D-jWnXDpeko,53
+supGeckoASM-0.0.1a1.dist-info/top_level.txt,sha256=MC3VdD7T05L9UMK4nZ6CGuMdC1QLcDBpPjjtGG972ww,12
+supGeckoASM-0.0.1a1.dist-info/RECORD,,

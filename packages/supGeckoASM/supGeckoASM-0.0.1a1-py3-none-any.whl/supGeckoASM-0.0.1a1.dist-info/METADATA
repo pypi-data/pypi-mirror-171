@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: supGeckoASM
+Version: 0.0.1a1
+Summary: A tool to make gecko code from ASM
+Home-page: https://github.com/sup39/supGeckoASM
+Author: sup39
+Author-email: sms@sup39.dev
+License: MIT
+Project-URL: Bug Tracker, https://github.com/sup39/supGeckoASM/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywin32 (>=304)
+
+# supGeckoASM
+A tool to make gecko code from ASM
+
+## Supported code type
+### C0
+### C2
+```ld
+$$ = 0;
+$C2$.xxx = ...;
+```
+### 06
+```ld
+$$ = ...;
+$b$.xxx = ...;
+$bl$.yyy = ...;
+```

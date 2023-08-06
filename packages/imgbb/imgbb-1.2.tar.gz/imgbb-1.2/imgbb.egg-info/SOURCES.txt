@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+imgbb/__init__.py
+imgbb/main.py
+imgbb.egg-info/PKG-INFO
+imgbb.egg-info/SOURCES.txt
+imgbb.egg-info/dependency_links.txt
+imgbb.egg-info/not-zip-safe
+imgbb.egg-info/top_level.txt

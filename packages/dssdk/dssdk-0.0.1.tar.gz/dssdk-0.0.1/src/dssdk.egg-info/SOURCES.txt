@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dssdk/__init__.py
+src/dssdk/api_client.py
+src/dssdk.egg-info/PKG-INFO
+src/dssdk.egg-info/SOURCES.txt
+src/dssdk.egg-info/dependency_links.txt
+src/dssdk.egg-info/requires.txt
+src/dssdk.egg-info/top_level.txt

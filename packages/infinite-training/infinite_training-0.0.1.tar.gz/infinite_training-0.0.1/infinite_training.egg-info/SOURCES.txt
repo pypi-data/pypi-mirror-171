@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+infinite_training/__init__.py
+infinite_training.egg-info/PKG-INFO
+infinite_training.egg-info/SOURCES.txt
+infinite_training.egg-info/dependency_links.txt
+infinite_training.egg-info/top_level.txt

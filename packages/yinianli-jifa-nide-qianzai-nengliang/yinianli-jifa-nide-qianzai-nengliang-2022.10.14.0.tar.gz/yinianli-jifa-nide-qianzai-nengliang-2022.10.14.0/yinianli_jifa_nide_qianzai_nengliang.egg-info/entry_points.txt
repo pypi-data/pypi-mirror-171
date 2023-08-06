@@ -1,0 +1,4 @@
+[console_scripts]
+YinianliJifaNideQianzaiNengliang = YinianliJifaNideQianzaiNengliang.__main__:main
+yinianli-jifa-nide-qianzai-nengliang = YinianliJifaNideQianzaiNengliang.__main__:main
+

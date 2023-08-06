@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/HM1507_3GUI.egg-info/PKG-INFO
+src/HM1507_3GUI.egg-info/SOURCES.txt
+src/HM1507_3GUI.egg-info/dependency_links.txt
+src/HM1507_3GUI.egg-info/top_level.txt

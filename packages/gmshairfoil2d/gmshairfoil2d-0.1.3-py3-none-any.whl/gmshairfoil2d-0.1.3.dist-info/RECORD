@@ -1,0 +1,11 @@
+gmshairfoil2d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmshairfoil2d/airfoil_func.py,sha256=twMt4y9PeMeBSawWv-D5jLzkKMJzEshL-BiG86tSGvk,5275
+gmshairfoil2d/example.py,sha256=ZcC8XhaA0FbHmUy5ESwwXk3JJ18dkUUUDQ2WjWVohOo,927
+gmshairfoil2d/geometry_def.py,sha256=UQPJXxCG04HZTwhb-zf2fx-NjkH5wrdPRsE8GhYVOnE,19793
+gmshairfoil2d/gmshairfoil2d.py,sha256=3zBnCxD0-myVcIUhacFgkP1elJZVUSAyCtOfrI_2FyQ,4589
+gmshairfoil2d-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gmshairfoil2d-0.1.3.dist-info/METADATA,sha256=jBtzwScni_0PuWop07rwA5zonc0iDSYS8oDoO3ZddNU,4112
+gmshairfoil2d-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gmshairfoil2d-0.1.3.dist-info/entry_points.txt,sha256=6OBSsEXNhTICrsEGgfg30RGIkKRFXELizYtfZfT1_zk,67
+gmshairfoil2d-0.1.3.dist-info/top_level.txt,sha256=MhXEKx8aoWrGbkyrGaDGJOCv3GER7nzzSfz0UsvI2NQ,14
+gmshairfoil2d-0.1.3.dist-info/RECORD,,

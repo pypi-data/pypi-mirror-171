@@ -1,0 +1,5 @@
+pandas
+fastcore
+tqdm
+
+[dev]

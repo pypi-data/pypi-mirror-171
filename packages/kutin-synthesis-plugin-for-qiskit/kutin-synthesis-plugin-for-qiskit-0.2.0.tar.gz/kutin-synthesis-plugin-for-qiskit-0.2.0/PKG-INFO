@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kutin-synthesis-plugin-for-qiskit
+Version: 0.2.0
+Summary: Synthesis for linear functions as a qiskit-terra plugin
+Home-page: https://github.com/alexanderivrii/KutinSynthesisPlugin
+Author: Alexander Ivrii
+Author-email: alexi@il.ibm.com
+License: MIT
+Keywords: linear synthesis
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+

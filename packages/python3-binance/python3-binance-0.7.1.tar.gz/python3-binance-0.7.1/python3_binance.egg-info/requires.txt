@@ -1,0 +1,11 @@
+Twisted
+autobahn
+certifi
+chardet
+cryptography
+dateparser
+pyOpenSSL
+requests
+service-identity
+six
+urllib3

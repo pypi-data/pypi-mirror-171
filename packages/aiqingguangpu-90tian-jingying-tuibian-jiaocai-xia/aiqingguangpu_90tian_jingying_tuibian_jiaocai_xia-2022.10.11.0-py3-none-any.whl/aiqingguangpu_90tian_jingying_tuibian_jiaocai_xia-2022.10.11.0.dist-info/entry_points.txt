@@ -1,0 +1,4 @@
+[console_scripts]
+Aiqingguangpu90tianJingyingTuibianJiaocaiXia = Aiqingguangpu90tianJingyingTuibianJiaocaiXia.__main__:main
+aiqingguangpu-90tian-jingying-tuibian-jiaocai-xia = Aiqingguangpu90tianJingyingTuibianJiaocaiXia.__main__:main
+

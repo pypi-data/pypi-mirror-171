@@ -1,0 +1,4 @@
+[console_scripts]
+BaijinNvlangXiaoshuo = BaijinNvlangXiaoshuo.__main__:main
+baijin-nvlang-xiaoshuo = BaijinNvlangXiaoshuo.__main__:main
+

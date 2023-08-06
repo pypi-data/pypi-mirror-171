@@ -1,0 +1,12 @@
+README.md
+setup.py
+BaijinNvlangXiaoshuo/README.md
+BaijinNvlangXiaoshuo/__init__.py
+BaijinNvlangXiaoshuo/__main__.py
+BaijinNvlangXiaoshuo/file.pdf
+BaijinNvlangXiaoshuo/index.html
+baijin_nvlang_xiaoshuo.egg-info/PKG-INFO
+baijin_nvlang_xiaoshuo.egg-info/SOURCES.txt
+baijin_nvlang_xiaoshuo.egg-info/dependency_links.txt
+baijin_nvlang_xiaoshuo.egg-info/entry_points.txt
+baijin_nvlang_xiaoshuo.egg-info/top_level.txt

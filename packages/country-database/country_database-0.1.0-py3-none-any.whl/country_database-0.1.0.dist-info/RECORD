@@ -1,0 +1,16 @@
+country_database/__init__.py,sha256=Dzrwc4lPUN4glCS4r3q_mrd16klXEf9-SfMzopzX9Ow,381
+country_database/__version__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+country_database/core.py,sha256=5caRAz2e7ZZpgWxxFCf2jzBsFmzK_EtVPpDCXQwGI0s,8182
+country_database/database/LICENSE,sha256=R04kgJGSG9Fdg7ca0Z5xE7UDkjfJOPYezvmsvbvVofg,1063
+country_database/database/README.md,sha256=abjYKgJ2yOgU2YO1fXjYdK768ZIxig1Bgt2Lo4lwR_I,235
+country_database/database/codes.tsv,sha256=zWqkRePgLFiNx5TOzBPcCqM2WD1HKT1xTzMDKjVu-Bo,2988
+country_database/database/name/en.tsv,sha256=WnOENuYY8guwTA1SowJTVy1yLq8Ar6OvJ294Kbe9u9w,4516
+country_database/database/name/zh.tsv,sha256=C5wdlyQSD_1wfdVfrzabh0JrpUlDXHaAhJY7ZnD-bfw,4646
+country_database/dataloader.py,sha256=aMzpr1TkhsdHm5NxJtOBKbpOsFOT9GUyeDeaUXe6AXM,5110
+country_database/generated.py,sha256=Z4HVUnaFVHTwB1sr1cmbAiha6_7rKCBC9ISjDIrWDJ4,203
+country_database/generics.py,sha256=Z0Bmso3ECgLiwAn6WEhoWDlHbN4pECL_rJm-1fAWIAI,3757
+country_database/property.py,sha256=3Uuhopg_YQJh2RNGHOqCQV4LioKM11id5d4yQuTrNuI,1226
+country_database-0.1.0.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+country_database-0.1.0.dist-info/METADATA,sha256=cZiaE2oFhRzMDCX-nNN-Dki6VgBXa6p1Tp0Pw4vM3dU,3602
+country_database-0.1.0.dist-info/license_files/LICENSE,sha256=R04kgJGSG9Fdg7ca0Z5xE7UDkjfJOPYezvmsvbvVofg,1063
+country_database-0.1.0.dist-info/RECORD,,

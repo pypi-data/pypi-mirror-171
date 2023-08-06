@@ -1,0 +1,4 @@
+[console_scripts]
+NvshengMimaNeihuaShouce = NvshengMimaNeihuaShouce.__main__:main
+nvsheng-mima-neihua-shouce = NvshengMimaNeihuaShouce.__main__:main
+

@@ -1,0 +1,6 @@
+fastcore>=1.5.27
+pandas>=1.4.3
+sklearn
+ipdb
+
+[dev]

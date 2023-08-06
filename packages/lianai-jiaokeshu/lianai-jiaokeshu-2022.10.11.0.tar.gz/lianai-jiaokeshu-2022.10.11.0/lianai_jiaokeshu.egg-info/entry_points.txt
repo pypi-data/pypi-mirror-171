@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiJiaokeshu = LianaiJiaokeshu.__main__:main
+lianai-jiaokeshu = LianaiJiaokeshu.__main__:main
+

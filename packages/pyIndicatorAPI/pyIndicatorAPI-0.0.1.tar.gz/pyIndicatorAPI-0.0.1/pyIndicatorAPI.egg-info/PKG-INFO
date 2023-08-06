@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyIndicatorAPI
+Version: 0.0.1
+Summary: IndicatorAPI.com wrapper
+Home-page: UNKNOWN
+Author: dreistein33
+Author-email: kjuchnowski@gmail.com
+License: UNKNOWN
+Keywords: python,indicatorapi,api,crypto
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows developers to use indicatorapi quickly.
+

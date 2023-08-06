@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+rechtspraak-extractor/__init__.py
+rechtspraak-extractor/rechtspraak.py
+rechtspraak-extractor/rechtspraak_api.py
+rechtspraak-extractor/rechtspraak_functions.py
+rechtspraak-extractor/rechtspraak_metadata_api_pp.py
+rechtspraak-extractor/storage_handler.py
+rechtspraak_extractor.egg-info/PKG-INFO
+rechtspraak_extractor.egg-info/SOURCES.txt
+rechtspraak_extractor.egg-info/dependency_links.txt
+rechtspraak_extractor.egg-info/requires.txt
+rechtspraak_extractor.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: test-pkg-poetry-binlecode
+Version: 0.1.0
+Summary: 
+Author: Bin Le
+Author-email: bin.le.code@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+
+
+pyproject.toml is created by poetry with format of PEP 518 package specs.
+
+

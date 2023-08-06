@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitbookkeeper_client.egg-info/PKG-INFO
+bitbookkeeper_client.egg-info/SOURCES.txt
+bitbookkeeper_client.egg-info/dependency_links.txt
+bitbookkeeper_client.egg-info/not-zip-safe
+bitbookkeeper_client.egg-info/top_level.txt
+foo/__init__.py

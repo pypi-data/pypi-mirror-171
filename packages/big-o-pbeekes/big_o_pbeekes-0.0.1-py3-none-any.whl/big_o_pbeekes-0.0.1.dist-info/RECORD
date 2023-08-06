@@ -1,0 +1,9 @@
+setup.py,sha256=Te9-_8Y9Tc4RABMjCJIAWhSo6h9BMxpQRg9Wg5EY07w,567
+src/big_o/__init__.py,sha256=KAZjl6_KCWBn03A4WD-z0yrT3i4xcB-ptIFN2T6PG1w,220
+src/big_o/big_o.py,sha256=SGNfHNeGSuqoOslqd7G3BR7FALw-nBvRnVwjtuqoWLo,6655
+src/big_o/complexities.py,sha256=lEZ1eya0iLyKwEoEzTnd8Q3zERSaKI8INss_SwUw0pI,7093
+src/big_o/datagen.py,sha256=WWejIMnaW42AC2-6S4qANyh1UogqPuDjbRqZvfNjBQ0,835
+big_o_pbeekes-0.0.1.dist-info/METADATA,sha256=u0h7qirhbIVJrK_r3hlC-tjonErmfRvTMnsy7KcW8is,6164
+big_o_pbeekes-0.0.1.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+big_o_pbeekes-0.0.1.dist-info/licenses/LICENSE.txt,sha256=tG8-KwPCPXuHloZXv_WIY2I9AZ0_U4o6Hx4B1xPujWE,1533
+big_o_pbeekes-0.0.1.dist-info/RECORD,,

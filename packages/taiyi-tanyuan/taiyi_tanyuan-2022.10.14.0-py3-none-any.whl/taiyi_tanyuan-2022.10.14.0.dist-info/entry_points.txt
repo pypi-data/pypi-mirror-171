@@ -1,0 +1,4 @@
+[console_scripts]
+TaiyiTanyuan = TaiyiTanyuan.__main__:main
+taiyi-tanyuan = TaiyiTanyuan.__main__:main
+

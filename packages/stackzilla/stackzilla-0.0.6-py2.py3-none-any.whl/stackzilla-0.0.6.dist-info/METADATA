@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stackzilla
+Version: 0.0.6
+Summary: An ORM for your application stack.
+Home-page: https://github.com/Stackzilla/stackzilla
+Author: Zimventures, LLC
+Author-email: rob@stackzilla.dev
+License: GNU Affero General Public License v3
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >3.6
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+Requires-Dist: colorama (==0.4.5)
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+# Stackzilla

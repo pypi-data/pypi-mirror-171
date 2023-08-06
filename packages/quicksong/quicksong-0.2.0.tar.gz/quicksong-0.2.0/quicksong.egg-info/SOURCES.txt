@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+quicksong/__init__.py
+quicksong/core.py
+quicksong/features.cpp
+quicksong/features.pyx
+quicksong/model.py
+quicksong/streaming.py
+quicksong/util.py
+quicksong.egg-info/PKG-INFO
+quicksong.egg-info/SOURCES.txt
+quicksong.egg-info/dependency_links.txt
+quicksong.egg-info/not-zip-safe
+quicksong.egg-info/requires.txt
+quicksong.egg-info/top_level.txt

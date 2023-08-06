@@ -1,0 +1,17 @@
+numpy
+scipy
+h5py
+vtk
+nose
+matplotlib
+pylint
+neml
+scikit-fem
+meshio
+networkx
+tqdm
+multiprocess
+dill
+parameterized
+black
+jax[cpu]

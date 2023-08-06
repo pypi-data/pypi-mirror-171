@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+polite/__init__.py
+polite/polite.py
+polite.egg-info/PKG-INFO
+polite.egg-info/SOURCES.txt
+polite.egg-info/dependency_links.txt
+polite.egg-info/top_level.txt

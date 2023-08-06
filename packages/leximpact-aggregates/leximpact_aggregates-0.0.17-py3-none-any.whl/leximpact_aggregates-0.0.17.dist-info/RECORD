@@ -1,0 +1,10 @@
+leximpact_aggregates/__init__.py,sha256=WlMBNrzKywm5RAbqEVgEgcG7Opc4cf3-wpAnO8PdoEI,23
+leximpact_aggregates/_modidx.py,sha256=caEtB2UW2T63-amkfwiwOoe45LyDC8hGzaTVFsDmiVI,6771
+leximpact_aggregates/_nbdev.py,sha256=FXWoEu4Gig3eya3dQheUGxeFThhTtUVja9BYojEiiWs,2559
+leximpact_aggregates/aggregate.py,sha256=5cWdLR0DfPC4AhYsHYleWSt9wCo3k8B8Mk67Ab_pbS8,22491
+leximpact_aggregates/aggregates_dads.py,sha256=EOzEstrcNDw_FbqLiU05qjoM93yzL73WwYgYZ5_41uo,4399
+leximpact_aggregates/aggregates_pote.py,sha256=4kteFZAadWm_u04Xn0UOFAHzeT4dNculSvd8gi-zlz8,7070
+leximpact_aggregates/pyramide_ages.py,sha256=Zms7O2QQ0QoSOabhWuGDAk6tq7_6sq6D41MH5XOszF0,1748
+leximpact_aggregates-0.0.17.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+leximpact_aggregates-0.0.17.dist-info/METADATA,sha256=G_zxW5GYKYgSrNlb06MRUPAOyV9aI5JMp6CCVfLgY_0,900
+leximpact_aggregates-0.0.17.dist-info/RECORD,,

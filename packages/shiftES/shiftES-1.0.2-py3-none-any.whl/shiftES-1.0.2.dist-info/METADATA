@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: shiftES
+Version: 1.0.2
+Summary: Implimentation of "A Robust Nonparametric Measure of Effect Size Based on an Analog of Cohens d...", R. Wilcox (2018). https://dx.doi.org/10.22237/jmasm/1551905677
+Author: John C. Thomas
+Author-email: jcthomas000@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: openpyx
+

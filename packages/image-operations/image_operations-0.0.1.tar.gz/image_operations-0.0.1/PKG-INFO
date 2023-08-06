@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: image_operations
+Version: 0.0.1
+Summary: Exercice about packages - Bootcamp Data Science Unimed
+Home-page: https://github.com/celsolearner/image-operations
+Author: celso
+Author-email: celsolearner@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# image_operations
+
+Description. 
+The package image_operations is used to:
+	- Flip an image. All tranpose modes.
+	- Get channels from an image and print them with its image.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_operations
+
+```bash
+pip install image_operations
+```
+
+## Author
+Celso
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+

@@ -1,0 +1,18 @@
+.idea/
+.vscode/
+
+__pycache__
+*.pyc
+
+.env
+
+build/
+dist/
+*.egg-info
+
+# Python库需要兼容多版本
+.python-version
+
+# 测试数据
+tests/data
+/docs/_build/

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: functions-by-ambrosi91
+Version: 0.1.0
+Summary: This is a test project.
+Author: ambrosi91
+Author-email: ambrosi11151991@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+

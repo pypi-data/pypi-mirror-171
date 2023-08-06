@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: rechtspraak-extractor
+Version: 1.0.7
+Summary: Library for extracting rechtspraak data
+Home-page: UNKNOWN
+Author: LawTech Lab
+Author-email: pranav.bapat@student.maastrichtuniversity.nl
+License: MIT
+Project-URL: Bug Tracker, https://github.com/maastrichtlawtech/case-law-explorer
+Keywords: rechtspraak,extractor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: xmltodict (==0.13.0)
+Requires-Dist: python-dotenv (==0.15.0)
+
+This library contains two functions to get rechtspraak data and metadata from the API.
+
+<h3>How to install?</h3>
+<code>pip install rechtspraak_extractor</code>
+
+<h3>What are the functions?</h3>
+<ol>
+    <li>get_rechtspraak</li>
+    Gets all the ECLIs and saves them in the CSV file or in-memory
+    <li>get_rechtspraak_metadata</li>
+    Gets the metadata of the ECLIs created by above function and saves them in the new CSV file or in-memory
+</ol>
+
+<h3>What are the parameters?</h3>
+<ol>
+    <li>Rechtspraak API</li>
+    3 parameters:
+    <ul>
+        <li>max: Maximum amount of ECLIs you would like to retrieve</li>
+        If not provided, default value of 100 is taken.
+        <li>start date: The start publication date </li>
+        If not provided, default value of 2022-08-01 is taken.
+        <li>end date: The end publication date </li>
+        If not provided, current date is taken.
+    </ul>
+    <li>Rechtspraak metadata API</li>
+    <ul>
+        <li>save_file: ['y', 'n']: Whether you would like to save the data as a CSV file or in-memory</li>
+        If not provided, default value of 'n' is taken. For 'y', a new folder 'data' is created to save the files.
+    </ul>
+</ol>
+
+<h3>How to run?</h3>
+<code>
+import rechtspraak_extractor as rex
+<br>rex.rechtspraak.get_rechtspraak(1000, '2022-08-01')
+<br>rex.rechtspraak_metadata.get_rechtspraak_metadata()
+</code>
+
+<br><br><br><br>
+```
+MIT License
+
+Copyright (c) 2022 Maastricht Law & Tech Lab
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+

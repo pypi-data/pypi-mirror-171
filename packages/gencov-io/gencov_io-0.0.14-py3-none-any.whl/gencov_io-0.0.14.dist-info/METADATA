@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gencov_io
+Version: 0.0.14
+Summary: Read and write genomic coverage
+Project-URL: Homepage, https://github.com/ajgouhier/gencov_io
+Author-email: Arthur Gouhier <ajgouhier@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# gencov_io
+
+Read and write genomic coverage

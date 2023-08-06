@@ -1,0 +1,4 @@
+[console_scripts]
+FanchenHuashu = FanchenHuashu.__main__:main
+fanchen-huashu = FanchenHuashu.__main__:main
+

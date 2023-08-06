@@ -1,0 +1,8 @@
+setup.py
+ssdb_manager/__init__.py
+ssdb_manager/ssdb_manager.py
+ssdb_manager.egg-info/PKG-INFO
+ssdb_manager.egg-info/SOURCES.txt
+ssdb_manager.egg-info/dependency_links.txt
+ssdb_manager.egg-info/requires.txt
+ssdb_manager.egg-info/top_level.txt

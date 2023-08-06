@@ -1,0 +1,9 @@
+poetry_aliases_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_aliases_plugin/commands.py,sha256=IXPV8nP8YBlJ8OlYdqpS7U83LEz8i4pSZqqyHenCX9Q,1774
+poetry_aliases_plugin/config.py,sha256=otVxZv8RCybFJLLLxzqhjDgL2waxizasrNENX7km_eg,38
+poetry_aliases_plugin/plugin.py,sha256=3Ha1zp0YigRMSXT8E0nJk_vV8TEdAH25SAC6NtD1J9U,470
+poetry_aliases_plugin/utils.py,sha256=nkpecdBaK2QGdKMt--gj_ytXR3Xc4cLreLzl3156jBE,556
+poetry_aliases_plugin-0.1.0.dist-info/entry_points.txt,sha256=298QmxixzYVWxYHhUjiohKVpCdFha6neSTkzEJE9vHk,111
+poetry_aliases_plugin-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+poetry_aliases_plugin-0.1.0.dist-info/METADATA,sha256=nSVYURq3QSK_N5NiAQawfdiD4H9sae9g-nzOjQsa7zA,1455
+poetry_aliases_plugin-0.1.0.dist-info/RECORD,,

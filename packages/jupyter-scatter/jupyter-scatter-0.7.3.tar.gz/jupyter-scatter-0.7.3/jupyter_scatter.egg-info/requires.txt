@@ -1,0 +1,8 @@
+ipywidgets<8,>=7.6
+ipython
+jupyterlab_widgets==1.*
+jupyter_packaging
+matplotlib
+numpy
+pandas
+traittypes>=0.2.1

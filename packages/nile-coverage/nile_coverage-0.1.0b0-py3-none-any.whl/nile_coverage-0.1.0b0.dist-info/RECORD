@@ -1,0 +1,9 @@
+nile_coverage/__init__.py,sha256=t2mulPLFEnPRO8V8MmHM-8Anwq6BE2MBnPWSwRBtaVM,202
+nile_coverage/commands.py,sha256=L_sMItA7Vh0Tc5FEg2i2o7_nizHA0q7LkGHoCwoPjAA,497
+nile_coverage/pytest_plugins/coverage.py,sha256=KNkK9S_xL_8YudZPfWbwodm2UmvyD0RGLpGhR40lrvQ,323
+nile_coverage/vendor/cairo_coverage.py,sha256=NFzhjcyZTMhHN6LoWuB42Lp_UPTncjjy-aasmGcE6fs,10702
+nile_coverage-0.1.0b0.dist-info/METADATA,sha256=QFqvTdUJFPm4P2IKAKuK4eG1hWMMOkghex3GI6cbqR4,779
+nile_coverage-0.1.0b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nile_coverage-0.1.0b0.dist-info/entry_points.txt,sha256=I5setN-1i7GmeUqEdz2clwKhYLR09_vQs9ma_TCHMhQ,58
+nile_coverage-0.1.0b0.dist-info/top_level.txt,sha256=IV9dKJnt4OWkr-I343dfPbNsiHhE6hP7F9rJ1-zGj24,14
+nile_coverage-0.1.0b0.dist-info/RECORD,,

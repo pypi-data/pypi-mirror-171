@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gitaudit/REQUIREMENTS
+gitaudit/VERSION
+gitaudit/__init__.py
+gitaudit/dummy.py
+gitaudit.egg-info/PKG-INFO
+gitaudit.egg-info/SOURCES.txt
+gitaudit.egg-info/dependency_links.txt
+gitaudit.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+milkviz.egg-info/PKG-INFO
+milkviz.egg-info/SOURCES.txt
+milkviz.egg-info/dependency_links.txt
+milkviz.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+microaligner = microaligner.__main__:main

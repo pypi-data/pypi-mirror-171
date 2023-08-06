@@ -1,0 +1,16 @@
+jackylee/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackylee/test.py,sha256=wVBzgiet2kSrKeD4GHu5Xi8qrioQV7iIpM4gs0X6GJc,42
+jackylee/algorithm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackylee/algorithm/sort.py,sha256=3U-q01VGe1T-Wrc9KONTxVF5_FicadhbLXePVQitZnI,44
+jackylee/algorithm/sort/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackylee/algorithm/sort/quick_sort.py,sha256=3LCVEhuqn0ueaxc3akce2OegnTtUpaL3mRi8GEtCx5w,909
+jackylee/game/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackylee/game/bar.py,sha256=8QXZbLsV_E8K9L2baPfRhwvO0ephR9nixko45_zzSvg,353
+jackylee/game/sudoku.py,sha256=3zWrvbiW0AK-oFlqGZvv36bmAAeR9TM-qwTIIB0B5kY,1664
+jackylee/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jackylee/scripts/pdfhandle.py,sha256=1DXO2C4Vj5yZwV54JlrrMsX_iTGwGeE_CZPI_txDETY,1842
+jackyleeutils-0.0.3.dist-info/LICENSE,sha256=Q8wzBWx5I-WnqRWjDZz8TFO5ixcCySwSZhWz-DYiqxM,1087
+jackyleeutils-0.0.3.dist-info/METADATA,sha256=V2kK-t8Y0m6Y78-oNfqTWZHsqN9PbSlZ-MWB2ujmVQ0,509
+jackyleeutils-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jackyleeutils-0.0.3.dist-info/top_level.txt,sha256=RTJx_woKhtttMFEFYKubb26FezS2nZKd6SzpdoLc520,9
+jackyleeutils-0.0.3.dist-info/RECORD,,

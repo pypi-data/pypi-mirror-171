@@ -1,0 +1,2 @@
+[console_scripts]
+imarac = imarac.entrypoint:check_ratio

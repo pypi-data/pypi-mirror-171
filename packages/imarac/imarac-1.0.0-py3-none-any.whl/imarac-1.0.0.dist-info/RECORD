@@ -1,0 +1,10 @@
+imarac/__init__.py,sha256=IgCKyQA-lEuCCmwPeg1XtztvEGUAAyN50oSn_vnWOiI,134
+imarac/__main__.py,sha256=zgJ3amBWoQGV1RLUAKWGgmkh4G5rGEWtEh4i92KEEAI,165
+imarac/_version.py,sha256=XOK0OR9a7lhuJ90Z1ilVUxr-KiKlU6duLTEFS_4wjFg,176
+imarac/entrypoint.py,sha256=YA83Uzh2Uve13bcufY9-lYt-5aseeDIL4KKRy4m3K3A,3223
+imarac-1.0.0.dist-info/LICENSE,sha256=ReDNFz1AV79R1F4J7M0HesjNKydFKAQcFGLhEUmXASU,1071
+imarac-1.0.0.dist-info/METADATA,sha256=jZ2qHEXgLPZuxcC3Pm85jVpjTxDt0oX6jOc5SaWVwx0,2243
+imarac-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imarac-1.0.0.dist-info/entry_points.txt,sha256=Acz2OmsejlzWgO1zHxb2nBbDLagtFsrwVlJ7WWwUzPk,57
+imarac-1.0.0.dist-info/top_level.txt,sha256=BAAKH08DsiMh39vaqjj9U5ZhwnGmMMhy3M524T0SrNQ,7
+imarac-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tercol
+Version: 0.0.5
+Summary: TerCol is a useless library that colors your text.
+Home-page: https://github.com/Butterroach/tercol/
+Download-URL: https://github.com/Butterroach/tercol/archive/refs/tags/v_005.tar.gz
+Author: Sultan Marzouq
+Author-email: epicnoobcontactemail@gmail.com
+License: MIT
+Keywords: terminal styling,colors,style
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt

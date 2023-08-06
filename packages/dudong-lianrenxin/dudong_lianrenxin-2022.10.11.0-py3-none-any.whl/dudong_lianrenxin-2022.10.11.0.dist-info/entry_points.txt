@@ -1,0 +1,4 @@
+[console_scripts]
+DudongLianrenxin = DudongLianrenxin.__main__:main
+dudong-lianrenxin = DudongLianrenxin.__main__:main
+

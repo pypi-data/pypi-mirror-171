@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simple_dl_toolkit.egg-info/PKG-INFO
+simple_dl_toolkit.egg-info/SOURCES.txt
+simple_dl_toolkit.egg-info/dependency_links.txt
+simple_dl_toolkit.egg-info/top_level.txt
+simpledl/__init__.py
+simpledl/utils.py

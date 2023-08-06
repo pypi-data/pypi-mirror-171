@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: primosalonzo1
+Version: 0.0.1
+Summary: Enlista todos los primos desde 1 hasta un numero n
+Home-page: https://github.com/GermanAlonzo/ModuloPrimosAlonzo1
+Author: German Alonzo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#primosalonzo1
+
+Es una tarea de maestrÃ­a que demuestra que puedo crear un modulo en PYPI y que el crack soy yo German Alonzo
+AdemÃ¡s que se les manda un saluda todos los primos hermanos alonzos.
+
+Jaja saludos
+
+## Installation
+
+Corre lo siguiente para instalarlo:
+
+'''python
+pip install primosalonzo1
+'''
+
+## Usage
+'''python
+from primosalonzo1 import Primos
+
+#Generar n cantidad de primos
+Primos(n)
+

@@ -1,0 +1,10 @@
+ticguide/__init__.py,sha256=t-640DFUbQYEEo25wx2nxJev8YW_BdCjhJEG1_uPqpg,171
+ticguide/cli.py,sha256=SC2vCXUxzTwseOMCjmyRIuajAv4EaRVm3f0vHkH9Qvc,3915
+ticguide/pipeline.py,sha256=mhcZTjAQwHvTP2k2CpNwoSbzWURpaXYBkuADthDD-qA,13392
+ticguide/version.py,sha256=DS6GMhTorhrO071DDt0Yu-879WaGK566Y34HAqh8nZo,155
+ticguide-0.5.0.dist-info/LICENSE,sha256=XHrUEFXG8WHWfIa5Gwbx8_WKgA9SwPNNTmIgaV-9hZg,1071
+ticguide-0.5.0.dist-info/METADATA,sha256=UVFoKwllj6TVTROvDTAuAw3wXcBPoleP2HOeL3e5h-A,6000
+ticguide-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ticguide-0.5.0.dist-info/entry_points.txt,sha256=TjKcpmIhn8t7k5nYm_gf_-dPG4nTY70rhWiKV_NqMAE,47
+ticguide-0.5.0.dist-info/top_level.txt,sha256=1ir0qOFVu0nv3K0hY0RaL_UUh7ceyUuM0uAH5kiEu78,9
+ticguide-0.5.0.dist-info/RECORD,,

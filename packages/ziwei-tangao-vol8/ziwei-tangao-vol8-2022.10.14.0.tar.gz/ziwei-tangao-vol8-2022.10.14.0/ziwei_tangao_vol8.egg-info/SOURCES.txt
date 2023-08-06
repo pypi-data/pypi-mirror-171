@@ -1,0 +1,12 @@
+README.md
+setup.py
+ZiweiTangaoVol8/README.md
+ZiweiTangaoVol8/__init__.py
+ZiweiTangaoVol8/__main__.py
+ZiweiTangaoVol8/file.pdf
+ZiweiTangaoVol8/index.html
+ziwei_tangao_vol8.egg-info/PKG-INFO
+ziwei_tangao_vol8.egg-info/SOURCES.txt
+ziwei_tangao_vol8.egg-info/dependency_links.txt
+ziwei_tangao_vol8.egg-info/entry_points.txt
+ziwei_tangao_vol8.egg-info/top_level.txt

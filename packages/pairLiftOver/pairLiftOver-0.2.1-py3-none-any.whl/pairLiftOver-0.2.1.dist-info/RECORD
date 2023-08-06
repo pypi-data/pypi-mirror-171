@@ -1,0 +1,12 @@
+pairLiftOver/__init__.py,sha256=c0a91SnSEXK4Rc88wrPQev4QxURbNzWqI58fxmz-7EA,152
+pairLiftOver/chainfile.py,sha256=YsPZm5_jH4d35GRVZy-9GOvU6a6Z7s_k2HKBo9WUUPI,9709
+pairLiftOver/io.py,sha256=tE-CzWRgpWvidLNzlE_Q-wT0Y7iNt24q7ps6ej44wxM,8874
+pairLiftOver/liftover.py,sha256=PC7dKQOhJU1qtekVQ1brIn3NgB7XrkjcHtRjADvsHAw,5159
+pairLiftOver/utilities.py,sha256=KLzC4UxIEvM7ZII1Hpvu6C13JvGGyI2GLyYjYmJSas8,11041
+pairLiftOver/data/juicer_tools_1.11.09_jcuda.0.8.jar,sha256=QkVgBcyX7r0Jn9jM7ru2vdvS57Xh_LUxoAAMx1a_f8w,30338600
+pairLiftOver-0.2.1.data/scripts/pairLiftOver,sha256=cirnFzwDkNxAOEZoD1ysXvwGYtujbsfBar0r8SITitg,6903
+pairLiftOver-0.2.1.dist-info/LICENSE,sha256=w7wf2UFIwoSF6Lqx1aKO28jjhw8r2b5xJ8aMi3oOpd8,35126
+pairLiftOver-0.2.1.dist-info/METADATA,sha256=PMiWlEmmvXQWNgwe024Nt5fsQiAi4krPnRvl9HIYzH0,4930
+pairLiftOver-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pairLiftOver-0.2.1.dist-info/top_level.txt,sha256=6JMCuWVvphXEPMpF9FoEj5YXEHiycq7chYQI4MrU9QI,13
+pairLiftOver-0.2.1.dist-info/RECORD,,

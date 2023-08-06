@@ -1,0 +1,4 @@
+[console_scripts]
+XinshuQuanshu = XinshuQuanshu.__main__:main
+xinshu-quanshu = XinshuQuanshu.__main__:main
+

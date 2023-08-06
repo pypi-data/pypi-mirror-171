@@ -1,0 +1,4 @@
+[console_scripts]
+ZhuoxueKetangRuanwenXiezuoQuantao = ZhuoxueKetangRuanwenXiezuoQuantao.__main__:main
+zhuoxue-ketang-ruanwen-xiezuo-quantao = ZhuoxueKetangRuanwenXiezuoQuantao.__main__:main
+

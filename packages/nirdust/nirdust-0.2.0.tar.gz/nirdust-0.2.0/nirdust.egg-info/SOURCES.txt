@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+docs/source/tutorials/external_spectrum.fits
+docs/source/tutorials/nuclear_spectrum.fits
+nirdust/__init__.py
+nirdust/bbody.py
+nirdust/core.py
+nirdust/io.py
+nirdust/preprocessing.py
+nirdust.egg-info/PKG-INFO
+nirdust.egg-info/SOURCES.txt
+nirdust.egg-info/dependency_links.txt
+nirdust.egg-info/requires.txt
+nirdust.egg-info/top_level.txt

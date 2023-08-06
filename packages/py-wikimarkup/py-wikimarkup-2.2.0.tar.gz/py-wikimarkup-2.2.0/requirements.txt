@@ -1,0 +1,2 @@
+bleach[css]==5.*
+unidecode==1.*

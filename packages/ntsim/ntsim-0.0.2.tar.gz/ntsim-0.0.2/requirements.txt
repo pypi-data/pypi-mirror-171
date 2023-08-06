@@ -1,0 +1,7 @@
+abc
+pyqtgraph
+numpy
+sys
+OpenGL
+PyQt5
+os

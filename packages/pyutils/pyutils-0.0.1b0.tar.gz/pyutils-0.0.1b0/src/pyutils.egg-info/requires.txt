@@ -1,0 +1,13 @@
+bitstring
+cloudpickle
+holidays
+overrides
+python-dateutil
+pytz
+
+[dev]
+black
+coverage
+flake8
+pylint
+sphinx

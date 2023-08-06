@@ -1,0 +1,4 @@
+[console_scripts]
+ZhichangQuanmouHouheishu = ZhichangQuanmouHouheishu.__main__:main
+zhichang-quanmou-houheishu = ZhichangQuanmouHouheishu.__main__:main
+

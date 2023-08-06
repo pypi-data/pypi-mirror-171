@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: eumdac-tmp
+Version: 2.0.0rc3
+Summary: EUMETSAT Data Access Client
+Home-page: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
+Author: EUMETSAT
+Author-email: ops@eumetsat.int
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.txt
+License-File: LICENSE_APACHE_v2.txt
+License-File: LICENSE_MIT.txt
+License-File: AUTHORS.txt
+
+# EUMDAC - EUMETSAT Data Access Client
+
+**EUMDAC** is the **EUM**ETSAT **D**ata **A**ccess **C**lientIt provides simple access to the EUMETSAT data of all satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and services, like Data Store and Data Tailor. It also provides a variety of useful command line utilities for data search, translation and processing.
+
+## Prerequisites
+ 
+You will need a python environment to run the library implementation of this code. EUMDAC requires Python 3.7 or higher. We recommend that you install the latest Anaconda Python distribution for your operating system (https://www.anaconda.com/).
+
+## Dependencies
+requests,   ver. 2.26.0, License: Apache-2.0 (LICENSE_APACHE_v2.txt), Copyright 2014 Kenneth Reitz,   info: https://anaconda.org/conda-forge/requests  \
+responses,  ver. 0.16.0, License: Apache-2.0 (LICENSE_APACHE_v2.txt), Copyright 2015 David Cramer,    info: https://anaconda.org/conda-forge/responses  \
+setuptools, ver. 58.0.4, License: MIT (LICENSE_MIT.txt),              Copyright 2020 Jason R. Coombs, info: https://anaconda.org/conda-forge/setuptools  
+
+## Installing EUMDAC
+
+### Installing with PIP
+
+The EUMDAC Python package is available through [PyPI](https://pypi.org/):
+```bash
+pip install eumdac
+```
+
+### Installing with Conda
+
+To install EUMDAC on the Anaconda Python distribution, please visit the [EUMETSAT conda-forge page](https://anaconda.org/Eumetsat/repo) for install instructions.
+```bash
+conda install -c eumetsat-forge eumdac
+```
+
+### Installing from source
+
+To install EUMDAC from the development source, clone the repository and install it locally.
+
+```bash
+git clone https://gitlab.eumetsat.int/dso/dso_usr_sup/eumdac.git
+cd eumdac
+pip install .
+```
+
+## Authors
+* [**Carlos Horn**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
+* [**Ben Loveday**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
+* [**Niklas Jordan**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
+* [**Paulo Carmo**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
+* [**Rafa de la Hoz**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
+
+Please see the AUTHORS.txt file for more information.
+
+## Developer Notes
+
+Please note that the points in this section are only relevant if you can access the development repository. They do not apply to access via the [public mirror](https://gitlab.eumetsat.int/dso/dso_usr_sup/eumdac.git).
+
+### Contributing
+
+If you feel like something is missing, should work differently or you find a bug in **eumdac**, please [open an issue on gitlab](https://gitlab.eumetsat.int/dso/dso_usr_sup/eumdac-/issues/new) and select the 
+respective template for feature requests, change requests, or bug reports and fill out the sections.
+
+#### Become a developer
+If you would like to propose an implementation for an issue, please get in contact with the project maintainer, [Rafael de la Hoz Sevilla](https://gitlab.eumetsat.int/rafadelahoz), to become a developer on the gitlab project. 
+
+Then create a new branch with a meaningful name relating the branch with the issue, e.g. `feature_download_progress_indicator`. 
+If you want to get feedback or discuss design choices of your implementation, while the branch is still under active development, you can already create a *Draft* merge request. Any implementation related conversation should take place in corresponding merge requests.
+
+A *Draft* MR will already enable gitlab to run style checks and simplified unit testing on your work. Once, your development reaches a certain degree of maturity, where the implementation actually solves the issue, you can remove the *Draft* status. This enables enhanced code testing and signals the maintainer, that the branch is ready for review. If the reviewers ask for larger changes, you can always change the MR back to *Draft* for the implementation.
+
+If your MR passes all tests and is accepted by the reviewers, the final decision on when or at all to merge is on the maintainer (product owner). Please be aware, that there could be merge conflicts with other MRs or simply just other solution candidates.
+
+#### Testing
+You can avoid failing pipelines by local testing. We are using `flake8`, `black` and `pytest`, which you can already use locally.
+
+```bash
+pip install .[test] black flake8
+flake8 eumdac/ tests/ setup.py
+black -l 100 eumdac/ tests/ setup.py
+pytest --cov eumdac --cov-report=term-missing --full-trace
+```
+
+Or you can use `tox` and `tox-conda` to run the entire testing pipeline.
+
+### Mocking in Tests
+
+In Tests, we avoid requests hitting the real Data Services web API, because the test suite should be independent of the actual availability of the web services in order to be fast and reproducible. Since the actual requests are hidden behind the object methods and properties, there are two strategies. We can either mock the low level object doing the requests, or we can mock the responses by the web API. 
+
+For the first case, it might be useful to know, that all objects are lazy loading, which means that the instance creation will not trigger any request. Relevant request are only done on demand and populate some private attributes. This can be used to mock those objects by populating these private attributes 
+with mocked values.
+
+**Example**
+```python
+# mocking the token
+credentials = ("abc", "xyz")
+token = AccessToken(credentials)
+token._access_token = "mock_token_value"
+token._expiration = time.time() + 1000
+
+assert token.access_token == "mock_token_value"
+
+# mocking a Collection
+datastore = DataStore(token)
+my_collection = Collection("MY-COLLECTION-ID", datastore)
+my_collection._properties = {
+    "title": "THE COLLECTION TITLE"
+}
+
+assert my_collection.title == "THE COLLECTION TITLE"
+```
+
+For the letter case, we use the library `responses` which allows to register predefined responses for the `requests` library and prevents unregistered requests to pass through. To be more precise, we have a custom `unittest.TestCase` implementation which has the main purpose of recording and replaying responses from the real web services. The idea is to dual-use these tests for integration tests by hitting the real endpoints and for unit tests by replaying the recorded responses. Still there might be some responses, which cannot be reproduced on demand from the real API, e.g. returning a 500 error code by the server when the service is down. For those cases, a test can be excluded when recording and register handcrafted responses.
+
+**Example**
+```python
+class MyTest(DataServiceTestCase):
+    def test_something(self):
+        # this is intended to hit real endpoints
+        ...
+
+    @unittest.skipIf(INTEGRATION_TESTING, "Reason for sipping, e.g. irreproducible on demand!")
+    def test_something_else(self):
+        # this should never leave the system
+        url = "https://www.foo.bar"
+        self.requests_mock.add("GET", url, json={"data": "the data"})
+        response = requests.get(url)
+        assert response.json() == {"data": "the data"}
+```
+
+Note, that in order to hit real endpoints, the environment variables `CONSUMER_KEY` and `CONSUMER_SECRET` need to be set in the test environment. For example;
+
+```bash
+CONSUMER_KEY=abc CONSUMER_SECRET=xyz tox -e integration
+```
+Or in order to re-record the responses, run
+```bash
+# re-record everything
+INTEGRATION_TESTING=on CONSUMER_KEY=abc CONSUMER_SECRET=xyz pytest
+# re-record responses for a specific test file, e.g. token tests
+INTEGRATION_TESTING=on CONSUMER_KEY=abc CONSUMER_SECRET=xyz pytest tests/test_token.py
+```
+
+More information about the mock object library you can find in the [python documentation](https://docs.python.org/3/library/unittest.mock.html).
+
+## License
+ 
+This code is licensed under an MIT license. See file LICENSE.txt for details on the usage and distribution terms. No dependencies are distributed as part of this package.
+
+All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only

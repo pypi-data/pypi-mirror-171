@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fast_konno_ohmachi/__init__.py
+fast_konno_ohmachi/_precalculated.py
+fast_konno_ohmachi/main.py
+fast_konno_ohmachi.egg-info/PKG-INFO
+fast_konno_ohmachi.egg-info/SOURCES.txt
+fast_konno_ohmachi.egg-info/dependency_links.txt
+fast_konno_ohmachi.egg-info/requires.txt
+fast_konno_ohmachi.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+Langmande1001zhongFangfa = Langmande1001zhongFangfa.__main__:main
+langmande-1001zhong-fangfa = Langmande1001zhongFangfa.__main__:main
+

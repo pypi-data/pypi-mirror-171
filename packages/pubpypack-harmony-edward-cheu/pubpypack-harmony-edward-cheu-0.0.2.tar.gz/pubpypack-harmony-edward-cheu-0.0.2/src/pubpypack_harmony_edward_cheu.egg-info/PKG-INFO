@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pubpypack-harmony-edward-cheu
+Version: 0.0.2
+Summary: This package does amazing things.
+Home-page: https://github.com/edwardcheu/gha-first-python-package/
+Author: Edward Cheu
+Author-email: "Edward Cheu" <github@edwardcheu.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pubpypack-harmony-edward-cheu
+
+This package does amazing things.
+
+## Installation
+
+```shell
+$ python -m pip install pubpypack-harmony-edward-cheu
+```

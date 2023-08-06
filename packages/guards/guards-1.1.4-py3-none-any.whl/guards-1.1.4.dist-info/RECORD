@@ -1,0 +1,9 @@
+guards/__init__.py,sha256=SnVWE66dB6z8JY4VeJz4OdYrzZSsAxheSKcV_BnUl3I,145
+guards/default.py,sha256=o1Dfft0oOJBl0gTuxDRbElu_T1izHnhpWo7Zm3bnU8c,927
+guards/null.py,sha256=FiVSEISFG7ySdMVVIlaXH5JleEnNnyL7HxKASJQbgUM,2960
+guards/singleton.py,sha256=ncV7C6a0RvlKnh1QOGRedU4E2XymTGjY-BtrF7sn7bw,3033
+guards/unwrap.py,sha256=EllABQ-XEmGvRlqHabUe1s4A-givMvF4v-AQyJEK17c,2154
+guards-1.1.4.dist-info/LICENSE,sha256=fr5VHvkkKJ-x75cu5aGRRMC0C3xVaz78OHry7hNy6Gs,907
+guards-1.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+guards-1.1.4.dist-info/METADATA,sha256=GIm4Ouk5-P1ZpJYYm1zsjqnwpblcNKhJsc-whVu7K1w,1802
+guards-1.1.4.dist-info/RECORD,,

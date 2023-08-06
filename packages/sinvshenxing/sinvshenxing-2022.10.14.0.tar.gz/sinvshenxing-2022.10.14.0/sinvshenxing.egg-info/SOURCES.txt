@@ -1,0 +1,12 @@
+README.md
+setup.py
+Sinvshenxing/README.md
+Sinvshenxing/__init__.py
+Sinvshenxing/__main__.py
+Sinvshenxing/file.pdf
+Sinvshenxing/index.html
+sinvshenxing.egg-info/PKG-INFO
+sinvshenxing.egg-info/SOURCES.txt
+sinvshenxing.egg-info/dependency_links.txt
+sinvshenxing.egg-info/entry_points.txt
+sinvshenxing.egg-info/top_level.txt

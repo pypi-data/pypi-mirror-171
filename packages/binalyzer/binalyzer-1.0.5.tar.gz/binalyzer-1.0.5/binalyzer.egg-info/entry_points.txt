@@ -1,0 +1,2 @@
+[console_scripts]
+binalyzer = binalyzer.cli:main

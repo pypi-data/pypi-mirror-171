@@ -1,0 +1,58 @@
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+dynamic = ["version"]
+name = "htmx-flask"
+description = "htmx support for Flask"
+authors = [{ name = "Sergi Pons Freixes", email = "sergi@cub3.net" }]
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["htmx", "flask", "html"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "flask>=2.1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    'pre-commit',
+]
+tests = [
+    'pytest',
+]
+
+[project.urls]
+"Source Code" = "https://github.com/sponsfreixes/htmx-flask"
+"Issue Tracker" = "https://github.com/sponsfreixes/htmx-flask/issues"
+"Changes" = "https://github.com/sponsfreixes/htmx-flask/blob/main/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "src/htmx_flask/__init__.py"
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
+
+[tool.black]
+line_length = 88
+

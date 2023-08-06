@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiMimaNvrenpian = LianaiMimaNvrenpian.__main__:main
+lianai-mima-nvrenpian = LianaiMimaNvrenpian.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+RanglaogongBianyouqiande64geXiguan = RanglaogongBianyouqiande64geXiguan.__main__:main
+ranglaogong-bianyouqiande-64ge-xiguan = RanglaogongBianyouqiande64geXiguan.__main__:main
+

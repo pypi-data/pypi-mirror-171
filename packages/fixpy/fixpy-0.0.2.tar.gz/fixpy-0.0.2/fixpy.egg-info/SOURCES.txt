@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fixpy/__init__.py
+fixpy/fixpy.py
+fixpy.egg-info/PKG-INFO
+fixpy.egg-info/SOURCES.txt
+fixpy.egg-info/dependency_links.txt
+fixpy.egg-info/requires.txt
+fixpy.egg-info/top_level.txt

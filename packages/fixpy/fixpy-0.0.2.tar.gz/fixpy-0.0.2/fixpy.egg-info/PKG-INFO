@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fixpy
+Version: 0.0.2
+Summary: Simple event-driven programming
+Home-page: UNKNOWN
+Author: Nils Wandel
+Author-email: <wandeln@cs.uni-bonn.de>
+License: UNKNOWN
+Keywords: python,event,events,event-driven,fixed-point iteration
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+TODO
+

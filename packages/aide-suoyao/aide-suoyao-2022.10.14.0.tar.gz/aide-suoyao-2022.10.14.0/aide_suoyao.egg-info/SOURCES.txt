@@ -1,0 +1,12 @@
+README.md
+setup.py
+AideSuoyao/README.md
+AideSuoyao/__init__.py
+AideSuoyao/__main__.py
+AideSuoyao/file.pdf
+AideSuoyao/index.html
+aide_suoyao.egg-info/PKG-INFO
+aide_suoyao.egg-info/SOURCES.txt
+aide_suoyao.egg-info/dependency_links.txt
+aide_suoyao.egg-info/entry_points.txt
+aide_suoyao.egg-info/top_level.txt

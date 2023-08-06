@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tabpfn
+Version: 0.1.3
+Summary: Interface for using TabPFN and library to train TabPFN'
+Project-URL: Homepage, https://github.com/automl/TabPFN'
+Author: Noah Hollmann, Katharina Eggensperger, Frank Hutter
+Author-email: Samuel Müller <muellesa@tf.uni-freiburg.de>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: configspace>=0.4.21
+Requires-Dist: gpytorch>=1.5.0
+Requires-Dist: hyperopt>=0.2.5
+Requires-Dist: numpy>=1.21.2
+Requires-Dist: openml>=0.12.2
+Requires-Dist: pyyaml>=5.4.1
+Requires-Dist: scikit-learn>=0.24.2
+Requires-Dist: seaborn>=0.11.2
+Requires-Dist: torch>=1.9.0
+Requires-Dist: tqdm>=4.62.1
+Provides-Extra: baselines
+Requires-Dist: auto-sklearn>=0.14.5; extra == 'baselines'
+Requires-Dist: catboost>=0.26.1; extra == 'baselines'
+Requires-Dist: xgboost>=1.4.0; extra == 'baselines'
+Description-Content-Type: text/markdown
+
+# TabPFN
+
+We created a Colab notebook, that lets you interact with our scikit-learn interface at [https://colab.research.google.com/drive/1J0l1AtMVH1KQ7IRbgJje5hMhKHczH7-?usp=sharing](https://colab.research.google.com/drive/1J0l1AtMV_H1KQ7IRbgJje5hMhKHczH7-?usp=sharing)
+
+We also created two demos. One to experiment with the TabPFNs predictions (https://huggingface.co/spaces/TabPFN/TabPFNPrediction) and one to check cross-
+validation ROC AUC scores on new datasets (https://huggingface.co/spaces/TabPFN/TabPFNEvaluation). Both of them run on a weak CPU, thus it can require a little bit of time.
+Both demos are based on a scikit-learn interface that makes using the TabPFN as easy as a scikit-learn SVM.
+
+## Installation
+```
+conda create -n TabPFN python=3.7
+$environment_path$/pip install -r requirements.txt
+```
+
+To run the autogluon baseline please create a separate environment and install autogluon==0.4.0, installation in the same environment as our other baselines is not possible.
+
+

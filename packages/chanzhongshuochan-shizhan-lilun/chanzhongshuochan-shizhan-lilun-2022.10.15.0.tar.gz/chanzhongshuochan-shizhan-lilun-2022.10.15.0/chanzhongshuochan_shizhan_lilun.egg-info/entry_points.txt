@@ -1,0 +1,4 @@
+[console_scripts]
+ChanzhongshuochanShizhanLilun = ChanzhongshuochanShizhanLilun.__main__:main
+chanzhongshuochan-shizhan-lilun = ChanzhongshuochanShizhanLilun.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+TujieLianaiXinlixue = TujieLianaiXinlixue.__main__:main
+tujie-lianai-xinlixue = TujieLianaiXinlixue.__main__:main
+

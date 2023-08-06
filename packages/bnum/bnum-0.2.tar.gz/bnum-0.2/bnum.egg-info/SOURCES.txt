@@ -1,0 +1,9 @@
+LICENSE.rst
+README.rst
+bnum.py
+setup.cfg
+setup.py
+bnum.egg-info/PKG-INFO
+bnum.egg-info/SOURCES.txt
+bnum.egg-info/dependency_links.txt
+bnum.egg-info/top_level.txt

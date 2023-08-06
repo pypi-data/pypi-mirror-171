@@ -1,0 +1,7 @@
+numpy
+tqdm
+scipy
+astroquery
+sep
+gpkron
+pandas

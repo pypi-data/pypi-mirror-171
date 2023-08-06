@@ -1,0 +1,14 @@
+signs_calculator/__init__.py,sha256=3iDIvXy3h-rBz2Q5aijcbXMo58KSeNCqFFZ4eyMkvCA,589
+signs_calculator/adapters.py,sha256=F5rnQkr15_JQ-sCMb0Fbu6-EKTalTDHMMeDFNNW7NdU,1142
+signs_calculator/domain.py,sha256=5aWTWGyIkQuKY5a7q2G5_pEvO0cefqH-JNRD8lO_pLM,1041
+signs_calculator/forms.py,sha256=rm1bd2YvmoY-E5UmOhMZLz-g-pzHSwCDk_4YshxtysU,514
+signs_calculator/models.py,sha256=ZNcZsrRk4IouFOlytEoYfrBrUoMpTTjyi7LVjWUl1_c,1403
+signs_calculator/repositories.py,sha256=Wct9tbTnk4z6zm_sSC-_iPOEYPiFlpj848wpklz5IwE,1678
+signs_calculator/utils.py,sha256=L9j475GZfBAYNxEjlq6fSWJJfHQ5AvBmEW5DS9pN-Cc,556
+signs_calculator/views.py,sha256=AQzLutxLIrXMAsLQx1bZbeJNy4x9_IzEbakcfPBGhTQ,1339
+signs_calculator/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signs_calculator/extensions/geo.py,sha256=nkAujdgZy8VdNprmDqoCAxRwfkE3w8gV-UH7Ma8mTnU,260
+flask_signs_calculator-1.0.1.dist-info/METADATA,sha256=9kubZ_0CDDHToaxoh6NVPnjuhR3aC_v7cBwljBQ02II,166
+flask_signs_calculator-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flask_signs_calculator-1.0.1.dist-info/top_level.txt,sha256=O-yNU5hJ_7zrFkmyvh6jQufBT94Ti-xrcN0Yvy5cvik,17
+flask_signs_calculator-1.0.1.dist-info/RECORD,,

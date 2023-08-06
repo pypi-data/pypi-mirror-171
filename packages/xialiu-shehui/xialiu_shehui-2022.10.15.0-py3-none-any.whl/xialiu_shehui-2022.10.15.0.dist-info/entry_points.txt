@@ -1,0 +1,4 @@
+[console_scripts]
+XialiuShehui = XialiuShehui.__main__:main
+xialiu-shehui = XialiuShehui.__main__:main
+

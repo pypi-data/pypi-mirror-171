@@ -1,0 +1,8 @@
+cmem_plugin_kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmem_plugin_kafka/utils.py,sha256=lFyMMrSVZoxMI45sHf9z72aaV7e33fGrgAOa839pKtw,5063
+cmem_plugin_kafka/workflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmem_plugin_kafka/workflow/producer.py,sha256=s7FvbkJZROkuiZiTvfxQDKShcXXBnSaVoEIrE3LkARI,7980
+cmem_plugin_kafka-1.0.2.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_kafka-1.0.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+cmem_plugin_kafka-1.0.2.dist-info/METADATA,sha256=OcCOti8NB3raCD08a_Ru7aFI-dL39OoxUVt7zXQTNvE,1308
+cmem_plugin_kafka-1.0.2.dist-info/RECORD,,

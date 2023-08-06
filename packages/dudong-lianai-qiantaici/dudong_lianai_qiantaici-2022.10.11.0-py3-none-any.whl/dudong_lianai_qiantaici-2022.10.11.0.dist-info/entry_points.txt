@@ -1,0 +1,4 @@
+[console_scripts]
+DudongLianaiQiantaici = DudongLianaiQiantaici.__main__:main
+dudong-lianai-qiantaici = DudongLianaiQiantaici.__main__:main
+

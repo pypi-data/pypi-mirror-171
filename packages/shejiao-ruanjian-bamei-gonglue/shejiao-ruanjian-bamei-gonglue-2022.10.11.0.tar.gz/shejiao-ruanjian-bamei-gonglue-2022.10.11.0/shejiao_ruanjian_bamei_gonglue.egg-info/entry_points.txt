@@ -1,0 +1,4 @@
+[console_scripts]
+ShejiaoRuanjianBameiGonglue = ShejiaoRuanjianBameiGonglue.__main__:main
+shejiao-ruanjian-bamei-gonglue = ShejiaoRuanjianBameiGonglue.__main__:main
+

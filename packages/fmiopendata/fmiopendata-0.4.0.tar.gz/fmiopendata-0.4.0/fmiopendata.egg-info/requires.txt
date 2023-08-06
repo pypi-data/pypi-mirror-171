@@ -1,0 +1,12 @@
+numpy
+requests
+
+[all]
+rasterio
+eccodes
+
+[grid]
+eccodes
+
+[radar]
+rasterio

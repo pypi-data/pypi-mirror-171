@@ -1,0 +1,12 @@
+AUTHORS.txt
+LICENSE.txt
+README.md
+setup.py
+bin/ntsubtree
+ntsubtree/__init__.py
+ntsubtree.egg-info/PKG-INFO
+ntsubtree.egg-info/SOURCES.txt
+ntsubtree.egg-info/dependency_links.txt
+ntsubtree.egg-info/not-zip-safe
+ntsubtree.egg-info/requires.txt
+ntsubtree.egg-info/top_level.txt

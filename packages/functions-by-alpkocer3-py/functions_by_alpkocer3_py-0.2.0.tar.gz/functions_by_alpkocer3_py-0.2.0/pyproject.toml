@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-alpkocer3-py"
+version = "0.2.0"
+description = "Test Project"
+authors = ["Alp Kocer <gokalpkocer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_alpkocer3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,7 @@
+setup.py
+TestMath_rjkhan/__init__.py
+TestMath_rjkhan/example.py
+TestMath_rjkhan.egg-info/PKG-INFO
+TestMath_rjkhan.egg-info/SOURCES.txt
+TestMath_rjkhan.egg-info/dependency_links.txt
+TestMath_rjkhan.egg-info/top_level.txt

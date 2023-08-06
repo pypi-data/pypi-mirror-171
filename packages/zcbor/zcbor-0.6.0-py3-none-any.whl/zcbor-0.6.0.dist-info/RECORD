@@ -1,0 +1,17 @@
+zcbor/VERSION,sha256=Ke8b6aOkBgjuceFV64cco0Yw4jvu6a8pRBq6nQ6nbVQ,5
+zcbor/__init__.py,sha256=3bQofB04TeuvJbJQ8rEVtOIZePUBLmsixu2eUUfpLus,367
+zcbor/zcbor.py,sha256=CcZfUxVBArP8Bx0gH__4J_85KmltLAQP6rLS1Dnfe64,128433
+zcbor/cddl/prelude.cddl,sha256=ZPf2AYRXAE82wD_6qwGaq0m6TcUocSjQ9094eX4YCmY,1020
+zcbor-0.6.0.data/data/lib/zcbor/include/zcbor_common.h,sha256=9YlyTrY9ebPLV8KFqhWqMHKv3Q4ta9wpL3z5jBs1k2Q,14192
+zcbor-0.6.0.data/data/lib/zcbor/include/zcbor_debug.h,sha256=wFl7DbDbxxV844TcqJcqcCzbM3dYXHD8vNob5x7t1UI,1515
+zcbor-0.6.0.data/data/lib/zcbor/include/zcbor_decode.h,sha256=EAcAHULRYp0tgqAFxTv1gU72F1_O315oW-uk8nqUysY,14309
+zcbor-0.6.0.data/data/lib/zcbor/include/zcbor_encode.h,sha256=Gz_vTHjNcKnxiQ4FxMP73aEHx-Dqo0U-d3egz1TNaz0,11696
+zcbor-0.6.0.data/data/lib/zcbor/src/zcbor_common.c,sha256=RsX0jxu5ntzlJjsmTm9Rk4zKWBnMUc5lkbFBl7Np8Mg,5689
+zcbor-0.6.0.data/data/lib/zcbor/src/zcbor_decode.c,sha256=SqGDKMTKBkHcdkvA7YnFNmBvtRF7mUfseMj4MzXOZ7c,21679
+zcbor-0.6.0.data/data/lib/zcbor/src/zcbor_encode.c,sha256=pD5mxdP-cmKMTK6XauIehKzrVHD_F8I0tvxGV1ijE0A,14427
+zcbor-0.6.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+zcbor-0.6.0.dist-info/METADATA,sha256=XQxAvxsND0N1TXUQtx2UJvT1I3FshKfRqEqn0TfwZxE,32464
+zcbor-0.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zcbor-0.6.0.dist-info/entry_points.txt,sha256=enMEP3LPPpT5n22og6m1zYEPNAgLeguG0NA2rOA8r38,43
+zcbor-0.6.0.dist-info/top_level.txt,sha256=gdM5K7FUgDP91T1kUWPD2pQXPXKB6r0Ih68Xa0eL75Q,6
+zcbor-0.6.0.dist-info/RECORD,,

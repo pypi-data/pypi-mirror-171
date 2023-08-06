@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: znfrostock
+Version: 0.1
+Summary: A stock information extraction utility
+Home-page: https://github.com/frankie-2nfro-com/znfrostock.git
+Author: Wai Kau Siu
+Author-email: waikau.siu@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# znfrostock
+Stock package by 2nfro.com

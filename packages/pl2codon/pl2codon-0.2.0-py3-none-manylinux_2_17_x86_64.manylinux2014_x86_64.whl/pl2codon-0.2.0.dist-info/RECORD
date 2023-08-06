@@ -1,0 +1,6 @@
+pl2codon-0.2.0.dist-info/METADATA,sha256=_JqP0uxj6YmBo0lMf7a4mx_IGovRe23eZyyCKUYS5R0,257
+pl2codon-0.2.0.dist-info/WHEEL,sha256=75E3KlcC0PXUH8fprbskoQRzNvwRNtGNjNB7l-tEUAA,127
+pl2codon/__init__.py,sha256=hsVZR7agC05B2LKh1o3-Xj95Uziyiy2NP0_kS0aEM4k,136
+pl2codon/ffi.py,sha256=l_i047dsYP8cOaqoz7oL9iajRvokRLdvFCPAGLcEz-U,118
+pl2codon/native.so,sha256=vWQrqChaJFTnmTnOBxcb3o-4KKnBXLC69s48knr2X2E,591784
+pl2codon-0.2.0.dist-info/RECORD,,

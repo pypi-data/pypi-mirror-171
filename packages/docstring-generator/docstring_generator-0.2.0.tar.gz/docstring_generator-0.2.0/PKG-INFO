@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: docstring_generator
+Version: 0.2.0
+Summary: Generate Docstrings with type-hint informations
+Home-page: https://github.com/FelixTheC/docstring_generator
+Author: FelixTheC
+Author-email: felixeisenmenger@gmx.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# docstring_generator
+Auto generate docstring from type-hints
+
+## How to use it
+```shell
+gendocs file.py
+```
+
+```shell
+gendocs mydir/
+```
+
+## Options
+
+### style
+- `--style`
+- Docstring style [numpy, rest].  [default: numpy]
+
+### ignore-classes
+- `--ignore-classes`
+- when used then no class will be modified
+
+### ignore-functions
+- `--ignore-functions`
+- when used then no function will be modified this
+- __!important__ class methods are no functions in this context
+
+
+## Examples
+- An example can be found under examples
+
+### Installing
+
+- pip install docstring-generator
+
+#### Versioning
+- For the versions available, see the tags on this repository.
+
+### Authors
+- Felix Eisenmenger
+
+### License
+- This project is licensed under the MIT License - see the LICENSE.md file for details
+
+

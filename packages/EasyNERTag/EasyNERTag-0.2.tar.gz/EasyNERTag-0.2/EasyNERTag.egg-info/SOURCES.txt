@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+EasyNERTag.egg-info/PKG-INFO
+EasyNERTag.egg-info/SOURCES.txt
+EasyNERTag.egg-info/dependency_links.txt
+EasyNERTag.egg-info/not-zip-safe
+EasyNERTag.egg-info/requires.txt
+EasyNERTag.egg-info/top_level.txt
+easynertag/__init__.py
+easynertag/core.py
+tests/__init__.py
+tests/test_make_tag.py

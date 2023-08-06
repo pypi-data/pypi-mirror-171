@@ -1,0 +1,15 @@
+kafka_slurm_agent/__init__.py,sha256=Z443N5Cv9w8TrZFQ5WxjHvLpZBks7iokln6SLAsEk74,164
+kafka_slurm_agent/cluster_agent.py,sha256=6MyJHjA_OQAX4Uea8RC4Qo8JiwA8YpdfAg1SYo3Nyj4,3597
+kafka_slurm_agent/command.py,sha256=lAFVoo1V15SdpBuLBac8mmTmILxfHV9oGxXw0rcLZJw,4929
+kafka_slurm_agent/config_module.py,sha256=1JnZTmvrj08tdprZROST7RkYp2UlCRL3CdgRre-mYKs,11318
+kafka_slurm_agent/kafka_modules.py,sha256=Xf6qkSmilGgPtFXBhyfJiBhN4IkBUBjcJhMy2q4kjFs,25509
+kafka_slurm_agent/monitor_agent.py,sha256=OlXS7wkzOSRNjXvwnKxjN0l-Tp_aVdol-_a8dd8FBQA,4582
+kafka_slurm_agent/runner.py,sha256=HwZpKj6NQbFr-KqfuH83sVP0QLvS3s-0hBnDpWOLNZ8,7177
+kafka_slurm_agent/worker_agent.py,sha256=QeQW9cuuFc_laQ0wtbjdX5_PRBw6gyK7etMlqmn5ShM,2331
+kafka_slurm_agent-0.7.8.data/data/kafkaslurm_cfg.py__,sha256=qO07TzFpA_0cqfAF9rvMrXC_XMe0qk6WYh-w60lu3qI,1696
+kafka_slurm_agent-0.7.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kafka_slurm_agent-0.7.8.dist-info/METADATA,sha256=8gXXqgxmbFmmKba5qUth3uvorbqX8T5L8nAIc3Bp74g,2018
+kafka_slurm_agent-0.7.8.dist-info/WHEEL,sha256=mWGmo-dAPe4uMBeHlBSNH6sfSsTaS-W2ez486i0YekQ,86
+kafka_slurm_agent-0.7.8.dist-info/entry_points.txt,sha256=pZiTuEXiq16U2FWuWE49x2_2xLoxtgGlzB9Mc389kmg,62
+kafka_slurm_agent-0.7.8.dist-info/top_level.txt,sha256=ot5Idwc6vKowyJdvWhOZepKDqtzCTFN52Oe7iIrtfVQ,18
+kafka_slurm_agent-0.7.8.dist-info/RECORD,,

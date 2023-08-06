@@ -1,0 +1,3 @@
+[console_scripts]
+create-cohort-vcf=src.create_cohort_vcf:create_cohort_vcf
+

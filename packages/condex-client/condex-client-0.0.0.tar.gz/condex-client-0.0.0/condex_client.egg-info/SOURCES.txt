@@ -1,0 +1,8 @@
+README.rst
+setup.py
+condex_client.egg-info/PKG-INFO
+condex_client.egg-info/SOURCES.txt
+condex_client.egg-info/dependency_links.txt
+condex_client.egg-info/not-zip-safe
+condex_client.egg-info/top_level.txt
+foo/__init__.py

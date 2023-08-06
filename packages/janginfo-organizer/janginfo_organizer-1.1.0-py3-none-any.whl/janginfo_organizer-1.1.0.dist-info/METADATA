@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: janginfo-organizer
+Version: 1.1.0
+Summary: Package for distribution
+Home-page: UNKNOWN
+Author: msjeon27
+Author-email: msjeon27@cau.ac.kr
+License: UNKNOWN
+Keywords: JANGINFOORGANIZER,janginfoorganizer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: argparse
+Requires-Dist: Bio
+
+UNKNOWN
+
+

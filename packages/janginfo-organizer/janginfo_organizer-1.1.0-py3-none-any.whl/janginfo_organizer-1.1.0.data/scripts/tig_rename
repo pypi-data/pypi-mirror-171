@@ -1,0 +1,7 @@
+#!python
+
+import sys
+import janginfo_organizer
+
+if __name__ == '__main__':
+    sys.exit(janginfo_organizer.tig_rename())

@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pyrates
+
+[dev]
+pytest
+bump2version

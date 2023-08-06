@@ -1,0 +1,12 @@
+README.md
+setup.py
+XinshuQuanshu/README.md
+XinshuQuanshu/__init__.py
+XinshuQuanshu/__main__.py
+XinshuQuanshu/file.pdf
+XinshuQuanshu/index.html
+xinshu_quanshu.egg-info/PKG-INFO
+xinshu_quanshu.egg-info/SOURCES.txt
+xinshu_quanshu.egg-info/dependency_links.txt
+xinshu_quanshu.egg-info/entry_points.txt
+xinshu_quanshu.egg-info/top_level.txt

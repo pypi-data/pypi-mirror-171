@@ -1,0 +1,4 @@
+[console_scripts]
+ZhanxingWanjiaShouce = ZhanxingWanjiaShouce.__main__:main
+zhanxing-wanjia-shouce = ZhanxingWanjiaShouce.__main__:main
+

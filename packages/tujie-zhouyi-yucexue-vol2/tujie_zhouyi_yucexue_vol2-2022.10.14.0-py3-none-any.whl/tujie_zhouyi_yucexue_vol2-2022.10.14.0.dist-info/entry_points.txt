@@ -1,0 +1,4 @@
+[console_scripts]
+TujieZhouyiYucexueVol2 = TujieZhouyiYucexueVol2.__main__:main
+tujie-zhouyi-yucexue-vol2 = TujieZhouyiYucexueVol2.__main__:main
+

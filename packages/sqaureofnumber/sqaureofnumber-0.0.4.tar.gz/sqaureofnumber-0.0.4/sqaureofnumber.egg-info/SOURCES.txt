@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sqaureofnumber.egg-info/PKG-INFO
+sqaureofnumber.egg-info/SOURCES.txt
+sqaureofnumber.egg-info/dependency_links.txt
+sqaureofnumber.egg-info/top_level.txt
+squareofnumber/__init__.py
+squareofnumber/square.py

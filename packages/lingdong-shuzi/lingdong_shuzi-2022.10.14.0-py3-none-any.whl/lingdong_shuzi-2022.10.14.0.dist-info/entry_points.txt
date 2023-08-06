@@ -1,0 +1,4 @@
+[console_scripts]
+LingdongShuzi = LingdongShuzi.__main__:main
+lingdong-shuzi = LingdongShuzi.__main__:main
+

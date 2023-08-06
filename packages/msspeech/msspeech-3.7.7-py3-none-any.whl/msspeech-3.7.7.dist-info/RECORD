@@ -1,0 +1,7 @@
+msspeech/__init__.py,sha256=K7C60afvEJKMOgHETrPvFXMJ53nwnAmsr0WZ1Xj7jpA,19267
+msspeech/__main__.py,sha256=srbIE3YZyoHa19841e5uk6wdZMzxsI8O4Fdr7Af5ptE,2264
+msspeech/voices_list.json,sha256=WaUCW216w5lU5VT3BU15jU4mzDhO0Ml42nwALf571SU,116279
+msspeech-3.7.7.dist-info/entry_points.txt,sha256=8D3guYRqZpw4gg3M7pFMqeMDAL6qwCnvE22RmZ73Ouc,161
+msspeech-3.7.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+msspeech-3.7.7.dist-info/METADATA,sha256=j0ADiBgqWF8ttg0t9a15y0JqMg22ItjFdNXrdZn9bjA,3185
+msspeech-3.7.7.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+MingwangxingLinghunZaiqinmiguanxiZhongdeYanhua = MingwangxingLinghunZaiqinmiguanxiZhongdeYanhua.__main__:main
+mingwangxing-linghun-zaiqinmiguanxi-zhongde-yanhua = MingwangxingLinghunZaiqinmiguanxiZhongdeYanhua.__main__:main
+

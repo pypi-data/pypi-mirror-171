@@ -1,0 +1,8 @@
+README.rst
+setup.py
+core_wallet_client.egg-info/PKG-INFO
+core_wallet_client.egg-info/SOURCES.txt
+core_wallet_client.egg-info/dependency_links.txt
+core_wallet_client.egg-info/not-zip-safe
+core_wallet_client.egg-info/top_level.txt
+foo/__init__.py

@@ -1,0 +1,10 @@
+python_utilisation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_utilisation/read.py,sha256=-Kc7OzQd5iVqiuEGutmHMzT3wq919Fq5OU5sffRcVFo,1353
+python_utilisation/read_csv.py,sha256=mERnScoFCxV8GKYbbKl8M8d_JYPEXi1dwSlqxX1CP9U,4436
+python_utilisation/utils_enum.py,sha256=C7HF55kHRcpN7QKeUZA6TsMbw4e_S4C8g5LQP92-iao,1620
+python_utilisation/utils_list.py,sha256=d9uvl2qB37IeE-_bvjC6YB2AufDYhaO8QNEhIqLxn_o,304
+python_utilisation-0.0.13.dist-info/LICENSE,sha256=eNbeaCAIJl3tWG9xGSrO1F4GxPkiOOyNX8gbY8THkTA,1074
+python_utilisation-0.0.13.dist-info/METADATA,sha256=LCnCv3BwSnjmSMRlj2C78TBVnxOWE8V6sCZLyFybx24,732
+python_utilisation-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_utilisation-0.0.13.dist-info/top_level.txt,sha256=idM-aTvrsZZuJqmtduN92SNoN1EL38xk_yC81k6eC_w,19
+python_utilisation-0.0.13.dist-info/RECORD,,

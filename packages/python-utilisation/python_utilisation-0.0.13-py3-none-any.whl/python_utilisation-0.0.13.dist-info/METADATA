@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-utilisation
+Version: 0.0.13
+Summary: make python easier
+Home-page: https://github.com/Djeevs-Jean/
+Author: Jean-Yves Badette
+Author-email: jeanyvesbadette@gmail.com
+License: MIT
+Keywords: python-utilisation,python-utils,python,utilisation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-utilisation
+make python easier
+
+## Quickstart 
+
+### Installation
+
+#### Using pip
+```
+    pip install python-utilisation
+```
+
+## Authors
+
+Jean-Yves Badette
+
+## Useful links
+- [PyPI package link](https://pypi.org/project/python-utilisation/)

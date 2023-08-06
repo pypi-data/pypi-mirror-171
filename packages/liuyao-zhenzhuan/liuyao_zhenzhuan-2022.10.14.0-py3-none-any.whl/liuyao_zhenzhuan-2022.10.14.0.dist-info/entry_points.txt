@@ -1,0 +1,4 @@
+[console_scripts]
+LiuyaoZhenzhuan = LiuyaoZhenzhuan.__main__:main
+liuyao-zhenzhuan = LiuyaoZhenzhuan.__main__:main
+

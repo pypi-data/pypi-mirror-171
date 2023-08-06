@@ -1,0 +1,2 @@
+[console_scripts]
+bumper = bumper.bumper:main

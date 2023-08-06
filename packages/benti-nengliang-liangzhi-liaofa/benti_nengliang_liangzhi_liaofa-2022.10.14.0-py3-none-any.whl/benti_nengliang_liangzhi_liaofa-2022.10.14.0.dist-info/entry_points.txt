@@ -1,0 +1,4 @@
+[console_scripts]
+BentiNengliangLiangzhiLiaofa = BentiNengliangLiangzhiLiaofa.__main__:main
+benti-nengliang-liangzhi-liaofa = BentiNengliangLiangzhiLiaofa.__main__:main
+

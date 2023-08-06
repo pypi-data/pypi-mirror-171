@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: RedisClusterLibrary
+Version: 0.0.1
+Summary: RedisClusterLibrary for Robot Framework
+Home-page: https://github.com/
+Author: caiys
+Author-email: caiys@asiainfo-net.com
+License: MIT Licence
+Description: RedisClusterLibrary for Robot Framework
+Keywords: RedisClusterLibrary for robotframework
+Platform: any
+Requires-Python: >=3.7.*

@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+dhpackagetest/__init__.py
+dhpackagetest/dhmoduletest.py
+dhpackagetest.egg-info/PKG-INFO
+dhpackagetest.egg-info/SOURCES.txt
+dhpackagetest.egg-info/dependency_links.txt
+dhpackagetest.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ddn/__init__.py
+ddn/dictdefaultnone.py
+ddn.egg-info/PKG-INFO
+ddn.egg-info/SOURCES.txt
+ddn.egg-info/dependency_links.txt
+ddn.egg-info/requires.txt
+ddn.egg-info/top_level.txt

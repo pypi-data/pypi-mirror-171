@@ -1,0 +1,8 @@
+README.rst
+setup.py
+cards_client.egg-info/PKG-INFO
+cards_client.egg-info/SOURCES.txt
+cards_client.egg-info/dependency_links.txt
+cards_client.egg-info/not-zip-safe
+cards_client.egg-info/top_level.txt
+foo/__init__.py

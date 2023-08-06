@@ -1,0 +1,7 @@
+numpy>=1.10.0
+
+[dev]
+pandas
+pytz
+pytest
+pytest-cov

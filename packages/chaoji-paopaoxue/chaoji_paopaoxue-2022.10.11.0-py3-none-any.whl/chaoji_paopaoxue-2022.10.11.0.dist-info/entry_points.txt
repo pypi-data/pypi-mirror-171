@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiPaopaoxue = ChaojiPaopaoxue.__main__:main
+chaoji-paopaoxue = ChaojiPaopaoxue.__main__:main
+

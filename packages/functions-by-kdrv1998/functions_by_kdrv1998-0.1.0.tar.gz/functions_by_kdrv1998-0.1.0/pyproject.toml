@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-kdrv1998"
+version = "0.1.0"
+description = "This is our test project"
+authors = ["Zhaniya Kadyrova <kdrv.jn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_kdrv1998"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

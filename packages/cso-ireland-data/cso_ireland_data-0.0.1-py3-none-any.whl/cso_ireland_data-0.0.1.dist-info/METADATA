@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cso-ireland-data
+Version: 0.0.1
+Summary: Download CSO Ireland datasets and data catalogue as Pandas dataframes.
+License: BSD 3-Clause License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests-cache
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+CSO Ireland Data
+==============================
+
+Download data from the CSO PxStat API.

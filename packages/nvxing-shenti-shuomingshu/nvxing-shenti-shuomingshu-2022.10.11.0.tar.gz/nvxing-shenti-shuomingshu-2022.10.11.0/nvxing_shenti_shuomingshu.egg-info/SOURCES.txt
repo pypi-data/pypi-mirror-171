@@ -1,0 +1,12 @@
+README.md
+setup.py
+NvxingShentiShuomingshu/README.md
+NvxingShentiShuomingshu/__init__.py
+NvxingShentiShuomingshu/__main__.py
+NvxingShentiShuomingshu/file.pdf
+NvxingShentiShuomingshu/index.html
+nvxing_shenti_shuomingshu.egg-info/PKG-INFO
+nvxing_shenti_shuomingshu.egg-info/SOURCES.txt
+nvxing_shenti_shuomingshu.egg-info/dependency_links.txt
+nvxing_shenti_shuomingshu.egg-info/entry_points.txt
+nvxing_shenti_shuomingshu.egg-info/top_level.txt

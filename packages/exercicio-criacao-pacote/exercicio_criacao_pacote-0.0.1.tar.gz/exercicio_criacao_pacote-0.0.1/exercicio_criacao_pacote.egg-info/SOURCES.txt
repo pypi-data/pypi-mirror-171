@@ -1,0 +1,9 @@
+README.md
+setup.py
+exercicio_criacao_pacote/__init__.py
+exercicio_criacao_pacote/file1_name.py
+exercicio_criacao_pacote/file2_name.py
+exercicio_criacao_pacote.egg-info/PKG-INFO
+exercicio_criacao_pacote.egg-info/SOURCES.txt
+exercicio_criacao_pacote.egg-info/dependency_links.txt
+exercicio_criacao_pacote.egg-info/top_level.txt

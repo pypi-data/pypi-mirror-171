@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: exercicio_criacao_pacote
+Version: 0.0.1
+Summary: Criação do meu primeiro pacote
+Home-page: https://github.com/MichelleMapelli?tab=repositories
+Author: Michelle Trigueiro
+Author-email: mi.mapelli@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# exercicio_criacao_pacote
+
+Description. 
+The package package_name is used to:
+	- 
+	-
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Usage
+
+```python
+from package_name import file1_name
+file1_name.my_function()
+```
+
+## Author
+Michelle Trigueiro
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+

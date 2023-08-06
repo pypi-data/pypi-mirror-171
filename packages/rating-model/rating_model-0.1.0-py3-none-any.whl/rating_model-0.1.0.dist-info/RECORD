@@ -1,0 +1,11 @@
+rating_model/.DS_Store,sha256=IIxaRj3Szs1GdCQAIAreByOpJjV51rSeX_3SkS2bGqs,6148
+rating_model/__init__.py,sha256=syuNmTv1m-3eDD-qvWsJ2qZ5rjYz2sQEPCqvXme0Ojk,41
+rating_model/app.py,sha256=Y2fxPNwT7ghZdQdwLXoFXxfeO_4tSCINsj6S9coL2V8,1027
+rating_model/data/data.csv,sha256=4LBRm_rqOiivd7qj_ilai7H3hhKSl2S9YqT87guPfoM,84385859
+rating_model/data/ratind_data.csv,sha256=bFT4Eg3vPwvykvwSH0TnJ1OdW0q5HwJs4WXP9_kMoFc,4357554
+rating_model/models/final_preprocess.pkl,sha256=2D58gmSiUeGlnnWG7O4Z1EjP9F0CQBuww6c9ryz6cB8,57
+rating_model/models/initail_preprocess.pkl,sha256=nL_pOw4zrDBuhwjGve4hJC8dXI1Su4oFrNMjUnKCUyg,62
+rating_model/models/rating_classifier.model,sha256=p25PnBEOFRdMVvmW3KK99Pl-YJtinCa8ewfZ2zBiPLY,5194438
+rating_model-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rating_model-0.1.0.dist-info/METADATA,sha256=VjVofC67LELWiOj0yc8ArMHzpl6sgTZfqxe6oZmHjqs,295
+rating_model-0.1.0.dist-info/RECORD,,

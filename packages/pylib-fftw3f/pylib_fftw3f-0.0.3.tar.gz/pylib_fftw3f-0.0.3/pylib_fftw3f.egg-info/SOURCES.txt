@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+pylib_fftw3f/__init__.py
+pylib_fftw3f/placeholder.c
+pylib_fftw3f.egg-info/PKG-INFO
+pylib_fftw3f.egg-info/SOURCES.txt
+pylib_fftw3f.egg-info/dependency_links.txt
+pylib_fftw3f.egg-info/top_level.txt

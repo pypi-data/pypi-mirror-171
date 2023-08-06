@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+
+class QuerySetManager:
+    get_queryset: Incomplete
+    default: Incomplete
+    def __init__(self, queryset_func: Incomplete | None = ...) -> None: ...
+    def __get__(self, instance, owner): ...
+
+def queryset_manager(func): ...

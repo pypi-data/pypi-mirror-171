@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mongoengine-stubs
+Version: 0.24.0
+Summary: PEP 561 type stubs for mongoengine
+Requires-Dist: mongoengine
+Requires-Dist: typing-extensions (>=3.7.4) ; python_version < "3.8"
+

@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_iot_sqs/__init__.py,sha256=fuKy3MlN4YtW3Ooz_EyjGrPML3LvAiisCHJMYxab6IY,21945
+aws_solutions_constructs/aws_iot_sqs/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_iot_sqs/_jsii/__init__.py,sha256=n9aJ0crG_atAtX8PihOuVJTRuPjLs8KupyUdgryRe6o,473
+aws_solutions_constructs/aws_iot_sqs/_jsii/aws-iot-sqs@2.26.0.jsii.tgz,sha256=CnRLaHz9T89m3Y-HCkKHsyXZ7EftXLrCwjjAMdMJNZA,302594
+aws_solutions_constructs.aws_iot_sqs-2.26.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_iot_sqs-2.26.0.dist-info/METADATA,sha256=Bdf2z_GFGy9scOg6aPMH4V9sY1BM026flwhQ5GK2cRo,7855
+aws_solutions_constructs.aws_iot_sqs-2.26.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_solutions_constructs.aws_iot_sqs-2.26.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_iot_sqs-2.26.0.dist-info/RECORD,,

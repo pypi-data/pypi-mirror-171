@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bithustler_client.egg-info/PKG-INFO
+bithustler_client.egg-info/SOURCES.txt
+bithustler_client.egg-info/dependency_links.txt
+bithustler_client.egg-info/not-zip-safe
+bithustler_client.egg-info/top_level.txt
+foo/__init__.py

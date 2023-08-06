@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: api_clone
+Version: 0.0.1
+Summary: An script for saving json data and results locally on your machine 
+Project-URL: Homepage, https://github.com/AnthonyAniobi/Api_Clone
+Project-URL: Bug Tracker, https://github.com/AnthonyAniobi/Api_Clone/issues
+Author-email: Anthony Aniobi <anthonyaniobi198@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Api Downloader
+
+![issues](https://img.shields.io/github/issues/AnthonyAniobi/Api_Clone)
+![forks](https://img.shields.io/github/forks/AnthonyAniobi/Api_Clone)
+![stars](https://img.shields.io/github/stars/AnthonyAniobi/Api_Clone)
+![license](https://img.shields.io/github/license/AnthonyAniobi/Api_Clone)
+
+A script to save all data from an api response locally
+
+## Usage
+import the api_downloader module using 
+```
+pip install api_clone
+```
+
+## Features
+- Download all network images referenced from a json file
+- Rename image json with names of local images on the pc

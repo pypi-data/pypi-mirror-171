@@ -1,0 +1,34 @@
+name: tag
+on:
+  push:
+    tags:
+      # this is a glob, not a regexp
+      - '[0-9]*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          # need this to also fetch tags
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-setuptools python3-setuptools-scm
+
+      - name: Build release tarball
+        run: ./setup.py sdist
+
+      - name: Create GitHub release
+        uses: eloquent/github-release-action@v2
+        with:
+          prerelease: "false"
+
+      - name: Create PyPy release
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}

@@ -1,0 +1,4 @@
+[console_scripts]
+LengdushuMeiliNanrendeLianaiGoutongshu = LengdushuMeiliNanrendeLianaiGoutongshu.__main__:main
+lengdushu-meili-nanrende-lianai-goutongshu = LengdushuMeiliNanrendeLianaiGoutongshu.__main__:main
+

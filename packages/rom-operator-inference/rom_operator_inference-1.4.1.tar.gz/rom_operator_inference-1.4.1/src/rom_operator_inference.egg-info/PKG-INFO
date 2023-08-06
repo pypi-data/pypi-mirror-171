@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: rom-operator-inference
+Version: 1.4.1
+Summary: Operator inference for data-driven, non-intrusive model reduction of dynamical systems.
+Home-page: https://github.com/Willcox-Research-Group/rom-operator-inference-Python3
+Author: Willcox Research Group
+Maintainer: Shane A. McQuarrie
+Maintainer-email: shanemcq@utexas.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# We've Moved!
+
+This package has been **renamed** to `opinf`.
+See [**the new PyPI page**](https://pypi.org/project/opinf/) for details.
+The [GitHub repository](https://github.com/Willcox-Research-Group/rom-operator-inference-Python3) is the same as before.
+
+Documentation for the old `rom_operator_inference` version 1.2.1 can be found
+[here](https://github.com/Willcox-Research-Group/rom-operator-inference-Python3/wiki).
+
+
+

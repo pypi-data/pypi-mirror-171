@@ -1,0 +1,2 @@
+[humilis.layers]
+microservice = humilis_microservice.plugin:get_layer_path

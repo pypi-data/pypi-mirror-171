@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: asone
+Version: 0.1.0.dev0
+Summary: UNKNOWN
+Home-page: https://github.com/axcelerateai/asone
+Author: AxcelerateAI
+Author-email: 
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENCE
+Requires-Dist: easydict
+Requires-Dist: gdown
+Requires-Dist: lap
+Requires-Dist: loguru
+Requires-Dist: norfair
+Requires-Dist: onnxruntime-gpu (==1.12.1)
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: tabulate
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: wheel
+
+UNKNOWN
+

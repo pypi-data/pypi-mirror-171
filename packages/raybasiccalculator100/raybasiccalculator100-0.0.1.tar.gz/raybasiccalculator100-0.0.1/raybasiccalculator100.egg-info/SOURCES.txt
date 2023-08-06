@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+raybasiccalculator100/__init__.py
+raybasiccalculator100.egg-info/PKG-INFO
+raybasiccalculator100.egg-info/SOURCES.txt
+raybasiccalculator100.egg-info/dependency_links.txt
+raybasiccalculator100.egg-info/top_level.txt

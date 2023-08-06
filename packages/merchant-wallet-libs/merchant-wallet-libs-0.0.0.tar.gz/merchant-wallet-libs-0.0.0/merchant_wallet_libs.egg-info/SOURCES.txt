@@ -1,0 +1,8 @@
+README.rst
+setup.py
+foo/__init__.py
+merchant_wallet_libs.egg-info/PKG-INFO
+merchant_wallet_libs.egg-info/SOURCES.txt
+merchant_wallet_libs.egg-info/dependency_links.txt
+merchant_wallet_libs.egg-info/not-zip-safe
+merchant_wallet_libs.egg-info/top_level.txt

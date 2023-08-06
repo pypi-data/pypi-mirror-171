@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_elasticsearch20190422/__init__.py
+alibabacloud_elasticsearch20190422/client.py
+alibabacloud_elasticsearch20190422/models.py
+alibabacloud_elasticsearch20190422.egg-info/PKG-INFO
+alibabacloud_elasticsearch20190422.egg-info/SOURCES.txt
+alibabacloud_elasticsearch20190422.egg-info/dependency_links.txt
+alibabacloud_elasticsearch20190422.egg-info/requires.txt
+alibabacloud_elasticsearch20190422.egg-info/top_level.txt

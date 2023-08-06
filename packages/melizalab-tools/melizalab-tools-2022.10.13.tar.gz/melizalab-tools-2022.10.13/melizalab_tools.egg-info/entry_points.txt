@@ -1,0 +1,5 @@
+[console_scripts]
+group-kilo-spikes = dlab.kilo:group_spikes_script
+group-mountain-spikes = dlab.mountain:group_spikes_script
+praudio-trials = dlab.extracellular:audiolog_to_pprox_script
+song-detect = dlab.song_detect:script

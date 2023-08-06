@@ -1,0 +1,9 @@
+mongo_dynamic_models/__init__.py,sha256=jm-7gX9Fu1yjHZmB6X_YxtRywqX1w3oiY4fByR8b3yk,242
+mongo_dynamic_models/core/__init__.py,sha256=0o-ZJ_7fCBI5iGXF4qZJPp0UmAqWfutNKUE5dIpme4k,1726
+mongo_dynamic_models/version/version.json,sha256=_rfoHWAshkr24h_4LK-HvsVXgvISrodZGEBHbgPjeBg,284
+mongo_models/__init__.py,sha256=NUM3nIcRgXta9g8UGEixZJeA_8fbx9vTdYh3Qqbb8bg,254
+mongo_models/core/__init__.py,sha256=A2rOMYwS51dzTllValfXht2bec1z_6c0C58bJg4QenA,1718
+mongo_dynamic_models-1.0.1.dist-info/METADATA,sha256=bzF6VWGxuzLrZeq2Ih_p9rbLRTRx9yfhOZj8dv2fxTc,1219
+mongo_dynamic_models-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mongo_dynamic_models-1.0.1.dist-info/top_level.txt,sha256=68Rzo3w_ZXgpP0lj6e3CoLh1dzNsoLlB48kReqfAOz4,34
+mongo_dynamic_models-1.0.1.dist-info/RECORD,,

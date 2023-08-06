@@ -1,0 +1,4 @@
+[console_scripts]
+HongpoNvrendeXinliFangxian = HongpoNvrendeXinliFangxian.__main__:main
+hongpo-nvrende-xinli-fangxian = HongpoNvrendeXinliFangxian.__main__:main
+

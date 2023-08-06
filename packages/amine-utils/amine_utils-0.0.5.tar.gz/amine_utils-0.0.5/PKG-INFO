@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: amine_utils
+Version: 0.0.5
+Summary: This package consists of some utilities I needed but could not find anywhere else.
+Author: Amine ElQaraoui
+Author-email: <aelqaraoui101@gmail.com>
+Keywords: python,utilities
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+This package consists of some utilities I needed but could not find anywhere else.

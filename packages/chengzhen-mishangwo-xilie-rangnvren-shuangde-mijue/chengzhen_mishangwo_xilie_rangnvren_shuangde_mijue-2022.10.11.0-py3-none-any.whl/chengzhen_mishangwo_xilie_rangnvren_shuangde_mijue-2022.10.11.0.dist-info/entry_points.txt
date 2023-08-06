@@ -1,0 +1,4 @@
+[console_scripts]
+ChengzhenMishangwoXilieRangnvrenShuangdeMijue = ChengzhenMishangwoXilieRangnvrenShuangdeMijue.__main__:main
+chengzhen-mishangwo-xilie-rangnvren-shuangde-mijue = ChengzhenMishangwoXilieRangnvrenShuangdeMijue.__main__:main
+

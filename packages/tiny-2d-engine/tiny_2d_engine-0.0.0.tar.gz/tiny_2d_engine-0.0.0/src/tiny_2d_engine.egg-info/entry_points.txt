@@ -1,0 +1,3 @@
+[console_scripts]
+tiny_2d_engine = tiny_2d_engine.cli:main_cli
+

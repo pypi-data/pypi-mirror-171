@@ -1,0 +1,1 @@
+Make dkist-processing-core a pinned dependency because otherwise the automated processing framework can backrev airflow with undesirable results.

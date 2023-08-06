@@ -1,0 +1,11 @@
+ogoutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogoutils/__main__.py,sha256=wXxXCeNButb3kVEOWfdBrEPA6o8qNNGwSeevPolI6gI,1665
+ogoutils/decryption.py,sha256=_rRCSaygmYvcrJxor3FlOPMyUY8lBw9J9bWv3CpXPEs,1733
+ogoutils/diary,sha256=HP4gO2I-U6kdezcx-avWLKRFfyZKzfXAowGDEh335-E,70
+ogoutils/diary.py,sha256=EtUFXLBgPl9YOBceEIk7NxkDFHtsR4FfcmsJfWkec3Q,1284
+ogoutils/encryption.py,sha256=CCD4bNC_KaJU2aXxYbJ1rtHzc2ttPiVWYNtf9b4yHI4,1393
+ogo_utils-0.1.18.dist-info/entry_points.txt,sha256=rTIDHe0f-xnsoHQmToElqCywAG1JwtSz2dShrY5jy7c,51
+ogo_utils-0.1.18.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ogo_utils-0.1.18.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+ogo_utils-0.1.18.dist-info/METADATA,sha256=_hxctoAXSLWeExjg9yXhtBNC45bgYbJc1TNzc8jNlrk,684
+ogo_utils-0.1.18.dist-info/RECORD,,

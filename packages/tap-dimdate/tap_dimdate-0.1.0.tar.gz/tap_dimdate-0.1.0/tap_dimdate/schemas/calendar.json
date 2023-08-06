@@ -1,0 +1,21 @@
+{
+    "type":"object",
+    "properties":{
+        "date_key":{"type":"integer"},
+        "date":{"type":"string", "format":"date"},
+        "weekday_name":{"type":"string"},
+        "weekday_name3":{"type":"string"},
+        "month_name":{"type":"string"},
+        "month_name3":{"type":"string"},
+        "year_week":{"type":"string"},
+        "year_month":{"type":"string"},
+        "year_quarter":{"type":"string"},
+        "year":{"type":"integer"},
+        "day_of_week":{"type":"integer"},
+        "day_of_month":{"type":"integer"},
+        "day_of_year":{"type":"integer"},
+        "week_of_year":{"type":"integer"},
+        "month_of_year":{"type":"integer"},
+        "quarter_of_year":{"type":"integer"}
+    }
+}

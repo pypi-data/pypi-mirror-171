@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/pointdexSel/__init__.py
+src/pointdexSel/option.py
+src/pointdexsel.egg-info/PKG-INFO
+src/pointdexsel.egg-info/SOURCES.txt
+src/pointdexsel.egg-info/dependency_links.txt
+src/pointdexsel.egg-info/top_level.txt

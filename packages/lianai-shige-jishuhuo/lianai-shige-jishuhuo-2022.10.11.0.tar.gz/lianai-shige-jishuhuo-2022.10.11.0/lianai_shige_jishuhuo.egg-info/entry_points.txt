@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiShigeJishuhuo = LianaiShigeJishuhuo.__main__:main
+lianai-shige-jishuhuo = LianaiShigeJishuhuo.__main__:main
+

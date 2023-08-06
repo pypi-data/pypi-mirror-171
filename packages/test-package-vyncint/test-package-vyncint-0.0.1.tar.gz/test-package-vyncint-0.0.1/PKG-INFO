@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-package-vyncint
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://gitlab.com/vyncint/test-tackage-vyncint
+Author: vyncint
+Author-email: vyncint@icloud.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is only test package

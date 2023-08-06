@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tidyverse"
+version = "0.1.0"
+description = ""
+authors = ["edavidaja <self@edavidaja.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+plotnine = "^0.10.1"
+siuba = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

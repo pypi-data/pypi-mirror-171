@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: prime-numbers-r
+Version: 0.0.4
+Summary: Print prime numbers count between 1 and n, both numers included. Based on R 
+Home-page: UNKNOWN
+Author: Jaime Munoz Fisac
+Author-email: Jaimufi@hotmail.com
+License: GNU GPLv3
+Keywords: mathematical operations prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+

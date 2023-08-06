@@ -1,0 +1,3 @@
+[console_scripts]
+pysysapi=python_dbus_system_api.main:start_server
+

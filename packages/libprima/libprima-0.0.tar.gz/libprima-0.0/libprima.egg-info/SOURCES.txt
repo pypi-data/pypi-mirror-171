@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+libprima.egg-info/PKG-INFO
+libprima.egg-info/SOURCES.txt
+libprima.egg-info/dependency_links.txt
+libprima.egg-info/not-zip-safe
+libprima.egg-info/requires.txt
+libprima.egg-info/top_level.txt

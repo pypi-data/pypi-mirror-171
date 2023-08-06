@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/kutin_synthesis_plugin_for_qiskit.egg-info/PKG-INFO
+src/kutin_synthesis_plugin_for_qiskit.egg-info/SOURCES.txt
+src/kutin_synthesis_plugin_for_qiskit.egg-info/dependency_links.txt
+src/kutin_synthesis_plugin_for_qiskit.egg-info/entry_points.txt
+src/kutin_synthesis_plugin_for_qiskit.egg-info/top_level.txt

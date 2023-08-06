@@ -1,0 +1,3 @@
+[qiskit.synthesis]
+linear_function.kutin = kutin_synthesis_plugin:KutinSynthesisPlugin
+

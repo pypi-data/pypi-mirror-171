@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: circlink
+Version: 1.0.0a2
+Summary: Tool for writing code locally and auto-pushing to CircuitPython boards
+Author-email: Alec Delaney <tekktrik@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/tekktrik/circlink.git
+Keywords: adafruit,circuitpython,tool,autosave,autopush,circlink,bridge
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: System :: Hardware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer (~=0.6)
+Requires-Dist: circup (~=1.0)
+Requires-Dist: typing-extensions (~=4.0)
+Requires-Dist: tabulate (~=0.8)
+Provides-Extra: dev
+Requires-Dist: pre-commit (~=2.20) ; extra == 'dev'
+Requires-Dist: sphinx (~=5.1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (~=1.0) ; extra == 'dev'
+
+# circlink
+Write code locally and have it pushed to your CircuitPython device

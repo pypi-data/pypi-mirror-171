@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: makeitlitt
+Version: 0.1.0
+Summary: Get dynamic functionality for built-in datatypes
+Home-page: UNKNOWN
+Author: Siddharth Verma (artistwhocode)
+Author-email: <siddharthverma.er.cse@gmail.com>
+License: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+
+<a name="readme-top"></a>
+

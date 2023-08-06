@@ -1,0 +1,10 @@
+fenerbahce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fenerbahce/crawler.py,sha256=N8CiW5w3hoEDfgFXWeU6Zs8TnFeHtOIFrs8uX3GQ2IM,215
+fenerbahce/interface.py,sha256=WRNeGQqWZpMedeP0RVpJ6BjoDU2D8ujx594J4oMl7U0,1062
+fenerbahce/last_match.py,sha256=Ig_WyWAHSrni0HSg2bHWXos512xIZiNCN2F2MjXacYQ,231
+fenerbahce/live.py,sha256=chG3GNX2BBDTWIuSVfZUJ_YF_ZVBSoel2d_AN0OChS0,6
+fenerbahce/next_match.py,sha256=dxmVI0UhGir4y_lY7WY5I8GpcpG9H_w77uKQJfOYBHQ,605
+fenerbahce-0.2.0.dist-info/entry_points.txt,sha256=_0TJkAyNoWllhIa-ztd-hJ1h30eJjWfUkphF-JeqzzI,61
+fenerbahce-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fenerbahce-0.2.0.dist-info/METADATA,sha256=9SUlPQwzAi1VDUQ2hH6lZVxCGbxukY5eUwETfLJqc7E,2073
+fenerbahce-0.2.0.dist-info/RECORD,,

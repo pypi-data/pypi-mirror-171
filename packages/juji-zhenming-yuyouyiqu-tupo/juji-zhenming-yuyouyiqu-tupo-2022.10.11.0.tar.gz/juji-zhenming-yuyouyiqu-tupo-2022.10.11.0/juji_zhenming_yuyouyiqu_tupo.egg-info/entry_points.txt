@@ -1,0 +1,4 @@
+[console_scripts]
+JujiZhenmingYuyouyiquTupo = JujiZhenmingYuyouyiquTupo.__main__:main
+juji-zhenming-yuyouyiqu-tupo = JujiZhenmingYuyouyiquTupo.__main__:main
+

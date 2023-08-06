@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/coh_summarizer.egg-info/PKG-INFO
+src/coh_summarizer.egg-info/SOURCES.txt
+src/coh_summarizer.egg-info/dependency_links.txt
+src/coh_summarizer.egg-info/requires.txt
+src/coh_summarizer.egg-info/top_level.txt
+src/summarizer/__init__.py
+src/summarizer/cohesion_sumamrizer.py
+src/summarizer/preprocessing.py
+src/summarizer/summarizer.py
+src/summarizer/summarizer_algorithm.py
+src/summarizer/libs/__init__.py
+src/summarizer/libs/common.py
+src/summarizer/libs/stopwords.txt

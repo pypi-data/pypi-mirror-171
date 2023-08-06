@@ -1,0 +1,10 @@
+sacremoses
+numpy
+spacy
+transformers
+nltk
+morfeusz2
+torch
+scipy
+unittest-expander
+sklearn

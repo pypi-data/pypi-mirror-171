@@ -1,0 +1,10 @@
+Reference	Locus	SNP	INDEL	Haplotype_Name	sample1	sample2	sample3	sample4	sample5	sample6	sample7	sample8
+gene1	gene1_1	()	()	nan	0	0	0	0	0	0	0	0
+gene2	gene2_1	nan	(3792, 'ACT', 'A')	-1:2D:ACT-A	0	0	1	1	0	0	0	0
+gene3	gene3_1	(3145, 'A', 'C')	(3120, 'C', 'CG'),(3121, 'G', 'GT'),(3120, 'CG', 'C'),(3120, 'CG', 'C'),(3120, 'CGG', 'C'),(3120, 'CGGGGT', 'C'),(3118, 'TACGGGGTG', 'T'),(3085, 'TGCTCACTTGCTGACATACCTAGGTACTC', 'T'),(3116, 'CCTACGGGG', 'C')	1:1I:C-CG,2:1I:G-GT,1:1D:CG-C,1:1D:CG-C,26:S:A-C,1:2D:CGG-C,1:5D:CGGGGT-C,-1:8D:TACGGGGTG-T,-34:28D:TGCTCACTTGCTGACATACCTAGGTACTC-T,-3:8D:CCTACGGGG-C	0	0	1	2	1	2	2	2
+gene4	gene4_1	nan	(861, 'G', 'GA'),(861, 'G', 'GT'),(860, 'TG', 'T')	2:1I:G-GA,2:1I:G-GT,1:1D:TG-T	0	0	1	1	0	0	1	1
+gene5	gene5_1	nan	(1212, 'C', 'CA'),(1212, 'C', 'CT'),(1211, 'AC', 'A'),(1212, 'CCA', 'C'),(1212, 'CCAAT', 'C'),(1211, 'ACCAAT', 'A'),(1211, 'ACCAATCCCTCCTGCTGGTAAG', 'A')	2:1I:C-CA,2:1I:C-CT,1:1D:AC-A,2:2D:CCA-C,2:4D:CCAAT-C,1:5D:ACCAAT-A,1:21D:ACCAATCCCTCCTGCTGGTAAG-A	0	0	1	0	1	1	2	1
+gene6	gene6_1	nan	(739, 'TCA', 'T')	0:2D:TCA-T	0	0	1	2	0	1	0	0
+gene7	gene7_1	nan	(339, 'G', 'GA'),(336, 'CG', 'C')	2:1I:G-GA,-1:1D:CG-C	0	0	1	1	1	1	1	1
+gene8	gene8_1	nan	(1825, 'C', 'CT')	2:1I:C-CT	0	0	1	1	1	1	1	1
+gene9	gene9_1	nan	(339, 'G', 'GA'),(339, 'G', 'GC'),(339, 'G', 'GT'),(339, 'GC', 'G'),(339, 'GCT', 'G'),(339, 'GC', 'G'),(341, 'TG', 'T')	2:1I:G-GA,2:1I:G-GC,2:1I:G-GT,2:1D:GC-G,2:2D:GCT-G,2:1D:GC-G,4:1D:TG-T	0	0	1	1	1	1	1	1

@@ -1,0 +1,16 @@
+xenoslib/__init__.py,sha256=bFbN4mrFCy1w03fH838sPYGPy1JtngE7sTn-r4Vbfeo,222
+xenoslib/__main__.py,sha256=7UlsLIqY1Gx3ALamN_3m06rAcUBhwbWYTcsUENLXNQM,307
+xenoslib/about.py,sha256=2iP5_sd9xJBkVqrxS9nmENmVDV_I8AksenhMnBUfsTY,231
+xenoslib/base.py,sha256=JethttJN9lC9_R2-kEWnyy6nCuIRri8nfl_9_S3LDAw,6861
+xenoslib/dev.py,sha256=em5flpFfBDdOL_8-EDRGij9Y61eyMulM09Yj439uBsE,1222
+xenoslib/extend.py,sha256=dygy0p0uwD8jdY_z4skh7F03vQWAgN5qFeZK1w_bhl8,4093
+xenoslib/linux.py,sha256=eWZ3B6BeKo-4W9x_0pQs1XxWRCMDjnzDGVyxXiryKOQ,1318
+xenoslib/mock.py,sha256=0nkvNvpSVCYn4zs7xkB7IpQ_LhRsU6uKywtpC6NlR9k,3572
+xenoslib/onedrive.py,sha256=TlXCTStGoMo_floTjtP5IvgSRG5zMgZ3KaOoiRKCS0w,6577
+xenoslib/win_trayicon.py,sha256=yRBKCAgO9PxRe-YhDiLxCaLq1iWK-EuIn6uZ-1nsgOU,12096
+xenoslib/windows.py,sha256=_BI8ViXsHQuDVMpjm1lrktPUT2-FYerZ7ds5vmmtg0A,466
+xenoslib-0.1.22.5.dist-info/LICENSE,sha256=lF6hjufhiR-xAje_Wo7ogxV5phz2d5TgkfL5SGshujg,1066
+xenoslib-0.1.22.5.dist-info/METADATA,sha256=lMir0sJHC1NXquvH2g_rKFFrvnr5ygX5DLAAismm-yw,687
+xenoslib-0.1.22.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xenoslib-0.1.22.5.dist-info/top_level.txt,sha256=Rfm4GdW0NyA2AHDNUF2wFQOfAo53mAPibddSHGd3X60,9
+xenoslib-0.1.22.5.dist-info/RECORD,,

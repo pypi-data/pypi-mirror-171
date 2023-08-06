@@ -1,0 +1,5 @@
+matrix_http_rendezvous_synapse-0.1.6.dist-info/METADATA,sha256=kLlNw-1GS677ZqBUwo2xRdUpPRk0VHREyyZj0MdmV3c,2864
+matrix_http_rendezvous_synapse-0.1.6.dist-info/WHEEL,sha256=SYVCzfPyUJX_T9Bf0Lyoz1F-NyuYmKeYsM5502TEAgw,107
+matrix_http_rendezvous_synapse/__init__.py,sha256=jzGw2TnFx6irl10Ts8LEYW4ldkcwXbazHQ6I-TGEnaQ,203
+matrix_http_rendezvous_synapse/matrix_http_rendezvous_synapse.abi3.so,sha256=bgKQsIYvWmrdye4eb5g1cx1cDWCDDXbHo_trRI3715s,6604224
+matrix_http_rendezvous_synapse-0.1.6.dist-info/RECORD,,

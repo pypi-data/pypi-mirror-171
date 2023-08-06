@@ -1,0 +1,11 @@
+temgymbasic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+temgymbasic/components.py,sha256=MOtUqd_PURD9fQHrE0xf-GNwzbfnyOZ350ZC_xrVR6U,33101
+temgymbasic/functions.py,sha256=HFFIW5Y5BkRWWvHld7iyWf7JWhge0sg2nHTVLLxdXE4,9949
+temgymbasic/gui.py,sha256=qm4zotxJ-qxCzrfswVF0xuTrpf3_ZjoNgEpVfARiZNM,25206
+temgymbasic/model.py,sha256=xbJHBvNzQxpTaBymSADXtMGiTWr3u4g0OdkEey8b07Y,12145
+temgymbasic/run.py,sha256=W_UPe1poe9cgBIXksv88v44JgEr8DEWxBRMqmyFYm7s,26896
+temgymbasic/shapes.py,sha256=-7JslzZ0mTlTTvsfd1fNE_XEVQG0_kfHF5eO8XNF_kI,5674
+temgymbasic-0.5.8.dist-info/METADATA,sha256=WKkpL6clgvlNJP_0iLFT0UycODH4zmcAYVcHMJoQ2aY,839
+temgymbasic-0.5.8.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+temgymbasic-0.5.8.dist-info/licenses/LICENSE.md,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+temgymbasic-0.5.8.dist-info/RECORD,,

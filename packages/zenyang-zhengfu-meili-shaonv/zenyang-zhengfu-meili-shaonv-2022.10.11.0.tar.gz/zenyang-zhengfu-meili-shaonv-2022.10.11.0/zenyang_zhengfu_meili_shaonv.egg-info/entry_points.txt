@@ -1,0 +1,4 @@
+[console_scripts]
+ZenyangZhengfuMeiliShaonv = ZenyangZhengfuMeiliShaonv.__main__:main
+zenyang-zhengfu-meili-shaonv = ZenyangZhengfuMeiliShaonv.__main__:main
+

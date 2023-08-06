@@ -1,0 +1,4 @@
+[console_scripts]
+AerfaZhiluVer1 = AerfaZhiluVer1.__main__:main
+aerfa-zhilu-ver1 = AerfaZhiluVer1.__main__:main
+

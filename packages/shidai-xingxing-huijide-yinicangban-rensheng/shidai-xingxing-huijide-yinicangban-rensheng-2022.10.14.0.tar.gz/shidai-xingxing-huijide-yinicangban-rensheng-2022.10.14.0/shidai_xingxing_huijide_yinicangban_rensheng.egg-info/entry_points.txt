@@ -1,0 +1,4 @@
+[console_scripts]
+ShidaiXingxingHuijideYinicangbanRensheng = ShidaiXingxingHuijideYinicangbanRensheng.__main__:main
+shidai-xingxing-huijide-yinicangban-rensheng = ShidaiXingxingHuijideYinicangbanRensheng.__main__:main
+

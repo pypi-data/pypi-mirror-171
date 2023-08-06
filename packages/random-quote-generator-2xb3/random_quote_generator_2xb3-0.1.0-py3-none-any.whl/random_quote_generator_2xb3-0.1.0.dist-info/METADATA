@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: random-quote-generator-2xb3
+Version: 0.1.0
+Summary: A random quote generator
+Author: Laurent VAYLET
+Author-email: laurent.vaylet@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# A Modern Python Project Workflow
+
+From [this excellent article](https://testdriven.io/blog/python-project-workflow/) on testdriven.io.
+

@@ -1,0 +1,66 @@
+# https://peps.python.org/pep-0621/
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "michiko"
+authors = [
+  {name = "Mohsen Hariri", email = "mhariri68@gmail.com"},
+]
+description = "A simple multiprocessing google drive api"
+version = "0.0.4"
+keywords = ["google drive", "google cloud", "backup"]
+license = {file = "LICENSE"}
+readme = "README.rst"
+requires-python = ">=3.6"
+classifiers = [
+  "Programming Language :: Python :: 3.8",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "google-api-python-client==2.60.0",
+  "google-auth-oauthlib==0.5.2",
+  'importlib-metadata; python_version<"3.8"',
+]
+
+# [project.optional-dependencies]
+# dev = [
+#     "black>=18.3",
+# ]
+
+[tool.setuptools]
+packages = ["michiko"]
+
+# [tool.setuptools.packages.find]
+# where = ["michiko"]  # list of folders that contain the packages (["."] by default)
+# include = ["michiko*"]  # package names should match these glob patterns (["*"] by default)
+# exclude = ["michiko.*_local.py"] 
+
+# # where = ["michiko"] # ["."] by default
+# # include = ["mypackage*"]  # ["*"] by default
+# namespaces = true # true by default
+
+# [tool.isort]
+# profile = "black"
+
+
+
+# [build-system]
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"
+# [project]
+# name = "michiko"
+# version = "0.0.5"
+# dependencies = [
+#     "numpy",
+#     'importlib-metadata; python_version<"3.8"',
+# ]
+
+# description = "A simple multiprocessing google drive api"
+
+# readme = "README.rst"
+
+# [tool.setuptools]
+# py-modules = ["michiko"]

@@ -1,0 +1,9 @@
+generate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generate/generate.py,sha256=_8k0-WqKPW5ElPjn1Qu8OuIM-O5dte3t0RxytVOidkY,6706
+generate/wordlists/eff_large_wordlist,sha256=rd01U2URWXoC-gqf8eUoRne4iDuD6YbkPxWj25lrkD4,108800
+bk_generator-1.0.21.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+bk_generator-1.0.21.dist-info/METADATA,sha256=HIsbXf9Ya-rtaLHVFJ7rO6brIxljfmt2N5NlKPjPcK4,3467
+bk_generator-1.0.21.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bk_generator-1.0.21.dist-info/entry_points.txt,sha256=TNJe5DTn89xstMZAqhs4rI8xAtx9lPbF-NWOttjHNBk,59
+bk_generator-1.0.21.dist-info/top_level.txt,sha256=1KWgPSZajJVfIC8faVu5fa4zPkPLV69POeLdSErreTM,9
+bk_generator-1.0.21.dist-info/RECORD,,

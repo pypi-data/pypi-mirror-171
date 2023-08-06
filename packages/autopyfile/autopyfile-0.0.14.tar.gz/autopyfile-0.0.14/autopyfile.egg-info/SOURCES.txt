@@ -1,0 +1,7 @@
+setup.py
+Learning/__init__.py
+Learning/autopy.py
+autopyfile.egg-info/PKG-INFO
+autopyfile.egg-info/SOURCES.txt
+autopyfile.egg-info/dependency_links.txt
+autopyfile.egg-info/top_level.txt

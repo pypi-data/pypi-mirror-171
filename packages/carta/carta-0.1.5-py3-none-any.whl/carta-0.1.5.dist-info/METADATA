@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: carta
+Version: 0.1.5
+Summary: Python library for making GUI applications on the ReMarkable tablet wrapped around the "simple" application
+License: GPL-3.0
+Author: JaySec
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Carta
+Python library for making GUI applications on the ReMarkable tablet wrapped around the "simple" application
+

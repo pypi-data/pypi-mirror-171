@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyFirth.egg-info/PKG-INFO
+PyFirth.egg-info/SOURCES.txt
+PyFirth.egg-info/dependency_links.txt
+PyFirth.egg-info/requires.txt
+PyFirth.egg-info/top_level.txt
+pyfirth.egg-info/PKG-INFO
+pyfirth.egg-info/SOURCES.txt
+pyfirth.egg-info/dependency_links.txt
+pyfirth.egg-info/requires.txt
+pyfirth.egg-info/top_level.txt

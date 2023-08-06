@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "clickandco-301800",
+  "private_key_id": "8819ca5b32744a11581c3a2a58b90d4586f3512e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCX/SYUtUkWmyKB\ndRJHumeRC1qb5RueAxXqaISehIoUWs9v5uYPKwjEACi7MDi1D+eIr3p3Awuc8Sys\ngLLGX4OBgb2XuC4BMGalKURDpvWm6rCsAlPqKhctk1t6LELll3cJzgbfUtYMfCqj\nFyjCtnVcN0OY40aOSlfWmaV0SocROOBxEzYuxWqb0BdLRpQFALGrMu8zGByu1ZSC\nxgM+jwlq3jl0Lcxpjh+e1DfggTosPwPseoXsZ1hFNKnTcM/gnAgXVvXhz3Lm9wA/\nt97qQFltW2Cj3rqFoGgAXCj5o2bsTXz7YyZuM4Kcaw8XJHkKc8afB6TT+773tPVp\nZx2xqt2FAgMBAAECggEALrDpEvGCK3yrBAQYAosEJ+3J/xxJ+KfQArvrCduDo68m\nDKVtRXmd7sBxwteUhCMHqNjnkUoRNjxs0e2Tfhd3icB2ovZEw76/ubtMqk/PJWDx\nt1Xbu5MEnc6oCocwYeG/AvcU62RCN4Gpg4Ko1fBBa3vau0wOr8Ws6FM5HdmLVsGd\ntKGRLpbL7jFPvN4CSgNjgrU8Fv0Ga3WXbBe+pJWoIL0FQJCnd1Huo/j0K9+M+uCM\nB6NbiH6ej3Dcfgc9vlIEeCcX86NT4uCDlB0oV6x2dnv+8fPC9ocVK6FethKlRlja\nxZHbuHqsiaG1ejeWDoyyHvqbZ/PolInPn8dQPLafnQKBgQDVppvgM5xou4fTwRs5\nyzio8flu91Pzc7uKIWu/QsPuOw1aJ8dZ9Xa9ln6lppZNOCLX7e49PmxjnrFmKcuy\n79XuNe+0jQUB549PzE2GvSDYFunL4kPaqAptoMq/9NYT5TKI1I6V1sl1vux29Zbn\nXHOqFfN+G/IGBaqluqjIsysREwKBgQC2HZij1fR/qEsJY8WdPF3g/8+vgbMhQIs1\noSgUwRUWmqyyaw7tIeTGpqwPT2xLXDroAKQfiMkiyAM4fLmGNFwE0lDPpVbterBa\nKygq34+0XYu39AnEVTzSOLppxqt77vT/IebFBpFQuUCa52rNMu5J4gOUAEH4AiVR\nGWbCs9/CBwKBgQCQ5bjrmjUmtqCM1XeAf7oConE3d9fg0YnMSZRIl6BIDpakoTvL\nX/VS6SEleVCQOFUxOrWLpa1e9r57ejcjORNOxhe2zLkrrH7+cKHXkqcWxptzYhYA\n0lyYMyeuff8+aQAX2oiFSLFDAORgXXklmgb7wH1t9sfym587XNehnhnELwKBgAye\nXl4zy/4wbgqXhDDR5vtZHk3d4ciTDVJI+Vr+yfRIAWFXc7BQoeZ11AQ3j5xlJpu+\nt6CLvMwRKc/3LG+1Hw8id4D7xtsrnh6RUPYviWiI9s5nNWoKMe2rCpebsXQj6Yvo\nEHJkcxsxyt0w3cCcH9C0vWS649dIZseIyAsDpaRvAoGAd4hLj+DBTQvQZUz16dLD\nQpY66HQKE31VEV7h3HpICVygIN4FKbh8M+FF2oGt/Ff7sYhlhNkqJzh3AxJ5eZZw\ngAs2ei5lJp3h0juJbqGZ0CdY52353DTcuKZsz2PAu0JWFbgp76q26E0UCLMJ2eKd\n/v3RGs2MOmcYDVsd0AwLNk0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "translate-account-service@clickandco-301800.iam.gserviceaccount.com",
+  "client_id": "112220706146883309275",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translate-account-service%40clickandco-301800.iam.gserviceaccount.com"
+}

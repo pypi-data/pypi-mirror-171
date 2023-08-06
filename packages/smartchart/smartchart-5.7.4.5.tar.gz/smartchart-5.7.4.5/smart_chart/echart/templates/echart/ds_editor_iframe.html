@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>数据集设计</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <link rel="icon"  href="/static/smartui/img/favicon.ico">
+    <link rel="stylesheet" href="/static/smartchart/icon/iconfont.css">
+    <link rel="stylesheet" href="/static/smartchart/js/smartgrid.css">
+    <link rel="stylesheet" href="/static/smartchart/editor/editor.css">
+</head>
+
+<body>
+    <div class="col-xs-6 col-md-6" style="padding:0.5% 0.5%;height: 98%">
+        <div class="editor_head">
+            <span class="label" id="title"></span>
+            <span class="iconfont icondata-management" style="color: rgb(255, 140, 60);" id="conn"></span>
+            <a class="submit-btn" id="submit">保存</a>
+            <span id="printlog"></span>
+        </div>
+        <div class="editor">
+           <pre id="editor1" class="edit-area"></pre>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-6" style="padding:0.5% 0.5%;height: 98%">
+        <iframe id="iframepage" class="iframechart" src="/echart/?type=z.chart&dev=1&dataset={{dsid}}"
+                 width="100%"></iframe>
+    </div>
+
+<script src="/static/smartchart/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="/static/ace/ace.js"></script>
+<script type="text/javascript" src="/static/ace/ext-language_tools.js"></script>
+<script type="text/javascript" src="/static/smartchart/editor/common.js?_=1"></script>
+<script type="text/javascript" src="/static/smartchart/editor/ds_editor_frame.js?_=1"></script>
+</body>
+</html>

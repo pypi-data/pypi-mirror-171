@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/opentelemetry/sdk/extension/statsd/version.py
+src/opentelemetry/sdk/extension/statsd/metrics/__init__.py
+src/sb_opentelemetry_sdk_extension_statsd.egg-info/PKG-INFO
+src/sb_opentelemetry_sdk_extension_statsd.egg-info/SOURCES.txt
+src/sb_opentelemetry_sdk_extension_statsd.egg-info/dependency_links.txt
+src/sb_opentelemetry_sdk_extension_statsd.egg-info/requires.txt
+src/sb_opentelemetry_sdk_extension_statsd.egg-info/top_level.txt

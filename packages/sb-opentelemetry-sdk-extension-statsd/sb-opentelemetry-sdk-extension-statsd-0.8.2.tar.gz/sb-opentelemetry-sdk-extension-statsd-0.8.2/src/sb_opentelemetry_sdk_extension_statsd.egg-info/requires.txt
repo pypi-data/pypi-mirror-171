@@ -1,0 +1,4 @@
+opentelemetry-sdk~=1.12
+statsd-python~=0.3
+
+[test]

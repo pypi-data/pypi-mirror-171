@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/bkpk.egg-info/PKG-INFO
+src/bkpk.egg-info/SOURCES.txt
+src/bkpk.egg-info/dependency_links.txt
+src/bkpk.egg-info/entry_points.txt
+src/bkpk.egg-info/requires.txt
+src/bkpk.egg-info/top_level.txt

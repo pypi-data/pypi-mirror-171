@@ -1,0 +1,27 @@
+---
+name: Validate configuration
+
+"on":
+  push:
+    paths:
+      - .github/workflows/validate-configuration.yml
+      - .yamale.yml
+      - etc/images/*.yml
+    branches:
+      - main
+  pull_request:
+    paths:
+      - .github/workflows/validate-configuration.yml
+      - .yamale.yml
+      - etc/images/*.yml
+
+jobs:
+  validate-configuration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: pip3 install yamale ruamel.yaml
+      - run: yamale -s .yamale.yml -p ruamel etc/images.yml

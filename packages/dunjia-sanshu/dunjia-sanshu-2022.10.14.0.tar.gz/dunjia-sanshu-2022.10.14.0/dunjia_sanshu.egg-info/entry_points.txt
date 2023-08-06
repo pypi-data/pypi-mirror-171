@@ -1,0 +1,4 @@
+[console_scripts]
+DunjiaSanshu = DunjiaSanshu.__main__:main
+dunjia-sanshu = DunjiaSanshu.__main__:main
+

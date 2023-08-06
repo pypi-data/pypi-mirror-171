@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-dbus-system-api
+Version: 0.1.1
+Summary: 
+Author: Manuel Brea
+Author-email: m.brea.carreras@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: dbus-next (>=0.2.3,<0.3.0)
+Requires-Dist: pulsectl-asyncio (>=0.2.3,<0.3.0)
+Description-Content-Type: text/markdown
+
+

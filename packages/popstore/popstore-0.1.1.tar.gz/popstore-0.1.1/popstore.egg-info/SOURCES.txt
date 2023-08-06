@@ -1,0 +1,10 @@
+README.md
+README.rst
+setup.py
+popstore/__init__.py
+popstore/popstore.py
+popstore.egg-info/PKG-INFO
+popstore.egg-info/SOURCES.txt
+popstore.egg-info/dependency_links.txt
+popstore.egg-info/not-zip-safe
+popstore.egg-info/top_level.txt

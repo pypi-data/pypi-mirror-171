@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/xwavelet/__init__.py
+src/xwavelet/classes.py
+src/xwavelet/filtering.py
+src/xwavelet/xrtools.py
+src/xwavelet.egg-info/PKG-INFO
+src/xwavelet.egg-info/SOURCES.txt
+src/xwavelet.egg-info/dependency_links.txt
+src/xwavelet.egg-info/requires.txt
+src/xwavelet.egg-info/top_level.txt
+src/xwavelet/tests/test_xrtools.py
+src/xwavelet/wavelets/__init__.py
+src/xwavelet/wavelets/waveletAnalysis.py
+src/xwavelet/wavelets/waveletFunctions.py

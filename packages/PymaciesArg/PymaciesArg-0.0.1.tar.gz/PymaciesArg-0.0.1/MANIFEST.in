@@ -1,0 +1,30 @@
+include LICENSE
+include README.md
+include CHANGELOG.rst
+recursive-include pymacies_arg *.py
+
+exclude tox.ini
+exclude run.sh
+exclude backup.sh
+exclude cmd.sh
+exclude pyproject.toml
+exclude .readthedocs.yaml
+exclude .docstr.yaml
+exclude *.yml
+exclude codecov
+recursive-exclude tests *
+recursive-exclude requirements *
+recursive-exclude docs *
+recursive-exclude sample_app_postgres  *
+recursive-exclude sample_app_postgres  *.csv
+recursive-exclude sample_app_postgres  *.example
+recursive-exclude sample_app_postgres  *.py
+recursive-exclude sample_app_postgres *.sql
+recursive-exclude sample_app_sqlite *
+recursive-exclude sample_app_sqlite *.csv
+recursive-exclude sample_app_sqlite *.py
+recursive-exclude example *
+recursive-exclude application *.csv
+recursive-exclude application *.csv
+recursive-exclude application *.py
+recursive-exclude application *.db

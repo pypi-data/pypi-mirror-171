@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyterri
+Version: 0.1.1
+Summary: A simple python package for getting territorial.io player and clan data
+Home-page: https://github.com/theotherhades/pyterri
+Author: theotherhades
+Author-email: theotherhades1@gmail.com
+License: BSD 2-clause
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# pyterri
+A simple python package for getting [territorial.io](https://territorial.io) player and clan data
+
+*Still in early development*
+
+## Installing
+`pip install pyterri`
+
+## Usage
+Currently only one function (getClans()) is provided (although more are on the way).
+The below example gets data for every listed clan.
+
+```py
+from pyterri import clan
+
+print(clan.getClans())
+```
+
+You can also pass a limit like so:
+
+```py
+from pyterri import clan
+
+print(clan.getClans(limit = 10))
+```
+
+This will list the top 10 clans.

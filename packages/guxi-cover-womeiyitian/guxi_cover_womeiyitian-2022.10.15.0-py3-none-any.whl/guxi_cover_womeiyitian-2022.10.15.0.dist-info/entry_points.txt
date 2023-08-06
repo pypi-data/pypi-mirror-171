@@ -1,0 +1,4 @@
+[console_scripts]
+GuxiCoverWomeiyitian = GuxiCoverWomeiyitian.__main__:main
+guxi-cover-womeiyitian = GuxiCoverWomeiyitian.__main__:main
+

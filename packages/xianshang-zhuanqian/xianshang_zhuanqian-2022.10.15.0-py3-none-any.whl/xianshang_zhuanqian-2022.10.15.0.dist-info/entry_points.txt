@@ -1,0 +1,4 @@
+[console_scripts]
+XianshangZhuanqian = XianshangZhuanqian.__main__:main
+xianshang-zhuanqian = XianshangZhuanqian.__main__:main
+

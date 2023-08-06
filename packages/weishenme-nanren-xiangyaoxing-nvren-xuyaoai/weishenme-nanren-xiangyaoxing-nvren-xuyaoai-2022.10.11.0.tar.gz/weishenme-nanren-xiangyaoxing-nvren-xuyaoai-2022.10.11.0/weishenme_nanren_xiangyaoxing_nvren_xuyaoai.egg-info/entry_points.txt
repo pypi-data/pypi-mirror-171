@@ -1,0 +1,4 @@
+[console_scripts]
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai = WeishenmeNanrenXiangyaoxingNvrenXuyaoai.__main__:main
+weishenme-nanren-xiangyaoxing-nvren-xuyaoai = WeishenmeNanrenXiangyaoxingNvrenXuyaoai.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai/README.md
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai/__init__.py
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai/__main__.py
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai/file.pdf
+WeishenmeNanrenXiangyaoxingNvrenXuyaoai/index.html
+weishenme_nanren_xiangyaoxing_nvren_xuyaoai.egg-info/PKG-INFO
+weishenme_nanren_xiangyaoxing_nvren_xuyaoai.egg-info/SOURCES.txt
+weishenme_nanren_xiangyaoxing_nvren_xuyaoai.egg-info/dependency_links.txt
+weishenme_nanren_xiangyaoxing_nvren_xuyaoai.egg-info/entry_points.txt
+weishenme_nanren_xiangyaoxing_nvren_xuyaoai.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+
+[test]
+pytest
+starlette
+requests
+trio
+httpx

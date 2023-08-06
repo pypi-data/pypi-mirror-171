@@ -1,0 +1,4 @@
+[console_scripts]
+YoujianZhimi = YoujianZhimi.__main__:main
+youjian-zhimi = YoujianZhimi.__main__:main
+

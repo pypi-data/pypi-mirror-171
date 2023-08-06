@@ -1,0 +1,12 @@
+README.md
+setup.py
+LianaiGuiji/README.md
+LianaiGuiji/__init__.py
+LianaiGuiji/__main__.py
+LianaiGuiji/file.pdf
+LianaiGuiji/index.html
+lianai_guiji.egg-info/PKG-INFO
+lianai_guiji.egg-info/SOURCES.txt
+lianai_guiji.egg-info/dependency_links.txt
+lianai_guiji.egg-info/entry_points.txt
+lianai_guiji.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+YuehuiMiji = YuehuiMiji.__main__:main
+yuehui-miji = YuehuiMiji.__main__:main
+

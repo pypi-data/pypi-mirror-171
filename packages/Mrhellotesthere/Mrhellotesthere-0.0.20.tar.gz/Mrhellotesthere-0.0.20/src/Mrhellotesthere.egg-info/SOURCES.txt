@@ -1,0 +1,6 @@
+setup.py
+src/helloworld.py
+src/Mrhellotesthere.egg-info/PKG-INFO
+src/Mrhellotesthere.egg-info/SOURCES.txt
+src/Mrhellotesthere.egg-info/dependency_links.txt
+src/Mrhellotesthere.egg-info/top_level.txt

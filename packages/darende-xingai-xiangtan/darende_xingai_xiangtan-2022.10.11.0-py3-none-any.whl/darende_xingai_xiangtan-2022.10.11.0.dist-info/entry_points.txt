@@ -1,0 +1,4 @@
+[console_scripts]
+DarendeXingaiXiangtan = DarendeXingaiXiangtan.__main__:main
+darende-xingai-xiangtan = DarendeXingaiXiangtan.__main__:main
+

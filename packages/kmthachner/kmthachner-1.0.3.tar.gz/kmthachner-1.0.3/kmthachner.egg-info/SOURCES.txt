@@ -1,0 +1,53 @@
+LICENSE
+README.md
+setup.py
+kmthachner/__init__.py
+kmthachner.egg-info/PKG-INFO
+kmthachner.egg-info/SOURCES.txt
+kmthachner.egg-info/dependency_links.txt
+kmthachner.egg-info/requires.txt
+kmthachner.egg-info/top_level.txt
+kmthachner/api/__init__.py
+kmthachner/api/api_defaults.py
+kmthachner/api/predictor.py
+kmthachner/api/server.py
+kmthachner/modules/__init__.py
+kmthachner/modules/constants/dataset_constants.py
+kmthachner/modules/constants/model_constants.py
+kmthachner/modules/defaults/__init__.py
+kmthachner/modules/defaults/featuring_defaults.py
+kmthachner/modules/defaults/model_defaults.py
+kmthachner/modules/defaults/tag_dict.py
+kmthachner/modules/defaults/train_defaults.py
+kmthachner/modules/helpers/__init__.py
+kmthachner/modules/helpers/callbacks.py
+kmthachner/modules/helpers/config.py
+kmthachner/modules/helpers/logger.py
+kmthachner/modules/model_configs/__init__.py
+kmthachner/modules/model_configs/configs.json
+kmthachner/modules/model_configs/configs.py
+kmthachner/modules/models/base/best.w
+kmthachner/modules/models/base + cnns_embed/best.w
+kmthachner/modules/models/base + cnns_embed + casing/best.w
+kmthachner/modules/models/base + cnns_embed + casing + crf/best.w
+kmthachner/modules/models/base + cnns_embed + casing + crf/exp/best.w
+kmthachner/modules/models/base + cnns_embed + casing/exp/best.w
+kmthachner/modules/models/base + cnns_embed/exp/best.w
+kmthachner/modules/models/base + lstm_embed/best.w
+kmthachner/modules/models/base + lstm_embed + casing/best.w
+kmthachner/modules/models/base + lstm_embed + casing + crf/best.w
+kmthachner/modules/models/base + lstm_embed + casing + crf/exp/best.w
+kmthachner/modules/models/base + lstm_embed + casing/exp/best.w
+kmthachner/modules/models/base + lstm_embed/exp/best.w
+kmthachner/modules/models/base/exp/best.w
+kmthachner/modules/ner/__init__.py
+kmthachner/modules/ner/model.py
+kmthachner/modules/ner/train.py
+kmthachner/modules/ner/val.py
+kmthachner/modules/prepare/__init__.py
+kmthachner/modules/prepare/conll2003.py
+kmthachner/modules/prepare/data.py
+kmthachner/modules/prepare/dataset.py
+kmthachner/modules/prepare/featuring.py
+kmthachner/modules/prepare/tokenizer.py
+kmthachner/modules/pretrain/get_pretrain.sh

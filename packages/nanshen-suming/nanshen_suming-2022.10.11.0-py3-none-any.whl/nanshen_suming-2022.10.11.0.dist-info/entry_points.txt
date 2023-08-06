@@ -1,0 +1,4 @@
+[console_scripts]
+NanshenSuming = NanshenSuming.__main__:main
+nanshen-suming = NanshenSuming.__main__:main
+

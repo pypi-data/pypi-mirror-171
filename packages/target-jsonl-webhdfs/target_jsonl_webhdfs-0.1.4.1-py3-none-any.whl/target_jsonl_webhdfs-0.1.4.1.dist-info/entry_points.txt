@@ -1,0 +1,3 @@
+[console_scripts]
+my_package_cli=target_jsonl_webhdfs:main
+

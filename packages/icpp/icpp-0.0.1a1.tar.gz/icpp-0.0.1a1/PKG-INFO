@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: icpp
+Version: 0.0.1a1
+Summary: Coming soon: An API for C++ applications on the Internet Computer
+Author: Arjaan Buijk
+Author-email: arjaan@arjaanbuijk.com
+Keywords: Internet Computer,C++
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# icpp
+
+Coming soon: An API for C++ applications on the [Internet Computer](https://internetcomputer.org/)

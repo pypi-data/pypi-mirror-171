@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/icpp/__init__.py
+src/icpp/__main__.py
+src/icpp/py.typed
+src/icpp/version.py
+src/icpp.egg-info/PKG-INFO
+src/icpp.egg-info/SOURCES.txt
+src/icpp.egg-info/dependency_links.txt
+src/icpp.egg-info/entry_points.txt
+src/icpp.egg-info/requires.txt
+src/icpp.egg-info/top_level.txt

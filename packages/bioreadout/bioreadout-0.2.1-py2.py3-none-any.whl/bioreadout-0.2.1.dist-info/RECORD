@@ -1,0 +1,7 @@
+bioreadout/__init__.py,sha256=wgFNrcnD-AvXX7fA4mcf_j2rFbpIuxK_36q9f4ftOQA,270
+bioreadout/_efo.py,sha256=M5nTg0vg6az4LtriaRGLOtQFC7FtNFlNLNxuUBn1UU0,4523
+bioreadout/_lookup.py,sha256=NVxMq66GmGGxPs9OFtrFDNQTWHiYUdQvNTAEpjNiy-c,121
+bioreadout-0.2.1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+bioreadout-0.2.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+bioreadout-0.2.1.dist-info/METADATA,sha256=fjfyyOgYOOGBYMOSFO-fIKOOmidAX6ipxGtqnHfIDl0,869
+bioreadout-0.2.1.dist-info/RECORD,,

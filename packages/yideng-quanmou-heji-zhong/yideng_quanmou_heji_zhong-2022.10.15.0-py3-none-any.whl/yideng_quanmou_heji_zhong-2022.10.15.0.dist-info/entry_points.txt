@@ -1,0 +1,4 @@
+[console_scripts]
+YidengQuanmouHejiZhong = YidengQuanmouHejiZhong.__main__:main
+yideng-quanmou-heji-zhong = YidengQuanmouHejiZhong.__main__:main
+

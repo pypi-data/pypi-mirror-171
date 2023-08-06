@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiKouyu = LianaiKouyu.__main__:main
+lianai-kouyu = LianaiKouyu.__main__:main
+

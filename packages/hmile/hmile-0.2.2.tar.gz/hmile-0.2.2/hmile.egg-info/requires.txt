@@ -1,0 +1,9 @@
+mplfinance
+ta
+pandas
+elasticsearch
+torch
+numpy
+tensorflow
+tensorboard
+yfinance

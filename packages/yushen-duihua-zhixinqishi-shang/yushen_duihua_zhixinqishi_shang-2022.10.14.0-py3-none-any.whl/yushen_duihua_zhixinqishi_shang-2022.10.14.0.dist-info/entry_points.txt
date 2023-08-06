@@ -1,0 +1,4 @@
+[console_scripts]
+YushenDuihuaZhixinqishiShang = YushenDuihuaZhixinqishiShang.__main__:main
+yushen-duihua-zhixinqishi-shang = YushenDuihuaZhixinqishiShang.__main__:main
+

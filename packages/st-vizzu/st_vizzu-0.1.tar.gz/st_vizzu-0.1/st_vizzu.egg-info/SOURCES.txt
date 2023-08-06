@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+st_vizzu/__init__.py
+st_vizzu/version.py
+st_vizzu.egg-info/PKG-INFO
+st_vizzu.egg-info/SOURCES.txt
+st_vizzu.egg-info/dependency_links.txt
+st_vizzu.egg-info/requires.txt
+st_vizzu.egg-info/top_level.txt

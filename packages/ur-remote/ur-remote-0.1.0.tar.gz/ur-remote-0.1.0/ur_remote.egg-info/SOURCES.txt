@@ -1,0 +1,8 @@
+README.md
+setup.py
+ur-remote/__init__.py
+ur-remote/ur-remote.py
+ur_remote.egg-info/PKG-INFO
+ur_remote.egg-info/SOURCES.txt
+ur_remote.egg-info/dependency_links.txt
+ur_remote.egg-info/top_level.txt

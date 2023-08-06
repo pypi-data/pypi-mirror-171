@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+verifonePED/__init__.py
+verifonePED.egg-info/PKG-INFO
+verifonePED.egg-info/SOURCES.txt
+verifonePED.egg-info/dependency_links.txt
+verifonePED.egg-info/top_level.txt

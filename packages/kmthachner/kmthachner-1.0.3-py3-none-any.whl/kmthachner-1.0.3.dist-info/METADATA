@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kmthachner
+Version: 1.0.3
+Summary: An NER API trained on CONLL2003
+Author: Nguyen Kim Thach
+Author-email: <kmthach.ai@gmail.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: seqeval
+Requires-Dist: datasets
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+
+An NER API trained on CONLL2003

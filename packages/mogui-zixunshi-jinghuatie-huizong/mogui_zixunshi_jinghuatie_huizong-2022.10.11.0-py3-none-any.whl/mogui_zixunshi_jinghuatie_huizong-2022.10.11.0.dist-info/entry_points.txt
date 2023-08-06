@@ -1,0 +1,4 @@
+[console_scripts]
+MoguiZixunshiJinghuatieHuizong = MoguiZixunshiJinghuatieHuizong.__main__:main
+mogui-zixunshi-jinghuatie-huizong = MoguiZixunshiJinghuatieHuizong.__main__:main
+

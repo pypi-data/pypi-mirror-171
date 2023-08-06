@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: image-processing-package-csrdev2
+Version: 0.1.1
+Summary: Projeto do bootcamp da DIO, Desenvolvedora Karina Kato
+Home-page: https://github.com/devcharib/projeto-criacao-de-pacotes-em-python.git
+Author: Charlly Ribeiro
+Author-email: charllyribeiro@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Image_processing
+
+Description.
+The package image_processing is udes to:
+    Processing:
+        - Histrogram matching
+        - Structural similarity
+        - Resize image
+    Utils:
+        - Read image
+        - Save image
+        - Plot image
+        - Plot result
+        - Plot histogram
+
+## Installation<br><br>
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name<br>
+
+```bash
+pip install image-processing-package
+```
+
+## Author
+Charlly Ribeiro
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

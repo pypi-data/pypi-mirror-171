@@ -1,0 +1,2 @@
+[console_scripts]
+uscovid_v2 = uscovid_v2:main

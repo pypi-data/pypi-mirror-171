@@ -1,0 +1,6 @@
+setup.py
+django_rest_multitokenauth.egg-info/PKG-INFO
+django_rest_multitokenauth.egg-info/SOURCES.txt
+django_rest_multitokenauth.egg-info/dependency_links.txt
+django_rest_multitokenauth.egg-info/requires.txt
+django_rest_multitokenauth.egg-info/top_level.txt

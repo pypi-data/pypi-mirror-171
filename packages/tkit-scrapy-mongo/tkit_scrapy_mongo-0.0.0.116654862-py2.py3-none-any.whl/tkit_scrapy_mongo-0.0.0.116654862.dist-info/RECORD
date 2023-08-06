@@ -1,0 +1,15 @@
+tkit_scrapy_mongo/__init__.py,sha256=MoxEV1kDG799_GgDONnZhVwXnenExNj2wMxeEfuypMs,105
+tkit_scrapy_mongo/connection.py,sha256=Krkhtqlal3fx-kIjFRlThP3sNutsZ3JPQC-CK7xBkbU,2809
+tkit_scrapy_mongo/defaults.py,sha256=j9-wsK1cFSeLUiceyH7cGzcetC-nawNVoazCBS4uI5U,1072
+tkit_scrapy_mongo/dupefilter.py,sha256=pycuPC6dep2aSn-aMgYF-37SWYuLN5QsZ3PDSTfWvks,5521
+tkit_scrapy_mongo/picklecompat.py,sha256=yny-2gjbzFyU8O2g4yVQ1_NP9kRP_2DZ2tdfWJcgi30,242
+tkit_scrapy_mongo/pipelines.py,sha256=feyTU15Xm1Y5QYvyaAIEcdu2OBNvwRfB9A9ZKZu9wOI,2083
+tkit_scrapy_mongo/queue.py,sha256=sai3MAE9WdHPNEyvkQf7HaNDwzee6hWButweEcDqqOs,5958
+tkit_scrapy_mongo/scheduler.py,sha256=3Tq4obYwcan_ICTBE9jCjiPBbxy96gBL9s3Kq_9WMkk,6340
+tkit_scrapy_mongo/spiders.py,sha256=Qedgim4Gl6KqWMWlc2cDEJr7niFX1JAJS5o7aHRZ_Dk,7359
+tkit_scrapy_mongo/utils.py,sha256=VilhHKbMSn3c7ZO429NlnvMKN_aefK84ooG84f5BA8U,192
+tkit_scrapy_mongo-0.0.0.116654862.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tkit_scrapy_mongo-0.0.0.116654862.dist-info/METADATA,sha256=axgLvR39wTHLwg3X2q4KWrIUvdq4QkBuu0eotIm_3OM,1102
+tkit_scrapy_mongo-0.0.0.116654862.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tkit_scrapy_mongo-0.0.0.116654862.dist-info/top_level.txt,sha256=Ss3tF6nLyIIkvonkqBQTyDYszpu-wd5PsKYCqz612Ok,18
+tkit_scrapy_mongo-0.0.0.116654862.dist-info/RECORD,,

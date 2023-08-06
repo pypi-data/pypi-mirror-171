@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: django-contactus-email1
+Version: 2.1
+Summary: A Django app.
+Home-page: https://github.com/Ajayakarki/DailyTask/tree/master/Django
+Author: Ajaya
+Author-email: ajaya.carkey890@gmail.com
+Maintainer: Asbin
+Maintainer-email: asbin@gmail.com
+License: MIT  # Example license
+Keywords: django demo
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Django Contact Us Email Sending application
+============================================
+
+Send feedback or contact with us
+
+Additional Information
+-----------------------
+
+1. For sending the email use the host 'mailtrap.io'. So, First singup form the official mailtrap.io website
+
+
+2. Then copy the configutation selecting the Django Framework like below </br>
+
+EMAIL_HOST = 'smtp.mailtrap.io' </br>
+EMAIL_HOST_USER = 'XXXXXXXXXXX' </br>
+EMAIL_HOST_PASSWORD = 'XXXXXXXXXXX' </br>
+EMAIL_PORT = '2525' </br>
+
+Quick start
+------------
+
+1. Add "app1" to your INSTALLED_APPS setting like this::
+
+        INSTALLED_APPS = [
+            ...
+            'app1',
+        ]
+
+2. Include the app1 URLconf in your project urls.py like this::
+
+        path('', include('app1.urls')),
+
+
+3. Run ``python manage.py migrate`` to create the polls models.
+
+4. Start the development server and visit http://127.0.0.1:8000/
+   to create a poll (you'll need the Admin app enabled).
+

@@ -1,0 +1,4 @@
+[console_scripts]
+MofaShijieZhilv = MofaShijieZhilv.__main__:main
+mofa-shijie-zhilv = MofaShijieZhilv.__main__:main
+

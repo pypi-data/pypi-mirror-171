@@ -1,0 +1,6 @@
+configparser
+lxml
+celery
+dateparser
+pytz
+importlib-metadata<5.0

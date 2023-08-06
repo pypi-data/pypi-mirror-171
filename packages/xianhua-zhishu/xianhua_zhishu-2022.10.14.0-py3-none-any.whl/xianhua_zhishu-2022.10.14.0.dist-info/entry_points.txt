@@ -1,0 +1,4 @@
+[console_scripts]
+XianhuaZhishu = XianhuaZhishu.__main__:main
+xianhua-zhishu = XianhuaZhishu.__main__:main
+

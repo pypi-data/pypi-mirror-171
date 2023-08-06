@@ -1,0 +1,13 @@
+csstar/VERSION,sha256=cgX_HH3P0hA_Jt7N1sbA_4TzekbkwzU9aX05qpi8BHI,1403
+csstar/__init__.py,sha256=ZhSi3DxEfhcYOoZF894xqIHDPuaJeW8bm709JVkPe9E,292
+csstar/__main__.py,sha256=PvQTS2zgIsfXP5I-_Nbmi_7_DtmfYZ1PoGrHXoyaZAA,6984
+csstar/evaluate_alignment.py,sha256=VSDTvDc2jTqBVxJe9MzdBvZeuuPoVuAJXxzoCxV4aA8,2915
+csstar/file_content.py,sha256=PXEr9Ls5y_PVhIt9UjCKW0Cw6mSZOvr5W58L2wmEQAw,828
+csstar/file_convert.py,sha256=7RWCbRmYDk3roOkHtx0BY5p_aMFo2F-T81nE5N6aAHc,901
+csstar/parse_arguments.py,sha256=CyzwbNFOebtuJKQjVaBFg3uMJ-QUhMGbetyKQomym4g,3988
+csstar/utilities_file.py,sha256=akOXupX57tfRUy2ibSm-LgoL2CCjUkP-xzfyxq92VWs,394
+csstar/utilities_system.py,sha256=qanTZ8HE3pMAxWJpE-BxLmbJFqF7GVl06FFBjjoCGKI,1237
+csstar/data/ResGANNOT_srst2.fasta.gz,sha256=CyoXCfkHS1UC4cF_s4sEXrOTt485TYSgxxMp3QHt9to,440916
+csstar-2.1.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+csstar-2.1.0.dist-info/METADATA,sha256=1JmA98b9Gb18DGjwiVfz2URbIjXJu8yK9hrZ7ElEUdo,7079
+csstar-2.1.0.dist-info/RECORD,,

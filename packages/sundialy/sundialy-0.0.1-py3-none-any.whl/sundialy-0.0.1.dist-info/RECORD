@@ -1,0 +1,13 @@
+sundialy/__init__.py,sha256=CUpwAL8dnLVVjF8G0ZrbIioubVuODRAPDOeCY7-Dx6k,177
+sundialy/analemmatic.py,sha256=uysLfG5IGnv0KAxzgsk3o_ouOAvRRZq2_s1WjaE3Acc,15232
+sundialy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sundialy/tools/__init__.py,sha256=kWt-oRADYHYkrB_wz95FDXz0d6EehNxE-bxtZHXtcF0,273
+sundialy/tools/bird.py,sha256=OkbkuiMba2xMEV4mPBYwretwC92ocqAmdM60s_qIebM,5145
+sundialy/tools/constants.py,sha256=Ch_RPZrixgF8X7rzBRmTD20d1o7IQ6O6lYlAulcCEmI,99
+sundialy/tools/sampa.py,sha256=PnPkfleY1T1hw1bJ1kKjp9geu7ctPaUIoRL6hYgU_iQ,30443
+sundialy/tools/solpos.py,sha256=wORbwuCcKGhna53wgzJ2T6Fu7yb1_gWYgTxfT0MrWzQ,8766
+sundialy/tools/spa.py,sha256=2VUrdomGyKYcmvuHPX--MXeaT5rUmyCG9gdzpXtqHS4,56760
+sundialy-0.0.1.dist-info/METADATA,sha256=S2W5aLdCLMeisxtWj_L2KwHRgP_M3wtoR5Ag0MeR2JM,2444
+sundialy-0.0.1.dist-info/WHEEL,sha256=dX1WPp444jXDT0mMZWrdU6ZHm7Cfu0jldiLCQOk_Kmg,87
+sundialy-0.0.1.dist-info/licenses/LICENSE,sha256=iXShTmocCMfxiLfEi3ycv6OFvELbcAmDGfW_5GNVG-k,1060
+sundialy-0.0.1.dist-info/RECORD,,

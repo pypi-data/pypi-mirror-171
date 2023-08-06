@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+colorbytes/__init__.py
+colorbytes.egg-info/PKG-INFO
+colorbytes.egg-info/SOURCES.txt
+colorbytes.egg-info/dependency_links.txt
+colorbytes.egg-info/requires.txt
+colorbytes.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+nonebot-plugin-novelai/.pdm.toml,sha256=JxhYRTxIyn2ffzqMO8KjDcWYG_JQW4SG-iZcllctIy0,167
+nonebot-plugin-novelai/__init__.py,sha256=pclAnQw7Xjl2F-ljI3QPZLHsOyjEwXjad5Tx3rAuaKA,204
+nonebot-plugin-novelai/config.py,sha256=BkFOKUW85jb3OPQjvEo_yjAc3yKBm7wVtXmuYLgE-hk,560
+nonebot-plugin-novelai/data.py,sha256=cfdAnffcWHc2v4ELCMPtpQs-yRfcn2tkLerSfRjM8ZU,1243
+nonebot-plugin-novelai/txt2pix.py,sha256=U-GETxGGAxuhD95qUZHHhJS8ZZJGZsSNT4xPG2LKdRI,3612
+nonebot_plugin_novelai-0.2.3.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+nonebot_plugin_novelai-0.2.3.dist-info/METADATA,sha256=ZxKjgpa-ecr8MKEzyAXbPRoYhRuYJQdIY90D6uYfOxw,1846
+nonebot_plugin_novelai-0.2.3.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+NannvNeican = NannvNeican.__main__:main
+nannv-neican = NannvNeican.__main__:main
+

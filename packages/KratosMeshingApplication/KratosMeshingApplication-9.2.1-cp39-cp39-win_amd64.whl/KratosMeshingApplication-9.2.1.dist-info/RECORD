@@ -1,0 +1,10 @@
+KratosMultiphysics/.libs/KratosMeshingApplication.pyd,sha256=nI3UsKVZ0mMKOyYWFMOyVvrD0iqi9KlDqE_zEGYo2-k,1625088
+KratosMultiphysics/.libs/KratosMeshingCore.dll,sha256=dCKbYQHcDyU2908BkLFTH_4Zi7MbURVgj1xOJTRFVZY,1405440
+KratosMultiphysics/.libs/KratosMeshingCore.lib,sha256=Xz3UbEokaZPZiM0bSnQasfOfxyeRvnp7pxNezZJkTiE,137478
+KratosMultiphysics/MeshingApplication/__init__.py,sha256=fAfuvNs-ebue-1MuWrdSw6ysc-JOeleNipC66YGAu_w,407
+KratosMultiphysics/MeshingApplication/mmg_process.py,sha256=SKWwxgcw_PAIvTNjZrF5m1M889iHiAejX5QllqIPHeA,51258
+KratosMultiphysics/MeshingApplication/multiscale_refining_process.py,sha256=xlcf-Im0kLKZYSiGvkw2ELkCD2iRdIwJ-40F4ovIKZM,9563
+KratosMeshingApplication-9.2.1.dist-info/METADATA,sha256=MtXDX10BrdTHbf3DubF1Mm7KyRufvAb6Ct7Ba1-6fUE,6079
+KratosMeshingApplication-9.2.1.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+KratosMeshingApplication-9.2.1.dist-info/top_level.txt,sha256=8Ov--opRCptLbHStjyiZUVpzN1OUU_F7c7fGmsR5cMc,19
+KratosMeshingApplication-9.2.1.dist-info/RECORD,,

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PyOptik
+Version: 0.6.4
+Summary: A package for light propagation in fiber optics.
+Home-page: https://github.com/MartinPdeS/PyOptik
+Author: Martin Poinsinet de Sivry
+Author-email: Martin.poinsinet.de.sivry@gmail.com
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: bs4
+Requires-Dist: requests
+
+PyRI
+====
+
+PyRI is a tool that can be used to import refractive indexes and extinction
+coefficients for different materials at different wavelengths. This data can then
+be used for different applications like simulating light interaction's with
+particules. All the data comes from RefractiveIndex.INFO.
+

@@ -1,0 +1,8 @@
+README.rst
+setup.py
+e_change_client.egg-info/PKG-INFO
+e_change_client.egg-info/SOURCES.txt
+e_change_client.egg-info/dependency_links.txt
+e_change_client.egg-info/not-zip-safe
+e_change_client.egg-info/top_level.txt
+foo/__init__.py

@@ -1,0 +1,4 @@
+[console_scripts]
+GoutongdeYishu = GoutongdeYishu.__main__:main
+goutongde-yishu = GoutongdeYishu.__main__:main
+

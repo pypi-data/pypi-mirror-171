@@ -1,0 +1,8 @@
+{
+    "prog": "mongo_models",
+    "desc": "generate mongo models automatically with mongoengine",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "url": "https://www.github.com/suqingdong/mongo_models",
+    "version": "1.0.0"
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+MeitianShangbanZhixuSixiaoshi = MeitianShangbanZhixuSixiaoshi.__main__:main
+meitian-shangban-zhixu-sixiaoshi = MeitianShangbanZhixuSixiaoshi.__main__:main
+

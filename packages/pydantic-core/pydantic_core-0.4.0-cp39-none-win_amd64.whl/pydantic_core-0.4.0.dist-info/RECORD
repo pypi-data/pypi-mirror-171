@@ -1,0 +1,9 @@
+pydantic_core-0.4.0.dist-info/METADATA,sha256=qJQd0XYWBtOakilXzk22-t5FU2lwq9mG_gzmLVBJWdI,7337
+pydantic_core-0.4.0.dist-info/WHEEL,sha256=xkNCugsn-h8xf6GsJ3Jx6cvMIcEM3seDi6SclzAgkco,95
+pydantic_core-0.4.0.dist-info/license_files/LICENSE,sha256=--f2FfGNE1wHAA5ahjJdsn9Cx3KWme8WasH3o_RYa_Q,1101
+pydantic_core/core_schema.py,sha256=6jM_KE9jlAPF142pEJBei4C-lSSDJUqCaWVCxFvGKlw,25664
+pydantic_core/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pydantic_core/_pydantic_core.pyi,sha256=49-ySRblepYz3Oa2LYUuIRnS6PKDt5mPlwJ4eJ5AtzU,2544
+pydantic_core/__init__.py,sha256=J-QP5D-2NOiKygFu79MsAS_Jdoo_JGtHI_v0fG-5EcI,451
+pydantic_core/_pydantic_core.cp39-win_amd64.pyd,sha256=xo_aS8Etkni1qD0UDO0vQMpxYO0Dmiz5mkXgSB6yoOg,1914880
+pydantic_core-0.4.0.dist-info/RECORD,,

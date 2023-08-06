@@ -1,0 +1,4 @@
+[console_scripts]
+NixiGaoqianBaodian2022 = NixiGaoqianBaodian2022.__main__:main
+nixi-gaoqian-baodian-2022 = NixiGaoqianBaodian2022.__main__:main
+

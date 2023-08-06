@@ -1,0 +1,4 @@
+[console_scripts]
+PaoxueKuaixueXuexiBaodianZhiyedianpian = PaoxueKuaixueXuexiBaodianZhiyedianpian.__main__:main
+paoxue-kuaixue-xuexi-baodian-zhiyedianpian = PaoxueKuaixueXuexiBaodianZhiyedianpian.__main__:main
+

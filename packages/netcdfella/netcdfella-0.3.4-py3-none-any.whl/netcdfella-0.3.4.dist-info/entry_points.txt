@@ -1,0 +1,3 @@
+[console_scripts]
+netcdfella=netcdfella.cli.__main__:main
+

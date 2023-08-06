@@ -1,0 +1,4 @@
+[console_scripts]
+DanshenNvrenQingganBaipishu = DanshenNvrenQingganBaipishu.__main__:main
+danshen-nvren-qinggan-baipishu = DanshenNvrenQingganBaipishu.__main__:main
+

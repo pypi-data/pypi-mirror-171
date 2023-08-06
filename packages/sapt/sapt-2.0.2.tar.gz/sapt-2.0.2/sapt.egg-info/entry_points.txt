@@ -1,0 +1,3 @@
+[console_scripts]
+sapt = sapt.sapt:main
+

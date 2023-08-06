@@ -1,0 +1,12 @@
+README.md
+setup.py
+GelanbiBadaFaze/README.md
+GelanbiBadaFaze/__init__.py
+GelanbiBadaFaze/__main__.py
+GelanbiBadaFaze/file.pdf
+GelanbiBadaFaze/index.html
+gelanbi_bada_faze.egg-info/PKG-INFO
+gelanbi_bada_faze.egg-info/SOURCES.txt
+gelanbi_bada_faze.egg-info/dependency_links.txt
+gelanbi_bada_faze.egg-info/entry_points.txt
+gelanbi_bada_faze.egg-info/top_level.txt

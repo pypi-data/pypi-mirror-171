@@ -1,0 +1,4 @@
+[console_scripts]
+GelanbiBadaFaze = GelanbiBadaFaze.__main__:main
+gelanbi-bada-faze = GelanbiBadaFaze.__main__:main
+

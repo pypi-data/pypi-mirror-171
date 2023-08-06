@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: PyForks
+Version: 0.0.8
+Summary: A package to interface with Trailforks.com
+Home-page: http://pypi.python.org/pypi/PyForks/
+Author: Trailforks Python Library
+Author-email: MinnMTB@gmail.com
+License: LICENSE.txt
+Project-URL: Bug Reports, https://github.com/cribdragg3r/PyForks/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/cribdragg3r/PyForks
+Project-URL: Documentation, https://pyforks.mn-mtb.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: lxml
+Requires-Dist: bs4
+Requires-Dist: html5lib
+
+<a href ="https://mn-mtb.com">
+  <img src="./doc/PyForks.png"
+    title="PyForks" align="left" height=75 length=75 />
+    </a>
+
+
+# PyForks
+
+[![PyForks Tests](https://github.com/cribdragg3r/PyForks/actions/workflows/python-app.yml/badge.svg)](https://github.com/cribdragg3r/PyForks/actions/workflows/python-app.yml)
+
+Python Trailforks Library for interacting with Trailforks.com
+
+## About
+
+PyForks has been designed to help me automate much of the manual data aggregation I was doing in order to build metrics for my local city and state trail systems. For example: [wlmt.mn-mtb.com](http://wlmt.mn-mtb.com). The end goal of this project is the ability to make it much easier to pull data down that people are interested in and analyze it in a way that non-technical individuals can digest and understand impact in hopes of additional funding and intrest. 
+
+## Installation & Documentation
+
+- Install: `pip install pyforks`
+- Documentation: [PyForks.mn-mtb.com](https://PyForks.mn-mtb.com)
+
+### Quick Start
+Currently, PyForks can interact with Users and Regions to obtain data that either requires Authentication or No Authentication. Functions that require Auth contain tha `@authorization` decorator which, can be seen in the Documentation.
+
+**Get Information on a User**
+
+```python
+from PyForks.trailforks_user import TrailforksUser
+from pprint import pprint
+
+# Get Basic information about a user
+tf = TrailforksUser()
+user_info = tf.get_user_info("mnmtb")
+pprint(user_info)
+
+# Get the User's Gear
+tf.username = "<your_username>"
+tf.password = "<your_password>"
+tf.login()
+user_gear = tf.get_user_gear("mnmtb")
+pprint(user_gear)
+```
+  
+
+## Contribute
+
+Send all the pull requests you want!

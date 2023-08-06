@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/play_and_code/__init__.py
+src/play_and_code/play_and_code.py
+src/play_and_code.egg-info/PKG-INFO
+src/play_and_code.egg-info/SOURCES.txt
+src/play_and_code.egg-info/dependency_links.txt
+src/play_and_code.egg-info/requires.txt
+src/play_and_code.egg-info/top_level.txt

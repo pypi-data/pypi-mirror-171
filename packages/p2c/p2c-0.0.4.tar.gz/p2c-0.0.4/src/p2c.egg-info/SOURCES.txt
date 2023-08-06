@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/p2c/___init__.py
+src/p2c/modelo.py
+src/p2c.egg-info/PKG-INFO
+src/p2c.egg-info/SOURCES.txt
+src/p2c.egg-info/dependency_links.txt
+src/p2c.egg-info/top_level.txt

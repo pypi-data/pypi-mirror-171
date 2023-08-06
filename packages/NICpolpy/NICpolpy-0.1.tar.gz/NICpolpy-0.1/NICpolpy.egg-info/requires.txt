@@ -1,0 +1,10 @@
+numpy
+scipy
+bottleneck
+astroscrappy
+sep
+astroquery
+pandas>1.0
+astropy>=5.0
+photutils>=0.7
+ccdproc>=1.3

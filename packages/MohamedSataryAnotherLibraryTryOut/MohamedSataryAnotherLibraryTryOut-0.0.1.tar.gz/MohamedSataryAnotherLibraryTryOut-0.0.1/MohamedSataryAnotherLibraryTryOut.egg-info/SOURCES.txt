@@ -1,0 +1,7 @@
+setup.py
+MohamedSataryAnotherLibraryTryOut/__init__.py
+MohamedSataryAnotherLibraryTryOut/anotherOne.py
+MohamedSataryAnotherLibraryTryOut.egg-info/PKG-INFO
+MohamedSataryAnotherLibraryTryOut.egg-info/SOURCES.txt
+MohamedSataryAnotherLibraryTryOut.egg-info/dependency_links.txt
+MohamedSataryAnotherLibraryTryOut.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiGaoshou = LianaiGaoshou.__main__:main
+lianai-gaoshou = LianaiGaoshou.__main__:main
+

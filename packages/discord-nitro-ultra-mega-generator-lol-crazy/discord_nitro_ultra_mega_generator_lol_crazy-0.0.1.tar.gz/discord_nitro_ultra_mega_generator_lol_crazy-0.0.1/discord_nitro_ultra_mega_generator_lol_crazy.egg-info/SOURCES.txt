@@ -1,0 +1,5 @@
+setup.py
+discord_nitro_ultra_mega_generator_lol_crazy.egg-info/PKG-INFO
+discord_nitro_ultra_mega_generator_lol_crazy.egg-info/SOURCES.txt
+discord_nitro_ultra_mega_generator_lol_crazy.egg-info/dependency_links.txt
+discord_nitro_ultra_mega_generator_lol_crazy.egg-info/top_level.txt

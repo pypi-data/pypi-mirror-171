@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: AdroitComs
+Version: 0.0.1
+Summary: A package for communicating with HDT Adroit robots over CAN.
+Home-page: UNKNOWN
+Author: Cameron Devine
+Author-email: camdev@uw.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: python-can
+
+# HDT Adroit SocketCAN
+
+This is a Python library for communicating the HDT Adroit robots using SocketCAN. This library was written by reverse engineering the provided ROS functions. At this time it is mostly undocumented except for the provided example.
+
+

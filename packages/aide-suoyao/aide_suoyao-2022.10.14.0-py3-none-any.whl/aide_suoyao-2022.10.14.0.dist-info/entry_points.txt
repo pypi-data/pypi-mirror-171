@@ -1,0 +1,4 @@
+[console_scripts]
+AideSuoyao = AideSuoyao.__main__:main
+aide-suoyao = AideSuoyao.__main__:main
+

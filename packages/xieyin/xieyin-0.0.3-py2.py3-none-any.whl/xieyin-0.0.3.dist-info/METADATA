@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: xieyin
+Version: 0.0.3
+Summary: Generate Chinese homophonic sentences
+Home-page: UNKNOWN
+Author: Chessom
+Author-email: chessom@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Requires-Dist: pypinyin
+Requires-Dist: jieba
+
+
+Use function xieyin(sentence,pattern,accurate).
+
+Example:
+
+
+
+from xieyin import xieyin,yintostr
+
+xieyin('谐音字符串',pattern=0,accurate=True)
+
+yintostr('xie yin zi fu chuan',sep='',tone=False)
+
+If you are not interested in using it as a model,
+
+you can do this:
+
+
+
+from xieyin import main
+
+main()
+
+
+

@@ -1,0 +1,4 @@
+[console_scripts]
+ChengzhenMishangwoHexinJiangcheng = ChengzhenMishangwoHexinJiangcheng.__main__:main
+chengzhen-mishangwo-hexin-jiangcheng = ChengzhenMishangwoHexinJiangcheng.__main__:main
+

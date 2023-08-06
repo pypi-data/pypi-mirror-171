@@ -1,0 +1,5 @@
+[console_scripts]
+ready-steady-go = ready_steady_go.cli:cli
+
+[nbdev]
+ready_steady_go = ready_steady_go._modidx:d

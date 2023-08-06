@@ -1,0 +1,7 @@
+torch
+wandb
+timm
+tqdm
+fastcore
+
+[dev]

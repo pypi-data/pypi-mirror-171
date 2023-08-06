@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ready_steady_go/__init__.py
+ready_steady_go/_modidx.py
+ready_steady_go/benchmark.py
+ready_steady_go/cli.py
+ready_steady_go.egg-info/PKG-INFO
+ready_steady_go.egg-info/SOURCES.txt
+ready_steady_go.egg-info/dependency_links.txt
+ready_steady_go.egg-info/entry_points.txt
+ready_steady_go.egg-info/not-zip-safe
+ready_steady_go.egg-info/requires.txt
+ready_steady_go.egg-info/top_level.txt

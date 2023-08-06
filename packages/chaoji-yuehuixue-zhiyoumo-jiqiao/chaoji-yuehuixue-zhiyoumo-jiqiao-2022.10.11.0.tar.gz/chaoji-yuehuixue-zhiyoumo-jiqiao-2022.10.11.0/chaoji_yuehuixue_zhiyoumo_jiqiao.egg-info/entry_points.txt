@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiYuehuixueZhiyoumoJiqiao = ChaojiYuehuixueZhiyoumoJiqiao.__main__:main
+chaoji-yuehuixue-zhiyoumo-jiqiao = ChaojiYuehuixueZhiyoumoJiqiao.__main__:main
+

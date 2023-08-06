@@ -1,0 +1,4 @@
+[console_scripts]
+BiepaWoshiDashanYingwenshu = BiepaWoshiDashanYingwenshu.__main__:main
+biepa-woshi-dashan-yingwenshu = BiepaWoshiDashanYingwenshu.__main__:main
+

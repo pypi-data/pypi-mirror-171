@@ -1,0 +1,4 @@
+[console_scripts]
+ZikongliJingdianTaozhuangX3 = ZikongliJingdianTaozhuangX3.__main__:main
+zikongli-jingdian-taozhuang-x3 = ZikongliJingdianTaozhuangX3.__main__:main
+

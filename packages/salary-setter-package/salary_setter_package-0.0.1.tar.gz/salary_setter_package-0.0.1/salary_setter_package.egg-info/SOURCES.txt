@@ -1,0 +1,8 @@
+README.md
+setup.py
+salary_setter/__init__.py
+salary_setter/setter.py
+salary_setter_package.egg-info/PKG-INFO
+salary_setter_package.egg-info/SOURCES.txt
+salary_setter_package.egg-info/dependency_links.txt
+salary_setter_package.egg-info/top_level.txt

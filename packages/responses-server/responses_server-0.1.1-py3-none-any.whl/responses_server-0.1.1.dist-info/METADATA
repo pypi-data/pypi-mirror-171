@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: responses-server
+Version: 0.1.1
+Summary: Unit testing HTTP server based on responses library.
+Home-page: https://github.com/btimby/cesium.tv/responses_server/
+Author: Ben Timby
+Author-email: btimby@gmail.com
+License-File: LICENSE
+Requires-Dist: responses (==0.22.0)
+Requires-Dist: requests (==2.25.1)
+
+responses-server
+----------------
+Unit testing HTTP server based on responses library.

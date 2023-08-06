@@ -1,0 +1,8 @@
+pdc_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdc_logger/client.py,sha256=84KNGnfWUdGPB6azEr0K4wszKvKiQ9QYcG8bKAC6ESU,618
+pdc_logger/configuration.py,sha256=a0JUNJNukiCcOmRuksbOmMuWwdWovAiSIIPs_yKcLps,1080
+pdc_logger/exit_report.py,sha256=4WPtrHDKdRmclwOzsgMWxCXgO6Yy8bakc4Ide6t0P7c,503
+pdc_logger/logger.py,sha256=Gcf0lYyh3HmULEH85qbGVJ35l_uD9kjPWG7kFpfLEPU,1704
+pdc_logger-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pdc_logger-0.2.0.dist-info/METADATA,sha256=eHlHN0L5izS6zWLJXQ89esPEGTW2wzmbnD17eUherVM,629
+pdc_logger-0.2.0.dist-info/RECORD,,

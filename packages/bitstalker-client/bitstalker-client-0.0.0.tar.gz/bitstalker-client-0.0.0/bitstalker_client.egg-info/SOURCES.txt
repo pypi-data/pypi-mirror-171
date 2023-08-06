@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitstalker_client.egg-info/PKG-INFO
+bitstalker_client.egg-info/SOURCES.txt
+bitstalker_client.egg-info/dependency_links.txt
+bitstalker_client.egg-info/not-zip-safe
+bitstalker_client.egg-info/top_level.txt
+foo/__init__.py

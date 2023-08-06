@@ -1,0 +1,4 @@
+[console_scripts]
+MianfeiMoshiVer2ZhizhongjiPingtaiMoshi = MianfeiMoshiVer2ZhizhongjiPingtaiMoshi.__main__:main
+mianfei-moshi-ver2-zhizhongji-pingtai-moshi = MianfeiMoshiVer2ZhizhongjiPingtaiMoshi.__main__:main
+

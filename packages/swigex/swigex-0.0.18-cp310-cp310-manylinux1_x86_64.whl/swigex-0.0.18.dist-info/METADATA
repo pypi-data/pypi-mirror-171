@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: swigex
+Version: 0.0.18
+Summary: C++ library and SWIG wrappers (R & Python)
+Home-page: https://github.com/fabien-ors/swigex
+Author: Fabien Ors
+Author-email: fabien.ors@mines-paristech.fr
+Project-URL: Bug Tracker, https://github.com/fabien-ors/swigex/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# swigex Python Package
+
+* Author: Fabien Ors (MINES PARIS - PSL University) 
+* License: MIT
+* Date: Sept. 2022
+
+See official README here : https://github.com/fabien-ors/swigex

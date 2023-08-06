@@ -1,0 +1,12 @@
+kappadata/__init__.py,sha256=skxEsenbs_ZKE-xzN-pSMLKynFMScf8BVLTxdH5hFFA,129
+kappadata/caching/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kappadata/caching/cached_dataset.py,sha256=VVcy7eATBSVKJvhdm5YUzlHGbgZ8WRFA27tDEMrKXMU,776
+kappadata/caching/redis_dataset.py,sha256=6g7lscdUN1ZlitMpr8R030Ngh3Kkb4ysNI9XUs3wVDE,5268
+kappadata/caching/shared_dict_dataset.py,sha256=wS93ht4PU73HkKIkwm-GjVYQi9rZfomYBieYOHkqsuo,647
+kappadata/loading/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kappadata/loading/image_folder.py,sha256=ypyMS07tGoZxZx9Ckw-AMZavKjJIFr36jew4Khmufyw,234
+kappadata-0.0.4.dist-info/LICENSE,sha256=3RtOQFmKX9OtI4fdNRzIKOyu-lre2aDQORtYinW0mJU,1071
+kappadata-0.0.4.dist-info/METADATA,sha256=lc-nOiCZBU0wrD3IqSRJDI6aFMpdtNFCSIywHuYUJRU,790
+kappadata-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kappadata-0.0.4.dist-info/top_level.txt,sha256=xzs6xg6JWG_BHVAvbKywpSnq3MAUFcNTwD-K3n0G_KI,10
+kappadata-0.0.4.dist-info/RECORD,,

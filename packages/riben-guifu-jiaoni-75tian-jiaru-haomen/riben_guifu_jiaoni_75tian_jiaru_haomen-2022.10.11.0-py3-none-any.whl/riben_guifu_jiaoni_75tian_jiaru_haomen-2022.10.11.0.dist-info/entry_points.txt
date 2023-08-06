@@ -1,0 +1,4 @@
+[console_scripts]
+RibenGuifuJiaoni75tianJiaruHaomen = RibenGuifuJiaoni75tianJiaruHaomen.__main__:main
+riben-guifu-jiaoni-75tian-jiaru-haomen = RibenGuifuJiaoni75tianJiaruHaomen.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+WoyongSixinshuiQingsongLicaiZhuanqianwan = WoyongSixinshuiQingsongLicaiZhuanqianwan.__main__:main
+woyong-sixinshui-qingsong-licai-zhuanqianwan = WoyongSixinshuiQingsongLicaiZhuanqianwan.__main__:main
+

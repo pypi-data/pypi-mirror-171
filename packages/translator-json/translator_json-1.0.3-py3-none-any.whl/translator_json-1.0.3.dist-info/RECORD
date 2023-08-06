@@ -1,0 +1,10 @@
+translator/__init__.py,sha256=8EFE43gpUHxN_K39aun6y0hYO6je5Npx41XoDi8oyqQ,73
+translator/_version.py,sha256=nqCFL-kjunYzfKGuabqnLLLWJwtcb52TYN5fHOEOD1M,497
+translator/googlekey.json,sha256=5Z0TvXkXmOufO_WoUIp3GA40v_PUYh_wLEq3bqOYclI,2356
+translator/translate_generator.py,sha256=MhZyuG6xXCMfPECeRvpuCmTsFyhD-jyGfM1pVFrQTXQ,3515
+translator_json-1.0.3.data/data/requirements.txt,sha256=myUeZjSp3ALXFWGMOj-9jopIILhq7Dv6T-ziyxa_j88,131
+translator_json-1.0.3.dist-info/METADATA,sha256=RwyB4CC4U6yQ_ua9ycwZkHUU0146gbEMy2R-dpanIeA,2419
+translator_json-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+translator_json-1.0.3.dist-info/entry_points.txt,sha256=cU74jXSrdoCcqk1BsTw7wBXoosbf0FSCZG7SYWWi6Hg,84
+translator_json-1.0.3.dist-info/top_level.txt,sha256=TstlcpN5V_LQaCMBHw2BiRQXtexg1Cq7SC8lIwymH_c,11
+translator_json-1.0.3.dist-info/RECORD,,

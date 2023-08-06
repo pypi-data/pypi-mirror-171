@@ -1,0 +1,53 @@
+[project]
+name = "gitlab_requirements_extractor"
+version = "0.1.0"
+description = "Extract requirements from gitlab issues and created new issued for each requirement"
+authors = [
+    { name = "Christoph Becker", email = "christoph.becker@exb.de" },
+]
+dependencies = [
+    "pydantic>=1.10.2",
+    "python-gitlab>=3.10.0",
+    "python-decouple>=3.6",
+    "loguru>=0.6.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+process = "requirements_extractor:process_once"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+includes = [
+    "requirements_extractor/",
+    "CHANGELOG.md",
+]
+
+[tool.pdm.version]
+source = "file"
+path = "requirements_extractor/__version__.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8>=4.0.1",
+    "pytest>=7.1.2",
+    "pytest-cov>=3.0.0",
+    "python-semantic-release>=7.31.2",
+]
+
+[tool.semantic_release]
+version_source = "commit"
+version_variable = "requirements_extractor/__version__.py:__version__"
+commit_author = "Semantic commit <a_bot_at@exb.de>"
+branch = "main"
+build_command = "pdm build"
+hvcs = "gitlab"

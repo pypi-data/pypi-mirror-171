@@ -1,0 +1,9 @@
+README.md
+setup.py
+Jiangziyi/Jiangziyi.py
+Jiangziyi/__init__.py
+Jiangziyi.egg-info/PKG-INFO
+Jiangziyi.egg-info/SOURCES.txt
+Jiangziyi.egg-info/dependency_links.txt
+Jiangziyi.egg-info/not-zip-safe
+Jiangziyi.egg-info/top_level.txt

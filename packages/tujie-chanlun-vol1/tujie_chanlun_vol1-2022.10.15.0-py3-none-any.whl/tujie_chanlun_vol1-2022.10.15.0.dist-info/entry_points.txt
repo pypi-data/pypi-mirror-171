@@ -1,0 +1,4 @@
+[console_scripts]
+TujieChanlunVol1 = TujieChanlunVol1.__main__:main
+tujie-chanlun-vol1 = TujieChanlunVol1.__main__:main
+

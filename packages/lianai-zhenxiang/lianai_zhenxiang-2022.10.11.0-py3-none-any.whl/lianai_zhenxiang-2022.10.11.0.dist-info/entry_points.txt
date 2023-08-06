@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiZhenxiang = LianaiZhenxiang.__main__:main
+lianai-zhenxiang = LianaiZhenxiang.__main__:main
+

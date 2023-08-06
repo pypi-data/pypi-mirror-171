@@ -1,0 +1,318 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI base page template.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+-#}
+<!DOCTYPE html>
+
+{% set settings = get_settings() %}
+
+{% macro button_row(buttons_data, common_fields={}) %}
+  <div class="flex-row">
+    {% for classes, text, extra_fields in buttons_data %}
+      {% if not loop.first %}
+        <div class="button-row-separator"></div>
+        {% do classes.append('button-bordering-left') %}
+      {% endif %}
+
+      {% if not loop.last %}
+        {% do classes.append('button-bordering-right') %}
+      {% endif %}
+
+      {% if 'disabled-button' in classes %}
+        {% set disabled_attr = ' disabled=""' %}
+      {% else %}
+        {% set disabled_attr = '' %}
+      {% endif %}
+
+      <form method="POST" class="flex-row">
+        {% for name, value in extra_fields.items() %}
+          <input name="{{ name }}" value="{{ value }}" type="hidden">
+        {% endfor %}
+        {% for name, value in common_fields.items() %}
+          <input name="{{ name }}" value="{{ value }}" type="hidden">
+        {% endfor %}
+
+        <button class="{{ classes|join(' ') }}"{{ disabled_attr }}>
+          {{ text }}
+        </button>
+      </form>
+    {% endfor %}
+  </div>
+{% endmacro %}
+
+{% macro error_note(note_text) %}
+  <aside class="error-note">
+    {{ note_text }}
+  </aside>
+{% endmacro %}
+
+{% macro label(label_text, label_name=none) %}
+  {% set for_attr = label_name and (label_name + "_field") %}
+  <label {{ {'for': for_attr, 'class': 'section-label'}|xmlattr }}>
+    {{ label_text }}
+  </label>
+{% endmacro %}
+
+{% macro form_field(field_name, required=true, sep_after=true, height=none) %}
+  <div class="flex-row">
+    {%
+      set attrs = {
+          'id':       field_name + '_field',
+          'name':     field_name,
+          'required': '' if required else none,
+          'rows':     height
+      }
+    %}
+
+    {% if height is none %}
+      <input{{ attrs|xmlattr }}>
+    {% else %}
+      <textarea{{ attrs|xmlattr }}></textarea>
+    {% endif %}
+  </div>
+
+  {% if sep_after %}
+    <div class="horizontal-separator"></div>
+  {% endif %}
+{% endmacro %}
+
+<html>
+  <head>
+    {% block head %}
+      <title>
+        {% block title required %}{% endblock %}
+        -
+        {{ _('web_ui.base.title.haketilo_proxy') }}
+      </title>
+      <style>
+        {% block style %}
+          body {
+              color: #444;
+              margin: 0;
+          }
+
+          #main {
+              max-width: 750px;
+              margin: auto;
+              padding: 0 5px;
+          }
+
+          a {
+              text-decoration: inherit;
+              color: inherit;
+          }
+
+          .has-colored-links a {
+              color: #557b8e;
+          }
+
+          .small-print {
+              font-size: 80%;
+              color: #555;
+          }
+
+          .error-note {
+              display: block;
+              border-left: 5px solid #a33;
+              padding: 10px;
+              background-color: #fcc;
+          }
+
+          #main > .error-note:first-child {
+              margin-top: 10px;
+          }
+
+          .block-with-bottom-margin, .section-label, .flex-row, aside, p {
+              display: block;
+              margin: 0 0 10px 0;
+          }
+
+          .section-label {
+              font-style: italic;
+              text-decoration: underline #ccc;
+          }
+
+          .flex-row {
+              display: flex;
+              padding: 0;
+          }
+
+          .flex-row > * {
+              flex: 1 1 0;
+          }
+
+          .flex-row > .flex-row {
+              margin: 0;
+          }
+
+          .button-row-separator {
+              background-color: #888;
+              flex: 0 0 2px;
+          }
+
+          div.horizontal-separator {
+              display: block;
+              background-color: #e3e3e3;
+              height: 1px;
+              margin: 0 0 10px 0;
+          }
+
+          textarea {
+              resize: none;
+          }
+
+          .green-button, .red-button, .blue-button {
+                  border: none;
+                  border-radius: 2px;
+                  color: white;
+                  text-align: center;
+                  text-decoration: none;
+                  display: block;
+                  padding: 5px 10px;
+                  -moz-user-select: none;
+                  user-select: none;
+                  cursor: pointer;
+                  font: 400 0.9em sans-serif;
+          }
+
+          .green-button {
+              background-color: #4caf50;
+          }
+
+          .red-button {
+              background-color: #af504c;
+          }
+
+          .blue-button {
+              background-color: #504caf;
+          }
+
+          .disabled-button {
+              background-color: #aaa;
+              cursor: default;
+          }
+
+          .button-bordering-right {
+              border-radius: 2px 0 0 2px;
+          }
+
+          .button-bordering-left {
+              border-radius: 0 2px 2px 0;
+          }
+
+          .button-bordering-left.button-bordering-right {
+              border-radius: 0;
+          }
+
+          .hide {
+              display: none !important;
+          }
+
+          ul#nav {
+              -moz-user-select: none;
+              user-select: none;
+              display: flex;
+              justify-content: stretch;
+              white-space: nowrap;
+              background-color: #e0e0e0;
+              margin: 0;
+              padding: 0;
+              border-bottom: 2px solid #444;
+              overflow-x: scroll;
+          }
+
+          li.nav-entry, li.nav-separator {
+              list-style-type: none;
+          }
+
+          li.nav-entry {
+              background-color: #70af70;
+              font-size: 115%;
+              cursor: pointer;
+              text-align: center;
+              flex: 1 1 0;
+          }
+
+          li.nav-separator {
+              flex: 0 0 2px;
+              background-color: inherit;
+          }
+
+          li.big-separator {
+              flex: 4 0 2px;
+          }
+
+          li.nav-entry:hover {
+              box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+          }
+
+          ul#nav > li.nav-active {
+              background-color: #65A065;
+              color: #222;
+              box-shadow: none;
+              cursor: default;
+          }
+
+          ul#nav > li > :only-child {
+              display: block;
+              padding: 10px;
+          }
+        {% endblock %}
+    </style>
+    {% endblock %}
+  </head>
+  <body>
+    {% set active_endpoint = get_current_endpoint() %}
+    {%
+      set navigation_bar = [
+          ('home',                 _('web_ui.base.nav.home'),      false),
+          ('rules.rules',          _('web_ui.base.nav.rules'),     false),
+          ('items.packages',       _('web_ui.base.nav.packages'),  false),
+          ('items.libraries',      _('web_ui.base.nav.libraries'), true),
+          ('repos.repos',          _('web_ui.base.nav.repos'),     false),
+          ('import.items_import',  _('web_ui.base.nav.import'),    false)
+      ]
+    %}
+    <ul id="nav">
+      {%
+        for endpoint, label, advanced_user_only in navigation_bar
+            if not advanced_user_only or settings.advanced_user
+      %}
+        {% if not loop.first %}
+          {% set sep_classes = ['nav-separator'] %}
+          {% if loop.last %}
+            {% do sep_classes.append('big-separator') %}
+          {% endif %}
+          <li class="{{ sep_classes|join(' ') }}"></li>
+        {% endif %}
+
+        {% if endpoint == active_endpoint %}
+          <li class="nav-entry nav-active"><div>{{ label }}</div></li>
+        {% else %}
+          <li class="nav-entry">
+            <a href="{{ url_for(endpoint) }}" draggable="false">
+              {{ label }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <div id="main">{% block main required %}{% endblock %}</div>
+  </body>
+</html>

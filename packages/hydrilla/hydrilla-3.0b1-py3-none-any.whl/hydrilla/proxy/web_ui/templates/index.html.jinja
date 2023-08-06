@@ -1,0 +1,185 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI home page.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %} {{ _('web_ui.home.title') }} {% endblock %}
+
+{% block main %}
+  <h3>
+    {{ _('web_ui.home.heading.welcome_to_haketilo') }}
+  </h3>
+
+  <p>
+    {{ _('web_ui.home.this_is_haketilo_page') }}
+  </p>
+
+  <div class="horizontal-separator"></div>
+
+  <h4>
+    {{ _('web_ui.home.heading.about_haketilo') }}
+  </h4>
+
+  <p class="has-colored-links">
+    {{ _('web_ui.home.html.haketilo_is_blah_blah')|safe }}
+  </p>
+
+  <div class="horizontal-separator"></div>
+
+  {% if request.url.startswith('http://') %}
+    <h4>
+      {{ _('web_ui.home.heading.configuring_browser_for_haketilo') }}
+    </h4>
+
+    <p class="has-colored-links">
+      {{ _('web_ui.home.html.to_add_certs_do_xyz')|safe }}
+    </p>
+
+    <div class="horizontal-separator"></div>
+  {% endif %}
+
+  <h4>
+    {{ _('web_ui.home.heading.options') }}
+  </h4>
+
+  {{ label(_('web_ui.home.mapping_usage_mode_label')) }}
+
+  {% set use_enabled_but_classes  = ['green-button'] %}
+  {% set use_auto_but_classes     = ['green-button'] %}
+  {% set use_question_but_classes = ['green-button'] %}
+
+  <p>
+    {% if settings.mapping_use_mode == MappingUseMode.WHEN_ENABLED %}
+      {% do use_enabled_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.packages_are_used_when_enabled') }}
+    {% elif settings.mapping_use_mode == MappingUseMode.QUESTION %}
+      {% do use_question_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.user_gets_asked_whether_to_enable_package') }}
+    {% else %}
+      {# settings.mapping_use_mode == MappingUseMode.AUTO #}
+      {% do use_auto_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.packages_are_used_automatically') }}
+    {% endif %}
+  </p>
+
+  {{
+    button_row([
+        (use_enabled_but_classes,
+         _('web_ui.home.use_enabled_button'),
+         {'action': 'use_enabled'}),
+        (use_question_but_classes,
+         _('web_ui.home.use_question_button'),
+         {'action': 'use_question'}),
+        (use_auto_but_classes,
+         _('web_ui.home.use_auto_button'),
+         {'action': 'use_auto'})
+    ])
+  }}
+
+  <div class="horizontal-separator"></div>
+
+  {{ label(_('web_ui.home.script_blocking_mode_label')) }}
+
+  {% set allow_but_classes = ['red-button'] %}
+  {% set block_but_classes = ['blue-button'] %}
+
+  <p>
+    {% if settings.default_allow_scripts %}
+      {% do allow_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.scripts_are_allowed_by_default') }}
+    {% else %}
+      {% do block_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.scripts_are_blocked_by_default') }}
+    {% endif %}
+  </p>
+
+  {% set allow_but_text = _('web_ui.home.allow_scripts_button') %}
+  {% set block_but_text = _('web_ui.home.block_scripts_button') %}
+
+  {{
+    button_row([
+        (allow_but_classes, allow_but_text, {'action': 'allow_scripts'}),
+        (block_but_classes, block_but_text, {'action': 'block_scripts'})
+    ])
+  }}
+
+  <div class="horizontal-separator"></div>
+
+  {{ label(_('web_ui.home.advanced_features_label')) }}
+
+  {% set advanced_user_but_classes = ['red-button'] %}
+  {% set simple_user_but_classes   = ['blue-button'] %}
+
+  <p>
+    {% if settings.advanced_user %}
+      {% do advanced_user_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.user_is_advanced_user') }}
+    {% else %}
+      {% do simple_user_but_classes.append('disabled-button') %}
+      {{ _('web_ui.home.user_is_simple_user') }}
+    {% endif %}
+  </p>
+
+  {{
+    button_row([
+        (advanced_user_but_classes,
+         _('web_ui.home.user_make_advanced_button'),
+         {'action': 'user_make_advanced'}),
+        (simple_user_but_classes,
+         _('web_ui.home.user_make_simple_button'),
+         {'action': 'user_make_simple'})
+    ])
+  }}
+
+  {% if orphan_item_stats.mappings > 0 or orphan_item_stats.resources > 0 %}
+    <div class="horizontal-separator"></div>
+
+    {{ label(_('web_ui.home.orphans_label')) }}
+
+    <p>
+      {% if settings.advanced_user %}
+        {% if orphan_item_stats.mappings > 0 %}
+          {{
+            _('web_ui.home.orphans_to_delete_{mappings}')
+                .format(mappings = orphan_item_stats.mappings)
+          }}
+        {% else %}
+          {{ _('web_ui.home.orphans_to_delete_exist') }}
+        {% endif %}
+      {% else %}
+        {{
+          _('web_ui.home.orphans_to_delete_{mappings}_{resources}')
+              .format(
+                  mappings  = orphan_item_stats.mappings,
+                  resources = orphan_item_stats.resources
+              )
+        }}
+      {% endif %}
+    </p>
+
+    {% set prune_but_text =  _('web_ui.home.prune_orphans_button') %}
+
+    {{
+      button_row([
+          (['green-button'], prune_but_text, {'action': 'prune_orphans'})
+      ])
+    }}
+  {% endif %}
+{% endblock %}

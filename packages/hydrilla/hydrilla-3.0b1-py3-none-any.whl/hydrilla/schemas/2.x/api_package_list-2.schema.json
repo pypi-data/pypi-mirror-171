@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://hydrilla.koszko.org/schemas/api_package_list-2.0.1.schema.json",
+    "title": "Package list",
+    "description": "Object with lists of references to all known resources and all known mappings",
+    "type": "object",
+    "required": ["$schema", "resources", "mappings"],
+    "properties": {
+	"$schema": {
+	    "description": "Mark this instance as conforming to package list schema 2.x",
+	    "type": "string",
+	    "pattern": "^https://hydrilla\\.koszko\\.org/schemas/api_package_list-2\\.(([1-9][0-9]*|0)\\.)*schema\\.json$"
+	},
+	"resources": {
+	    "description": "References to all resources served by this Hydrilla instance",
+	    "type": "array",
+	    "items": {
+		"allOf": [{
+		    "$ref": "./common_definitions-2.schema.json#/definitions/item_ref"
+		}, {
+		    "type": "object",
+		    "required": ["revision"],
+		    "properties": {
+			"revision": {
+			    "description": "Which revision of a packaging of given version of an upstream resource is this",
+			    "type": "integer",
+			    "minimum": 1
+			}
+		    }
+		}]
+	    }
+	},
+	"mappings": {
+	    "description": "References to all mappings served by this Hydrilla instance",
+	    "type": "array",
+	    "items": {
+		"$ref": "./common_definitions-2.schema.json#/definitions/item_ref"
+	    }
+	},
+	"generated_by": {
+	    "$ref": "./common_definitions-2.schema.json#/definitions/generated_by"
+	}
+    }
+}

@@ -1,0 +1,57 @@
+{#
+SPDX-License-Identifier: GPL-3.0-or-later OR CC-BY-SA-4.0
+
+Proxy web UI page that informs about failure of automatic package installation.
+
+This file is part of Hydrilla&Haketilo.
+
+Copyright (C) 2022 Wojtek Kosior
+
+Dual licensed under
+* GNU General Public License v3.0 or later and
+* Creative Commons Attribution Share Alike 4.0 International.
+
+You can choose to use either of these licenses or both.
+
+
+I, Wojtek Kosior, thereby promise not to sue for violation of this
+file's licenses. Although I request that you do not make use of this
+code in a proprietary work, I am not going to enforce this in court.
+#}
+{% extends "base.html.jinja" %}
+
+{% block title %}
+  {{ _('web_ui.prompts.auto_install_error.title') }}
+{% endblock %}
+
+{% block main %}
+  {% if file_installation_error is defined %}
+    {{ error_note(_('web_ui.err.retry_install.file_installation_error')) }}
+  {% endif %}
+
+  {% if repo_communication_error is defined %}
+    {{ error_note(_('web_ui.err.retry_install.repo_communication_error')) }}
+  {% endif %}
+
+  <h3>
+    {{ _('web_ui.prompts.auto_install_error.heading') }}
+  </h3>
+
+  <p>
+    {{
+      _('web_ui.prompts.auto_install_error.package_{}_failed_to_install')
+          .format(display_info.mapping_info.info.long_name)
+    }}
+  </p>
+
+  {% set disable_text = _('web_ui.prompts.auto_install_error.disable_button') %}
+  {% set retry_text   = _('web_ui.prompts.auto_install_error.retry_button') %}
+
+  {{
+    button_row([
+            (['red-button'],   disable_text, {'action': 'disable_mapping'}),
+            (['green-button'], retry_text,   {'action': 'retry_install'})
+        ], {'mapping_ver_id': display_info.mapping_info.ref.id}
+    )
+  }}
+{% endblock %}

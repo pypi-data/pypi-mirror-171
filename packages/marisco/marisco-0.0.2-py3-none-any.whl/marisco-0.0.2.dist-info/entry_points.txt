@@ -1,0 +1,2 @@
+[nbdev]
+marisco = marisco._modidx:d

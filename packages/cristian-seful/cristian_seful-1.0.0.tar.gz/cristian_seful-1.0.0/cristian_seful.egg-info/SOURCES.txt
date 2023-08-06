@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+cristian_seful.egg-info/PKG-INFO
+cristian_seful.egg-info/SOURCES.txt
+cristian_seful.egg-info/dependency_links.txt
+cristian_seful.egg-info/top_level.txt

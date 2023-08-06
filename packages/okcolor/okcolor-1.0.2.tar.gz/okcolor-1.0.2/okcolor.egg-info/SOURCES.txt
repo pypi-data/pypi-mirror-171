@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+okcolor/__init__.py
+okcolor/colors.py
+okcolor.egg-info/PKG-INFO
+okcolor.egg-info/SOURCES.txt
+okcolor.egg-info/dependency_links.txt
+okcolor.egg-info/requires.txt
+okcolor.egg-info/top_level.txt

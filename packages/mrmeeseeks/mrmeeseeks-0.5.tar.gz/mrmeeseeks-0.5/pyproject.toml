@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mrmeeseeks"
+version = "0.5"
+authors = [
+  { name="KirmTwinty", email="thibaud.toullier@inria.fr" },
+]
+description = "A Meeseeks that batch processes what you asked for."
+dependencies=[
+	"pyyaml",
+	"rich"
+]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=2.5"
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/KirmTwinty/mrmeeseeks"
+"Bug Tracker" = "https://gitlab.com/KirmTwinty/mrmeeseeks/issues"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["mr"]
+
+[tool.hatch.build]
+exclude = [
+  "/.git",
+  "/doc",
+  "/tests",
+  "/.gitignore",
+  "/.gitlab-ci.yml",
+]

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flake8-num-positionl-args
+Version: 0.0.1
+Summary: flake8 plugin for check num of positional args.
+License: MIT
+Author: Yasu_umi
+Author-email: yasu.umi.19910101@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flake8 (>=5.0.4,<6.0.0)

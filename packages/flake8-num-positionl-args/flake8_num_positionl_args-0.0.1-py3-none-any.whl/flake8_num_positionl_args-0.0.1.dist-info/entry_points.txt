@@ -1,0 +1,3 @@
+[flake8.extension]
+X=flake8_num_positionl_args:NumPositionalArgsChecker
+

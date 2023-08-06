@@ -1,0 +1,5 @@
+aws_access_advisor/__init__.py,sha256=bKwF7JuJw-cL5rTORMFbBoBt6p0wQn9sbcIXZ53BtBM,5697
+aws_access_advisor/__main__.py,sha256=3HSXkz5r_q98xA3CLtCC-XTJ_4jknCxC6oCXF-b3F64,104
+aws_access_advisor-2022.10.1.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+aws_access_advisor-2022.10.1.7.dist-info/METADATA,sha256=ITsp1u6mWAjR4M2kCGTfwSnEXwJn5kaEBzUT99JjofM,3592
+aws_access_advisor-2022.10.1.7.dist-info/RECORD,,

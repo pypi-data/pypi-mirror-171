@@ -1,0 +1,10 @@
+imgdl/__init__.py,sha256=OgWPos3dBycfhL7olzE7QV6HVwCIOE13MSdHHJexfbk,79
+imgdl/cli.py,sha256=jKpyMeo-bCsjEz7vrvJTsQCJ3eTtPcVtr3mbU26o_gY,1779
+imgdl/downloader.py,sha256=OLIZWQ7PXpMlSW_MstaZYD-eVeU3roDzxpTaQYcXmUs,8202
+imgdl/settings.py,sha256=a7L6xFtrQ_UF-a0WWy9H_GY5IqFblRsa_-NXJG2oE0g,1020
+imgdl/utils.py,sha256=Yjar5rgRVOjbptu9m_-Nbo2LP_XInglzTrr7NXwTQDs,803
+imgdl-2.0.1.dist-info/entry_points.txt,sha256=ExtFHSCF08yvcacAQZh4hdWP9Q_lac1mGiuR7EK_y-c,40
+imgdl-2.0.1.dist-info/LICENSE,sha256=5nftok-ijTXBqegPHZBGMsgro8UCGUAfBGqs1diae2o,1079
+imgdl-2.0.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+imgdl-2.0.1.dist-info/METADATA,sha256=9gfURK0nvuY6bgTI6AcVwYZauTIXgPCvjWqJ0cm6gX0,5705
+imgdl-2.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Tomation.egg-info/PKG-INFO
+Tomation.egg-info/SOURCES.txt
+Tomation.egg-info/dependency_links.txt
+Tomation.egg-info/requires.txt
+Tomation.egg-info/top_level.txt
+tomation/__init__.py
+tomation/bluestacks/images/new_instance.png
+tomation/bluestacks/images/test.png
+tomation/bluestacks/images/testing_image.png

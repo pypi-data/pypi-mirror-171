@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Tomation
+Version: 0.1.5
+Summary: Automation library for small or big tasks.
+Home-page: 
+Author: Eekk2k2
+Author-email: eekk2k2@gmail.com
+Keywords: Task Automation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+License-File: LICENSE
+
+
+
+>----------<
+Chage Log 0.1.0 (15/10/22)
+
+Pushed to PyPi
+>----------<
+
+>----------<
+Chage Log 0.1.5 (15/10/22)
+
+Actually pushed to PyPi
+>----------<
+

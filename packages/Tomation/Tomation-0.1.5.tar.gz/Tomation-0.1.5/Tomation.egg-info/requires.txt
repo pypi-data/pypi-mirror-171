@@ -1,0 +1,11 @@
+pyautogui
+psutil
+win32
+PIL
+selenium
+webdriver_manager
+bs4
+os
+sys
+re
+numpy

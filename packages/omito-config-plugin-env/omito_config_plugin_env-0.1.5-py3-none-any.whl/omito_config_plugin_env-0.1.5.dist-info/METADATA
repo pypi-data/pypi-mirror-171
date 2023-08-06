@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: omito-config-plugin-env
+Version: 0.1.5
+Summary: 
+Author: Barath Kumar
+Author-email: barath@mergedup.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: omito-config-core (>=0.1.5,<0.2.0)

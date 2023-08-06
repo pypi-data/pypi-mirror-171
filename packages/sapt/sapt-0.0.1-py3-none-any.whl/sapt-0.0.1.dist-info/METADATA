@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sapt
+Version: 0.0.1
+Summary: aptコマンド支援ツール
+Home-page: UNKNOWN
+Author: sonyakun
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: subprocess
+
+UNKNOWN
+
+

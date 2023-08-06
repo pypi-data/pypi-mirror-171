@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: bhargabchipkg
+Version: 0.0.8
+Summary: helpful chi-square package for sales data
+Home-page: https://github.com/bhargabganguli/bhargabchipkg.git
+Download-URL: https://github.com/bhargabganguli/bhargabchipkg/archive/0.0.8.tar.gz
+Author: Bhargab
+Author-email: bhargab.ganguli@gmail.com
+License: MIT
+Keywords: chi_test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+License-File: LICENSE
+
+
+                      This package can be used to classify salesmen on its performance of total sale and total unsold with
+                      two different groups.
+
+                      In easy words lets we want to see performance(good and bad) salesman for urban market, rural market 
+                      there we can use this package by passing a dataframe, column name of salesman id, 
+                      column name of saleflag(indicating 0 for unsold and 1 for sold),column name of grouping column (having only two unique values or levels).
+
+                      We are using chi square, a statistical method which says performance quality. 
+                      
+                      You can get the description by reading the readme.md file from my github.
+                      link of github:
+
+                      https://github.com/bhargabganguli/bhargabchipkg.git
+
+                      Here you can find 
+
+                      - how to install
+
+                      - how to create object and use the method
+
+                      - how to call the method and print the output
+                    

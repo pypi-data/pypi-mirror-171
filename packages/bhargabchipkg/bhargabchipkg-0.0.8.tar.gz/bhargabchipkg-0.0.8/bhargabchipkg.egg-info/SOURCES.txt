@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bhargabchipkg/__init__.py
+bhargabchipkg/chitest_rs.py
+bhargabchipkg.egg-info/PKG-INFO
+bhargabchipkg.egg-info/SOURCES.txt
+bhargabchipkg.egg-info/dependency_links.txt
+bhargabchipkg.egg-info/requires.txt
+bhargabchipkg.egg-info/top_level.txt

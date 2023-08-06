@@ -1,0 +1,45 @@
+#!/opt/hostedtoolcache/Python/3.10.6/x64/bin/python3
+# -*- coding: utf-8 -*-
+
+import sys
+
+version = 'v0.1.2\n' + 'detectchange'
+
+LIST_COMMANDS = {
+        # 'command': 'description or reference to another command',
+        '--help': '\tShow this help message',
+        '-h' : 'ref::--help',
+        '--version': '\tShow the version of the program',
+        '-v' : 'ref::--version',
+}
+
+def searchForReference(command):
+	return next((f'{command}, {key}' for key, value in LIST_COMMANDS.items() if value.startswith('ref::') and value[5:] == command), command)
+
+def create_help():
+	help = "\nUsage : detectchange [options]\n\n" + "[options] are optionnal, no options run the tool in default mode\n\n"
+
+	for command in LIST_COMMANDS:
+		if LIST_COMMANDS[command].startswith('ref::'):
+			continue
+		help += f'{searchForReference(command)}{LIST_COMMANDS[command]}\n'
+	return help
+
+
+if __name__ == '__main__':
+	if len(sys.argv) == 1:
+		from changedetector import detectchange
+		detectchange.activate(SHELL_ARG=True)
+
+	if len(sys.argv) == 2:
+		if sys.argv[1] in LIST_COMMANDS:
+			if sys.argv[1] in ['--help', '-h']:
+				print(create_help())
+			elif sys.argv[1] in ['--version', '-v']:
+				print(version)
+		else:
+			print('Unknown command')
+			print(create_help())
+	else:
+		print('Unknown command')
+		print(create_help())

@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: encoderPy
+Version: 1.0.3
+Summary: Simple encoder & text decryptor
+Home-page: UNKNOWN
+Author: AlmazCode
+Author-email: diamondplay43@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+
+ENG:
+
+ENS(text) -> encrypt text
+
+DEC(text) -> decrypt the text
+
+Encryption example:
+    text = ENS('this is text')
+
+    print(text)
+
+Conclusion:
+   le=g116S%$L2=0104S%$Ll=e105S%$l2=¿115S%$se=132S%$Lz=6105S%$ly=q115S%$Sx=132S%$Ls=@116S%$L%=h101S%$Lu=9120S%$Lm=%116
+
+decryption example:
+    text = DEC('le=g116S%$L2=0104S%$Ll=e105S%$l2=¿115S%$se=132S%$Lz=6105S%$ly=q115S%$Sx=132S%$Ls=@116S%$L%=h101S%$Lu=9120S%$Lm=%116')
+
+    print(text)
+
+Conclusion:
+    this is text
+
+
+

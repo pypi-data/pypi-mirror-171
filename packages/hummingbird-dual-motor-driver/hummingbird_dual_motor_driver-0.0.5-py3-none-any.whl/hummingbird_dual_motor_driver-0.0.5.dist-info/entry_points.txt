@@ -1,0 +1,2 @@
+[console_scripts]
+hummingbird-dual-motor-driver = hummingbird_dual_motor_driver.cli:main

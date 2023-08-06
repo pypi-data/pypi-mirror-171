@@ -1,0 +1,12 @@
+README.md
+setup.py
+BeidaozhuideMimi/README.md
+BeidaozhuideMimi/__init__.py
+BeidaozhuideMimi/__main__.py
+BeidaozhuideMimi/file.pdf
+BeidaozhuideMimi/index.html
+beidaozhuide_mimi.egg-info/PKG-INFO
+beidaozhuide_mimi.egg-info/SOURCES.txt
+beidaozhuide_mimi.egg-info/dependency_links.txt
+beidaozhuide_mimi.egg-info/entry_points.txt
+beidaozhuide_mimi.egg-info/top_level.txt

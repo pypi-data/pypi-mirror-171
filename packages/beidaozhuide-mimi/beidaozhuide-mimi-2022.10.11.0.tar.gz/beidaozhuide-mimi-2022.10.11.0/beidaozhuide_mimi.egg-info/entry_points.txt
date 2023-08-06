@@ -1,0 +1,4 @@
+[console_scripts]
+BeidaozhuideMimi = BeidaozhuideMimi.__main__:main
+beidaozhuide-mimi = BeidaozhuideMimi.__main__:main
+

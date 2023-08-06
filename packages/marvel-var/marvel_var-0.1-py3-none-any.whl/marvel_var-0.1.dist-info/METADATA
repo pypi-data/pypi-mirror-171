@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: marvel-var
+Version: 0.1
+Summary: Functions to fetch characters form marvel API and also to filter them out 
+Author: Varsha Bonam
+Author-email: varshabonam23@gmail.com
+License: MIT
+License-File: LICENSE.txt
+

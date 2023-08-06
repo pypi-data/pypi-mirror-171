@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: bk-generator
+Version: 1.0.1
+Summary: A package to generate a passphrase or username
+Author: bkap
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip
+
+# friendly-sniffle
+
+Quickly and securely generate a username or a password from EFF Dicewords list.
+
+## Installation
+
+```bash
+$ pip install bk-generator
+```
+
+## Usage
+
+### python
+
+```python
+>>> import generate
+>>> generate.generate_username(wordlist, include_numbers)
+>>> generate.generate_passphrase(wordlist, num_words, separator, capitalize, include_numbers)
+```
+
+### cli
+
+```bash
+$ generate --help
+usage: generate.py [-h] {passphrase,username} ...
+
+Generate a username or passphrase.
+
+options:
+  -h, --help            show this help message and exit
+
+commands:
+  valid commands
+
+  {passphrase,username}
+                        command to run
+```
+
+```bash
+$ generate username -h
+usage: generate.py username [-h] [-w WORDLIST] [-C] [-i]
+
+options:
+  -h, --help            show this help message and exit
+  -w WORDLIST, --wordlist WORDLIST
+                        Wordlist to use (default: eff_large_wordlist.txt)
+  -C, --copy            Copy passphrase to clipboard
+  -i, --include-numbers
+                        Include numbers in passphrase
+```
+
+```bash
+generate username
+Fancy-Zebra
+```
+
+```bash
+$ generate password -h
+usage: generate.py passphrase [-h] [-w WORDLIST] [-C] [-i] [-n NUM_WORDS] [-c] [-s SEPARATOR | -xs]
+
+options:
+  -h, --help            show this help message and exit
+  -w WORDLIST, --wordlist WORDLIST
+                        Wordlist to use (default: eff_large_wordlist.txt)
+  -C, --copy            Copy passphrase to clipboard
+  -i, --include-numbers
+                        Include numbers in passphrase
+  -n NUM_WORDS, --num-words NUM_WORDS
+                        Number of words in passphrase (default: 3)
+  -c, --capitalize      Capitalize the first letter of each word
+
+Separator options:
+  -s SEPARATOR, --separator SEPARATOR
+                        Separator between words (default: -)
+  -xs, --no-separator   Do not use a separator between words
+```
+
+```bash
+$ generate password -C -i
+Rejoice-Jigsaw-Exact14
+```
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>

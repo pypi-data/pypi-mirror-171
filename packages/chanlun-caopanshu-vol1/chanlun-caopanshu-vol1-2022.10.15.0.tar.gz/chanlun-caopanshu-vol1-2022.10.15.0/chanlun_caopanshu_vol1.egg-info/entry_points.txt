@@ -1,0 +1,4 @@
+[console_scripts]
+ChanlunCaopanshuVol1 = ChanlunCaopanshuVol1.__main__:main
+chanlun-caopanshu-vol1 = ChanlunCaopanshuVol1.__main__:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+QingaiYoushuX14 = QingaiYoushuX14.__main__:main
+qingai-youshu-x14 = QingaiYoushuX14.__main__:main
+

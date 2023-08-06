@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: mongoengine-stubs
+Version: 0.24.0
+Summary: PEP 561 type stubs for mongoengine

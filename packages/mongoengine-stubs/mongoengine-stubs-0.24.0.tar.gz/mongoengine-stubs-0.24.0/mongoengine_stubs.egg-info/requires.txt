@@ -1,0 +1,4 @@
+mongoengine
+
+[:python_version < "3.8"]
+typing_extensions>=3.7.4

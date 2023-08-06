@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hashflow-sdk
+Version: 0.1.0
+Summary: Python SDK to interact with Hashflow Smart Contracts
+Home-page: 
+Author: Hashflow Foundation
+Author-email: victor@hashflow.com
+License: Apache 2.0
+Keywords: hashflow exchange api defi ethereum eth
+Description-Content-Type: text/markdown
+Requires-Dist: web3 (==5.31.1)
+Requires-Dist: eth-account
+Requires-Dist: setuptools (==56.0.0)
+Requires-Dist: eth-keys
+
+
+## Install Packages
+```
+pip install hashflow-sdk
+```
+
+## Example Usage
+
+TODO: Write documentation on client usage.

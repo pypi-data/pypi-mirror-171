@@ -1,0 +1,8 @@
+setup.py
+dirtpy/__init__.py
+dirtpy/ecs.py
+dirtpy.egg-info/PKG-INFO
+dirtpy.egg-info/SOURCES.txt
+dirtpy.egg-info/dependency_links.txt
+dirtpy.egg-info/requires.txt
+dirtpy.egg-info/top_level.txt

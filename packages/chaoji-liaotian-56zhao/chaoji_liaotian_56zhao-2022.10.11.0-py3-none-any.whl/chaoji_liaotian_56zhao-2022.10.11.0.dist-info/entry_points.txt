@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiLiaotian56zhao = ChaojiLiaotian56zhao.__main__:main
+chaoji-liaotian-56zhao = ChaojiLiaotian56zhao.__main__:main
+

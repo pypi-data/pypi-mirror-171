@@ -1,0 +1,8 @@
+license.txt
+setup.py
+io2p/__init__.py
+io2p/io2p.py
+io2p.egg-info/PKG-INFO
+io2p.egg-info/SOURCES.txt
+io2p.egg-info/dependency_links.txt
+io2p.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+standard_transform/.bumpversion.cfg,sha256=jcRkGSfZoPR5h7DepZ5xVoWUPMUivMCOkwNvyYpYWZI,99
+standard_transform/__init__.py,sha256=z93Ubth5FDzQa7oamKJJ3CUXGJhxfXXzOy6FknYLhTA,123
+standard_transform/base.py,sha256=AYAQNxOmR0Aszd15kCIE8R7KXi8zjLddO7IZBrSYE1U,3931
+standard_transform/datasets.py,sha256=ZLUsudZsJgNPfbTDi17AEKYf_CBvVcrRDeyHE7a5wcU,1681
+standard_transform-0.0.1.dist-info/LICENSE,sha256=76oVJWL_ERHPw3PKn2Gt6BXSIEQ79GZeonbfxLsA_W4,1079
+standard_transform-0.0.1.dist-info/METADATA,sha256=D-crX-m8kQZnkjd8tr0S3_a7XjlambxTBUpHfMysmuA,3281
+standard_transform-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+standard_transform-0.0.1.dist-info/top_level.txt,sha256=NY26htiUFs4VBmMWQ6XPMaE4rcIr5_niK_8FBlf01JM,19
+standard_transform-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+DichengbenPaoniu = DichengbenPaoniu.__main__:main
+dichengben-paoniu = DichengbenPaoniu.__main__:main
+

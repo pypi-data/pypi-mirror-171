@@ -1,0 +1,7 @@
+psu_progs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psu_progs/charge_lithium_ion.py,sha256=cuQ7x6oYpTUBkSE7Ez2slaBqmfysGx3yjN7AJiUVRlk,8662
+psu_progs/koradserial.py,sha256=JbMMlQOw6lGpis2nEPKSlVCGKIIb01bKo1PObbAY5J0,10755
+psu_progs-0.1.0.dist-info/entry_points.txt,sha256=CbzFAUYtHsBaVjRzYcu3RlJct3DNccXDKuajWdJP0L0,80
+psu_progs-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+psu_progs-0.1.0.dist-info/METADATA,sha256=1wVytwsxnBqzy029c3g62bOvB6n-u6fMxVuWe0nurZk,3611
+psu_progs-0.1.0.dist-info/RECORD,,

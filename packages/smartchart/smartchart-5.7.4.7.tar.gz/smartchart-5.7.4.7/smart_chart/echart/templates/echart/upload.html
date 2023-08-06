@@ -1,0 +1,115 @@
+<!doctype html><html><head><title>上传静态文件</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style>
+.upload-drop-zone {
+  height: 150px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 150px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+</style>
+    <script src="/static/smartchart/js/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <form class='form-login' action="/echart/upload_file/" method="post" enctype="multipart/form-data" id="loginForm">
+      <div id="msg" class="alert alert-success">上传资源文件, 你可以使用ZIP打包上传(不要打包中文文件名)</div>
+      <div class="form-group">
+          <label for="id_file">请选择你的文件,或拖拽到下方:</label>
+          <input type="hidden" name="typename" id="id_typename">
+          <input type="hidden" name="s" value=1>
+          <input type="file" name="file" id="id_file">
+          <div class="upload-drop-zone" id="drop-zone">拖动文件到此处</div>
+      </div>
+      <button id="submitbut" type="button" class="btn btn-lg btn-primary btn-block" name="upload">提交</button>
+  </form>
+    <div id="filelist"></div>
+
+</div>
+</body>
+<script>
+$("#submitbut").click(function(){
+    let file = $.trim($("#id_file").val());
+    if(file == ""){
+    	document.getElementById("msg").innerHTML="请选择上传的文件";
+    	document.getElementById("msg").className="alert alert-warning";
+    	return;
+    }
+    if($("#id_file").get(0).files[0].size>100000000){
+    	document.getElementById("msg").innerHTML="文件大小超出限制100M";
+    	document.getElementById("msg").className="alert alert-warning";
+    	return;
+    }
+this.disabled=true;
+document.getElementById("msg").innerHTML="请耐心等待数据处理结果...不要关闭浏览器";
+$("#loginForm").submit();
+		});
+
+
+$("#id_file").change(function(){
+    let files=$("#id_file").get(0).files;
+    console.log(files)
+    try{
+    $('#drop-zone').html(files[0].name+"  修改时间:"+files[0].lastModifiedDate+ " Size:" + (files[0].size/1000).toFixed(1) +"K");
+    }
+    catch(e){
+    $('#drop-zone').html("未选择");
+    }
+    });
+
+    (function($) {
+    'use strict';
+    let dropZone = document.getElementById('drop-zone');
+    dropZone.ondrop = function(e) {
+        e.preventDefault();
+        this.className = 'upload-drop-zone';
+        let files=e.dataTransfer.files;
+        console.log(files)
+        if(files){$("#id_file").get(0).files=files;
+            $('#drop-zone').html(files[0].name+"  修改时间:"+files[0].lastModifiedDate+ " Size:" + (files[0].size/1000).toFixed(1) +"K");
+}
+    }
+
+    dropZone.ondragover = function() {
+        this.className = 'upload-drop-zone drop';
+        return false;
+    }
+
+    dropZone.ondragleave = function() {
+        this.className = 'upload-drop-zone';
+        return false;
+    }
+
+})(jQuery);
+function GetQueryString(name) {
+    let reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+    let r = window.location.search.substr(1).match(reg);
+    if (r != null) {
+    return unescape(r[2]);
+    }
+    return null;
+}
+$('#id_typename').val(GetQueryString('type'));
+$.get('/echart/get_staticfiles/?s=1&typename='+ GetQueryString('type'), (data) =>{
+    if(data.fileList) {
+        $('#filelist').html(`引用路径及文件列表:<br>/static/custom/${GetQueryString('type')}/${data.fileList}<br><button onclick='id_clear()'>清空</button>`);
+    }
+});
+function id_clear(){
+    if(confirm('将删除所有上传的文件,是否清空?')===true){
+   $.get('/echart/delete_staticfiles/?typename='+ GetQueryString('type'), (data) =>{
+        $('#filelist').html(`引用地址/static/custom/${GetQueryString('type')}/<br>${data.fileList}`);
+});}
+}
+
+</script>

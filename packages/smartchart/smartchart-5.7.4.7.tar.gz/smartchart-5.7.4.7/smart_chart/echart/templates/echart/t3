@@ -1,0 +1,13 @@
+{% extends "echart/base3.0.html" %}
+{% block head %}{% endblock %}
+{% block body %}
+<body {{body}}>
+<vue id="vue_app">
+    {% for div in div_list %}
+      {{div}}
+    {% endfor %}
+</vue>
+</body>
+{% endblock %}
+{% block javascript %}
+{% endblock %}

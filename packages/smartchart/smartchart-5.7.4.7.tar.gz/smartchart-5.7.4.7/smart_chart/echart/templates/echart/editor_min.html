@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/static/smartui/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/smartchart/editor/echart/main.css?_v=2">
+    <link rel="stylesheet" href="/static/smartchart/editor/modal.css">
+    <link rel="stylesheet" href="/static/smartchart/icon/iconfont.css">
+    <link rel="stylesheet" href="/static/smartchart/js/fun.css">
+    <title>SmartChart Editor</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="code-container" style="width: 40%;">
+            <div id="control-panel">
+                <a class="iconfont iconlivezhaopian" title="开启实时调试" id="id_autohtml" style="color:red;" onclick="auto_html()"></a>
+                 <a class="iconfont iconed_chart"  title="图形" id="load_democharts"></a>
+                 <a class="iconfont iconed_chart" style="color:#bd890a" title="自定义图形" id="load_democharts2"></a>
+                 <a class="iconfont iconzhutise"  title="颜色选择" id="color-picker"></a>
+                 <a onclick="loadoptionsample2()" class="iconfont iconhelp"  title="option样列参考"></a>
+                 <a class="iconfont icondownload"   title="图形模板商店" id="load_smartchart2"></a>
+                 <a class="iconfont icondownload" style="color:#6eb257" title="Echarts社区" id="load_echart2"></a>
+                 <a onclick="gensmartchart()" class="iconfont iconcc-magic" title="转化为SmartChart"></a>
+                <div class="control-btn-panel"><a onclick="disposeAndRun()" class="btn btn-default btn-sm">运行</a></div>
+            </div>
+            <div id="code-panel" class="ace_editor ace-tm"></div>
+        </div>
+        <div id="h-handler" class="handler" style="left: 40%;"></div>
+        <div class="right-container" style="width: 60%; left: 40%;">
+            <div id="chart-panel" class="right-panel"  style="-webkit-tap-highlight-color: transparent; user-select: none;"></div>
+            <div id="help-panel"   style="-webkit-tap-highlight-color: transparent; user-select: none;"></div>
+            <div id="tool-panel">
+               <button id="code-toggle-button" class="iconfont icongongnengjiaosequanxianguanli"></button>
+               <button id="save" class="iconfont iconed_savefree">保存</button>
+               <button id="saveoutside"  class="iconfont iconshare"></button>
+               <span id="code-info"><span class="code-info-time"></span><span class="code-info-type-info"></span></span>
+               <div id="theme"><a title="" class="default selected" data-original-title="default"><span></span></a><a title="" class="light" data-original-title="light"><span></span></a><a title="" class="dark" data-original-title="dark"><span></span></a></div>
+            </div>
+        </div>
+    </div>
+<div id="modalCharts" class="modal"></div>
+<div id="modalCharts2" class="modal"></div>
+<div id="myModal" class="modal modal-s"></div>
+
+<script src="/static/smartchart/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="/static/echart/dist/echarts.min.js"></script>
+<script src="/static/smartchart/js/fun.js"></script>
+<script type="text/javascript" src="/static/ace/ace.js"></script>
+<script src="/static/ace/mode-javascript.js"></script>
+<script type="text/javascript" src="/static/ace/snippets/javascript.js"></script>
+<script type="text/javascript" src="/static/ace/ext-language_tools.js"></script>
+<script type="text/javascript" src="/static/smartchart/opt/smt_lodash.js"></script>
+<script src="/static/smartchart/editor/colorpicker.js"></script>
+<script type="text/javascript" src="/static/smartchart/editor/echart/editor_min.js?_=2"></script>
+<script type="text/javascript" src="https://www.smartchart.cn/static/smartchart/editor/smartserver.js?=_1"></script>
+<script>{{chartinit|safe}}</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[console_scripts]
+Sinvshenxing = Sinvshenxing.__main__:main
+sinvshenxing = Sinvshenxing.__main__:main
+

@@ -1,0 +1,4 @@
+include a_pandas_ex_easy_loc/requirements.txt
+include a_pandas_ex_easy_loc/thirdparty.json
+include a_pandas_ex_easy_loc/README.MD
+include a_pandas_ex_easy_loc/LICENSE

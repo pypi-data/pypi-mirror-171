@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+exclude **/__pycache__/
+exclude src/test.py
+exclude src/abbreviation_uhh_what_is_word_for_tearing_apart_an_abbreviation.egg-info/
+exclude tests/

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/abbreviation_uhh_what_is_word_for_tearing_apart_an_abbreviation.egg-info/PKG-INFO
+src/abbreviation_uhh_what_is_word_for_tearing_apart_an_abbreviation.egg-info/SOURCES.txt
+src/abbreviation_uhh_what_is_word_for_tearing_apart_an_abbreviation.egg-info/dependency_links.txt
+src/abbreviation_uhh_what_is_word_for_tearing_apart_an_abbreviation.egg-info/top_level.txt
+src/auwiwftaa/__init__.py
+src/auwiwftaa/__main__.py

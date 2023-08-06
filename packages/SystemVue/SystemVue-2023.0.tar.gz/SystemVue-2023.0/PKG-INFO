@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: SystemVue
+Version: 2023.0
+Summary: Python package for SystemVue 2023
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ==3.10.*

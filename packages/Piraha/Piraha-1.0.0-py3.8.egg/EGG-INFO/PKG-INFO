@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Piraha
+Version: 1.0.0
+Summary: Parsing Expression Grammar for Python
+Home-page: https://github.com/stevenrbrandt/piraha-peg.git
+Author: Steven R. Brandt
+Author-email: steven@stevenrbrandt.com
+License: LGPL
+Description: Parsing Expression Grammar for Python
+Platform: UNKNOWN

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: shanten-tools
+Version: 0.1.7
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# shanten-tools
+
+Fast calculation of shanten numbers in Japanese Mahjong.
+
+## Usage
+
+```
+>>> from shanten_tools import shanten
+>>> import numpy as np
+>>> hand = np.array([
+>>>     3,1,1,1,1,1,1,1,3,
+>>>     0,0,0,0,0,0,0,0,0,
+>>>     0,0,0,0,0,0,0,0,0,
+>>>     0,0,0,0,0,0,0], dtype=np.uint8)
+>>> shanten(hand)
+1
+>>> hand = np.array([
+>>>     3,1,1,1,1,1,1,1,3,
+>>>     0,0,0,0,0,0,0,0,0,
+>>>     0,0,0,0,0,0,0,0,0,
+>>>     0,0,0,0,0,0,1], dtype=np.uint8)
+>>> shanten_discard(hand)
+array([2,1,2,2,1,2,2,1,2,
+       0,0,0,0,0,0,0,0,0,
+       0,0,0,0,0,0,0,0,0,
+       0,0,0,0,0,0,1], dtype=uint64)
+```
+
+## Notes
+- shanten number **+1** is output

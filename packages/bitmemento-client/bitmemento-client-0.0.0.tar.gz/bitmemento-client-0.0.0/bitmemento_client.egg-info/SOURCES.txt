@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitmemento_client.egg-info/PKG-INFO
+bitmemento_client.egg-info/SOURCES.txt
+bitmemento_client.egg-info/dependency_links.txt
+bitmemento_client.egg-info/not-zip-safe
+bitmemento_client.egg-info/top_level.txt
+foo/__init__.py

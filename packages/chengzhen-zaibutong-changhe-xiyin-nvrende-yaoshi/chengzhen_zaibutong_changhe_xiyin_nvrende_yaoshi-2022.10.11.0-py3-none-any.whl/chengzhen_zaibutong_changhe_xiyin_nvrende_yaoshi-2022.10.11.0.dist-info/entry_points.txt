@@ -1,0 +1,4 @@
+[console_scripts]
+ChengzhenZaibutongChangheXiyinNvrendeYaoshi = ChengzhenZaibutongChangheXiyinNvrendeYaoshi.__main__:main
+chengzhen-zaibutong-changhe-xiyin-nvrende-yaoshi = ChengzhenZaibutongChangheXiyinNvrendeYaoshi.__main__:main
+

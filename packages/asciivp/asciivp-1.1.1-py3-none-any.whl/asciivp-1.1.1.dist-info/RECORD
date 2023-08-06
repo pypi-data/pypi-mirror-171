@@ -1,0 +1,10 @@
+ascii_video_player/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ascii_video_player/ascii_frames.py,sha256=xL04Z9BZ5bhlJ2HecHitgRo99tAztdNDUWl7RVZDSZg,1246
+ascii_video_player/asciivp.py,sha256=K1zJo-reCUhvmjVv5fLISNDwvXylS2u8BroOei8mRvA,1144
+ascii_video_player/play.py,sha256=st0IqweOgwQgQh3pqCHYOgEswVj3d0nwoeVFUemvbkM,1091
+asciivp-1.1.1.dist-info/LICENSE,sha256=_rekoPX_bUO1H6vXsgg5-j7j_PTuApPYWeMgSMjtnWw,1095
+asciivp-1.1.1.dist-info/METADATA,sha256=9XJafwUtUcKZEeWvmVJcuhnDbRRrSmY_3g-RiY_GrB8,3410
+asciivp-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asciivp-1.1.1.dist-info/entry_points.txt,sha256=cT-5hvttochUkCWXSdyX8UU9xPSd3KlYqldkfuJFqmE,61
+asciivp-1.1.1.dist-info/top_level.txt,sha256=2rKUOASkUyuP29WQJlzXvWySEDymAWPE7-IozLmz0eM,19
+asciivp-1.1.1.dist-info/RECORD,,

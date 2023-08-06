@@ -1,0 +1,3 @@
+[console_scripts]
+tier=tier.main:main
+

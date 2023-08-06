@@ -1,0 +1,3 @@
+[console_scripts]
+q3rcon=aioq3rcon.cli:rcon
+

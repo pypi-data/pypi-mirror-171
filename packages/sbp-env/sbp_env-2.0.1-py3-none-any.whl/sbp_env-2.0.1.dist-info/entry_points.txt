@@ -1,0 +1,3 @@
+[console_scripts]
+sbp-env = sbp_env:run_cli
+

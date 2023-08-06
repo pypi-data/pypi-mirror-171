@@ -1,0 +1,13 @@
+xtmigrations/__init__.py,sha256=539rzNiiZ_6M_PkJGOSygpsWaI0iEK3NpfUqJiX9zJg,82
+xtmigrations/__main__.py,sha256=D8U5dQr-QqkVpcUVn5c_pQl2GmVuUVhzsnjAo1BDuYg,64
+xtmigrations/migrate.py,sha256=LZWXrMCNt1Ca9rWZ-s0uB2O_z9Imj4yeE0fjnZQm9xo,12984
+xtmigrations/config/db.cnf,sha256=2u_2k2PHU6qncGtRPUs8exytoYCulI919vR_HweU4l8,226
+xtmigrations/sql/base/init_postgresql.sql,sha256=Fuinow8e1NMAt0riESJkvWM8rjTT5lzN_Vt2VIDznjs,315
+xtmigrations/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtmigrations/utils/migrate_utils.py,sha256=eRf3ktjS-TPliLnOIJtJGozAQUCxj-_eW1faG7H90xk,2214
+xtmigrations-1.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+xtmigrations-1.0.3.dist-info/METADATA,sha256=bn6EmMMHoHYRhI1a4en4KEMH6Aoo10cm8qA6CUrLVBw,4930
+xtmigrations-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xtmigrations-1.0.3.dist-info/entry_points.txt,sha256=6-WJ2fouu7wWPibBPK74XlT-TViF1t9uQZFLpiT_2-U,45
+xtmigrations-1.0.3.dist-info/top_level.txt,sha256=PvxQ_PDzWJ_ePFNGoUuxtEe4_MtC40897ONuQ-msX2w,13
+xtmigrations-1.0.3.dist-info/RECORD,,

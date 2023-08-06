@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kalkulator_bmi
+Version: 0.0.1
+Summary: Paket ini berisi kalkulator yang berfungsi untuk menghitung BMI atau IMT
+Home-page: https://github.com/Miqbal20/kalkulator_bmi
+Author: Muhammad Iqbal
+Author-email: Muhammad Iqbal <miqbal020@hotmail.com>
+Project-URL: Homepage, https://github.com/Miqbal20/kalkulator_bmi
+Project-URL: Bug Tracker, https://github.com/Miqbal20/kalkulator_bmi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kalkulator BMI
+## BMI (Body Mass Index)
+Body Mass Index atau BMI adalah suatu ukuran yang digunakan untuk menunjukkan kategori berat badan seseorang. Metode perhitungan ini awalnya dikembangkan pada abad 19 oleh Adolphe Quetelet [2]. Adapun istilah lain dalam menyebut BMI adalah indeks massa tubuh (IMT). 
+
+## Cara menggunakannya
+```
+import program
+
+if __name__ == '__main__':
+    program.mulai()
+```

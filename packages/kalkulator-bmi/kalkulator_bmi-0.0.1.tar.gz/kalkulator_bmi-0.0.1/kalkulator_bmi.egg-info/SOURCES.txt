@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kalkulator_bmi.egg-info/PKG-INFO
+kalkulator_bmi.egg-info/SOURCES.txt
+kalkulator_bmi.egg-info/dependency_links.txt
+kalkulator_bmi.egg-info/top_level.txt
+program/__init__.py

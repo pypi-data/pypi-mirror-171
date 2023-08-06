@@ -1,0 +1,19 @@
+[project]
+name = "kalkulator_bmi"
+version = "0.0.1"
+authors = [
+  { name="Muhammad Iqbal", email="miqbal020@hotmail.com" },
+]
+description = "Paket ini berisi kalkulator yang berfungsi untuk menghitung BMI atau IMT"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Miqbal20/kalkulator_bmi"
+"Bug Tracker" = "https://github.com/Miqbal20/kalkulator_bmi/issues"

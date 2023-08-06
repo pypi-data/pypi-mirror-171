@@ -1,0 +1,5 @@
+typing
+ratelimiter
+requests
+openDateRange
+python>=2.7.18

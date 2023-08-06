@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: g4rzk
+Version: 0.5
+Summary: Sebuah module packages yang biasa di pakai buat anu ea, ytta
+Author: Angga Kurniawan
+Author-email: g4rzkurniawan@gmail.com
+License: MIT
+Keywords: g4rzk,garzk,garz.id,anggaxd
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: rich
+Requires-Dist: inquirer
+Requires-Dist: requests
+
+# G4RZK
+Sebuah module packages yang biasa di pakai buat anu ea, ytta
+
+Dibuat oleh [Angga Kurniawan](https://fb.me/g4rzk)
+
+## Usage
+```python
+# module
+from g4rzk.module import *
+
+# warna
+from g4rzk.color import *
+
+# date time
+from g4rzk.datetime import *
+
+# random user agent
+from g4rzk.module import Samsung
+from g4rzk.module import Xiaomi
+>> print(Samsung.random_ua)
+>> print(Xiaomi.random_ua)
+
+```
+## List Module
+ *  re
+ *  os
+ *  sys
+ *  json
+ *  time
+ *  inquirer
+ *  random
+ *  calendar
+ *  requests
+ 
+ * from datetime import date
+ * from datetime import datetime
+ * from bs4 import BeautifulSoup as parser
+ * from concurrent.futures import ThreadPoolExecutor
+
+ * from rich.tree import Tree
+ * from rich.panel import Panel
+ * from rich import print as iprint
+ * from rich.progress import track
+
+## String Date Time
+```python
+from g4rzk.module import *
+
+ct = datetime.now()
+n = ct.month
+bulan =  ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+try:
+	if n < 0 or n > 12:
+		exit()
+	nTemp = n - 1
+except ValueError:
+	exit()
+
+current = datetime.now()
+tahun = current.year
+bu = current.month
+hari = current.day
+bulan = bulan[nTemp]
+
+my_date = date.today()
+hr = calendar.day_name[my_date.weekday()]
+cv_hr = {"Sunday":"Minggu", "Monday":"Senin", "Tuesday":"Selasa", "Wednesday":"Rabu", "Thursday":"Kamis", "Friday":"Jumat", "Saturday":"Sabtu"}
+
+nama_hari = cv_hr[hr]
+tgl = (f"{hari}-{bulan}-{tahun}")
+tanggal = (f"{nama_hari}-{hari}-{bulan}-{tahun}")
+bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+
+now = datetime.now()
+hour = now.hour
+if hour < 4:
+	waktu = "Selamat Dini Hari"
+elif 4 <= hour < 12:
+	waktu = "Selamat Pagi"
+elif 12 <= hour < 15:
+	waktu = "Selamat Siang"
+elif 15 <= hour < 17:
+	waktu = "Selamat Sore"
+else:
+	waktu = "Selamat Malam"
+```
+
+## String Color Python
+```python
+GRAY = "\033[0;30m"
+
+RED = "\033[0;31m"
+GREEN = "\033[0;32m"
+YELLOW = "\033[0;33m"
+BLUE = "\033[0;34m"
+PURPLE = "\033[0;35m"
+CYAN = "\033[0;36m"
+
+LIGHT_GRAY = "\033[0;37m"
+DARK_GRAY = "\033[1;30m"
+LIGHT_RED = "\033[1;31m"
+LIGHT_GREEN = "\033[1;32m"
+LIGHT_YELLOW = "\033[1;33m"
+LIGHT_BLUE = "\033[1;34m"
+LIGHT_PURPLE = "\033[1;35m"
+LIGHT_CYAN = "\033[1;36m"
+LIGHT_WHITE = "\033[1;37m"
+
+BOLD = "\033[1m"
+FAINT = "\033[2m"
+ITALIC = "\033[3m"
+UNDERLINE = "\033[4m"
+BLINK = "\033[5m"
+NEGATIVE = "\033[7m"
+CROSSED = "\033[9m"
+END = "\033[0m"
+```
+
+## Random User Agent
+```python
+from g4rzk.module import *
+
+class Asus:
+	random_ua = [
+		"Mozilla/5.0 (Linux; Android 5.0.1; Nexus 7 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Safari/537.36 Viber/17.5.0.6", 
+		"Mozilla/5.0 (Linux; U; Android 4.2.2; ME302KL Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/ Safari/534.30 OPR/60.0.2254.59405",
+		"Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 GSA/11.31.16.21.x86", 
+		"Mozilla/5.0 (Linux; Android 6.0.1; ASUS_Z010D Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Mobile Safari/537.36"
+	]
+
+class Samsung:
+	random_ua = [
+		"Mozilla/5.0 (Linux; Android 10.0; SM-A70 Prime Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G531F Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-G900F Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-N920C Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.2 Chrome/56.0.2924.87 Mobile Safari/537.36"
+	]
+
+class Xiaomi:
+	random_ua = [
+		"Mozilla/5.0 (Linux; Android 10; XIAOMI Redmi Note 9 Pro Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5A Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36", 
+		"Mozilla/5.0 (Linux; Android 8.1.0; Redmi 6A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36"
+	]
+```

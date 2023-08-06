@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+multistageclustering/__init__.py
+multistageclustering/msc.py
+multistageclustering/twostageclustering.egg-info/PKG-INFO
+multistageclustering/twostageclustering.egg-info/SOURCES.txt
+multistageclustering/twostageclustering.egg-info/dependency_links.txt
+multistageclustering/twostageclustering.egg-info/requires.txt
+multistageclustering/twostageclustering.egg-info/top_level.txt

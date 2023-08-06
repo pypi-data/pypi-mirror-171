@@ -1,0 +1,16 @@
+pyqed/qchem/FCI.py,sha256=j0d1AHKW7AzuZJ9UEZXffUlpxbx47ZRO___HU1jSDik,15514
+pyqed/qchem/HF.py,sha256=R7e-iCq21elJUdjrumpS0RxgYknjKOs0_sY0A7Rz9zE,14186
+pyqed/qchem/core.py,sha256=rNnfbyM1I9lpGcpdajMaW2_4n7wrrCooYbjy-iFuEbI,28159
+pyqed/qchem/current_density.py,sha256=u4OiVg2P194ydT5J5sgDgjg3DqLunJ561rCL0JYm3BE,4509
+pyqed/qchem/density.py,sha256=UXJ6gG7icmYFri8gbvoBFQFFdWg6eySjkS0vo8btRMY,13531
+pyqed/qchem/dyson.py,sha256=gFK9buUAyenGjjuY0rkrUoOLijnJgA02PGLKVT7kS1w,3727
+pyqed/qchem/plt.py,sha256=WM0OhsqGo941UcDbDluycn120M0AFzGbwscznaetD8I,2498
+pyqed/qchem/tdhf.py,sha256=kDHjVuNFJd_OB6YlBEbkrfvrGPEOmouILGzSCikbCYA,9055
+pyqed/qchem/view.py,sha256=VnAznqJCrqH2bX_v04B0OxMuE72_oKuFXT2NsYG8e30,2033
+qed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqed-0.1.1.dist-info/LICENSE,sha256=A1-w6FGFDmmfIyRjvzvq4OaTZZ_gy8DVvUU8dJ3IkoQ,1064
+pyqed-0.1.1.dist-info/METADATA,sha256=q3tCUuLl6QcaVWPncP42WlWxknaz3TCadALGs58XR_I,1737
+pyqed-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyqed-0.1.1.dist-info/entry_points.txt,sha256=15sg8akUPc8M-oyxWTgGudqsQ6Wu_mkp0iDum7548_Y,42
+pyqed-0.1.1.dist-info/top_level.txt,sha256=dfDQxUt6F93d9B7EFRzzqiq7ZI0b4_gq_ZcI0I8SJwg,6
+pyqed-0.1.1.dist-info/RECORD,,

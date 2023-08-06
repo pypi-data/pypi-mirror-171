@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tickify
+Version: 1.0.0
+Summary: A terminal based pomodoro application
+Author-email: Gabriel Rockson <thegabrielrockson@gmail.com>
+Project-URL: Github, https://github.com/rocksongabriel/tickify
+Keywords: pomodoro,productivity
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer
+Requires-Dist: playsound
+Requires-Dist: pygobject
+Requires-Dist: sqlalchemy
+Requires-Dist: typing-extensions
+Requires-Dist: pynput
+Provides-Extra: dev
+
+# TICKIFY
+
+A simple to use terminal based pomodoro application.

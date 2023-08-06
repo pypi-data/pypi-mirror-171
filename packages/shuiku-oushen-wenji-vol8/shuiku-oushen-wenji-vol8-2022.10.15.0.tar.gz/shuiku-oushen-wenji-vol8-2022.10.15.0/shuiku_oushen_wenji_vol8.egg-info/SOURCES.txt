@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShuikuOushenWenjiVol8/README.md
+ShuikuOushenWenjiVol8/__init__.py
+ShuikuOushenWenjiVol8/__main__.py
+ShuikuOushenWenjiVol8/file.pdf
+ShuikuOushenWenjiVol8/index.html
+shuiku_oushen_wenji_vol8.egg-info/PKG-INFO
+shuiku_oushen_wenji_vol8.egg-info/SOURCES.txt
+shuiku_oushen_wenji_vol8.egg-info/dependency_links.txt
+shuiku_oushen_wenji_vol8.egg-info/entry_points.txt
+shuiku_oushen_wenji_vol8.egg-info/top_level.txt

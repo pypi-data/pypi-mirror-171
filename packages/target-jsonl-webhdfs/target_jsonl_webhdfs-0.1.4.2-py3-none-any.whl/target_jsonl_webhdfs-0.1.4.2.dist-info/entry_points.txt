@@ -1,0 +1,3 @@
+[console_scripts]
+target_jsonl_webhdfs=target_jsonl_webhdfs:main
+

@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  core:
+    build: .
+    image: cross_monitor_bot:latest
+    # restart: unless-stopped
+    restart: always
+    entrypoint:
+      - "python"
+      - "-m"
+      - "cross_monitor_bot.run"
+      - "-c"
+      - "/opt/cross_monitor_bot/config.py"
+    volumes:
+      - type: bind
+        source: /opt/cross_monitor_bot
+        target: /opt/cross_monitor_bot

@@ -1,0 +1,18 @@
+[project]
+name = "play_and_code"
+version = "0.0.2"
+authors = [
+  { name="Play and Code", email="info@play-code.de" },
+  { name="Hassan Abu-Jabir", email="hassan@abujabir.de" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pygame>=2.1.2"
+]
+

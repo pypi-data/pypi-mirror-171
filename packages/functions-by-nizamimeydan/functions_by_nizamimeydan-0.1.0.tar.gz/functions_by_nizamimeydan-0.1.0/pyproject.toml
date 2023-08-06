@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-nizamimeydan"
+version = "0.1.0"
+description = ""
+authors = ["Meydan52 <nizamimeydan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_nizamimeydan"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

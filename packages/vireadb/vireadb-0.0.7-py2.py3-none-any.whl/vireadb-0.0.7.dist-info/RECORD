@@ -1,0 +1,11 @@
+vireadb/__init__.py,sha256=rJTmszIxEMhqwpn6J_fZ59rzVu_Dqej9rIGjMDnIsK0,172
+vireadb/common.py,sha256=y0KYWYhhv9VaZ0n5hWRpc1-CKj5SYvGiYpyxZjepsUU,1145
+vireadb/compress.py,sha256=MycCTZvy4ZT04hRoH-LmMZkY28qA4-BeH_UF1sSvPJc,2670
+vireadb/cram.py,sha256=lvthyo05sCX2NsB6hwX-dMR4vmVnQks8OriVo77NR-s,6744
+vireadb/fasta.py,sha256=vfK9rm5ARU41Fek9XMGPME0wS0o60XdHMnGSUU6VPg4,975
+vireadb/vireadb.py,sha256=d1nAvoyDPr1Q9U-3kBGj3DOi8X9d1k-cTpb4Ykgm5MI,21596
+vireadb-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vireadb-0.0.7.dist-info/METADATA,sha256=rNaTjfkKF5gRcoQrkqc229gZdBFN48WCY_l9jV_Q4zE,1055
+vireadb-0.0.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+vireadb-0.0.7.dist-info/top_level.txt,sha256=pEnp5X75aMpb5bg-UQQBWLmGaK6KlxHE__qhf7nus6I,8
+vireadb-0.0.7.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+typer
+playsound
+pygobject
+sqlalchemy
+typing-extensions
+pynput
+
+[dev]

@@ -1,0 +1,10 @@
+bareasgi_sspi/__init__.py,sha256=7lU6LV6NziYqI4HAYJoEH1qRzQ19DPRgBguxSyBaoME,305
+bareasgi_sspi/constants.py,sha256=wcJD27V9YEk_ImNBkRn7gQW5n5VYjFT0bR5fHKDOhIA,259
+bareasgi_sspi/helpers.py,sha256=qmV0JjfXAbETZzql767iAezcas5K-aEXiO-U08-wzP0,3061
+bareasgi_sspi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareasgi_sspi/session_manager.py,sha256=-W__XyZF3JbxmAChG7UXAWGciD1Bj6ZE0ddzQ1_YX2A,4797
+bareasgi_sspi/spnego_middleware.py,sha256=-4DwZPXqeMhAskE9BbJr3-ceefOTfTrHrCn5pWTcyBE,10959
+bareasgi_sspi-4.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bareasgi_sspi-4.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bareasgi_sspi-4.2.0.dist-info/METADATA,sha256=IJRt8PBeVrDhEMv1IKrTEPrJqxJFqUH1S6ds2oiF4cE,4430
+bareasgi_sspi-4.2.0.dist-info/RECORD,,

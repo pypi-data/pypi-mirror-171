@@ -1,0 +1,4 @@
+[console_scripts]
+HuainanhaiFaze = HuainanhaiFaze.__main__:main
+huainanhai-faze = HuainanhaiFaze.__main__:main
+

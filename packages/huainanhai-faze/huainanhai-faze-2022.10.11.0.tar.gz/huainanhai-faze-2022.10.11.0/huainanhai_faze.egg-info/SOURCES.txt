@@ -1,0 +1,12 @@
+README.md
+setup.py
+HuainanhaiFaze/README.md
+HuainanhaiFaze/__init__.py
+HuainanhaiFaze/__main__.py
+HuainanhaiFaze/file.pdf
+HuainanhaiFaze/index.html
+huainanhai_faze.egg-info/PKG-INFO
+huainanhai_faze.egg-info/SOURCES.txt
+huainanhai_faze.egg-info/dependency_links.txt
+huainanhai_faze.egg-info/entry_points.txt
+huainanhai_faze.egg-info/top_level.txt

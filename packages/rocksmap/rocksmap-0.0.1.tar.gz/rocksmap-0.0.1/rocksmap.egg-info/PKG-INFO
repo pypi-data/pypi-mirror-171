@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rocksmap
+Version: 0.0.1
+Summary: MutableMapping interface for RocksDB
+Home-page: https://github.com/quantology/rocksmap
+Author: Michael Tartre
+Author-email: mtartre@gmail.com
+License: bsd-3-clause
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# RocksMap
+
+A mutable mapping interface for Rocksdb in Python.

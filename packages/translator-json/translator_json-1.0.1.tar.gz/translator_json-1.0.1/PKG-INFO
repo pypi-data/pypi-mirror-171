@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: translator_json
+Version: 1.0.1
+Summary: A translator for Json info
+Home-page: https://gitlab.com/FlorentSimonnot1/translator
+Author: Florent Simonnot
+Author-email: contact@gwanly.fr
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/FlorentSimonnot1/translator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# The Translator
+
+## Pre required
+
+Please verify that python is installed on your machine.
+
+Install Pip if you haven't already.
+
+Windows : https://phoenixnap.com/kb/install-pip-windows
+
+Linux : https://www.odoo.com/forum/help-1/how-to-install-pip-in-python-3-on-ubuntu-18-04-167715
+
+Mac : https://www.geeksforgeeks.org/how-to-install-pip-in-macos/
+
+You can use Pycharm to code better and faster.
+
+Please install google translate api.
+
+    pip install google-cloud-translate==2.0.1
+
+## How use it
+

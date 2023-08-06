@@ -1,0 +1,14 @@
+geventhttpclient/__init__.py,sha256=GDSkSKzBE8IwkHP_UWCd7mafEdKWVzE6K3xg44hoMC0,176
+geventhttpclient/_parser.cp38-win32.pyd,sha256=yK1hnayLdNUhAUyBTPR2pLvFMVxUJh0CPcYXeAg6Elw,36864
+geventhttpclient/client.py,sha256=g_9hjfmP_UEl9xn1_EvGtaypXrTK6ygG5dXM5K7SBqI,11125
+geventhttpclient/connectionpool.py,sha256=HZjXwCEh4-HnRurfICGu38qYUuvGMFlhg01rPdnakc4,8714
+geventhttpclient/header.py,sha256=25Ixq5FcYBseEEx6PIT5ns0glUewtiFQGVT6JD-12wI,8090
+geventhttpclient/httplib.py,sha256=Q5M2cSNkRlrO7_K2VsrRptTp9GXq4LKQihPaL_0vYH4,3614
+geventhttpclient/response.py,sha256=E83VRbWyfuf84Dq4KViNrg9fSuqFEvtnP5_iahYEC_A,9353
+geventhttpclient/url.py,sha256=Xq1f0r2IrEotTt1QzITq6kRbQbirveHaYDyP-qIyiLs,7308
+geventhttpclient/useragent.py,sha256=F_jMMu4Kp3df85bCduWuu2u-psjPVMxSNffIyekwx0I,22287
+geventhttpclient-2.0.4.dist-info/LICENSE.txt,sha256=Bo030HhWoeKCzkIfDvzxmSe47TAIpFQr4m-lNTC0REs,1461
+geventhttpclient-2.0.4.dist-info/METADATA,sha256=S0IlaW_UTTM5MKSVr7DLLWKwCRbZ6Oecg6XgeJxwH_8,1277
+geventhttpclient-2.0.4.dist-info/WHEEL,sha256=f5A3Ypo9PM0E06rgvH7-s12WthkA89SedEqLArPnjKU,96
+geventhttpclient-2.0.4.dist-info/top_level.txt,sha256=OzelGoQPCI-n8aaLRlV5Di3VS7RYbaPjM0UFCZRkNWs,17
+geventhttpclient-2.0.4.dist-info/RECORD,,

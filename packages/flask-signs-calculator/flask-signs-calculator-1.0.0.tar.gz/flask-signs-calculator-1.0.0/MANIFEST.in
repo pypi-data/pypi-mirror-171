@@ -1,0 +1,3 @@
+exclude signs_calculator/app.py
+exclude signs_calculator/extensions/admin.py
+prune tests

@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include ket/clib/libs *

@@ -1,0 +1,4 @@
+[console_scripts]
+PaoniuXiaoyouxi = PaoniuXiaoyouxi.__main__:main
+paoniu-xiaoyouxi = PaoniuXiaoyouxi.__main__:main
+

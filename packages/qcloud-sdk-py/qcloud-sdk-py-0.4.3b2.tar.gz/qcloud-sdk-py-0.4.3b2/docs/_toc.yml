@@ -1,0 +1,7 @@
+format: jb-book
+root: README.md
+chapters:
+  - file: api/README.md
+    sections:
+      - file: api/cos.rst
+      - file: api/cls.rst

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Aseelpdf.egg-info/PKG-INFO
+Aseelpdf.egg-info/SOURCES.txt
+Aseelpdf.egg-info/dependency_links.txt
+Aseelpdf.egg-info/top_level.txt
+aseelpdf/__init__.py
+aseelpdf/pdf2text.py

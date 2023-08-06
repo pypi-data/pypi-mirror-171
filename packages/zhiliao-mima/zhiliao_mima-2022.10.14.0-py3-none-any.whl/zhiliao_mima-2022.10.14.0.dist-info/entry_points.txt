@@ -1,0 +1,4 @@
+[console_scripts]
+ZhiliaoMima = ZhiliaoMima.__main__:main
+zhiliao-mima = ZhiliaoMima.__main__:main
+

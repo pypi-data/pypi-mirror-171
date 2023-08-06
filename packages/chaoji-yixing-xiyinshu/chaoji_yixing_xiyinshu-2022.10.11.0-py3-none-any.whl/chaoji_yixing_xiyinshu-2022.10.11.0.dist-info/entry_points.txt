@@ -1,0 +1,4 @@
+[console_scripts]
+ChaojiYixingXiyinshu = ChaojiYixingXiyinshu.__main__:main
+chaoji-yixing-xiyinshu = ChaojiYixingXiyinshu.__main__:main
+

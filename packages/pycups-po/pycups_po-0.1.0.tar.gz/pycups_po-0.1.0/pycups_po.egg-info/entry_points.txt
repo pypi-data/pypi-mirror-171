@@ -1,0 +1,2 @@
+[console_scripts]
+pycups_po = pycups_po.__main__:main

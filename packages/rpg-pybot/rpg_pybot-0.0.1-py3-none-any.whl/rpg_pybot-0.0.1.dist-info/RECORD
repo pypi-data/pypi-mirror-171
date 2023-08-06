@@ -1,0 +1,9 @@
+rpg_pybot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpg_pybot/dice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpg_pybot/dice/roll.py,sha256=FhM8uUS39lLFmZIIyzcF1_c6qmc3I0nFi2B24x4uAsg,382
+rpg_pybot/players/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpg_pybot/players/player.py,sha256=jqrLhBtFRkO8_uFOMtO5pz5KuZMlXhBjArJrmCQGlo8,2846
+rpg_pybot-0.0.1.dist-info/METADATA,sha256=CxrFI4dg8SaS838a8S-aojL01NQIhx14UBJqrr8yq_U,811
+rpg_pybot-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpg_pybot-0.0.1.dist-info/top_level.txt,sha256=cgNwn7FOxm8Bml7jCa71x8I5axMqwh-R5DNmjf9ruiA,10
+rpg_pybot-0.0.1.dist-info/RECORD,,

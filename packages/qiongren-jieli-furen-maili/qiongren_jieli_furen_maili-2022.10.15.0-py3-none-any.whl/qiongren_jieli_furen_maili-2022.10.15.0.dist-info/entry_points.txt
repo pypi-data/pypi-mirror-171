@@ -1,0 +1,4 @@
+[console_scripts]
+QiongrenJieliFurenMaili = QiongrenJieliFurenMaili.__main__:main
+qiongren-jieli-furen-maili = QiongrenJieliFurenMaili.__main__:main
+

@@ -1,0 +1,10 @@
+{
+  "Executable": "~/miniconda3/envs/chem-env/bin/python",
+  "Arguments": ["-m", "chemplus.hpc.docking_parser"],
+  "Resources": {
+    "Memory": 1073741824,
+    "Nodes": 1,
+    "CPUsPerNode": 1,
+    "Runtime": 3600
+  }
+} 

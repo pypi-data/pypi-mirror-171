@@ -1,0 +1,4 @@
+[console_scripts]
+LianaiHouheixue = LianaiHouheixue.__main__:main
+lianai-houheixue = LianaiHouheixue.__main__:main
+

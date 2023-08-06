@@ -1,0 +1,12 @@
+pyapollo/__init__.py,sha256=2wQrK8LR69I72VxDvQk3Zln80Jao2a_dw6GKPZdkvZ0,65
+pyapollo/apollo_client.py,sha256=9WxeW3xJQbdE2LO2ZZe0sEJwpOF31-nDrQTrsUJiJ7Y,6404
+pyapollo/async_apollo_client.py,sha256=tSsmfCWBomYYdExASmBglWArO5X_8KZR4HZ2QAilI5c,7223
+pyapollo/constant.py,sha256=zTtj5s1bAuanAYClll-MO3_OtOQJs11uuil9kdnp2p8,210
+pyapollo/format_parser.py,sha256=3MvH0EKsYRJkaT_KHRrfRJ2IIn35hdxIupufL5Oc3gw,340
+pyapollo/parser_selector.py,sha256=dNeuM_j9v7JAK2JO7FN-8IDJM0IFTGBm8cxFmmUZVaI,660
+pyapollo/strengthen_apollo_client.py,sha256=FKI5dCdEEwNb_1MLcyE2f0QPkFk9-Fo5P70_yXPat6Q,3137
+strengthen_apollo_client-1.0.3.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+strengthen_apollo_client-1.0.3.dist-info/METADATA,sha256=aO0HGS6VIqBocu6T8nNEUc9uhQITg4wwTI8fpwVYJYc,1442
+strengthen_apollo_client-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+strengthen_apollo_client-1.0.3.dist-info/top_level.txt,sha256=w9Ndjo1vDBt73mCN718D_yKunkViId8FFYQluKqx0vU,9
+strengthen_apollo_client-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+MeinianShifenzhongRangnideXinshuiBianhuoqian = MeinianShifenzhongRangnideXinshuiBianhuoqian.__main__:main
+meinian-shifenzhong-rangnide-xinshui-bianhuoqian = MeinianShifenzhongRangnideXinshuiBianhuoqian.__main__:main
+

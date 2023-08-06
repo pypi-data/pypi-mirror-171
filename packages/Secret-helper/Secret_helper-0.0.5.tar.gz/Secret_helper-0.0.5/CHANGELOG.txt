@@ -1,0 +1,16 @@
+Change Log
+====================
+
+Version 0.0.1 (2022-10-12)
+- Initial release
+
+Version 0.0.2 (2022-10-12)
+- Fixed the data issue
+
+Version 0.0.4 (2022-10-13)
+- comment the print statements for the test
+- Return None if the input is not valid
+
+Version 0.0.5 (2022-10-13)
+- Decryption function added
+- Comment the print statements for the test

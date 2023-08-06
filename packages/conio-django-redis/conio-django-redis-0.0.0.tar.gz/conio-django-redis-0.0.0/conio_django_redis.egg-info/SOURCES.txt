@@ -1,0 +1,8 @@
+README.rst
+setup.py
+conio_django_redis.egg-info/PKG-INFO
+conio_django_redis.egg-info/SOURCES.txt
+conio_django_redis.egg-info/dependency_links.txt
+conio_django_redis.egg-info/not-zip-safe
+conio_django_redis.egg-info/top_level.txt
+foo/__init__.py

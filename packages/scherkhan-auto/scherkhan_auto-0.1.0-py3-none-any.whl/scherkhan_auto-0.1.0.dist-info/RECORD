@@ -1,0 +1,14 @@
+scherkhan/__init__.py,sha256=X3Qzx41kZqRLwgZ_O4hVv0RwdRAMHbb0dG8-oEw3rUY,55
+scherkhan/client.py,sha256=tt38Z7CTV0m616b3eRM9J9hZ3E7q-A3qpxxNAfTvzgs,3834
+scherkhan/ws.py,sha256=122BoTLxcC-V1OcbmeJd3uvqTa_MD1K7-G8RQD6rt2s,1895
+scherkhan/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scherkhan/models/car.py,sha256=2RcJvHEgnRxgq1IdfnWzVuOIbPtLqYEQhaWo1XbdfO4,758
+scherkhan/models/device.py,sha256=MISc0zXaztQhQATdJpMCAO-QglcnA_driancZtkR54Y,396
+scherkhan/models/enums.py,sha256=M-hBrTNAHnsKjVPeFZVbo932b3mEynZXz3KHPSyB7fM,2480
+scherkhan/models/user.py,sha256=kR_CMc9OOE_BgAdyKLJVa_nR8SoDpU978tWhFWaHCfU,504
+scherkhan/models/websocket.py,sha256=hJMv4_0AL2iiXdhwwKRbU9PcNegIcWw-qS253fgo3Xs,2909
+scherkhan_auto-0.1.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+scherkhan_auto-0.1.0.dist-info/METADATA,sha256=Z3PhwSIYDivNBSuvmcRfLTD0V-bQVBZTqul6OTdYL94,3473
+scherkhan_auto-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scherkhan_auto-0.1.0.dist-info/top_level.txt,sha256=tujhdVA7Ng9xRXK_-J1lULkDHlYd6OmbG52UghbPY0k,10
+scherkhan_auto-0.1.0.dist-info/RECORD,,

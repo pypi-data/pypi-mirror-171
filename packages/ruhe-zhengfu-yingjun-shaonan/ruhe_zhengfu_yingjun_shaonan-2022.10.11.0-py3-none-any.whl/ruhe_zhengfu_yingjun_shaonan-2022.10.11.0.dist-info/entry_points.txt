@@ -1,0 +1,4 @@
+[console_scripts]
+RuheZhengfuYingjunShaonan = RuheZhengfuYingjunShaonan.__main__:main
+ruhe-zhengfu-yingjun-shaonan = RuheZhengfuYingjunShaonan.__main__:main
+

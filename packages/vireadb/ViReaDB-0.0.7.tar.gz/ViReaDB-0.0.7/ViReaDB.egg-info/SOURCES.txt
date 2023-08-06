@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ViReaDB.egg-info/PKG-INFO
+ViReaDB.egg-info/SOURCES.txt
+ViReaDB.egg-info/dependency_links.txt
+ViReaDB.egg-info/requires.txt
+ViReaDB.egg-info/top_level.txt
+vireadb/__init__.py
+vireadb/common.py
+vireadb/compress.py
+vireadb/cram.py
+vireadb/fasta.py
+vireadb/vireadb.py

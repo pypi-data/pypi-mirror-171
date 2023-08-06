@@ -1,0 +1,4 @@
+[console_scripts]
+TuodanXiulianShouce = TuodanXiulianShouce.__main__:main
+tuodan-xiulian-shouce = TuodanXiulianShouce.__main__:main
+

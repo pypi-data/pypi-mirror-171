@@ -1,0 +1,6 @@
+setup.py
+legendlab/__init__.py
+legendlab.egg-info/PKG-INFO
+legendlab.egg-info/SOURCES.txt
+legendlab.egg-info/dependency_links.txt
+legendlab.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+dhpackagetest/__init__.py,sha256=nsXKxS_8jo183tbyoxztKWPuRxKSjb6R6uU9wjF8o2Q,74
+dhpackagetest/dhmoduletest.py,sha256=DLsA6Ej5ZM67dWx0QXe8FlZT3O8D4whyxlVnswMY3rM,80
+dhpackagetest-0.1.dist-info/METADATA,sha256=1JUPfnvVka9X_4eoeoWJbcKC4_TzB4iZdiyAb24SEcY,321
+dhpackagetest-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dhpackagetest-0.1.dist-info/top_level.txt,sha256=BrNC2RpSzqEV5qEU02ROH0UOvcjkdcRSxLgwS8UT70g,14
+dhpackagetest-0.1.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: functions-by-kdrv1998
+Version: 0.3.0
+Summary: This is our test project
+Author: Zhaniya Kadyrova
+Author-email: kdrv.jn@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions
+
+#### This is our test project.
+
+#### Please install this package 
+```
+pip install functions-by-kdrv1998
+```
+
+
+#### You can also install older package 
+```
+pip install functions-by-kdrv1998==VERSION_NUMBER
+```

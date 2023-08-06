@@ -1,0 +1,2 @@
+[console_scripts]
+mempw = mempw.core:cli

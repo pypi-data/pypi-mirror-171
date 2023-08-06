@@ -1,0 +1,92 @@
+# Input
+# List of input images, each having same number of channels, arranged in the same order.
+# Simplest input format is a list of image paths:
+# InputImagePaths:
+#   Cycle 1: "img_path1"
+#   Cycle 2: "img_path2"
+#   Cycle 3: "img_path3"
+
+# If your input image is a stack that contains all the cycles
+# write it in a format
+# InputImagePaths:
+#    CycleStack: "stack_path"
+
+# If your input is not structured as a multichannel stack, you can specify
+# individual channels per cycle like described bellow.
+# If file contains more than one page, they will be treated as z-planes.
+# InputImagePaths:
+#    Cycle 1:
+#        DAPI: "img_path1"
+#        Cy5: "img_path2"
+#    Cycle 2:
+#        DAPI: "img_path3"
+#        Cy5: "img_path4"
+
+# ReferenceCycle indicates which cycle to use as reference for alignment of
+# all other cycles.
+# If all your cycles are contained in one image,
+# MicroAligner will try to identify cycles based on reference channel names.
+# Cycle ids start from 1.
+# Cycle images must have the same number of channels, arranged in the same order,
+# Such that ReferenceChannel e.g. DAPI, is in the same position in the cycle, for example:
+# Cycle1: DAPI, CD4, CD3, CD45
+# Cycle2: DAPI, PanKeratin, Tubulin, Ki67
+# ReferenceChannel, has to be present in all rounds.
+# At the moment you cannot mix different input methods.
+
+Input:
+  InputImagePaths:
+    Cycle 1: "img_path"
+    Cycle 2: "img_path2"
+    Cycle 3: "img_path2"
+  ReferenceCycle: 1
+  ReferenceChannel: "DAPI"
+
+# Output
+# Images will be saved to directory with the following patterns
+# If SaveOutputToCycleStack: true
+# feature_reg_result_stack.tif and optflow_reg_result_stack.tif
+# If SaveOutputToCycleStack: false
+# feature_reg_result_cyc001.tif and optflow_reg_result_cyc001.tif
+# OutputPrefix will be added to each image name.
+# You can specify OutputPrefix: "" if you don't want to add anything to output names.
+
+Output:
+  OutputDir: "/path/to/out/registered_imgs"
+  OutputPrefix: "experiment_001_"
+  SaveOutputToCycleStack: true
+
+# Parameters for registration parts
+# If you do not want to do optical flow or feature based registration
+# then remove that part from the RegistrationParameters.
+# RegistrationParameters:
+# NumberPyramidLevels - number of levels in scale pyramid, min 1, default 3
+# NumberIterationsPerLevel - number of registration iteration per pyramid level
+# TileSize - tiles are used to speed up computation
+# Overlap - overlap between adjacent tiles
+# NumberOfWorkers - number of parallel tiles to work on at the same time,
+#   default 0 - num parallel task as many as cores
+# UseFullResImage - if true will use full resolution image as a part of pyramid base alignment
+# It is more useful for the OptFlowReg as it gives more precise local alignment
+# UseDOG - apply difference of Gaussian filters to the images before performing
+#   registration. It may help for cases with uneven illumination. If you see
+#   too much deformation after registration, you may want to turn it off for OptFlowReg.
+
+RegistrationParameters:
+  FeatureReg:
+    NumberPyramidLevels: 3
+    NumberIterationsPerLevel: 3
+    TileSize: 1000
+    Overlap: 100
+    NumberOfWorkers: 0
+    UseFullResImage: false
+    UseDOG: true
+
+  OptFlowReg:
+    NumberPyramidLevels: 3
+    NumberIterationsPerLevel: 3
+    TileSize: 1000
+    Overlap: 100
+    NumberOfWorkers: 0
+    UseFullResImage: true
+    UseDOG: false

@@ -1,0 +1,14 @@
+include LICENSE
+include README.md
+
+include CITATION.cff
+include environment.yaml
+recursive-include config_examples *
+
+graft microaligner
+
+recursive-exclude .idea *
+recursive-exclude .git *
+recursive-exclude microaligner*.egg-info *
+recursive-exclude microaligner*.dist-info *
+global-exclude *.py[cod]

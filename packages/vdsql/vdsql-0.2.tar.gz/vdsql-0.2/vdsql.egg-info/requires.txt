@@ -1,0 +1,6 @@
+visidata>=2.10.2
+clickhouse-driver[numpy]>=0.2.4
+ibis-framework[clickhouse,sqlite]>=3.2
+ibis-substrait
+sqlparse
+ibis-bigquery

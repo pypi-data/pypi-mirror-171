@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/OSDA/__init__.py
+src/OSDA.egg-info/PKG-INFO
+src/OSDA.egg-info/SOURCES.txt
+src/OSDA.egg-info/dependency_links.txt
+src/OSDA.egg-info/top_level.txt

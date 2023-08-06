@@ -1,0 +1,72 @@
+# The Translator
+
+## Why this plugin
+
+When you create a multi language website, it's very long to translate all your sentences.
+
+With json_translator, you can translate a json file to many languages.
+
+The plugin will create the json file in according to the language you want to translate.
+
+## Pre required
+
+To use json_translator plugin you have to create a Google Cloud account.
+
+See : https://cloud.google.com
+
+Please verify in your apis dashboard that cloud translation API service is enable.
+
+In the cloud translation service, go to your credentials.
+
+Please create a service account.
+
+You will have a googlekey.json file which is required to use the API.
+
+## How use it
+
+To use the plugin please write the command line 
+
+    json_translate [options]
+
+You have to use some options.
+
+### Google file (Required)
+
+    json_translate -c googlekey.json
+    json_translate --credentials googlekey.json
+
+Used to set the Google credentials.
+
+### File to translate (Required)
+
+    json_translate -i myFile.json
+    json_translate --input myFile.json
+
+Used to set the file to translate.
+
+### Destination (Required)
+
+    json_translate -o myFile.json
+    json_translate --output myFile.json
+
+Used to set the file to translate.
+
+### Language Source (Optional)
+
+    json_translate -f en
+    json_translate --from en
+
+Used to set the source language. By default, value is FR (French).
+
+### Language(s) result (Optional)
+
+    json_translate -l de,it,en
+    json_translate --languages de,it,en
+
+### List available languages
+
+    json_translate -a
+
+## Examples
+
+    json_translate -c googlekey.json -i fr.json -o ./myPath/ -l en,de,ko,it,es

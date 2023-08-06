@@ -1,0 +1,12 @@
+README.md
+setup.py
+MoguiJiaosheshu/README.md
+MoguiJiaosheshu/__init__.py
+MoguiJiaosheshu/__main__.py
+MoguiJiaosheshu/file.pdf
+MoguiJiaosheshu/index.html
+mogui_jiaosheshu.egg-info/PKG-INFO
+mogui_jiaosheshu.egg-info/SOURCES.txt
+mogui_jiaosheshu.egg-info/dependency_links.txt
+mogui_jiaosheshu.egg-info/entry_points.txt
+mogui_jiaosheshu.egg-info/top_level.txt

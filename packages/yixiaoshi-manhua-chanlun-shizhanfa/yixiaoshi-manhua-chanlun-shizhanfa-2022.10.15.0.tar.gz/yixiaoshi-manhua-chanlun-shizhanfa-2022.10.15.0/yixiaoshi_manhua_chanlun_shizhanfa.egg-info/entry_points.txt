@@ -1,0 +1,4 @@
+[console_scripts]
+YixiaoshiManhuaChanlunShizhanfa = YixiaoshiManhuaChanlunShizhanfa.__main__:main
+yixiaoshi-manhua-chanlun-shizhanfa = YixiaoshiManhuaChanlunShizhanfa.__main__:main
+

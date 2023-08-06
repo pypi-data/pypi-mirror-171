@@ -1,0 +1,8 @@
+.vscode
+smbgym/__pycache__
+mario
+build
+__pycache__
+*.code-workspace
+smbgym.egg-info
+smb_gym.egg-info

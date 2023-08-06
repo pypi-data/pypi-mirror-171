@@ -1,0 +1,5 @@
+from degiro_analytics import DeGiroWrapper
+
+dgw = DeGiroWrapper(True, True)
+
+print(dgw.get_current_portfolio())

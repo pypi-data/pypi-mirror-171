@@ -1,0 +1,6 @@
+credentials.json
+__pycache__
+.ipynb_checkpoints
+.vscode
+.DS_Store
+degiro_analytics/__about__.py

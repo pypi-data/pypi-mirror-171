@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+Tomation.egg-info/PKG-INFO
+Tomation.egg-info/SOURCES.txt
+Tomation.egg-info/dependency_links.txt
+Tomation.egg-info/top_level.txt

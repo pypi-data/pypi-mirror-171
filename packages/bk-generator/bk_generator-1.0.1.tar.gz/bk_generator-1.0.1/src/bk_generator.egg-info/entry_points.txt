@@ -1,0 +1,2 @@
+[console_scripts]
+generate = generate.generate:entry_point

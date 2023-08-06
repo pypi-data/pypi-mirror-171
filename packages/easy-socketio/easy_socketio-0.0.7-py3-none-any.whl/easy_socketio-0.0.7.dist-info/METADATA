@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: easy-socketio
+Version: 0.0.7
+Summary: A simple wrapper around python-socketio that handles a simple que and threading.
+Home-page: https://github.com/tarik56/easy-socketio
+Author: Tarik Gün (tarik56)
+License: MIT license
+Requires-Dist: python-socketio
+Requires-Dist: eventlet
+
+Easy SocketIO
+
+

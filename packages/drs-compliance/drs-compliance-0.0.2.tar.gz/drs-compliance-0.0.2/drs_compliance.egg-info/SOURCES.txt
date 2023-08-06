@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+compliance_suite/constants.py
+compliance_suite/generate_json.py
+compliance_suite/helper.py
+compliance_suite/report.py
+compliance_suite/report_runner.py
+drs_compliance.egg-info/PKG-INFO
+drs_compliance.egg-info/SOURCES.txt
+drs_compliance.egg-info/dependency_links.txt
+drs_compliance.egg-info/entry_points.txt
+drs_compliance.egg-info/requires.txt
+drs_compliance.egg-info/top_level.txt

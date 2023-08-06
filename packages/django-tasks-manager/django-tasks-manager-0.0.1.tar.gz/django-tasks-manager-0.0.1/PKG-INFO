@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: django-tasks-manager
+Version: 0.0.1
+Summary: Simple Django & celery Integration
+Home-page: https://github.com/app-generator/django-tasks-manager
+Author: AppSeed.us
+Author-email: support@appseed.us
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Django Tasks Manager
+
+Just a Simple Django & Celery integration.
+
+<br />
+
+## How to use it
+
+<br />
+
+> ðŸ‘‰ **Install the package** via `PIP` 
+
+```bash
+$ pip install django-tasks-manager
+// OR
+$ pip install git+https://github.com/app-generator/django-tasks-manager.git
+```
+
+<br />
+
+> ðŸ‘‰ `Add new routing`
+
+```python
+# core/settings.py
+
+urlpatterns = [
+    ...
+    
+    path("", include("django_tm.urls")),  # <-- New Routes
+
+    ...
+]
+```
+
+<br />
+
+> ðŸ‘‰ Cretae `Scrips & LOGS` directory - The Recomended place is in the root of the project:
+
+```bash
+$ mkdir celery_scripts # Used in Settings -> CELERY_SCRIPTS_DIR
+$ mkdir celery_logs    # Used in Settings -> CELERY_SCRIPTS_DIR
+```
+
+- Make sure the user that executes the app has write permission. 
+- Copy the [sample scripts](./django_tm/celery_scripts) in the scripts directory. 
+- All scripts will be available in the UI, ready to be executed by the manager. 
+
+<br />
+
+> ðŸ‘‰ `Update Configuration`: Include the new APPS
+
+```python
+INSTALLED_APPS = [
+    ...                  
+    'django_tm',              # Django Tasks Manager   # <-- NEW
+    'django_celery_results',  # Django Celery Results  # <-- NEW
+]
+```
+
+<br />
+
+> ðŸ‘‰ `Update Configuration`: Include the new templates 
+
+```python
+TEMPLATE_DIR_TASKS = os.path.join(BASE_DIR, "django_tm/templates")     # <-- NEW
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',   
+        'DIRS': [TEMPLATE_DIR, TEMPLATE_DIR_TASKS],                    # <-- Updated
+        'APP_DIRS': True,
+    },
+]
+```
+
+<br />
+
+> ðŸ‘‰ `Update Configuration`: New **CELERY_** Section
+
+```python
+
+#############################################################
+# Celery configurations
+# https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
+
+# Working Directories required write permission
+CELERY_SCRIPTS_DIR        = os.path.join(BASE_DIR, "celery_scripts" )
+CELERY_LOGS_DIR           = os.path.join(BASE_DIR, "celery_logs"    )
+
+CELERY_BROKER_URL         = os.environ.get("CELERY_BROKER", "redis://localhost:6379")
+CELERY_RESULT_BACKEND     = os.environ.get("CELERY_BROKER", "redis://localhost:6379")
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT    = 30 * 60
+CELERY_CACHE_BACKEND      = "django-cache"
+CELERY_RESULT_BACKEND     = "django-db"
+CELERY_RESULT_EXTENDED    = True
+CELERY_RESULT_EXPIRES     = 60*60*24*30 # Results expire after 1 month
+CELERY_ACCEPT_CONTENT     = ["json"]
+CELERY_TASK_SERIALIZER    = 'json'
+CELERY_RESULT_SERIALIZER  = 'json'
+
+#############################################################
+#############################################################
+
+```
+
+<br />
+
+> ðŸ‘‰ `Start the App`
+
+```bash
+$ # Set up the database
+$ python manage.py makemigrations
+$ python manage.py migrate
+$
+$ # Create the superuser
+$ python manage.py createsuperuser
+$
+$ # Start the application (development mode)
+$ python manage.py runserver # default port 8000
+```
+
+Access the `Tasks` page: `http://127.0.0.1:8000/tasks`
+
+<br />
+
+> ðŸ‘‰ Start the Celery Manager  (another terminal)
+
+> Note: `Redis` server is expected on port `6379` (default)
+
+```bash
+$ celery --app=django_tm.celery.app worker --loglevel=info 
+``` 
+
+<br />
+
+## Screenshots
+
+@Todo
+
+<br />
+
+---
+Django Tasks Manager - Open-source library provided by **[AppSeed](https://appseed.us/)**
+
+

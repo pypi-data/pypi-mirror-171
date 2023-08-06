@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: temperate
+Version: 0.0.1
+Summary: Central heating schedule generator
+Author: James Addison <jay@jp-hosting.net>
+License: AGPL-3.0-or-later
+Project-URL: Homepage, https://pypi.org/project/temperate/
+Project-URL: Source, https://github.com/jayaddison/temperate.git/
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nestedtext
+
+# temperate
+
+`temperate` is a software tool to generate home heating schedules from simple text rule files.
+
+## Usage
+
+```sh
+$ temperate examples/home.nt --config examples/home-wiser.cfg
+```

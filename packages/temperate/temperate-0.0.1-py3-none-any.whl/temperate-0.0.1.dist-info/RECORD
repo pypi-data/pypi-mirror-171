@@ -1,0 +1,10 @@
+temperate/__init__.py,sha256=G6gLKfnnIQU4BQk774VJ6NivwkEM_SG_jg5DbsuVQSU,4865
+temperate/cli.py,sha256=jmEefDJftdPyxkESPhn36Diyuh5CtrhtqfbqXyyElW4,1455
+temperate/utils.py,sha256=bu3Wj9O2WExWSFDPaScs57Yx2sQ8ld6aRr9W-JcFEKY,263
+temperate/wiser.py,sha256=NTWCyRhJAkONObki4cdf3PM7eAJ9XoWQJ85D11oi9Cs,2570
+temperate-0.0.1.dist-info/LICENSE,sha256=hSdqu5PWeCqb0JvRx5LPMJwO1Kbe42Og-fO5YcS-ASg,32337
+temperate-0.0.1.dist-info/METADATA,sha256=0plbE8A1jnB5G7CJElh-IiGSzYVMELcgS5XE4OqNZBo,667
+temperate-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+temperate-0.0.1.dist-info/entry_points.txt,sha256=HXgicv1LZwhvKRDCIwJFw22NFWX-131OELL9WOzC4fI,49
+temperate-0.0.1.dist-info/top_level.txt,sha256=PH9pXgGPOLXgux6G5ZubMZRvG3TPbA_xTC0EaFxfMXY,10
+temperate-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+meshtaichi_patcher_core.cpython-39-x86_64-linux-gnu.so,sha256=pEUPpK2phS6B4DjDS9SEem-ksxqNh69br2M2GEcsPGg,315000
+meshtaichi_patcher/__init__.py,sha256=FtIVsHJGHi_M0CS6UFbnz_dk5_sqqQq7XgxYCD1kD6o,5342
+meshtaichi_patcher/cluster.py,sha256=_buaWvcpGppQcKN4xR4puTrae8dYp3QUQLWwo8wialc,526
+meshtaichi_patcher/meshpatcher.py,sha256=a4ZEDKjsKptXCMgLNEdikzeSjzM4Z7zvqt2_4WDvK8k,7954
+meshtaichi_patcher/relation.py,sha256=suAfm9UwHgMdPeXXBcukO9DpJK5upaB0dV8TWUckVWk,1785
+meshtaichi_patcher-0.0.13.dist-info/LICENSE,sha256=SBNiCMUPOkN74CrKaGEJk1CNXzPemZ76Qsm106kwI1E,2182
+meshtaichi_patcher-0.0.13.dist-info/METADATA,sha256=Fo30mGcPCC9nNkUV2UhddA4MggPP0afXckT76Vk5754,578
+meshtaichi_patcher-0.0.13.dist-info/WHEEL,sha256=cnz_P0hW_GKaWEdxDUDQSKc3ddFaXRHjnb6mlpZ0Na8,112
+meshtaichi_patcher-0.0.13.dist-info/top_level.txt,sha256=_NB2Xxy7-jJ7nhawhsfRJM6AGd_hYl0FsbAxIVZEGaI,43
+meshtaichi_patcher-0.0.13.dist-info/RECORD,,

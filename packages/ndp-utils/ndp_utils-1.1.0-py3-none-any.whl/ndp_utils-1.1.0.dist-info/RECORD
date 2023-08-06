@@ -1,0 +1,8 @@
+ndp_utils/__init__.py,sha256=Dqme6NyZ1B-dCoZJyBqtbogs3WVAzlTz2R4tswMLJCI,76
+ndp_utils/env_utils.py,sha256=eCNP3B8QuRXatzRxbOIRuCFV7v5ICv1GW8d8L-7pDc0,1412
+ndp_utils/gitlab_utils.py,sha256=l9u1IyHmJBK0W66MxrVbvSeL_zqT4zWJtw2jfRuS7qk,27286
+ndp_utils/odoo_utils.py,sha256=fjxoigwYAbfkqS2fjKzlHshTQYjMd_foMoZVttH4k9A,2010
+ndp_utils-1.1.0.dist-info/METADATA,sha256=PfZCXyF8bfUg2ALj63KDC4US5ut7nJ6xY3FMyLhvIYo,863
+ndp_utils-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ndp_utils-1.1.0.dist-info/top_level.txt,sha256=5lcRtWp3h3jNnce3cz_j2G_8FHfRjxoMWCZVvZJarRk,10
+ndp_utils-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+sympy_addons/__init__.py,sha256=Z52kFXLkbpd0GxeDaRlyR-6xfwqc3T7y-A_q2ah_Bcw,82
+sympy_addons/graphviz.py,sha256=4DzTN60dVoVE-wmxl-jC0zW6wjsJv52F0ukr53sJ5p8,2847
+sympy_addons/query.py,sha256=NeavrMheu6oWknlIC9Wuw9y6Gih5NsxFzjArsdBxO1g,7892
+sympy_addons/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sympy_addons/tests/test_query.py,sha256=7qbu8JwDvenHupXSteSHtpi-uHLm_77O6aAcT4mLOm0,3023
+sympy_addons-0.0.2.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+sympy_addons-0.0.2.dist-info/METADATA,sha256=v4s_AWybfruDgVuKV1_wF9a612-x-6heIkQG52BHCK8,3629
+sympy_addons-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sympy_addons-0.0.2.dist-info/top_level.txt,sha256=iSXG4wOGMewtULJl6uIZLGLGIHSpsCP6qMIoZ8WFDqQ,13
+sympy_addons-0.0.2.dist-info/RECORD,,

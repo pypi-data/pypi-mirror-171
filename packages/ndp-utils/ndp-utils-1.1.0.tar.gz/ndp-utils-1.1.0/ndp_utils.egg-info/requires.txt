@@ -1,0 +1,4 @@
+python-gitlab<4,>=3.10.0
+
+[:python_version <= "3"]
+typing==3.10.0.0

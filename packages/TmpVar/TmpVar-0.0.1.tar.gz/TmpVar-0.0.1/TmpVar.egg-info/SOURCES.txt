@@ -1,0 +1,8 @@
+README.md
+setup.py
+TmpVar/__init__.py
+TmpVar/main.py
+TmpVar.egg-info/PKG-INFO
+TmpVar.egg-info/SOURCES.txt
+TmpVar.egg-info/dependency_links.txt
+TmpVar.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+primosaOAVC2.py
+setup.py
+primosaOAVC2.egg-info/PKG-INFO
+primosaOAVC2.egg-info/SOURCES.txt
+primosaOAVC2.egg-info/dependency_links.txt
+primosaOAVC2.egg-info/top_level.txt

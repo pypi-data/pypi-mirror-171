@@ -1,0 +1,4 @@
+[console_scripts]
+XiguandeLiliang = XiguandeLiliang.__main__:main
+xiguande-liliang = XiguandeLiliang.__main__:main
+

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pypipr
+Version: 0.1.3
+Summary: The Python Package Index Project
+Author: ufiapjj
+Author-email: ufiapjj@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# About
+The Python Package Index Project (pypipr)
+

@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pypipr"
+version = "0.1.3"
+description = "The Python Package Index Project"
+authors = ["ufiapjj <ufiapjj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: prepr
+Version: 0.0.1
+Summary: A system for creating pretty class representations
+Author-email: "Tanner B. Corcoran" <tannerbcorcoran@gmail.com>
+Project-URL: Homepage, https://github.com/tanrbobanr/prepr
+Project-URL: Documentation, https://github.com/tanrbobanr/prepr/blob/main/README.md
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A highly customizible system that allows your class representations (e.g. in `__repr__`), when printed in the terminal, to go from looking like this:
+
+![image of what a normal object representation looks like when printed](https://raw.githubusercontent.com/tanrbobanr/prepr/main/docs/no_prepr.png)
+
+to this:
+
+![image of example instance printed with the rgbfull colorspace](https://raw.githubusercontent.com/tanrbobanr/prepr/main/docs/default_settings.png)
+
+Learn more about how to use `prepr` by taking a look at the [documentation here](https://github.com/tanrbobanr/prepr/blob/main/README.md)!

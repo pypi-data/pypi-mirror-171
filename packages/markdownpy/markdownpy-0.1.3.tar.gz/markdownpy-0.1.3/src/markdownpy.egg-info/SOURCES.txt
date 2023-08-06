@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/markdownpy/markdownpy.py
+src/markdownpy.egg-info/PKG-INFO
+src/markdownpy.egg-info/SOURCES.txt
+src/markdownpy.egg-info/dependency_links.txt
+src/markdownpy.egg-info/top_level.txt

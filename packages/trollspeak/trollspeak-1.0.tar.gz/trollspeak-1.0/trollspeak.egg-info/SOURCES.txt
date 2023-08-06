@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+trollspeak/__init__.py
+trollspeak/troll.py
+trollspeak.egg-info/PKG-INFO
+trollspeak.egg-info/SOURCES.txt
+trollspeak.egg-info/dependency_links.txt
+trollspeak.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: trollspeak
+Version: 1.0
+Summary: Makes your text funny LiKe ThiS
+Author: DogeDevYT
+Author-email: scrimp2006@gmail.com
+Keywords: troll,funny,strings
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+Changes a string from a regular string such as "fortnite tyler ninja fortnite blevins" to a funny one like "ForTniTe TyLeR NinjA fOrtNite BleViNs"

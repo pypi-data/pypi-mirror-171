@@ -1,0 +1,10 @@
+tabulario/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+tabulario/cli.py,sha256=LSk85dkevc9Bjx-UtZiaR1OHKnvuAusf8cmrDzk6YTA,3804
+tabulario/exceptions.py,sha256=Srux-BY7YY4vFfo_5lmE05RrQLt6SBNRuUzJhk8jhN0,871
+tabulario/oauth.py,sha256=IQkwEHeggHeOv81tmBalMXexEPpraqm0qlvjExBCZ6U,5184
+tabulario/util.py,sha256=oev3lsGSRhd3LQm82GVvWMSi073O1TxL6sRCOCWf7zg,1004
+tabulario-0.1.0.dist-info/entry_points.txt,sha256=WOsKpAl7YQxkp2EglhgVLd_Sx3-XkfAfB4QxRkPLU1U,41
+tabulario-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tabulario-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tabulario-0.1.0.dist-info/METADATA,sha256=CFe0avf6YdKDSo_6ix2f6INM71jbdm9X7YIeevo9cuA,6791
+tabulario-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+FeibonaqiJiaoyifa = FeibonaqiJiaoyifa.__main__:main
+feibonaqi-jiaoyifa = FeibonaqiJiaoyifa.__main__:main
+

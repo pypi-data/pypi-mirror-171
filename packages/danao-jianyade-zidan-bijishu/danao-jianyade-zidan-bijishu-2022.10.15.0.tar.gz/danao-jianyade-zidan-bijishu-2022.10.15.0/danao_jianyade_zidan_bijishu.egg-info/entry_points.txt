@@ -1,0 +1,4 @@
+[console_scripts]
+DanaoJianyadeZidanBijishu = DanaoJianyadeZidanBijishu.__main__:main
+danao-jianyade-zidan-bijishu = DanaoJianyadeZidanBijishu.__main__:main
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dumbdumbgood/__init__.py
+dumbdumbgood/main.py
+dumbdumbgood.egg-info/PKG-INFO
+dumbdumbgood.egg-info/SOURCES.txt
+dumbdumbgood.egg-info/dependency_links.txt
+dumbdumbgood.egg-info/top_level.txt

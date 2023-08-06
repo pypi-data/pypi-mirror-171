@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShashenSanshi/README.md
+ShashenSanshi/__init__.py
+ShashenSanshi/__main__.py
+ShashenSanshi/file.pdf
+ShashenSanshi/index.html
+shashen_sanshi.egg-info/PKG-INFO
+shashen_sanshi.egg-info/SOURCES.txt
+shashen_sanshi.egg-info/dependency_links.txt
+shashen_sanshi.egg-info/entry_points.txt
+shashen_sanshi.egg-info/top_level.txt

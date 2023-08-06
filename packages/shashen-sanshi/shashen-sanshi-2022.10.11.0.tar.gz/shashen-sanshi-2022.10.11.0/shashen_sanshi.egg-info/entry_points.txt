@@ -1,0 +1,4 @@
+[console_scripts]
+ShashenSanshi = ShashenSanshi.__main__:main
+shashen-sanshi = ShashenSanshi.__main__:main
+

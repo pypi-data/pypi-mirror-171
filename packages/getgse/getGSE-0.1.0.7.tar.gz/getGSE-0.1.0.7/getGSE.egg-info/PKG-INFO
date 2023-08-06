@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: getGSE
+Version: 0.1.0.7
+Home-page: https://github.com/Alopaxalgo/getGSE
+Author: William Jeong
+Author-email: wjd5480@gmail.com
+License: MIT
+Keywords: getGSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE

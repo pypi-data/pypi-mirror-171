@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+aacRepair.egg-info/PKG-INFO
+aacRepair.egg-info/SOURCES.txt
+aacRepair.egg-info/dependency_links.txt
+aacRepair.egg-info/requires.txt
+aacRepair.egg-info/top_level.txt
+aacRepair.egg-info/zip-safe
+aacrepair/__init__.py
+aacrepair/aac_repair.py

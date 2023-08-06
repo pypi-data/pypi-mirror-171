@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_inspire.egg-info/PKG-INFO
+django_inspire.egg-info/SOURCES.txt
+django_inspire.egg-info/dependency_links.txt
+django_inspire.egg-info/requires.txt
+django_inspire.egg-info/top_level.txt
+inspire/__init__.py
+inspire/apps.py
+inspire/management/__init__.py
+inspire/management/commands/__init__.py
+inspire/management/commands/inspire.py

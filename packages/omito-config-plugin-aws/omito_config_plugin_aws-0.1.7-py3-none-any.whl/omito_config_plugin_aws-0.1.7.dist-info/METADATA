@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: omito-config-plugin-aws
+Version: 0.1.7
+Summary: 
+Author: Barath Kumar
+Author-email: barath@mergedup.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3 (>=1.24.89,<2.0.0)
+Requires-Dist: omito-config-core (>=0.1.5,<0.2.0)

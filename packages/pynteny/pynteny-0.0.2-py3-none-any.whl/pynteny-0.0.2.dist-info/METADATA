@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pynteny
+Version: 0.0.2
+Summary: Multiple HMM - search via synteny structures in Python
+Home-page: http://github.com/robaina/Pynteny
+Download-URL: http://github.com/robaina/Pynteny
+Author: Semidán Robaina Estévez
+Author-email: srobaina@ull.edu.es
+Maintainer: Semidán Robaina Estévez
+Maintainer-email: srobaina@gmail.com
+License: Creative Commons Attribution 4.0 International
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython
+Requires-Dist: pyfastx
+Requires-Dist: pandas
+Requires-Dist: wget
+
+Multiple HMM - search via synteny structures in Python

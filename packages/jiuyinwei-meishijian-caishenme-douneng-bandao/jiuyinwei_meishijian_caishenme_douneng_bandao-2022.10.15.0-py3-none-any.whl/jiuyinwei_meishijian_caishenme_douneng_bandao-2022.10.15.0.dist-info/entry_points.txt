@@ -1,0 +1,4 @@
+[console_scripts]
+JiuyinweiMeishijianCaishenmeDounengBandao = JiuyinweiMeishijianCaishenmeDounengBandao.__main__:main
+jiuyinwei-meishijian-caishenme-douneng-bandao = JiuyinweiMeishijianCaishenmeDounengBandao.__main__:main
+

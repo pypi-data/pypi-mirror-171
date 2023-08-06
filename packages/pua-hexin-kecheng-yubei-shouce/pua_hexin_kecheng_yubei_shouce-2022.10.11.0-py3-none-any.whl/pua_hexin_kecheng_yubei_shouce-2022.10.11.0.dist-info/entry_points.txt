@@ -1,0 +1,4 @@
+[console_scripts]
+PuaHexinKechengYubeiShouce = PuaHexinKechengYubeiShouce.__main__:main
+pua-hexin-kecheng-yubei-shouce = PuaHexinKechengYubeiShouce.__main__:main
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/fina/__init__.py
+src/fina/example.py
+src/fina.egg-info/PKG-INFO
+src/fina.egg-info/SOURCES.txt
+src/fina.egg-info/dependency_links.txt
+src/fina.egg-info/top_level.txt

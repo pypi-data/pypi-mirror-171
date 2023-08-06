@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fina"
+version = "0.0.1"
+authors = [
+  { name="Jaehyun Shin", email="keepcosmos@gmail.com" },
+]
+description = "Python package to build financial data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/keepcosmos/fina"
+"Bug Tracker" = "https://github.com/keepcosmos/fina/issues"

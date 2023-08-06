@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gosundpy
+Version: 0.2.0
+Summary: Python API for controling Gosund smart devices
+Home-page: https://github.com/purple4reina/gosundpy
+Author: Rey Abolofia
+Author-email: purple4reina@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/purple4reina/gosundpy
+Project-URL: Bug Tracker, https://github.com/purple4reina/gosundpy/issues
+Keywords: gosund,smartlife,tuya,iot,api,sdk,python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7, <4
+License-File: LICENSE

@@ -1,0 +1,4 @@
+[console_scripts]
+RenzhiNannv = RenzhiNannv.__main__:main
+renzhi-nannv = RenzhiNannv.__main__:main
+

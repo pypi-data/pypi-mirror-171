@@ -1,0 +1,14 @@
+.DS_Store,sha256=q4L-wCjCrSmO0aCxbMy29O17y18hQ3T7eM5gwHE_Zb4,6148
+HomoPy/Methods.py,sha256=fW4NJ-pNHGeeBFSpvilnTyJIXNX_J-PUEbgYmIfW_l8,16412
+HomoPy/Mori_Tanaka.py,sha256=CNlcFiYItJrAemNxJEBdPTuioGC2vZ004gTf-KjP-8w,2878
+HomoPy/Stiffness.py,sha256=WwiXqfT56pA5lo3FLFTF_0v3ibQpQRncflGzRzClyKE,5114
+HomoPy/Stiffness_Plot.py,sha256=v7ouXkg8ie4jMuUvysvwqMLQabAB-Os3tqpw05waO4M,9105
+HomoPy/Tensor.py,sha256=9zcQ50_HBCeVXxnkve03gcdS84DE5HL1VhOzqEKukEU,5698
+HomoPy/Tsai_Hill.py,sha256=4j_RTT7UwCK5BqrzVJDxPU9yoTBT12bzT7dOIuHTIXQ,173
+HomoPy/__init__.py,sha256=EIhk351VMB3_Vzm1S-1OSiwSRLxLhnnfibk_UE4BvlE,52
+HomoPy/setup.py,sha256=bwSEcO19zLJb_3ak8r2IlZIdbnIAJhzx5NzYsTFCyYU,676
+homopy-0.1.0.dist-info/LICENCE,sha256=al23KKiL0Sw6cC2gGNcNw2ZeXSoGlCbia_EmMzCKbG0,1071
+homopy-0.1.0.dist-info/METADATA,sha256=rtosm7o5VnX4rfb2ZJrs5dbhdySKBp0R10cJeXquVxU,2865
+homopy-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+homopy-0.1.0.dist-info/top_level.txt,sha256=ShcTe-dIy-rjP5M-PY7E0fgK8Z3rTAfenhJ69wOjQoc,7
+homopy-0.1.0.dist-info/RECORD,,

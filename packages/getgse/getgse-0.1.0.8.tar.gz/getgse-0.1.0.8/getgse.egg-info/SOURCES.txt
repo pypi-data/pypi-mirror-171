@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+getgse/__init__.py
+getgse/getgse.py
+getgse.egg-info/PKG-INFO
+getgse.egg-info/SOURCES.txt
+getgse.egg-info/dependency_links.txt
+getgse.egg-info/entry_points.txt
+getgse.egg-info/requires.txt
+getgse.egg-info/top_level.txt
+tests/__init__.py
+tests/test_getgse.py

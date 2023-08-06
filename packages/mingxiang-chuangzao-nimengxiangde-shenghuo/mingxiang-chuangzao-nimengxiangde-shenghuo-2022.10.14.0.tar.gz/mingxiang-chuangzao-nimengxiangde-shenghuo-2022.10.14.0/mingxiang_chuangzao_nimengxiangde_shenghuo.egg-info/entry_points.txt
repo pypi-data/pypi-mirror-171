@@ -1,0 +1,4 @@
+[console_scripts]
+MingxiangChuangzaoNimengxiangdeShenghuo = MingxiangChuangzaoNimengxiangdeShenghuo.__main__:main
+mingxiang-chuangzao-nimengxiangde-shenghuo = MingxiangChuangzaoNimengxiangdeShenghuo.__main__:main
+

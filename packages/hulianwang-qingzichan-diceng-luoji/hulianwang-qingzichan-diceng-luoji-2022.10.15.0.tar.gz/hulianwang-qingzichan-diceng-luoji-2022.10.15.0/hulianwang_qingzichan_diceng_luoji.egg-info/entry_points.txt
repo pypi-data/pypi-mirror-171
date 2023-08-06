@@ -1,0 +1,4 @@
+[console_scripts]
+HulianwangQingzichanDicengLuoji = HulianwangQingzichanDicengLuoji.__main__:main
+hulianwang-qingzichan-diceng-luoji = HulianwangQingzichanDicengLuoji.__main__:main
+

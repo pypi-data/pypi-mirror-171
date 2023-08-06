@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "zcmds"
+description = "Cross platform(ish) productivity commands written in python."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["zcmds"]
+license = { text = "BSD 3-Clause License" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = [
+    "ytclip",
+    "pdf2image",
+    "ffmpeg-normalize",
+    "appdirs",
+    "PyQt6==6.3.1",
+    "beepy",
+    "jsoncomment",
+    #"requests", 'importlib-metadata; python_version<"3.8"'
+]
+#dynamic = ["version"]
+version = "1.1.18"
+
+
+[tool.poetry]
+name = "zcmds"
+version = "1.1.18"
+description = "Cross platform(ish) productivity commands written in python."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"

@@ -1,0 +1,4 @@
+[console_scripts]
+GushiZhishen = GushiZhishen.__main__:main
+gushi-zhishen = GushiZhishen.__main__:main
+

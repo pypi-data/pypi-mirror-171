@@ -1,0 +1,4 @@
+confluent-kafka>=1.7.0
+m-caching>=0.1.8
+m-singleton>=0.3
+requests>=2.25.1

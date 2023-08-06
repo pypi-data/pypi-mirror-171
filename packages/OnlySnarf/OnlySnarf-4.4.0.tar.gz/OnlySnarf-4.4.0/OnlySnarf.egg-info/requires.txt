@@ -1,0 +1,6 @@
+chromedriver-binary
+ffmpeg
+pillow
+pyinquirer
+wget
+selenium

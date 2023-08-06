@@ -1,0 +1,7 @@
+Parsley>=1.2
+Twisted>=15.4
+
+[test]
+
+[test:python_version < "3.0"]
+mock

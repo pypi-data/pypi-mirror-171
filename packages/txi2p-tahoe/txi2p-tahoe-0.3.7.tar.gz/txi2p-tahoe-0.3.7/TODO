@@ -1,0 +1,23 @@
+- Use Twisted for logging/debug
+
+- Handle more errors properly
+
+- Only run BOB tunnel creation Protocol for first Protocol created by the
+  Factory, shortcut the process for subsequent Protocols.
+  - Does this matter? Will a Factory ever have multiple Protocols at once?
+  - For clients, the tunnel dies with the first Protocol
+
+- If a tunnel exists and its settings match what the tunnel creator wants,
+  don't stop and start the tunnel
+  - Important for a server tunnel used multiple times by client endpoints,
+    first client will stop the tunnel and add inport, later clients should
+    not (unless the inport is explicitly specified by the client tunnel and
+    does not match)
+
+- Examine design, decide where I2P tunnels should be created and removed
+  - Client and server tunnels are created by the endpoint
+    - Once the tunnel is created, the real Protocol/ListeningPort is created
+      and returned via a Deferred callback chain
+    - Should the tunnels be created by the Protocol/ListeningPort instead?
+  - Client tunnels are removed by I2PClientTunnelProtocol.connectionLost()
+  - Server tunnels are removed by I2PListeningPort.stopListening()

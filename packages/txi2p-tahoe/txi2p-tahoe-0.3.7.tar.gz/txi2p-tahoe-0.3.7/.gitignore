@@ -1,0 +1,17 @@
+*.pyc
+
+*.swp
+*~
+
+.coverage
+.eggs/
+coverage/
+dropin.cache
+env/
+_trial_temp/
+
+build/
+dist/
+docs/_build
+txi2p.egg-info/
+_version.py

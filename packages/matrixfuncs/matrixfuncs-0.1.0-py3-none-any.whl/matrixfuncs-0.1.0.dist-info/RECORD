@@ -1,0 +1,14 @@
+matrixfuncs/__init__.py,sha256=h2j28KQzwvpL6hwuZI7iDcmYr1JD74NHADWjkrQXtd8,121
+matrixfuncs/_abstr_krylov.py,sha256=NumkzP8Hu6uGvM8XgrxVzK1cnwQwXe_0IGsY2IVLfdE,11033
+matrixfuncs/_func.py,sha256=BckAeQ3q3r553Rkk0hu69qcPI1AdgsK1EWaKUoUTF4s,4087
+matrixfuncs/_krylov.py,sha256=WKVsPSkUBkn690YNeXyFTGi_6igSyFec_8zDAj5DM2A,7565
+matrixfuncs/_sym_krylov.py,sha256=A-cP5_v2DKL3jaVIHk5TK65jeawRgbFZUJ1iClwIdD4,11782
+matrixfuncs/_version.py,sha256=6phs_teiMFXlYjRZHHJJHElOwXq2XLUA2bDPY9cA4bQ,176
+matrixfuncs/utils/__init__.py,sha256=oVkjTwYgbQC4S61JzCCLbZJM6IfAgQZ3dYjDBBgUr-g,94
+matrixfuncs/utils/_permutation.py,sha256=hvwsYLBTr3owmRsr1DBnVU_ZldSqrXCVv9xoU2qoJ2g,5415
+matrixfuncs/utils/_sympy.py,sha256=EAZ1KO_sda6MIl0bRva944_fNRil1qVh2tcrEA-pr4s,1961
+matrixfuncs-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+matrixfuncs-0.1.0.dist-info/METADATA,sha256=u3YS_fuO10FO3XCVbZe5iIpxFD7M6bWH078MAvRzff0,3242
+matrixfuncs-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matrixfuncs-0.1.0.dist-info/top_level.txt,sha256=jZXZ56aVla8JqRUPTXFLHGcAsokYzVhrcs4OILUK8kQ,12
+matrixfuncs-0.1.0.dist-info/RECORD,,

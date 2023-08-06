@@ -1,0 +1,4 @@
+[console_scripts]
+WanmeiZhuyiEshaXiaolv = WanmeiZhuyiEshaXiaolv.__main__:main
+wanmei-zhuyi-esha-xiaolv = WanmeiZhuyiEshaXiaolv.__main__:main
+

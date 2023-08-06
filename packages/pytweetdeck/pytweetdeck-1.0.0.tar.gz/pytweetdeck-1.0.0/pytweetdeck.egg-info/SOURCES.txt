@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pytweetdeck/__init__.py
+pytweetdeck/api.py
+pytweetdeck.egg-info/PKG-INFO
+pytweetdeck.egg-info/SOURCES.txt
+pytweetdeck.egg-info/dependency_links.txt
+pytweetdeck.egg-info/requires.txt
+pytweetdeck.egg-info/top_level.txt

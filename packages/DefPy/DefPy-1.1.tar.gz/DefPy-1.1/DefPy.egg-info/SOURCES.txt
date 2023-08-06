@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+DefPy/DefPy.py
+DefPy/__init__.py
+DefPy.egg-info/PKG-INFO
+DefPy.egg-info/SOURCES.txt
+DefPy.egg-info/dependency_links.txt
+DefPy.egg-info/top_level.txt

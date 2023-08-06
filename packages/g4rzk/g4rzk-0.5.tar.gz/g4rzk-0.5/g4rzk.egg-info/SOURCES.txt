@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+g4rzk/color.py
+g4rzk/datetime.py
+g4rzk/module.py
+g4rzk/useragent.py
+g4rzk.egg-info/PKG-INFO
+g4rzk.egg-info/SOURCES.txt
+g4rzk.egg-info/dependency_links.txt
+g4rzk.egg-info/requires.txt
+g4rzk.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+gh-py=gh_py.cli:run
+

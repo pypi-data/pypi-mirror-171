@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: functions-by-cloudproject
+Version: 0.3.0
+Summary: This is our test project
+Author: Cloud
+Author-email: cloudproject092022@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instructions
+
+#### This is our test project
+#### Pleae install this package
+```
+pip install functions-by-cloudproject
+```
+
+#### You can alss install older packages
+```
+pip install functions-by-cloudproject==VERSION_NUMBER
+```

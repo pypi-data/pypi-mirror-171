@@ -1,0 +1,4 @@
+[console_scripts]
+ChanzhongshuochanJishuLilunTujie = ChanzhongshuochanJishuLilunTujie.__main__:main
+chanzhongshuochan-jishu-lilun-tujie = ChanzhongshuochanJishuLilunTujie.__main__:main
+

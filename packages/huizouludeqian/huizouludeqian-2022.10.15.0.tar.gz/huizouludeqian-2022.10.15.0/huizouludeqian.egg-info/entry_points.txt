@@ -1,0 +1,4 @@
+[console_scripts]
+Huizouludeqian = Huizouludeqian.__main__:main
+huizouludeqian = Huizouludeqian.__main__:main
+

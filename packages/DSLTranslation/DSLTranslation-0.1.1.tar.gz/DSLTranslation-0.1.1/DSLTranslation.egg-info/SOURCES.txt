@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+DSLTranslation/DSLTranslation.py
+DSLTranslation/__init__.py
+DSLTranslation.egg-info/PKG-INFO
+DSLTranslation.egg-info/SOURCES.txt
+DSLTranslation.egg-info/dependency_links.txt
+DSLTranslation.egg-info/requires.txt
+DSLTranslation.egg-info/top_level.txt

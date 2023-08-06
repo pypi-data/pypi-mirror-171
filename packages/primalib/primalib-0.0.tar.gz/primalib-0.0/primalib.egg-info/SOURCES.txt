@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+primalib.egg-info/PKG-INFO
+primalib.egg-info/SOURCES.txt
+primalib.egg-info/dependency_links.txt
+primalib.egg-info/not-zip-safe
+primalib.egg-info/requires.txt
+primalib.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+brainmaps/__init__.py
+brainmaps/client.py
+brainmaps.egg-info/PKG-INFO
+brainmaps.egg-info/SOURCES.txt
+brainmaps.egg-info/dependency_links.txt
+brainmaps.egg-info/entry_points.txt
+brainmaps.egg-info/requires.txt
+brainmaps.egg-info/top_level.txt

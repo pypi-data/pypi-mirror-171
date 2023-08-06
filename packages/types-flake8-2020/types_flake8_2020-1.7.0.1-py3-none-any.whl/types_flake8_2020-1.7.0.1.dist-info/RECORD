@@ -1,0 +1,6 @@
+flake8_2020-stubs/METADATA.toml,sha256=5ZvleyqcPvQh8SwoVSJTRiQNRxe7D0MxGEa3cWkoSbU,63
+flake8_2020-stubs/__init__.pyi,sha256=GyPr2y6xOzb0k5U2aL1YuWdM_OPVkVj9Eq387y5sf70,682
+types_flake8_2020-1.7.0.1.dist-info/METADATA,sha256=Brt94i80dUJK07agbM4SXDfUSxzTCf6k4AAiCaBl4gQ,1204
+types_flake8_2020-1.7.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_flake8_2020-1.7.0.1.dist-info/top_level.txt,sha256=JUnqAR89179LDoHkLmpQ_UmqYLU0kxBkQng38kNPFQY,18
+types_flake8_2020-1.7.0.1.dist-info/RECORD,,

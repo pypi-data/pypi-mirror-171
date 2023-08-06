@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: harper
+Version: 0.4.4
+Summary: Audio and music tools for python
+Author: Jim U
+Author-email: jim.ulbright@tutanota.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: graph
+Provides-Extra: sound
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0); extra == "graph"
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pyalsaaudio (>=0.9.0,<0.10.0); extra == "sound"

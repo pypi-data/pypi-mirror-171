@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pyutiltools.egg-info/PKG-INFO
+src/pyutiltools.egg-info/SOURCES.txt
+src/pyutiltools.egg-info/dependency_links.txt
+src/pyutiltools.egg-info/requires.txt
+src/pyutiltools.egg-info/top_level.txt

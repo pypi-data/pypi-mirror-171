@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "functions-by-vladalt"
+version = "0.1.0"
+description = "This is our testproject"
+authors = ["Vladyslav Altyok <vladyslav.altyok@gmail.com>"]
+readme = "README.md"
+packages = [{include = "functions_by_vladalt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

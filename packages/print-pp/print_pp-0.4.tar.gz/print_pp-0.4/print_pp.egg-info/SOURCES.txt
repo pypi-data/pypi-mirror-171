@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+print_pp/__init__.py
+print_pp/logging.py
+print_pp.egg-info/PKG-INFO
+print_pp.egg-info/SOURCES.txt
+print_pp.egg-info/dependency_links.txt
+print_pp.egg-info/top_level.txt

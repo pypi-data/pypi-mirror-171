@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/lazyfoodie/__init__.py
+src/lazyfoodie/example.py
+src/lazyfoodie.egg-info/PKG-INFO
+src/lazyfoodie.egg-info/SOURCES.txt
+src/lazyfoodie.egg-info/dependency_links.txt
+src/lazyfoodie.egg-info/top_level.txt

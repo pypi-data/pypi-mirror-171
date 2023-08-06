@@ -1,0 +1,51 @@
+[build-system]
+requires = [
+    "setuptools==65.4.1",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "argocd",
+    "argocd.services"
+]
+
+[project]
+name = "argocd"
+version = "0.3.0"
+authors = [
+    { name = "Mayank Pathak", email = "onlinejudge95@gmail.com"}
+]
+description = "Python client for ArgoCD"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Other Environment",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+dependencies = [
+    "requests==2.28.1"
+]
+[project.urls]
+"Homepage" = "https://github.com/onlinejudge95/argopy"
+"Bug Tracker" = "https://github.com/onlinejudge95/argopy/issues"
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "*/__init__.py",
+    "*/config.py"
+]
+[tool.coverage.report]
+fail_under = 95.00
+precision = 2
+show_missing = true
+[tool.coverage.html]
+directory = "htmlcov"
+[tool.coverage.xml]
+output = "coverage.xml"

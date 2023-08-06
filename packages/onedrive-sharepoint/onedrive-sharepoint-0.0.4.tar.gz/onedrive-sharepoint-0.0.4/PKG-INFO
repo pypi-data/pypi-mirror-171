@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: onedrive-sharepoint
+Version: 0.0.4
+Summary: Automation of some processes on office365
+Home-page: https://github.com/alphacpc/office356-automate/
+Author: alphacpc
+Author-email: alphacpc <alphacpc@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Automation of some processes on office365
+
+[Github-flavored Markdown](https://github.com/alphacpc/office356-automate/blob/master/readme.md)

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: usgtrck001
+Version: 0.0.10
+Summary: tracking
+Home-page: 
+Author: dz
+Author-email: mintas999@gmail.com
+License: MIT
+Keywords: track
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt

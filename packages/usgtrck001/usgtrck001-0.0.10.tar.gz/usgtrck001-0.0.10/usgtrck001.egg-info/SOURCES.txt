@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+usgtrck001/__init__.py
+usgtrck001.egg-info/PKG-INFO
+usgtrck001.egg-info/SOURCES.txt
+usgtrck001.egg-info/dependency_links.txt
+usgtrck001.egg-info/top_level.txt

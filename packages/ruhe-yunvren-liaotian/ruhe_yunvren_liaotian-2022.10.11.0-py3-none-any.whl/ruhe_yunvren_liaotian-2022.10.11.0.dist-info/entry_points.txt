@@ -1,0 +1,4 @@
+[console_scripts]
+RuheYunvrenLiaotian = RuheYunvrenLiaotian.__main__:main
+ruhe-yunvren-liaotian = RuheYunvrenLiaotian.__main__:main
+

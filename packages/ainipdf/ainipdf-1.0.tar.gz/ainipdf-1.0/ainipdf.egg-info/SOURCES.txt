@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ainipdf.egg-info/PKG-INFO
+ainipdf.egg-info/SOURCES.txt
+ainipdf.egg-info/dependency_links.txt
+ainipdf.egg-info/top_level.txt

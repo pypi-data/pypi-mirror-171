@@ -1,0 +1,66 @@
+{% block content %}
+    <h1>CPU usage statistics</h1>
+
+    {% if system_states %}
+
+    <h2>Total averages</h2>
+    <table width="100%" cellpadding="2" cellspacing="2" rules="all" style="margin-top: 5mm; border: 2px solid #000;">
+      <thead>
+      <tr>
+          <th style="text-align: left;">Min</th>
+          <th style="text-align: left;">Max</th>
+          <th style="text-align: left;">Avg</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>{{ avg.total.min|stringformat:".2f" }} </td>
+            <td>{{ avg.total.max|stringformat:".2f" }}</td>
+            <td>{{ avg.total.avg|stringformat:".2f" }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <h2>TOP {{ top_count }} averages</h2>
+    <table width="100%" cellpadding="2" cellspacing="2" rules="all" style="margin-top: 5mm; border: 2px solid #000;">
+      <thead>
+      <tr>
+          <th style="text-align: left;">Min</th>
+          <th style="text-align: left;">Max</th>
+          <th style="text-align: left;">Avg</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>{{ avg.top.min|stringformat:".2f" }} </td>
+            <td>{{ avg.top.max|stringformat:".2f" }}</td>
+            <td>{{ avg.top.avg|stringformat:".2f" }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <h2>TOP {{ top_count }} records</h2>
+    <table width="100%" cellpadding="2" cellspacing="2" rules="all" style="margin-top: 5mm; border: 2px solid #000;">
+      <thead>
+      <tr>
+          <th style="text-align: left;">Created</th>
+          <th style="text-align: left;">CPU usage</th>
+          <th style="text-align: left;">Source IP address</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for state in system_states %}
+        <tr>
+            <td>{{ state.created }} </td>
+            <td>{{ state.cpu_usage|stringformat:".2f" }}</td>
+            <td>{{ state.source_ip }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p>There are no records in database</p>
+    {% endif %} 
+{% endblock %}

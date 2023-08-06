@@ -1,0 +1,8 @@
+README.rst
+setup.py
+bitbroker_client.egg-info/PKG-INFO
+bitbroker_client.egg-info/SOURCES.txt
+bitbroker_client.egg-info/dependency_links.txt
+bitbroker_client.egg-info/not-zip-safe
+bitbroker_client.egg-info/top_level.txt
+foo/__init__.py

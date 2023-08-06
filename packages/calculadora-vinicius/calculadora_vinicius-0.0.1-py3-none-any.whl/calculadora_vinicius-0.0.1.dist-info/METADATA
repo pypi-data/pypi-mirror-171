@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: calculadora-vinicius
+Version: 0.0.1
+Summary: Calculadora feita para o desafio de projeto DIO
+Home-page: https://github.com/Vinizn90/calculadora
+Author: Vinicius_Noronha
+Author-email: vinizn90@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# calculadora_vinicius
+
+Description.
+The package calculadora_vinicius is used to: - soma - subrtraÃ§Ã£o - divisÃ£o - multiplicaÃ§Ã£o - resto de divisÃ£o
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install calculadora_vinicius
+
+```bash
+pip install calculadora_vinicius
+```
+
+## Author
+
+Vinicius noronha
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+

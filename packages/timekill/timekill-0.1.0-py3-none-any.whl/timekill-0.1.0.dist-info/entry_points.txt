@@ -1,0 +1,3 @@
+[console_scripts]
+timekill=timekill.main:main
+

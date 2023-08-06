@@ -1,0 +1,2 @@
+argeasy==2.0.2
+utokeniz==1.1.1

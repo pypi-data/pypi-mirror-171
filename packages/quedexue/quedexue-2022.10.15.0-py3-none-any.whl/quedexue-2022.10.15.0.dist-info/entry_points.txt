@@ -1,0 +1,4 @@
+[console_scripts]
+Quedexue = Quedexue.__main__:main
+quedexue = Quedexue.__main__:main
+
